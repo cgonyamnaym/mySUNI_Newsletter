@@ -1,0 +1,40 @@
+name: Daily News Crawl
+
+on:
+  schedule:
+    # 매일 한국 시간 오전 6시 (UTC 기준 전날 오후 9시)에 실행
+    - cron: '0 21 * * *'
+  workflow_dispatch: # GitHub 웹에서 수동으로도 실행 가능하도록 설정
+
+jobs:
+  crawl-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Node.js 설정
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # 프로젝트에 맞는 Node.js 버전
+          cache: 'npm'
+
+      - name: 의존성 패키지 설치
+        run: npm install
+
+      - name: 크롤러 실행
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: npm run crawl
+
+      - name: 변경사항 커밋 및 푸시
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add public/data/
+          
+          # 변경된 사항이 있을 때만 커밋
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: 🤖 매일 뉴스 자동 업데이트" && git push)
