@@ -1,0 +1,27 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Toggles & Controls</title>
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  body{margin:0;padding:28px;background:var(--bg-base);display:flex;flex-direction:column;gap:20px}
+  .row{display:flex;gap:24px;align-items:center;flex-wrap:wrap}
+  .lbl{font:500 14px/1 var(--font-sans);color:var(--fg-normal);letter-spacing:.015em}
+  /* toggle */
+  .sw{width:44px;height:26px;background:#DBDCDF;border-radius:9999px;position:relative;transition:background .15s}
+  .sw::after{content:"";position:absolute;top:3px;left:3px;width:20px;height:20px;border-radius:9999px;background:#fff;box-shadow:0 2px 4px rgba(0,0,0,.15);transition:left .15s}
+  .sw.on{background:#0066FF}
+  .sw.on::after{left:21px}
+  /* checkbox */
+  .cb{width:22px;height:22px;border:1.5px solid #C2C4C8;border-radius:6px;background:#fff;display:inline-flex;align-items:center;justify-content:center;color:#fff}
+  .cb.on{background:#0066FF;border-color:#0066FF}
+  /* radio */
+  .rd{width:22px;height:22px;border:1.5px solid #C2C4C8;border-radius:9999px;background:#fff;position:relative}
+  .rd.on{border-color:#0066FF}
+  .rd.on::after{content:"";position:absolute;inset:4px;border-radius:9999px;background:#0066FF}
+</style></head><body>
+  <div class="row"><div class="sw on"></div><span class="lbl">이메일 알림 받기</span>
+    <div class="sw"></div><span class="lbl">SMS 알림</span></div>
+  <div class="row"><div class="cb on"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div><span class="lbl">약관에 동의합니다</span>
+    <div class="cb"></div><span class="lbl">마케팅 정보 수신 (선택)</span></div>
+  <div class="row"><div class="rd on"></div><span class="lbl">정규직</span>
+    <div class="rd"></div><span class="lbl">계약직</span>
+    <div class="rd"></div><span class="lbl">인턴</span></div>
+</body></html>

@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-04",
+  "generatedAt": "2026-04-04T08:30:00.000Z",
+  "articleCount": 4,
+  "articles": [
+    {
+      "id": "91825d13-1504-4089-9478-9c81cd38e15e",
+      "source": "Reuters Energy",
+      "sourceId": "reuters-energy",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미국 FERC, 계통 연계 절차 개혁안 최종 승인 — 재생에너지 접속 가속",
+      "titleOriginal": "FERC approves final rule to reform interconnection process for faster renewable access",
+      "summary": "미국 연방에너지규제위원회(FERC)가 재생에너지 계통 접속 대기 기간을 5년에서 1.5년으로 단축하는 개혁안을 최종 승인했습니다. 전국 약 2,600GW의 계통 접속 신청 적체를 해소하기 위한 조치입니다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-04-04T01:00:00.000Z",
+      "originalUrl": "https://www.reuters.com/business/energy/ferc-interconnection-reform-2026",
+      "collectedAt": "2026-04-04T08:30:00.000Z"
+    },
+    {
+      "id": "7eee1b63-1499-48ef-ad7f-85b538e89b1c",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "국내 ESS 누적 설치 용량 15GWh 돌파 — 전력망 안정화 핵심 축",
+      "titleOriginal": "South Korea ESS cumulative capacity surpasses 15GWh milestone",
+      "summary": "한국의 에너지저장장치(ESS) 누적 설치 용량이 15GWh를 넘어섰습니다. 재생에너지 출력 변동성 완충과 피크 저감 역할이 확대되면서 산업용·유틸리티용 대형 ESS 발주가 활발합니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-04T02:13:00.000Z",
+      "originalUrl": "https://www.energy-storage.news/2026/04/04/south-korea-ess-15gwh",
+      "collectedAt": "2026-04-04T08:30:00.000Z"
+    },
+    {
+      "id": "3e1e266a-c0c8-4c9d-9d73-b5ea7002fc45",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "RE100 이행 인증 절차 간소화 — 산업부, 제3자 PPA 확대 방침",
+      "titleOriginal": null,
+      "summary": "산업부가 기업 RE100 이행을 위한 제3자 전력구매계약(PPA) 체결 절차를 대폭 간소화하는 방안을 발표했습니다. 재생에너지 공급 인증서(REC) 발급 기간도 현행 30일에서 5일로 단축됩니다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-04-04T03:26:00.000Z",
+      "originalUrl": "https://www.e2news.com/news/260404001",
+      "collectedAt": "2026-04-04T08:30:00.000Z"
+    },
+    {
+      "id": "65b43de9-f89d-41c8-82bb-3681ffc18168",
+      "source": "BloombergNEF",
+      "sourceId": "bnef",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "아시아 전력 스토리지 투자 2025년 450억 달러 — 한국·중국·일본 3강 구도",
+      "titleOriginal": "Asia power storage investment reaches $45B in 2025, led by South Korea, China and Japan",
+      "summary": "블룸버그NEF에 따르면 2025년 아시아 전력 저장장치 투자 규모가 450억 달러에 달했습니다. 한국은 삼성SDI·LG에너지솔루션의 해외 공장 증설과 내수 ESS 시장 확대로 세계 3위 투자국을 유지했습니다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-04T04:39:00.000Z",
+      "originalUrl": "https://about.bnef.com/research/2026/asia-storage-investment",
+      "collectedAt": "2026-04-04T08:30:00.000Z"
+    }
+  ]
+}

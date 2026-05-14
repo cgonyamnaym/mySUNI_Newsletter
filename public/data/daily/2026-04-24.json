@@ -1,0 +1,106 @@
+{
+  "date": "2026-04-24",
+  "generatedAt": "2026-05-13T08:38:43.831Z",
+  "articleCount": 6,
+  "articles": [
+    {
+      "id": "553d386a-c80d-49d1-834f-e3ec4bb2798c",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "작년 태양광 발전 급증 — 그 성장세는 멈추지 않는다",
+      "titleOriginal": "Solar power soared last year — and it’s not slowing down",
+      "summary": "에너지 싱크탱크 Ember의 2025년 보고서에 따르면, 전 세계 재생에너지 발전 비중이 34%로 석탄(33%)을 처음으로 추월했으며 태양광이 가장 큰 기여를 했습니다. 특히 헝가리와 네덜란드 등 많은 국가에서 태양광 발전 비중이 급증했으며, 향후 배터리 저장 장치 확충과 화석연료 의존도가 높은 국가들의 잠재력 활용이 성장의 핵심 과제로 제시되었습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-24T16:39:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/solar/solar-power-record-2025",
+      "collectedAt": "2026-05-04T08:00:55.262Z"
+    },
+    {
+      "id": "95e183b4-ca78-4033-92e2-42e5d22cf5c1",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "듀크 에너지의 선제적 전력망 업그레이드, 전기 협동조합의 반발에 직면",
+      "titleOriginal": "Duke Energy’s proactive grid upgrades under fire from electric co-ops",
+      "summary": "듀크 에너지는 태양광 발전 연계를 위해 전력망을 선제적으로 업그레이드하고 비용을 모든 고객에게 분담시키는 새로운 계획을 추진 중이나, 노스캐롤라이나 전기 협동조합은 5,700만 달러 규모의 비용이 개발업체에 부과되어야 한다며 연방에너지규제위원회(FERC)에 제소했습니다. 이번 판결은 향후 태양광 프로젝트의 경제성과 지역 전력망 계획 수립 방식에 중대한 영향을 미칠 것으로 예상됩니다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-24T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/utilities/duke-energy-proactive-grid-upgrades",
+      "collectedAt": "2026-05-04T08:00:55.262Z"
+    },
+    {
+      "id": "e25e9932-6023-4fc3-a9b2-d60cabfbd696",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "원자력 에너지를 선도하는 국가는 어디인가?",
+      "titleOriginal": "Which countries lead the way on nuclear energy?",
+      "summary": "미국은 현재 세계 최대의 원자력 발전량을 기록하고 있으나, 중국이 급격한 원자로 증설을 통해 그 격차를 빠르게 좁히고 있습니다. Ember의 데이터에 따르면 중국은 전 세계 건설 중인 원전의 절반 가까이를 차지하고 있으며, 현재의 건설 속도를 고려할 때 2030년경에는 미국의 발전량을 넘어설 것으로 전망됩니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-24T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/nuclear/which-countries-lead-nuclear",
+      "collectedAt": "2026-05-04T08:00:55.262Z"
+    },
+    {
+      "id": "c7817e90-9190-4434-a47d-b69b4378b093",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "트럼프 정부의 풍력 산업 압박 속 또 다른 해상풍력 기업, 보상금 요구",
+      "titleOriginal": "Another offshore wind firm is seeking a payout as Trump stifles sector",
+      "summary": "프랑스의 에너지 기업 엔지(Engie)가 트럼프 행정부의 규제 기조 속에서 6.8기가와트 규모의 해상풍력 프로젝트 임대권을 반납하고 보상금을 받기 위한 협상을 진행 중입니다. 앞서 토탈에너지(TotalEnergies)가 약 10억 달러 규모의 유사한 계약을 체결한 바 있으며, 이는 연방 정부의 정책 불확실성으로 인해 주요 에너지 기업들이 미국 해상풍력 사업에서 철수하는 사례가 늘고 있음을 보여줍니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-24T04:00:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/offshore-wind/engie-trump-deal-cancel-leases-us",
+      "collectedAt": "2026-05-04T08:00:55.262Z"
+    },
+    {
+      "id": "f5e05e06-a37e-41fd-aa42-e9bb21c2eb4a",
+      "source": "녹색에너지연구원 (IGT)",
+      "sourceId": "igt",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[보도자료] 한국 주요 기업 기후 전환 관리 역량 아시아 선두 평가 …“탈탄소 의지 있으나, 금융 체계가 제대로 지원하지 못 해”",
+      "titleOriginal": null,
+      "summary": "[보도자료] 한국 주요 기업 기후 전환 관리 역량 아시아 선두 평가 …“탈탄소 의지 있으나, 금융 체계가 제대로 지원하지 못 해” 2026-04-24 0 143 04.24 09:33 - 한국 녹색전환연구소·영국 런던정경대(LSE) 산하 TPI 센터, 경제전환전문성센터(CETEx) 지난 23일 여수기후주간에서 ‘국가 및 기업 전환계획 간 시너지 확대: 한국 사례 조명’ 공동 개최 - TPI 센터 분석 결과, 한국 주요 기업 46개사 중 18곳 기후 전환 관리 역량 가장 높은 레벨 5- 녹색전환연구소 “한국 기업 전환 의지 확인됐지만,",
+      "topics": [],
+      "publishedAt": "2026-04-24T00:00:00.000Z",
+      "originalUrl": "https://igt.or.kr/bbs/board.php?bo_table=m03_03&wr_id=74",
+      "collectedAt": "2026-05-06T06:20:25.361Z"
+    },
+    {
+      "id": "b51c5a9e-4f14-45f7-8493-0f6e3def573e",
+      "source": "녹색에너지연구원 (IGT)",
+      "sourceId": "igt",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[보도자료] 석 달 새 ‘햇빛’ 협동조합 123개 급증… 햇빛소득마을 ‘공동체 없는 사업’ 우려",
+      "titleOriginal": null,
+      "summary": "[보도자료] 석 달 새 ‘햇빛’ 협동조합 123개 급증… 햇빛소득마을 ‘공동체 없는 사업’ 우려 2026-04-24 0 323 04.24 09:33 - 녹색전환연구소 24일 ‘햇빛소득마을 성공의 조건’ 이슈브리프 공개- 분석 결과 2026년 ‘햇빛’ 들어간 협동조합 등록 수만 123개로 급증…외부 사업자 선점 우려 - “설비 지원 촘촘, 마을 지원 공백” 햇빛소득마을 2,500개 목표, 마을 공동체 체계 없인 공염불 - 마을 공동체 표준안 마련·컨설팅 TF 구축 제안 등 정책 제안 담겨 - 여미영 지역전환팀 연구원 “태양광 설비 설",
+      "topics": [],
+      "publishedAt": "2026-04-24T00:00:00.000Z",
+      "originalUrl": "https://igt.or.kr/bbs/board.php?bo_table=m03_03&wr_id=73",
+      "collectedAt": "2026-05-06T06:20:25.361Z"
+    }
+  ]
+}

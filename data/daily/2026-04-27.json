@@ -1,0 +1,284 @@
+{
+  "date": "2026-04-27",
+  "generatedAt": "2026-04-28T05:55:50.625Z",
+  "articleCount": 17,
+  "articles": [
+    {
+      "id": "sample-001",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "국내 태양광 설치 용량 30GW 돌파 — 재생에너지 보급 가속",
+      "titleOriginal": null,
+      "summary": "국내 태양광 누적 설치 용량이 30GW를 돌파했습니다. 정부의 재생에너지 3020 정책과 기업들의 RE100 이행 수요가 맞물리며 설치 속도가 빨라지고 있습니다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-04-27T01:00:00.000Z",
+      "originalUrl": "https://www.ekn.kr/article/sample-001",
+      "collectedAt": "2026-04-27T08:00:00.000Z"
+    },
+    {
+      "id": "sample-002",
+      "source": "Reuters Energy",
+      "sourceId": "reuters-energy",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "유럽 에너지 저장 시장, 2030년까지 200GWh 규모 전망",
+      "titleOriginal": "European energy storage market forecast to reach 200GWh by 2030",
+      "summary": "블룸버그NEF 보고서에 따르면 유럽 에너지 저장 시장이 2030년까지 200GWh 규모로 성장할 것으로 전망됩니다. 재생에너지 확대에 따른 계통 안정화 수요가 주요 성장 동인으로 꼽혔습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-26T18:00:00.000Z",
+      "originalUrl": "https://www.reuters.com/business/energy/sample-002",
+      "collectedAt": "2026-04-27T08:00:00.000Z"
+    },
+    {
+      "id": "sample-003",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "산업부, 분산에너지 활성화 특별법 시행령 입법예고",
+      "titleOriginal": null,
+      "summary": "산업통상자원부가 분산에너지 활성화 특별법 시행령 제정안을 입법예고했습니다. VPP 운영 기준과 분산자원 계통 연계 절차가 구체화되어 업계의 사업 계획 수립에 도움이 될 것으로 기대됩니다.",
+      "topics": [
+        "정책·규제",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-27T00:30:00.000Z",
+      "originalUrl": "https://www.electimes.com/article/sample-003",
+      "collectedAt": "2026-04-27T08:00:00.000Z"
+    },
+    {
+      "id": "a5fdcad0-2c61-4c7c-aa23-1a42ff9967c8",
+      "source": "Google News (에너지·전력)",
+      "sourceId": "google-news-ko-energy",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "‘제9회 서울에너지포럼’ 28일 개최…산업 생존과 성장 위한 에너지정책 논의 - 기후에너지데이터뱅크",
+      "titleOriginal": null,
+      "summary": "‘제9회 서울에너지포럼’ 28일 개최…산업 생존과 성장 위한 에너지정책 논의  기후에너지데이터뱅크",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-04-27T07:35:37.000Z",
+      "originalUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5pTU9tNFJ1WUpqU3JCYWVqWDFiZnQxQzF3YTltRTBlTnlpSDZ6cWZLcHZVdVZkWUp5WHNDSjNBMHlTWmNKYko0T3pnWS11WndxUERVTUNyR0FzQjJHZUE?oc=5",
+      "collectedAt": "2026-04-28T05:55:41.615Z"
+    },
+    {
+      "id": "10b4d5e1-2402-431d-9bfa-6c35ba698e5a",
+      "source": "Google News (에너지·전력)",
+      "sourceId": "google-news-ko-energy",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "인도, ‘태양·풍력’의 역습… 화석연료 발전량 사상 첫 감소 - AI타임스",
+      "titleOriginal": null,
+      "summary": "인도, ‘태양·풍력’의 역습… 화석연료 발전량 사상 첫 감소  AI타임스",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-04-27T06:55:00.000Z",
+      "originalUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95WHhkSVMyZVlqTDdpQW5BZmgtaWxVU3NHQXFTYmc3YmNNNUhEdlJsVkNURnBPeXQ2anBtOS1QNVpyTjZadlJkRm50ZVdUVjBMZ0N3QWpsWi0tQ2djckMtdUd4Q3Y2T2RnM2c?oc=5",
+      "collectedAt": "2026-04-28T05:55:41.615Z"
+    },
+    {
+      "id": "f4bf094b-5115-4f12-915d-325faab1da76",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "EticaAG contends that immersion cooling is the next evolution of BESS cooling systems",
+      "titleOriginal": "EticaAG contends that immersion cooling is the next evolution of BESS cooling systems",
+      "summary": "Energy-Storage.news Premium speaks with Pablo Barague, vice president of partnerships & commercial development, and Sam Harper, vice president of marketing & brand, at immersion cooling energy storage company EticaAg.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-27T14:00:24.000Z",
+      "originalUrl": "https://www.energy-storage.news/eticaag-contends-that-immersion-cooling-is-the-next-evolution-of-bess-cooling-systems/",
+      "collectedAt": "2026-04-28T05:55:44.528Z"
+    },
+    {
+      "id": "077b4d9f-95f5-4dac-af83-7e045322ba55",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "‘A turning point’: CATL and HyperStrong sign 60GWh sodium-ion agreement",
+      "titleOriginal": "‘A turning point’: CATL and HyperStrong sign 60GWh sodium-ion agreement",
+      "summary": "Battery manufacturer CATL and system integrator HyperStrong have entered into a 60GWh sodium-ion battery order deal, which CATL said marks a 'turning point in the industrialisation of sodium-ion batteries'.",
+      "topics": [
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-04-27T13:02:52.000Z",
+      "originalUrl": "https://www.energy-storage.news/a-turning-point-catl-and-hyperstrong-sign-60gwh-sodium-ion-agreement/",
+      "collectedAt": "2026-04-28T05:55:44.528Z"
+    },
+    {
+      "id": "7e10a7b8-d21e-4928-b604-e640b0683ce4",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Wind co-location: TotalEnergies takes FID on 1GW Kazakhstan project, Downing develops in Finland",
+      "titleOriginal": "Wind co-location: TotalEnergies takes FID on 1GW Kazakhstan project, Downing develops in Finland",
+      "summary": "TotalEnergies is pushing ahead with a co-located battery storage and gigawatt-scale wind project in Kazakhstan, Central Asia.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-27T09:51:42.000Z",
+      "originalUrl": "https://www.energy-storage.news/wind-co-location-totalenergies-takes-fid-on-1gw-kazakhstan-project-downing-develops-in-finland/",
+      "collectedAt": "2026-04-28T05:55:44.528Z"
+    },
+    {
+      "id": "12f58bec-66c8-4c3b-88a9-e40ef4c1a14b",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Supreme Court won’t hear appeal in Ohio utility bribery case",
+      "titleOriginal": "Supreme Court won’t hear appeal in Ohio utility bribery case",
+      "summary": "The U.S. Supreme Court declined to take up the cases of the only two people who have served prison time related to the largest utility corruption scandal in Ohio’s history.  Ohio’s House Bill 6 saga arose out of efforts by the utility FirstEnergy to obtain more than $1 billion in subsidies for its f",
+      "topics": [
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-04-27T20:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/utilities/supreme-court-utility-bribery-case",
+      "collectedAt": "2026-04-28T05:55:45.606Z"
+    },
+    {
+      "id": "03288418-1b05-4346-95e9-a7eac7c0ab62",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Trump is blocking solar for farmers. Can the Farm Bill fix that?",
+      "titleOriginal": "Trump is blocking solar for farmers. Can the Farm Bill fix that?",
+      "summary": "President Donald Trump has dealt blow after blow to the Rural Energy for America Program, which has helped farmers save on their energy bills by going solar for nearly two decades. Now, REAP’s proponents see a chance to undo some of the damage.  Last year, within a matter of months, the Trump admini",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-27T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/food-and-farms/trump-blocking-solar-farm-bill",
+      "collectedAt": "2026-04-28T05:55:45.606Z"
+    },
+    {
+      "id": "566f834a-6008-42bc-81c4-885951bd2a59",
+      "source": "Google News (Global Energy)",
+      "sourceId": "google-news-en-energy",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "EIA: 80 GW of new solar, wind + storage capacity coming in 2026 - Electrek",
+      "titleOriginal": "EIA: 80 GW of new solar, wind + storage capacity coming in 2026 - Electrek",
+      "summary": "EIA: 80 GW of new solar, wind + storage capacity coming in 2026  Electrek",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-27T20:50:00.000Z",
+      "originalUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWTFEYlhJcFl0MTY5a01PTUtOdUhPWXJiU2plMHBiMEFuQTB2NlJ4Uk0tSWNHSC05eVpIQ244TEdUX3VHeVEtVm04UklHaUJ1Q0lnS3JPUXV3R3JfREZ0VFdUbjcwSW1vOU1ZakpEMHhxTHFCVE9iQS1TYXNzbTBJSmVDR2pub2FDQkVuQ0tibGlvSVRaSFE?oc=5",
+      "collectedAt": "2026-04-28T05:55:48.276Z"
+    },
+    {
+      "id": "f7db6aa7-c78e-485f-aed0-41392c0a95dc",
+      "source": "Google News (Global Energy)",
+      "sourceId": "google-news-en-energy",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "U.S. Energy Information Administration Projects 80 GW Surge In Solar, Wind And Storage By 2027 - SolarQuarter",
+      "titleOriginal": "U.S. Energy Information Administration Projects 80 GW Surge In Solar, Wind And Storage By 2027 - SolarQuarter",
+      "summary": "U.S. Energy Information Administration Projects 80 GW Surge In Solar, Wind And Storage By 2027  SolarQuarter",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-27T09:33:22.000Z",
+      "originalUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZVJmSV95MENQemdfcllrbThUTzduY3dhblNqUFJqajAySTRqQmRva1V0Skc4YWxMUDR4WnhPdEFpVkNuRUtRUy1LVFpJQ19oS3hHVVd1VkFzZWNrX09XVUE3ZThFb0YybXBqM2VlQUJmb2VoS1FHc1pDOUx2SGE0QkJOeTlkV3l6N0paR2pMQ0RRdHR5SklHbTBOeDdUR29BWnhaM1NobHQyTmpFR1JsRU1jc1Nxa3pVQXNVWnFOMGtIYmdhTF9NVg?oc=5",
+      "collectedAt": "2026-04-28T05:55:48.276Z"
+    },
+    {
+      "id": "f89ebe4b-d332-4f20-b511-bd21e953a4f2",
+      "source": "Google News (Global Energy)",
+      "sourceId": "google-news-en-energy",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Rep. Blake Moore discusses impact of reduced tax credits with renewable energy advocates - KVNU",
+      "titleOriginal": "Rep. Blake Moore discusses impact of reduced tax credits with renewable energy advocates - KVNU",
+      "summary": "Rep. Blake Moore discusses impact of reduced tax credits with renewable energy advocates  KVNU",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-27T14:17:13.000Z",
+      "originalUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRmxKRWhPWl9sYXpwaUkxQlVQYUZfSzRRUWRSX1BCNUw0bWlHdGpwZzJpUE9XNVplM2FRc0tHSEpFSVIzTEQwQ3dJOHNsakJYc1JwbmFMNE9YeUNqNVZQQmhyMjBTSDdHUU1LdFNIZW12dWlld29qN0c2bDFOTjRhVzV4YWZVZm9YdElUb2RhT0ZjNDJjSWtQMWlZUWh2TVR2bUJrNjVJR0tvdktmd0E?oc=5",
+      "collectedAt": "2026-04-28T05:55:48.276Z"
+    },
+    {
+      "id": "d7c59f63-7751-4090-859c-3971eb48904e",
+      "source": "Google News (Global Energy)",
+      "sourceId": "google-news-en-energy",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Record Solar, Wind Surge Drives 3.3% Drop In India’S Fossil Generation In 2025 - megaproject.com",
+      "titleOriginal": "Record Solar, Wind Surge Drives 3.3% Drop In India’S Fossil Generation In 2025 - megaproject.com",
+      "summary": "Record Solar, Wind Surge Drives 3.3% Drop In India’S Fossil Generation In 2025  megaproject.com",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-27T21:42:20.000Z",
+      "originalUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQ3huZ1JJVGNmX19KR3gtZGZ1RzlaYTJLMnNKUlZIZktrODJ3TFJ2aFRyQ0hwenF5a1FQdkFydXR6eVlPcjYyYjlZbUV6eHc0LS11Z1N1UkVQSDZ0MzZiM3ZZTEFxaUtRU1A4N2lZbXloeFIwNG9LUjhjMnhLMTY5bW4tNGZNREtsQ2Z2NnppR1hmVGhqakZ6NXAzRzY1VzNyWGxGcXRDbkQ0ZnJfSzM3eGhpN0tqdw?oc=5",
+      "collectedAt": "2026-04-28T05:55:48.276Z"
+    },
+    {
+      "id": "c77bd41c-da6c-47cc-b8c2-c6f252465379",
+      "source": "Google News (Global Energy)",
+      "sourceId": "google-news-en-energy",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Solar and batteries drive global shift in power generation - Utilities Middle East",
+      "titleOriginal": "Solar and batteries drive global shift in power generation - Utilities Middle East",
+      "summary": "Solar and batteries drive global shift in power generation  Utilities Middle East",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-27T06:00:00.000Z",
+      "originalUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE43MkF1RE5FZVFtTHZyd2V3cERVbGRpLXAxZGVkdy1ZTGREeG1QcExGQVByakNxZmJLZ3ktU2xKVlN5SS1NWHJWV2NnWEpEb3JHeUhvN1YtNkROVVdqRC1fcg?oc=5",
+      "collectedAt": "2026-04-28T05:55:48.276Z"
+    },
+    {
+      "id": "ce53f476-382a-4a8d-92fa-007668ebbcc7",
+      "source": "Google News (Global Energy)",
+      "sourceId": "google-news-en-energy",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "ACME Solar Crosses 2 GWh Battery Energy Storage Milestone in Rajasthan - Machine Maker",
+      "titleOriginal": "ACME Solar Crosses 2 GWh Battery Energy Storage Milestone in Rajasthan - Machine Maker",
+      "summary": "ACME Solar Crosses 2 GWh Battery Energy Storage Milestone in Rajasthan  Machine Maker",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-27T12:30:05.000Z",
+      "originalUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUzZJWmpaS0xSXzRCRmNtak8tRFdkcEtycmxuWXF3S0tqWlFDUkxLWlRkR1RiMTBuOEVnX01Wb3FYLU5XaFlOWUtJalZibEhqTFdZcDE5c2ZDT3NvZEhUTDJscWtZSjZBQ2lDX2Z0Smd2aEUyTlJtbU5yUUlHT1VWbzVGUXdwdWM3M2M1WE0tSy1lWTVOUEl2VXAzUDRIaG4tOHBTM3hXNA?oc=5",
+      "collectedAt": "2026-04-28T05:55:48.276Z"
+    },
+    {
+      "id": "318ecd77-0284-4c2d-8fde-3dba71002157",
+      "source": "Google News (Global Energy)",
+      "sourceId": "google-news-en-energy",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "European Bank for Reconstruction And Development Backs 1 GW Mirny Wind Farm With 300 MW / 600 MWh Battery Storage, Marking Kazakhstan’s First Large-Scale Wind Plus Storage Project - SolarQuarter",
+      "titleOriginal": "European Bank for Reconstruction And Development Backs 1 GW Mirny Wind Farm With 300 MW / 600 MWh Battery Storage, Marking Kazakhstan’s First Large-Scale Wind Plus Storage Project - SolarQuarter",
+      "summary": "European Bank for Reconstruction And Development Backs 1 GW Mirny Wind Farm With 300 MW / 600 MWh Battery Storage, Marking Kazakhstan’s First Large-Scale Wind Plus Storage Project  SolarQuarter",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-27T05:59:33.000Z",
+      "originalUrl": "https://news.google.com/rss/articles/CBMitwJBVV95cUxNS1N1cU83R3EydlRPYy1MMUM4cTdKcTd2MGNYVm5NTWJuVFFOLTlSY3BKcnJNd1V6XzNuRzF6T3U5Q2JPeU1yR3RUaWVkSGU5OWVnZTNpUnBqNmJEbFZRWXcwenhZWWtjRGsxVDNoRzZOSnNCSG9RRU92WjBaRjlZMEM0dmxTSmlhanU5RXd6eFNSdlNxSl9hemFlWmY4TDNGbk5oRHM1YTRheUhTdkFaOU0zUUtKSXlMS21vMG9FUDd6dExKM245RVVScHRCRTNoLW1NcHJ0dUxxWEM4N29PYldZM1VBSF9mVWtFZ2RWU3IzMlhBR2FteXVEdXNvY0RmMXppejIzcl9ROXdsR2lEVk1wcUJZWkszVEplTVdpaFNSMl9JZlctX0pzZWpobDFDV0ZtN3gwSQ?oc=5",
+      "collectedAt": "2026-04-28T05:55:48.276Z"
+    }
+  ]
+}

@@ -1,0 +1,700 @@
+{
+  "date": "2026-05-11",
+  "generatedAt": "2026-05-13T06:51:09.133Z",
+  "articleCount": 40,
+  "articles": [
+    {
+      "id": "73573d07-9bc4-429d-9789-0016cc4071a5",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Confusing ballot wording may have tipped Ohio vote on renewables ban",
+      "titleOriginal": "Confusing ballot wording may have tipped Ohio vote on renewables ban",
+      "summary": "Confusing ballot language could be the reason an Ohio county upheld a ban on renewable energy last week.  An early analysis of exit poll responses suggests a majority of voters likely meant to vote against Richland County’s ban on most large solar and wind projects for 11 of its 18 townships. But th",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-11T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/land-use/confusing-ballot-wording-ohio-renewables-ban",
+      "collectedAt": "2026-05-12T08:00:37.379Z"
+    },
+    {
+      "id": "368b34b8-b92d-47f1-b9a9-3fc2751e4e65",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Drax deploying solar panels at Scottish hydropower stations",
+      "titleOriginal": "Drax deploying solar panels at Scottish hydropower stations",
+      "summary": "Drax has completed a PV installation at the Glenlee hydropower station in Scotland, marking the first of eight planned solar projects across its hydro sites in Galloway and Lanark.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-11T14:29:44.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/11/drax-deploying-solar-panels-at-scottish-hydropower-stations/",
+      "collectedAt": "2026-05-12T08:01:17.423Z"
+    },
+    {
+      "id": "5bcfb245-9396-4116-af3c-65f01ae80516",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Ferroli launches monobloc propane air-to-water heat pumps for residential, commercial use",
+      "titleOriginal": "Ferroli launches monobloc propane air-to-water heat pumps for residential, commercial use",
+      "summary": "The Italian manufacturer has expanded its propane monobloc heat pump range with new models delivering up to 85 C flow temperature and achieving a seasonal coefficient of performance of 4.95.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-11T14:22:51.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/11/ferroli-launches-monobloc-propane-air-to-water-heat-pumps-for-residential-commercial-use/",
+      "collectedAt": "2026-05-12T08:01:17.424Z"
+    },
+    {
+      "id": "491657a2-a2e1-493f-b5f7-1ed1a689e1bd",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Ireland urged to create national clearing house to streamline solar projects",
+      "titleOriginal": "Ireland urged to create national clearing house to streamline solar projects",
+      "summary": "The CEO of Irish PV association Solar Ireland, Ronan Power, told pv magazine that despite a healthy project pipeline and investor appetite, ground-mounted PV projects are not being delivered as fast as they could be. A national clearing house to provide more defined communication at the early stages",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-11T13:27:58.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/11/ireland-urged-to-create-national-clearing-house-to-streamline-solar-projects/",
+      "collectedAt": "2026-05-12T08:01:17.424Z"
+    },
+    {
+      "id": "41e6b11b-1229-42f4-9200-379ae3215ad7",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Hybrid tidal-photovoltaic system for modular renewables deployment in estuarine channels",
+      "titleOriginal": "Hybrid tidal-photovoltaic system for modular renewables deployment in estuarine channels",
+      "summary": "Researchers in Brazil have developed and simulated a hybrid tidal–PV floating farm concept for estuarine channels, analyzing wake effects, turbine spacing and hybrid energy trade-offs. Results show that integrating PV with hydrokinetic turbines improves overall energy yield by offsetting wake-relate",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-11T13:15:22.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/11/hybrid-tidal-photovoltaic-system-for-modular-renewables-deployment-in-estuarine-channels/",
+      "collectedAt": "2026-05-12T08:01:17.424Z"
+    },
+    {
+      "id": "aed8d6f1-769b-4298-b0e3-c729f31b2109",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Adani adds 150 MW solar capacity to Khavda 30 GW renewable energy park",
+      "titleOriginal": "Adani adds 150 MW solar capacity to Khavda 30 GW renewable energy park",
+      "summary": "Adani Green Energy has commissioned a 150 MW solar project at the Khavda renewable energy complex in Gujarat, which is planned to reach 30 GW by 2029,",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-11T12:00:22.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/11/adani-adds-150-mw-solar-capacity-to-khavda-30-gw-renewable-energy-park/",
+      "collectedAt": "2026-05-12T08:01:17.424Z"
+    },
+    {
+      "id": "d8231990-e1d7-4fe8-82db-cd442b218403",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Assessment of Nigeria’s agrivoltaic potential identifies northern states as optimal areas",
+      "titleOriginal": "Assessment of Nigeria’s agrivoltaic potential identifies northern states as optimal areas",
+      "summary": "A geospatial assessment of agrivoltaic potential in Nigeria finds greatest opportunity in the country’s northern regions with plentiful cropland, high solar irradiance and low electricity access rates. It calculated that meeting projected mid-century solar demand in the states of Kano, Katsina and J",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-11T11:46:49.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/11/assessment-of-nigerias-agrivoltaic-potential-identifies-northern-states-as-optimal-areas/",
+      "collectedAt": "2026-05-12T08:01:17.424Z"
+    },
+    {
+      "id": "4aa37db7-f628-4788-9746-75e319d4a5b5",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "BloombergNEF confirms energy storage has reached the 100 GW era",
+      "titleOriginal": "BloombergNEF confirms energy storage has reached the 100 GW era",
+      "summary": "A record year, and an incredibly strong outlook for the energy storage sector.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-11T11:17:51.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/11/bloombergnef-confirms-energy-storage-has-reached-the-100-gw-era/",
+      "collectedAt": "2026-05-12T08:01:17.425Z"
+    },
+    {
+      "id": "834d5355-26d9-4318-bc34-edd2fa8f9bbb",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Solar tech theft on the rise in Chile",
+      "titleOriginal": "Solar tech theft on the rise in Chile",
+      "summary": "A survey conducted among member companies of the Chilean Solar Energy Association found a high incidence of nighttime thefts at photovoltaic installations, with the highest concentration in the O’Higgins, Coquimbo, Maule, and Metropolitan regions. Cables and conductors were identified as the most fr",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-11T09:18:44.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/11/solar-tech-theft-on-the-rise-in-chile/",
+      "collectedAt": "2026-05-12T08:01:17.425Z"
+    },
+    {
+      "id": "9a3444b1-bee1-41a5-9312-a0332812df85",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Floating solar offers Morocco’s dams antidote to evaporation loss",
+      "titleOriginal": "Floating solar offers Morocco’s dams antidote to evaporation loss",
+      "summary": "Moroccan researchers say floating PV (FPV) installations on the country's dams could simultaneously cut evaporation losses and generate electricity, but the country lacks a regulatory framework to enable large-scale deployment.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-11T09:15:19.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/11/floating-solar-offers-moroccos-dams-antidote-to-evaporation-loss/",
+      "collectedAt": "2026-05-12T08:01:17.425Z"
+    },
+    {
+      "id": "19ff6d6c-215d-4b0c-a4ca-f3b0cbb4d600",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Egypt installs 800 MW of solar in 2025",
+      "titleOriginal": "Egypt installs 800 MW of solar in 2025",
+      "summary": "Latest analysis from GlobalData expects Egypt’s annual solar additions to reach above 2 GW over the next three years, increasing to above 3.5 GW from 2029 onwards. Cumulative capacity is expected to grow from around 2.9 GW at the end of 2025 to 34.3 GW by the end of 2035.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-11T09:02:33.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/11/egypt-installs-800-mw-of-solar-in-2025/",
+      "collectedAt": "2026-05-12T08:01:17.425Z"
+    },
+    {
+      "id": "532f9972-ecd4-4bf0-a7b6-180fbb819545",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Hybrid latent-sensible storage can improve PVT-driven residential heat pump COP by 72.4%",
+      "titleOriginal": "Hybrid latent-sensible storage can improve PVT-driven residential heat pump COP by 72.4%",
+      "summary": "A research team in Italy developed a PVT-driven heat pump system for domestic hot water production that combines packed-bed latent heat storage with sensible thermal storage to better balance supply and demand. Their simulations showed that hybrid storage coupled with temperature-based routing signi",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-11T08:28:38.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/11/hybrid-latent-sensible-storage-can-improve-pvt-driven-residential-heat-pump-cop-by-72-4/",
+      "collectedAt": "2026-05-12T08:01:17.425Z"
+    },
+    {
+      "id": "6edc8e57-1be0-433b-9fd1-fe25aa670eae",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Chinese researchers achieve world-record efficiency of 27.17% for inverted perovskite solar cell",
+      "titleOriginal": "Chinese researchers achieve world-record efficiency of 27.17% for inverted perovskite solar cell",
+      "summary": "The proposed inverted perovskite solar cell design reduces band misalignment and electron accumulation, suppressing recombination losses and enabling high efficiency in both small-area devices and scalable modules.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-11T07:16:09.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/11/chinese-researchers-achieve-world-record-efficiency-of-27-17-for-inverted-perovskite-solar-cell/",
+      "collectedAt": "2026-05-12T08:01:17.426Z"
+    },
+    {
+      "id": "653f1c39-9b96-4b70-b320-3c2430dc88d1",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "World’s smallest island nation advances 18 MW / 40 MWh solar-plus-storage project",
+      "titleOriginal": "World’s smallest island nation advances 18 MW / 40 MWh solar-plus-storage project",
+      "summary": "In a bid to rid itself of diesel dependence, the world’s smallest island nation of Nauru has signed a landmark memorandum of understanding with Sydney-based Smart Commercial Energy to develop a clean energy solution.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-11T05:56:09.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/11/worlds-smallest-island-nation-advances-18-mw-40-mwh-solar-plus-storage-project/",
+      "collectedAt": "2026-05-12T08:01:17.426Z"
+    },
+    {
+      "id": "89e17267-77ae-4602-a739-c42b5b9fced2",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "FH Capital to acquire majority stake in JinkoSolar U.S. manufacturing",
+      "titleOriginal": "FH Capital to acquire majority stake in JinkoSolar U.S. manufacturing",
+      "summary": "Private equity firm FH Capital reached an agreement to acquire a 75.1% majority stake in JinkoSolar’s U.S. manufacturing subsidiary to expand domestic module and battery production.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-11T05:49:24.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/11/fh-capital-to-acquire-majority-stake-in-jinkosolar-u-s-manufacturing/",
+      "collectedAt": "2026-05-12T08:01:17.426Z"
+    },
+    {
+      "id": "08f83cb3-caee-49e3-b573-e63b5fb00902",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "A Mothers’ Day Call: Women, Rise Up For Transformative Clean Energy!",
+      "titleOriginal": "A Mothers’ Day Call: Women, Rise Up For Transformative Clean Energy!",
+      "summary": "Yesterday, we celebrated Mothers’ Day — and, no, the apostrophe is correct in the plural rather than singular designation. That’s because it was the entire community of women, not just individual moms, who were originally celebrated in the 1870s by Julia Ward Howe. Howe cried out for women to take  ",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-11T21:57:45.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/11/a-mothers-day-call-women-rise-up-for-transformative-clean-energy/",
+      "collectedAt": "2026-05-12T08:02:02.062Z"
+    },
+    {
+      "id": "07e8db99-1ae5-4a8f-856f-ffb7c21efa47",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "370 Tesla Semi Trucks Ordered",
+      "titleOriginal": "370 Tesla Semi Trucks Ordered",
+      "summary": "It was just a bit ago Tesla announced its first semi truck coming off of its high-production line. Now, 370 Tesla semi trucks have been ordered by WattEV. “More than 300 of the Tesla Semis will be deployed under a joint program with the Port of Oakland. Delivery of the   ... [continued]\nThe post 370",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-11T19:42:53.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/11/370-tesla-semi-trucks-ordered/",
+      "collectedAt": "2026-05-12T08:02:02.062Z"
+    },
+    {
+      "id": "914a1796-9d0d-49c9-be63-3d060ffb328d",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Renewable Energy Puts Money In The Pockets Of Struggling Farmers",
+      "titleOriginal": "Renewable Energy Puts Money In The Pockets Of Struggling Farmers",
+      "summary": "For farmers, renewable energy can be the difference between making a living and selling land that has been in the family for generations. \nThe post Renewable Energy Puts Money In The Pockets Of Struggling Farmers appeared first on CleanTechnica.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-11T17:05:35.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/11/renewable-energy-puts-money-in-the-pockets-of-struggling-farmers/",
+      "collectedAt": "2026-05-12T08:02:02.063Z"
+    },
+    {
+      "id": "afb81bfd-8b87-45d7-8dfb-8e4b2e4cc8a0",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Op-Ed: Canada Is Becoming The Kind Of EV Market Chinese Automakers Understand Best",
+      "titleOriginal": "Op-Ed: Canada Is Becoming The Kind Of EV Market Chinese Automakers Understand Best",
+      "summary": "Author’s note: I have written a series of articles on the entry of these Chinese brands to Canada for one reason. Mark Carney’s statement: “We take the world as it is, not as we wish it to be,” highlighting a pragmatic approach to diversifying trade and hedging against global uncertainty.   ... [con",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-11T16:59:56.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/11/op-ed-canada-is-becoming-the-kind-of-ev-market-chinese-automakers-understand-best/",
+      "collectedAt": "2026-05-12T08:02:02.063Z"
+    },
+    {
+      "id": "adadf363-6cdb-41d5-ae61-687a16337993",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "US Innovator Crosses The Bridge From Powdered Milk To SAF",
+      "titleOriginal": "US Innovator Crosses The Bridge From Powdered Milk To SAF",
+      "summary": "A biogas-to-fuel SAF system developed by the US startup Syzygy Plasmonics is sparking a fresh round of interest, now that the Iran war has cut the cost gap between sustainable aviation fuels and conventional kerosene jet fuel.\nThe post US Innovator Crosses The Bridge From Powdered Milk To SAF appear",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-11T14:46:43.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/11/us-innovator-crosses-the-bridge-from-powdered-milk-to-saf/",
+      "collectedAt": "2026-05-12T08:02:02.063Z"
+    },
+    {
+      "id": "c5c2667c-bf71-4c60-bc38-be3dac5e8fef",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Electric Vehicle Calculator Shows Yearly Savings",
+      "titleOriginal": "Electric Vehicle Calculator Shows Yearly Savings",
+      "summary": "One of my former co-workers once explained to me how she sold her car and rode public transportation to save $3,000 per year for ten straight years, resulting in savings of $30,000. At the time, she didn’t make much, and being able to save $3,000 a year was quite meaningful   ... [continued]\nThe pos",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-11T14:38:40.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/11/electric-vehicle-calculator-shows-yearly-savings/",
+      "collectedAt": "2026-05-12T08:02:02.064Z"
+    },
+    {
+      "id": "08fcce9c-b8d8-4d06-be8c-b2ad45715e97",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Oooooh, Scary Electric Cars Are Everywhere In America!",
+      "titleOriginal": "Oooooh, Scary Electric Cars Are Everywhere In America!",
+      "summary": "Are high gas prices driving a switch to electric cars? Not according to one recent survey that indicated quite the opposite. \nThe post Oooooh, Scary Electric Cars Are Everywhere In America! appeared first on CleanTechnica.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-11T03:56:00.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/10/oooooh-scary-electric-cars-are-everywhere-in-america/",
+      "collectedAt": "2026-05-12T08:02:02.064Z"
+    },
+    {
+      "id": "0a7b55bd-f87a-47df-acbd-095e94d63adb",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "The UK delivers Europe’s largest vanadium flow battery system",
+      "titleOriginal": "The UK delivers Europe’s largest vanadium flow battery system",
+      "summary": "London-listed Invinity Energy Systems has delivered 20.7 megawatt-hours of vanadium flow batteries to the Copwood VFB Energy Hub in East Sussex. Once the project enters service later in 2026, Invinity says it will be Europe’s largest vanadium flow battery installation.\nmore…",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-11T23:15:58.000Z",
+      "originalUrl": "https://electrek.co/2026/05/11/uk-delivers-europes-largest-vanadium-flow-battery-system/",
+      "collectedAt": "2026-05-12T08:03:51.133Z"
+    },
+    {
+      "id": "3a89b488-e4ea-4174-8b82-66d4cb082042",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Ford launches Ford Energy subsidiary to build 20 GWh of battery storage annually",
+      "titleOriginal": "Ford launches Ford Energy subsidiary to build 20 GWh of battery storage annually",
+      "summary": "Ford has officially unveiled Ford Energy, a wholly owned subsidiary that will manufacture and sell U.S.-assembled battery energy storage systems (BESS) for utilities, data centers, and large industrial customers. The new unit plans to produce 20 GWh of energy storage annually from its Kentucky gigaf",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-11T19:58:31.000Z",
+      "originalUrl": "https://electrek.co/2026/05/11/ford-energy-launches-battery-storage-subsidiary-20gwh-bess/",
+      "collectedAt": "2026-05-12T08:03:51.133Z"
+    },
+    {
+      "id": "1f2350b4-d12a-4168-8ba2-0e8a591fddfa",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Around the world in 80 charges: The first electric semi to circumnavigate the globe",
+      "titleOriginal": "Around the world in 80 charges: The first electric semi to circumnavigate the globe",
+      "summary": "A German Youtuber who focuses on electric trucking content will drive a Mercedes-Benz eActros around the world, becoming the first to circumnavigate the globe in a heavy duty electric truck.\nmore…",
+      "topics": [],
+      "publishedAt": "2026-05-11T19:19:16.000Z",
+      "originalUrl": "https://electrek.co/2026/05/11/this-electric-semi-truck-will-drive-around-the-world-in-80-charges/",
+      "collectedAt": "2026-05-12T08:03:51.134Z"
+    },
+    {
+      "id": "ffe936b4-8e21-41cd-ae5b-753d5bfa631a",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Kia’s cyber-inspired electric sports car is ‘90% production-ready’",
+      "titleOriginal": "Kia’s cyber-inspired electric sports car is ‘90% production-ready’",
+      "summary": "It looks like a Lamborghini EV from the future and will likely arrive as an electric successor to the Kia Stinger. Kia unveiled the Vision Meta Turismo concept, a preview of its upcoming futuristic EV sports car.\nmore…",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-11T17:05:59.000Z",
+      "originalUrl": "https://electrek.co/2026/05/11/kias-cyber-inspired-electric-sports-car-is-90-production-ready/",
+      "collectedAt": "2026-05-12T08:03:51.135Z"
+    },
+    {
+      "id": "88b075fb-135d-4b71-b44b-d51c6ddf9aaf",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "This electric SUV with a semi-solid-state EV batttery costs under $15,000 in China",
+      "titleOriginal": "This electric SUV with a semi-solid-state EV batttery costs under $15,000 in China",
+      "summary": "SAIC opened pre-orders in China for the new MG 4X, an electric SUV with a semi-solid-state EV battery, priced under $15,000. The new battery tech is set to launch in Europe by the end of 2026.\nmore…",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-11T15:47:01.000Z",
+      "originalUrl": "https://electrek.co/2026/05/11/15000-electric-suv-has-semi-solid-state-battery/",
+      "collectedAt": "2026-05-12T08:03:51.136Z"
+    },
+    {
+      "id": "db7490e9-ea6a-446b-bfdd-d177a56adaa7",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Zeem celebrates 350,000th successful charging session at LAX [video]",
+      "titleOriginal": "Zeem celebrates 350,000th successful charging session at LAX [video]",
+      "summary": "Electric logistics firm Zeem Solutions celebrated some good reliability news at ACT Expo last week, after its commercial charging depot at LAX hit a huge milestone, surpassing 350,000 successful charging sessions as one of the highest-throughput charging facilities in the US.\nmore…",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-11T13:21:01.000Z",
+      "originalUrl": "https://electrek.co/2026/05/11/zeem-celebrates-350000th-successful-charging-session-at-lax-video/",
+      "collectedAt": "2026-05-12T08:03:51.137Z"
+    },
+    {
+      "id": "dccab7ae-086b-4e9a-a911-9b98885d9095",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Survey Sunday: How much home battery backup do YOU need?",
+      "titleOriginal": "Survey Sunday: How much home battery backup do YOU need?",
+      "summary": "Home batteries are getting a lot of attention lately, but are people really looking for a full “whole home” setup, or are they just interested in keeping their phones alive for some post-hurricane doom scrolling? We asked you, our brilliant Electrek readers, what you were looking for in your home ba",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-11T01:55:22.000Z",
+      "originalUrl": "https://electrek.co/2026/05/10/survey-sunday-how-much-home-battery-backup-do-you-need/",
+      "collectedAt": "2026-05-12T08:03:51.137Z"
+    },
+    {
+      "id": "89421239-e9ab-407d-bdc7-786dcfdd1fa4",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Honda is bringing Mobile Power Pack e: battery swap tech to the US",
+      "titleOriginal": "Honda is bringing Mobile Power Pack e: battery swap tech to the US",
+      "summary": "Honda brought its Mobile Power Pack e: swappable battery system to ACT Expo last week, where the brand announced plans to bring the swap system to market for B2B commercial integrations starting as early as June 2026.\nmore…",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-11T00:07:38.000Z",
+      "originalUrl": "https://electrek.co/2026/05/10/honda-is-bringing-mobile-power-pack-e-battery-swap-tech-to-the-us/",
+      "collectedAt": "2026-05-12T08:03:51.137Z"
+    },
+    {
+      "id": "e3b1b4fa-a128-440b-9e44-4ca785da80eb",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "베트남 ‘윙스’ 출범…서부발전, 협력사 수출지원 본격화",
+      "titleOriginal": null,
+      "summary": "한국서부발전(주)(사장 이정복)이 협력중소기업 베트남 시장 진출을 돕기 위해 해외 동반성장 플랫폼인 ‘베트남 윙스(Wings·Western Power In Global Support)’를 구축하고 11일 본사(충남 태안군 소재)에서 출범식을 개최했다. 베트남 윙스는 해외 진출을 희망하는 협력중소기업에 날개를 달아준다는 의미를 담은 동반성장 협의체로 지난해 베트남 시장개척사업에 참여한 7개 기업을 포함해 모두 17개 중소기업으로 꾸려졌다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-11T07:23:36.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69907",
+      "collectedAt": "2026-05-12T08:06:09.989Z"
+    },
+    {
+      "id": "1e391856-324b-42a4-9163-9429b4d4e6ac",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "관리비 냈는데 단전?…한전, 집합건물 체납 피해 막는다",
+      "titleOriginal": null,
+      "summary": "집합건물 전기요금 체납에 따른 개별입주자 피해를 해소할 수 있는 제도 개선이 추진된다. 한국전력공사(사장 김동철)는 고압 전기를 공급받는 집합건물 관리 주체 체납으로 인한 개별입주자 피해를 줄이기 위해 변압기 공동 이용계약 확대와 부분 단전 도입 등 개선 대책을 추진한다고 11일 밝혔다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-11T04:56:11.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69904",
+      "collectedAt": "2026-05-12T08:06:09.989Z"
+    },
+    {
+      "id": "da38beb8-aa45-447e-9e96-9a3db99f3813",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“안전은 타협 없다”…중부발전 경영진 안전점검 총출동",
+      "titleOriginal": null,
+      "summary": "한국중부발전(주) 경영진이 현장 중심 안전경영 강화를 위해 지난 3월부터 지난 8일까지 전국 9개 사업장을 대상으로 대규모 인력과 장비가 투입된 계획예방정비와 신규 건설현장을 중심으로 한 특별안전점검을 완료했다. 이영조 사장 등 중부발전 경영진은 이 기간 고위험 작업 현장을 직접 방문해 잠재적 유해요소와 위험요소를 점검하는 한편 즉각적인 개선 조치를",
+      "topics": [],
+      "publishedAt": "2026-05-11T02:56:23.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69900",
+      "collectedAt": "2026-05-12T08:06:09.990Z"
+    },
+    {
+      "id": "19d7b621-9da5-466f-9a4a-9ba0c38a74bc",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“반도체 인재 키우고 에너지 자립 높이고”…원주시 미래산업 투자 본격화",
+      "titleOriginal": null,
+      "summary": "한국폴리텍대학 원주캠퍼스·디에스테크노, 채용연계과정 신입생 모집\n‘2027년 재생에너지 융복합지원사업’공모 신청…6월 2일까지 수요조사 ▲반도체기업 채용연계과정 신입생 모집  안내문. 제공=원주시 원주=에너지경제신문 박에스더 기자 원주시와 한국폴리텍대학 원주캠퍼스, 반도체 소재·부품 기업 ㈜디에스테크노가 손잡고 지역 반도체 인재 양성과 일자리 창출에 나섰다. 12일 원주시에 따르면 한국폴리텍대학 원주캠퍼스는 지역 내 양질의 일자리 창출을 위한 '반도체기업 채용연계과정' 신입생을 모집한다고 밝혔다. 이번 과정은 2025년 3월 원주시",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-11T23:49:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260512029303907",
+      "collectedAt": "2026-05-12T08:11:28.947Z"
+    },
+    {
+      "id": "e006d03d-465d-48f6-a812-4b484ff780ac",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[인터뷰] ‘환경 노벨상’ 김보림의 탄식 “국회, 기후위기 해결 의지 있나”",
+      "titleOriginal": null,
+      "summary": "기후소송 승소 계기로 ‘환경 노벨상’ 골드만상 수상\n2018년 기록적 폭염 겪으며 법적대응 필요성 느껴\n위헌 판결에도 크게 달라지지 않는 정치권에 실망감\n원동력은 ‘취약성에 대한 감각’, 누군가엔 생존 문제\n“목표는 기후위기에도 누구나 안전한 사회 만드는 것” ▲김보림 기후활동가가 에너지경제신문과의 화상인터뷰에 응하고 있다. 사진=이현진 인턴기자 “국회가 (기후위기특별위원회 공론화위원회 숙의결과를) 자기들 입맛에 맞지 않는다고 깎아내리고 있다. 시민들은 기후위기에 당장 적극적으로 대응해야 한다는 결과를 내놨는데 결정은 또 다시 소수",
+      "topics": [],
+      "publishedAt": "2026-05-11T21:39:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260511025153656",
+      "collectedAt": "2026-05-12T08:11:28.947Z"
+    },
+    {
+      "id": "fa5eea1b-0e23-4a58-a6d9-5751399d3726",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "‘역대급 실적’ 한전KPS, 1분기 영업익 370억 375%↑",
+      "titleOriginal": null,
+      "summary": "▲전남 나주에 위치한 한전KPS 본사. 사진=한전KPS 발전소 정비 업무를 전문으로 맡고 있는 상장 공기업 한전KPS가 1분기에 역대급 실적을 올렸다. 11일 금융감독원에 따르면 한전KPS는 1분기 연결기준으로 매출액 3524억원, 영업이익 370억원, 당기순이익 294억원을 기록했다. 전년 동기 대비 각각 22.4%, 374.6%, 161.9% 증가했다. 1분기 사업별 매출을 보면 화력 1088억원, 원자력 및 양수 1499억원, 송변전 275억원, 해외 360억원, 대외 302억원이다. 올해 예방정비 계획은 화력 97호기로 전년",
+      "topics": [
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-11T09:24:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260511020343801",
+      "collectedAt": "2026-05-12T08:11:28.947Z"
+    },
+    {
+      "id": "d7a8948a-9b1b-4c63-95a1-da61026a7567",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "SK이노베이션, 에너지·사회 AI솔루션 창업팀 모집",
+      "titleOriginal": null,
+      "summary": "‘AI 임팩트 솔루션’ 사회공헌 프로그램…10개팀 선발 최대 2천만원 지원 ▲'AI 임팩트 솔루션' 참여팀 모집 포스터. 사진=SK이노베이션 SK이노베이션은 에너지와 사회 문제를 해결하기 위해 새로 마련한 사회공헌 프로그램 'AI 임팩트 솔루션'의 참가팀을 모집한다고 11일 밝혔다. AI 임팩트 솔루션은 인공지능(AI) 기술 솔루션을 가진 창업팀을 발굴·육성하기 위해 SK이노베이션이 주최·후원하고 재단법인 큐네스티가 주관하는 사회공헌사업이다. 모집 분야는 에너지 접근성과 탄소 감축 등 에너지 문제, 돌봄과 안전 등의 사회 문제 등 ",
+      "topics": [],
+      "publishedAt": "2026-05-11T09:10:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260511028373584",
+      "collectedAt": "2026-05-12T08:11:28.947Z"
+    },
+    {
+      "id": "6fd7fe70-132e-416e-ac68-7bc39b35961d",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "‘수도권 쏠림 더 심화’ 환경단체 지적에…기후부, 송전선로 입지선정 보류",
+      "titleOriginal": null,
+      "summary": "김성환 장관-환경단체 간담회…환경단체 “수도권 전력 집중 우려”\n용인반도체산단 공급용 등 전국 27개 송전선로 선정 한달 보류\n“한전 운영 입지선정위원회 폐쇄적이고 불투명하다” 개선 요구 ▲김성환 기후에너지환경부 장관이 지난 8일 국회의원회관에서 '용인반도체국가산단재검토와 초고압송전탑건설반대전국행동'(전국행동)과 열린 간담회에서 발언하고 있다. 사진= 환경운동연합 정부가 송전선로 건설이 추진되는 전국 27개 사업 현장에서 입지 선정 절차를 한 달간 보류하기로 했다고 시민단체 환경운동연합이 11일 밝혔다. 환경운동연합에 따르면 김성환",
+      "topics": [
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-11T07:17:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260511024193720",
+      "collectedAt": "2026-05-12T08:11:28.948Z"
+    },
+    {
+      "id": "297a1c05-0f9d-44c1-9c4f-65833d2ba62d",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[이슈] 통합발전사 한전에서 분리되면, 한수원은?",
+      "titleOriginal": null,
+      "summary": "발전공사법안 6월 국회 통과 예상, 한전과 대등한 지위로 격상\n2001년 구조개편 이후 ‘한전-발전자회사 종속’ 구조 근간 흔들\n한수원 독립 요구 나올 수 있지만, 협력 강화 흐름상 쉽지 않을 듯\n발전5사 노조 “한수원 수력 등 재생에너지 통합발전사로 이관해야”\n손양훈 교수 “ 전력산업 어떤 구조로 갈 것인가 질문으로 이어져” 정부가 발전자회사 통합을 검토하면서 전력산업 구조 전반에 '지각변동' 가능성이 커지고 있다. 단순한 조직 개편을 넘어 한국전력공사와 통합발전사, 한국수력원자력 간 권한과 역할 재편, 나아가 원전·재생에너지 사",
+      "topics": [
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-11T05:10:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260511021172061",
+      "collectedAt": "2026-05-12T08:11:28.948Z"
+    },
+    {
+      "id": "b6288140-5a3e-4e1a-83b4-2a754cf4ded1",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[EE칼럼] 태양광 발전, 민간 투자를 활성화하려면",
+      "titleOriginal": null,
+      "summary": "신동한 시민발전이종협동조합연합회 정책위원 ▲신동한 시민발전이종협동조합연합회 이사 중동전쟁이 장기화하고 있는 요즘 에너지 안보와 자립에 대한 관심이 높아지고 있다. 한때 우리 경제에 위기 경보를 울리며 배럴 당 150달러까지 올라갔던 두바이유가는 아직도 100달러를 상회하고 있다. 수입 유가가 연평균 86달러이던 2023년 우리나라 에너지 수입액은 250조원을 넘었다. 다행히 지난해에는 유가가 60달러대에서 유지되어 연간 수입액은 170조원 수준이었다. 지금과 같은 상태가 지속되면 올해는 250조원을 넘어 300조원에 이를 수도 있다",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-11T01:59:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260511022397560",
+      "collectedAt": "2026-05-12T08:11:28.948Z"
+    }
+  ]
+}

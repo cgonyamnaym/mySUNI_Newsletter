@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Pretendard (9 weights, local OTF) ── */
+@font-face { font-family: "Pretendard"; font-weight: 100; font-display: swap; src: url("/fonts/Pretendard-Thin.otf") format("opentype"); }
+@font-face { font-family: "Pretendard"; font-weight: 200; font-display: swap; src: url("/fonts/Pretendard-ExtraLight.otf") format("opentype"); }
+@font-face { font-family: "Pretendard"; font-weight: 300; font-display: swap; src: url("/fonts/Pretendard-Light.otf") format("opentype"); }
+@font-face { font-family: "Pretendard"; font-weight: 400; font-display: swap; src: url("/fonts/Pretendard-Regular.otf") format("opentype"); }
+@font-face { font-family: "Pretendard"; font-weight: 500; font-display: swap; src: url("/fonts/Pretendard-Medium.otf") format("opentype"); }
+@font-face { font-family: "Pretendard"; font-weight: 600; font-display: swap; src: url("/fonts/Pretendard-SemiBold.otf") format("opentype"); }
+@font-face { font-family: "Pretendard"; font-weight: 700; font-display: swap; src: url("/fonts/Pretendard-Bold.otf") format("opentype"); }
+@font-face { font-family: "Pretendard"; font-weight: 800; font-display: swap; src: url("/fonts/Pretendard-ExtraBold.otf") format("opentype"); }
+@font-face { font-family: "Pretendard"; font-weight: 900; font-display: swap; src: url("/fonts/Pretendard-Black.otf") format("opentype"); }
+
+/* ── Wanted Design System — Core Tokens ── */
+:root {
+  --font-sans: "Pretendard", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", system-ui, sans-serif;
+  --font-mono: "SF Mono", "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+
+  /* Atomic */
+  --c-black:    rgb(0,0,0);
+  --c-white:    rgb(255,255,255);
+  --c-gray-50:  rgb(247,247,248);
+  --c-gray-100: rgb(244,244,245);
+  --c-gray-200: rgb(219,220,223);
+  --c-gray-300: rgb(194,196,200);
+  --c-gray-400: rgb(174,176,182);
+  --c-gray-500: rgb(152,155,162);
+  --c-gray-600: rgb(112,115,124);
+  --c-gray-700: rgb(55,56,60);
+  --c-gray-800: rgb(46,47,51);
+  --c-gray-900: rgb(27,28,30);
+  --c-gray-950: rgb(23,23,25);
+  --c-blue-50:    rgb(234,242,254);
+  --c-blue-300:   rgb(51,133,255);
+  --c-blue-500:   rgb(0,102,255);
+  --c-blue-600:   rgb(0,94,235);
+  --c-violet-50:  rgb(240,236,254);
+  --c-violet-500: rgb(151,71,255);
+  --c-red-500:    rgb(255,66,66);
+  --c-green-500:  rgb(0,191,64);
+  --c-teal-500:   rgb(0,152,178);
+
+  /* Semantic — Light */
+  --bg-base:     var(--c-white);
+  --bg-subtle:   var(--c-gray-50);
+  --bg-muted:    rgba(112,115,124,0.05);
+  --bg-elevated: var(--c-white);
+  --fg-strong:       var(--c-black);
+  --fg-normal:       var(--c-gray-950);
+  --fg-neutral:      rgba(46,47,51,0.88);
+  --fg-alternative:  rgba(55,56,60,0.61);
+  --fg-assistive:    rgba(55,56,60,0.28);
+  --fg-on-primary:   var(--c-white);
+  --fg-primary:      var(--c-blue-500);
+  --bg-primary:      var(--c-blue-500);
+  --bg-primary-hover: var(--c-blue-600);
+  --bg-primary-subtle: var(--c-blue-50);
+  --fg-danger:  var(--c-red-500);
+  --fg-success: var(--c-green-500);
+  --fg-info:    var(--c-teal-500);
+  --fg-accent:  var(--c-violet-500);
+
+  /* Lines */
+  --line-subtle: rgba(112,115,124,0.16);
+  --line-normal: rgba(112,115,124,0.22);
+  --line-strong: rgba(112,115,124,0.40);
+
+  /* Radii */
+  --radius-xs:   4px;
+  --radius-sm:   8px;
+  --radius-md:  12px;
+  --radius-lg:  16px;
+  --radius-xl:  24px;
+  --radius-2xl: 32px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px   rgba(23,23,23,0.06);
+  --shadow-sm: 0 2px 6px   rgba(23,23,23,0.07);
+  --shadow-md: 0 4px 16px  rgba(23,23,23,0.08);
+  --shadow-lg: 0 12px 32px rgba(23,23,23,0.10);
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    color: var(--fg-neutral);
+    background: var(--bg-subtle);
+  }
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.006em;
+  }
+  * { box-sizing: border-box; }
+}

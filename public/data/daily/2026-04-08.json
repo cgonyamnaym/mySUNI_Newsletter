@@ -1,0 +1,177 @@
+{
+  "date": "2026-04-08",
+  "generatedAt": "2026-05-13T08:21:40.684Z",
+  "articleCount": 10,
+  "articles": [
+    {
+      "id": "f6879700-334b-430e-ae2e-80446e9b7f01",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "그린수소 생산단가 2026년 kg당 4달러대 진입 — 상용화 임박",
+      "titleOriginal": null,
+      "summary": "국제에너지기구(IEA) 분석에 따르면 글로벌 그린수소 평균 생산단가가 kg당 4달러대로 낮아졌습니다. 2030년 목표였던 2달러/kg 달성을 위한 투자가 계속 확대되고 있어 수소 경제 활성화 속도가 빨라지고 있습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-08T01:00:00.000Z",
+      "originalUrl": "https://www.energytimes.kr/news/260408001",
+      "collectedAt": "2026-04-08T08:30:00.000Z"
+    },
+    {
+      "id": "16883ad1-7d15-4c3a-946d-2f9214e9757d",
+      "source": "Renewables Now",
+      "sourceId": "renewables-now",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "인도 태양광 용량 300GW 돌파 — 2030년 500GW 목표 순항",
+      "titleOriginal": "India solar capacity crosses 300GW milestone, on track for 500GW by 2030",
+      "summary": "인도의 태양광 누적 설치 용량이 300GW를 초과했습니다. 연방 정부의 PM-KUSUM 농촌 태양광 보급 사업과 기업 PPA 계약 확대가 성장을 이끌고 있으며, 2030년 500GW 목표 달성 가능성이 높아졌습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-08T02:13:00.000Z",
+      "originalUrl": "https://renewablesnow.com/2026/04/08/india-solar-300gw",
+      "collectedAt": "2026-04-08T08:30:00.000Z"
+    },
+    {
+      "id": "44be225c-0161-4588-b209-c2c9064bf20e",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전, 제주 풍력 출력 제한(커텍) 손실 보상 체계 마련",
+      "titleOriginal": null,
+      "summary": "한국전력이 재생에너지 출력 제한으로 인한 발전사업자 손실을 보상하는 계통 유연성 인센티브 체계 초안을 마련했습니다. 제주도를 시범 적용 후 전국으로 확대할 예정입니다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-04-08T03:26:00.000Z",
+      "originalUrl": "https://www.electimes.com/article/260408001",
+      "collectedAt": "2026-04-08T08:30:00.000Z"
+    },
+    {
+      "id": "e1de4cea-0b5c-4878-ae84-e989f2aca221",
+      "source": "BloombergNEF",
+      "sourceId": "bnef",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "글로벌 탄소 크레딧 시장 2026년 300억 달러 규모 전망",
+      "titleOriginal": "Global carbon credit market projected to reach $30B in 2026 amid corporate demand",
+      "summary": "블룸버그NEF는 기업 자발적 탄소 상쇄 수요 확대로 글로벌 탄소 크레딧 시장이 2026년 300억 달러에 달할 것으로 전망했습니다. 고품질 REDD+ 및 청정 기술 크레딧 수요가 가장 빠르게 성장하고 있습니다.",
+      "topics": [
+        "ESG·탄소중립",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-08T04:39:00.000Z",
+      "originalUrl": "https://about.bnef.com/research/2026/carbon-credit-market",
+      "collectedAt": "2026-04-08T08:30:00.000Z"
+    },
+    {
+      "id": "4d12ec4c-b580-42e1-880f-f517a6f35f81",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전력 도매시장 개편안 공개 — 용량요금제 도입 검토",
+      "titleOriginal": null,
+      "summary": "전력거래소가 현행 단일가격(SMP) 중심 도매시장에 용량시장(Capacity Market)을 추가하는 개편안을 공개했습니다. 발전소 건설 투자 유인 확보와 수급 안정성 강화가 목적입니다.",
+      "topics": [
+        "시장·가격 동향",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-04-08T05:52:00.000Z",
+      "originalUrl": "https://www.ekn.kr/article/260408001",
+      "collectedAt": "2026-04-08T08:30:00.000Z"
+    },
+    {
+      "id": "8fee4956-5b5b-4c30-8183-89a3c80bc6e2",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "뉴저지주, 올해 두 번째로 원자력 발전소 건설 금지 조치 해제",
+      "titleOriginal": "New Jersey becomes second state this year to lift its nuclear moratorium",
+      "summary": "미키 셔릴 뉴저지 주지사가 1970년대 이후 유지되던 신규 원전 건설 금지 법안을 폐지하며 원자력 발전 확대 정책을 공식화했습니다. 현재 뉴저지주 전체 전력의 40%와 탄소중립 전력의 80%를 담당하는 살렘 및 호프 크릭 원전 운영사인 PSEG는 이번 법안 개정으로 신규 원전 프로젝트 추진이 가능해졌습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-08T22:52:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/nuclear/new-jersey-lifts-nuclear-moratorium",
+      "collectedAt": "2026-05-06T06:19:35.303Z"
+    },
+    {
+      "id": "8a106730-4cf2-4c5d-9875-06dfd6e1ef8a",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "엑셀 에너지(Xcel Energy) 미네소타, 미국 최초의 유틸리티 소유 가상발전소(VPP) 구축",
+      "titleOriginal": "Xcel Minnesota is building a first-of-its-kind virtual power plant",
+      "summary": "미네소타 공공유틸리티위원회는 엑셀 에너지가 최대 4억 3천만 달러를 투입해 2년 동안 200MW 규모의 배터리를 배치하는 'Capacity*Connect' 프로그램을 승인했습니다. 이는 유틸리티가 직접 고객 현장에 소규모 배터리를 설치 및 운영하여 전력망 투자 비용을 절감하고 분산 에너지 자원의 가치를 평가하는 첫 사례가 될 전망입니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-08T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/virtual-power-plants/xcel-minnesota-first-virtual-power-plant",
+      "collectedAt": "2026-05-06T06:19:35.303Z"
+    },
+    {
+      "id": "6ef5b231-db52-4096-b131-13ba9e1d552c",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "이 프로그램은 비영리 단체가 태양광 도입을 검토할 시간을 갖도록 비용을 지원합니다",
+      "titleOriginal": "This program pays nonprofits to take the time to consider solar",
+      "summary": "매사추세츠주의 SUN 프로그램은 재정적·기술적 지원을 통해 비영리 단체들이 연방 태양광 세액 공제 혜택을 받을 수 있도록 돕고 있습니다. 2025년 1단계 사업에서는 23개 단체가 참여하여 1.5MW 규모의 태양광 설치 프로젝트가 추진되는 성과를 거두었습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-04-08T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/solar/program-pays-nonprofits-consider-solar",
+      "collectedAt": "2026-05-06T06:19:35.303Z"
+    },
+    {
+      "id": "b82d792e-348c-476d-ae0b-e290a9a14d99",
+      "source": "녹색에너지연구원 (IGT)",
+      "sourceId": "igt",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[보도자료] K-패스 혜택 늘렸지만... 지방선 ‘그림의 떡’",
+      "titleOriginal": null,
+      "summary": "[보도자료] K-패스 혜택 늘렸지만... 지방선 ‘그림의 떡’ 2026-04-08 0 184 04.08 09:33 ‘K-패스 이용한 적 있다’ 수도권 40% 안팎... 강원·춘천·전라 20% 밑돌아‘차량 적정 대수 정하고 차량등록 제한’ 주장에 55% 찬성...‘반대’ 절반 수준교통 부문 탄소 감축으로 ‘대중교통 활성화’ 33.7%, ‘전기차 보조금’ 30.2% 지지중동발 에너지 수급 위기로 고유가 상황이 장기화할 것으로 예상되면서 정부가 877억 원을 투입해 K-패스(모두의 카드) 환급률을 6개월 간 최대 30%p(포인트) 상향하",
+      "topics": [],
+      "publishedAt": "2026-04-08T00:00:00.000Z",
+      "originalUrl": "https://igt.or.kr/bbs/board.php?bo_table=m03_03&wr_id=68",
+      "collectedAt": "2026-05-06T06:20:25.361Z"
+    },
+    {
+      "id": "05b80bac-989a-4357-8205-e3c1f0b2ff5a",
+      "source": "녹색에너지연구원 (IGT)",
+      "sourceId": "igt",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[보도자료] 가정용 태양광 보급 확대 시 최대 4.5GW 확보… “에너지 위기 시대, 1가구 1태양광 시작할 때”",
+      "titleOriginal": null,
+      "summary": "[보도자료] 가정용 태양광 보급 확대 시 최대 4.5GW 확보… “에너지 위기 시대, 1가구 1태양광 시작할 때” 2026-04-08 0 276 04.08 09:33 녹색전환연구소 8일 ‘에너지 위기 시대의 생활 인프라’ 이슈브리프 발간가정용 태양광 확대 시나리오별 분석 진행…연간 최대 4.5GW 확보·감축량 최대 265만 톤비용·임차인·ESS 등 구조적 장벽 해소 관건…가정용 태양광 보급 위한 4대 정책 제안 담겨아파트와 단독주택 등에 가정용 태양광 설비 보급 확대에 주력할 경우 최대 4.5GW(기가와트) 규모 재생에너지 설비를 ",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-08T00:00:00.000Z",
+      "originalUrl": "https://igt.or.kr/bbs/board.php?bo_table=m03_03&wr_id=65",
+      "collectedAt": "2026-05-06T06:20:25.361Z"
+    }
+  ]
+}

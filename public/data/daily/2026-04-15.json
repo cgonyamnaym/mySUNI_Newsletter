@@ -1,0 +1,55 @@
+{
+  "date": "2026-04-15",
+  "generatedAt": "2026-05-13T08:26:39.103Z",
+  "articleCount": 3,
+  "articles": [
+    {
+      "id": "4d1ee930-7936-4abd-bdb9-2808894e5fd2",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "조지아 파워, 데이터 센터가 자체 청정 에너지를 조달할 수 있도록 허용",
+      "titleOriginal": "Georgia Power will now let data centers bring their own clean energy",
+      "summary": "조지아 공공서비스위원회는 데이터 센터 등 대규모 전력 소비자가 자체적으로 태양광 및 배터리 프로젝트를 추진할 수 있는 '고객 식별 자원(CIR)' 프로그램을 승인했습니다. 조지아 파워는 데이터 센터 수요 증가에 대응해 향후 5년간 10기가와트 규모의 전력 용량을 확충할 계획이며, 이 중 약 60%는 천연가스 발전소로 구성될 예정입니다.",
+      "topics": [
+        "전력 인프라",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-04-15T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/data-centers/georgia-power-byo-clean-energy",
+      "collectedAt": "2026-05-04T08:00:55.263Z"
+    },
+    {
+      "id": "102025d8-f5ee-47f0-9753-e7bf88f5bd62",
+      "source": "녹색에너지연구원 (IGT)",
+      "sourceId": "igt",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[보도자료] “법적 근거만으로는 부족…기후시민회의, 설계 실패 시 또 하나의 들러리” …녹색전환연구소, 기후시민회의 설계 과제 분석 결과 발표",
+      "titleOriginal": null,
+      "summary": "[보도자료] “법적 근거만으로는 부족…기후시민회의, 설계 실패 시 또 하나의 들러리” …녹색전환연구소, 기후시민회의 설계 과제 분석 결과 발표 2026-04-16 0 163 04.16 09:33 - 녹색전환연구소 16일 이슈브리프 ‘기후시민회의, 어떻게 설계해야 하는가’ 발간 - 시민 100인 숙의 결과, 형식적 참여 반복에 대한 강한 경계… “제안-응답-이행-점검”의 완결 구조 및 실질적 권한 요구- 공식 응답 의무화, 정책 주기와의 연계, 지역 확장 로드맵, 포용적 설계 등 4대 제언 제시- 김주온 기후시민팀 연구원 “기후시민회",
+      "topics": [],
+      "publishedAt": "2026-04-15T15:00:00.000Z",
+      "originalUrl": "https://igt.or.kr/bbs/board.php?bo_table=m03_03&wr_id=70",
+      "collectedAt": "2026-05-04T08:01:20.815Z"
+    },
+    {
+      "id": "e1c484eb-7472-4c08-8dde-4fcac8d8aad8",
+      "source": "녹색에너지연구원 (IGT)",
+      "sourceId": "igt",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[보도자료] “정부 기후목표 달성에 예산 계획 연 20조 미달” …기후재정포럼, ‘배출자 책임·기후부유세’ 등 재정 조달 로드맵 제안",
+      "titleOriginal": null,
+      "summary": "[보도자료] “정부 기후목표 달성에 예산 계획 연 20조 미달” …기후재정포럼, ‘배출자 책임·기후부유세’ 등 재정 조달 로드맵 제안 2026-04-15 0 185 04.15 09:33 - 기후재정포럼, ‘기후재정, 얼마나 필요하고 어떻게 조달해야 하는가’ 보고서 15일 발간- 현재 기후재정 목표 연 35조원…정부 공언 목표 달성 위해서는 연 54조~58조원 필요 - 배출권거래제 개혁·탄소세·부유세·구조조정·국채… 기후재정 조달 원칙 및 수단 제시 - 최기원 경제전환팀장 “연간 국방비 수준의 예산 기후위기 대응에 투입할 국가적 결단",
+      "topics": [],
+      "publishedAt": "2026-04-15T00:00:00.000Z",
+      "originalUrl": "https://igt.or.kr/bbs/board.php?bo_table=m03_03&wr_id=69",
+      "collectedAt": "2026-05-06T06:20:25.361Z"
+    }
+  ]
+}

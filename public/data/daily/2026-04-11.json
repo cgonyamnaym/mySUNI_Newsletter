@@ -1,0 +1,74 @@
+{
+  "date": "2026-04-11",
+  "generatedAt": "2026-04-11T08:30:00.000Z",
+  "articleCount": 4,
+  "articles": [
+    {
+      "id": "659e6fb1-f2c8-49af-87c3-edb2be8be8a4",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "부유식 해상 태양광 시범 단지 운영 성과 공개 — 생산성 육상 대비 92%",
+      "titleOriginal": "Floating offshore solar pilot reports 92% productivity vs. land-based installation",
+      "summary": "네덜란드 TNO 연구소가 북해 부유식 해상 태양광 시범 단지의 1년 운영 결과를 공개했습니다. 일사량·냉각 효과를 감안한 실질 생산성이 육상 설비의 92%로, 상업적 타당성이 확인됐습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-11T01:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/04/11/floating-offshore-solar-pilot",
+      "collectedAt": "2026-04-11T08:30:00.000Z"
+    },
+    {
+      "id": "816ea601-b73b-4d0f-8425-711d9285859b",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "국내 전기차 충전 인프라 50만 기 돌파 — 급속 비중 30%로 확대",
+      "titleOriginal": null,
+      "summary": "국내 전기차 충전소 누적 설치 수가 50만 기를 넘어섰습니다. 급속 충전기 비중이 30%로 늘어났으며, 고속도로 휴게소와 아파트 단지 급속 충전망 확충이 전력 수요 분산에 기여하고 있습니다.",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-04-11T02:13:00.000Z",
+      "originalUrl": "https://www.ekn.kr/article/260411001",
+      "collectedAt": "2026-04-11T08:30:00.000Z"
+    },
+    {
+      "id": "8c7e9523-af00-4bab-b58c-09f487140423",
+      "source": "IRENA",
+      "sourceId": "irena",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "아프리카 에너지 전환 투자 보고서 — 2030년까지 연 250억 달러 필요",
+      "titleOriginal": "Africa energy transition investment report: $25B per year needed through 2030",
+      "summary": "IRENA 보고서는 아프리카 대륙의 에너지 전환 가속화를 위해 2030년까지 연 250억 달러의 투자가 필요하다고 분석했습니다. 현재 투자 수준의 3배로, 기후 재원 확충과 민간 투자 유치가 핵심 과제입니다.",
+      "topics": [
+        "시장·가격 동향",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-04-11T03:26:00.000Z",
+      "originalUrl": "https://www.irena.org/publications/2026/africa-energy-transition",
+      "collectedAt": "2026-04-11T08:30:00.000Z"
+    },
+    {
+      "id": "a87d1131-d47c-4c0d-9853-1546a5f60519",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "기업 PPA 시장 확대 — 올해 신규 계약 1.5TWh 전망",
+      "titleOriginal": null,
+      "summary": "기업 직접 전력구매계약(Corporate PPA) 시장이 빠르게 성장하면서 2026년 신규 계약 규모가 1.5TWh를 넘어설 전망입니다. 중견기업까지 PPA 시장에 진입하면서 재생에너지 투자 유인이 다각화되고 있습니다.",
+      "topics": [
+        "ESG·탄소중립",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-11T04:39:00.000Z",
+      "originalUrl": "https://www.e2news.com/news/260411001",
+      "collectedAt": "2026-04-11T08:30:00.000Z"
+    }
+  ]
+}

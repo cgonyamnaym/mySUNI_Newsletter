@@ -1,0 +1,74 @@
+{
+  "date": "2026-04-03",
+  "generatedAt": "2026-04-03T08:30:00.000Z",
+  "articleCount": 4,
+  "articles": [
+    {
+      "id": "a708f40b-5da4-4168-92ef-a03e91b93440",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "분산에너지 자원관리시스템(DERMS) 구축 사업 공모 시작",
+      "titleOriginal": null,
+      "summary": "산업통상자원부가 DERMS 실증 사업 공모를 시작했습니다. 총 사업비 500억 원 규모로 VPP와 ESS를 통합 운영하는 플랫폼 구축이 목표이며, 2027년까지 실증을 완료할 계획입니다.",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-04-03T01:00:00.000Z",
+      "originalUrl": "https://www.todayenergy.kr/article/260403001",
+      "collectedAt": "2026-04-03T08:30:00.000Z"
+    },
+    {
+      "id": "fe001b5b-6fe4-42c4-af34-f8c185919ce4",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "제11차 전력수급기본계획 최종안 확정 — 원전·재생에너지 조화 강조",
+      "titleOriginal": null,
+      "summary": "산업부가 제11차 전력수급기본계획을 확정했습니다. 2038년까지 원전 비중 35%, 재생에너지 비중 30%를 목표로 하며 LNG 비중은 점진적으로 축소할 계획입니다. 무탄소전원 중심 전원 믹스 전환이 핵심입니다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-03T02:13:00.000Z",
+      "originalUrl": "https://www.ekn.kr/article/260403001",
+      "collectedAt": "2026-04-03T08:30:00.000Z"
+    },
+    {
+      "id": "981a4633-e43b-4f9a-816b-25e5b9cffcf6",
+      "source": "IRENA",
+      "sourceId": "irena",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "IRENA, 재생에너지 균등화발전비용 보고서 — 태양광 LCOE 화력 대비 40% 저렴",
+      "titleOriginal": "IRENA renewable power generation costs report: Solar LCOE now 40% cheaper than fossil fuels",
+      "summary": "IRENA가 발표한 2025년 재생에너지 발전 비용 보고서에 따르면, 태양광 균등화발전비용(LCOE)이 화력발전 대비 평균 40% 저렴해졌습니다. 재생에너지의 경제성 우위가 글로벌 에너지 전환을 가속화할 전망입니다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-03T03:26:00.000Z",
+      "originalUrl": "https://www.irena.org/publications/2026/renewable-power-costs-2025",
+      "collectedAt": "2026-04-03T08:30:00.000Z"
+    },
+    {
+      "id": "8372ab29-a403-4710-9689-89629feb5350",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "국내 전력 도매가격 1분기 MWh당 평균 89달러 — 재생에너지 증가로 하향 안정",
+      "titleOriginal": null,
+      "summary": "2026년 1분기 한국 전력시장 계통한계가격(SMP) 평균이 MWh당 89달러로 전년 동기 대비 12% 하락했습니다. 태양광 설치 증가로 낮 시간대 공급 여유가 확대된 것이 주요 원인으로 분석됩니다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-03T04:39:00.000Z",
+      "originalUrl": "https://www.ekn.kr/article/260403002",
+      "collectedAt": "2026-04-03T08:30:00.000Z"
+    }
+  ]
+}

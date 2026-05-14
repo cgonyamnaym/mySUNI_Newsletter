@@ -1,0 +1,91 @@
+{
+  "date": "2026-04-07",
+  "generatedAt": "2026-04-07T08:30:00.000Z",
+  "articleCount": 5,
+  "articles": [
+    {
+      "id": "788c9a0c-b916-4295-9760-0ea6cb0de435",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "해상풍력 3.0GW 추가 허가 — 서남해권 집중 개발",
+      "titleOriginal": null,
+      "summary": "정부가 서남해 해상풍력 사업지 3.0GW에 대한 발전 허가를 승인했습니다. 총 사업비 약 15조 원 규모로, 2030년까지 단계적으로 준공할 예정입니다. 국내 풍력 산업 공급망 강화 효과도 기대됩니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-04-07T01:00:00.000Z",
+      "originalUrl": "https://www.e2news.com/news/260407001",
+      "collectedAt": "2026-04-07T08:30:00.000Z"
+    },
+    {
+      "id": "511371dc-4914-4e21-9535-02189be69760",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "삼성전자·SK하이닉스, RE100 100% 달성 선언 — 반도체 업계 선도",
+      "titleOriginal": null,
+      "summary": "삼성전자와 SK하이닉스가 국내 사업장 전력 100%를 재생에너지로 전환했다고 선언했습니다. 양사 합산 재생에너지 구매량은 약 15TWh로, 국내 기업 RE100 이행에서 선도적 역할을 하고 있습니다.",
+      "topics": [
+        "ESG·탄소중립",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-04-07T02:13:00.000Z",
+      "originalUrl": "https://www.energytimes.kr/news/260407001",
+      "collectedAt": "2026-04-07T08:30:00.000Z"
+    },
+    {
+      "id": "2cc51b30-0612-4795-aaff-145c258b306f",
+      "source": "전자신문 (Energy)",
+      "sourceId": "etnews",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "AI 기반 전력 수요 예측 시스템 오차율 1% 미만 달성",
+      "titleOriginal": null,
+      "summary": "한전KDN과 카이스트 공동 연구팀이 AI 딥러닝 기반 전력 수요 예측 시스템의 단기 예측 오차율을 1% 미만으로 줄이는 데 성공했습니다. 기상 변수 200여 개와 소비 패턴 데이터를 결합한 결과로, 수급 안정에 기여할 전망입니다.",
+      "topics": [
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-04-07T03:26:00.000Z",
+      "originalUrl": "https://www.etnews.com/news/260407001",
+      "collectedAt": "2026-04-07T08:30:00.000Z"
+    },
+    {
+      "id": "f930f1a4-6678-4239-a8f2-8ee55f51bedc",
+      "source": "Reuters Energy",
+      "sourceId": "reuters-energy",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "글로벌 배터리 공급망 재편 — 미국·유럽 자국 생산 가속화",
+      "titleOriginal": "Global battery supply chain realignment accelerates as US and Europe push local production",
+      "summary": "IRA와 NZIA 보조금 경쟁으로 미국과 유럽 내 배터리 셀 생산 공장 건설이 급속히 늘고 있습니다. 아시아 의존도를 줄이려는 정책 압력이 국내 배터리 업체의 현지 투자를 촉진하고 있습니다.",
+      "topics": [
+        "시장·가격 동향",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-04-07T04:39:00.000Z",
+      "originalUrl": "https://www.reuters.com/business/energy/battery-supply-chain-realignment-2026",
+      "collectedAt": "2026-04-07T08:30:00.000Z"
+    },
+    {
+      "id": "7ea780c8-8478-4b07-9b97-0982803a1622",
+      "source": "뉴스1 (Energy)",
+      "sourceId": "news1-energy",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "탄소중립 기본법 시행령 일부 개정 — 배출권거래제 운영 기준 강화",
+      "titleOriginal": null,
+      "summary": "탄소중립 기본법 시행령 개정으로 배출권거래제 3기(2026~2030) 운영 기준이 강화됐습니다. 무상할당 비율이 현행 90%에서 80%로 낮아지고 유상할당 수익의 절반을 저탄소 R&D에 재투자하도록 의무화됐습니다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-04-07T05:52:00.000Z",
+      "originalUrl": "https://www.news1.kr/energy/260407001",
+      "collectedAt": "2026-04-07T08:30:00.000Z"
+    }
+  ]
+}

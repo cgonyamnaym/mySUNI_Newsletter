@@ -1,0 +1,41 @@
+{
+  "date": "2026-04-06",
+  "generatedAt": "2026-05-13T08:17:39.571Z",
+  "articleCount": 2,
+  "articles": [
+    {
+      "id": "d016d9c9-121c-4716-b8a8-bf2cc11d9f30",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "일리노이주에서 커뮤니티 태양광 혁신이 이루어진 과정",
+      "titleOriginal": "How a community solar breakthrough took shape in Illinois",
+      "summary": "일리노이주의 전력회사 ComEd는 유연한 계통 연결 방식을 통해 50MW 이상의 커뮤니티 태양광 프로젝트를 신속하게 승인하며 전력망 업그레이드 비용을 절감하는 성과를 거두었습니다. ComEd는 규제 당국의 중재 하에 태양광 개발사 및 환경 단체와 협력하여 2031년까지 총 650MW의 분산형 에너지 용량을 확보하는 것을 목표로 하고 있습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-06T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/transmission/community-solar-breakthrough-illinois",
+      "collectedAt": "2026-05-06T06:19:35.303Z"
+    },
+    {
+      "id": "d3b3758c-5945-4ed3-956a-6394153f31ec",
+      "source": "녹색에너지연구원 (IGT)",
+      "sourceId": "igt",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[보도자료] 41개 지표 중 33개 기준치 미달…서울시 지속가능성 ‘경고등’",
+      "titleOriginal": null,
+      "summary": "녹색전환연구소가 '도넛 모델'을 적용해 분석한 결과, 서울시의 생태 및 사회 지표 41개 중 33개가 기준치에 미달하며 지속가능성에 적신호가 켜졌다. 특히 태양광 보급 목표 달성률이 13%에 그치고 그린리모델링 집행률이 2%에 머무는 등 기후·에너지 정책의 실행력이 크게 부족한 것으로 나타났다.",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-04-06T00:00:00.000Z",
+      "originalUrl": "https://igt.or.kr/bbs/board.php?bo_table=m03_03&wr_id=64",
+      "collectedAt": "2026-05-06T06:20:25.361Z"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<title>Wanted Mobile — UI Kit</title>
+<link rel="stylesheet" href="../../colors_and_type.css" />
+<style>
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: #E8EAEE;
+    min-height: 100vh;
+    display: flex; align-items: center; justify-content: center;
+    padding: 40px 20px;
+    font-family: var(--font-sans);
+  }
+  #root { display: flex; justify-content: center; }
+  /* hide scrollbars inside the phone */
+  ::-webkit-scrollbar { display: none; }
+</style>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+<script type="text/babel" src="ios-frame.jsx"></script>
+<script type="text/babel" src="WantedComponents.jsx"></script>
+<script type="text/babel" src="WantedScreens.jsx"></script>
+</head>
+<body>
+<div id="root"></div>
+
+<script type="text/babel">
+function App() {
+  const [screen, setScreen] = React.useState('home');
+  const [job, setJob] = React.useState(null);
+  const [tab, setTab] = React.useState('home');
+
+  const go = (s, j) => {
+    if (j) setJob(j);
+    setScreen(s);
+  };
+
+  let content;
+  if (screen === 'home') {
+    if (tab === 'match') content = <MatchScreen />;
+    else content = <HomeScreen go={go} />;
+  } else if (screen === 'detail') {
+    content = <DetailScreen job={job} back={() => setScreen('home')} />;
+  } else if (screen === 'apply') {
+    content = <ApplyScreen job={job} back={() => setScreen('detail')} done={() => setScreen('success')} />;
+  } else if (screen === 'success') {
+    content = <SuccessScreen back={() => { setScreen('home'); setTab('home'); }} />;
+  }
+
+  // Inject "apply" entry point: tapping primary button on detail goes to apply
+  React.useEffect(() => {
+    if (screen !== 'detail') return;
+    const handler = (e) => {
+      const btn = e.target.closest('button');
+      if (btn && btn.textContent?.trim() === '지원하기') {
+        e.stopPropagation();
+        setScreen('apply');
+      }
+    };
+    document.addEventListener('click', handler, true);
+    return () => document.removeEventListener('click', handler, true);
+  }, [screen]);
+
+  return (
+    <IOSDevice width={390} height={844}>
+      <div style={{
+        position: 'absolute', inset: 0,
+        display: 'flex', flexDirection: 'column',
+        paddingTop: 47, /* under status bar */
+        background: '#F7F7F8',
+      }}>
+        <div style={{ flex: 1, overflow: 'auto', position: 'relative' }}
+          data-screen-label={`01 ${screen}`}>
+          {content}
+        </div>
+        <WTabBar active={tab} onChange={(t) => {
+          setTab(t);
+          setScreen('home');
+        }} />
+      </div>
+    </IOSDevice>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>

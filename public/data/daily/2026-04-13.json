@@ -1,0 +1,58 @@
+{
+  "date": "2026-04-13",
+  "generatedAt": "2026-05-13T08:26:23.395Z",
+  "articleCount": 3,
+  "articles": [
+    {
+      "id": "6b429582-5df7-4201-9f1e-9126f12192d4",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "캘리포니아주, 저렴한 주택 내 전기차 충전 시설 의무화 축소 법안 발의",
+      "titleOriginal": "California bill would limit EV-charging access in affordable housing",
+      "summary": "캘리포니아주 의회는 개발 비용 절감을 위해 저렴한 주택 건설 시 전기차 충전 시설 설치 의무를 완화하는 법안(AB 2748)을 검토 중입니다. 이에 대해 전국충전접근연합(National Charging Access Coalition) 등은 저소득층의 전기차 전환 기회와 비용 절감 혜택이 저해될 것을 우려하며 반대하고 있습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-13T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/electric-vehicles/california-limit-ev-charging-access",
+      "collectedAt": "2026-05-06T06:19:35.303Z"
+    },
+    {
+      "id": "2e64a1d6-417c-43b7-b38b-d4c30be4f80a",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "이 오하이오주 카운티는 풍력 및 태양광 발전을 금지했습니다. 유권자들이 이를 뒤집을까요?",
+      "titleOriginal": "This Ohio county put a ban on wind and solar. Will voters reverse it?",
+      "summary": "오하이오주 리치랜드 카운티는 18개 타운십 중 11곳에서 대규모 재생에너지 프로젝트를 금지했으나, 이에 반발한 '리치랜드 카운티 재산권 및 일자리 창출을 위한 시민 모임'이 주민 투표를 성사시켰습니다. 2025년 6월 기준 전국적으로 재생에너지 제한 조치가 16% 증가한 가운데, 이번 5월 5일 투표 결과는 지역의 에너지 믹스 정책에 중대한 영향을 미칠 전망입니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-04-13T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/clean-energy/ohio-county-banned-wind-solar",
+      "collectedAt": "2026-05-06T06:19:35.303Z"
+    },
+    {
+      "id": "09767913-fadc-4cff-8cc7-cd1b31f6ffd0",
+      "source": "녹색에너지연구원 (IGT)",
+      "sourceId": "igt",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[보도자료] “전환금융 ‘이름표’만 있고, ‘전환’은 없어”… 녹색전환연구소, 한국 전환금융 가이드라인 국제 비교 분석 결과 발표",
+      "titleOriginal": null,
+      "summary": "[보도자료] “전환금융 ‘이름표’만 있고, ‘전환’은 없어”… 녹색전환연구소, 한국 전환금융 가이드라인 국제 비교 분석 결과 발표 2026-04-13 0 200 04.13 09:33 녹색전환연구소, ‘한국 전환금융, 녹색으로 향하는가’ 이슈브리프 13일 발간EU·일본·영국·아세안 비교 결과, 한국 전환금융 형식적 전환 의지 선언만으로 전환금융 수혜 자격 충족 가능 구조 진입·검증·공시·제재 4단계 전반에 걸쳐 완화된 기준 누적…실질적 탈탄소 담보 어려워업종별 감축 로드맵 거버넌스·외부 검증 의무화·공시 체계 구체화·탄소고착 방지 일",
+      "topics": [],
+      "publishedAt": "2026-04-13T00:00:00.000Z",
+      "originalUrl": "https://igt.or.kr/bbs/board.php?bo_table=m03_03&wr_id=67",
+      "collectedAt": "2026-05-06T06:20:25.361Z"
+    }
+  ]
+}

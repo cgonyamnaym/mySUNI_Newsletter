@@ -1,0 +1,73 @@
+{
+  "date": "2026-04-01",
+  "generatedAt": "2026-05-12T09:37:36.006Z",
+  "articleCount": 4,
+  "articles": [
+    {
+      "id": "0c757380-2e3f-474e-943c-b675e0570093",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전, 2030년까지 송배전망 23조 원 투자 계획 발표",
+      "titleOriginal": null,
+      "summary": "한국전력이 2030년까지 노후 송배전 설비 교체와 재생에너지 연계 망 확충에 23조 원을 투자하는 계획을 발표했습니다. 특히 호남권과 서해안 해상풍력 연계 선로 구축에 집중 투자할 예정입니다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-01T01:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/article/260401001",
+      "collectedAt": "2026-04-01T08:30:00.000Z"
+    },
+    {
+      "id": "0e5d2429-5064-44bd-8367-383bd61bece0",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한수원, SMR 최초 설계 인가 신청 — 2035년 상용화 목표",
+      "titleOriginal": null,
+      "summary": "한국수력원자력이 국내 최초로 소형모듈원전(SMR) 표준설계 인가를 원자력안전위원회에 신청했습니다. 전기출력 170MW급으로, 2035년 상용화를 목표로 하며 수출 시장도 동시에 겨냥하고 있습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-04-01T02:13:00.000Z",
+      "originalUrl": "https://www.ekn.kr/article/260401001",
+      "collectedAt": "2026-04-01T08:30:00.000Z"
+    },
+    {
+      "id": "039b15cb-907a-4ddd-8a71-9bf96f689977",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "VPP 운영 사업자 15개사 선정 — 가상발전소 시대 본격화",
+      "titleOriginal": null,
+      "summary": "전력거래소가 VPP(가상발전소) 상업 운영 사업자 15개사를 최종 선정했습니다. ESS·태양광·수요 자원을 통합 제어하여 전력 시장에 참여하는 구조로, 총 용량은 약 500MW입니다.",
+      "topics": [
+        "운영 최적화",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-01T03:26:00.000Z",
+      "originalUrl": "https://www.todayenergy.kr/article/260401001",
+      "collectedAt": "2026-04-01T08:30:00.000Z"
+    },
+    {
+      "id": "37b9e0da-677a-4cf4-9f9a-6457372c904a",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "국제 LNG 현물가격 MMBtu당 8달러대 안정 — 유럽 재고 회복 영향",
+      "titleOriginal": null,
+      "summary": "유럽의 LNG 저장 재고가 동절기 이후 빠르게 회복되면서 국제 LNG 현물 가격이 MMBtu당 8달러대로 안정됐습니다. 국내 발전용 LNG 비용 부담이 완화될 것으로 기대되나 여름철 재상승 가능성도 있습니다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-01T05:52:00.000Z",
+      "originalUrl": "https://www.electimes.com/article/260401002",
+      "collectedAt": "2026-04-01T08:30:00.000Z"
+    }
+  ]
+}

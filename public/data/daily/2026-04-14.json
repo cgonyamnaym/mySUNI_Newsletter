@@ -1,0 +1,106 @@
+{
+  "date": "2026-04-14",
+  "generatedAt": "2026-05-13T06:47:01.261Z",
+  "articleCount": 6,
+  "articles": [
+    {
+      "id": "feaf723a-e087-49b2-b6b6-c5e8fbc92567",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "국내 태양광 누적 설치 30GW 돌파 — 세계 7위 규모",
+      "titleOriginal": null,
+      "summary": "국내 태양광 누적 설치 용량이 30GW를 돌파하며 세계 7위에 올랐습니다. 2030년 목표치인 45GW 달성을 위해 연 3GW 이상의 신규 설치가 필요하며, 대규모 영농형 태양광이 성장을 주도하고 있습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-14T01:00:00.000Z",
+      "originalUrl": "https://www.ekn.kr/article/260414001",
+      "collectedAt": "2026-04-14T08:30:00.000Z"
+    },
+    {
+      "id": "70eed80e-44bf-4e80-929c-6994fcc88b37",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "분산에너지 활성화 특별법 시행령 입법예고 — VPP 연계 기준 확정",
+      "titleOriginal": null,
+      "summary": "산업통상자원부가 분산에너지 활성화 특별법 시행령 제정안을 입법예고했습니다. VPP 운영 기준과 분산자원 계통 연계 절차가 구체화돼 업계의 사업 계획 수립에 도움이 될 것으로 기대됩니다.",
+      "topics": [
+        "정책·규제",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-14T02:13:00.000Z",
+      "originalUrl": "https://www.electimes.com/article/260414001",
+      "collectedAt": "2026-04-14T08:30:00.000Z"
+    },
+    {
+      "id": "be8a6fe0-f124-4a4a-ab0e-12c138c6f4e4",
+      "source": "Reuters Energy",
+      "sourceId": "reuters-energy",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "유럽 에너지 저장 시장 2030년 200GWh 전망 — BNEF 보고서",
+      "titleOriginal": "European energy storage market to reach 200GWh by 2030, BNEF forecasts",
+      "summary": "블룸버그NEF가 유럽 에너지 저장 시장이 2030년 200GWh에 달할 것으로 예측했습니다. 국내 배터리 기업들의 유럽 시장 공략 기회가 확대될 전망이며, 현지 생산 요건 충족이 핵심 과제입니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-14T03:26:00.000Z",
+      "originalUrl": "https://www.reuters.com/business/energy/europe-storage-200gwh-2030",
+      "collectedAt": "2026-04-14T08:30:00.000Z"
+    },
+    {
+      "id": "70d6678a-3eff-411e-97a8-07aefb6ce5f5",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "봄철 전력 수급 안정 — 한전 수요 반응 인센티브 역대 최고 수준",
+      "titleOriginal": null,
+      "summary": "봄철 냉방 수요 증가에 앞서 한전이 산업용 대형 고객 대상 수요 반응 프로그램 인센티브를 역대 최고 수준으로 책정했습니다. 참여 기업은 피크 감축 1kW당 최대 5만 원을 받을 수 있습니다.",
+      "topics": [
+        "운영 최적화",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-14T04:39:00.000Z",
+      "originalUrl": "https://www.energytimes.kr/news/260414001",
+      "collectedAt": "2026-04-14T08:30:00.000Z"
+    },
+    {
+      "id": "c713d081-bcdc-446a-9df8-fb717c2539fa",
+      "source": "BloombergNEF",
+      "sourceId": "bnef",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "전기화 가속 — 2026년 글로벌 전력 소비 역대 최대 전망",
+      "titleOriginal": "Electrification surge: 2026 global electricity demand set for record high",
+      "summary": "블룸버그NEF는 데이터센터·전기차·히트펌프 수요 급증으로 2026년 글로벌 전력 소비가 역대 최대치를 기록할 것으로 전망했습니다. 재생에너지 발전 비중도 처음으로 40%를 돌파할 것으로 예측됩니다.",
+      "topics": [
+        "시장·가격 동향",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-04-14T06:05:00.000Z",
+      "originalUrl": "https://about.bnef.com/research/2026/global-electricity-demand",
+      "collectedAt": "2026-04-14T08:30:00.000Z"
+    },
+    {
+      "id": "ba74dabc-4682-4a28-8bfd-e6f5ec2ea897",
+      "source": "녹색에너지연구원 (IGT)",
+      "sourceId": "igt",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[보도자료] “정부 기후목표 달성에 예산 계획 연 20조 미달” …기후재정포럼, ‘배출자 책임·기후부유세’ 등 재정 조달 로드맵 제안",
+      "titleOriginal": null,
+      "summary": "[보도자료] “정부 기후목표 달성에 예산 계획 연 20조 미달” …기후재정포럼, ‘배출자 책임·기후부유세’ 등 재정 조달 로드맵 제안 2026-04-15 0 184 04.15 09:33 - 기후재정포럼, ‘기후재정, 얼마나 필요하고 어떻게 조달해야 하는가’ 보고서 15일 발간- 현재 기후재정 목표 연 35조원…정부 공언 목표 달성 위해서는 연 54조~58조원 필요 - 배출권거래제 개혁·탄소세·부유세·구조조정·국채… 기후재정 조달 원칙 및 수단 제시 - 최기원 경제전환팀장 “연간 국방비 수준의 예산 기후위기 대응에 투입할 국가적 결단",
+      "topics": [],
+      "publishedAt": "2026-04-14T15:00:00.000Z",
+      "originalUrl": "https://igt.or.kr/bbs/board.php?bo_table=m03_03&wr_id=69",
+      "collectedAt": "2026-05-04T08:01:20.815Z"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Inputs</title>
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  body{margin:0;padding:28px;background:var(--bg-base);display:flex;flex-direction:column;gap:14px;max-width:420px}
+  .f{display:flex;flex-direction:column;gap:6px}
+  label{font:700 13px/1 var(--font-sans);color:var(--fg-strong);letter-spacing:.019em}
+  input,textarea{font:500 16px/1.4 var(--font-sans);letter-spacing:.006em;border:1px solid rgba(112,115,124,.22);background:#fff;color:#171719;padding:13px 14px;border-radius:12px;outline:none}
+  input:focus{border-color:#0066FF;box-shadow:0 0 0 3px rgba(0,102,255,.12)}
+  .err input{border-color:#FF4242;box-shadow:0 0 0 3px rgba(255,66,66,.12)}
+  .help{font:500 12px/1.3 var(--font-sans);color:var(--fg-alternative)}
+  .err .help{color:#FF4242}
+</style></head><body>
+  <div class="f"><label>이메일</label><input value="hello@wanted.co.kr" /><span class="help">로그인에 사용됩니다</span></div>
+  <div class="f"><label>Focus 상태</label><input placeholder="검색어를 입력하세요" autofocus /></div>
+  <div class="f err"><label>에러 상태</label><input value="wrong-password" /><span class="help">비밀번호가 일치하지 않습니다.</span></div>
+</body></html>

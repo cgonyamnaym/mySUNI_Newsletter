@@ -1,0 +1,574 @@
+{
+  "date": "2026-04-30",
+  "generatedAt": "2026-05-13T08:55:40.193Z",
+  "articleCount": 33,
+  "articles": [
+    {
+      "id": "b0a65427-e464-4894-b23a-abde7362e563",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "캘리포니아 주의 두 법안, 유틸리티 기업의 전력망 효율성 제고 압박",
+      "titleOriginal": "Two California bills would push utilities to get more out of their grids",
+      "summary": "캘리포니아 주 의회는 PG&E, Southern California Edison, San Diego Gas & Electric 등 3대 전력회사가 인프라 확장 대신 가상 발전소와 스마트 그리드 기술을 활용해 전력망 효율을 높이도록 강제하는 법안(AB 1975, SB 905)을 추진 중입니다. 이번 법안은 치솟는 전기 요금을 억제하기 위해 기존 전력망의 유휴 용량을 최적화하고 수요 관리 프로그램을 도입하는 것을 핵심 목표로 합니다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-30T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/distributed-energy-resources/two-california-bills-utilities-grids",
+      "collectedAt": "2026-05-04T08:00:55.262Z"
+    },
+    {
+      "id": "ea71fbfe-45dc-46a3-955e-9ee3b0382300",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "이탈리아, 6,000만 유로 규모 탈세 및 3,300만 유로 보조금 사기 혐의로 태양광 기업 조사",
+      "titleOriginal": "Italy probes PV companies over €60 million tax evasion and €33 million subsidy fraud",
+      "summary": "이탈리아 재무경찰(GDF)은 독일 기업이 소유한 7개 태양광 업체가 약 6,000만 유로의 세금을 탈루하고 에너지 서비스 관리공단(GSE)으로부터 3,300만 유로의 보조금을 부정 수급한 혐의로 조사 중이다. 해당 기업들은 세금 감면을 위한 서류상 주소 이전, 부당한 대출 이자 비용 처리 및 태양광 발전소 허위 분할을 통한 보조금 편취 등의 수법을 사용한 것으로 드러났다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-04-30T14:12:26.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/04/30/italy-probes-pv-companies-over-e60-million-tax-evasion-and-e33-million-subsidy-fraud/",
+      "collectedAt": "2026-05-04T08:00:56.579Z"
+    },
+    {
+      "id": "080f9b89-5da1-4248-8a2b-7b4caacfb927",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "독일 태양광 모듈 제조사 Soluxtec, 파산 신청",
+      "titleOriginal": "German solar module maker Soluxtec files for insolvency",
+      "summary": "15년간 태양광 모듈을 제조해 온 독일 기업 Soluxtec이 비트부르크 지방법원에 파산 절차를 신청했습니다. 이번 사태로 70명의 직원이 영향을 받게 되었으며, 경영진은 잠재적 투자자와의 협상을 통해 기업 정상화와 고용 유지를 추진할 계획입니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-30T13:53:30.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/04/30/german-solar-module-maker-soluxtec-files-for-insolvency/",
+      "collectedAt": "2026-05-04T08:00:56.579Z"
+    },
+    {
+      "id": "510ba740-895a-4247-b341-4b8bf22064c9",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "모잠비크, EU 지원 프로그램 하에 30MW 규모 태양광 발전 입찰 재개",
+      "titleOriginal": "Mozambique relaunches 30 MW solar tender in EU-backed program",
+      "summary": "모잠비크 에너지 규제 당국(ARENE)은 EU와 프랑스 개발청(AFD)이 지원하는 PROLER 프로그램의 일환으로 돈도 지역에 30MW 규모의 태양광 발전소를 건설할 독립 전력 생산자(IPP)를 다시 모집합니다. 이 프로젝트는 당초 2022년 Total Eren에 낙찰되었으나 이유 없이 입찰이 취소되었으며, 현재 25년 장기 전력 구매 계약을 목표로 사업이 재추진되고 있습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-30T12:46:52.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/04/30/mozambique-relaunches-30-mw-solar-tender-in-eu-backed-program/",
+      "collectedAt": "2026-05-04T08:00:56.579Z"
+    },
+    {
+      "id": "cb42e99f-a688-4998-857c-442b680c2a62",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "ESS Tech, 미국산 나트륨 이온 배터리 8.5GWh 포트폴리오에 추가",
+      "titleOriginal": "ESS Tech to add 8.5 GWh of US-made sodium‑ion batteries to its portfolio",
+      "summary": "ESS Tech가 Alsym Energy와의 전략적 파트너십을 통해 미국산 나트륨 이온 배터리 8.5GWh를 자사 포트폴리오에 추가하며 비리튬계 저장 시장으로 영역을 확장합니다. 이번 협력은 리튬 이온 기술 중심의 에너지 저장 시장에서 안전성과 비용 효율성을 갖춘 대안 기술을 확보하기 위한 전략적 행보입니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-30T11:06:55.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/04/30/ess-tech-to-add-8-5-gwh-of-us-made-sodium%e2%80%91ion-batteries-to-its-portfolio/",
+      "collectedAt": "2026-05-04T08:00:56.579Z"
+    },
+    {
+      "id": "e66f63dc-36df-449f-89f9-66f1f31d68c3",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[르포] 기후변화 ‘감시’의 현장…고산 지구대기감시소를 가다",
+      "titleOriginal": null,
+      "summary": "지난해 이산화탄소 농도(432.7ppm)는 또다시 최고치를 기록했다. 기상청 ‘2025 지구대기감시보고서’가 제시한 수치다. 온실가스 농도는 매년 발표되지만, 그 숫자가 만들어지는 과정은 잘 알려져 있지 않다. 이 수치는 어디서, 어떻게 측정되고 있을까.지난 29일 그 과정을 확인하기 위해 기상청 언론인 기상정책 현장취재 일환으로 제주 고산지구대기감시소를 찾았다. 굽이진 언덕길을 따라 올라가자 감시소 건물이 모습을 드러냈다. 건물 앞에 서자 가장 먼저 눈에 들어온 것은 거대한 돔 형태의 구조물이었다. 흰색 구형 레이돔이 얹힌 타워는",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-04-30T09:10:29.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367587",
+      "collectedAt": "2026-05-04T08:00:59.812Z"
+    },
+    {
+      "id": "14206d98-93f8-4345-891a-41c9e76cfde5",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[환경人터뷰] 강부영 기후에너지국제협력팀장 “기후 대응·에너지전환 공동의 과제, 협력 필수”",
+      "titleOriginal": null,
+      "summary": "전 지구적 기후위기 대응은 더 이상 개별 국가의 노력만으로 해결할 수 없는 과제가 됐다. 지난 제21차 유엔기후변화협약 당사국총회(COP21)에서 채택된 파리협정은 ‘지구 평균 온도 상승 폭을 1.5도 이내로 제한’한다는 공동 목표를 제시하며 국제사회의 협력을 핵심 축으로 명확히 했다. 각국의 감축 노력과 더불어 기술·재원·정책 전반에 걸친 협력이 병행되지 않는다면 실질적 성과를 담보하기 어렵다는 점에서다.기후에너지환경부 기후에너지국제협력팀은 이러한 흐름 속에서 국가 간 협력의 접점을 구축하고, 글로벌 기후·에너지 의제를 국내 정책",
+      "topics": [
+        "ESG·탄소중립",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-04-30T09:01:26.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367579",
+      "collectedAt": "2026-05-04T08:00:59.812Z"
+    },
+    {
+      "id": "dfc26837-c72e-480e-9288-02e1101ed149",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "연료비 상승 흐름 지속…한전 수익성 부담 확대 전망",
+      "titleOriginal": null,
+      "summary": "글로벌 에너지 가격 상승 흐름이 이어지면서 한국전력의 수익성 부담이 확대될 것이란 전망이 나오고 있다. 연료비 상승 국면이 지속되는 가운데 요금 반영은 제한되면서, 원가와 요금 간 비대칭 구조가 재차 부각되는 모습이다.KB증권은 최근 보고서를 통해 한국전력의 목표주가를 기존 7만4000원에서 6만3000원으로 하향 조정했다. 2026년과 2027년 영업이익 전망치 역시 기존 대비 각각 30% 안팎 축소될 것으로 제시됐다.단기 실적은 비교적 안정적일 것으로 보인다. 한국전력의 1분기 연결 기준 매출은 25조1000억원, 영업이익은 4",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-30T08:50:40.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367497",
+      "collectedAt": "2026-05-04T08:00:59.812Z"
+    },
+    {
+      "id": "5e712be4-2561-4af6-b76d-02b6fce41033",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "협회-한전 상생협의체 출범…“현장 체감 변화·신뢰 소통이 핵심”",
+      "titleOriginal": null,
+      "summary": "한국전기공사협회와 한국전력이 참여하는 ‘2026년도 상생협의체’가 출범했다. 업계와 발주기관 간 협력 구조를 제도적으로 정착시키고, 현장 중심의 실질적 개선을 이끌어낼 수 있을지 주목된다.전기공사협회는 28일 충북 오송 협회 중앙회에서 ‘협회-한전 상생협의체’ 제1차 회의를 개최했다고 밝혔다. 이번 회의는 협의체 출범 이후 처음 열린 공식 회의로, 업계와 한전 간 협력 관계 구축과 주요 현안에 대한 공감대를 형성하는 데 초점이 맞춰졌다.이날 이형주 전기공사협회 회장은 상생협의체 위원장과 위원들에게 직접 임명장을 전달하며 협의체 출범",
+      "topics": [
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-30T08:48:23.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367504",
+      "collectedAt": "2026-05-04T08:00:59.812Z"
+    },
+    {
+      "id": "733b9717-697e-4459-b3ab-30c78b15d2d1",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전남창업기술지주, 나주 강소특구 ‘라운드 챗’ 첫발",
+      "titleOriginal": null,
+      "summary": "전남지역대학연합창업기술지주(대표 이찬희, 이하 전남창업기술지주회사)가 전남 나주 강소특구 내 산·학·연 협력 네트워크 고도화에 본격 나섰다.전남창업기술지주회사는 최근 에너지밸리기업개발원에서 ‘전남나주 강소특구 Round Chat(라운드 챗) 1st’ 행사를 개최하고, 특구 내 기업과 유관기관 간 현장 중심 소통을 강화했다고 밝혔다.이번 행사는 ‘2026 전남나주 강소특구 혁신네트워크 고도화 사업’의 일환으로 마련됐으며, 한국전력을 비롯한 유관기관과 렉스이노베이션, 데이터투에너지 등 기업 관계자 25명이 참석했다.이날 참석자들은 기업",
+      "topics": [
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-30T08:43:26.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367505",
+      "collectedAt": "2026-05-04T08:00:59.812Z"
+    },
+    {
+      "id": "c94e1d2f-fce0-48d3-b5f1-fc833dba8c78",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "환경보전원, 당근·기후부와 탄소중립 캠페인 협력",
+      "titleOriginal": null,
+      "summary": "환경보전원이 민관 협력을 통해 국민 참여형 탄소중립 캠페인 확대에 나섰다.한국환경보전원(원장 신진수)은 30일 서울 서초구당근마켓 본사에서 당근마켓, 기후에너지환경부와 ‘탄소중립·녹색성장 대국민 인식 제고 및 정보 제공 협력’을 위한 업무협약을 체결했다고 밝혔다.이번 협약은 생활 속 기후행동 참여를 확대하고, 실천 정보와 우수 사례를 확산하기 위한 민관 협력 모델 구축을 목표로 한다.세 기관은 ‘탄소중립 실천포털’과 당근 앱을 연계해 대국민 캠페인을 추진하고, 기후행동 정보를 제공할 계획이다.또한 취약계층 및 지역사회의 기후위기 대",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-04-30T08:39:23.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367609",
+      "collectedAt": "2026-05-04T08:00:59.812Z"
+    },
+    {
+      "id": "43ca3b08-eb71-44a4-bba3-a5019ffd9aed",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "韓-호주, LNG·핵심광물 등 에너지자원 안보 공조 강화",
+      "titleOriginal": null,
+      "summary": "산업통상부는 김정관 장관이 30일 서울에서 방한 중인 페니 웡(Penny Wong) 호주 외교통상부 장관과 면담을 갖고, 중동전쟁으로 고조된 글로벌 공급망 위기에 대응하기 위한 양국 간 에너지자원 안보 협력 방안을 논의했다고 밝혔다. 먼저 양 장관은 한국과 호주가 에너지자원 분야에서 구축해 온 매우 긴밀하고 상호보완적인 파트너십을 재확인했다. 현재 호주는 한국의 최대 LNG 공급국(2025년 비중 31.4%)이자, 우리 석유화학 산업의 기초 원료인 나프타 생산에 필수적인 ‘콘덴세이트’의 주요 공급국이다. 동시에 우리나라는 호주의 제",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-30T08:26:24.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367616",
+      "collectedAt": "2026-05-04T08:00:59.812Z"
+    },
+    {
+      "id": "7068500e-485a-4a7f-9f55-abccf8d33ec6",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "석유관리원, 고유가에 고통겪는 취약계층에 ‘사랑의 연료유’ 기부",
+      "titleOriginal": null,
+      "summary": "석유관리원이 고유가로 어려움을 겪는 취약계층의 지원에 나섰다.한국석유관리원(이사장 최춘식)은 최근 중동 사태로 인한 국제유가 급등으로 어려움을 겪고 있는 소외계층을 돕기 위해 난방유 및 차량용 연료유 무상 지원을 실시한다고 30일 밝혔다.이번 지원 사업은 중동사태 장기화로 유가 상승세가 지속됨에 따라 취약계층의 경제적 부담을 완화하기 위해 기획됐다. 성남 본사를 비롯한 전국 10개 지역본부에서 동시에 진행되며, 선정된 총 97개 복지단체(차량 286대 분량)를 대상으로 연료를 공급한다.지원 규모는 휘발유 8600ℓ, 경유 7500ℓ",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-30T07:41:29.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367615",
+      "collectedAt": "2026-05-04T08:00:59.812Z"
+    },
+    {
+      "id": "b4e0d7eb-9bda-47e5-b77c-b075b36316e6",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "포스코홀딩스, 1Q 영업이익 7070억원…전년比 24.3%↑",
+      "titleOriginal": null,
+      "summary": "포스코홀딩스가 글로벌 지정학적 위기와 철강 업황 둔화 속에서도 견조한 성적표를 받아들었다.포스코홀딩스는 2026년 1분기 연결기준 매출 17조8760억원, 영업이익 7070억원을 기록했다고 30일 밝혔다. 이는 전년 동기 대비 매출은 2.5%, 영업이익은 24.3% 증가한 수치다.포스코홀딩스는 “1분기 미국과 이란의 전쟁에 따른 에너지 공급망과 금융시장의 불확실성이 가중되는 환경 속에서도 포스코아르헨티나가 상업 생산을 본격 가동함에 따라 리튬 사업 부문의 적자가 대폭 축소되면서 전년 동기 대비 매출과 이익이 모두 증가했다”고 설명했",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-30T07:37:19.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367614",
+      "collectedAt": "2026-05-04T08:00:59.812Z"
+    },
+    {
+      "id": "975e07b4-9930-4136-8ff3-1980da4bfaa4",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "LG유플러스, 자사주 추가 소각 결정…주주 가치 '밸류업 플랜' 속도",
+      "titleOriginal": null,
+      "summary": "LG유플러스가 주주가치 제고 작업을 가속화한다.LG유플러스는 5월 15일 자사주 약 540만주를 소각할 예정이라고 30일 밝혔다.전체 발행 주식 중 1.26% 규모, 장부 금액으로는 약 800억원 수준이다.LG유플러스는 2024년 11월 밸류업 플랜을 공시하고 자사주 소각을 비롯한 기업가치 제고 계획을 발표한 바 있다.밸류업 플랜 핵심은 주주환원 확대를 위한 탄력적인 자사주 매입과 소각 정책. 이미 지난해 8월 5일 1000억원 규모 자기주식을 소각한 바 있으며, 지난해부터 매입한 자사주 전량을 추가로 소각하게 됐다.LG유플러스는",
+      "topics": [],
+      "publishedAt": "2026-04-30T07:07:05.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367611",
+      "collectedAt": "2026-05-04T08:00:59.812Z"
+    },
+    {
+      "id": "f04a23b6-4184-4943-9361-5a2bbc15797d",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "\"제살깎아먹기 입찰 그만\"… ESS 중앙계약시장 ‘최저가 하한제’ 카드 만지작",
+      "titleOriginal": null,
+      "summary": "전력당국이 에너지저장장치(ESS) 중앙계약시장에서 '최저가 하한제' 도입 카드 등 제도 개편을 검토하고 있다. 지난 2차 입찰에서 낙찰 단가가 예상보다 크게 하락하면서, 업계 안팎에서 수익성 악화와 설비 품질 저하로 인한 계통 불안정을 우려하는 목소리가 커졌기 때문이다.현재 ESS 중앙계약시장 경쟁입찰은 가격 평가 50점과 비가격 평가 50점을 합산해 우선협상대상사업자를 선정하는 종합평가 방식이다. 하지만 1차와 2차 입찰을 거치며 주요 사업자 간 기술력, 화재 안전성, 신용등급 등 비가격 부문이 상향 평준화됐고, 결국 가격이 당락",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-30T07:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367518",
+      "collectedAt": "2026-05-04T08:00:59.812Z"
+    },
+    {
+      "id": "c635ad6c-5450-4a59-adc2-47f44abc3f1f",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "취·양수장 시설개선 ‘속도’ 높인다…기후부·농식품부 협력",
+      "titleOriginal": null,
+      "summary": "기후에너지환경부와 농림축산식품부가 협력해 취·양수장 시설개선 사업에 속도를 높인다.기후부와 농식품부는 정부세종청사에서 ‘2026년 취·양수장 시설개선 실무협의체 정례회의’를 개최해 사업 추진 현황 점검 및 신속한 사업 이행과 비용 효율화를 위한 협력 방안을 논의한다고 30일 밝혔다.취·양수장 시설개선 사업은 기후변화로 인한 가뭄과 녹조 등으로 하천 수위 변동성이 확대되고 있는 상황에서도 안정적인 취수가 가능하도록 취수구 위치 조정과 시설 보강 등을 추진하는 사업이다. 양 부처는 올해 총 886억원을 투입해 오는 2028년까지 개선을",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-04-30T05:49:58.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367608",
+      "collectedAt": "2026-05-04T08:00:59.812Z"
+    },
+    {
+      "id": "a89b88d1-3193-480f-acf7-6c3127b5575e",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "중동사태 직격탄…5월 LPG가격·도시가스 도매요금 급등",
+      "titleOriginal": null,
+      "summary": "[이투뉴스] 중동사태의 여파로 국내 가스가격이 직격탄을 맞았다. 5월 국내 LPG가격이 프로판은 ㎏당 140원, 부탄은 ㎏당 87.5원 인상된다. 부탄은 유류세 인하분 리터당 약 30.7원이 반영돼 현장에서는 리터 당 51.1원 인상이 적용된다. 그동안 인상요인에도 올해 1월과 2월 동결기조를 유지하다 누적된 미반영분 일부를 반영해 3월에 ㎏당 28원, 4월에 ㎏당 50원 올렸던 것에 비춰 가파른 급등세이다. 그나마 정부의 물가안정 정책 기조에 호응하고 소비자 부담 경감 등을 고려해 치솟은 국제LPG가격(CP)과 선박 운임 등으로",
+      "topics": [],
+      "publishedAt": "2026-04-30T14:45:44.000Z",
+      "originalUrl": "http://www.e2news.com/news/articleView.html?idxno=330082",
+      "collectedAt": "2026-05-04T08:01:01.095Z"
+    },
+    {
+      "id": "573fbb55-29f3-4a98-8218-72552e7a8aac",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스안전公 수출기업 지원 고도화…가스용품 ‘수출 영토’ 확장",
+      "titleOriginal": null,
+      "summary": "[이투뉴스] 한국가스안전공사(사장 박경국)는 30일 공사 서울광역본부에서 국내 가스용품 제조 기업의 해외 진출 지원과 수출 경쟁력 강화를 위한 ‘수출기업지원 활성화 자문위원회’를 개최했다.이번 자문위원회는 2025년 수출기업 지원사업의 성과를 되돌아보고 2026년도 추진 계획을 검토해 기업들이 현장에서 느끼는 애로사항을 실질적으로 해결하기 위해 마련됐다. 회의에는 국민, 기업, 학계, 수출지원기관(KOTRA, KTR), 해외인증기관(Intertek) 등 각 분야 전문가들이 참여해 심도 있는 논의를 펼쳤다.가스안전공사는 그동안 국내기",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-30T12:44:50.000Z",
+      "originalUrl": "http://www.e2news.com/news/articleView.html?idxno=330081",
+      "collectedAt": "2026-05-04T08:01:01.095Z"
+    },
+    {
+      "id": "43f7f0c1-928c-41b0-b10a-6043c947f250",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "세계 LPG·CNG차 시장 연평균 8.3% 성장한다",
+      "titleOriginal": null,
+      "summary": "[이투뉴스] 시장조사기관 비즈니스 리서치 인사이트에 따르면 LPG 및 CNG 등 글로벌 가스차량 시장이 환경규제 강화와 경제성을 바탕으로 가파른 성장세를 기록할 전망이다. 2026년 2845억5000만 달러 규모인 시장은 연평균 8.3%씩 성장해 2035년 5881억6000만 달러에 이를 것으로 추산된다.각국 정부의 차량 배출가스 규제 강화와 보조금 지급 정책이 보급 확대를 견인하고 있는데, 특히 휘발유 대비 저렴한 연료비가 시장 성장의 핵심 동력으로 꼽힌다.유럽은 이탈리아, 터키, 폴란드를 중심으로 광범위한 충전망과 세제 혜택을",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-30T12:43:21.000Z",
+      "originalUrl": "http://www.e2news.com/news/articleView.html?idxno=330080",
+      "collectedAt": "2026-05-04T08:01:01.095Z"
+    },
+    {
+      "id": "29b19571-b70e-44dc-92b6-18820eaf86ec",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한-호주, LNG·핵심광물 등 에너지자원 안보 공조 강화",
+      "titleOriginal": null,
+      "summary": "[이투뉴스] 우리나라와 호주가 LNG와 콘덴세이트, 핵심광물 등 에너지자원 안보 공조를 한층 강화한다. 김정관 산업통상부장관은 30일 서울에서 방한 중인 페니 웡 호주 외교통상부 장관과 면담을 갖고, 중동전쟁으로 고조된 글로벌 공급망 위기에 대응하기 위한 양국 간 에너지자원 안보 협력 방안을 논의했다.김 장관과 페니 웡 장관은 한국과 호주가 에너지자원 분야에서 구축해 온 매우 긴밀하고 상호보완적인 파트너십을 재확인했다. 현재 호주는 한국의 최대 LNG 공급국('25년 비중 31.4%)이자, 우리 석유화학 산업의 기초 원료인 나프타",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-30T12:42:18.000Z",
+      "originalUrl": "http://www.e2news.com/news/articleView.html?idxno=330079",
+      "collectedAt": "2026-05-04T08:01:01.095Z"
+    },
+    {
+      "id": "f62a53f7-0de7-4c8a-9864-23d73dcbcbf6",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한-호주, 공급망 위기 속 ‘에너지동맹’ 재확인",
+      "titleOriginal": null,
+      "summary": "중동전쟁 장기화로 글로벌 에너지 공급망 불안이 고조된 가운데 한-호주 양국이 에너지·자원 안보 협력을 한층 강화하며 전략적 에너지 파트너십을 재확인했다. 김정관 산업통상부 장관은 30일 방한 중인 페니 웡(Penny Wong) 호주 외교통상부 장관과 면담을 갖고 공급망 위기에 대응하기 위한 양국 간 에너지·자",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-30T12:25:00.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69848",
+      "collectedAt": "2026-05-04T08:01:02.677Z"
+    },
+    {
+      "id": "02d890b2-ae6a-4348-b170-b7fbb7bc3992",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전력노조 새 집행부 출범…현장 인력난 해소 정조준",
+      "titleOriginal": null,
+      "summary": "전력노조 제24대 집행부 구성이 마무리됐다. 이로써 조합원에게 실질적인 이로움과 현장에서 체감하는 새로움이 가득한 노조를 만들 것이란 목표를 설정한 새로운 집행부는 노동 가치 존중과 함께 고질적인 인력난 해소를 위한 행보를 본격화한다. 전국전력노동조합(위원장 조창연)은 지난 29일 한전 수안보연수원(충북 충주시 소재)에서 제81년차 전국대의원대회를 열고 제",
+      "topics": [
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-30T08:48:30.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69846",
+      "collectedAt": "2026-05-04T08:01:02.677Z"
+    },
+    {
+      "id": "7a334f92-db43-4039-9ad8-c19cb03d277c",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "US 스틸, 아칸소주에 20억 달러 규모 저탄소 철강 공장 건설",
+      "titleOriginal": "US Steel to build $2B lower-carbon iron plant in Arkansas",
+      "summary": "US 스틸은 모기업인 일본 제철의 110억 달러 투자 계획의 일환으로 아칸소주에 19억 달러를 투입해 저탄소 '직접 환원 철(DRI)' 공장을 건설합니다. 이 시설은 천연가스를 사용하여 기존 석탄 기반 공정 대비 탄소 배출량을 절반으로 줄이며, 생산된 철을 뜨거운 상태로 바로 공급하는 '핫 차지(hot charge)' 기술을 통해 에너지 효율을 극대화할 예정입니다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-04-30T18:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/green-steel/us-steel-build-2b-plant-arkansas",
+      "collectedAt": "2026-05-06T06:19:35.302Z"
+    },
+    {
+      "id": "54d6ef52-9af9-418b-a661-8d2ae338a3ae",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "65% 비용 절감 가능할까? 전기 밴 100대 도입으로 검증 나서는 워크호스",
+      "titleOriginal": "A 65% cost cut? This 100-electric van rollout is ready to prove it",
+      "summary": "Gateway Fleets는 Workhorse로부터 W56 전기 밴 100대를 구매하여 충전소와 차량을 통합 제공하는 '플릿 서비스'를 본격화합니다. 캘리포니아 리버사이드에서 진행된 사례 연구에 따르면, 해당 전기 트럭 도입 시 연료비와 유지보수 비용에서 최대 65%의 비용 절감 효과가 있는 것으로 나타났습니다.",
+      "topics": [
+        "정책·규제",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-30T23:01:52.000Z",
+      "originalUrl": "https://electrek.co/2026/04/30/65-percent-cost-cut-this-100-electric-van-rollout-is-ready-to-prove-it/",
+      "collectedAt": "2026-05-06T06:19:39.458Z"
+    },
+    {
+      "id": "21ea2f8f-9d25-4ca9-9c23-92b16de61417",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "BYD, 유럽 시장에 1,000마력 이상의 오픈형 전기 하이퍼카 출시 예정 [이미지]",
+      "titleOriginal": "BYD is about to unleash this 1,000+ hp drop-top electric hypercar in Europe [Images]",
+      "summary": "BYD는 1,000마력 이상의 출력을 자랑하며 2초 미만의 제로백 성능을 갖춘 전기 하이퍼카 '덴자 Z'를 올여름 유럽 시장에 출시할 예정입니다. 이 차량은 블레이드 배터리와 플래시 차징 2.0 시스템을 탑재해 5분 만에 충전이 가능하며, 최고급 럭셔리 슈퍼카 시장에서 유럽 제조사들과 경쟁할 계획입니다.",
+      "topics": [],
+      "publishedAt": "2026-04-30T19:45:28.000Z",
+      "originalUrl": "https://electrek.co/2026/04/30/byd-denza-z-1000-hp-luxury-drop-top-ev-hypercar-images/",
+      "collectedAt": "2026-05-06T06:19:39.458Z"
+    },
+    {
+      "id": "8c280a8c-4273-418d-bba1-e4672e925a8e",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Yozma IN 10 전기 미니 더트 바이크 역대 최저가 999달러, EcoFlow DELTA 3 Plus 599달러 할인, Anker SOLIX 등",
+      "titleOriginal": "Yozma IN 10 electric mini dirt bike at exclusive new $999 low, EcoFlow sale drops DELTA 3 Plus to $599, Anker SOLIX, more",
+      "summary": "본 기사는 Yozma IN 10 전기 미니 더트 바이크의 999달러 역대 최저가 할인 소식과 함께 EcoFlow, Anker 등 주요 업체의 휴대용 전력 스테이션 할인 정보를 다루고 있습니다. 특히 1,024Wh 용량의 EcoFlow DELTA 3 Plus를 599달러에, Anker SOLIX C300 세트를 220달러에 구매할 수 있는 다양한 에너지 관련 제품의 시장 동향을 소개합니다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-30T18:00:00.000Z",
+      "originalUrl": "https://electrek.co/2026/04/30/yozma-in-10-electric-mini-dirt-bike-ecoflow-power-station-delta-3-plus-anker-solix-more/",
+      "collectedAt": "2026-05-06T06:19:39.458Z"
+    },
+    {
+      "id": "97f0b989-d78f-4d01-80f5-cc3c729bbb67",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "기아의 전기 밴, AI 카메라와 드론을 탑재하고 순찰에 나선다",
+      "titleOriginal": "Kia’s electric van is about to go on patrol with AI cameras and drones",
+      "summary": "기아는 한국경찰청과 협력하여 자사의 전기 밴 플랫폼인 PV5를 기반으로 한 AI 순찰차를 개발했습니다. 이 차량은 2026년 6월부터 시범 운영될 예정이며, 4K AI 카메라와 90배 줌 열화상 카메라가 탑재된 드론을 통해 위험 상황 감지와 실시간 추적 기능을 수행합니다.",
+      "topics": [],
+      "publishedAt": "2026-04-30T17:50:40.000Z",
+      "originalUrl": "https://electrek.co/2026/04/30/kias-ev-van-patrol-ai-cameras-drones/",
+      "collectedAt": "2026-05-06T06:19:39.458Z"
+    },
+    {
+      "id": "56611d82-e857-4e84-9463-46c0996b4b58",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "혼다, 야마하 등 일본 주요 기업들의 전기 오토바이 전환 경쟁",
+      "titleOriginal": "How Honda, Yamaha, and other Japanese leaders are racing towards electric motorcycles",
+      "summary": "혼다, 야마하, 가와사키, 스즈키 등 일본의 주요 오토바이 제조사들이 탄소 중립 달성을 목표로 전기 이륜차 시장 진출을 가속화하고 있습니다. 특히 야마하는 신규 모델 라인업의 30%를 전기차로 구성하겠다는 목표를 밝혔으며, 혼다는 인도 내 전용 공장 건설 및 배터리 교체형 모델 개발을 통해 시장 주도권을 확보하고 있습니다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-30T14:29:53.000Z",
+      "originalUrl": "https://electrek.co/2026/04/30/how-honda-yamaha-and-other-japanese-leaders-are-racing-towards-electric-motorcycles/",
+      "collectedAt": "2026-05-06T06:19:39.458Z"
+    },
+    {
+      "id": "d9d7da6d-fe1f-4d14-a0a1-4ec81e03a0c6",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“시민사회단체와 에너지 대전환 시대 부합하는 전력감독체계 개편 추진한다”",
+      "titleOriginal": null,
+      "summary": "[에너지데일리 변국영 기자] 정부가 시민사회단체와 에너지 대전환 시대에 부합하는 전력감독체계 개편을 추진한다.기후에너지환경부는 30일 HJ비즈니스센터에서 에너지전환포럼, 기후솔루션, 에너지와 공간, 녹색에너지전략연구소, 공공재생에너지포럼, 녹색소비자연대 등 6개 시민사회단체와 함께 ‘재생에너지 100GW 시대 전력감독체계’를 논의하는 토론회를 개최했다.이번 토론회는 에너지 대전환 시대에 부합하는 전력감독체계 개편 방향에 대해 시민사회단체의 의견을 직접 듣기 위해 마련됐다.이경훈 전기위원회 사무국장은 발표를 통해 “재생에너지 100G",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-30T09:51:00.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=166931",
+      "collectedAt": "2026-05-06T06:19:53.880Z"
+    },
+    {
+      "id": "fbdfe71f-e2d8-4582-9221-ec67273bfc25",
+      "source": "그린포스트코리아",
+      "sourceId": "greenpost",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[데스크 칼럼] 캐즘은 핑계다··· 폐배터리 선점이 미래 원가를 가른다",
+      "titleOriginal": null,
+      "summary": "전기차 시장이 캐즘(일시적 수요 정체)에 빠졌다는 진단은 이제 기정사실이다. 수요 둔화와 가격 부담, 정책 피로가 겹치며 성장 곡선은 일시적으로 꺾였다. 그러나 산업의 시계는 이미 다음 국면을 향하고 있다. 글로벌 완성차와 배터리 기업들은 판매가 아닌 자원에 초점을 맞추기 시작했다. 폐배터리를 둘러싼 경쟁은 수면 아래에서 진행되는 선점 전쟁에 가깝다. 지금 확보한 물량이 향후 10년 원가 구조를 좌우한다.이 판단은 결코 과장이 아니다. 2010년대 후반 보급된 전기차가 본격적인 폐차 주기에 진입했다. 캐즘 이후 수요 반등이 맞물리는",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-30T01:02:59.000Z",
+      "originalUrl": "https://www.greenpostkorea.co.kr/news/articleView.html?idxno=306617",
+      "collectedAt": "2026-05-06T06:19:58.329Z"
+    },
+    {
+      "id": "3550e7b5-aaf9-4a10-b79d-7fac95961b95",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[이슈분석] “한전 총괄, 한수원 시공?”…원전수출 일원화, ‘UAE 모델’ 재현 우려",
+      "titleOriginal": null,
+      "summary": "원전 수출창구 일원화 한전 쪽으로 무게 중심\n한전 재무상태 빈약하고, 핵심업무는 한수원 몫\n정산 문제로 갈등 벌어진 바라카 사태 재현 우려\n단일 컨트롤타워 구축, 재무 리스크 분리 등 대책 필요 ▲전남 나주의 한국전력 본사(왼쪽)와 경북 경주의 한국수력원자력 본사. 사진=한국전력, 한국수력원자력 정부가 추진 중인 '한전 중심 원전수출 일원화' 방안을 두고 산업계 내부에서도 우려 섞인 목소리가 확산되고 있다. 특히 “한전이 총괄하고 실제 사업은 결국 한수원이 수행하는 구조가 될 것\"이라는 인식이 퍼지면서, 과거 UAE 바라카 원전 사",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-30T21:46:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260430023340484",
+      "collectedAt": "2026-05-06T06:20:16.678Z"
+    },
+    {
+      "id": "3f038e9e-96a7-483a-8849-ae9da72dbf46",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[기후 리포트] 전기 시대의 패권 경쟁…누가 탈탄소를 지배할 것인가",
+      "titleOriginal": null,
+      "summary": "파리협정 달성 가능 시간 얼마 남지 않아\n화석 문명에서 전기 체제로 전환이 화두\n‘재생에너지 3배’는 글로벌 과제이지만\n공급만으론 부족, 수요관리 정치도 필요\n미국은 기후 리더 아닌 시장 교란자 전락\n탈탄소는 산업·무역정책, 에너지안보 전략 ▲양식장이 아닙니다. 지난딜 19일 중국 동부 장쑤성 롄윈강에 위치한 CNNC 톈완 갯벌 태양광 발전소에서 작업자들이 크레인을 이용해 태양광 패널을 설치하고 있다. (사진: AFP=연합뉴스) 지구 기온이 가파르게 오르지만 온실가스 배출이 줄어들기는커녕 계속 늘면서 기후위기는 현실이 되고 있다. ",
+      "topics": [],
+      "publishedAt": "2026-04-30T01:43:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260430028049997",
+      "collectedAt": "2026-05-06T06:20:16.679Z"
+    }
+  ]
+}

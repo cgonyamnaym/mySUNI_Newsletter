@@ -1,0 +1,110 @@
+{
+  "date": "2026-04-09",
+  "generatedAt": "2026-05-13T08:23:30.593Z",
+  "articleCount": 6,
+  "articles": [
+    {
+      "id": "eb2b4ef8-5506-48d7-b384-1b2f8cbdab39",
+      "source": "전자신문 (Energy)",
+      "sourceId": "etnews",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "에너지 빈곤층 지원 프로그램 확대 — 고효율 가전 교체 바우처 신설",
+      "titleOriginal": null,
+      "summary": "정부가 에너지 취약계층의 에너지 비용 부담 완화를 위해 고효율 가전제품 교체 바우처 사업을 신설했습니다. 연간 10만 가구를 지원 대상으로 하며, 에어컨·냉장고·보일러 교체 시 최대 50만 원을 지원합니다.",
+      "topics": [
+        "정책·규제"
+      ],
+      "publishedAt": "2026-04-09T01:00:00.000Z",
+      "originalUrl": "https://www.etnews.com/news/260409001",
+      "collectedAt": "2026-04-09T08:30:00.000Z"
+    },
+    {
+      "id": "bc7a6672-a2f2-4bd3-b81c-32051334ccd4",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "페로브스카이트 태양전지 효율 30% 돌파 — 상용화 청신호",
+      "titleOriginal": "Perovskite solar cell efficiency breaks 30% barrier in lab conditions",
+      "summary": "독일 헬름홀츠 베를린 연구소가 페로브스카이트-실리콘 탠덤 태양전지에서 실험실 조건 효율 30%를 달성했다고 발표했습니다. 기존 실리콘 셀 한계를 넘어서는 성과로, 상용화 가능성이 주목받고 있습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-09T02:13:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/04/09/perovskite-30-percent",
+      "collectedAt": "2026-04-09T08:30:00.000Z"
+    },
+    {
+      "id": "ec7f0e4d-9427-4717-8479-bce93ba90034",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미국 유틸리티 규모 ESS 신규 발주 1분기 최대 — 8GWh 수주",
+      "titleOriginal": "US utility-scale ESS orders hit Q1 record with 8GWh contracted",
+      "summary": "미국 에너지 저장장치 시장이 2026년 1분기 사상 최대 규모인 8GWh 신규 발주를 기록했습니다. ERCOT 텍사스와 캘리포니아 CAISO 계통 내 재생에너지 통합 수요가 주요 동인입니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-09T04:39:00.000Z",
+      "originalUrl": "https://www.energy-storage.news/2026/04/09/us-ess-q1-record",
+      "collectedAt": "2026-04-09T08:30:00.000Z"
+    },
+    {
+      "id": "7322f2ef-6a78-40c4-bad0-4427a0b647aa",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Fervo Energy, 차세대 지열 발전 확대를 위한 대규모 터빈 공급 계약 체결",
+      "titleOriginal": "Fervo Energy inks big turbine deal to build more next-gen geothermal",
+      "summary": "차세대 지열 발전 선도 기업 Fervo Energy는 Turboden America와 1.75GW 규모의 유기 랭킨 사이클(ORC) 터빈 공급 계약을 체결하며 프로젝트 확장에 나섰습니다. 이번 계약을 통해 Fervo는 유타주의 Cape Station을 포함한 다수의 프로젝트를 가속화하여 미국 내 지열 발전 용량을 획기적으로 늘릴 계획입니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-09T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal",
+      "collectedAt": "2026-05-06T06:19:35.303Z"
+    },
+    {
+      "id": "956a61da-cf2c-47dc-afe8-d0058a8f96ff",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "AES, 지역 주민 반대로 샌디에이고 인근 배터리 프로젝트 철회",
+      "titleOriginal": "AES pulls out of San Diego area battery project after local opposition",
+      "summary": "AES는 샌디에이고 에스콘디도 지역에 320MW 규모의 대형 배터리 저장 시설을 건설하려던 계획을 지역 주민들의 거센 반대로 철회했습니다. 주민들은 해당 시설이 주거지 및 팔로마 메디컬 센터와 너무 가깝고, 리튬이온 배터리의 화재 위험이 크다는 점을 들어 프로젝트 중단을 이끌어냈습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-09T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/batteries/aes-san-diego-area-battery-opposition",
+      "collectedAt": "2026-05-06T06:19:35.303Z"
+    },
+    {
+      "id": "c2197911-df5b-466c-8435-ebf51f4f166a",
+      "source": "BloombergNEF",
+      "sourceId": "bnef",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "청정 전력 사용 증가와 전쟁으로 인한 부양 효과: 주목해야 할 세 가지",
+      "titleOriginal": "Clean Power Is Up and Will Get a War Boost: Three Things to Know",
+      "summary": "블룸버그NEF는 이란 전쟁으로 인한 에너지 위기 속에서 태양광·저장장치 및 기업의 청정 전력 구매가 가속화될 것으로 전망했다. 특히 2025년 메타, 아마존, 구글, 마이크로소프트 등 빅테크 기업들이 전 세계 청정 전력 구매 계약의 약 절반을 차지했으며, 호주에서는 전년 대비 5배 증가한 3.1기가와트 규모의 대형 배터리가 가동되며 전력 시장 안정화에 기여하고 있다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-04-09T13:19:42.000Z",
+      "originalUrl": "https://about.bnef.com/insights/clean-energy/clean-power-is-up-and-will-get-a-war-boost-three-things-to-know/",
+      "collectedAt": "2026-05-06T06:19:41.004Z"
+    }
+  ]
+}

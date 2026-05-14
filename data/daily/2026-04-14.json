@@ -1,0 +1,108 @@
+{
+  "date": "2026-04-14",
+  "generatedAt": "2026-04-14T08:30:00.000Z",
+  "articleCount": 6,
+  "articles": [
+    {
+      "id": "feaf723a-e087-49b2-b6b6-c5e8fbc92567",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "국내 태양광 누적 설치 30GW 돌파 — 세계 7위 규모",
+      "titleOriginal": null,
+      "summary": "국내 태양광 누적 설치 용량이 30GW를 돌파하며 세계 7위에 올랐습니다. 2030년 목표치인 45GW 달성을 위해 연 3GW 이상의 신규 설치가 필요하며, 대규모 영농형 태양광이 성장을 주도하고 있습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-14T01:00:00.000Z",
+      "originalUrl": "https://www.ekn.kr/article/260414001",
+      "collectedAt": "2026-04-14T08:30:00.000Z"
+    },
+    {
+      "id": "70eed80e-44bf-4e80-929c-6994fcc88b37",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "분산에너지 활성화 특별법 시행령 입법예고 — VPP 연계 기준 확정",
+      "titleOriginal": null,
+      "summary": "산업통상자원부가 분산에너지 활성화 특별법 시행령 제정안을 입법예고했습니다. VPP 운영 기준과 분산자원 계통 연계 절차가 구체화돼 업계의 사업 계획 수립에 도움이 될 것으로 기대됩니다.",
+      "topics": [
+        "정책·규제",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-14T02:13:00.000Z",
+      "originalUrl": "https://www.electimes.com/article/260414001",
+      "collectedAt": "2026-04-14T08:30:00.000Z"
+    },
+    {
+      "id": "be8a6fe0-f124-4a4a-ab0e-12c138c6f4e4",
+      "source": "Reuters Energy",
+      "sourceId": "reuters-energy",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "유럽 에너지 저장 시장 2030년 200GWh 전망 — BNEF 보고서",
+      "titleOriginal": "European energy storage market to reach 200GWh by 2030, BNEF forecasts",
+      "summary": "블룸버그NEF가 유럽 에너지 저장 시장이 2030년 200GWh에 달할 것으로 예측했습니다. 국내 배터리 기업들의 유럽 시장 공략 기회가 확대될 전망이며, 현지 생산 요건 충족이 핵심 과제입니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-14T03:26:00.000Z",
+      "originalUrl": "https://www.reuters.com/business/energy/europe-storage-200gwh-2030",
+      "collectedAt": "2026-04-14T08:30:00.000Z"
+    },
+    {
+      "id": "70d6678a-3eff-411e-97a8-07aefb6ce5f5",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "봄철 전력 수급 안정 — 한전 수요 반응 인센티브 역대 최고 수준",
+      "titleOriginal": null,
+      "summary": "봄철 냉방 수요 증가에 앞서 한전이 산업용 대형 고객 대상 수요 반응 프로그램 인센티브를 역대 최고 수준으로 책정했습니다. 참여 기업은 피크 감축 1kW당 최대 5만 원을 받을 수 있습니다.",
+      "topics": [
+        "운영 최적화",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-14T04:39:00.000Z",
+      "originalUrl": "https://www.energytimes.kr/news/260414001",
+      "collectedAt": "2026-04-14T08:30:00.000Z"
+    },
+    {
+      "id": "79c89ecb-48ba-4981-9ff6-232d5b91de9e",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "기후 피해 손실·피해 기금 운영 원칙 합의 — 총 5억 달러 1차 조성",
+      "titleOriginal": "Climate loss and damage fund agrees operating principles with initial $500M mobilized",
+      "summary": "COP28에서 설립된 기후 손실·피해(Loss & Damage) 기금의 운영 원칙이 최종 합의됐습니다. 1차 조성액은 5억 달러로, 태평양 도서 국가와 최빈국 기후 적응 프로젝트 지원에 우선 사용됩니다.",
+      "topics": [
+        "ESG·탄소중립",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-04-14T05:52:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/climate/loss-damage-fund-2026",
+      "collectedAt": "2026-04-14T08:30:00.000Z"
+    },
+    {
+      "id": "c713d081-bcdc-446a-9df8-fb717c2539fa",
+      "source": "BloombergNEF",
+      "sourceId": "bnef",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "전기화 가속 — 2026년 글로벌 전력 소비 역대 최대 전망",
+      "titleOriginal": "Electrification surge: 2026 global electricity demand set for record high",
+      "summary": "블룸버그NEF는 데이터센터·전기차·히트펌프 수요 급증으로 2026년 글로벌 전력 소비가 역대 최대치를 기록할 것으로 전망했습니다. 재생에너지 발전 비중도 처음으로 40%를 돌파할 것으로 예측됩니다.",
+      "topics": [
+        "시장·가격 동향",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-04-14T06:05:00.000Z",
+      "originalUrl": "https://about.bnef.com/research/2026/global-electricity-demand",
+      "collectedAt": "2026-04-14T08:30:00.000Z"
+    }
+  ]
+}

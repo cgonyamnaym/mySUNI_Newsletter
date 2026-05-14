@@ -1,0 +1,146 @@
+{
+  "date": "2026-04-27",
+  "generatedAt": "2026-05-13T08:41:00.204Z",
+  "articleCount": 8,
+  "articles": [
+    {
+      "id": "03288418-1b05-4346-95e9-a7eac7c0ab62",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "트럼프가 농부들의 태양광 설치를 막고 있다. 농업법이 이를 해결할 수 있을까?",
+      "titleOriginal": "Trump is blocking solar for farmers. Can the Farm Bill fix that?",
+      "summary": "트럼프 행정부가 농촌 에너지 지원 프로그램인 REAP의 자금 집행을 중단하고 태양광 설치 규제를 강화하면서 농가들이 에너지 비용 부담을 겪고 있습니다. 이번 농업법 개정안은 REAP의 운명을 결정지을 핵심 변수로, 지지자들은 이 법안을 통해 프로그램의 정상화와 농가의 에너지 자립을 복구하기 위한 노력을 기울이고 있습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-27T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/food-and-farms/trump-blocking-solar-farm-bill",
+      "collectedAt": "2026-04-28T05:55:45.606Z"
+    },
+    {
+      "id": "209e2448-2d7d-4503-85ea-974567dea91e",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "EIA: 2026년 신규 태양광, 풍력 및 에너지 저장 장치 80GW 추가 전망",
+      "titleOriginal": "EIA: 80 GW of new solar, wind + storage capacity coming in 2026",
+      "summary": "미국 에너지정보청(EIA)의 데이터에 따르면, 2027년 2월 말까지 미국 내 태양광, 풍력 및 배터리 저장 장치 용량이 80GW 이상 추가될 전망입니다. 반면 화석 연료와 원자력 발전 용량은 약 5GW 감소할 것으로 예상되며, 재생 에너지가 전체 전력 용량에서 차지하는 비중은 더욱 확대될 것으로 보입니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-27T20:50:16.000Z",
+      "originalUrl": "https://electrek.co/2026/04/27/eia-80-gw-of-new-solar-wind-storage-capacity-coming-in-2026/",
+      "collectedAt": "2026-05-06T06:19:39.459Z"
+    },
+    {
+      "id": "72377ce3-7b96-4061-90e8-300fb09dfa80",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "BYD, '블레이드 배터리 2.0' 탑재한 Seal 08 공개: 1,000km 주행거리, 5분 충전, 684마력",
+      "titleOriginal": "BYD Seal 08 debuts with Blade Battery 2.0: 1,000 km range, 5-min charging, 684 hp",
+      "summary": "BYD는 베이징 모터쇼에서 2세대 블레이드 배터리를 탑재해 1,000km 이상의 주행거리와 5분 만에 400km 충전이 가능한 전기 세단 'Seal 08'을 공개했습니다. CATL 등 경쟁사와 초급속 충전 기술 경쟁을 벌이고 있는 BYD는 이번 신차를 통해 기존 프리미엄 전기차 시장을 적극 공략할 계획입니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-27T11:52:49.000Z",
+      "originalUrl": "https://electrek.co/2026/04/27/byd-seal-08-blade-battery-2-1000km-range-beijing-auto-show/",
+      "collectedAt": "2026-05-06T06:19:39.459Z"
+    },
+    {
+      "id": "40b5c83d-33bc-4e50-8b69-7a118c90cfbc",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "포드의 2,200마력 전기 머스탱, 쿼터마일 6.87초 기록으로 EV 신기록 경신",
+      "titleOriginal": "Ford’s 2,200-HP electric Mustang runs 6.87-sec quarter mile, smashes EV record",
+      "summary": "포드 레이싱의 '머스탱 코브라 제트 2200'이 미국 NHRA 대회에서 쿼터마일 6.87초를 기록하며 전기차 최고 기록을 경신했습니다. 기존 모델 대비 모터 개수를 절반으로 줄이면서도 출력을 2,200마력으로 대폭 높인 혁신적인 설계와 효율성 개선을 통해 성능을 크게 향상시켰습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-04-27T02:45:28.000Z",
+      "originalUrl": "https://electrek.co/2026/04/26/ford-cobra-jet-2200-electric-drag-racing-record-quarter-mile/",
+      "collectedAt": "2026-05-06T06:19:39.459Z"
+    },
+    {
+      "id": "b4503592-6a63-45fe-8bd4-1e01b30d65ca",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[인터뷰] “제조업 강한 한국, 亞 해상풍력 허브기지 능력 충분”",
+      "titleOriginal": null,
+      "summary": "‘해상풍력 싱크탱크’ 오션에너지패스웨이 장다울 한국대표 인터뷰\n조선, 철강 등 연계 산업 역량 충분…타워·하부구조·케이블 이미 글로벌 경쟁력\n2000년대 중반부터 논의됐지만 실제 구축 0.3GW, “정책과 실행 괴리가 문제”\n“정부 주도 만으로는 한계…산업계와 함께 공급망 키우고 비용 낮춰야” ▲장다울 오션에너지패스웨이 한국대표가 에너지경제와 인터뷰를 하고 있다. 전지성 기자 한국 해상풍력 산업이 '목표만 크고 성과는 더딘 산업'이라는 오명을 벗기 위해 새로운 실험에 나섰다. 정부와 산업계, 학계, 공공기관이 함께 참여하는 민관 협",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-27T21:10:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260427024508833",
+      "collectedAt": "2026-05-06T06:20:16.681Z"
+    },
+    {
+      "id": "814da13d-8797-4069-9c61-953bcf84f22c",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[고양 톺아보기] 탄소중립 105개 사업 이행점검 돌입",
+      "titleOriginal": null,
+      "summary": "▲고양특례시 2025년 2월 탄소중립-녹색성장 기본계획 시민공청회 개최. 제공=고양특례시 고양=에너지경제신문 강근주기자 고양특례시가 탄소중립 정책을 계획 단계에서 실행과 성과관리 중심으로 전환하고 있다. 탄소중립-녹색성장 기본계획 이행점검을 통해 고양시는 온실가스 감축 성과를 체계적으로 관리하고, 시민 참여 기반 생활 실천 정책을 확대해 제도와 일상 전반에서 감축 효과를 높인다는 방침이다. 이동환 고양특례시장은 27일 “탄소중립은 목표 설정보다 실행과 점검이 성패를 좌우한다\"며 “이행점검을 통해 탄소중립 관리-개선 체계를 정착시키고",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-04-27T11:11:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260427029470502",
+      "collectedAt": "2026-05-06T06:20:16.681Z"
+    },
+    {
+      "id": "a4ced171-0e54-4c5e-885c-94102b6c21d3",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "대명에너지, 1360억원 규모 곡성그린풍력 EPC 계약 체결",
+      "titleOriginal": null,
+      "summary": "설비용량 42MW 규모, 육상풍력단지 설치 ▲대명에너지  곡성그린풍력발전 조감도. 사진= 대명에너지 신재생에너지 전문기업인 대명에너지가 곡성그린풍력발전과 1360억원 규모의 곡성그린풍력발전소 건설공사 일괄도급(EPC) 계약을 체결했다고 공시했다. 이번 사업은 대명에너지가 사업 발굴 단계부터 직접 개발해 온 설비용량 42메가와트(MW) 규모의 대형 육상풍력발전단지다. 전라남도 곡성군에 조성되며, 6MW급 최신 풍력발전기 7기가 설치된다. 계약기간은 올해 4월 24일부터 2029년 3월 1일까지 약 34개월이다. 곡성그린풍력은 발전 수",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-27T07:39:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260427020340351",
+      "collectedAt": "2026-05-06T06:20:16.681Z"
+    },
+    {
+      "id": "02ac21ad-0639-4638-8527-7431580f4a69",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "SKC, ‘ESS 수요’ 덕에 적자 크게 줄였다",
+      "titleOriginal": null,
+      "summary": "1분기 영업손 287억 전년동기比 61%↓\n상각전영업익은 11분기만에 흑자 전환\n매출도 4966억 16%↑실적 개선 ‘신호’\nESS용 동박·반도체소켓 판매 동반상승\n화학사업 중동불안에 고부가 PG↑ 수혜 SKC가 올해 1분기 이차전지와 반도체, 화학 소재 등 사업 부문 전반에서 실적을 개선하며 영업손실 폭을 축소했다. SKC는 지난 1분기 연결기준 잠정 실적으로 매출이 전년 동기보다 15.9% 증가한 4966억원을, 영업손실이 287억원으로 적자 폭을 61.2% 줄었다고 27일 공시했다. 상각전영업손익(EBITDA)은 100억원을 ",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-27T07:34:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260427028410379",
+      "collectedAt": "2026-05-06T06:20:16.681Z"
+    }
+  ]
+}

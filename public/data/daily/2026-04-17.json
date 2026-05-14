@@ -1,0 +1,43 @@
+{
+  "date": "2026-04-17",
+  "generatedAt": "2026-05-13T08:28:57.008Z",
+  "articleCount": 2,
+  "articles": [
+    {
+      "id": "99cd1da1-fea6-4d31-9cb9-9cc2a15093d7",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "배터리 재활용은 여전히 쉽지 않다: 어센드 엘리먼츠(Ascend Elements)의 사례",
+      "titleOriginal": "Battery recycling still isn’t easy. Just ask Ascend Elements.",
+      "summary": "전기차 수요 둔화와 재정난으로 인해 배터리 재활용 스타트업인 어센드 엘리먼츠가 결국 파산을 신청했습니다. 이 회사는 2025년 1억 6,400만 달러의 연방 보조금을 포기하는 등 자금난을 겪으며 산업계의 전반적인 성장 동력 상실을 보여주는 사례가 되었습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-04-17T18:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/batteries/battery-recycling-ascend-elements",
+      "collectedAt": "2026-05-04T08:00:55.262Z"
+    },
+    {
+      "id": "a66f766c-fdbe-4801-8cf7-fbd6262f8360",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "발코니 태양광 발전 도입 전 알아야 할 사항",
+      "titleOriginal": "What to know before you get balcony solar",
+      "summary": "플러그 앤 플레이 방식의 발코니 태양광 시스템은 최대 1,200와트 용량으로 일반 가정용 콘센트에 연결해 전기 요금을 절감할 수 있는 DIY 솔루션입니다. 유타주를 시작으로 미국 내 여러 주에서 관련 법안이 도입되고 있으며, 비영리 단체 Bright Saver는 800와트 및 1,600와트 규모의 설치 키트를 제공하여 일반 가구의 에너지 자립을 돕고 있습니다.",
+      "topics": [
+        "운영 최적화",
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-17T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/solar/what-to-know-balcony-solar",
+      "collectedAt": "2026-05-04T08:00:55.263Z"
+    }
+  ]
+}

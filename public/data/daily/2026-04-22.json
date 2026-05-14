@@ -1,0 +1,60 @@
+{
+  "date": "2026-04-22",
+  "generatedAt": "2026-05-13T08:35:21.904Z",
+  "articleCount": 3,
+  "articles": [
+    {
+      "id": "a7928fb4-9482-48e6-a47d-05f0f2395c4d",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "새로운 열 배터리, 미네소타 캠퍼스의 난방 전기화 지원",
+      "titleOriginal": "A new thermal battery could help this Minnesota campus electrify heat",
+      "summary": "미네소타 대학교 모리스 캠퍼스는 두 기의 풍력 발전기에서 생산된 잉여 전력을 활용하기 위해 캐시 에너지(Cache Energy)의 열 배터리 파일럿 프로젝트를 도입했습니다. 이 시스템은 석회석 기반 펠릿을 통해 최대 화씨 1,000도의 열을 생성하여 캠퍼스 내 목공소의 난방을 전기화함으로써 기존 메탄 가스 난방을 대체하는 데 기여하고 있습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-22T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/long-duration-energy-storage/thermal-battery-minnesota-campus",
+      "collectedAt": "2026-05-04T08:00:55.262Z"
+    },
+    {
+      "id": "507cc89f-926f-493c-94da-1e8c2103d07f",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "스마트폰 카메라가 옥상 태양광의 비용 절감과 속도 향상을 이끄는 방법",
+      "titleOriginal": "Why smartphone cameras could unlock cheaper, faster rooftop solar",
+      "summary": "미국의 일부 지자체는 스마트폰을 활용한 원격 가상 검사 방식을 도입하여 태양광 설치 승인 시간을 수 시간에서 수 분으로 단축하고 있습니다. Environment America와 Frontier Group의 보고서에 따르면, 이러한 검사 방식의 간소화는 미국 내 40,000개 이상의 지자체에서 태양광 보급 비용을 절감하기 위한 핵심적인 정책 과제로 꼽히고 있습니다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-04-22T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/solar/smartphones-rooftop-solar-cheaper-easier",
+      "collectedAt": "2026-05-04T08:00:55.262Z"
+    },
+    {
+      "id": "2e55d118-e9a8-4182-8d9c-70c9730ce12d",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미 연방법원, 트럼프 행정부의 신규 풍력·태양광 프로젝트 차단 조치 중단 명령",
+      "titleOriginal": "US judge halts Trump admin’s blockade on new wind and solar projects",
+      "summary": "미 연방법원 데니스 캐스퍼 판사는 리뉴 노스이스트(Renew Northeast) 등 9개 단체가 제기한 소송에서 트럼프 행정부의 재생에너지 인허가 방해 조치에 대해 예비적 금지 명령을 내렸습니다. 이번 정부의 규제로 인해 총 57기가와트(GW) 규모의 풍력 및 태양광 프로젝트가 취소되거나 2029년 이후로 지연될 위기에 처해 있었습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-22T00:55:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/clean-energy/us-judge-halts-trump-admins-blockade-on-new-wind-and-solar-projects",
+      "collectedAt": "2026-05-04T08:00:55.262Z"
+    }
+  ]
+}

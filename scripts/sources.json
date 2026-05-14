@@ -1,0 +1,23 @@
+{
+  "sources": [
+    { "id": "motie",             "name": "산업통상자원부 (MOTIE)",   "url": "https://www.motie.go.kr",                                    "lang": "ko", "type": "scrape" },
+    { "id": "ekn",               "name": "에너지경제신문",            "url": "https://www.ekn.kr",                                         "lang": "ko", "type": "rss" },
+    { "id": "electimes",         "name": "전기신문",                  "url": "https://www.electimes.com",                                  "lang": "ko", "type": "rss" },
+    { "id": "etnews",            "name": "전자신문 (Energy)",         "url": "https://www.etnews.com",                                     "lang": "ko", "type": "rss" },
+    { "id": "kea",               "name": "한국에너지공단 (KEA)",      "url": "https://www.energy.or.kr",                                   "lang": "ko", "type": "scrape" },
+    { "id": "e2news",            "name": "이투뉴스 (E2News)",         "url": "https://www.e2news.com",                                     "lang": "ko", "type": "rss" },
+    { "id": "news1-energy",      "name": "뉴스1 (Energy)",            "url": "https://www.news1.kr",                                       "lang": "ko", "type": "rss" },
+    { "id": "igt",               "name": "녹색에너지연구원 (IGT)",    "url": "https://igt.or.kr/bbs/board.php?bo_table=m03_03",            "lang": "ko", "type": "scrape" },
+    { "id": "todayenergy",       "name": "투데이에너지",              "url": "https://www.todayenergy.kr",                                 "lang": "ko", "type": "rss" },
+    { "id": "energytimes",       "name": "에너지타임즈",              "url": "https://www.energytimes.kr",                                 "lang": "ko", "type": "rss" },
+    { "id": "irena",             "name": "IRENA",                     "url": "https://www.irena.org",                                      "lang": "en", "type": "scrape" },
+    { "id": "bnef",              "name": "BloombergNEF",              "url": "https://about.bnef.com",                                     "lang": "en", "type": "scrape" },
+    { "id": "reuters-energy",    "name": "Reuters Energy",            "url": "https://www.reuters.com/business/energy",                    "lang": "en", "type": "rss" },
+    { "id": "energy-storage",    "name": "Energy Storage News",       "url": "https://www.energy-storage.news",                           "lang": "en", "type": "rss" },
+    { "id": "renewables-now",    "name": "Renewables Now",            "url": "https://renewablesnow.com",                                  "lang": "en", "type": "rss" },
+    { "id": "pv-magazine",       "name": "PV Magazine",               "url": "https://www.pv-magazine.com",                               "lang": "en", "type": "rss" },
+    { "id": "iea",               "name": "IEA",                       "url": "https://www.iea.org",                                        "lang": "en", "type": "scrape" },
+    { "id": "canary-media",      "name": "Canary Media",              "url": "https://www.canarymedia.com",                               "lang": "en", "type": "rss" },
+    { "id": "slowly-beautiful",  "name": "Slowly Beautiful",          "url": "https://www.slowlybeautiful.com",                           "lang": "en", "type": "scrape" }
+  ]
+}

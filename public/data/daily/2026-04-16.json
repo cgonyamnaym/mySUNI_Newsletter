@@ -1,0 +1,57 @@
+{
+  "date": "2026-04-16",
+  "generatedAt": "2026-05-13T08:28:19.247Z",
+  "articleCount": 3,
+  "articles": [
+    {
+      "id": "156eaec8-82fc-48de-add1-07272b7c2522",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "뉴잉글랜드 지역, 대규모 그리드 배터리 도입 본격화",
+      "titleOriginal": "Big grid batteries are finally on a roll in New England",
+      "summary": "뉴잉글랜드 지역은 강력한 기후 정책과 전력 수요 증가에 힘입어 최근 매사추세츠 메드웨이에 250MW급 대형 배터리 시설이 가동되는 등 저장장치 구축이 가속화되고 있습니다. 특히 향후 주피터 파워(Jupiter Power)가 에버렛에 700MW 규모의 트리마운트(Trimount) 프로젝트를 추진하는 등 대규모 에너지 저장 시설이 지역 내 핵심 인프라로 자리 잡고 있습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-16T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/batteries/big-grid-batteries-new-england",
+      "collectedAt": "2026-05-04T08:00:55.263Z"
+    },
+    {
+      "id": "d00b8cbf-8234-41d2-8b69-f7025eec76ee",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "트럼프 하에서 나빠지고 있는 바이오연료 연방 정책",
+      "titleOriginal": "Federal policy on biofuels goes from bad to worse under Trump",
+      "summary": "트럼프 행정부는 미국 환경보호청(EPA)을 통해 바이오디젤 및 에탄올 혼합 의무 비율을 확대하는 정책을 발표했습니다. 저자는 이 정책이 식량 안보를 위협하고 환경 오염을 가속화하며, 태양광 대비 에너지 효율이 낮은 비효율적인 자원 배분이라고 비판합니다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-16T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/food-and-farms/federal-policy-biofuels-trump",
+      "collectedAt": "2026-05-04T08:00:55.263Z"
+    },
+    {
+      "id": "09e2d7b6-6488-4154-b5d8-3c792b2319d8",
+      "source": "녹색에너지연구원 (IGT)",
+      "sourceId": "igt",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[보도자료] “법적 근거만으로는 부족…기후시민회의, 설계 실패 시 또 하나의 들러리” …녹색전환연구소, 기후시민회의 설계 과제 분석 결과 발표",
+      "titleOriginal": null,
+      "summary": "[보도자료] “법적 근거만으로는 부족…기후시민회의, 설계 실패 시 또 하나의 들러리” …녹색전환연구소, 기후시민회의 설계 과제 분석 결과 발표 2026-04-16 0 164 04.16 09:33 - 녹색전환연구소 16일 이슈브리프 ‘기후시민회의, 어떻게 설계해야 하는가’ 발간 - 시민 100인 숙의 결과, 형식적 참여 반복에 대한 강한 경계… “제안-응답-이행-점검”의 완결 구조 및 실질적 권한 요구- 공식 응답 의무화, 정책 주기와의 연계, 지역 확장 로드맵, 포용적 설계 등 4대 제언 제시- 김주온 기후시민팀 연구원 “기후시민회",
+      "topics": [],
+      "publishedAt": "2026-04-16T00:00:00.000Z",
+      "originalUrl": "https://igt.or.kr/bbs/board.php?bo_table=m03_03&wr_id=70",
+      "collectedAt": "2026-05-06T06:20:25.361Z"
+    }
+  ]
+}

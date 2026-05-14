@@ -1,0 +1,554 @@
+{
+  "date": "2026-05-03",
+  "generatedAt": "2026-05-13T09:06:07.653Z",
+  "articleCount": 32,
+  "articles": [
+    {
+      "id": "0c8944bc-4531-4377-a5d8-25e9e4b21770",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "뉴잉글랜드 어업계, 해양 변화 이해를 돕는 과학 연구에 동참하다",
+      "titleOriginal": "The New England Fishing Industry Is Helping Scientists To Understand Ocean Changes",
+      "summary": "뉴잉글랜드 지역의 어민 약 150명이 NOAA, 매사추세츠주 정부, 자연보호협회 등의 지원을 받아 어구에 온도 센서를 부착하여 해양 데이터를 수집하고 있습니다. 이 프로그램은 현재까지 약 2,300만 건의 온도 기록을 확보했으며, 이를 통해 해양 기후 모델링과 지속 가능한 어업 관리를 위한 과학적 근거를 마련하고 있습니다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-03T21:05:34.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/03/the-new-england-fishing-industry-is-helping-scientists-to-understand-ocean-changes/",
+      "collectedAt": "2026-05-06T06:19:38.041Z"
+    },
+    {
+      "id": "4620bafc-baf9-42ec-8e6a-2c7953600ecc",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "EU 그린 수소 프로젝트, 첨단 푸드테크 기업 '솔라 푸즈'와 협력",
+      "titleOriginal": "EU Green Hydrogen Scheme Embraces High-Tech Solar Foods",
+      "summary": "핀란드의 스타트업 솔라 푸즈는 재생 에너지와 그린 수소를 활용해 단백질 함량이 65~70%에 달하는 합성 단백질 '솔레인'을 생산하는 가스 발효 기술을 선보였습니다. 이 기업은 유럽 연합의 그린 수소 프로젝트인 '발틱씨H2(BalticSeaH2)'에 참여하여 친환경 에너지 기반의 지속 가능한 식품 생산 체계 구축에 기여하고 있습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-03T18:14:35.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/03/eu-green-hydrogen-scheme-embraces-high-tech-solar-foods/",
+      "collectedAt": "2026-05-06T06:19:38.041Z"
+    },
+    {
+      "id": "745d8f92-0377-417d-b220-eee3cab44d60",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "인도적 지원을 위해 우크라이나로 보내진 전기 버스",
+      "titleOriginal": "Electric Buses Sent To Ukraine For Humanitarian Assistance",
+      "summary": "아제르바이잔 정부가 우크라이나의 대중교통난 해소를 위해 전기 버스 5대를 인도적 차원에서 지원했습니다. 이 지원은 전쟁으로 파괴된 에너지 인프라와 공급망을 복구하고, 이동에 어려움을 겪는 지역 사회와 아동들을 돕기 위한 국제적 연대의 일환입니다.",
+      "topics": [
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-03T14:41:36.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/03/electric-buses-sent-to-ukraine-for-humanitarian-assistance/",
+      "collectedAt": "2026-05-06T06:19:38.041Z"
+    },
+    {
+      "id": "d6a9cc25-f66d-4b64-9dc1-0b99dd148434",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "2026년 3월 세계 전기차 판매 순위",
+      "titleOriginal": "Top Selling Electric Vehicles in the World — March 2026",
+      "summary": "2026년 3월 전 세계 전기차 등록 대수는 전년 대비 5% 증가한 약 170만 대를 기록했으며, 특히 순수 전기차(BEV)는 12% 성장하며 시장 점유율 72%를 차지했습니다. 중국과 미국의 보조금 축소로 인한 일시적인 성장 둔화에도 불구하고, 그 외 국가에서는 47%의 높은 성장률을 보이며 전기차 시장의 전반적인 건강함을 입증했습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-03T00:25:16.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/02/top-selling-electric-vehicles-in-the-world-march-2026/",
+      "collectedAt": "2026-05-06T06:19:38.041Z"
+    },
+    {
+      "id": "1019fc8f-fd50-482f-af8e-c10ca0d05e2e",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "2026년 5월, 가격대별 구매 가능한 최고의 전기 자전거 추천",
+      "titleOriginal": "Here are the best electric bikes you can buy at every price level in May 2026",
+      "summary": "Electrek은 수천 마일의 실제 테스트를 통해 2026년 5월 기준 예산별 최적의 전기 자전거 모델들을 선정했습니다. 특히 799달러의 Lectric XP LITE 2.0은 48V 전기 시스템과 유압식 디스크 브레이크를 탑재하여 저가형 시장에서 높은 가성비를 제공합니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-03T14:53:00.000Z",
+      "originalUrl": "https://electrek.co/2026/05/03/here-are-the-best-electric-bikes-you-can-buy-at-every-price-level/",
+      "collectedAt": "2026-05-06T06:19:39.458Z"
+    },
+    {
+      "id": "c6d7bd35-d88a-41a9-85eb-8bc1ff674655",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "세그웨이, 시속 60마일 전기 더트 바이크 출시 – 사실상 완전한 전기 모터사이클",
+      "titleOriginal": "Segway launches 60 MPH electric dirt bike – and it’s basically a full e-motorcycle",
+      "summary": "세그웨이(Segway)가 21kW 출력과 시속 60마일의 최고 속도를 자랑하는 전기 더트 바이크 'Xaber 300'을 5,299달러에 출시했습니다. 이 제품은 3kWh 용량의 삼성 배터리를 탑재하여 최대 100km의 주행 거리를 제공하며, 기존 모터사이클의 성능과 다양한 디지털 제어 기능을 결합한 것이 특징입니다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-03T06:23:18.000Z",
+      "originalUrl": "https://electrek.co/2026/05/02/segway-launches-60-mph-electric-dirt-bike-and-its-basically-a-full-e-motorcycle/",
+      "collectedAt": "2026-05-06T06:19:39.458Z"
+    },
+    {
+      "id": "db67ccc2-aff6-4418-bcf2-7997bb2b17ae",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "에너지 강국 위해 치밀한 전략이 필요하다",
+      "titleOriginal": null,
+      "summary": "미국과 이스라엘의 이란 공격 이후 호르무즈 해협 봉쇄와 중동 에너지 생산 차질로 원유와 가스 공급 불확실성이 확대되고 가격마저 급등하고 있다. 이번 중동전쟁으로 태양광. 풍력 등 재생에너지 전환이 빠르게 전환돼야 된다는 목소리가 높아지고 있다. 중동전쟁이 장기화되든 조기 종료된다고 하더라도 재생에너지 전환은 필요하다. 그럼 왜 지금 에너지 전환이 필요한가 이다. 중동전쟁으로 인해 기존의 원유 수입 다변화 전략만으로는 에너지 안보를 확보하기 어려워졌기 때문이다. 해외 에너지 의존도가 높은 구조에서는 국제 정세 변화에 따라 에너지 가격",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-03T23:46:20.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367631",
+      "collectedAt": "2026-05-06T06:19:49.971Z"
+    },
+    {
+      "id": "1beb3834-71cd-4745-9fa1-3f79d412becf",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(EPTK 2026)“낙뢰 쳐도 CCTV 안 꺼진다”…재신정보, 전기화재 예방·무정전 결선 공법 공개",
+      "titleOriginal": null,
+      "summary": "재신정보(대표 한정규)는 이번 전시회에 수배전반 부스바와 부스덕트에 적용할 수 있는 자가발전 무선온도감지센서와 함께 서지보호기와 누전차단기를 분전함에 같이 설치할 경우에 최적의 설치 공법인 CT-2결선 방식을 공개한다.우선 자가발전 무선온도감지센서는 자가발전방식으로 전원을 충당하는 정온식 온도감지 센서를 수배전반 부스바, 부스덕트 또는 분전반 내부에 설치하고, 섭씨 75도 부근에 내부 온도가 상승하면 RF 무선방식으로 관리통제센터에 즉시 경보신호를 전달해 전기화재에 미리 대처할 수 있도록 돕는 역할을 한다.분전반, 부스바는 물론 부",
+      "topics": [
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-03T23:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367568",
+      "collectedAt": "2026-05-06T06:19:49.971Z"
+    },
+    {
+      "id": "50b22062-e7e8-424e-a283-320155eb5cf4",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(EPTK 2026) 에버헨, AIoT로 중대재해 막는다… 스마트안전시스템 3종 공개",
+      "titleOriginal": null,
+      "summary": "에버헨(대표 한동호)은 5월 6일부터 8일까지 3일간 서울 코엑스에서 열리는 ‘2026 국제전기전력 전시회(EPTK 2026)’에 참가해 산업현장 안전관리를 위한 AIoT 기반 스마트안전시스템 3종을 선보인다.이번 전시회는 전기 분야를 넘어 에너지·환경 분야까지 아우르는 국내 대표 전문 전시회로, 미래 전기산업과 에너지 신산업의 비전을 제시하는 자리로 평가받고 있다.에버헨이 이번 전시에서 소개하는 첫 번째 제품은 활선음성경보장치다. 이 제품은 수·배전반 도어 개방 또는 작업자 접근 시 적외선·레이더 센서와 비접촉식 전기장 감지 기술",
+      "topics": [
+        "운영 최적화",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-03T23:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367567",
+      "collectedAt": "2026-05-06T06:19:49.971Z"
+    },
+    {
+      "id": "1ac69635-d9a4-4e72-8d8a-7db855a84a8a",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(EPTK 2026) 아크·누전·과부하 사고…아콘텍 ‘슬림형 스마트 아크차단기’로 잡는다",
+      "titleOriginal": null,
+      "summary": "전기안전공사가 발행한 ‘2024년도 전기재해 통계분석’에 따르면 2024년 한 해 동안 전국에서 3만7610건의 화재가 발생했다. 이 중 전기적 요인에 의한 화재는 8634건으로 전체의 22.9%에 달했다.이러한 전기화재 원인 중 가장 높은 비중을 차지하는 것이 ‘아크’다.아크차단기 분야 선도기업인 아콘텍(대표 라웅재)은 국민의 인명·재산 피해를 야기하는 ‘아크’를 정밀하게 검출, 완벽하게 차단하는 기술로 전기화재 예방에 힘을 보태 왔다.이 회사는 이번 ‘2026 국제 전기전력 전시회’(EPTK 2026)에 다양한 아크차단기 제품군",
+      "topics": [],
+      "publishedAt": "2026-05-03T23:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367530",
+      "collectedAt": "2026-05-06T06:19:49.971Z"
+    },
+    {
+      "id": "57e911cb-eb6e-4d99-8a4c-5a41f4a1cc9f",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "해진공, 3억달러 블루본드 발행 성공…“역대 최대 주문·최저 금리”",
+      "titleOriginal": null,
+      "summary": "한국해양진흥공사전 세계 투자자를 대상으로 3억달러 규모의 블루본드(Blue Bond) 발행에 성공했다고 밝혔다.블루본드는 해양 환경 보호와 지속 가능한 해양산업 육성을 위한 자금 조달을 목적으로 발행되는 ESG 채권이다.이번 발행에는 전 세계 189개 기관이 참여해 총 40억3000만달러 규모의 주문이 몰리며 높은 관심을 입증했다. 이에 따라 해진공은 최초 제시 금리 대비 40bp(0.4%포인트) 낮은 수준으로 최종 발행금리를 확정했다.특히 이번 채권은 우리나라에서 2년 연속 발행된 블루본드이자, 해진공이 처음으로 시도한 변동금리부",
+      "topics": [
+        "ESG·탄소중립",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-03T12:26:19.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367630",
+      "collectedAt": "2026-05-06T06:19:49.971Z"
+    },
+    {
+      "id": "a7ca237a-872b-42d8-93fe-c31cda45aa8b",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한울3호기, 제19차 계획예방정비 마치고 100% 출력 도달",
+      "titleOriginal": null,
+      "summary": "한국수력원자력 한울원자력본부는 지난 2월 13일 계획예방정비에 들어갔던 한울3호기(가압경수로형·100만kW급)가 4월 29일 발전을 재개한 데 이어 5월 2일 오후 10시께 100% 출력에 도달했다고 밝혔다.한울3호기는 이번 운전 주기에서 국내 원전 최초로 11주기 연속 OCTF(One Cycle Trouble Free)를 기록했다. OCTF는 계획예방정비 완료 후 계통연결 시점부터 다음 계획예방정비를 위한 계통분리 시점까지 발전소가 정지 없이 안정적으로 운전되는 것을 의미한다.이번 계획예방정비 기간 한울3호기는 원자력안전법에 따른",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-03T11:08:47.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367628",
+      "collectedAt": "2026-05-06T06:19:49.971Z"
+    },
+    {
+      "id": "5e65dc5e-4a9a-49cd-a1d6-872eabb87304",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "그린수소 상용화 최대 걸림돌 ‘귀금속 이리듐’ 딜레마 풀었다",
+      "titleOriginal": null,
+      "summary": "전 세계가 탄소중립 실현을 위해 그린수소에 주목하는 가운데, 국내 연구진이 그린수소 생산 설비의 핵심 난제로 꼽혀온 희귀금속 사용량을 대폭 줄일 수 있는 전극 기술을 개발했다.한국과학기술연구원(KIST) 수소·연료전지연구단 박현서 박사 연구팀과 서울대 화학생물공학부 성영은 교수 공동연구팀은 이리듐 나노튜브(IrNT)를 그물망 구조로 배치해 기존보다 훨씬 적은 이리듐으로도 안정적으로 전류가 흐르는 수전해 전극을 구현했다고 밝혔다.그린수소는 재생에너지 전기로 물을 분해해 생산하는 수소로, 생산 과정에서 탄소를 배출하지 않는다는 점에서",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-03T10:56:45.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367627",
+      "collectedAt": "2026-05-06T06:19:49.971Z"
+    },
+    {
+      "id": "a1711a32-812e-4e95-be90-5933e3f049d2",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "이산화탄소 제거하고 전기도 만드는 전기화학 전극 개발",
+      "titleOriginal": null,
+      "summary": "지구온난화의 주범인 이산화탄소를 유용한 물질로 바꿔주고, 수소로 전기도 만들 수 있는 장치의 성능과 수명을 획기적으로 개선하는 전극 물질이 개발됐다.UNIST 신소재공학과 조승호 교수팀은 POSTECH 안지환 교수, 서울대 한정우 교수, 중국 난징정보과학기술대학교 부윈페이 교수팀과 함께 이중층수산화물을 이용해 고온에서도 성능이 떨어지지 않는 고체산화물전지(SOC) 전극을 개발했다고 밝혔다.고체산화물전지는 수소나 메탄 같은 연료를 이용해 전기를 생산하는 장치다. 수소차의 연료전지와 달리 전기를 넣으면 반대로 반응을 돌릴 수 있어 심야",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-03T09:37:56.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367624",
+      "collectedAt": "2026-05-06T06:19:49.971Z"
+    },
+    {
+      "id": "f4c940ae-26a6-4433-b0b7-e5e4879bce0c",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“물·에너지 융합 아이디어 공모”…정부, 국민 참여로 정책 발굴",
+      "titleOriginal": null,
+      "summary": "정부가 물과 에너지가 결합한 새로운 정책을 찾기 위한 공모에 나선다.기후에너지환경부는 이 같은 내용의 ‘물·에너지 융합 대국민 아이디어 공모전’을 오는 4일부터 내달 31일까지 개최한다고 3일 밝혔다.물-에너지 융합이란 물과 에너지 분야가 분리된 영역이 아닌 하나의 순환체계로 작동하는 개념을 정책과 사업에 함께 구현하기 위한 협업 플랫폼이다.예를 들어 한국전력공사와 한국수자원공사가 각각 운영하던 원격검침 인프라 구축망(AMI)을 하나로 통합해 국민에게 실시간 통합정보 알림 서비스 등 편의성을 제공하는 것이다.기후부는 지난 2월 ‘물",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-03T05:14:56.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367623",
+      "collectedAt": "2026-05-06T06:19:49.971Z"
+    },
+    {
+      "id": "9d3090e7-1110-4177-977d-e6c308b1e93e",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "표류 가능성 점쳐지는 전력산업 개편, 왜?",
+      "titleOriginal": null,
+      "summary": "정부가 동시다발적으로 추진 중인 전력산업 개편 정책들이 표류할 가능성이 제기된다. 업계 일각에선 단기적인 목표 달성에 매몰돼 전력시장 선진화의 큰 그림과 정책 목표가 훼손되고 있다는 지적이 적지 않다.기후에너지환경부는 지난 1월 ‘에너지전환기 전력공기업들의 새로운 역할 연구’ 용역을 발주하고 발전 5사 통합안 마련에 본격 착수했다.발전 5사 운영의 효율성에 대한 대통령의 의문이 이 같은 통합 논의의 시발점이 됐다. 이재명 대통령이 최근 공공기관 통폐합 의지를 밝히면서 그 대상 중 하나로 발전공기업을 지목, 해당 논의가 본격화됐다는 ",
+      "topics": [
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-03T03:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367581",
+      "collectedAt": "2026-05-06T06:19:49.971Z"
+    },
+    {
+      "id": "81bbf9ca-f78d-4be9-b5d1-79652d996d7a",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "HD현대일렉트릭, 국내 최초 ‘SF₆-Free’ 고압차단기 승인 완료…유럽 시장 공략 ‘가속페달’",
+      "titleOriginal": null,
+      "summary": "HD현대일렉트릭이 국내 최초로 독자 개발한 SF₆-Free 고압차단기의 최종 승인시험을 성공적으로 마치며 친환경 고압차단기 시장 공략에 속도를 내고 있다.HD현대일렉트릭은 최근 145kV SF₆-Free 고압차단기의 최종 승인시험을 고객 입회하에 성공적으로 마쳤다고 3일 밝혔다. 해당 제품은 스웨덴 전력회사가 운영하는 변전소에 공급될 예정이다.SF₆-Free 고압차단기는 대표적인 불소계 온실가스인 SF₆(육불화황)를 사용하지 않는 친환경 전력기기다. SF₆는 우수한 절연·차단 성능으로 고압 전력기기에 널리 사용돼 왔지만, 지구온난화",
+      "topics": [
+        "정책·규제",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-03T02:29:34.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367622",
+      "collectedAt": "2026-05-06T06:19:49.971Z"
+    },
+    {
+      "id": "43e6eabe-b3ad-41ac-ab44-3730227f6b1a",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "규제 한파 속 성장 지속…지바이크, PM 업계 ‘기준’을 만들다",
+      "titleOriginal": null,
+      "summary": "개인형 이동수단(PM) 업계가 규제 불확실성과 단속 강화라는 이중고를 겪고 있다. PM법은 지난해 12월 국토위 법안소위를 통과했으나 이후 면허 조항 추가 등을 위해 재심사에 들어간 상태다. 최근에는 서초구가 서울 자치구 최초로 방치 전기자전거 즉시 수거에 나서는 등 단속 범위가 전기자전거까지 확대되고 있다. 서울시 기준 전기자전거 운영 대수가 2022년 5000여대에서 2025년 4만1000여대로 8배 가까이 급증했지만 이를 뒷받침할 제도적 기반과 관리 체계가 여전히 마련되지 못하면서 업계 전반에 긴장감이 감돌고 있다.법과 제도가",
+      "topics": [
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-03T00:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367555",
+      "collectedAt": "2026-05-06T06:19:49.971Z"
+    },
+    {
+      "id": "430f5c56-4516-4bc3-b524-1112e6d810f4",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "중부발전-수도권매립지, ‘국제감축사업’ 개발 힘 모은다",
+      "titleOriginal": null,
+      "summary": "[에너지데일리 송병훈 기자] 한국중부발전(사장 이영조)이 국가 온실가스 감축목표(NDC) 달성을 위해 수도권매립지관리공사(사장 송병억)와 힘을 합친다.한국중부발전은 최근 중부발전 서울발전본부에서 수도권매립지관리공사와 ‘매립지 분야 온실가스 국제감축사업 공동개발’을 위한 업무협약을 체결하고, 본격적인 협력에 나서기로 했다고 4일 밝혔다.이번 협약은 국가 온실가스감축목표(NDC) 달성을 위해 공공부문의 주도적 역할이 강조되는 시점에서, 에너지 공기업과 매립지 전문 기관이 각자의 전문성을 결합해 실질적인 국제 탄소배출권을 확보하기 위해",
+      "topics": [
+        "ESG·탄소중립",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-03T23:39:00.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=166937",
+      "collectedAt": "2026-05-06T06:19:53.880Z"
+    },
+    {
+      "id": "dadb4752-07ec-4089-b2f1-ee2357ea0ee1",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "LS전선, 북미 해양 전력망 인프라 시장 공략 확대 나섰다",
+      "titleOriginal": null,
+      "summary": "[에너지데일리 송병훈 기자] LS전선이 LS마린솔루션과 함께 북미 해양 전력망 시장 공략에 속도를 내고 있다.LS전선은 5월4일부터 7일까지 미국 휴스턴(Houston)에서 열리는 OTC 2026(Offshore Technology Conference)에 참가, 해양 인프라용 제품들을 선보인다고 4일 밝혔다.OTC는 글로벌 해양 에너지·플랜트 기업들이 참여하는 대표 전시회로, 해양 플랫폼과 선박, 해저 인프라 전반의 핵심 기술이 집중적으로 소개된다.현재 북미 해양 인프라 시장은 해저 전력망과 해양 플랜트를 중심으로 투자가 이어지며",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-03T23:33:05.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=166936",
+      "collectedAt": "2026-05-06T06:19:53.880Z"
+    },
+    {
+      "id": "15697df6-54cd-4d93-a467-37826c5b14dd",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "경남에너지, 327억 투자로 도시가스 확대…7,600세대 신규 공급",
+      "titleOriginal": null,
+      "summary": "[에너지데일리 조남준 기자]경남지역 향토기업인 경남에너지가 도시가스 미공급 지역 해소를 위한 대규모 인프라 투자에 나서면서, 지역 간 에너지 격차 완화와 생활 인프라 개선이 본격화될 전망이다.경남에너지(대표이사 신창동)는 2026년 한 해 동안 총 327억 원을 투입해 도시가스 배관망을 확충하고 약 7,600여 세대에 신규 공급을 추진한다고 밝혔다. 이는 기존 공급망의 사각지대를 해소하고 도민 에너지 접근성을 높이기 위한 전략적 투자로 풀이된다.이번 사업을 통해 총 42km 규모의 배관이 신규 구축되며, 주요 대상지는 ▲창원시 진해",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-03T23:18:00.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=166935",
+      "collectedAt": "2026-05-06T06:19:53.880Z"
+    },
+    {
+      "id": "fa2f636e-7c87-49f5-9738-d2e167b02972",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[분석] 충전 인프라 ‘관리 시대’ 본격화…전기·수소차 정책 전환 분기점",
+      "titleOriginal": null,
+      "summary": "[에너지데일리 조남준 기자] 전기차·수소차 충전시설의 전산망 등록 의무화와 운영·안전 관리기준 강화가 추진되면서, 충전 인프라 정책이 단순 보급 단계를 넘어 ‘관리·서비스 중심 체계’로 전환되는 분기점에 들어섰다는 분석이 나온다. 이용자 편의 개선과 안전성 확보라는 정책 목표 이면에서 시장 구조 재편과 데이터 기반 산업 확장이라는 파급효과가 동시에 나타날 전망이다.기후에너지환경부(장관 김성환)가 지난 30일 입법예고한 '대기환경보전법 시행규칙 일부개정령안'과 '대기환경보전법 시행령 일부개정령안'은 충전시",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-03T21:00:00.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=166934",
+      "collectedAt": "2026-05-06T06:19:53.880Z"
+    },
+    {
+      "id": "7559d780-94b6-43d8-a4c3-3f1415e3fae3",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전기·수소차 충전시설 전면 관리체계 구축…전산망 등록 의무화",
+      "titleOriginal": null,
+      "summary": "[에너지데일리 조남준 기자] 전기차·수소차 충전시설의 설치·운영 정보를 전산망에 의무 등록하고, 운영·안전 관리기준과 제재수단까지 포함한 통합 관리체계 구축이 추진되면서 충전 인프라 정책이 ‘양적 확대’에서 ‘질적 관리’ 중심으로 전환되고 있다. 이용자 편의와 안전성 확보를 위한 공공 관리 기능이 강화되는 동시에, 시장 구조와 사업자 경쟁 방식에도 적지 않은 변화가 예상된다.기후에너지환경부(장관 김성환)는 지난달 30일 '대기환경보전법 시행규칙 일부개정령안'과 '대기환경보전법 시행령 일부개정령안'을 입법",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-03T08:47:03.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=166933",
+      "collectedAt": "2026-05-06T06:19:53.880Z"
+    },
+    {
+      "id": "eead6676-0a2b-4d82-bc01-715951d650c4",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한국수자원공사, 동반성장평가 ‘최우수’ 첫 진입…중소기업 상생모델 성과 가시화",
+      "titleOriginal": null,
+      "summary": "[에너지데일리 조남준 기자] 한국수자원공사가 중소기업과의 협력 성과를 인정받으며 동반성장 정책의 대표 사례로 부상했다.한국수자원공사(k-water, 사장 윤석대)는 중소벤처기업부가 지난달 27일 발표한 ‘2025년도 공공기관 동반성장평가’에서 최고 등급인 ‘최우수’를 획득했다. 지난해 ‘우수’에서 한 단계 상승한 것으로, 공공과 중소기업 간 협력 모델이 실질적 성과로 이어졌다는 점이 반영된 결과다.이번 평가는 133개 공공기관을 대상으로 협력체계 구축과 지원의 실효성, 생태계 조성 노력 등을 종합적으로 점검한 것이다. 한국수자원공사",
+      "topics": [],
+      "publishedAt": "2026-05-03T07:40:00.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=166932",
+      "collectedAt": "2026-05-06T06:19:53.880Z"
+    },
+    {
+      "id": "8c696050-39a3-4f31-8b01-a55de7ef5c8b",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "중부발전 ‘재생에너지운영본부’ 출범",
+      "titleOriginal": null,
+      "summary": "한국중부발전(주)(사장 이영조)이 재생에너지 효율적 운영과 체계적인 관리를 위해 전담조직인 ‘재생에너지운영본부’를 지난 29일 출범시켰다. 그동안 사업소별로 분산 운영되던 재생에너지를 하나로 통합해 전문성과 효율성을 높이는 역할을 하게 될 이 본부는 태양광·풍력발전 등에 인공지능(AI) 기반 데이터 분석 기술을 도입해 실시간 모니터링과 발전량 예측, 고장 진단 등 스마트 관리 체계를 구축한다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-03T01:03:28.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69860",
+      "collectedAt": "2026-05-06T06:19:57.190Z"
+    },
+    {
+      "id": "d44d23c2-7b94-4c8f-8225-f97ab8d3f19b",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "석유관리원, 취약계층 연료유 1.7만리터 무상 지원",
+      "titleOriginal": null,
+      "summary": "한국석유관리원(이사장 최춘식)이 국제유가 상승으로 어려움을 겪는 취약계층을 지원하기 위해 독거노인과 소규모 복지단체 등을 대상으로 난방유와 차량 연료유를 무상으로 지원한다고 밝혔다. 이번 지원은 본사를 포함한 전국 10개 지역사업장에서 동시에 진행되며, 모두 97개 복지단체를",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-03T00:50:28.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69859",
+      "collectedAt": "2026-05-06T06:19:57.190Z"
+    },
+    {
+      "id": "e5e27188-f4de-4527-86a1-84c8c2515dcd",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "동서발전-한화에너지, 분산E 시장 확대 뜻모아",
+      "titleOriginal": null,
+      "summary": "한국동서발전(주)(사장 권명호)이 한화에너지와 분산에너지 시장 확대와 저탄소 전력공급 모델 구축에 협력하기로 하고 지난 30일 더 플라자호텔(서울 중구 소재)에서 ‘분산에너지 사업 공동 추진을 위한 양해각서’를 체결했다. 이 양해각서가 체결됨에 따라 동서발전은 한화에너지와 ▲산업단지·분산에너지 전원개발 ▲인공지능(AI) 등 첨단산업 중심 신규 전",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-03T00:45:09.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69858",
+      "collectedAt": "2026-05-06T06:19:57.190Z"
+    },
+    {
+      "id": "71a17b6e-f14b-4a2a-a28d-326e1de23560",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "울산옹기축제…동서발전, 자원순환 체험활동 지원",
+      "titleOriginal": null,
+      "summary": "한국동서발전(주)(사장 권명호)이 탄소중립 실천 확산을 위해 지난 1일부터 3일까지 열린 제26회 울산옹기축제에서 자원순환 체험활동을 지원했다. 이번 축제에서 동서발전은 폐장난감을 활용한 미술작품을 전시하는 한편 병뚜껑을 활용한 고래 모형 치약짜개 만들기",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-03T00:16:09.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69857",
+      "collectedAt": "2026-05-06T06:19:57.190Z"
+    },
+    {
+      "id": "887ff76c-96f2-4303-92af-a5c52903113f",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "복합재난 대응…가스공사, 실전형 훈련 강화",
+      "titleOriginal": null,
+      "summary": "한국가스공사(사장 최연혜)가 복합·연쇄 재난 상황에 대비하는 한편 재난 대응 역량 강화를 위해 지난 30일 평택기지본부(경기 평택시 소재)에서 2026년 재난대응 안전한국훈련 상반기 대표 시범훈련에 나섰다. 이번 훈련은 낙뢰로 인한 국가핵심기반 마비를 비롯해 가스 누출과 화재가 동시에 발생하는",
+      "topics": [],
+      "publishedAt": "2026-05-03T00:11:32.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69856",
+      "collectedAt": "2026-05-06T06:19:57.190Z"
+    },
+    {
+      "id": "fc734445-4166-4c06-a222-9158c501af8d",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“단기 대안 LNG뿐인데, LNG는 쓰지마”…반도체·DC의 전력 딜레마",
+      "titleOriginal": null,
+      "summary": "용인반도체 최소 10GW 신규 필요, 데이터센터 2038년까지 3배 이상 증가\n원전·석탄은 시간·입지 제약, 재생+ESS도 한계…SMR은 아직 초기 단계\n단기적·안정적으로 공급 가능한 전력은 LNG뿐이지만 탄소중립에 막혀 \n정부는 규제 강화 흐름…산업계·전문가 “공급 해법 없이 탄소 감축만 강조” ▲용인 처인구 원삼면 반도체클러스터 일반산업단지 조감도. 제공=용인특례시 주요 제조 대기업들이 폭증하는 글로벌 수요를 충당하고 경쟁에 앞서 나가기 위해 현실적으로 액화천연가스(LNG)를 활용한 열병합발전을 검토하고 있지만 정작 정책 환경은",
+      "topics": [],
+      "publishedAt": "2026-05-03T21:36:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260430021298799",
+      "collectedAt": "2026-05-06T06:20:16.677Z"
+    },
+    {
+      "id": "4985ac30-b558-4dcb-bd16-023be4d0b09d",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[에너지경제 여론조사] 李 대통령 지지율 59.5%…8주 만에 50%대 하락",
+      "titleOriginal": null,
+      "summary": "李 지지율, 전주 대비 2.7%P 하락\n“민생·노사갈등 등 정국 불안 영향”\n민주 48.6% vs 국힘 31.6%...17%P 차 ▲4월 5주차 이재명 대통령 국정수행 평가 요약. 자료=리얼미터 이재명 대통령의 국정수행 지지율이 2주 연속 하락하며, 8주 만에 50%대로 내려갔다. 정당 지지도에서는 더불어민주당과 국민의힘의 격차가 소폭 줄어들었다. 에너지경제신문 의뢰로 여론조사 전문기관 리얼미터가 이달 27일부터 30일까지 나흘간 전국 18세 이상 유권자 2006명을 대상으로 조사한 결과, 이재명 대통령의 국정수행에 대한 긍정 평가",
+      "topics": [],
+      "publishedAt": "2026-05-03T21:00:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260501028091638",
+      "collectedAt": "2026-05-06T06:20:16.677Z"
+    },
+    {
+      "id": "0cfbcadd-bb94-488f-bfcf-ac30a87d64df",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“봄이 사라졌다”…기후변화가 만든 ‘역대급 일교차’ [이슈+]",
+      "titleOriginal": null,
+      "summary": "봄철 ‘널뛰기 기온’ 심화\n韓, 3~4월 일교차 10도 넘는 날 속출\n\n“단순 계절성 넘어선 기후 신호” 경고\n개화 앞당기고 소비 패턴도 변화 ▲지난달 12일 서울 여의도 한강공원 물놀이장에서 어린이들이 더위를 식히는 모습 미국 북동부에서 '역대급 일교차'가 속출하는 가운데 한국에서도 3~4월 일교차가 10도 이상 벌어지는 날이 잇따르며 봄 날씨에 이상 신호가 켜졌다. 특히 4월의 경우 낮에는 때 이른 더위가 나타나는 반면 아침·밤에는 기온이 크게 떨어지며 쌀쌀한 날씨가 이어지는 등 하루 사이 기온 변화가 극심해지고 있다. 이 같은",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-03T02:53:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260503024361851",
+      "collectedAt": "2026-05-06T06:20:16.677Z"
+    }
+  ]
+}

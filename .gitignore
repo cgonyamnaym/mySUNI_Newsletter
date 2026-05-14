@@ -1,0 +1,31 @@
+# Vercel
+.vercel
+
+# Next.js
+.next/
+out/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env*.local
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+tsconfig.tsbuildinfo
+
+# bkit runtime
+.bkit/runtime/
+.bkit/snapshots/
+.bkit/audit/

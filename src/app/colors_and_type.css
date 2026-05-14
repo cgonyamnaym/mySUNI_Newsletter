@@ -1,0 +1,268 @@
+/* =========================================================
+   Wanted Design System ??Core Tokens
+   Extracted from the "Wanted Design System (Community)" Figma file.
+   Primary font: Pretendard JP (served via Google Fonts ??Pretendard).
+   ========================================================= */
+
+/* -----------------------------------------------------------
+   @font-face ??Pretendard (static OTF weights, served locally)
+   Replaces the previous jsdelivr Pretendard Variable import.
+   ----------------------------------------------------------- */
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("/fonts/Pretendard-Thin.otf") format("opentype");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("/fonts/Pretendard-ExtraLight.otf") format("opentype");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/fonts/Pretendard-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/Pretendard-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/Pretendard-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/Pretendard-SemiBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/Pretendard-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/fonts/Pretendard-ExtraBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("/fonts/Pretendard-Black.otf") format("opentype");
+}
+
+:root {
+  /* -----------------------------------------------------------
+     FONT FAMILIES
+     Pretendard JP is the primary brand font in the Figma (KO + EN + JP).
+     We ship the open-source sibling "Pretendard" (same designer,
+     same Korean/Latin optical design) as 9 static OTF weights in /fonts.
+     JP kana fidelity still requires licensed Pretendard JP ??flagged
+     in README.
+     ----------------------------------------------------------- */
+  --font-sans: "Pretendard", "Pretendard JP",
+               -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+               "Noto Sans KR", system-ui, sans-serif;
+  --font-display: "Wanted Sans", "Pretendard", "Pretendard JP", sans-serif;
+  --font-mono: "SF Mono", "JetBrains Mono", ui-monospace, Menlo,
+               Consolas, monospace;
+
+  /* -----------------------------------------------------------
+     ATOMIC COLORS ??Neutrals (primary palette)
+     ----------------------------------------------------------- */
+  --c-black:       rgb(0, 0, 0);
+  --c-white:       rgb(255, 255, 255);
+
+  --c-gray-50:     rgb(247, 247, 248);
+  --c-gray-100:    rgb(244, 244, 245);
+  --c-gray-200:    rgb(219, 220, 223);
+  --c-gray-300:    rgb(194, 196, 200);
+  --c-gray-400:    rgb(174, 176, 182);
+  --c-gray-500:    rgb(152, 155, 162);
+  --c-gray-600:    rgb(112, 115, 124);
+  --c-gray-700:    rgb( 55,  56,  60);
+  --c-gray-800:    rgb( 46,  47,  51);
+  --c-gray-900:    rgb( 27,  28,  30);
+  --c-gray-950:    rgb( 23,  23,  25);
+
+  /* -----------------------------------------------------------
+     ATOMIC COLORS ??Accents
+     ----------------------------------------------------------- */
+  --c-blue-50:     rgb(234, 242, 254);
+  --c-blue-300:    rgb( 51, 133, 255);
+  --c-blue-500:    rgb(  0, 102, 255);   /* brand primary */
+  --c-blue-600:    rgb(  0,  94, 235);
+  --c-blue-700:    rgb(  0,  92, 235);
+
+  --c-violet-50:   rgb(240, 236, 254);
+  --c-violet-500:  rgb(151,  71, 255);
+  --c-violet-600:  rgb(101,  65, 242);
+
+  --c-red-500:     rgb(255,  66,  66);
+  --c-green-500:   rgb(  0, 191,  64);
+  --c-teal-500:    rgb(  0, 152, 178);
+  --c-yellow-400:  rgb(255, 232,  18);   /* taxi brand accent */
+
+  /* -----------------------------------------------------------
+     SEMANTIC COLORS ??Light mode (default)
+     Naming mirrors Wanted's Figma semantic layer.
+     ----------------------------------------------------------- */
+  /* Backgrounds */
+  --bg-base:       var(--c-white);
+  --bg-subtle:     var(--c-gray-50);
+  --bg-muted:      rgba(112, 115, 124, 0.05);
+  --bg-elevated:   var(--c-white);
+  --bg-inverse:    var(--c-gray-950);
+
+  /* Foreground / text */
+  --fg-strong:     var(--c-black);                 /* headings */
+  --fg-normal:     var(--c-gray-950);              /* body */
+  --fg-neutral:    rgba(46, 47, 51, 0.88);         /* secondary body */
+  --fg-alternative:rgba(55, 56, 60, 0.61);         /* tertiary / captions */
+  --fg-assistive:  rgba(55, 56, 60, 0.28);         /* disabled / placeholder */
+  --fg-on-primary: var(--c-white);
+  --fg-inverse:    var(--c-white);
+
+  /* Accent roles */
+  --fg-primary:    var(--c-blue-500);
+  --bg-primary:    var(--c-blue-500);
+  --bg-primary-hover: var(--c-blue-600);
+  --bg-primary-subtle: var(--c-blue-50);
+
+  --fg-danger:     var(--c-red-500);
+  --bg-danger:     var(--c-red-500);
+  --fg-success:    var(--c-green-500);
+  --bg-success:    var(--c-green-500);
+  --fg-info:       var(--c-teal-500);
+  --fg-accent:     var(--c-violet-500);
+
+  /* Lines / borders (Wanted uses alpha-tinted neutrals) */
+  --line-subtle:   rgba(112, 115, 124, 0.16);
+  --line-normal:   rgba(112, 115, 124, 0.22);
+  --line-strong:   rgba(112, 115, 124, 0.40);
+  --line-inverse:  rgba(255, 255, 255, 0.18);
+
+  /* Overlays */
+  --overlay-dim:   rgba(0, 0, 0, 0.40);
+
+  /* -----------------------------------------------------------
+     RADII ??Wanted uses generous rounding at every scale.
+     ----------------------------------------------------------- */
+  --radius-xs:   4px;
+  --radius-sm:   8px;
+  --radius-md:  12px;
+  --radius-lg:  16px;
+  --radius-xl:  24px;
+  --radius-2xl: 32px;
+  --radius-3xl: 64px;
+  --radius-full: 9999px;
+
+  /* -----------------------------------------------------------
+     SHADOWS (from Figma: 23/23/23 alpha-tinted, subtle)
+     ----------------------------------------------------------- */
+  --shadow-xs: 0 1px 2px   rgba(23, 23, 23, 0.06);
+  --shadow-sm: 0 2px 6px   rgba(23, 23, 23, 0.07);
+  --shadow-md: 0 4px 16px  rgba(23, 23, 23, 0.08);
+  --shadow-lg: 0 12px 32px rgba(23, 23, 23, 0.10);
+  --shadow-xl: 0 24px 48px rgba(23, 23, 23, 0.12);
+
+  /* -----------------------------------------------------------
+     SPACING (Wanted's 4-base scale, multiples of 4 and 8)
+     ----------------------------------------------------------- */
+  --space-0:   0;
+  --space-1:   2px;
+  --space-2:   4px;
+  --space-3:   8px;
+  --space-4:  12px;
+  --space-5:  16px;
+  --space-6:  20px;
+  --space-7:  24px;
+  --space-8:  32px;
+  --space-9:  48px;
+  --space-10: 64px;
+  --space-11: 96px;
+  --space-12: 128px;
+}
+
+/* =====================================================
+   Dark theme ??flipping semantic surfaces + text.
+   Activate via <html data-theme="dark"> or .dark scope.
+   ===================================================== */
+:root[data-theme="dark"], .dark {
+  --bg-base:       rgb(20, 25, 30);
+  --bg-subtle:     var(--c-gray-900);
+  --bg-muted:      rgba(255, 255, 255, 0.04);
+  --bg-elevated:   rgb(27, 28, 30);
+  --bg-inverse:    var(--c-white);
+
+  --fg-strong:     var(--c-white);
+  --fg-normal:     rgba(255, 255, 255, 0.92);
+  --fg-neutral:    rgba(255, 255, 255, 0.72);
+  --fg-alternative:rgba(255, 255, 255, 0.52);
+  --fg-assistive:  rgba(255, 255, 255, 0.28);
+  --fg-inverse:    var(--c-black);
+
+  --line-subtle:   rgba(255, 255, 255, 0.10);
+  --line-normal:   rgba(255, 255, 255, 0.16);
+  --line-strong:   rgba(255, 255, 255, 0.28);
+}
+
+/* =====================================================
+   TYPOGRAPHY ??Wanted's 7-level hierarchy (18 sub-levels)
+   Sizes expressed with Figma letter-spacing in em.
+   ===================================================== */
+.ds-display-2xl { font-family: var(--font-sans); font-weight: 700; font-size: 72px; line-height: 1.25; letter-spacing: -0.027em; color: var(--fg-strong); }
+.ds-display-xl  { font-family: var(--font-sans); font-weight: 700; font-size: 56px; line-height: 1.286; letter-spacing: -0.032em; color: var(--fg-strong); }
+.ds-display-lg  { font-family: var(--font-sans); font-weight: 700; font-size: 36px; line-height: 1.334; letter-spacing: -0.027em; color: var(--fg-strong); }
+
+.ds-title-xl    { font-family: var(--font-sans); font-weight: 700; font-size: 28px; line-height: 1.358; letter-spacing: -0.024em; color: var(--fg-strong); }
+.ds-title-lg    { font-family: var(--font-sans); font-weight: 700; font-size: 24px; line-height: 1.334; letter-spacing: -0.023em; color: var(--fg-strong); }
+.ds-title-md    { font-family: var(--font-sans); font-weight: 700; font-size: 20px; line-height: 1.40;  letter-spacing: -0.010em; color: var(--fg-strong); }
+.ds-title-sm    { font-family: var(--font-sans); font-weight: 700; font-size: 18px; line-height: 1.445; color: var(--fg-strong); }
+
+.ds-label-lg    { font-family: var(--font-sans); font-weight: 700; font-size: 17px; line-height: 1.412; color: var(--fg-normal); }
+.ds-label-md    { font-family: var(--font-sans); font-weight: 700; font-size: 16px; line-height: 1.50;  letter-spacing: 0.006em;  color: var(--fg-normal); }
+.ds-label-sm    { font-family: var(--font-sans); font-weight: 700; font-size: 14px; line-height: 1.429; letter-spacing: 0.015em;  color: var(--fg-normal); }
+.ds-label-xs    { font-family: var(--font-sans); font-weight: 700; font-size: 12px; line-height: 1.334; letter-spacing: 0.025em;  color: var(--fg-normal); }
+
+.ds-body-lg     { font-family: var(--font-sans); font-weight: 500; font-size: 16px; line-height: 1.50;  letter-spacing: 0.006em;  color: var(--fg-normal); }
+.ds-body-md     { font-family: var(--font-sans); font-weight: 500; font-size: 15px; line-height: 1.467; letter-spacing: 0.010em;  color: var(--fg-normal); }
+.ds-body-sm     { font-family: var(--font-sans); font-weight: 500; font-size: 14px; line-height: 1.429; letter-spacing: 0.015em;  color: var(--fg-normal); }
+
+.ds-caption-lg  { font-family: var(--font-sans); font-weight: 500; font-size: 13px; line-height: 1.385; letter-spacing: 0.019em;  color: var(--fg-alternative); }
+.ds-caption-md  { font-family: var(--font-sans); font-weight: 500; font-size: 12px; line-height: 1.334; letter-spacing: 0.025em;  color: var(--fg-alternative); }
+.ds-caption-sm  { font-family: var(--font-sans); font-weight: 500; font-size: 11px; line-height: 1.273; letter-spacing: 0.031em;  color: var(--fg-alternative); }
+
+.ds-mono-sm     { font-family: var(--font-mono); font-weight: 500; font-size: 12px; line-height: 1.40; }
+
+/* Semantic element defaults so raw HTML also looks right */
+html { font-family: var(--font-sans); color: var(--fg-normal); background: var(--bg-base); }
+body { font-size: 16px; line-height: 1.5; letter-spacing: 0.006em; }
+h1 { font: 700 36px/1.334 var(--font-sans); letter-spacing: -0.027em; color: var(--fg-strong); }
+h2 { font: 700 28px/1.358 var(--font-sans); letter-spacing: -0.024em; color: var(--fg-strong); }
+h3 { font: 700 24px/1.334 var(--font-sans); letter-spacing: -0.023em; color: var(--fg-strong); }
+h4 { font: 700 20px/1.40  var(--font-sans); letter-spacing: -0.010em; color: var(--fg-strong); }
+p  { font: 500 16px/1.5   var(--font-sans); letter-spacing: 0.006em;  color: var(--fg-normal); }
+small { font: 500 13px/1.385 var(--font-sans); letter-spacing: 0.019em; color: var(--fg-alternative); }
+code { font-family: var(--font-mono); font-size: 0.95em; }

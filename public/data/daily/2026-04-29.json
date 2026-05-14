@@ -1,0 +1,378 @@
+{
+  "date": "2026-04-29",
+  "generatedAt": "2026-05-13T08:47:09.912Z",
+  "articleCount": 22,
+  "articles": [
+    {
+      "id": "4de01add-7e88-41df-b3d1-d5c1f9d19fa4",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전력망 수요에 질주…대한전선, 분기 최대 실적 달성",
+      "titleOriginal": null,
+      "summary": "대한전선(대표이사 송종민)이 잠정 실적 공시를 통해 글로벌 전력망 수요 증가에 힘입어 연결 기준 1/4분기 매출이 지난해 대비 26.6% 증가한 1조834억 원, 영업이익도 122.9% 증가한 604억 원으로 역대 최대 실적을 기록했다고 발표했다. 대한전선 측은 한국채택국제회계기준(K-IFRS) 도입 이후인 2010년 이후 분기 기준 최대치",
+      "topics": [
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-29T07:59:34.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69837",
+      "collectedAt": "2026-05-04T08:01:02.677Z"
+    },
+    {
+      "id": "64377c2b-f24c-4ae7-a256-481b1eca3f4f",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "캘리포니아, 가상발전소(VPP)가 피커 플랜트를 대체하도록 돕는 새로운 법안 추진",
+      "titleOriginal": "A new bill would help VPPs replace peaker plants in California",
+      "summary": "캘리포니아주 상원 의원 조시 베커(Josh Becker)가 발의한 'SB 913' 법안은 가정용 배터리, 전기차, 스마트 온도조절기 등을 통합한 가상발전소(VPP)가 화석연료 기반의 피커 플랜트와 경쟁할 수 있는 기반을 마련합니다. 이 법안은 급증하는 전기 요금을 억제하고 전력망 신뢰성을 확보하기 위해 추진되고 있으나, 기존 전력 회사들의 반대와 과거 주 정부의 소극적 태도가 주요 변수로 남아있습니다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-29T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/virtual-power-plants/new-bill-vpp-california",
+      "collectedAt": "2026-05-06T06:19:35.302Z"
+    },
+    {
+      "id": "58063b1c-2d16-4e89-be57-dfd13afb207b",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미국 배터리 스타트업, 켄터키 공장 계획 철회 후 중국에 공장 건설",
+      "titleOriginal": "US battery startup builds factory in China after nixing Kentucky plant",
+      "summary": "미국 배터리 스타트업 에너베뉴(EnerVenue)는 3억 달러의 신규 자금을 조달하여 당초 켄터키에 추진하던 공장 계획을 철회하고 중국 창저우에 생산 시설을 구축하기로 결정했습니다. 이 회사는 NASA 기술을 응용한 니켈-수소 배터리를 통해 기존 리튬이온 배터리를 대체하는 시장 공략을 목표로 하고 있습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-29T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/long-duration-energy-storage/us-battery-startup-builds-factory-china",
+      "collectedAt": "2026-05-06T06:19:35.302Z"
+    },
+    {
+      "id": "7013ff56-3638-433c-8f72-9d461a37963a",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "중국 시장 요약: 베이징 모터쇼, 샤오미 시승기, BYD 소식 및 가정용 배터리 파일럿 프로그램",
+      "titleOriginal": "CHINA RECAP: Beijing, Xiaomi test drive, BYD news, and a fresh home battery pilot",
+      "summary": "본 기사는 베이징 모터쇼를 통해 전기차 산업의 미래와 샤오미, BYD의 최신 기술력을 조명합니다. 특히 CATL의 60GWh 규모 나트륨 배터리 공급 계약 소식과 미국 내 150가구를 대상으로 하는 태양광 및 배터리 시스템 구축 사업을 다루고 있습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-04-29T23:56:42.000Z",
+      "originalUrl": "https://electrek.co/2026/04/29/china-recap-beijing-xiaomi-test-drive-byd-news-and-a-fresh-home-battery-pilot/",
+      "collectedAt": "2026-05-06T06:19:39.458Z"
+    },
+    {
+      "id": "6c4d128a-c036-45e3-a158-2843a42e4134",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "2027년형 쉐보레 블레이저 EV, CCS 포트 대신 테슬라식 NACS 충전 포트 채택",
+      "titleOriginal": "2027 Chevy Blazer EV drops CCS for Tesla-style NACS port",
+      "summary": "제너럴 모터스(GM)가 2027년형 쉐보레 블레이저 EV의 충전 포트를 기존 CCS에서 테슬라의 NACS 표준으로 변경합니다. 이번 전환을 통해 블레이저 EV 운전자들은 미국 전역의 3,000개 이상의 테슬라 슈퍼차저 네트워크를 보다 편리하게 이용할 수 있게 되며, GM은 기존 CCS 충전기 사용을 위한 어댑터도 함께 제공할 예정입니다.",
+      "topics": [
+        "ESG·탄소중립",
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-29T23:00:16.000Z",
+      "originalUrl": "https://electrek.co/2026/04/29/2027-chevy-blazer-ev-drops-ccs-for-tesla-style-nacs-port/",
+      "collectedAt": "2026-05-06T06:19:39.459Z"
+    },
+    {
+      "id": "88bccf4b-d816-4988-8697-9b7df1bb2510",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "BYD의 신형 전기차 '송 울트라 EV', 출시 한 달 만에 6만 대 주문 돌파…가격은 2만 2천 달러부터",
+      "titleOriginal": "BYD’s new Song Ultra EV racks up over 60,000 orders in one month, starting at $22,000",
+      "summary": "BYD가 출시한 신형 전기 SUV '송 울트라 EV'는 최신 블레이드 배터리와 5분 급속 충전 기술을 탑재하여 출시 한 달 만에 61,240건의 주문을 확보했습니다. 2만 2천 달러라는 파격적인 시작가와 뛰어난 성능 덕분에 시장의 큰 관심을 받으며 대규모 인도 작업이 본격화되고 있습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-29T16:05:15.000Z",
+      "originalUrl": "https://electrek.co/2026/04/29/byds-new-song-ultra-ev-racks-up-60000-orders-in-one-month/",
+      "collectedAt": "2026-05-06T06:19:39.459Z"
+    },
+    {
+      "id": "5d047038-091b-418d-b626-0f8fb1c4ae87",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Volkswagen opens ID. Polo orders at $40,000, but a more affordable model is coming",
+      "titleOriginal": "Volkswagen opens ID. Polo orders at $40,000, but a more affordable model is coming",
+      "summary": "The new entry-level EV is finally here. Volkswagen opened pre-orders for the ID. Polo on Wednesday, starting at 33,795 euros ($40,000). The promised base version at 25,000 euros ($29,000) will follow ",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-29T15:12:39.000Z",
+      "originalUrl": "https://electrek.co/2026/04/29/volkswagen-opens-id-polo-orders-at-40000-cheaper-trim-coming/",
+      "collectedAt": "2026-05-06T06:19:39.459Z"
+    },
+    {
+      "id": "5426448c-95f3-4441-a788-29221d7ff428",
+      "source": "그린포스트코리아",
+      "sourceId": "greenpost",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“캐즘 뚫을 비책은 ESS”··· 동국산업, 니켈도금강판에 명운 건다",
+      "titleOriginal": null,
+      "summary": "그간 철강업계에서 상대적으로 주목도가 낮았던 니켈도금강판 시장이 빠르게 확대되고 있다. 배터리 수요가 전기차에서 에너지저장장치(ESS)로 이동하면서 핵심 소재로 부상했다. 약 20년간 국내 시장을 사실상 단독 공급해 온 TCC스틸의 지위에도 변화가 나타나고 있다.변화의 중심에는 동국산업이 있다. 동국산업은 2024년 9월 포항에 1330억원을 투자해 연산 8만t(최대 13만t 확대 가능) 규모의 니켈도금강판 전용 생산라인을 구축했다. 기존 업체들이 단계적 증설을 이어온 것과 달리 대규모 설비를 한 번에 투입했다. 시장 진입을 넘어",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-29T01:43:56.000Z",
+      "originalUrl": "https://www.greenpostkorea.co.kr/news/articleView.html?idxno=306605",
+      "collectedAt": "2026-05-06T06:19:58.330Z"
+    },
+    {
+      "id": "7158fd4f-f867-4c07-96fb-4483a84c52c3",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "태양광 3총사 1분기 동반 흑자…발목잡던 美시장도 우호적",
+      "titleOriginal": null,
+      "summary": "한화솔루션 영업익 926억 중 재생에너지서 622억 거둬\nHD현대에너지솔루션 영업익 290억, 흑자 전환 성공\nOCI홀딩스 영업익 108억, 美 보조금 감축에도 흑자 이어가\n韓 재생에너지 100GW 목표, 美 비중국산 확대 등 시장전망 우호적 ▲한화큐셀 미국 텍사스주 168MW 규모 태양광 발전소. 사진=한화솔루션 태양광 업황 반등과 미국 정책 수혜에 따라 국내 주요 태양광 기업들이 일제히 실적 개선 흐름을 보였다. 공급망 재편과 비중국산 선호 확대가 맞물리며 수익성이 구조적으로 개선되고 있다는 분석이 나오고 있다. 29일 금융감독",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-29T09:17:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260429020251143",
+      "collectedAt": "2026-05-06T06:20:16.679Z"
+    },
+    {
+      "id": "34a2f7f5-7f0b-43d5-b105-ff9cc5054eea",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "대한전선, 1분기 매출·영업이익 ‘분기 최고’ 경신",
+      "titleOriginal": null,
+      "summary": "매출 1조834억원, 영업익 604억원…전년동기比 26.6%,  122.9% 동반증가 ▲대한전선이 29일 서울 여의도에서 기관투자자와 애널리스트를 대상으로 기업설명회(IR)를 진행하고 있다. 사진=대한전선 대한전선은 올해 1분기 연결 기준 잠정 영업이익이 604억원으로 전년 동기보다 122.9% 증가했다고 29일 밝혔다. 매출은 26.6% 늘어난 1조834억원이다. 연결 분기 실적을 집계한 2010년 이후 매출과 영업이익 모두 분기 최고치를 달성했다. 1분기 호실적은 대한전선이 미국과 싱가포르 등의 해외 전력 인프라 수요가 늘어난데",
+      "topics": [
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-29T08:32:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260429026071150",
+      "collectedAt": "2026-05-06T06:20:16.679Z"
+    },
+    {
+      "id": "886e10c9-65db-436f-b597-777cad6e3c20",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "경북 교육·지역 발전 공약 잇따라 발표",
+      "titleOriginal": null,
+      "summary": "이철우 경북도지사 후보, 울릉서 ‘7대 발전 구상’ 제시\n임종식 경북교육감 예비후보, “사람 중심 AI 교육으로 경북교육 세계 표준 구축”\n오중기 경북도지사 예비후보, “경주를 글로벌 역사문화·첨단산업 도시로 대전환”\n김상동 경북교육감 예비후보, 교사노조와 정책 간담회…“교권 보호·행정업무 분리 추진”\n권기창 안동시장 예비후보, “국립의대 유치로 안동 도시 구조 재편” ◇이철우 경북도지사 후보, 울릉서 '7대 발전 구상' 제시 ▲이철우 후보가 울릉도를 방문해 대한노인회 울릉군지회 간담회를 개최 했다. 제공-이철우 후보 캠프 울릉=에",
+      "topics": [],
+      "publishedAt": "2026-04-29T08:08:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260429023201139",
+      "collectedAt": "2026-05-06T06:20:16.679Z"
+    },
+    {
+      "id": "442891ee-e6a1-408d-93b5-e379d0ead520",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "영덕 창수면 산불 3시간 만에 진화…전기누전 건물 화재서 확산 추정",
+      "titleOriginal": null,
+      "summary": "▲영덕군 창수면에서 발생한 산불이 약 3시간 만에 모두 진화됐다. 제공-영덕군 영덕=에너지경제신문 정재우 기자 경북 영덕군 창수면에서 발생한 산불이 약 3시간 만에 모두 진화됐다. 이번 산불은 건물 화재에서 시작돼 인근 산림으로 번진 것으로 추정되며, 당국이 정확한 원인을 조사 중이다. 산림당국에 따르면 29일 오후 1시 3분께 영덕군 창수면 갈천리 산19 일원에서 산불이 발생했다. 불은 같은 날 오후 2시 30분 주불이 잡힌 데 이어 오후 4시 잔불 정리까지 완료됐다. 이후 뒷불 감시가 이어지고 있으며, 30일 정오께 감시 종료가",
+      "topics": [],
+      "publishedAt": "2026-04-29T08:02:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260429029381135",
+      "collectedAt": "2026-05-06T06:20:16.679Z"
+    },
+    {
+      "id": "b4d5ed05-63f9-43fd-8624-01503fbc24c9",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "5월 발전용 가스요금 7.5% 상승…중동쇼크 본격화",
+      "titleOriginal": null,
+      "summary": "중동發 가스값 본격 반영…SMP 상승 압력 확대\n상한제 재도입 언급…전력시장 규제 강화 가능성\n산업용 10.6%, 수송용 10.2% 상승…민수용은 동결 ▲인천시 연수구 송도동 한국가스공사 인천생산기지 내 액화천연가스(LNG) 저장탱크 모습. 사진= 연합뉴스 4월 제한적 상승에 그쳤던 발전용 천연가스 요금이 5월 들어 더 크게 인상되며 전기요금 상승 압력이 본격화하고 있다. 중동 전쟁 여파로 상승한 국제 가스가격이 점차 현실로 반영되고 있다. 29일 한국가스공사에 따르면 5월 발전용 천연가스 도매요금은 GJ당 1만7961원으로 전월(",
+      "topics": [],
+      "publishedAt": "2026-04-29T05:46:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260429024591065",
+      "collectedAt": "2026-05-06T06:20:16.679Z"
+    },
+    {
+      "id": "a50d496d-1974-4da6-9240-5ab22e6a4fa4",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "OCI홀딩스, DJ BIC 17년 연속 포함… 태양광 수혜에 실적 회복 기대",
+      "titleOriginal": null,
+      "summary": "기후변화 대응 전략, 인권 및 노동 등에서 좋은 평가 받아 OCI홀딩스가 글로벌 환경·사회·지배구조(ESG) 평가에서 17년 연속 주요 지수에 편입되며 지속가능경영 역량을 입증하며 태양광·데이터센터 중심의 사업 확장으로 실적 회복 흐름을 이어가고 있다. OCI홀딩스는 S&P Global의 기업 지속가능성 평가(CSA)를 기반으로 하는 다우존스 최상위 기업 지수(DJ BIC)에 17년 연속 편입됐다고 29일 밝혔다. DJ BIC는 글로벌 투자자들의 책임투자 기준으로 활용된다. 이번 평가에서 OCI홀딩스는 공급망 관리, 기후변화 대응,",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-29T05:39:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260429027151058",
+      "collectedAt": "2026-05-06T06:20:16.679Z"
+    },
+    {
+      "id": "e65d382c-0fb1-4f60-a243-c6deb574ca15",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[에너지경제 여론조사] 국민 70% “삼성전자 노조 파업, 무리하고 부적절”",
+      "titleOriginal": null,
+      "summary": "셧다운 땐 최대 10조 손실 우려\n노조 “총 4조5000억, 1인당 6억” 요구\n사측, 가처분 신청…“타협 없다. 총파업” ▲지난 23일 경기도 평택시 삼성전자 평택캠퍼스 앞에서 열린 삼성전자 노동조합 공동투쟁본부의 '투명하게 바꾸고, 상한폐지 실현하자-4/23 투쟁 결의대회'에서 조합원들이 구호를 외치고 있다. 사진=연합뉴스 국민 10명 중 7명은 삼성전자 노동조합의 총파업 예고를 부적절하게 보는 것으로 나타났다. 노조가 영업이익의 15%를 성과급으로 요구하며 다음 달 18일간 총파업을 예고한 상황에서, 반도체 산업 경쟁력 약화와",
+      "topics": [],
+      "publishedAt": "2026-04-29T04:40:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260429022491048",
+      "collectedAt": "2026-05-06T06:20:16.679Z"
+    },
+    {
+      "id": "f6e6131e-8c55-4758-aec9-ce6b4e177e90",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "공공 전기차 충전요금 개편…완속 내리고 급속 올려",
+      "titleOriginal": null,
+      "summary": "용량별 요금 세분화로 비용 반영…민간 완속 인하 압박\n정보 공개·점검 의무 강화, 아파트에 직접 보조금 지급도 검 ▲전기차 공공 충전시설 충전요금 개편안. 참고= 기후에너지환경부 정부가 전기차 공공 충전소 요금을 완속 부문에서는 일부 인하하고, 급속 부문에서는 인상하기로 했다. 공공 충전소 요금은 전기차 충전요금의 기준점이 되는 만큼 민간 요금에도 큰 영향을 미칠 전망이다. 기후에너지환경부는 전기차 공공 충전시설 충전요금 개편안을 오는 30일부터 다음달 19일까지 행정예고한다고 밝혔다. 충전요금은 완속 부문에서 기존 100킬로와트(",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-29T04:08:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260429022391013",
+      "collectedAt": "2026-05-06T06:20:16.679Z"
+    },
+    {
+      "id": "19c26bad-a685-4ce7-b0f7-f7179d793f16",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[서울에너지포럼] “AI시대 에너지 수요 폭증…효율 향상·소비절감이 핵심”",
+      "titleOriginal": null,
+      "summary": "본지·에경연·에너지미래포럼·자원경제학회 공동 주최\n전기요금 상승·전력수요 급증…산업계 비용 부담 가중\nAI 데이터센터 확대 대비 수요관리·전원믹스 재설계 필요 ▲에너지경제신문·에너지경제연구원·에너지미래포럼·한국자원경제학회 공동 주최로 28일 서울 서초구 엘타워에서 열린 '제9회 서울에너지포럼'에서 정선구 에너지경제신문 사장이 개회사를 하고 있다. 사진=김하연 인턴기자 에너지 전환 정책이 산업 생존과 경쟁력 확보 관점에서 설계돼야 한다는 제언이 나왔다. 전기화 확대와 인공지능(AI) 데이터센터 확산으로 전력 수요가 급증하고 있어 단순",
+      "topics": [],
+      "publishedAt": "2026-04-29T02:46:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260429028040983",
+      "collectedAt": "2026-05-06T06:20:16.679Z"
+    },
+    {
+      "id": "5b970f93-0bb6-42cf-9eae-3d12780cc968",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“펑~” 충돌 순간에도 멀쩡…안전센터서 확인한 中전기차 [해외현장]",
+      "titleOriginal": null,
+      "summary": "■ 中닝보 ‘지리 안전센터’ 충돌시험 직관기\n시속 85㎞ 후방추돌에도 지커 7X 공간 유지\nNCM 배터리 화재 우려 불식 안전성 확인\n기후·충돌·보안 전방위 안전기술 총망라\n축구장 10개 규모 실험장…“현실기준 검증” ▲시속 85㎞로 주행하던 대차가 지커 '7X' 후면을 추돌한 직후의 모습. 사진=박지성 기자 [중국 닝보=박지성 기자] “펑!\" 둔탁한 충격음이 실내를 울리며 순간 숨을 죽이고 지켜보던 취재진 사이에 짧은 정적이 흘렀다. 이내 곳곳에서 탄성이 터져 나왔다. 지난 28일 방문한 중국 저장성 닝보에 위치한 지리 안전센터.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-29T02:25:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260429028270991",
+      "collectedAt": "2026-05-06T06:20:16.679Z"
+    },
+    {
+      "id": "6cef4423-1bb2-48a4-b878-708b64abd612",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[서울에너지포럼] “AI 데이터센터 전력수요 폭증…효율화·수요관리 없으면 시스템 부담 한계”",
+      "titleOriginal": null,
+      "summary": "이유수 숭실대 교수, ‘산업부문 에너지절감·효율화’ 주제발표\n데이터센터 전력수요 최대 4배↑…변동성·수도권 집중 부담 확대\n효율화·수요관리·다중전원 전략 필요…PPA 확대·분산에너지 해법 제시 ▲이유수 숭실대학교 경제학과 교수가 28일 에너지경제신문·에너지경제연구원·에너지미래포럼·한국자원경제학회가 서울 서초구 엘타워에서 공동 주최한 '제9회 서울에너지포럼'에서 주제발표를 하고 있다. 사진= 유병욱 기자 “AI 데이터센터는 기존 산업과 차원이 다른 전력 수요를 유발한다. 수요 관리와 효율화 없이 단순한 공급 확대만으로는 전력 시스템을",
+      "topics": [
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-04-29T02:01:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260429025010483",
+      "collectedAt": "2026-05-06T06:20:16.680Z"
+    },
+    {
+      "id": "b29450c9-2025-4392-8f5b-f1feeac0d411",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[서울에너지포럼] “호남 2030년 이후 수십GW 계통 부족…ESS가 유일한 단기 대책”",
+      "titleOriginal": null,
+      "summary": "전우영 서울과기대 교수, ‘산업 생존 위한 전력망’ 주제 발표\n산업용 전기요금 추세대로면 2040년 300원대, 저탄소 경쟁력 높여야\n출력제어 시장메커니즘으로 해결하고, VPP 등 새 비즈니스 모델 창출\n패널토론 “급격한 전기화 부작용…PPA 대상 원전·석탄으로 확대 필요” ▲전우영 서울과학기술대학교 교수가 28일 에너지경제신문·에너지경제연구원·에너지미래포럼·한국자원경제학회가 서울 서초구 엘타워에서 개최한 '제9회서울에너지포럼'에서 주제발표를 하고 있다. 사진= 유병욱 기자 “산업용 전기요금이 지금까지 추세라면 2040년에는 킬로와",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-29T02:00:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260429022410482",
+      "collectedAt": "2026-05-06T06:20:16.680Z"
+    },
+    {
+      "id": "fa5be90d-68ee-4aa5-bd35-32e197a3c1e2",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[서울에너지포럼] 김정관 태평양 고문 “탈탄소에 무게 쏠려 경제성·안정성 흔들”",
+      "titleOriginal": null,
+      "summary": "“에너지 가격 정상화는 수요 관리와 효율 개선의 출발점” ▲김정관 법무법인 태평양 고문이 28일 에너지경제신문·에너지경제연구원·에너지미래포럼·한국자원경제학회가 서울 서초구 엘타워에서 개최한 '제9회 서울에너지포럼'에서 기조강연을 하고 있다. 사진= 유병욱 기자 김정관 법무법인 태평양 고문은 현 정부의 에너지 정책에 대해 “환경성 중심으로 쏠리면서 수급 안정과 경제성 측면의 부담이 커지고 있다\"고 진단했다. 에너지 정책은 안정성·경제성·환경성이라는 이른바 '3D 목표'의 균형이 핵심인데 최근 정책은 탈탄소와 재생에너지 확대에 무게가 ",
+      "topics": [],
+      "publishedAt": "2026-04-29T02:00:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260429022220644",
+      "collectedAt": "2026-05-06T06:20:16.680Z"
+    },
+    {
+      "id": "bde44b5c-042a-4c3f-98d4-5da7671218ac",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[서울에너지포럼] 산업용 전기요금 美·中보다 높아…“한국형 전원믹스 필요”",
+      "titleOriginal": null,
+      "summary": "김진수 한양대 교수, 합리적 전원믹스와 산업경쟁력 제고 주제발표\n“제조업 중심, 에너지 94% 수입 의존…탄소중립과 산업경쟁력 균형 필요”\n“정부가 계획적으로 에너지 공급정책에서 일정 부분 손 놓을 필요 있어”\n패널토론 “글로벌, 기후에서 생존으로 중심 이동…에너지 경직성 풀어야” ▲김진수 한양대학교 자원환경공학과 교수가 28일 에너지경제신문·에너지경제연구원·에너지미래포럼·한국자원경제학회가 서울 서초구 엘타워에서 공동 주최한 '제9회서울에너지포럼'에서 주제발표를 하고 있다. 사진= 유병욱 기자 “탄소중립은 거스를 수 없는 흐름이지만",
+      "topics": [
+        "정책·규제"
+      ],
+      "publishedAt": "2026-04-29T02:00:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260429020170481",
+      "collectedAt": "2026-05-06T06:20:16.680Z"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "date": "2026-04-20",
+  "generatedAt": "2026-05-13T08:32:27.559Z",
+  "articleCount": 6,
+  "articles": [
+    {
+      "id": "211e23f3-665a-405d-baf5-75ffced04d81",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Fervo Energy, IPO 신고서에서 신규 발전소 세부 정보 공개",
+      "titleOriginal": "Fervo Energy unveils new power plant details in IPO filing",
+      "summary": "차세대 지열 에너지 스타트업 Fervo Energy는 IPO 신고서를 통해 현재 3.65GW 규모의 프로젝트를 추진 중이며, 장기적으로는 42GW 이상의 잠재적 생산 능력을 확보했다고 밝혔습니다. 특히 유타주 케이프 스테이션(Cape Station)과 네바다주 프로젝트를 통해 구글 등 주요 고객사에게 안정적인 24시간 무탄소 전력을 공급하며 미국 내 지열 발전 규모를 대폭 확대할 계획입니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-20T23:00:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing",
+      "collectedAt": "2026-05-04T08:00:55.262Z"
+    },
+    {
+      "id": "6b9790c5-82a7-47e8-aae7-1f3c81f5dbe7",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "오랫동안 예고되었던 태양광 페로브스카이트, 드디어 대량 생산에 돌입하나?",
+      "titleOriginal": "Are long-promised solar perovskites finally hitting mass production?",
+      "summary": "미국 스타트업 Tandem PV가 캘리포니아 프레몬트에 공장을 설립하고 기존 실리콘 태양광 패널의 효율을 22%에서 30%로 3분의 1가량 높일 수 있는 페로브스카이트 코팅 유리 패널의 대량 생산을 시작했습니다. Tandem PV는 현재 기존 연구실 대비 60배 커진 패널을 생산하며 실증 작업을 진행 중이며, 2028년부터는 풀사이즈 패널의 본격적인 생산을 목표로 하고 있습니다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-04-20T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/solar/perovskites-mass-production-tandem-fremont",
+      "collectedAt": "2026-05-04T08:00:55.262Z"
+    },
+    {
+      "id": "879186e8-cfcc-4b95-b828-7b1daadf29fe",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "노스캐롤라이나의 작은 마을, 지열 에너지 도입을 위한 큰 걸음 내딛다",
+      "titleOriginal": "Tiny North Carolina town takes a big step toward geothermal energy",
+      "summary": "미국 노스캐롤라이나주 엔필드(Enfield) 마을이 약 30만 달러의 초기 자금을 확보하여 지열 에너지 기반의 지역 난방 및 냉방 네트워크 구축에 나섰습니다. 비영리 단체인 'Enfield Energy Futures'는 총 500만 달러 규모의 예산을 목표로, 우선 34가구 규모의 저렴한 주택단지에 해당 기술을 도입하는 시범 사업을 추진하고 있습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-20T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/geothermal/enfield-north-carolina-thermal-geothermal-network-plan",
+      "collectedAt": "2026-05-04T08:00:55.262Z"
+    },
+    {
+      "id": "8201dbb5-591f-4adf-add8-5ac1f9bce319",
+      "source": "BloombergNEF",
+      "sourceId": "bnef",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "EU 탄소국경조정제도(CBAM), 산업 무역 흐름 재편",
+      "titleOriginal": "EU Carbon Border Tariff Is Reshaping Industrial Trade Flows",
+      "summary": "2026년 1월 1일부로 시행된 EU의 탄소국경조정제도(CBAM)는 철강, 알루미늄, 시멘트 등 6개 탄소집약적 품목 수입 시 탄소 배출량에 따른 인증서 구매 비용을 부과합니다. 블룸버그NEF(BNEF)는 데이터 검증이 어려운 기업의 경우 기본 배출값 적용 시 비용 부담이 최대 1.3배까지 증가할 수 있으며, 이로 인해 탄소 배출 효율성에 따라 글로벌 무역 공급망이 재편될 것으로 분석했습니다.",
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-20T17:59:29.000Z",
+      "originalUrl": "https://about.bnef.com/insights/industry-and-buildings/eu-carbon-border-tariff-is-reshaping-industrial-trade-flows/",
+      "collectedAt": "2026-05-06T06:19:41.004Z"
+    },
+    {
+      "id": "a73904ab-483b-4f00-a674-782d6161ba46",
+      "source": "BloombergNEF",
+      "sourceId": "bnef",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "블룸버그NEF(BloombergNEF), 2026년 파이오니어 어워드 기후 혁신 기업 12곳 선정",
+      "titleOriginal": "BloombergNEF Announces 12 Climate Innovators as Winners of its 2026 Pioneers Award",
+      "summary": "블룸버그NEF는 2026년 파이오니어 어워드를 통해 데이터 센터 효율화, 에너지 그리드 안정화 등 에너지 전환을 선도하는 12개의 혁신 스타트업을 선정했습니다. 이번 공모에는 66개국에서 600개 이상의 기업이 지원했으며, 선정된 기업들은 탄소 중립 경제를 가속화하기 위한 기술적 솔루션을 제공할 예정입니다.",
+      "topics": [
+        "정책·규제"
+      ],
+      "publishedAt": "2026-04-20T08:01:59.000Z",
+      "originalUrl": "https://about.bnef.com/insights/clean-energy/bloombergnef-announces-12-climate-innovators-as-winners-of-its-2026-pioneers-award/",
+      "collectedAt": "2026-05-06T06:19:41.004Z"
+    },
+    {
+      "id": "f9728624-6165-4e0d-a7c2-9bd5f0080226",
+      "source": "녹색에너지연구원 (IGT)",
+      "sourceId": "igt",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[보도자료] “기후 연구만 40편, 정작 통화정책은 그대로”…한국은행 녹색 중앙은행 정책, 주요국 대비 이행 속도 더뎌",
+      "titleOriginal": null,
+      "summary": "[보도자료] “기후 연구만 40편, 정작 통화정책은 그대로”…한국은행 녹색 중앙은행 정책, 주요국 대비 이행 속도 더뎌 2026-04-20 0 175 04.20 09:33 - 국제 싱크탱크 포지티브머니·녹색전환연구소 20일 보고서 ‘한국은행의 보다 과감한 기후·생태 전략을 위한 제안’ 발간 - 한은 녹색 중앙은행 정책, G20 회원국 20개국 중 13위, 아세안+3 13개국 중 8위로 하위권 - 금통위 회의 19번 열린 동안 기후변화 단 2차례만 언급 - 최기원 경제전환팀장 “동료 중앙은행과 격차 벌어지는 사이 금융 리스크 커져 …",
+      "topics": [],
+      "publishedAt": "2026-04-20T00:00:00.000Z",
+      "originalUrl": "https://igt.or.kr/bbs/board.php?bo_table=m03_03&wr_id=72",
+      "collectedAt": "2026-05-06T06:20:25.361Z"
+    }
+  ]
+}

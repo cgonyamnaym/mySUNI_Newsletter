@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Buttons</title>
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  body{margin:0;padding:28px;background:var(--bg-base);display:flex;flex-direction:column;gap:14px}
+  .row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+  button{font:700 16px/1 var(--font-sans);letter-spacing:.006em;border:0;cursor:pointer;padding:12px 20px;border-radius:12px}
+  .primary{background:#0066FF;color:#fff}
+  .primary-hover{background:#005EEB;color:#fff}
+  .secondary{background:#F4F4F5;color:#171719}
+  .outline{background:transparent;color:#171719;border:1px solid rgba(112,115,124,.22)}
+  .danger{background:#FF4242;color:#fff}
+  .disabled{background:#0066FF;color:#fff;opacity:.4}
+  .sm{padding:8px 14px;font-size:14px;border-radius:10px}
+  .lg{padding:16px 24px;font-size:17px;border-radius:14px}
+  .pill{border-radius:9999px}
+</style></head><body>
+  <div class="row">
+    <button class="primary">지원하기</button>
+    <button class="primary-hover">Hover</button>
+    <button class="secondary">나중에</button>
+    <button class="outline">더 보기</button>
+    <button class="danger">삭제</button>
+    <button class="disabled">Disabled</button>
+  </div>
+  <div class="row">
+    <button class="primary sm">Small</button>
+    <button class="primary">Medium</button>
+    <button class="primary lg">Large</button>
+    <button class="primary pill">프로필 완성하기 →</button>
+  </div>
+</body></html>

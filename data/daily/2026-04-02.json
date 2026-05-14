@@ -1,0 +1,92 @@
+{
+  "date": "2026-04-02",
+  "generatedAt": "2026-04-02T08:30:00.000Z",
+  "articleCount": 5,
+  "articles": [
+    {
+      "id": "a2f45aa6-1f10-42f0-8d83-d7d2088a87cb",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "스마트그리드 AMI 전국 보급률 90% 돌파 — 2025년 목표 달성",
+      "titleOriginal": null,
+      "summary": "지능형 전력계량기(AMI) 전국 보급률이 90%를 넘어섰습니다. 수용가 데이터 실시간 수집이 가능해지면서 전력 수요 예측 정밀도가 크게 향상됐으며, 향후 VPP 운영 기반이 될 전망입니다.",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-04-02T01:00:00.000Z",
+      "originalUrl": "https://www.ekn.kr/article/260402001",
+      "collectedAt": "2026-04-02T08:30:00.000Z"
+    },
+    {
+      "id": "9960f017-8fc3-4e3c-9ee3-585193be3ccc",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "태양광 모듈 가격 2026년 1분기 역대 최저 — 와트당 0.12달러",
+      "titleOriginal": "Solar module prices hit record low in Q1 2026 at $0.12/W",
+      "summary": "블룸버그NEF에 따르면 2026년 1분기 태양광 모듈 평균 가격이 와트당 0.12달러로 역대 최저를 기록했습니다. 중국 제조업체의 공급 과잉이 주요 원인이며, 신흥 시장에서의 보급 확대로 이어질 전망입니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-02T02:13:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/04/02/solar-module-record-low",
+      "collectedAt": "2026-04-02T08:30:00.000Z"
+    },
+    {
+      "id": "0ca81844-7d4a-4db4-b9a9-d458dab0e561",
+      "source": "Renewables Now",
+      "sourceId": "renewables-now",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "영국 NESO, AI 기반 실시간 재생에너지 계통 균형 시스템 가동",
+      "titleOriginal": "UK NESO launches AI-powered real-time balancing system for renewables integration",
+      "summary": "영국 국가전력시스템운영자(NESO)가 재생에너지 출력 변동을 실시간으로 보정하는 AI 계통 균형 시스템을 가동했습니다. 풍력과 태양광 예측 정밀도가 25% 향상되어 예비력 비용이 크게 절감됐습니다.",
+      "topics": [
+        "운영 최적화",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-02T03:26:00.000Z",
+      "originalUrl": "https://renewablesnow.com/2026/04/02/uk-neso-ai-balancing",
+      "collectedAt": "2026-04-02T08:30:00.000Z"
+    },
+    {
+      "id": "59509ec0-adfb-4cc5-a84b-8f4058f96a9e",
+      "source": "Reuters Energy",
+      "sourceId": "reuters-energy",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "EU 에너지 시스템 통합 규정 발효 — 국경 간 재생에너지 거래 촉진",
+      "titleOriginal": "EU energy system integration regulation enters into force, boosting cross-border renewable trading",
+      "summary": "EU 에너지 시스템 통합 규정이 공식 발효돼 회원국 간 재생에너지 전력 거래 장벽이 낮아졌습니다. 이에 따라 태양광과 풍력 잉여 전력의 국경 간 거래가 활성화되고 에너지 가격 안정에 기여할 전망입니다.",
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-02T04:39:00.000Z",
+      "originalUrl": "https://www.reuters.com/business/energy/eu-energy-integration-regulation-2026",
+      "collectedAt": "2026-04-02T08:30:00.000Z"
+    },
+    {
+      "id": "15d96b22-db41-400a-a92e-28acd808c53a",
+      "source": "IEA",
+      "sourceId": "iea",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "IEA, 2026년 글로벌 청정에너지 투자 4조 달러 돌파 전망",
+      "titleOriginal": "IEA forecasts global clean energy investment to surpass $4 trillion in 2026",
+      "summary": "IEA의 최신 보고서에 따르면 2026년 전 세계 청정에너지 투자가 처음으로 4조 달러를 돌파할 것으로 예상됩니다. 태양광·풍력·배터리 투자가 화석연료 투자를 3배 이상 앞서는 역대 최대 격차입니다.",
+      "topics": [
+        "ESG·탄소중립",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-02T05:52:00.000Z",
+      "originalUrl": "https://www.iea.org/reports/2026/clean-energy-investment-outlook",
+      "collectedAt": "2026-04-02T08:30:00.000Z"
+    }
+  ]
+}

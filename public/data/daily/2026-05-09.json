@@ -1,0 +1,304 @@
+{
+  "date": "2026-05-09",
+  "generatedAt": "2026-05-12T09:37:36.139Z",
+  "articleCount": 17,
+  "articles": [
+    {
+      "id": "d25e3415-9813-44a6-bf55-2043b70d26b2",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Grid operators may reduce renewables penetration if data center growth continues unchecked, says ENTSO-E",
+      "titleOriginal": "Grid operators may reduce renewables penetration if data center growth continues unchecked, says ENTSO-E",
+      "summary": "A new report from the European Network of Transmission System Operators for Electricity explores the potential for data centers to become flexible assets in Europe’s electricity system, as well as how to manage grid planning and grid security.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-09T09:30:08.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/09/entso-e-data-center-growth-europe-demand-side-flexibility-market-participation-policy-recommendations-grid-operators/",
+      "collectedAt": "2026-05-12T08:01:17.426Z"
+    },
+    {
+      "id": "7be46ffb-f693-45f4-9cab-fb8573d35902",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Sunwoda completes large-scale fire test for ‘5 MWh Liquid Cooling ESS’",
+      "titleOriginal": "Sunwoda completes large-scale fire test for ‘5 MWh Liquid Cooling ESS’",
+      "summary": "Sunwoda conducted a large-scale fire test of its 5 MWh liquid-cooled energy storage system, showing contained thermal runaway in one unit without fire spreading to adjacent systems under extreme UL 9540A conditions.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-09T09:00:08.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/09/sunwoda-completes-large-scale-fire-test-for-5-mwh-liquid-cooling-ess/",
+      "collectedAt": "2026-05-12T08:01:17.429Z"
+    },
+    {
+      "id": "413c8eae-44d9-4186-a7fb-82fa3cf95121",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Argentina sees strong growth in solar distributed generation amid electricity price hikes",
+      "titleOriginal": "Argentina sees strong growth in solar distributed generation amid electricity price hikes",
+      "summary": "Argentina’s distributed generation sector is rapidly expanding due to higher electricity tariffs, lower equipment costs, and shorter solar project payback periods of around 3–4 years. Growth has accelerated since 2019, reaching over 4,000 user-generators and 143 MW installed, with strong private-sec",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-09T08:30:43.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/09/argentina-sees-strong-growth-in-solar-distributed-generation-amid-electricity-price-hikes/",
+      "collectedAt": "2026-05-12T08:01:17.430Z"
+    },
+    {
+      "id": "fd62563f-330a-45f5-b467-aee6990b7de3",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Solar PV accounted for 29% of electricity generation in Chile in March, with instantaneous peaks reaching 75%",
+      "titleOriginal": "Solar PV accounted for 29% of electricity generation in Chile in March, with instantaneous peaks reaching 75%",
+      "summary": "The latest bulletin from Generadoras de Chile highlights the continued expansion of BESS systems linked to solar plants, with over 2.5 GW in operation and an additional 6.3 GW under construction, amid rising renewable energy curtailment and transmission grid congestion in southern Chile.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-09T08:00:44.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/09/solar-pv-accounted-for-29-of-electricity-generation-in-chile-in-march-with-instantaneous-peaks-reaching-75/",
+      "collectedAt": "2026-05-12T08:01:17.430Z"
+    },
+    {
+      "id": "ef26ce9f-2d43-4ef3-820d-04b0607185f8",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Spain supports 4.2 GW / 8 GWh of pumped-hydro storage with €165 million",
+      "titleOriginal": "Spain supports 4.2 GW / 8 GWh of pumped-hydro storage with €165 million",
+      "summary": "Spain is set to finalize a €670 million allocation under its Recovery, Transformation and Resilience Plan. Within this package, €165 million will support seven pumped hydro storage projects under the Boralmac II program, adding more than 4.2 GW / 8 GWh of capacity across five regions.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-09T07:30:42.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/09/spain-supports-4-2-gw-8-gwh-of-pumped-hydro-storage-with-e165-million/",
+      "collectedAt": "2026-05-12T08:01:17.430Z"
+    },
+    {
+      "id": "1d22f11b-f86b-479d-81c2-60281672204a",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "U.S. solar panel manufacturers need to learn to solder",
+      "titleOriginal": "U.S. solar panel manufacturers need to learn to solder",
+      "summary": "CEA’s 2026 manufacturing quality report finds that yield rates vary widely based on the age of solar module assembly facilities, with mature Chinese firms nearing 100% and U.S. outlier facilities ranging all the way down to 30%.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-09T07:00:03.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/09/u-s-solar-panel-manufacturers-need-to-learn-to-solder/",
+      "collectedAt": "2026-05-12T08:01:17.430Z"
+    },
+    {
+      "id": "4968a8fa-d631-4a31-9b34-a1a296574560",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Bolivia presents new law to boost renewables, private investments",
+      "titleOriginal": "Bolivia presents new law to boost renewables, private investments",
+      "summary": "The new draft law on electricity and renewable energy, developed by the Ministry of Hydrocarbons and Energy, is entering its technical, legislative and public consultation phase, with anticipated changes to generation, transmission, distribution and regulatory frameworks.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-09T06:30:03.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/09/bolivia-presents-new-law-to-boost-renewables-private-investments/",
+      "collectedAt": "2026-05-12T08:01:17.430Z"
+    },
+    {
+      "id": "9151b804-a727-4914-9b3f-a488925bfbe6",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Philippines’ First Offshore Wind Zones Could Generate 11 TWh A Year, But When?",
+      "titleOriginal": "Philippines’ First Offshore Wind Zones Could Generate 11 TWh A Year, But When?",
+      "summary": "The Philippines has always been offshore or onshore wind viable. No one was looking. No one was feeling the breeze. It is asking how quickly it can turn a clearly defined pipeline into actual electricity on the grid. The answer, based on current data, is far from straightforward. San Miguel   ... [c",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-09T18:12:49.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/09/philippines-first-offshore-wind-zones-could-generate-11-twh-a-year-but-when/",
+      "collectedAt": "2026-05-12T08:02:02.066Z"
+    },
+    {
+      "id": "875acca6-3e28-41db-b454-43362eb9854b",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Indonesia’s EV Transition Not Just to Cut Emissions, More So to Cut Oil Dependence, Study Says",
+      "titleOriginal": "Indonesia’s EV Transition Not Just to Cut Emissions, More So to Cut Oil Dependence, Study Says",
+      "summary": "For decades, Indonesia built its economic and social stability around subsidized fuel. Cheap gasoline and diesel became embedded in transport habits, logistics systems and household budgets. Even today, fuel prices remain artificially low by regional standards. However, this affordability is sustain",
+      "topics": [
+        "운영 최적화",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-09T17:33:00.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/09/indonesias-ev-transition-not-just-to-cut-emissions-more-so-to-cut-oil-dependence-study-says/",
+      "collectedAt": "2026-05-12T08:02:02.066Z"
+    },
+    {
+      "id": "ab0187c0-e675-4f41-ad88-94dcb055225d",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Vauxhall Plans New Low-Cost Electric SUV — With Assistance From Leapmotor",
+      "titleOriginal": "Vauxhall Plans New Low-Cost Electric SUV — With Assistance From Leapmotor",
+      "summary": "Vauxhall says it will bring an all new electric SUV to market in just two years, based on technology from Leapmotor.\nThe post Vauxhall Plans New Low-Cost Electric SUV — With Assistance From Leapmotor appeared first on CleanTechnica.",
+      "topics": [],
+      "publishedAt": "2026-05-09T15:00:32.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/09/vauxhall-plans-new-low-cost-electric-suv-with-assistance-from-leapmotor/",
+      "collectedAt": "2026-05-12T08:02:02.066Z"
+    },
+    {
+      "id": "2df94b45-897f-4098-a301-df6fd6cd87a5",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "An Electric Citroën 2CV for Less Than £15,000? I’m Drooling",
+      "titleOriginal": "An Electric Citroën 2CV for Less Than £15,000? I’m Drooling",
+      "summary": "There are tons of new electric vehicle models coming out every month, but so many of them are similar to each other. It feels like there are just a handful of vehicle types and then a thousand variations of them. But this … this is something special. An electric Citroën   ... [continued]\nThe post An",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-09T03:57:43.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/08/an-electric-citroen-2cv-for-less-than-15000-im-drooling/",
+      "collectedAt": "2026-05-12T08:02:02.067Z"
+    },
+    {
+      "id": "e52fa2a4-e6d2-4db0-9060-94fe58689ba3",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Ireland’s Energy Poverty Problem Needs Flexible Electric Heat, Not Fabric-First Delay",
+      "titleOriginal": "Ireland’s Energy Poverty Problem Needs Flexible Electric Heat, Not Fabric-First Delay",
+      "summary": "Ireland’s energy poverty problem is not an electricity access problem. Almost every Irish household is connected to electricity. The problem is whether households can keep a warm, healthy home without cutting back on food, medicine, transport, or other essentials. That makes Ireland different from c",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-09T03:50:26.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/08/irelands-energy-poverty-problem-needs-flexible-electric-heat-not-fabric-first-delay/",
+      "collectedAt": "2026-05-12T08:02:02.067Z"
+    },
+    {
+      "id": "347bee9e-1c98-465d-b619-596c74378fc8",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Ryanair’s Global Emissions Are Now 50% Higher Than In 2019, The Largest Increase Worldwide",
+      "titleOriginal": "Ryanair’s Global Emissions Are Now 50% Higher Than In 2019, The Largest Increase Worldwide",
+      "summary": "Aviation is the only polluting sector escaping carbon pricing in Europe, with two-thirds of its CO2 emissions not covered by the ETS. Europe’s aviation sector’s 2025 emissions highest ever New analysis by T&E reveals that in 2025, emissions from flights departing from airports in Europe surpassed pr",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-09T03:31:05.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/08/ryanairs-global-emissions-are-now-50-higher-than-in-2019-the-largest-increase-worldwide/",
+      "collectedAt": "2026-05-12T08:02:02.068Z"
+    },
+    {
+      "id": "6671c9f1-061c-4f90-babe-e8c587fff50c",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Turn your GM EV into backup battery power with a GM Energy Home System [Video]",
+      "titleOriginal": "Turn your GM EV into backup battery power with a GM Energy Home System [Video]",
+      "summary": "As a homeowner, one of the most frustrating things is when the power starts to flicker and go out. How long will it last this time? Generators and battery backups are always an option, but what if you could use another asset with a massive battery – your EV – to help provide power to your properly q",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-09T15:00:00.000Z",
+      "originalUrl": "https://electrek.co/2026/05/09/gm-car-battery-backup-gm-energy-home-system-video/",
+      "collectedAt": "2026-05-12T08:03:51.139Z"
+    },
+    {
+      "id": "4aaf51af-c03a-4848-ac58-98774d07033d",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Get real: DeepWay delivered 8,020 electric semi trucks last year",
+      "titleOriginal": "Get real: DeepWay delivered 8,020 electric semi trucks last year",
+      "summary": "After a week of Tesla Semi grabbing headlines and stealing the show at ACT Expo, Baidu-backed DeepWay would like to remind you that they delivered 8,020 electric semi trucks in 2025 – and they’re almost ready to go public.\nmore…",
+      "topics": [],
+      "publishedAt": "2026-05-09T12:34:39.000Z",
+      "originalUrl": "https://electrek.co/2026/05/09/get-real-deepway-delivered-8020-electric-semi-trucks-last-year/",
+      "collectedAt": "2026-05-12T08:03:51.139Z"
+    },
+    {
+      "id": "0ab33886-ed3e-40b3-8287-e43ec6e8302c",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "At under $49,000, Volkswagen’s ID.Buzz might FINALLY be priced right",
+      "titleOriginal": "At under $49,000, Volkswagen’s ID.Buzz might FINALLY be priced right",
+      "summary": "Volkswagen aimed its all-electric ID.Buzz minivan squarely at an nostalgic baby boomer market that had aged out of $70,000 hippie nostalgia purchases by the time it arrived on US shores – but now VW that dealers are advertising the premium van for less than $49,000, VW’s new-age bus might be worth a",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-09T02:53:58.000Z",
+      "originalUrl": "https://electrek.co/2026/05/08/at-under-49000-volkswagens-id-buzz-might-finally-be-priced-right/",
+      "collectedAt": "2026-05-12T08:03:51.140Z"
+    },
+    {
+      "id": "ed54f091-5e07-4c73-99fb-49fe502bd55d",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "New Chevy Spark EUV is officially the best selling electric SUV in Brazil",
+      "titleOriginal": "New Chevy Spark EUV is officially the best selling electric SUV in Brazil",
+      "summary": "Chevy resurrected Spark EUV nameplate with the launch of the all-new, affordable Chevy Spark EUV for 2026, with the hopes that its new, 220-mile range EV would be a “game changer” that helps accelerate the company’s EV transition in developing markets – and it’s now officially the best selling elect",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-09T01:57:01.000Z",
+      "originalUrl": "https://electrek.co/2026/05/08/new-chevy-spark-euv-is-officially-the-best-selling-electric-suv-in-brazil/",
+      "collectedAt": "2026-05-12T08:03:51.140Z"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "date": "2026-04-23",
+  "generatedAt": "2026-05-13T08:36:20.110Z",
+  "articleCount": 4,
+  "articles": [
+    {
+      "id": "1f0db89d-48e9-4828-8358-685a20a48257",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "메릴랜드주 법안, 비용 절감형 에너지 효율을 단기적 구제책과 맞바꾸다",
+      "titleOriginal": "Maryland bill trades cost-saving energy efficiency for short-term relief",
+      "summary": "메릴랜드주의 'Utility RELIEF Act'는 에너지 효율 프로그램인 'EmPOWER Maryland'의 에너지 절감 목표치를 기존 2.5%에서 1.75%로 하향 조정하고, 전략에너지투자펀드(SEIF)에서 7억 달러 이상을 차출하여 공공요금 환급에 사용합니다. 이 법안은 핵발전 보조금 지급과 전력망 투자 예측 기반 요금 책정의 1년 유예를 포함하고 있어, 장기적인 에너지 비용 절감보다는 단기적인 가계 부담 완화에 초점을 맞추고 있다는 비판을 받고 있습니다.",
+      "topics": [
+        "시장·가격 동향",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-04-23T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/politics/maryland-bill-trades-energy-efficiency",
+      "collectedAt": "2026-05-04T08:00:55.262Z"
+    },
+    {
+      "id": "1b927401-145d-4955-8895-d9840cff990a",
+      "source": "녹색에너지연구원 (IGT)",
+      "sourceId": "igt",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[보도자료] 한국 주요 기업 기후 전환 관리 역량 아시아 선두 평가 …“탈탄소 의지 있으나, 금융 체계가 제대로 지원하지 못 해”",
+      "titleOriginal": null,
+      "summary": "[보도자료] 한국 주요 기업 기후 전환 관리 역량 아시아 선두 평가 …“탈탄소 의지 있으나, 금융 체계가 제대로 지원하지 못 해” 2026-04-24 0 142 04.24 09:33 - 한국 녹색전환연구소·영국 런던정경대(LSE) 산하 TPI 센터, 경제전환전문성센터(CETEx) 지난 23일 여수기후주간에서 ‘국가 및 기업 전환계획 간 시너지 확대: 한국 사례 조명’ 공동 개최 - TPI 센터 분석 결과, 한국 주요 기업 46개사 중 18곳 기후 전환 관리 역량 가장 높은 레벨 5- 녹색전환연구소 “한국 기업 전환 의지 확인됐지만,",
+      "topics": [],
+      "publishedAt": "2026-04-23T15:00:00.000Z",
+      "originalUrl": "https://igt.or.kr/bbs/board.php?bo_table=m03_03&wr_id=74",
+      "collectedAt": "2026-05-04T08:01:20.814Z"
+    },
+    {
+      "id": "51ef15fd-ced1-47fb-9791-fcc358e5e78a",
+      "source": "녹색에너지연구원 (IGT)",
+      "sourceId": "igt",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[보도자료] 석 달 새 ‘햇빛’ 협동조합 123개 급증… 햇빛소득마을 ‘공동체 없는 사업’ 우려",
+      "titleOriginal": null,
+      "summary": "[보도자료] 석 달 새 ‘햇빛’ 협동조합 123개 급증… 햇빛소득마을 ‘공동체 없는 사업’ 우려 2026-04-24 0 322 04.24 09:33 - 녹색전환연구소 24일 ‘햇빛소득마을 성공의 조건’ 이슈브리프 공개- 분석 결과 2026년 ‘햇빛’ 들어간 협동조합 등록 수만 123개로 급증…외부 사업자 선점 우려 - “설비 지원 촘촘, 마을 지원 공백” 햇빛소득마을 2,500개 목표, 마을 공동체 체계 없인 공염불 - 마을 공동체 표준안 마련·컨설팅 TF 구축 제안 등 정책 제안 담겨 - 여미영 지역전환팀 연구원 “태양광 설비 설",
+      "topics": [],
+      "publishedAt": "2026-04-23T15:00:00.000Z",
+      "originalUrl": "https://igt.or.kr/bbs/board.php?bo_table=m03_03&wr_id=73",
+      "collectedAt": "2026-05-04T08:01:20.815Z"
+    },
+    {
+      "id": "173ea93a-288f-455a-8a3b-8e256e19d76b",
+      "source": "그린포스트코리아",
+      "sourceId": "greenpost",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[그린 인사이드] 현대차의 인도 삼륜전기차··· \"지구를 위한 결단\"",
+      "titleOriginal": null,
+      "summary": "현대자동차는 지난 20일 인도 델리에서 현지 삼륜차 생산 선두 기업인 TVS모터컴퍼니와 ‘삼륜 전기차 공동 개발 및 상용화’를 위한 업무협약(MOU)을 체결했다. 글로벌 프리미엄 브랜드를 추구하는 현대차가 인도에서 자사의 지향점과 상당한 거리가 있는 삼륜전기차 생산에 뛰어들겠다고 결심한 이유는 무얼까. 이번 프로젝트의 뿌리는 2018년으로 거슬러 올라간다. 당시 ‘한·인도 비즈니스 포럼’에서 정의선 현대차그룹 회장(당시 부회장)은 나렌드라 모디 총리와 함께 수소전기차 ‘넥쏘’에 동승했다. 이 자리에서 모디 총리는 “인도의 열악한 교",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-23T02:02:53.000Z",
+      "originalUrl": "https://www.greenpostkorea.co.kr/news/articleView.html?idxno=306574",
+      "collectedAt": "2026-05-06T06:19:58.330Z"
+    }
+  ]
+}

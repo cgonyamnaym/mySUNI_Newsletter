@@ -1,0 +1,92 @@
+{
+  "date": "2026-04-10",
+  "generatedAt": "2026-04-10T08:30:00.000Z",
+  "articleCount": 5,
+  "articles": [
+    {
+      "id": "34b334c3-f64e-4e17-bee8-e04db378e094",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전력 계통 디지털 트윈 구축 완료 — 고장 예측 정확도 94%",
+      "titleOriginal": null,
+      "summary": "한전이 전국 주요 변전소 및 송전 선로 디지털 트윈 시스템 구축을 완료했습니다. AI 기반 고장 예측 정확도가 94%를 기록하며, 정전 복구 시간이 기존 대비 40% 단축될 전망입니다.",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-04-10T01:00:00.000Z",
+      "originalUrl": "https://www.todayenergy.kr/article/260410001",
+      "collectedAt": "2026-04-10T08:30:00.000Z"
+    },
+    {
+      "id": "2dae51f5-d81e-4eac-aeee-0318c9ddf1e3",
+      "source": "IEA",
+      "sourceId": "iea",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "중동 태양광 붐 — 사우디·UAE 50GW 공동 개발 협약",
+      "titleOriginal": "Middle East solar boom: Saudi Arabia and UAE sign 50GW joint development agreement",
+      "summary": "IEA 보고에 따르면 사우디아라비아와 UAE가 2030년까지 50GW 규모의 공동 태양광 개발 협약을 체결했습니다. 두 국가 합산 재생에너지 목표를 크게 상향하는 이정표적 합의로 평가됩니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-10T02:13:00.000Z",
+      "originalUrl": "https://www.iea.org/news/2026/middle-east-solar-50gw",
+      "collectedAt": "2026-04-10T08:30:00.000Z"
+    },
+    {
+      "id": "134074bb-4de5-4dad-9384-6339b4492ebf",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "재생에너지 입찰 경쟁률 사상 최고 — 태양광 1.9:1, 풍력 2.3:1",
+      "titleOriginal": null,
+      "summary": "산업부가 공고한 2026년 상반기 재생에너지 RPS 의무공급 입찰에 역대 최다 사업자가 참여했습니다. 낙찰 단가 하락세가 지속되면서 그리드 패리티 달성 시점이 앞당겨질 전망입니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-10T03:26:00.000Z",
+      "originalUrl": "https://www.ekn.kr/article/260410001",
+      "collectedAt": "2026-04-10T08:30:00.000Z"
+    },
+    {
+      "id": "06ddde18-700d-4aa9-a3fb-9db71df621b0",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미국 가정용 배터리 시장 급성장 — 2026년 설치 30만 가구 예상",
+      "titleOriginal": "US residential battery storage booms as installations projected to hit 300K homes in 2026",
+      "summary": "넷플로우 전력요금제와 태양광 발전량 증가로 미국 가정용 배터리 저장 시장이 급성장하고 있습니다. 캘리포니아·텍사스·플로리다 중심으로 2026년 30만 가구 신규 설치가 예상됩니다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-04-10T04:39:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/energy/residential-battery-us-2026",
+      "collectedAt": "2026-04-10T08:30:00.000Z"
+    },
+    {
+      "id": "b3c633f5-2cf5-479a-b739-29dcdeba4d26",
+      "source": "뉴스1 (Energy)",
+      "sourceId": "news1-energy",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "그린수소 국가 인증제 도입 — 산업부, 수소법 시행규칙 개정",
+      "titleOriginal": null,
+      "summary": "산업통상자원부가 그린수소 생산 방식과 탄소 강도를 인증하는 국가 인증 제도를 도입하는 수소법 시행규칙 개정안을 발표했습니다. EU 수소법 기준과 호환되도록 설계돼 수출 경쟁력이 강화될 전망입니다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-04-10T05:52:00.000Z",
+      "originalUrl": "https://www.news1.kr/energy/260410001",
+      "collectedAt": "2026-04-10T08:30:00.000Z"
+    }
+  ]
+}

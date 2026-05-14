@@ -1,0 +1,73 @@
+{
+  "date": "2026-04-09",
+  "generatedAt": "2026-04-09T08:30:00.000Z",
+  "articleCount": 4,
+  "articles": [
+    {
+      "id": "eb2b4ef8-5506-48d7-b384-1b2f8cbdab39",
+      "source": "전자신문 (Energy)",
+      "sourceId": "etnews",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "에너지 빈곤층 지원 프로그램 확대 — 고효율 가전 교체 바우처 신설",
+      "titleOriginal": null,
+      "summary": "정부가 에너지 취약계층의 에너지 비용 부담 완화를 위해 고효율 가전제품 교체 바우처 사업을 신설했습니다. 연간 10만 가구를 지원 대상으로 하며, 에어컨·냉장고·보일러 교체 시 최대 50만 원을 지원합니다.",
+      "topics": [
+        "정책·규제"
+      ],
+      "publishedAt": "2026-04-09T01:00:00.000Z",
+      "originalUrl": "https://www.etnews.com/news/260409001",
+      "collectedAt": "2026-04-09T08:30:00.000Z"
+    },
+    {
+      "id": "bc7a6672-a2f2-4bd3-b81c-32051334ccd4",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "페로브스카이트 태양전지 효율 30% 돌파 — 상용화 청신호",
+      "titleOriginal": "Perovskite solar cell efficiency breaks 30% barrier in lab conditions",
+      "summary": "독일 헬름홀츠 베를린 연구소가 페로브스카이트-실리콘 탠덤 태양전지에서 실험실 조건 효율 30%를 달성했다고 발표했습니다. 기존 실리콘 셀 한계를 넘어서는 성과로, 상용화 가능성이 주목받고 있습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-09T02:13:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/04/09/perovskite-30-percent",
+      "collectedAt": "2026-04-09T08:30:00.000Z"
+    },
+    {
+      "id": "8b92a1f5-adbe-4eca-97a9-856cade1c629",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "ESG 공시 의무화 범위 확대 — 2027년부터 코스피 전체 적용",
+      "titleOriginal": null,
+      "summary": "금융위원회가 ESG 공시 의무화 로드맵을 확정, 2027년부터 코스피 상장사 전체에 탄소 배출·에너지 사용 공시를 의무화합니다. 공급망 Scope 3 배출 공시는 2029년부터 단계적으로 적용됩니다.",
+      "topics": [
+        "ESG·탄소중립",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-04-09T03:26:00.000Z",
+      "originalUrl": "https://www.ekn.kr/article/260409001",
+      "collectedAt": "2026-04-09T08:30:00.000Z"
+    },
+    {
+      "id": "ec7f0e4d-9427-4717-8479-bce93ba90034",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미국 유틸리티 규모 ESS 신규 발주 1분기 최대 — 8GWh 수주",
+      "titleOriginal": "US utility-scale ESS orders hit Q1 record with 8GWh contracted",
+      "summary": "미국 에너지 저장장치 시장이 2026년 1분기 사상 최대 규모인 8GWh 신규 발주를 기록했습니다. ERCOT 텍사스와 캘리포니아 CAISO 계통 내 재생에너지 통합 수요가 주요 동인입니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-04-09T04:39:00.000Z",
+      "originalUrl": "https://www.energy-storage.news/2026/04/09/us-ess-q1-record",
+      "collectedAt": "2026-04-09T08:30:00.000Z"
+    }
+  ]
+}

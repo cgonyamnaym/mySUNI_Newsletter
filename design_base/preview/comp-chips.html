@@ -1,0 +1,32 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Chips / Badges</title>
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  body{margin:0;padding:28px;background:var(--bg-base);display:flex;flex-direction:column;gap:16px}
+  .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+  .chip{font:700 13px/1 var(--font-sans);letter-spacing:.019em;padding:8px 12px;border-radius:9999px;border:1px solid rgba(112,115,124,.22);background:#fff;color:#171719}
+  .chip.on{background:#171719;color:#fff;border-color:#171719}
+  .chip.primary{background:#EAF2FE;color:#005EEB;border-color:transparent}
+  .badge{font:700 11px/1 var(--font-sans);letter-spacing:.031em;padding:4px 8px;border-radius:6px;text-transform:uppercase}
+  .b-new{background:#FF4242;color:#fff}
+  .b-beta{background:#9747FF;color:#fff}
+  .b-success{background:#E6F8EC;color:#00923A}
+  .b-info{background:#E0F3F7;color:#006B80}
+  .dot{width:6px;height:6px;border-radius:9999px;display:inline-block;margin-right:6px;vertical-align:middle}
+</style></head><body>
+  <div class="row">
+    <span class="chip on">전체</span>
+    <span class="chip">서울</span>
+    <span class="chip">경기</span>
+    <span class="chip">부산</span>
+    <span class="chip primary">AI 추천</span>
+    <span class="chip">재택 근무</span>
+  </div>
+  <div class="row">
+    <span class="badge b-new">New</span>
+    <span class="badge b-beta">Beta</span>
+    <span class="badge b-success">합격</span>
+    <span class="badge b-info">서류 검토중</span>
+    <span class="chip"><span class="dot" style="background:#00BF40"></span>채용 중</span>
+    <span class="chip"><span class="dot" style="background:#FF4242"></span>마감 임박</span>
+  </div>
+</body></html>

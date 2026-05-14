@@ -1,0 +1,384 @@
+{
+  "date": "2026-05-07",
+  "generatedAt": "2026-05-13T06:51:07.801Z",
+  "articleCount": 22,
+  "articles": [
+    {
+      "id": "b1162d24-8370-4b48-a56e-5b16bac8ba70",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Industry can dodge fuel shocks by electrifying. What’s the holdup?",
+      "titleOriginal": "Industry can dodge fuel shocks by electrifying. What’s the holdup?",
+      "summary": "Steel and sweatshirts. Trucks and smartphones. Snickers and beer.  The stuff in modern life requires huge amounts of dirty fossil fuel to make. And lately, that’s been a liability for industries battered by the global energy shocks of the 2020s .  First, the Russian invasion of Ukraine in 2022 spike",
+      "topics": [
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-07T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/clean-industry/industry-fuel-shocks-electrifying",
+      "collectedAt": "2026-05-12T08:00:37.385Z"
+    },
+    {
+      "id": "5ac74f9d-77dc-4b86-afba-bad8b29ec156",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Blink’s 56k EV ports to get plug-and-charge access through Emobi",
+      "titleOriginal": "Blink’s 56k EV ports to get plug-and-charge access through Emobi",
+      "summary": "Blink and Emobi are teaming up to make EV charging work more seamlessly across apps, networks, and vehicles.\nmore…",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-07T22:12:56.000Z",
+      "originalUrl": "https://electrek.co/2026/05/07/blinks-56k-ev-ports-to-get-plug-and-charge-access-through-emobi/",
+      "collectedAt": "2026-05-12T08:03:51.145Z"
+    },
+    {
+      "id": "ce8618ed-aecd-4c20-b258-ed58c2d62ee7",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Toyota’s $15,000 electric SUV has been China’s top-selling joint venture EV for 7 months",
+      "titleOriginal": "Toyota’s $15,000 electric SUV has been China’s top-selling joint venture EV for 7 months",
+      "summary": "The bZ3X, Toyota’s fully electric SUV, is a hit in China. After delivering over 80,000 units in its first year on the market, the bZ3X has now remained the best-selling EV from a joint venture in China for seven consecutive months.\nmore…",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-07T21:28:31.000Z",
+      "originalUrl": "https://electrek.co/2026/05/07/toyotas-15k-electric-suv-chinas-top-selling-joint-venture-ev-7-months/",
+      "collectedAt": "2026-05-12T08:03:51.145Z"
+    },
+    {
+      "id": "f3299fb5-b2b0-48fc-b8a2-97b0493c68d1",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Hyundai patent reveals new body-on-frame EV battery setup",
+      "titleOriginal": "Hyundai patent reveals new body-on-frame EV battery setup",
+      "summary": "Hyundai is preparing to launch its first body-on-frame vehicle, a midsize pickup truck. The rugged Boulder Concept SUV is a preview, but a new patent offers a sneak peek at the battery and chassis setup.\nmore…",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-07T20:36:37.000Z",
+      "originalUrl": "https://electrek.co/2026/05/07/hyundai-patent-reveals-new-body-on-frame-ev-battery-setup/",
+      "collectedAt": "2026-05-12T08:03:51.145Z"
+    },
+    {
+      "id": "568a097e-c64f-4cc1-9ae9-b7719adbcd54",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "This electric SUV has a semi-solid-state EV battery, and it will go on sale in a few days",
+      "titleOriginal": "This electric SUV has a semi-solid-state EV battery, and it will go on sale in a few days",
+      "summary": "After launching the first mass-produced EV with a semi-solid-state battery last year, SAIC Motor is following it up with the new MG 4X electric SUV. The new EV will go on sale in less than a week.\nmore…",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-07T17:57:12.000Z",
+      "originalUrl": "https://electrek.co/2026/05/07/ev-suv-with-semi-solid-state-battery-on-sale-soon/",
+      "collectedAt": "2026-05-12T08:03:51.146Z"
+    },
+    {
+      "id": "e5c21dc4-81c2-499d-b401-1fbce76a9823",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Tesla’s 4680 battery cells are underperforming and frustrating buyers",
+      "titleOriginal": "Tesla’s 4680 battery cells are underperforming and frustrating buyers",
+      "summary": "Five years after Tesla (TSLA) unveiled its 4680 battery cell at Battery Day with promises of 5x the energy, 6x the power, and 16% more range, the data tells a very different story. Tesla’s homemade cells consistently deliver worse energy density, worse charging performance, and less range than the s",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-07T16:50:40.000Z",
+      "originalUrl": "https://electrek.co/2026/05/07/tesla-4680-battery-cell-performance-data-shows-cant-build-own-cells/",
+      "collectedAt": "2026-05-12T08:03:51.146Z"
+    },
+    {
+      "id": "a7e307b6-1f7c-453e-adfb-41d5d1f00653",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "BYD’s flagship electric SUV secures 100,000+ orders in 2 weeks, and it costs under $40K",
+      "titleOriginal": "BYD’s flagship electric SUV secures 100,000+ orders in 2 weeks, and it costs under $40K",
+      "summary": "The stunning three-row electric SUV can drive up to 590 miles (950 km) on a single charge and features BYD’s new 5-minute Flash Charging.\nmore…",
+      "topics": [
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-07T15:52:37.000Z",
+      "originalUrl": "https://electrek.co/2026/05/07/byds-flagship-electric-suv-secures-100000-orders-two-weeks/",
+      "collectedAt": "2026-05-12T08:03:51.147Z"
+    },
+    {
+      "id": "e25fdebb-52e3-4787-ae28-71be441015e2",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Porsche Taycan Turbo GT with Manthey Kit sets 6:55 Nürburgring EV record",
+      "titleOriginal": "Porsche Taycan Turbo GT with Manthey Kit sets 6:55 Nürburgring EV record",
+      "summary": "Porsche has set a new Nürburgring Nordschleife lap record for “production” electric vehicles. A Taycan Turbo GT with Weissach Package equipped with the new Manthey Kit lapped the 12.94-mile circuit in 6:55.553 minutes.\nThe time, set by Porsche development driver Lars Kern, is 12 seconds faster than ",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-07T13:31:43.000Z",
+      "originalUrl": "https://electrek.co/2026/05/07/porsche-taycan-turbo-gt-manthey-kit-nurburgring-ev-record/",
+      "collectedAt": "2026-05-12T08:03:51.147Z"
+    },
+    {
+      "id": "7a807e79-539e-41b7-982e-a71c712ecad4",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Honda patents fake clutch for electric motorcycles and it might actually make sense",
+      "titleOriginal": "Honda patents fake clutch for electric motorcycles and it might actually make sense",
+      "summary": "One of the biggest advantages of electric motorcycles has always been their simplicity. No clutch, no gears, no stalling – just twist the throttle and go. They’re basically big, fun scooters, at least in terms of operation. But Honda appears to think there’s still something worth preserving from the",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-07T10:40:00.000Z",
+      "originalUrl": "https://electrek.co/2026/05/07/honda-patents-fake-clutch-for-electric-motorcycles-and-it-might-actually-make-sense/",
+      "collectedAt": "2026-05-12T08:03:51.147Z"
+    },
+    {
+      "id": "97775e41-a3ce-4f61-bf52-c7e6b011bd2e",
+      "source": "BloombergNEF",
+      "sourceId": "bnef",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Energy Storage Enters the 100-Gigawatt Era: Three Things to Know",
+      "titleOriginal": "Energy Storage Enters the 100-Gigawatt Era: Three Things to Know",
+      "summary": "Energy storage is having its moment. Global deployment has set new records every year since 2014 and exceeded 100 gigawatts of annual additions for the first time in 2025. BloombergNEF expects the market to continue growing, although the ongoing conflict in the Middle East could have varied implicat",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-07T02:29:40.000Z",
+      "originalUrl": "https://about.bnef.com/insights/clean-energy/energy-storage-enters-the-100-gigawatt-era-three-things-to-know/",
+      "collectedAt": "2026-05-12T08:04:06.715Z"
+    },
+    {
+      "id": "753e0154-996c-450a-869c-158a18ffff91",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "5차 석유 최고가격 또 동결…민생 방파제 유지",
+      "titleOriginal": null,
+      "summary": "정부가 5차 석유 최고가격을 동결함에 따라 주유소 도매가 상한은 두 달째 같은 수준으로 묶였다. 산업통상부(장관 김정관)는 오는 8일부터 2주간 적용될 5차 석유 최고가격을 동결했다고 7일 밝혔다. 이로써 5차 최고가격은 리터당 휘발유 1934원, 경유 1923원, 등유 1530원으로 지난 4차 최고가격과 같다.",
+      "topics": [],
+      "publishedAt": "2026-05-07T10:30:19.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69877",
+      "collectedAt": "2026-05-12T08:06:09.991Z"
+    },
+    {
+      "id": "01698283-cd22-459d-a1e0-5625b7bcbf02",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "EPTK 2026…한전KDN, 미래 전력솔루션 공개",
+      "titleOriginal": null,
+      "summary": "한전KDN(주)(사장 박상형)이 지난 6일부터 오는 8일까지 코엑스(서울 강남구 소재)에서 열리는 국제전기전력전시회인 ‘EPTK 2026’에 참가해 인공지능(AI)과 로봇, 사이버보안 기술을 접목한 미래형 전력 솔루션을 공개했다. 이 전시회에서 한전KDN은 ▲소규모 독립형 전력망(Micro Grid) 시스템 / 관제 솔루션 ▲재생에너지 감시제어장치 ▲스마트그리드·",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-07T01:05:49.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69873",
+      "collectedAt": "2026-05-12T08:06:09.991Z"
+    },
+    {
+      "id": "d7911019-7fa8-462e-92ec-075966f0c31f",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "LS에코에너지, 400㎸ 초고압 케이블 국제인증·PQ 착수",
+      "titleOriginal": null,
+      "summary": "내년 하반기 양산 목표…“LS전선 본사 수준으로” ▲LS에코에너지 베트남 생산법인 LS-비나(VINA)의 하이퐁 공장 전경. 사진=LS에코에너지 LS에코에너지는 베트남 생산법인 LS-비나(VINA)가 400킬로볼트(㎸)급 초고압 케이블 국제 인증과 송전망 장기 운전 신뢰성 평가(PQ)에 착수한다고 7일 밝혔다. LS-비나는 약 1년간 인증과 평가를 거쳐 400㎸ 케이블을 내년 하반기 양산할 계획이다. 이번 프로젝트를 완료하면 LS-비나는 400㎸급 케이블을 생산하는 LS전선 본사 수준의 생산 능력을 확보하게 된다. LS-비나는 현재",
+      "topics": [],
+      "publishedAt": "2026-05-07T23:05:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260508023372660",
+      "collectedAt": "2026-05-12T08:11:28.950Z"
+    },
+    {
+      "id": "c9e634d7-a374-44ec-9400-5a9de9e337d5",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "고유가에 전기차 인기…K-배터리 ‘하반기 흑자’ 기대감",
+      "titleOriginal": null,
+      "summary": "전기차 수요 둔화에 1분기 6600억 적자 기록\n고유가·보조금 확대에 글로벌 수요 회복 조짐\n완성차 공급 계약 확대…수주 잔고 증가세 뚜렷\nAI 확산 따른 ESS 시장 성장, 실적 반등 견인 ▲지난 3월 서울 강남구 코엑스에서 열린 배터리 산업 전문 전시회 '인터배터리 2026' 현장. 사진=연합뉴스 올해 1분기 적자 성적표를 받아든 LG에너지솔루션·삼성SDI·SK온 등 국내 배터리 빅3가 미-이란 전쟁에 따른 고유가 여파로 전기차 수요가 급증하자 하반기 흑자 전환 기대감을 키우고 있다. 여기에 에너지저장장치(ESS) 등 인공지능(",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-07T10:11:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260507023502448",
+      "collectedAt": "2026-05-12T08:11:28.950Z"
+    },
+    {
+      "id": "64c7e1de-81ff-40ad-b870-2cc56736456e",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전, 신규 사외이사 6명 선임…에너지·법률·재무·탄소중립 전문가 포진",
+      "titleOriginal": null,
+      "summary": "▲전남 나주에 위치한 한국전력 본사. 사진=한국전력 한국전력이 에너지 정책과 경영·재무·법률 분야 전문가들로 구성된 신규 사외이사 6명을 선임했다. 임기는 오는 8일부터 2년이다. 7일 한국전력 공시에 따르면 신규 선임된 사외이사는 이경섭 동신대 전기공학과 명예교수, 문재도 서울대 응용과학과 특임교수, 황정화 법무법인 경연 변호사, 김종욱 더불어민주당 탄소중립위원회 부위원장, 정도진 중앙대 경영학부 교수, 송재도 전남대 경영학부 교수 등이다. 이경섭 교수는 전력·전기공학 분야 전문가로 동신대 전기공학과 교수를 역임했다. 문재도 교수",
+      "topics": [
+        "전력 인프라",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-07T08:48:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260507027432868",
+      "collectedAt": "2026-05-12T08:11:28.950Z"
+    },
+    {
+      "id": "dd246532-9e8c-4ace-af6e-79239ed08e71",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“박정희가 일찍 죽어 대한민국 발전” 장세용 발언 파장 …김장호 등 국힘 예비후보들, 생가 앞 집결 “망언 사죄·후보 사퇴하라”",
+      "titleOriginal": null,
+      "summary": "▲김장호 구미시장 예비후보와 도· 시의원 예비후보들이 장세용 망언 사죄 ·후보 사퇴 하라고 강하게 규탄하고 있다. 구미=에너지경제신문 윤성원기자 국민의힘 소속 김장호 구미시장 예비후보와 구미 갑·을 지역 시·도의원 예비후보들이 7일 박정희 전 대통령 생가 앞에서 기자회견을 열고, 더불어민주당 장세용 구미시장 예비후보의 최근 발언을 강하게 규탄했다. 이들은 장 후보가 공식 석상에서 “박정희가 일찍 죽어서 대한민국이 발전했다\"는 취지로 발언한 데 대해 “역사 왜곡을 넘어선 망언\"이라며 즉각 사과와 후보직 사퇴를 촉구했다. 이날 기자회견",
+      "topics": [],
+      "publishedAt": "2026-05-07T08:22:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260507027532842",
+      "collectedAt": "2026-05-12T08:11:28.950Z"
+    },
+    {
+      "id": "a7ece0a8-9aa0-4cab-a556-c1dd4b215e4d",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "신성이엔지, 1분기 수주 203% 급증…“반도체·태양광 쌍끌이 기대”",
+      "titleOriginal": null,
+      "summary": "1분기 매출 1537억… 전년 동기 比 32.1% 증가\n반도체, 태양광 시장 호황으로 실적 개선 전망\n풍력 제조기업 씨에스윈드 매출 21.2% 감소 부진 신성이엔지가 올해 1분기 영업적자를 보였지만 수주 확대를 바탕으로 매출 성장세를 이어가며 실적 반등 기대감을 키우고 있다. 주력 사업분야인 반도체와 태양광 시장이 모두 호황을 보이고 있어 2분기부터 본격적인 수익성 개선이 나타날 것으로 전망되고 있다. 신성이엔지는 올해 1분기 연결기준 매출액이 전년 동기 대비 32.1% 증가한 1537억원으로 잠정 집계됐다고 7일 공시했다. 영업손",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-07T08:12:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260507021372820",
+      "collectedAt": "2026-05-12T08:11:28.951Z"
+    },
+    {
+      "id": "45f5497b-93e9-44bb-8829-f4df799c4487",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "경북, 배터리 산업부터 지역 인재 양성까지 미래 성장동력 확보에 속도",
+      "titleOriginal": null,
+      "summary": "경북도, 산업용 특화 배터리 테스트베드 구축…국비 145억 확보\n경북도, 대학·기업 연결 강화… 청년 정주형 인재 육성 성과 가시화\n경북교육청, 효행 청소년 장관 표창…창의융합교육도 확대 ◇경북도, 산업용 특화 배터리 테스트베드 구축…국비 145억 확보 ▲수요확대형 테스트베드   조감도. 제공-경북도 경북=에너지경제신문 정재우 기자 경북도는 7일 산업통상자원부가 추진한 '수요확대형 배터리 테스트베드 구축' 공모사업에 최종 선정돼 국비 145억 원을 확보했다고 밝혔다. 이번 사업은 전기차 중심으로 형성된 배터리 산업 구조를 방산·로봇",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-07T02:01:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260507029362650",
+      "collectedAt": "2026-05-12T08:11:28.951Z"
+    },
+    {
+      "id": "c19ffe71-7506-44d4-9686-cb45fbb0c877",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[EE칼럼] 에너지전환은 에너지변환에 달려있다",
+      "titleOriginal": null,
+      "summary": "인류 문명의 도약은 언제나 새로운 에너지변환(Energy Conversion) 기술의 등장과 궤를 같이했다. 불을 사용하며 화학에너지를 열에너지로 바꿨고, 증기기관을 통해 열을 운동에너지로 전환하며 산업혁명을 일궈냈다. 오늘날 우리가 누리는 전기 문명 역시 화석연료가 가진 에너지를 전기에너지로 변환하면서 시작되었다. 지금 우리는 거대한 전환점 앞에 서 있다. 기후위기라는 전 지구적 숙제를 해결하기 위해 탄소 중심의 에너지 체계를 재생에너지 중심으로 바꾸는 에너지전환(Energy Transition)이 지상 과제가 된 것이다. 여기서",
+      "topics": [
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-07T01:58:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260507025543957",
+      "collectedAt": "2026-05-12T08:11:28.951Z"
+    },
+    {
+      "id": "e2dcbccd-4f50-4478-9f41-e352b8abea5b",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“2시간마다 껐다 켰다”…태양광에 밀려 ‘몸살’ 앓는 화력발전[이슈]",
+      "titleOriginal": null,
+      "summary": "낮엔 태양광에 밀려 끄거나 출력 줄였다가 일몰 후 재투입 반복\n화력발전 잦은 가동 정지 시 효율 저하·수명 감소·환경 악영향\n“재생에너지 확대 불가피하지만, ESS·계통 보강 없으면 위험” 태양광 발전 비중이 낮 시간대에 급증하면서 LNG·석탄 등 화력발전 출력을 낮췄다가 저녁 시간에 다시 높이는 운영이 늘어나고 있다. 문제는 이로 인해 장시간 운영에 최적화 돼 있는 화력발전기의 발전 효율이 저하되고 설비 피로도가 증가하며, 불완전연소로 환경적으로도 더 좋지 않다는 점이다. 발전소 운영인력조차 잦은 가동 정지가 국가적으로 올바른 정",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-07T01:52:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260507021002511",
+      "collectedAt": "2026-05-12T08:11:28.951Z"
+    },
+    {
+      "id": "7396ac53-1cfe-47e8-a024-f18d65743650",
+      "source": "녹색에너지연구원 (IGT)",
+      "sourceId": "igt",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[공동 보도자료] AI 데이터센터 특별법 국회 본회의 통과 임박…시민사회 “LNG PPA 특례 조항 삭제만으론 부족, ‘그린 AI’ 원칙 세워야”녹색전환연구소·참여연대·환경정의 7일 ‘AI 데이터센",
+      "titleOriginal": null,
+      "summary": "[공동 보도자료] AI 데이터센터 특별법 국회 본회의 통과 임박…시민사회 “LNG PPA 특례 조항 삭제만으론 부족, ‘그린 AI’ 원칙 세워야”녹색전환연구소·참여연대·환경정의 7일 ‘AI 데이터센 2026-05-07 0 235 05.07 09:33 - 녹색전환연구소·참여연대·환경정의 7일 ‘AI 데이터센터의 진실 – 팩트북’ 발간 - 아일랜드·네덜란드·싱가포르는 건설 제한·재생에너지 의무화…한국 AI 데이터센터 특별법은 기후 고려 전혀 없어, LNG PPA까지 허용 논의 - AI 긍정 여론 75.7%이지만 데이터센터 건설 반대는 ",
+      "topics": [
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-07T00:00:00.000Z",
+      "originalUrl": "https://igt.or.kr/bbs/board.php?bo_table=m03_03&wr_id=76",
+      "collectedAt": "2026-05-12T08:12:14.891Z"
+    },
+    {
+      "id": "33fa0305-dd65-4bb3-93ec-38dbb9fcf97c",
+      "source": "녹색에너지연구원 (IGT)",
+      "sourceId": "igt",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[보도자료] “지방선거 기후공약? 구호보다는 구체적 내용 중요”",
+      "titleOriginal": null,
+      "summary": "[보도자료] “지방선거 기후공약? 구호보다는 구체적 내용 중요” 2026-05-07 0 81 05.07 09:33 - 7일 오전 기후정치바람 국회서 ‘내 삶을 바꾸는 기후공약, 시·도지사 준비됐나’ 토론회 개최- 기후정치바람, 시·도지사 후보 기후공약 검증 위한 체크리스트 공개 “선언적 재생에너지 공약 많아… 에너지 전환 연계 취약계층 보호 전략 부재” - 각 정당 “기후공약 중요”… 구체적 내용·준비 수준엔 ‘온도차’ - 더불어민주당·조국혁신당·진보당·정의당 등 각 정당별 주요 기후공약 소개6·3 지방선거에 출마한 시·도지사 후보",
+      "topics": [],
+      "publishedAt": "2026-05-07T00:00:00.000Z",
+      "originalUrl": "https://igt.or.kr/bbs/board.php?bo_table=m03_03&wr_id=75",
+      "collectedAt": "2026-05-12T08:12:14.891Z"
+    }
+  ]
+}

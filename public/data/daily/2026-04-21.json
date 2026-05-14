@@ -1,0 +1,42 @@
+{
+  "date": "2026-04-21",
+  "generatedAt": "2026-05-13T08:33:30.917Z",
+  "articleCount": 2,
+  "articles": [
+    {
+      "id": "f2274eac-a9e7-4dd4-b6c0-8a117ecf0c91",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "176개국은 세계 최초의 선박 탄소세를 도입할 것인가?",
+      "titleOriginal": "Will 176 nations adopt the first global carbon tax on ships?",
+      "summary": "국제해사기구(IMO) 176개 회원국이 전 세계 온실가스 배출의 3%를 차지하는 해운업의 탄소 감축을 위한 넷제로 프레임워크 도입을 논의합니다. 당초 합의가 예상되었으나, 트럼프 행정부의 관세 위협과 중동 분쟁으로 인한 유가 급등 및 공급망 위기 속에서 정치적 합의가 난항을 겪고 있습니다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-04-21T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/sea-transport/shipping-first-carbon-tax",
+      "collectedAt": "2026-05-04T08:00:55.262Z"
+    },
+    {
+      "id": "cf4bca7e-c15e-47da-b75a-161052ed73ff",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미국은 뒷걸음치지만, 세계는 해상풍력에 박차를 가하고 있다",
+      "titleOriginal": "The world is embracing offshore wind — even as the US retreats",
+      "summary": "글로벌 풍력 에너지 위원회(GWEC)의 보고서에 따르면, 2025년 전 세계 해상풍력 발전 용량은 9GW 이상 증가하여 총 92GW를 기록했습니다. 미국은 정책적 퇴보를 보이고 있으나, 중국과 영국을 비롯한 아시아 및 유럽 국가들은 에너지 안보와 탈탄소화를 위해 해상풍력 투자를 대폭 확대하고 있습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-04-21T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/wind/world-offshore-wind-us-retreat",
+      "collectedAt": "2026-05-04T08:00:55.262Z"
+    }
+  ]
+}

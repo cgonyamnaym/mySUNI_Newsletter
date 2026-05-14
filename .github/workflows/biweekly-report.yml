@@ -1,0 +1,49 @@
+name: Bi-weekly Trend Report
+
+on:
+  schedule:
+    - cron: '30 23 * * 0'  # 매주 일요일 UTC 23:30 = 월요일 KST 08:30 (짝수 주차만 실행)
+  workflow_dispatch:
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check if bi-weekly week (even week number)
+        id: check
+        run: |
+          WEEK=$(date +%V)
+          if [ $(( 10#$WEEK % 2 )) -eq 0 ]; then
+            echo "run=true" >> $GITHUB_OUTPUT
+            echo "Week $WEEK — running bi-weekly report"
+          else
+            echo "run=false" >> $GITHUB_OUTPUT
+            echo "Week $WEEK — skipping (odd week)"
+          fi
+
+      - uses: actions/setup-node@v4
+        if: steps.check.outputs.run == 'true'
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        if: steps.check.outputs.run == 'true'
+        run: npm ci
+
+      - name: Generate bi-weekly report
+        if: steps.check.outputs.run == 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/biweekly-report.js
+
+      - name: Commit & push report
+        if: steps.check.outputs.run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/biweekly/ data/index.json
+          git diff --staged --quiet || git commit -m "chore: biweekly report $(date +%Y-BW%V)"
+          git push
