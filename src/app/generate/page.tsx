@@ -106,6 +106,7 @@ export default function GeneratePage() {
     setConfirming(true)
     try {
       saveArchiveEntry(articles)
+      localStorage.removeItem(STORAGE_KEY)  // 확정 후 선택 항목 초기화
       setConfirmed(true)
       setTimeout(() => {
         router.push('/newsletter-archive')

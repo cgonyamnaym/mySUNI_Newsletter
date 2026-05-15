@@ -120,6 +120,11 @@ export default function SelectPage() {
     })
   }
 
+  function clearAll() {
+    setSelectedIds(new Set())
+    saveSelection('recent-14-days', [])
+  }
+
   function toggleAll() {
     const allFiltered = new Set(filtered.map((a) => a.id))
     const allSelected = filtered.every((a) => selectedIds.has(a.id))
@@ -291,9 +296,19 @@ export default function SelectPage() {
 
       {/* Sticky bottom CTA 바 */}
       <div className="fixed bottom-0 left-64 right-0 z-20 bg-white border-t border-wds-gray-200 shadow-[0_-4px_16px_rgba(23,23,23,0.06)] px-6 py-4 flex items-center justify-between">
-        <span className="text-[14px] text-wds-gray-950 font-semibold">
-          <span className="text-wds-blue-500 font-bold text-[16px]">{selectedIds.size}개</span> 기사 선택됨
-        </span>
+        <div className="flex items-center gap-3">
+          <span className="text-[14px] text-wds-gray-950 font-semibold">
+            <span className="text-wds-blue-500 font-bold text-[16px]">{selectedIds.size}개</span> 기사 선택됨
+          </span>
+          {selectedIds.size > 0 && (
+            <button
+              onClick={clearAll}
+              className="text-[12px] font-semibold text-wds-gray-400 hover:text-red-500 transition-colors"
+            >
+              선택 초기화
+            </button>
+          )}
+        </div>
           <Link
             href="/generate"
             className={`px-6 py-2.5 rounded-xl text-[14px] font-bold transition-all ${
