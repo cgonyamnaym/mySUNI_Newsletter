@@ -10,6 +10,7 @@ export function Sidebar() {
     { href: '/', label: '홈' },
     { href: '/collect', label: '기사 선택 및 수집' },
     { href: '/generate', label: '뉴스레터 생성' },
+    { href: '/newsletter-archive', label: '뉴스레터 아카이브' },
     { href: '/archive', label: '과거 아카이브' },
   ]
 
