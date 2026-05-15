@@ -9,7 +9,9 @@ on:
 jobs:
   crawl-and-update:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write # 리포지토리 파일 쓰기(Push) 권한 명시
+    
     steps:
       - name: 저장소 체크아웃
         uses: actions/checkout@v4
