@@ -1,0 +1,724 @@
+{
+  "date": "2026-05-14",
+  "generatedAt": "2026-05-15T00:44:59.309Z",
+  "articleCount": 40,
+  "articles": [
+    {
+      "id": "0e477086-d687-4b28-a2f2-26ffbd5b1ef8",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "노스캐롤라이나 단체들, 규제당국의 2026년 태양광 취소 명령에 맞서 싸워",
+      "titleOriginal": "North Carolina groups fight regulator’s order to cancel solar for 2026",
+      "summary": "지난달 노스캐롤라이나의 최고 전력 규제당국이 듀크 에너지의 2026년 태양광 발전소 투자를 갑작스럽게 중단시켰습니다. 이에 청정에너지 기업들과 옹호 단체들은 이 명령이 관세 및 적대적인 연방 정부로 인해 이미 어려움을 겪는 업계에 예상치 못한 타격이라며 취소해달라는 이의를 제기했습니다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-14T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/solar/north-carolina-groups-fight-regulator-order",
+      "collectedAt": "2026-05-15T00:14:30.658Z"
+    },
+    {
+      "id": "d0288090-44c6-411c-bded-abdd042cf4be",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "인도가 1분기에 15.3 GW의 태양광 용량을 설치했다",
+      "titleOriginal": "India installs 15.3 GW of solar capacity in Q1",
+      "summary": "Mercom India에 따르면, 인도는 2026년 1분기에 15.3 GW의 태양광 발전 용량을 설치하여 역대 최고 분기별 기록을 세웠습니다. 이는 전년 대비 143% 증가한 수치입니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-14T15:45:50.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/14/india-installs-15-3-gw-of-solar-capacity-in-q1/",
+      "collectedAt": "2026-05-15T00:14:45.928Z"
+    },
+    {
+      "id": "c85ab6cf-8622-49da-8b8d-ee2b038b73bd",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "프랑스 집단 태양광 자가소비 모델, 규제 장벽에 직면",
+      "titleOriginal": "France’s collective solar self-consumption model hits regulatory wall",
+      "summary": "프랑스 파리에서 태양광 패널 제조사 듀얼선(Dualsun)과 굿플래닛 재단(GoodPlanet Foundation)이 주최한 원탁회의에서 프랑스 집단 태양광 자가소비 모델의 확산을 가로막는 조직적 및 규제적 장벽이 부각되었습니다. 해당 모델은 기술적으로 확장이 준비된 상태이지만, 이러한 장벽들로 인해 어려움을 겪고 있습니다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-14T14:15:06.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/14/frances-collective-solar-self-consumption-model-hits-regulatory-wall/",
+      "collectedAt": "2026-05-15T00:14:50.697Z"
+    },
+    {
+      "id": "629003a6-b0a4-4cb3-b7f1-e311d5ea44a1",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "태양광 산업, 화재 및 배터리 결함으로 인한 위험 증가에 직면",
+      "titleOriginal": "Solar industry faces rising risks from fires and battery faults",
+      "summary": "kWh Analytics의 8차 연례 태양광 위험 평가 보고서에 따르면, 장비로 인한 화재, 규제 당국의 벌금, 그리고 배터리 부정확성이 재생에너지 자산 수익에 대한 주요 위협으로 새롭게 부상했습니다. 이 보고서는 태양광 산업이 직면한 최신 위험 요인들을 분석하여 발전소 운영의 안정성과 수익성에 미치는 영향을 강조합니다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-14T13:34:33.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/14/solar-industry-faces-rising-risks-from-fires-and-battery-faults/",
+      "collectedAt": "2026-05-15T00:15:01.284Z"
+    },
+    {
+      "id": "aa35ceda-0907-4698-ab19-a30a463e04fe",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "스웨덴, 유틸리티 규모 태양광 국가 전략 부재",
+      "titleOriginal": "Sweden lacks national strategy for utility-scale solar",
+      "summary": "룬드 대학교의 연구에 따르면 스웨덴은 전체적인 국가 전략 없이 유틸리티 규모 태양광을 구축하고 있습니다. 연구진은 pv 매거진과의 인터뷰에서 명확한 국가적 방향이 없으면 프로젝트가 유리한 지역에 집중되고 다른 지역에서는 지연될 것이라고 밝혔습니다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-14T12:00:28.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/14/sweden-lacks-national-strategy-for-utility-scale-solar/",
+      "collectedAt": "2026-05-15T00:15:11.066Z"
+    },
+    {
+      "id": "583119eb-4af9-4d42-8dfe-bdc85a8a108a",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "BVES, 독일 에너지 저장 산업 성장세 회복 발표",
+      "titleOriginal": "German storage industry back on growth path, says BVES",
+      "summary": "BVES의 시장 분석에 따르면, 독일 에너지 저장 기업들의 매출은 2024년의 상당한 감소 이후 작년에 크게 성장했으며, 올해 추가적인 성장이 예상됩니다. 그럼에도 불구하고, 산업의 불확실성은 계속 증가하고 있습니다.",
+      "topics": [
+        "시장·가격 동향",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-14T11:00:41.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/14/german-storage-industry-back-on-growth-path-says-bves/",
+      "collectedAt": "2026-05-15T00:15:20.737Z"
+    },
+    {
+      "id": "2535ca30-5c09-4026-8087-439ab34421f3",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "밤에서 낮으로: 프랑스 원자로, 유럽 태양광에 맞춰 유연해지다",
+      "titleOriginal": "From night to noon: France’s reactors are now bending for European solar",
+      "summary": "ENTSO-E의 시간별 데이터에 따르면, 2019년 이후 프랑스 원전의 여름철 정오-저녁 시간대 발전량 격차가 거의 8배 증가했습니다. 이는 프랑스 원자로가 유럽 태양광 발전에 맞춰 유연하게 운영되고 있음을 보여주며, 나머지 유럽 전력 시스템의 개선이 필요함을 시사합니다.",
+      "topics": [
+        "운영 최적화",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-14T10:15:21.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/14/from-night-to-noon-frances-reactors-are-now-bending-for-european-solar/",
+      "collectedAt": "2026-05-15T00:15:31.395Z"
+    },
+    {
+      "id": "9a5c27c9-816c-4f37-89dc-f44c30aa45e2",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "솔로몬 제도, 첫 대규모 태양광 프로젝트 계획",
+      "titleOriginal": "Solomon Islands plans first large-scale solar project",
+      "summary": "솔로몬 제도 전기청(Solomon Islands Electricity Authority)과 아시아개발은행(Asian Development Bank)이 솔로몬 제도의 첫 대규모 태양광 프로젝트 개발을 위한 협약을 체결했습니다. 이 합의는 국가의 전력 인프라와 재생 에너지원 확장에 중요한 진전을 의미합니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-14T10:00:15.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/14/solomon-islands-plans-first-large-scale-solar-project/",
+      "collectedAt": "2026-05-15T00:15:42.105Z"
+    },
+    {
+      "id": "8a80319a-a53f-484a-a24e-fadf274fec5a",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "시스템 복원력 강화 노력 속 계통 형성 기술 주목",
+      "titleOriginal": "Grid-forming tech on centre stage as search for system resilience steps up",
+      "summary": "간헐적 재생에너지 비중 증가로 전력망 안정성 유지가 어려워지면서 시스템 복원력 확보가 태양광 배치를 지속하기 위한 필수 요건이 되고 있습니다. 이에 대한 해결책으로 계통 형성 인버터(Grid-forming inverters)가 제시되며, 이 기술은 전 세계 주요 에너지 시장에서 시험 및 활용이 확대되고 있습니다.",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-14T09:45:58.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/14/grid-forming-tech-on-centre-stage-as-search-for-system-resilience-steps-up/",
+      "collectedAt": "2026-05-15T00:15:49.519Z"
+    },
+    {
+      "id": "160e18d0-367f-4339-aec1-56079accfde2",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "브뤼헤, 독립 태양광 브로커 선임하여 무료 자문 제공",
+      "titleOriginal": "Bruges appoints independent solar broker offering free advice",
+      "summary": "벨기에 브뤼헤시는 중소기업 및 단체를 대상으로 대규모 옥상 태양광 설치를 위한 독립 태양광 브로커의 무료 자문 서비스를 제공한다. 이 브로커는 초기 계산부터 최종 시운전까지 태양광 설치 과정 전반을 지원할 예정이다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-14T09:30:45.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/14/bruges-appoints-independent-solar-broker-offering-free-advice/",
+      "collectedAt": "2026-05-15T00:16:00.046Z"
+    },
+    {
+      "id": "90245ce2-54fc-4ad3-8aa2-e08288cedd3d",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Genex, Bulli Creek 태양광 규모를 300MW로 축소하고 1.7GWh 저장 시스템 추가",
+      "titleOriginal": "Genex cuts Bulli Creek solar to 300 MW, adds 1.7 GWh storage",
+      "summary": "Genex는 호주 Bulli Creek 다단계 개발 프로젝트의 1단계 계획을 재구성한다고 발표했다. 이 계획은 기존 775MW 태양광 발전소에서 300MW 태양광과 425MW/1,700MWh 배터리 에너지 저장 시스템(BESS)을 추가하는 방식으로 변경된다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-14T09:15:21.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/14/genex-cuts-bulli-creek-solar-to-300-mw-adds-1-7-gwh-storage/",
+      "collectedAt": "2026-05-15T00:16:11.001Z"
+    },
+    {
+      "id": "45d7013a-a7c4-499b-ad2b-421fa3f9104f",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "AI 모델, 구름 유형과 덮개로 태양광 발전 변동 예측",
+      "titleOriginal": "AI model uses cloud type and cover to predict solar power swings",
+      "summary": "AI 모델이 구름 유형과 덮개를 활용하여 지표면 태양 복사량의 급격한 변화, 특히 전력망 안정성에 영향을 미치는 단기적인 '램프(ramp)' 현상을 예측합니다. 이 모델은 전 세계 15개 사이트에서 테스트되었으며 강력한 일반화 가능성을 보였고, 대부분의 위치에서 원래 모델과 같거나 능가하는 예측 성능을 나타냈으나, 극단적인 기후에서는 일관성이 떨어졌습니다.",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-14T09:00:57.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/14/ai-model-uses-cloud-type-and-cover-to-predict-solar-power-swings/",
+      "collectedAt": "2026-05-15T00:16:21.862Z"
+    },
+    {
+      "id": "a83411b9-f695-4669-a0ff-011217112ee1",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "해상 부유식 태양광, 이탈리아 전력 수요 기술적 충족 가능성",
+      "titleOriginal": "Offshore floating PV could technically meet Italy’s electricity demand",
+      "summary": "새로운 연구에 따르면, 지리공간 다중 기준 평가 모델을 사용하여 이탈리아 해상 부유식 태양광 배치에 가장 적합한 지역이 확인되었습니다. 이 연구는 이탈리아의 기술적으로 실행 가능한 해상 태양광 면적의 단 2%만 활용해도 국가의 연간 전력 수요를 충족시키기에 충분한 전기를 생산할 수 있음을 발견했습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-14T08:30:47.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/14/offshore-floating-pv-could-technically-meet-italys-electricity-demand/",
+      "collectedAt": "2026-05-15T00:16:32.142Z"
+    },
+    {
+      "id": "eeb306f2-6274-4ef7-85d0-92dc7f4da98f",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미국 태양광 제조업체들, 토요 및 오리진 솔라의 에티오피아 관세 회피 혐의 제기",
+      "titleOriginal": "US solar makers accuse Toyo and Origin Solar of duty evasion in Ethiopia",
+      "summary": "8개의 미국 태양광 제조업체들이 토요(Toyo)와 오리진 솔라(Origin Solar)가 에티오피아에서 중국산 부품으로 조립한 태양광 제품을 통해 관세를 회피하고 있다며 미국 상무부에 반회피 불만(anti-circumvention complaint)을 제기했습니다. 이는 기존의 중국 태양광 제품에 부과된 반덤핑 및 상계 관세 명령을 우회하려는 시도로 지목됩니다.",
+      "topics": [
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-14T08:30:18.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/14/us-solar-makers-accuse-toyo-and-origin-solar-of-ethiopia-duty-evasion/",
+      "collectedAt": "2026-05-15T00:16:44.901Z"
+    },
+    {
+      "id": "b52bd4c5-ffad-41da-98d0-6ecc9449195f",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "태양광 3TW 육박, 그러나 산업은 새로운 도전에 직면",
+      "titleOriginal": "Solar approaches 3 TW, but the industry faces new challenges",
+      "summary": "2025년 말까지 전 세계 태양광 PV 용량은 약 2,974 GW에 도달했으며, 2025년에만 약 698 GW가 추가되었습니다. 그러나 산업은 높은 보급률로 인해 출력 제한, 스토리지 수요, 전력망 제약, 그리고 진화하는 정책 및 시장 설계와 같은 통합 문제에 직면하며, 빠른 배포에서 새로운 도전으로 전환하고 있습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-14T08:00:40.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/14/solar-approaches-3-tw-but-the-industry-faces-new-challenges/",
+      "collectedAt": "2026-05-15T00:16:52.819Z"
+    },
+    {
+      "id": "5ea53968-e50a-458d-8b24-e6dbfe4eefb9",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "인도 저장 시장, 입찰에서 실행으로 전환",
+      "titleOriginal": "India’s storage market shifts from tenders to execution",
+      "summary": "힌두스탄 파워(Hindustan Power)의 라툴 푸리(Ratul Puri) 회장은 pv 매거진과의 인터뷰에서 인도 배터리 에너지 저장 시스템(BESS) 시장이 공격적인 입찰 단계에서 대규모 프로젝트 실행으로 전환하고 있다고 밝혔다. 이는 인도가 그리드 통합, 송전 준비 상태 및 장기 공급 탄력성을 점점 더 우선시하기 때문이다.",
+      "topics": [
+        "시장·가격 동향",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-14T07:45:24.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/14/indias-storage-market-shifts-from-tenders-to-execution/",
+      "collectedAt": "2026-05-15T00:17:01.532Z"
+    },
+    {
+      "id": "87cc9f5c-4641-4699-89dd-111bd647faf9",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "영농형 태양광 패널 기울기 조정을 위한 플러그 앤 플레이 제어 프레임워크",
+      "titleOriginal": "Plug-and-play control framework for adjusting panel tilt in agrivoltaics",
+      "summary": "코넬 대학교 연구팀은 태양광 패널 기울기 각도 결정을 위해 과거와 미래 조건을 동시에 고려하는 제어 프레임워크를 개발했습니다. 이 프레임워크는 플러그 앤 플레이 방식으로 설계되어, 소프트웨어 개발자 및 태양광 운영자가 자신들의 최적화 알고리즘을 직접 통합할 수 있습니다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-14T07:30:21.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/14/plug-and-play-control-framework-for-adjusting-panel-tilt-in-agrivoltaics/",
+      "collectedAt": "2026-05-15T00:17:10.491Z"
+    },
+    {
+      "id": "3d235055-a85c-4507-a331-86d306f2f478",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "저비용 태양광 PV, CO2를 수익성 있는 재료로 전환하여 탄소 네거티브 배출 가능케 해",
+      "titleOriginal": "Low-cost solar PV can turn CO2 into profitable materials enabling negative emissions",
+      "summary": "저비용 태양광 PV는 이산화탄소를 귀중한 원료 및 활용성 높은 재료로 전환시켜 탄소 포집, 활용 및 저장(CCUS)을 수익성 있는 탄소 제거 옵션으로 재정의합니다. 이는 효과적으로 탄소 네거티브 배출을 가능하게 합니다. 세 가지 최근 연구는 전기 기반 탄소 섬유, 탄화규소 및 그래핀에 초점을 맞춰 2050년까지 대규모 네거티브 배출을 목표로 합니다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-14T07:00:20.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/14/low-cost-solar-pv-can-turn-co2-into-profitable-materials-enabling-negative-emissions/",
+      "collectedAt": "2026-05-15T00:17:21.769Z"
+    },
+    {
+      "id": "d0a1362a-9b3c-4f96-808d-2a7400ab20f2",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "한화 일본법인, 90억 엔 태양광 펀드 대출 체결",
+      "titleOriginal": "Hanwha Japan unit closes JPY 9 billion solar fund loan",
+      "summary": "스미토모 미쓰이 은행(SMBC)은 2023년 한화 재팬에서 분사한 전력 사업체 Q.ENEST Holdings에 90억 엔(5천7백만 달러) 규모의 신디케이트론을 주선했습니다. 이 자금은 일본 전역에 걸친 80MW 규모의 분산형 저전압 태양광 자산 포트폴리오 파이낸싱에 사용됩니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-14T07:00:14.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/14/hanwha-japan-unit-closes-jpy-9-billion-solar-fund-loan/",
+      "collectedAt": "2026-05-15T00:17:30.845Z"
+    },
+    {
+      "id": "b72fa8b7-0c3a-4322-8add-c47fe11d649e",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "초저가 옥상 태양광과 배터리가 가계 에너지 비용을 절감하다 – 1부: 호주",
+      "titleOriginal": "Very low cost rooftop solar and batteries slashes domestic energy cost – Part 1: Australia",
+      "summary": "호주 내 옥상 태양광 및 배터리 보급이 역사상 가장 저렴하고 안정적인 가정용 에너지 공급원으로 자리 잡고 있습니다. 해당 기술은 가계의 에너지 비용 부담을 획기적으로 낮추는 핵심적인 역할을 수행하고 있습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-14T06:30:43.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/14/very-low-cost-rooftop-solar-and-batteries-slashes-domestic-energy-cost-part-1-australia/",
+      "collectedAt": "2026-05-15T00:17:41.701Z"
+    },
+    {
+      "id": "fcadd089-8415-4c91-b6d0-3b7c3a9d59c8",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Datang, 중국에 14.6GW 규모 재생에너지 클러스터 계획",
+      "titleOriginal": "Datang plans 14.6 GW renewables cluster in China",
+      "summary": "Datang은 중국 내몽골 자치구에 8GW의 태양광, 4GW의 풍력, 2.04GW 규모의 에너지 저장 장치(ESS) 및 2.64GW의 석탄 화력 발전소를 포함한 총 14.6GW 규모의 대규모 재생에너지 단지를 조성할 계획입니다. 이 프로젝트는 생산된 청정 전력을 에너지 집약도가 높은 장쑤성으로 공급하는 것을 목표로 합니다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-14T06:00:53.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/14/datang-plans-14-6-gw-renewables-cluster-in-china/",
+      "collectedAt": "2026-05-15T00:17:57.126Z"
+    },
+    {
+      "id": "730aacd5-9821-47f6-9544-97d63017e124",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "새로운 지정학적 시대의 에너지 안보 및 경제성: 2030년 이후 미래 대비 EU 에너지 프레임워크",
+      "titleOriginal": "Energy Security & Affordability in a New Geopolitical Era: A Future-Proof Post-2030 EU Energy Framework",
+      "summary": "유럽 시민 사회와 산업계는 폰 데어 라이엔, 코스타, 메솔라 대통령에게 화석 연료 퇴출을 위한 강력한 구속력 있는 프레임워크 마련을 촉구하고 있습니다. 러시아-우크라이나 전쟁과 중동 긴장으로 인한 지정학적 불안정 속에서 2030년 이후 EU의 에너지 안보와 경제성을 확보할 미래 대비 에너지 프레임워크의 필요성이 강조됩니다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-14T21:10:38.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/14/energy-security-affordability-in-a-new-geopolitical-era-a-future-proof-post-2030-eu-energy-framework/",
+      "collectedAt": "2026-05-15T00:18:42.582Z"
+    },
+    {
+      "id": "6b3835ec-f006-4121-9cc1-59a2679363c9",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "태양광 전기차 시대가 왔다 — 총 5가지 모델",
+      "titleOriginal": "Solar-Powered EVs Are Here — All Five Of Them",
+      "summary": "미국 스타트업 아프테라(Aptera)가 공기역학적 설계가 적용된 3륜 태양광 전기차를 통해 시장 진입을 시도하고 있습니다. 클린테크니카(CleanTechnica)는 현재까지 등장한 5가지의 태양광 전기차 모델을 조명하며 해당 분야의 기술적 가능성을 제시합니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-14T11:34:23.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/14/solar-powered-evs-are-here-all-five-of-them/",
+      "collectedAt": "2026-05-15T00:18:50.059Z"
+    },
+    {
+      "id": "91c41e74-89b0-4c04-b4dc-62c28997486c",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "테슬라 솔라 루프, 일반 패널로 선회하며 존폐 위기에",
+      "titleOriginal": "Tesla Solar Roof is on life support as it pivot to panels",
+      "summary": "2016년 테슬라가 주택용 태양광 혁신을 목표로 공개한 솔라 루프는 2019년 말까지 주당 1,000개 설치를 목표했지만, 약 3,000개만 설치하며 약속을 지키지 못했습니다. 테슬라는 현재 솔라 루프 설치 현황 보고를 중단하고 조용히 일반 태양광 패널로 전환하고 있으며, 이는 고객들에게 비싸고 후순위로 밀린 제품을 남겨둔 채 회사 역사상 가장 큰 실패 중 하나로 꼽힙니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-14T21:37:12.000Z",
+      "originalUrl": "https://electrek.co/2026/05/14/tesla-solar-roof-promise-vs-reality-pivot-panels/",
+      "collectedAt": "2026-05-15T00:19:08.843Z"
+    },
+    {
+      "id": "014ad52e-6716-433c-bd56-1d3cc681c19f",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "중국에서 히트한 1만 달러 전기차, 반고체 배터리 탑재",
+      "titleOriginal": "This $10,000 EV is a hit in China, and it’s offered with a semi-solid-state battery",
+      "summary": "반고체 배터리를 탑재한 세계 최초의 양산형 전기차 MG4가 중국 시장에서 큰 인기를 끌며 출시 8개월 만에 10만 대 생산을 달성했습니다. 1만 달러 수준의 가격 경쟁력을 갖춘 이 차량은 SAIC 모터의 기술력을 바탕으로 시장에서 빠르게 점유율을 확대하고 있습니다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-14T18:11:52.000Z",
+      "originalUrl": "https://electrek.co/2026/05/14/10000-ev-a-hit-in-china-offering-semi-solid-state-battery/",
+      "collectedAt": "2026-05-15T00:19:20.771Z"
+    },
+    {
+      "id": "c7169dfd-79f8-4939-8563-a3c4a8721b8c",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "중국, 전기 K-car 산업 구축으로 EV 판매 증대 목표",
+      "titleOriginal": "China wants to build its own electric K-car industry to boost EV sales",
+      "summary": "중국 최고 자동차 산업 단체인 CPCA는 부진한 국내 자동차 판매를 활성화하고 수백만 명의 새로운 구매자를 EV 시장으로 유치하기 위해 일본의 K-car 모델을 본뜬 표준화된 저가형 전기차 카테고리 도입을 제안했습니다. 이 제안은 고령 소비자와 농촌 시장을 겨냥하여 위험하게 번성했던 규제되지 않은 저가형 전기차 문제를 해결하고자 합니다.",
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-14T14:28:11.000Z",
+      "originalUrl": "https://electrek.co/2026/05/14/china-wants-to-build-electric-kei-car-industry-boost-ev-sales/",
+      "collectedAt": "2026-05-15T00:19:37.234Z"
+    },
+    {
+      "id": "e4c7817c-b36e-49fe-a3c9-8c1b0b7695cd",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "주스드가 시속 60마일 이상의 전기 더트 바이크를 2,499달러에 출시하며, 이모토 시장이 이전과 같지 않을 수도 있다",
+      "titleOriginal": "Juiced launches 60+ MPH electric dirt bike for $2,499, and the e-moto market may never be the same",
+      "summary": "Juiced Bikes는 Lectric eBikes의 리더십 팀 지원으로 다시 돌아와 Juiced Powersports를 런칭했다. 첫 모델인 Juiced Nomadix는 시속 60마일 이상의 고성능 전기 더트 바이크로, 2,499달러의 파격적인 가격을 제시하며 이모토 시장에 큰 변화를 가져올 것으로 예상된다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-14T05:23:24.000Z",
+      "originalUrl": "https://electrek.co/2026/05/13/juiced-launches-60-mph-electric-dirt-bike-for-2499-and-the-e-moto-market-may-never-be-the-same/",
+      "collectedAt": "2026-05-15T00:19:49.277Z"
+    },
+    {
+      "id": "2bed90bf-fc60-498b-8f3e-4405ef38f7a5",
+      "source": "BloombergNEF",
+      "sourceId": "bnef",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "아시아 금융기관의 에너지 전환 금융, 화석 연료 지원을 앞지르는 데 고전",
+      "titleOriginal": "Energy Transition Bank Financing Struggles to Pull Ahead of Fossil Fuels in Asia",
+      "summary": "아시아 금융기관들이 기후 전환 계획을 수립하고 공시하고 있으나, 대형 금융기관에 비해 중소 규모 기관의 공시가 미흡한 실정입니다. 이로 인해 화석 연료 중심의 금융 지원에서 에너지 전환 금융으로의 체질 개선이 지연되고 있습니다.",
+      "topics": [
+        "ESG·탄소중립",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-14T01:00:35.000Z",
+      "originalUrl": "https://about.bnef.com/insights/finance/energy-transition-bank-financing-struggles-to-pull-ahead-of-fossil-fuels-in-asia/",
+      "collectedAt": "2026-05-15T00:20:07.827Z"
+    },
+    {
+      "id": "3fb99027-d13a-4055-9a7d-f25bf6d46600",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "영국, '후류 효과' 우려 속 3GW 규모 북해 풍력 발전 단지 승인",
+      "titleOriginal": "UK approves 3GW North Sea wind farm amid wake effect fears",
+      "summary": "영국 정부가 3GW 규모의 대규모 북해 풍력 발전 단지 건설을 승인했습니다. 일각에서는 인근 풍력 단지의 발전 효율을 떨어뜨리는 '후류 효과'에 대한 우려가 제기되고 있습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-14T14:53:50.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1958243/uk-approves-3gw-north-sea-wind-farm-amid-wake-effect-fears",
+      "collectedAt": "2026-05-15T00:20:32.332Z"
+    },
+    {
+      "id": "35d380c0-c3d6-4fb2-af8d-d932cdff73d1",
+      "source": "전자신문 (Energy)",
+      "sourceId": "etnews",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "트럼프 “習, 호르무즈 개방 원해…대규모 미국산 에너지 구매 합의”",
+      "titleOriginal": null,
+      "summary": "트럼프 대통령은 시진핑 주석이 미국산 석유와 액화천연가스(LNG)를 포함한 대규모 에너지 제품 및 농산물 구매에 합의했다고 밝혔다. 또한 중국이 호르무즈 해협의 개방 문제 해결에 협조하기로 하면서 미·중 간의 통상 및 에너지 안보 이해관계가 부합했다는 평가가 나온다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-14T23:49:58.000Z",
+      "originalUrl": "https://www.etnews.com/20260515000021",
+      "collectedAt": "2026-05-15T00:21:36.749Z"
+    },
+    {
+      "id": "fc475e62-567e-4fdf-9df7-b29301fbf4c4",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "원전수출체계 전면 개편…정부 컨트롤타워 기능 강화",
+      "titleOriginal": null,
+      "summary": "정부가 글로벌 원전 시장 확대에 대응하여 '원전 수출체계 효율화 방안'을 발표하고 컨트롤타워 기능을 강화합니다. 이를 위해 관련 법 제정을 추진하여 제도적 기반을 공고히 할 계획입니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-14T22:24:37.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69942",
+      "collectedAt": "2026-05-15T00:23:56.849Z"
+    },
+    {
+      "id": "6096b969-0c7b-4825-ae0e-abd14874049b",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "아낀 만큼 즉각 혜택…한전, 에너지 절감 특별대책 가동",
+      "titleOriginal": null,
+      "summary": "한국전력이 중동 정세 불안에 따른 에너지 위기 대응을 위해 보상형 에너지 절감 대책을 추진한다. 주요 내용으로 주택용 에너지캐시백 확대, 취약부문 고효율 기기 지원, 최대전력관리장치 보급 등을 시행할 계획이다.",
+      "topics": [
+        "정책·규제",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-14T21:18:03.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69941",
+      "collectedAt": "2026-05-15T00:24:07.829Z"
+    },
+    {
+      "id": "ddf9d992-8874-4f3e-9a2c-bebce574d7c1",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "대한전선, 1만톤급 포설선 추가 확보",
+      "titleOriginal": null,
+      "summary": "대한전선이 해상풍력 및 HVDC 시장 공략을 위해 1만 톤급 해저케이블 전용 포설선인 ‘스칸디 커넥터호’를 인수했다. 이번 인수를 통해 해저케이블의 생산부터 시공까지 수직계열화 체계를 강화하며 글로벌 경쟁력을 높일 것으로 전망된다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-14T21:01:58.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69939",
+      "collectedAt": "2026-05-15T00:24:29.261Z"
+    },
+    {
+      "id": "b4d33b08-9396-45f2-9631-e217246f1d01",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“바이오 선박유 없인 수출길 막혀”…선·화주 상생과 벙커링 거점 확보, 해운 탈탄소 ‘열쇠’",
+      "titleOriginal": null,
+      "summary": "국제해사기구(IMO)의 탄소 배출 규제가 전략 기반으로 강화됨에 따라, 해운업계는 친환경 선박용 바이오 연료 도입과 탄소 감축 비용 분담 모델 구축을 추진하고 있다. 연간 3억 톤 이상의 연료 수요에 대응하기 위해 다중 연료 선대 포트폴리오를 확보하고, 아시아 지역의 친환경 벙커링 거점을 구축하여 무역 장벽을 극복하려는 전략이 핵심이다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-14T20:39:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260514023334865",
+      "collectedAt": "2026-05-15T00:26:27.137Z"
+    },
+    {
+      "id": "cdfb8436-75b3-4c17-8c73-5d460df7ab53",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전·한수원 집안싸움 끝…정부, 원전 수출 직접 총괄한다",
+      "titleOriginal": null,
+      "summary": "정부가 원전 수출 컨트롤타워인 '원전수출기획위원회'를 신설하고, 기존 한전과 한수원으로 이원화되었던 수출 체계를 정부 주도 '원팀' 체제로 전면 개편한다. 이는 UAE 바라카 원전의 1조 4천억 원대 공사비 분쟁과 같은 비효율을 방지하고, 글로벌 원전 시장에서 국가 전략 사업으로서의 경쟁력을 강화하기 위한 조치다.",
+      "topics": [
+        "정책·규제",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-14T17:57:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260514025524820",
+      "collectedAt": "2026-05-15T00:26:51.058Z"
+    },
+    {
+      "id": "5ac0aa61-01b2-4740-81db-d540f436baff",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[인터뷰] 정범진 교수 “SMR, 투자 안 하면 뒤처진다”",
+      "titleOriginal": null,
+      "summary": "정범진 교수는 SMR 시장을 1960~70년대 원전 초기와 같은 성장 국면으로 평가하며, 민간 기업들이 한국수력원자력 중심 구조를 벗어나 독자 생태계를 구축해야 한다고 강조했다. 전 세계 80여 종의 SMR 중 5개 안팎이 살아남을 것으로 예상되나, 글로벌 자금 흐름과 시장 선점 전략을 고려할 때 지금의 투자는 필수적이라고 분석했다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-14T16:17:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260514029224681",
+      "collectedAt": "2026-05-15T00:27:27.164Z"
+    },
+    {
+      "id": "6a32d045-e614-4f78-b1a6-dbf3a9a4a6fc",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "1분기 도시가스 공급 1.2% 감소…‘연료전지’ 곧 취사용 추월",
+      "titleOriginal": null,
+      "summary": "중동 전쟁의 영향으로 올해 1분기 전국 도시가스 공급량이 전년 대비 1.2% 감소했으며, 특히 산업용 수요가 6% 급감했다. 반면 연료전지용 공급은 6% 증가세를 보이며 취사용 수요를 곧 넘어설 것으로 전망되는 등 도시가스 시장의 핵심 신성장 동력으로 부상하고 있다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-14T16:03:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260514027254738",
+      "collectedAt": "2026-05-15T00:27:47.188Z"
+    },
+    {
+      "id": "36f60d28-a70f-40ac-879c-b1dd45f2f9b4",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "김소희 의원 “수소연료전지 시장 축소 중단해야…국내 산업 생태계 붕괴 우려”",
+      "titleOriginal": null,
+      "summary": "김소희 국민의힘 의원과 수소연료전지 업계는 정부의 일반수소 발전시장 축소 움직임이 국내 산업 생태계를 붕괴시킬 수 있다며 반발했다. 업계는 그린수소로의 전환 시기까지 산업 유지를 위해 향후 5년간 최소 200MW 규모의 실증 시장 보장을 요구하고 있다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-14T15:43:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260514028024679",
+      "collectedAt": "2026-05-15T00:28:07.155Z"
+    },
+    {
+      "id": "d62a747e-d8a1-4218-a914-fb46e6144557",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "중부발전 “계엄 매뉴얼, 탄핵 부결과 무관…전력수급 안정용 내부 문서”",
+      "titleOriginal": null,
+      "summary": "한국중부발전이 논란이 된 '계엄령 대비 비상대응 조치계획' 문건에 대해 탄핵 정국과 무관한 전력 공급 유지를 위한 내부 절차서라고 해명했다. 이에 대해 기후에너지환경부는 해당 문건의 작성 경위와 상부 지시 여부 등을 확인하기 위한 감사에 착수했다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-14T15:28:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260514027234769",
+      "collectedAt": "2026-05-15T00:28:27.131Z"
+    },
+    {
+      "id": "84a7d42e-022a-4dc7-8a68-53944ff3be96",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“수조원 흑자 어디로?”…전혀 줄지 않는 한전 부채, 올여름 위기 경고",
+      "titleOriginal": null,
+      "summary": "한국전력이 연간 10조 원대의 영업이익을 기록 중임에도 막대한 이자 비용(연 4조 원대)과 송배전망 투자, 정부 배당 등으로 인해 206조 원 규모의 부채가 줄지 않고 있다. 특히 중동 정세 불안에 따른 연료비 상승과 올여름 전력 수요 급증이 겹칠 경우, 전기요금 동결과 맞물려 2022년과 같은 재무 위기가 재연될 수 있다는 우려가 제기된다.",
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-14T11:22:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260514020304633",
+      "collectedAt": "2026-05-15T00:28:51.303Z"
+    }
+  ]
+}
