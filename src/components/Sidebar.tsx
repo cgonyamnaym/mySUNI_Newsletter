@@ -31,7 +31,9 @@ export function Sidebar() {
       </div>
       <nav className="flex-1 py-4 px-3 flex flex-col gap-1">
         {links.map((link) => {
-          const active = pathname === link.href || (link.href !== '/' && pathname.startsWith(link.href))
+          // /screening은 /collect의 하위 플로우이므로 collect를 활성으로 표시
+        const effectivePath = pathname.startsWith('/screening') ? '/collect' : pathname
+        const active = effectivePath === link.href || (link.href !== '/' && effectivePath.startsWith(link.href))
           return (
             <Link
               key={link.href}

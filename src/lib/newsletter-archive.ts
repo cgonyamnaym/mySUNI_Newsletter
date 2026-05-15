@@ -30,13 +30,27 @@ export function saveArchiveEntry(articles: Article[]): NewsletterArchiveEntry {
   }
   const entries = getArchiveEntries()
   entries.unshift(entry)
-  localStorage.setItem(ARCHIVE_KEY, JSON.stringify(entries))
+  try {
+    localStorage.setItem(ARCHIVE_KEY, JSON.stringify(entries))
+  } catch (e) {
+    if (e instanceof DOMException && e.name === 'QuotaExceededError') {
+      // 가장 오래된 항목 1개 제거 후 재시도
+      const trimmed = entries.slice(0, entries.length - 1)
+      localStorage.setItem(ARCHIVE_KEY, JSON.stringify(trimmed))
+    } else {
+      throw e
+    }
+  }
   return entry
 }
 
 export function deleteArchiveEntry(id: string): void {
   const entries = getArchiveEntries().filter((e) => e.id !== id)
-  localStorage.setItem(ARCHIVE_KEY, JSON.stringify(entries))
+  try {
+    localStorage.setItem(ARCHIVE_KEY, JSON.stringify(entries))
+  } catch {
+    // 삭제 중 오류는 무시 (용량 문제 아님)
+  }
 }
 
 export function getArchiveEntry(id: string): NewsletterArchiveEntry | null {

@@ -22,7 +22,7 @@ export function screenArticles(articles: Article[], limit = 50): ScoredArticle[]
 
   return articles
     .map((article): ScoredArticle => {
-      const text = `${article.title} ${article.titleOriginal ?? ''} ${article.summary}`.toLowerCase()
+      const text = `${article.title} ${article.titleOriginal ?? ''} ${article.summary ?? ''}`.toLowerCase()
       let score = 0
       const matchedKeywords: string[] = []
 

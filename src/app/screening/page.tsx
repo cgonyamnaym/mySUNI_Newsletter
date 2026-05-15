@@ -45,6 +45,7 @@ export default function ScreeningPage() {
   const [index, setIndex] = useState<MetaIndex | null>(null)
   const [allArticles, setAllArticles] = useState<Article[]>([])
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set())
+  const [activeTopic, setActiveTopic] = useState<string>('전체')
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
@@ -81,6 +82,17 @@ export default function ScreeningPage() {
 
   const screened = useMemo(() => screenArticles(allArticles, 50), [allArticles])
 
+  // id → 전체 순위(1-based) 맵 — 토픽 필터 후에도 원래 순위 표시용
+  const rankMap = useMemo(
+    () => new Map(screened.map((a, i) => [a.id, i + 1])),
+    [screened]
+  )
+
+  const filteredScreened = useMemo(() => {
+    if (activeTopic === '전체') return screened
+    return screened.filter((a) => a.topics.includes(activeTopic as Article['topics'][0]))
+  }, [screened, activeTopic])
+
   function toggleArticle(id: string) {
     setSelectedIds((prev) => {
       const next = new Set(prev)
@@ -92,18 +104,18 @@ export default function ScreeningPage() {
   }
 
   function toggleAll() {
-    const allIds = new Set(screened.map((a) => a.id))
-    const allSelected = screened.every((a) => selectedIds.has(a.id))
+    const allFilteredIds = new Set(filteredScreened.map((a) => a.id))
+    const allSelected = filteredScreened.length > 0 && filteredScreened.every((a) => selectedIds.has(a.id))
     setSelectedIds((prev) => {
       const next = new Set(prev)
-      if (allSelected) allIds.forEach((id) => next.delete(id))
-      else allIds.forEach((id) => next.add(id))
+      if (allSelected) allFilteredIds.forEach((id) => next.delete(id))
+      else allFilteredIds.forEach((id) => next.add(id))
       saveSelection(Array.from(next))
       return next
     })
   }
 
-  const allSelected = screened.length > 0 && screened.every((a) => selectedIds.has(a.id))
+  const allFilteredSelected = filteredScreened.length > 0 && filteredScreened.every((a) => selectedIds.has(a.id))
 
   return (
     <div className="flex flex-col h-full bg-wds-gray-50 relative">
@@ -126,12 +138,6 @@ export default function ScreeningPage() {
             <Sparkles size={20} className="text-wds-blue-500" />
             <h1 className="text-2xl font-bold text-wds-gray-950">키워드 연관성 스크리닝</h1>
           </div>
-          <button
-            onClick={toggleAll}
-            className="shrink-0 text-[13px] font-semibold px-4 py-1.5 rounded-md border border-wds-gray-300 bg-white text-wds-gray-700 hover:bg-wds-gray-50 hover:text-wds-gray-950 transition-colors shadow-sm"
-          >
-            {allSelected ? '전체 해제' : '전체 선택'}
-          </button>
         </div>
 
         <div className="mb-5 text-sm text-wds-gray-600 bg-white p-4 rounded-xl border border-wds-gray-200 shadow-wds-xs">
@@ -140,17 +146,48 @@ export default function ScreeningPage() {
           기사 선택 페이지의 선택 항목과 통합됩니다.
         </div>
 
+        {/* 토픽 필터 + 전체 선택/해제 */}
+        <div className="mb-5 flex items-center justify-between gap-3 flex-wrap">
+          <div className="flex gap-2 flex-wrap">
+            {['전체', ...TOPICS.map((t) => t.id)].map((topic) => (
+              <button
+                key={topic}
+                onClick={() => setActiveTopic(topic)}
+                className={`px-4 py-1.5 text-[13px] font-semibold rounded-full border transition-all duration-200 hover:-translate-y-0.5 ${
+                  activeTopic === topic
+                    ? 'bg-wds-gray-900 text-white border-wds-gray-900 shadow-md'
+                    : 'bg-white text-wds-gray-600 border-wds-gray-300 hover:border-wds-gray-500 hover:text-wds-gray-950 shadow-sm hover:shadow-md'
+                }`}
+              >
+                {topic}
+              </button>
+            ))}
+          </div>
+          <div className="flex items-center gap-3 ml-auto">
+            <div className="px-4 py-1.5 rounded-full border border-wds-gray-300 bg-white text-[13px] font-bold text-wds-gray-800 shadow-sm flex items-center gap-1">
+              뉴스 총 개수: <span className="text-wds-blue-600">{filteredScreened.length}</span>
+            </div>
+            <button
+              onClick={toggleAll}
+              className="shrink-0 text-[13px] font-semibold px-4 py-1.5 rounded-md border border-wds-gray-300 bg-white text-wds-gray-700 hover:bg-wds-gray-50 hover:text-wds-gray-950 transition-colors shadow-sm"
+            >
+              {allFilteredSelected ? '현재 토픽 전체 해제' : '현재 토픽 전체 선택'}
+            </button>
+          </div>
+        </div>
+
         {loading ? (
           <div className="py-20 text-center text-[14px] text-wds-gray-500 font-medium">
             연관성 분석 중입니다...
           </div>
-        ) : screened.length === 0 ? (
+        ) : filteredScreened.length === 0 ? (
           <div className="py-20 text-center text-[14px] text-wds-gray-500 bg-white rounded-xl border border-wds-gray-200 shadow-sm">
-            수집된 기사가 없습니다.
+            해당 토픽의 기사가 없습니다.
           </div>
         ) : (
           <ul className="flex flex-col gap-3">
-            {screened.map((article, idx) => {
+            {filteredScreened.map((article) => {
+              const rank = rankMap.get(article.id) ?? 0
               const checked = selectedIds.has(article.id)
               const scoreInfo = getScoreLabel(article.relevanceScore)
               return (
@@ -178,7 +215,7 @@ export default function ScreeningPage() {
                       {/* 메타 */}
                       <div className="flex items-center gap-2 mb-2 flex-wrap">
                         {/* 순위 */}
-                        <span className="text-[11px] font-bold text-wds-gray-400 tabular-nums w-6">#{idx + 1}</span>
+                        <span className="text-[11px] font-bold text-wds-gray-400 tabular-nums w-6">#{rank}</span>
                         {/* 연관성 점수 배지 */}
                         <span
                           className="inline-flex items-center px-2.5 py-0.5 rounded-full text-[11px] font-bold"
