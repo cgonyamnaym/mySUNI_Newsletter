@@ -1,7 +1,7 @@
 {
   "date": "2026-05-16",
-  "generatedAt": "2026-05-16T00:38:38.774Z",
-  "articleCount": 8,
+  "generatedAt": "2026-05-16T07:56:20.635Z",
+  "articleCount": 16,
   "articles": [
     {
       "id": "969b5376-c609-4430-b9b8-946199abe605",
@@ -146,6 +146,149 @@
       "publishedAt": "2026-05-16T00:26:21.785Z",
       "originalUrl": "https://www.energy.or.kr/front/board/View3.do?boardMngNo=3&boardNo=10024972",
       "collectedAt": "2026-05-16T00:26:21.785Z"
+    },
+    {
+      "id": "4bdd94b5-f1e3-4653-9e95-c6c9282ac008",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "텍사스, 태양광 발전 석탄 발전량 추월 전망",
+      "titleOriginal": "PV power generation to surpass coal in Texas",
+      "summary": "올해 ERCOT(텍사스 전력망 운영사) 그리드에서 유틸리티 규모 태양광 발전량이 석탄 화력 발전을 추월할 것으로 전망됩니다. 이는 대규모 태양광 설비 증설이 텍사스주의 에너지 구성을 지속적으로 변화시키고 있기 때문입니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-16T07:00:03.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/16/pv-power-generation-to-surpass-coal-in-texas/",
+      "collectedAt": "2026-05-16T07:27:48.240Z"
+    },
+    {
+      "id": "6fe6baed-7193-4f7b-bd94-71a32991ba91",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "일본, 용량 시장 경매에서 1.25GW 배터리 저장장치 낙찰",
+      "titleOriginal": "Japan awards 1.25 GW of battery storage in capacity market auction",
+      "summary": "일본은 세 번째 장기 탈탄소화 용량 시장 경매에서 총 1.25GW 규모의 배터리 저장장치(BESS) 용량을 낙찰했다. 새로운 저장 지속 시간 규칙으로 인해 BESS 입찰 규모는 크게 감소했지만, 낙찰된 배터리 저장 용량은 여전히 상대적으로 강세를 보였다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-16T06:00:53.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/16/japan-awards-1-25-gw-of-battery-storage-in-capacity-market-auction/",
+      "collectedAt": "2026-05-16T07:27:52.679Z"
+    },
+    {
+      "id": "76c81863-666d-4aa0-884f-05abb74173c1",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "리프모터, 유럽 및 그 너머로 더 큰 진출로 확보",
+      "titleOriginal": "Leapmotor Gets Bigger Avenue Into Europe — And Beyond",
+      "summary": "이번 주 전 세계적으로 빠르게 확장하는 중국 전기차(EV) 생산 기업들의 흐름에 맞춰, 중국 EV 기업이 해외 진출을 확대하는 또 다른 소식이다. 스텔란티스와 리프모터 간의 파트너십이 유럽 시장으로의 진출을 돕기 위해 확대되고 있으며, 이는 스텔란티스의 확장에 기여할 것으로 보인다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-16T05:16:41.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/16/leapmotor-gets-bigger-avenue-into-europe-and-beyond/",
+      "collectedAt": "2026-05-16T07:29:56.947Z"
+    },
+    {
+      "id": "f9491eea-d625-44d8-872a-1f5f8b331d40",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "트럼프의 화석 연료 환상, 발코니 태양광 압력에 시들다",
+      "titleOriginal": "Trump’s Fossil Fuel Fantasy Wilts Under Balcony Solar Pressure",
+      "summary": "이 기사는 주택 소유주와 임차인이 플러그인 발코니 태양광 시스템을 통해 쉽게 태양광 패널을 설치하고 전기 요금을 절감할 수 있다고 설명합니다. 제목은 이러한 발코니 태양광의 확산이 트럼프 전 대통령의 화석 연료 중심 정책 구상에 압력으로 작용하고 있음을 시사합니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-16T03:59:49.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/15/trumps-fossil-fuel-fantasy-wilts-under-balcony-solar-pressure/",
+      "collectedAt": "2026-05-16T07:30:03.226Z"
+    },
+    {
+      "id": "40e66023-d71b-4782-a0d7-c74e11140d4b",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "북유럽 4월 전기차 판매 신기록 달성",
+      "titleOriginal": "New Record For Electric Car Sales In Nordic Countries In April",
+      "summary": "2026년 4월, 북유럽 국가들의 전기차 판매량이 신기록을 달성하며 강력한 성장세를 보였다. 특히 노르웨이와 덴마크가 전기차 판매를 주도했으며, 스웨덴과 핀란드가 그 뒤를 이었다.",
+      "topics": [
+        "시장·가격 동향",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-16T02:57:46.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/15/new-record-for-electric-car-sales-in-nordic-countries-in-april/",
+      "collectedAt": "2026-05-16T07:30:15.543Z"
+    },
+    {
+      "id": "75aed0f0-d0fd-45bc-9702-5bbdf5cd141c",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "세그웨이의 최고 시속 60마일 전동 오프로드 바이크, 공식 판매 시작",
+      "titleOriginal": "Segway’s wild new 60 MPH electric dirt bike is now officially on sale",
+      "summary": "세그웨이의 새로운 최고 시속 60마일 전동 오프로드 바이크 'Xaber 300'이 미국 내 공인 딜러를 통해 오늘부터 공식 판매를 시작했다. 이번 출시는 세그웨이가 전동 파워스포츠 시장에 더욱 깊이 진출하려는 최신 움직임이자, 회사의 가장 강력한 오프로드 모델이다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-16T04:57:04.000Z",
+      "originalUrl": "https://electrek.co/2026/05/15/segways-wild-new-60-mph-electric-dirt-bike-is-now-officially-on-sale/",
+      "collectedAt": "2026-05-16T07:31:36.603Z"
+    },
+    {
+      "id": "2acd3545-22c7-4e4f-a1b9-18f8f91fb574",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "채비, 1분기 매출 21%↑…전기차 충전 수익성 개선 본격화",
+      "titleOriginal": null,
+      "summary": "국내 급속 충전 CPO 1위 기업 채비가 1분기 매출 207억 원을 기록하며 전년 대비 21% 성장하고 EBITDA율을 17%p 개선하며 흑자 전환을 눈앞에 두고 있다. 전기차 판매 급증과 더불어 정부의 공공 급속 충전요금 인상에 따른 가격 경쟁력 확보가 수익성 개선의 주요 배경으로 작용했다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-16T09:53:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260516020165140",
+      "collectedAt": "2026-05-16T07:38:04.070Z"
+    },
+    {
+      "id": "bfc10245-4cc0-42cf-a4e8-7ebebe3d645d",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "김소희 의원, 석탄발전 폐지지역 지원 특별법 통합대안 발의…“노동자 보호·지역 지원 우선”",
+      "titleOriginal": null,
+      "summary": "김소희 의원이 석탄화력발전소 폐지에 따른 지역경제 충격과 노동자 고용 불안 해소를 위한 17개 법안을 통합한 특별법 대안을 대표발의했습니다. 이 법안은 탈석탄 정책 방향과 별개로 발전소 폐지 지역과 노동자를 우선 지원하며, 특히 노동자 고용 유지 및 재취업 촉진을 법적 의무로 명시하고 무탄소 발전 등 대체 에너지 산업 육성 내용을 담고 있습니다. 이는 '2040년 석탄발전 전면 폐지' 로드맵과 지원 대책이 혼재되어 지연되던 논의를 가속화하기 위한 것입니다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-16T09:51:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260516020155245",
+      "collectedAt": "2026-05-16T07:38:25.574Z"
     }
   ]
 }
