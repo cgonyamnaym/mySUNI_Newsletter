@@ -1,7 +1,7 @@
 {
   "date": "2026-05-15",
-  "generatedAt": "2026-05-15T00:44:59.311Z",
-  "articleCount": 8,
+  "generatedAt": "2026-05-16T00:38:38.772Z",
+  "articleCount": 30,
   "articles": [
     {
       "id": "8ec0a8ec-9f07-4afc-b7d5-b45e8879329a",
@@ -146,6 +146,401 @@
       "publishedAt": "2026-05-15T00:33:45.695Z",
       "originalUrl": "https://www.energy.or.kr/front/board/View3.do?boardMngNo=3&boardNo=10024972",
       "collectedAt": "2026-05-15T00:33:45.695Z"
+    },
+    {
+      "id": "a4d3418d-80de-478a-b5ba-17bb0da91df8",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "전 세계 그리드 배터리 설치 속도가 폭발적이다",
+      "titleOriginal": "The world is installing grid batteries at a blistering pace",
+      "summary": "블룸버그NEF의 최신 데이터에 따르면, 전력 계통에 연결되는 그리드 배터리 설치량이 2025년에 전년 대비 48% 급증했다. 태양광 등 생산된 에너지를 저장하는 이 배터리들은 총 112기가와트(GW) 규모에 달하며, 전 세계적으로 빠르게 확산되고 있다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-15T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/batteries/world-installing-grid-batteries",
+      "collectedAt": "2026-05-16T00:08:25.734Z"
+    },
+    {
+      "id": "c759a38c-0f3b-4ca1-83eb-c3ec92b15395",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "아르헨티나, 360MW 태양광 발전소 가동",
+      "titleOriginal": "Argentina commissions 360 MW solar farm",
+      "summary": "아르헨티나가 멘도사 주 쿠요 지역에 2억 2천만 달러 규모의 태양광 발전소를 가동했습니다. 이 발전소의 발전 용량은 305MW입니다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-15T14:58:11.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/15/argentina-commissions-305-mw-solar-farm/",
+      "collectedAt": "2026-05-16T00:08:38.279Z"
+    },
+    {
+      "id": "54b543a9-3ad3-47f9-ad87-7a82f4834e8f",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "수소의 흐름: 아일랜드의 LCOH, 모로코, 브라질과 대등한 수준",
+      "titleOriginal": "The Hydrogen Stream: Ireland’s LCOH on par with Morocco, Brazil",
+      "summary": "Fraunhofer ISE는 아일랜드 에너지 기업 ESB와의 협력 연구를 통해 아일랜드가 재생에너지 기반 Power-to-X 및 그린 수소 생산에 있어 경쟁력 있는 입지임을 밝혔습니다. 이 연구에 따르면 아일랜드의 LCOH(수소 균등화 발전 비용)는 모로코, 남아프리카, 브라질과 대등한 수준입니다. 강력한 풍력 자원과 정책 지원, 인프라 잠재력이 이러한 경쟁력을 뒷받침합니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-15T14:23:42.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/15/the-hydrogen-stream-irelands-lcoh-on-par-with-morocco-brazil/",
+      "collectedAt": "2026-05-16T00:08:43.848Z"
+    },
+    {
+      "id": "60223d0b-cfba-447d-b8ea-20df9acac273",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "우크라이나 곳곳에 스며든 여성 리더십",
+      "titleOriginal": "Women’s leadership is everywhere in Ukraine",
+      "summary": "에너지 액트 포 우크라이나 재단(Energy Act for Ukraine Foundation)의 율리아나 오니슈크 대표는 러시아의 침공 이후 태양광 에너지가 단순한 친환경 기술을 넘어 병원과 학교의 생존을 책임지는 핵심 자원이 되었다고 설명합니다. 이 재단은 여성 주도 이니셔티브를 통해 분산형 재생 에너지를 보급하며 우크라이나의 에너지 인프라 복원력과 지속 가능한 미래를 구축하고 있습니다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-15T14:00:45.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/15/womens-leadership-is-everywhere-in-ukraine/",
+      "collectedAt": "2026-05-16T00:08:54.404Z"
+    },
+    {
+      "id": "4bae58af-694e-4451-8d45-82efa65de07b",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "태양광 PPA, 스페인 현물 가격을 억제 아닌 상승시켜",
+      "titleOriginal": "Solar PPAs raise Spanish spot prices, not suppress them",
+      "summary": "새로운 동료 검토 연구에 따르면 스페인의 전력 시장에서 풍력 및 태양광 발전의 물리적 양자 계약(PBC)이 높은 보급률 단계에서 도매 전력 가격을 상승시키는 것으로 나타났습니다. 이는 초기 기간의 가격 억제 효과를 뒤집는 결과이며, 풍력 및 태양광 발전이 시장 가격에 미치는 영향에 대한 새로운 관점을 제시합니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-15T11:32:58.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/15/solar-ppas-raise-spanish-spot-prices-not-suppress-them/",
+      "collectedAt": "2026-05-16T00:09:20.830Z"
+    },
+    {
+      "id": "9fab041f-b07c-4274-a9eb-4d786a06ae50",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "블로킹 현상으로 프랑스에서 핀란드까지 일사량 증가, 동유럽은 폭풍 강타",
+      "titleOriginal": "Blocking pattern lifts irradiance from France to Finland while storms hit the east",
+      "summary": "DNV 산하의 Solcast는 북해의 고기압 영향으로 서유럽과 북유럽의 4월 태양광 일사량이 평년보다 크게 증가했다고 보고했습니다. 반면, 동유럽과 지중해 지역은 폭풍 이동 경로가 바뀌면서 그리스, 터키, 우크라이나 등에서 일사량 부족 현상이 나타나며 극명한 대비를 보였습니다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-15T10:40:46.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/15/blocking-pattern-lifts-irradiance-from-france-to-finland-while-storms-hit-the-east/",
+      "collectedAt": "2026-05-16T00:09:27.229Z"
+    },
+    {
+      "id": "f37b7397-63db-42bc-b1c6-8a5485b043cd",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "독일 과학자들, 태양광 발전소가 사막에 비를 내릴 수 있는지 연구",
+      "titleOriginal": "German scientists explore whether solar power plants can induce rain in deserts",
+      "summary": "독일 연구진은 대규모 태양광 발전소가 사막의 기후에 미치는 영향을 평가하기 위해 라이다(LiDAR) 측정과 첨단 기상 시뮬레이션을 결합한 연구를 진행하고 있습니다. 이 프로젝트는 사막 내 태양광 설치가 강우량 유도 등 국지적 기상 변화를 일으킬 수 있는지 과학적으로 분석하는 것을 목표로 합니다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-15T09:56:32.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/15/german-scientists-explore-whether-solar-power-plants-can-induce-rain-in-deserts/",
+      "collectedAt": "2026-05-16T00:09:41.998Z"
+    },
+    {
+      "id": "aa36372f-0168-49e0-95b5-f7f958eec25a",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "브라질, 1분기 태양광 발전 용량 4.4GW 추가",
+      "titleOriginal": "Brazil deploys 4.4 GW of solar in Q1",
+      "summary": "브라질은 2026년 1분기에 총 4.4GW의 태양광 발전 용량을 추가하며 지속적인 성장세를 보였습니다. 세부적으로는 유틸리티급 발전소에서 2.3GW, 분산형 발전에서 2.2GW가 확충되었습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-15T09:41:52.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/15/brazil-deploys-4-4-gw-of-solar-in-q1/",
+      "collectedAt": "2026-05-16T00:10:01.847Z"
+    },
+    {
+      "id": "5048f36b-689f-4732-87f5-0b95a9feec00",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "세계 최고 일사량 지역에서 저은 함량 이종접합 PV 모듈 테스트",
+      "titleOriginal": "Heterojunction PV modules with low silver content tested in world’s sunniest region",
+      "summary": "칠레 기업 아타모스텍(Atamostec)은 프랑스 CEA-Ines와 협력하여 아타카마 사막 태양광 플랫폼(PSDA)에서 저은 이종접합 태양광 모듈을 실제 사막 환경에서 시험하고 있습니다. ALPACA 프로젝트를 통해 현재까지 은을 구리로 최대 70% 대체하는 데 성공했습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-15T09:26:31.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/15/heterojunction-pv-modules-with-low-silver-content-tested-in-worlds-sunniest-region/",
+      "collectedAt": "2026-05-16T00:10:21.787Z"
+    },
+    {
+      "id": "7d781cff-39ed-495e-aa6d-158b25bc2174",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Fraunhofer ISE, CPV 전해 기술로 태양광-수소 효율 31.3% 기록 달성",
+      "titleOriginal": "Fraunhofer ISE achieves 31.3% record solar-to-hydrogen efficiency in CPV electrolysis",
+      "summary": "독일의 프라운호퍼 ISE 연구소는 마이크로 집광형 태양광(CPV)과 양성자 교환막(PEM) 수전해 시스템을 결합하여 31.3%의 태양광-수소 전환 효율을 달성했습니다. 4중 접합 CPV와 PEM 전해조를 직렬로 연결한 이 시스템은 실제 외부 환경 테스트에서 세계 최고 효율을 기록하며 기술적 진보를 입증했습니다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-15T09:08:10.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/15/fraunhofer-ise-achieves-31-3-record-solar-to-hydrogen-efficiency-in-photovoltaic-electrolysis/",
+      "collectedAt": "2026-05-16T00:10:37.989Z"
+    },
+    {
+      "id": "92bb5eb2-199f-443f-b6d7-b5b56cd925fc",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "중국 태양광 산업 브리핑: 다코(Daqo), 통웨이(Tongwei), 아이코 솔라(Aiko Solar) 1분기 손실 기록",
+      "titleOriginal": "Chinese PV Industry Brief: Daqo, Tongwei, Aiko Solar post Q1 losses",
+      "summary": "중국의 주요 태양광 제조업체인 다코, 통웨이, 아이코 솔라가 폴리실리콘 및 모듈 가격 하락과 수요 부진으로 인해 1분기 순손실을 기록했습니다. 생산량은 증가했으나 가격 경쟁 심화로 인한 수익성 악화가 실적에 부정적인 영향을 미친 것으로 분석됩니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-15T08:16:50.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/15/chinese-pv-industry-brief-daqo-longi-aiko-solar-post-q1-losses/",
+      "collectedAt": "2026-05-16T00:11:07.776Z"
+    },
+    {
+      "id": "2bf385ae-6ce4-466a-bd4d-f9fe54ff73ab",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "중국 TOPCon 모듈 가격 보합세, 공급업체 간 가격 격차는 확대",
+      "titleOriginal": "China TOPCon module prices hold steady as supplier price gap widens",
+      "summary": "OPIS는 최신 주간 업데이트를 통해 글로벌 태양광 시장의 가격 동향을 분석했습니다. 이번 발표에 따르면 중국 내 TOPCon 모듈 가격은 안정적인 흐름을 유지하고 있으나, 공급업체 간 가격 차이는 더욱 벌어지고 있는 것으로 나타났습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-15T07:58:07.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/15/china-topcon-module-prices-hold-steady-as-supplier-price-gap-widens/",
+      "collectedAt": "2026-05-16T00:11:44.336Z"
+    },
+    {
+      "id": "8c56c0ac-cfd1-406f-8109-cd49a56083ab",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "HY Solar, 24.8% 효율의 670W TOPCon 모듈 공개",
+      "titleOriginal": "HY Solar unveils 670 W TOPCon modules with 24.8% efficiency",
+      "summary": "HY Solar가 장인 기지에서 TOPCon 3.0 셀 기술을 기반으로 한 670W 출력의 HT3.0 쿼드컷 모듈을 새롭게 출시했습니다. 해당 모듈은 최대 27.5%의 셀 효율을 달성했으며, PSP 쿼드컷 아키텍처와 높은 양면 수광률, 낮은 열화율을 특징으로 합니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-15T06:39:55.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/15/hy-solar-unveils-670-w-topcon-modules-with-24-8-efficiency/",
+      "collectedAt": "2026-05-16T00:11:55.342Z"
+    },
+    {
+      "id": "1e594533-bb44-4628-8574-f0e461b82506",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미쓰비시, 대형 주택 및 상업용 프로판 공기열원 히트펌프 출시",
+      "titleOriginal": "Mitsubishi launches propane air-to-water heat pumps for large homes, light commercial applications",
+      "summary": "미쓰비시가 자사의 히트롤루션(Hydrolution) EZY R290 히트펌프 시리즈에 10kW와 14kW 용량의 신규 모델 2종을 추가했습니다. 해당 제품은 R290 냉매를 사용하며 최대 75도까지의 출수 온도를 제공하여 대형 주택 및 경상업용 시설에 적합합니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-15T06:24:50.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/15/mistubishi-launches-propane-air-to-water-heat-pumps-for-large-homes-light-commercial-applications/",
+      "collectedAt": "2026-05-16T00:12:29.233Z"
+    },
+    {
+      "id": "2f2ee861-b681-41aa-bcf9-31b9a3c7e728",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Inox Clean, Boviet Solar의 미국 태양광 제조 자산 7억 5천만 달러에 인수",
+      "titleOriginal": "Inox Clean buys U.S. PV manufacturing assets of Boviet Solar for $750 million",
+      "summary": "Inox Clean이 Boviet Solar의 미국 내 태양광 제조 자산을 7억 5천만 달러에 인수하며 3GW 규모의 TOPCon 태양광 모듈 생산 능력을 확보했습니다. 이번 인수는 미국 내 생산 확대와 공급망 강화를 목표로 하는 'Make in America, For America' 이니셔티브에 부합하는 행보입니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-15T05:55:11.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/15/inox-clean-buys-u-s-pv-manufacturing-assets-of-boviet-solar-for-750-million/",
+      "collectedAt": "2026-05-16T00:12:49.763Z"
+    },
+    {
+      "id": "6146ed70-2532-4789-ba05-5f17200bc57a",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "북유럽 국가 4월 전기차 판매량 신기록 달성",
+      "titleOriginal": "New Record For Electric Car Sales In Nordic Countries In April",
+      "summary": "노르웨이와 덴마크를 중심으로 스웨덴, 핀란드 등 북유럽 국가에서 전기차 판매량이 사상 최고치를 기록했습니다. 클린테크니카(CleanTechnica)는 이러한 북유럽 지역의 강력한 전기차 시장 성장세를 보도했습니다.",
+      "topics": [
+        "시장·가격 동향",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-15T22:30:46.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/15/new-record-for-electric-car-sales-in-nordic-countries-in-april/",
+      "collectedAt": "2026-05-16T00:13:12.210Z"
+    },
+    {
+      "id": "d0931da4-fe45-461c-88df-9e2c9ed3d06c",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "캐나다, 전력망을 위한 제2의 '골든 스파이크' 필요",
+      "titleOriginal": "Canada Needs A Second Golden Spike For Electricity",
+      "summary": "마크 카니가 발표한 캐나다의 새로운 '국가 전력 전략'은 단순한 기후 대응을 넘어 산업 경쟁력과 경제 안보를 강화하는 핵심 국가 전략으로 평가받습니다. 이번 전략은 전력을 국가 경제의 중심축으로 설정하여 에너지 효율성과 공급망 강화를 도모하고 있습니다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-15T18:48:03.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/15/canada-needs-a-second-golden-spike-for-electricity/",
+      "collectedAt": "2026-05-16T00:13:36.164Z"
+    },
+    {
+      "id": "ed893333-a83a-47b3-aea2-c6c77b3fd3ae",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "제8회 연례 전기차 경품 행사 시작: 티켓 한 장으로 누리는 세 가지 혜택! 리비안, 루시드, 포르쉐의 주인공이 되어보세요. 티켓 수익금은 청정 에너지 투쟁을 지원합니다.",
+      "titleOriginal": "8th Annual EV Raffle Launches: One Ticket, Three Prizes! Win a Rivian, Lucid, or Porsche. Tickets Support Fight For Clean Energy.",
+      "summary": "체서피크 기후 행동 네트워크(CCAN Action Fund)가 제8회 연례 전기차 경품 행사를 개최하여 리비안, 루시드, 포르쉐 차량을 상품으로 내걸었습니다. 이번 행사는 모금된 수익금을 통해 청정 에너지 전환을 위한 기후 행동 활동을 지원하는 것을 목적으로 합니다.",
+      "topics": [
+        "ESG·탄소중립",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-15T15:00:11.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/15/8th-annual-ev-raffle-launches-one-ticket-three-prizes-win-a-rivian-lucid-or-porsche-tickets-support-fight-for-clean-energy/",
+      "collectedAt": "2026-05-16T00:14:21.780Z"
+    },
+    {
+      "id": "30f2fe82-0f69-467f-a0d6-f46235e90284",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "전기 스쿨버스 운전자는 다시 디젤로 돌아가지 않을 것이다",
+      "titleOriginal": "Electric School Bus Driver Will Not Go Back To Diesel",
+      "summary": "CleanTechnica가 보도한 이 기사는 전기 스쿨버스를 운전하는 운전자의 실제 경험을 통해 기존 디젤 차량 대비 전기차의 장점을 조명합니다. 과학적 데이터와 더불어 사용자 경험이 에너지 전환 인식에 미치는 영향에 대해 다루고 있습니다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-15T13:05:23.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/15/electric-school-bus-driver-will-not-go-back-to-diesel/",
+      "collectedAt": "2026-05-16T00:14:32.930Z"
+    },
+    {
+      "id": "032eed9b-fb28-44fd-afd5-1aeffcdb0cb1",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Heybike Ranger 3.0 Pro e-바이크 및 257달러 상당 번들 1,399달러 최저가 기록, 테슬라 유니버설 월 커넥터 550달러, 앤커 태양광 보안 카메라 등",
+      "titleOriginal": "Heybike Ranger 3.0 Pro e-bike + $257 FREE bundle hits $1,399 low, Tesla Universal Wall Connector $550, Anker solar security cam, more",
+      "summary": "본 기사는 Heybike의 Ranger 3.0 Pro e-바이크가 1,399달러의 최저가에 257달러 상당의 번들을 포함해 판매되는 등 다양한 친환경 제품의 할인 소식을 전하고 있습니다. 이외에도 테슬라의 유니버설 월 커넥터(550달러), 앤커의 eufy SoloCam S220 태양광 카메라 및 다양한 에너지 저장 장치의 가격 인하 정보를 다루고 있습니다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-15T18:00:00.000Z",
+      "originalUrl": "https://electrek.co/2026/05/15/heybike-ranger-3-0-pro-e-bike-tesla-universal-wall-connector-anker-solar-security-cam-more/",
+      "collectedAt": "2026-05-16T00:15:16.014Z"
+    },
+    {
+      "id": "7b90a564-0905-42dd-8616-a72a30c56d56",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "경주 방폐장…준위별 맞춤형 처분시대 열렸다",
+      "titleOriginal": null,
+      "summary": "경주 중‧저준위 방사성폐기물 처분장 2단계 표층처분시설 준공으로 기존 동굴처분 중심에서 준위별 맞춤형 복합처분체계로 전환되었다. 향후 3단계 매립처분시설까지 완공되면 처분의 경제성과 효율성을 극대화한 다양한 관리 방식이 구축될 전망이다.",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-15T19:49:21.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69949",
+      "collectedAt": "2026-05-16T00:19:00.377Z"
+    },
+    {
+      "id": "d1a6d091-fc94-47cd-863e-c6d52406ffab",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "탄소배출권 경매 미달 옛말…경쟁 과열에 톤당 2만원 눈앞",
+      "titleOriginal": null,
+      "summary": "탄소배출권 경매시장이 공급 부족 우려와 '4차 배출권거래제 기본계획' 시행에 따른 수요 증가로 낙찰가격이 톤당 1만9,600원까지 급등하며 과열 양상을 보이고 있다. 이는 3차 계획 대비 배출 허용 총량이 17.9% 축소됨에 따라 기업들의 탄소 감축 비용 부담과 압박이 본격화될 전망이다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-15T15:30:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260515023175044",
+      "collectedAt": "2026-05-16T00:20:49.797Z"
     }
   ]
 }
