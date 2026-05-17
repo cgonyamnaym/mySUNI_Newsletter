@@ -1,0 +1,43 @@
+{
+  "date": "2026-05-17",
+  "generatedAt": "2026-05-17T08:03:47.135Z",
+  "articleCount": 2,
+  "articles": [
+    {
+      "id": "fb913326-af30-4fa7-969b-914b367bb3b7",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "우리의 새로운 Jaecoo J5 배터리 전기차!",
+      "titleOriginal": "Our New Jaecoo J5 Battery Electric Vehicle!",
+      "summary": "호주 시장에 새로 진입한 Jaecoo J5 배터리 전기차는 올해 초 출시 이후 꾸준히 판매 상위 10위권에 들었으며, 현재까지 1,845대가 판매되었습니다. Chery의 서브 브랜드인 이 차량은 첫 전기차 구매자들에게 특히 주목받고 있습니다. 이 기사는 CleanTechnica에 의해 게시되었습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-17T02:15:45.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/16/our-new-jaecoo-j5-battery-electric-vehicle/",
+      "collectedAt": "2026-05-17T08:00:19.627Z"
+    },
+    {
+      "id": "cc9fdfaa-d424-48cb-bed4-0d37d0bb15e4",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "태양광과 농업은 토지를 공유할 수 있지만, 세부 사항이 중요하다",
+      "titleOriginal": "Solar & Farming Can Share Land, But The Details Matter",
+      "summary": "이 기사는 태양광 발전과 농업을 한 토지에서 병행하는 '애그리볼타익스(agrivoltaics)' 개념을 다룹니다. 해당 아이디어는 표면적으로는 단순해 보이지만, 실제 성공적인 구현을 위해서는 복잡하고 세부적인 요소들을 신중하게 고려해야 한다고 강조합니다. 이는 효율적인 에너지 생산과 농업 생산성을 동시에 달성하기 위한 구체적인 접근 방식의 중요성을 시사합니다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-17T01:29:34.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/16/solar-farming-can-share-land-but-the-details-matter/",
+      "collectedAt": "2026-05-17T08:00:26.759Z"
+    }
+  ]
+}

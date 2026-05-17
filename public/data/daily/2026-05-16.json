@@ -1,7 +1,7 @@
 {
   "date": "2026-05-16",
-  "generatedAt": "2026-05-16T23:44:02.077Z",
-  "articleCount": 23,
+  "generatedAt": "2026-05-17T08:03:47.134Z",
+  "articleCount": 24,
   "articles": [
     {
       "id": "969b5376-c609-4430-b9b8-946199abe605",
@@ -415,6 +415,24 @@
       "publishedAt": "2026-05-16T21:00:00.000Z",
       "originalUrl": "https://www.etnews.com/20260515000292",
       "collectedAt": "2026-05-16T23:42:08.799Z"
+    },
+    {
+      "id": "e6628925-f20d-43bb-ace5-f29a40b4f9cb",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "전동 장비 하이라이트: 밀워키, 모든 작업 현장에 대규모 전력 공급",
+      "titleOriginal": "E-quipment highlight: Milwaukee brings big electric power to any job site",
+      "summary": "밀워키(Milwaukee)는 어떤 작업 현장에든 대규모 전력을 공급하기 위해 두 가지 신제품을 출시한다. 무선 전동 공구 브랜드인 밀워키는 '빅 레드 트럭(Big Red Truck)'을 통해 이 신제품들을 선보이며, 이를 통해 작업 현장의 전력 수요를 충족시킬 계획이다.",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-16T13:27:23.000Z",
+      "originalUrl": "https://electrek.co/2026/05/16/e-quipment-highlight-milwaukee-brings-big-electric-power-to-any-job-site/",
+      "collectedAt": "2026-05-17T08:01:17.300Z"
     }
   ]
 }

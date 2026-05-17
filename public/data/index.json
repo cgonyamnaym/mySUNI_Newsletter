@@ -1,6 +1,7 @@
 {
-  "lastUpdated": "2026-05-16T23:44:02.077Z",
+  "lastUpdated": "2026-05-17T08:03:47.135Z",
   "availableDates": [
+    "2026-05-17",
     "2026-05-16",
     "2026-05-15",
     "2026-05-14",
@@ -46,5 +47,5 @@
   "availableReports": [
     "2026-BW08"
   ],
-  "totalArticles": 1116
+  "totalArticles": 1125
 }
