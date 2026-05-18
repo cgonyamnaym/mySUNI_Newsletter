@@ -1,7 +1,7 @@
 {
   "date": "2026-05-17",
-  "generatedAt": "2026-05-17T08:03:47.135Z",
-  "articleCount": 2,
+  "generatedAt": "2026-05-18T00:17:53.362Z",
+  "articleCount": 6,
   "articles": [
     {
       "id": "fb913326-af30-4fa7-969b-914b367bb3b7",
@@ -38,6 +38,78 @@
       "publishedAt": "2026-05-17T01:29:34.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/16/solar-farming-can-share-land-but-the-details-matter/",
       "collectedAt": "2026-05-17T08:00:26.759Z"
+    },
+    {
+      "id": "222bab1c-5fb4-4d86-bee3-f2baa58d61eb",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "클린 에너지 분야 보수 리더십의 중요성",
+      "titleOriginal": "The Importance of Conservative Leadership in Clean Energy",
+      "summary": "클린테크 토크 에피소드에서 보수 에너지 네트워크(CEN)의 COO 브릿 즈비어츠코스키 티슬러와 CEN 프로젝트인 랜드 & 리버티 연합(L&LC)의 브래들리 피시아 이사가 보수적 리더십의 청정 에너지 분야 중요성을 논의합니다. 이들은 보수 에너지 네트워크가 어떤 조직이며 청정 에너지 공간에 진출하게 된 배경에 대해 이야기합니다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-17T20:12:45.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/17/the-importance-of-conservative-leadership-in-clean-energy/",
+      "collectedAt": "2026-05-18T00:14:50.648Z"
+    },
+    {
+      "id": "2668af2f-0041-4d31-b71b-0b297582e86d",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "풍력 발전에 대한 공격은 무의미하다 — 그것은 단지 또 다른 형태의 태양 에너지일 뿐이다",
+      "titleOriginal": "Attacks On Wind Power Make No Sense — It’s Just Another Form Of Solar Energy",
+      "summary": "이 기사는 전 세계 풍력 에너지 논의를 중단시키려는 잘 조직된 캠페인을 다룬다. 파이낸셜 타임즈는 이를 미국 대통령의 '재생 에너지에 대한 십자군 전쟁'이라고 지칭했으며, 윈드유럽(WindEurope)은 풍력 발전에 대한 공격이 유럽 안보에 '체계적인 위험'을 제기한다고 주장한다. 풍력 에너지가 태양 에너지의 또 다른 형태임을 강조하며 이러한 공격이 무의미하다고 역설한다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-17T13:26:45.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/17/attacks-on-wind-power-make-no-sense-its-just-another-form-of-solar-energy/",
+      "collectedAt": "2026-05-18T00:14:55.877Z"
+    },
+    {
+      "id": "0de7b03a-2e76-4513-9573-8a94a621fb12",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "계통연계 패러다임 전환…해남 해상풍력 공동접속 본궤도",
+      "titleOriginal": null,
+      "summary": "한국전력공사는 해상풍력발전의 계통연계 방식을 개별 사업자 송전선로 건설에서 공공주도 공동접속체계로 전환한다. 전남 해남지역 해상풍력발전 사업에 이 새로운 체계를 적용하여, 계통연계 속도와 효율성을 동시에 높이는 것이 목표다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-17T22:07:50.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69951",
+      "collectedAt": "2026-05-18T00:16:32.256Z"
+    },
+    {
+      "id": "c0077d47-6ecc-4163-aa4a-c097d529878b",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "경북 미래 성장동력·교육 혁신·클린선거 강조…지역 발전 청사진 잇따라 제시",
+      "titleOriginal": null,
+      "summary": "경북지사 후보 이철우는 RE100 산업벨트 조성, 울진 원자력수소 국가산단, 경주 SMR 국가산단 등 10대 에너지 공약을 발표하며 지속가능한 경북 조성을 목표로 제시했다. 또한 경북교육감 후보 임종식은 학교 자치 확대와 지역 연계 교육협력 강화를 통한 '경북형 교육협력체계' 구축을 강조했으며, 국민의힘 안동 후보자들은 정책 중심의 클린선거를 다짐했다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-17T17:11:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260517026295425",
+      "collectedAt": "2026-05-18T00:17:16.046Z"
     }
   ]
 }
