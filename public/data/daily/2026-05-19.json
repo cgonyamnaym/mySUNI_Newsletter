@@ -1,0 +1,457 @@
+{
+  "date": "2026-05-19",
+  "generatedAt": "2026-05-19T09:11:08.805Z",
+  "articleCount": 25,
+  "articles": [
+    {
+      "id": "24f6715c-37c3-4714-9136-1b9cd99020ac",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "태양광은 얼마나 커질 수 있을까? 이 3가지 프로젝트가 우리에게 기가스케일의 미래를 보여준다",
+      "titleOriginal": "How big can solar go? These 3 projects show us the gigascale future",
+      "summary": "최근 선도적인 태양광 프로젝트는 수백 메가와트(MW) 규모였으나, 패널 가격 하락과 설치 기술 발전에 힘입어 상상을 초월하는 기가스케일(GW)로 진화하고 있습니다. 전력 회사들은 5년 전에는 예상치 못했던 대규모 프로젝트를 추진 중이며, 특히 중국이 이러한 변화를 선도하고 있습니다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-19T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/solar/how-big-can-solar-go",
+      "collectedAt": "2026-05-19T08:48:31.813Z"
+    },
+    {
+      "id": "40a9a59a-13cc-4b00-81d7-7fad7fdbc658",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "트럼프 행정부, 법정에서 석탄 발전소 의무 가동 명령 옹호",
+      "titleOriginal": "Trump admin defends its coal must-run orders in court",
+      "summary": "트럼프 행정부는 연방 패널 앞에서 석탄 발전소의 가동 유지를 명령할 수 있는 법적 권한을 옹호했습니다. 이는 석탄 화력 발전소 운영 및 에너지 정책에 대한 정부의 개입과 관련한 논란을 보여줍니다. 이 사안은 Inside Climate News에 의해 처음 보도되었습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-19T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/fossil-fuels/trump-admin-defends-coal-order",
+      "collectedAt": "2026-05-19T08:48:37.977Z"
+    },
+    {
+      "id": "df7a1790-30f0-40d8-8728-77bbb6ea22da",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "태국, 결함 있는 태양광 설비 조사 착수",
+      "titleOriginal": "Thailand opens investigation into faulty solar installations",
+      "summary": "태국 소비자보호위원회는 장비 용해 및 소손 등 불량 태양광 설비를 신고한 전국 3개 지역 주택 소유자들을 지원하고 있다. 현재 태국 정부는 이러한 결함 있는 태양광 설비에 대한 조사를 시작했다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-19T08:36:20.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/19/thailand-opens-investigation-into-faulty-solar-installations/",
+      "collectedAt": "2026-05-19T08:49:14.396Z"
+    },
+    {
+      "id": "be7c8603-f63f-46ce-bf67-4e5ccc37f597",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "연구원들, 'EU 태양광 재활용은 엄격한 정책이 있어야만 경제성 확보'",
+      "titleOriginal": "EU solar recycling only viable under strict policy, say researchers",
+      "summary": "TU Wien(빈 공과대학교) 연구원들은 EU에서 태양광 모듈 재활용의 경제성을 확보하기 위해서는 구속력 있는 EU 정책 목표가 필수적이라고 밝혔다. 연구원들은 이러한 정책이 없을 경우, 회원국들에게는 모듈을 제3국으로 수출하는 것이 가장 저렴한 선택지로 남을 것이라고 경고했다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-19T08:14:34.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/19/eu-solar-recycling-only-viable-under-strict-policy-say-researchers/",
+      "collectedAt": "2026-05-19T08:49:23.476Z"
+    },
+    {
+      "id": "e6630536-fa31-4a57-91c6-dbdddc964168",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "리들, 독일에서 2.24 kWh 배터리 299유로에 출시",
+      "titleOriginal": "Lidl launches 2.24 kWh battery in Germany for €299",
+      "summary": "독일 유통업체 리들은 2.24 kWh 용량의 배터리를 299유로에 출시했다. 이 배터리는 1,000W 입력과 800W 출력을 지원하며, 대부분의 발코니 PV 시스템과 호환되고 전용 앱으로 제어할 수 있다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-19T06:08:34.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/19/lidl-launches-2-24-kwh-battery-in-germany-for-e299/",
+      "collectedAt": "2026-05-19T08:49:28.794Z"
+    },
+    {
+      "id": "b19e85c8-0bbf-42f5-91ca-c6f969628c85",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "지능형 태양광 부지 선정이 거의 제로 비용으로 지역 반발을 해소한다",
+      "titleOriginal": "Intelligent solar siting neutralizes local opposition at near-zero cost",
+      "summary": "민감한 서식지와 농지를 보호하는 거시적 태양광 입지 선정 모델은 유틸리티 규모의 태양광 개발에 대한 허가 마찰을 크게 줄이는 데 기여합니다. 이러한 모델을 적용하는 데 드는 추가 비용은 단 0.17%에 불과하여, 지역 반대를 효과적으로 상쇄하면서도 비용 부담은 미미합니다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-19T05:47:19.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/19/intelligent-solar-siting-neutralizes-local-opposition-at-near-zero-cost/",
+      "collectedAt": "2026-05-19T08:49:40.678Z"
+    },
+    {
+      "id": "ee0c4bdd-24a3-4cd9-af59-b260f115b6b9",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "2026년 ERCOT에서 태양광 발전이 석탄 발전을 처음으로 넘어설 수 있다",
+      "titleOriginal": "Electricity Generation from Solar Could Exceed Coal in ERCOT for the First Time in 2026",
+      "summary": "최근 단기 에너지 전망(STEO)에 따르면, 텍사스 대부분을 포괄하는 ERCOT 전력망에서 2026년에 유틸리티 규모 태양광 발전량이 처음으로 석탄 발전량을 넘어설 것으로 예상됩니다. 태양광 발전량은 2026년에 780억 킬로와트시(BkWh)에 도달할 것으로 전망되어, 에너지 혼합에 중요한 변화를 예고합니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-19T05:22:47.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/19/electricity-generation-from-solar-could-exceed-coal-in-ercot-for-the-first-time-in-2026/",
+      "collectedAt": "2026-05-19T08:51:34.480Z"
+    },
+    {
+      "id": "0b6f980e-e74a-4b64-b1b8-2850e0a9b27a",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "NLR 배터리 혁신 기술, NASA 올해의 발명품으로 선정",
+      "titleOriginal": "NLR Battery Innovation Awarded NASA’s Invention of the Year",
+      "summary": "NASA의 차세대 배터리 기술인 NLR(Non-flammable Lithium-ion)이 항공우주 분야에서의 뛰어난 안정성과 성능을 인정받아 '올해의 발명품'으로 선정되었습니다. 아르테미스 II 임무를 비롯한 우주 탐사 프로젝트에서 통신 및 추진 시스템의 핵심 전력원으로 활약하며 에너지 저장 기술의 혁신을 이끌고 있습니다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-19T03:47:17.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/18/nlr-battery-innovation-awarded-nasas-invention-of-the-year/",
+      "collectedAt": "2026-05-19T08:51:43.055Z"
+    },
+    {
+      "id": "d7bf1e91-e1e3-49d7-b083-8aab323d28c9",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "호주의 대형 광산 기업들이 재생에너지로 앞서 나가다",
+      "titleOriginal": "Australia’s Big Miners Show the Way with Renewables",
+      "summary": "호주 정부는 1차 생산자에게 매년 110억 호주 달러의 디젤 보조금을 지급하고 있으나, 포테스큐 메탈(Fortescue Metals)의 앤드류 포레스트 회장은 18개 대형 광산 기업들이 이 보조금을 더 이상 받을 필요가 없다고 비판했습니다. 포테스큐는 실질적인 탄소 중립(Real Zero) 달성을 목표로 재생에너지 도입을 주도하며 산업계의 변화를 촉구하고 있습니다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-19T03:40:04.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/18/australias-big-miners-show-the-way-with-renewables/",
+      "collectedAt": "2026-05-19T08:51:57.418Z"
+    },
+    {
+      "id": "3e55e4f6-d77c-40a9-9e90-d7ca61ccc817",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "과학자들, 고에너지 태양광을 연료 생산에 활용하는 방법 발견",
+      "titleOriginal": "Scientists Discover Way To Leverage High-Energy Sunlight for Fuel Production",
+      "summary": "로키 국립연구소(NLR)의 과학자들은 실리콘 반도체와 촉매를 결합하여 태양광을 연료로 전환하는 새로운 기술을 개발했습니다. 이 연구는 식물과 조류의 광합성 원리를 모방하여 고에너지 태양광을 효과적으로 화학 반응에 활용하는 길을 열었습니다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-19T03:33:14.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/18/scientists-discover-way-to-leverage-high-energy-sunlight-for-fuel-production/",
+      "collectedAt": "2026-05-19T08:52:19.515Z"
+    },
+    {
+      "id": "1a9a08de-30b3-4ce3-8d82-f2a37f1d5f92",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "혼다와 LG, 배터리 교체식 전기 오토바이 가속화 위해 협력",
+      "titleOriginal": "Honda and LG team up to accelerate battery-swapping electric motorcycles",
+      "summary": "혼다와 LG에너지솔루션이 베트남 시장에서 배터리 교체식 전기 오토바이 보급을 확대하기 위해 전략적 협력을 추진합니다. 양사는 올해 하반기 하노이에서 새로운 파일럿 프로젝트를 시작하며 본격적인 실증에 나설 계획입니다.",
+      "topics": [
+        "운영 최적화",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-19T05:31:00.000Z",
+      "originalUrl": "https://electrek.co/2026/05/18/honda-and-lg-team-up-to-accelerate-battery-swapping-electric-motorcycles/",
+      "collectedAt": "2026-05-19T08:54:23.293Z"
+    },
+    {
+      "id": "3991d486-9e8f-4a6f-b6e2-cd87f9307546",
+      "source": "BloombergNEF",
+      "sourceId": "bnef",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "뉴 에너지 전망 2026",
+      "titleOriginal": "New Energy Outlook 2026",
+      "summary": "블룸버그NEF(BloombergNEF)가 발간한 본 보고서는 저탄소 경제로의 전환을 위한 장기적인 에너지 및 기후 시나리오를 제시합니다. 2026년 기준의 에너지 시장 전망을 바탕으로 향후 지속 가능한 에너지 체계로 나아가기 위한 주요 전략을 다룹니다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-19T07:00:33.000Z",
+      "originalUrl": "https://about.bnef.com/insights/clean-energy/new-energy-outlook/",
+      "collectedAt": "2026-05-19T08:56:15.979Z"
+    },
+    {
+      "id": "985f56e5-cf59-4abe-b861-7d1ce8fccb8a",
+      "source": "BloombergNEF",
+      "sourceId": "bnef",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "BloombergNEF의 2026년 신재생에너지 전망: 신기술 전환 및 전력화 확대를 통한 국가 에너지 안보 강화",
+      "titleOriginal": "BloombergNEF’s New Energy Outlook 2026: Transition to Newer Technologies, Expanded Electrification to Strengthen Nations’ Energy Security",
+      "summary": "BloombergNEF의 연례 'Global Wind Turbine Market Shares 2025' 보고서에 따르면, 2025년 전 세계 풍력 발전 용량 증가는 사상 최고치를 기록했습니다. 이는 3년 연속으로 기록적인 설치량을 달성한 것입니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-19T06:01:05.000Z",
+      "originalUrl": "https://about.bnef.com/insights/clean-energy/bloombergnefs-new-energy-outlook-2026-transition-to-newer-technologies-expanded-electrification-to-strengthen-nations-energy-security/",
+      "collectedAt": "2026-05-19T08:56:29.292Z"
+    },
+    {
+      "id": "b5e20838-9e9a-4174-b8eb-c3196613421e",
+      "source": "전자신문 (Energy)",
+      "sourceId": "etnews",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "시그니파이, 연암대 스마트팜 허브서 에너지 효율 25%↑·인건비 20%↓",
+      "titleOriginal": null,
+      "summary": "시그니파이가 연암대 수직농장에 필립스 식물생육 LED와 제어 시스템을 도입하여 에너지 효율을 25% 향상하고 인건비를 20% 절감했다. 해당 기술은 광도와 스펙트럼의 정밀 제어를 통해 작물별 최적 생육 레시피를 구현하여 운영 효율성을 극대화했다.",
+      "topics": [
+        "운영 최적화",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-19T08:31:23.000Z",
+      "originalUrl": "https://www.etnews.com/20260519000431",
+      "collectedAt": "2026-05-19T08:58:04.985Z"
+    },
+    {
+      "id": "5d4f1dde-2152-46d2-8243-fe6a93a20e5a",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "서부발전, ‘서부家 그린대로’ 주요 과제 발표",
+      "titleOriginal": null,
+      "summary": "한국서부발전이 미래 경쟁력 확보와 정부 에너지 정책 선도를 위한 경영혁신 프로젝트 '서부家(가) 그린대로'를 발표했다. 이번 과제는 안전사고 근절, 에너지 전환, 재생에너지 확대, AI 전환, ESG 경영 등 5대 정책 목표를 중심으로 추진된다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-19T13:41:18.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69967",
+      "collectedAt": "2026-05-19T09:00:13.875Z"
+    },
+    {
+      "id": "d727c019-d102-431b-b2ca-64b39b91dcaf",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“2035년 전남 37GW·경북 26GW”…지역별 재생에너지 청사진",
+      "titleOriginal": null,
+      "summary": "기후에너지환경부가 발표한 '제1차 재생에너지 기본계획'에 따라, 2035년까지 전국 광역지자체별 재생에너지 보급 목표가 구체화되었습니다. 전남(37.8GW)과 경북(26.1GW) 등 전국 단위의 대규모 태양광 및 해상풍력 프로젝트를 중심으로 지역별 특화 재생에너지 거점이 구축될 예정입니다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-19T16:02:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260519023446047",
+      "collectedAt": "2026-05-19T09:02:52.333Z"
+    },
+    {
+      "id": "6f5e20d1-48d0-4a92-bb51-98ba2f7683f5",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "정부, 재생에너지를 ‘제2의 반도체’로… 2030년까지 태양광 10GW·풍력 3GW 확충",
+      "titleOriginal": null,
+      "summary": "정부가 재생에너지 산업을 육성하기 위해 2030년까지 태양광 모듈 생산능력을 10GW, 풍력 터빈을 3GW로 확대하는 '제1차 재생에너지 기본계획'을 발표했다. 국산 기자재 사용 의무화, 세제 지원 강화, 차세대 태양전지 기술 개발 등을 통해 2035년까지 재생에너지 수출 규모를 20조 원으로 키울 계획이다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-19T14:21:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260519026126008",
+      "collectedAt": "2026-05-19T09:03:13.320Z"
+    },
+    {
+      "id": "0577278a-ed62-45c0-9312-8cbb7cf028bf",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "RPS 폐지법 국회 상임위 통과…재생에너지 경매제 전환 본격화",
+      "titleOriginal": null,
+      "summary": "국회 상임위가 신재생에너지 공급의무화제도(RPS)를 폐지하고 정부 주도의 경매제도로 전환하는 법안을 의결했습니다. 이는 기존의 REC 현물시장 중심 구조에서 벗어나 안정적인 재생에너지 보급 확대를 목표로 하지만, 환경단체는 의무 이행 완화 등 독소조항에 대한 우려를 제기하고 있습니다.",
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-19T14:18:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260519021525999",
+      "collectedAt": "2026-05-19T09:03:29.755Z"
+    },
+    {
+      "id": "9091b74c-ac17-4025-bafb-d285cde0c661",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“수도권·충청·강원에 GW급 태양광 벨트”…기후부, 2030년 재생에너지 100GW 승부수",
+      "titleOriginal": null,
+      "summary": "기후에너지환경부가 2030년 재생에너지 설비 100GW 달성을 위해 수도권·충청·강원권에 12GW 규모의 초대형 태양광 단지를 조성하는 '제1차 재생에너지 기본계획'을 발표했다. 유휴부지 활용과 계통 안정을 위한 ESS 확대, 2035년까지 태양광 80원·해상풍력 150원 이하로 발전 단가를 낮추는 가격 경쟁력 확보 전략이 핵심이다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-19T14:00:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260519028055727",
+      "collectedAt": "2026-05-19T09:03:58.977Z"
+    },
+    {
+      "id": "e2f39009-e2aa-4565-a72c-d5cc3e14a5b1",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "석탄발전 폐지지역 지원 특별법, 국회 상임위 통과…김소희 의원 “노동자·지역 지원 시급”",
+      "titleOriginal": null,
+      "summary": "석탄화력발전소 폐지에 따른 지역 경제 충격과 노동자 고용 불안을 해소하기 위한 특별법이 국회 상임위를 통과했다. 법안에는 무탄소발전 등 대체 산업 육성, 고용 보호 의무화, 협력업체 지원 기간 연장(6년) 등이 포함되어 석탄발전 전환에 따른 제도적 지원 체계를 마련했다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-19T13:45:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260519029066000",
+      "collectedAt": "2026-05-19T09:04:12.820Z"
+    },
+    {
+      "id": "cabb9e67-e918-4d25-9e18-451f18fdb0d1",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "AI 데이터센터 전력TF 떴지만…업계 “단기 해법은 안 보인다”",
+      "titleOriginal": null,
+      "summary": "과기부와 기후부의 AI 데이터센터 전력 공급 공동 TF 출범에도 불구하고, 핵심 방안이었던 LNG PPA 특례가 제외되면서 현실적인 전력 공급 대안이 부족하다는 지적이 나오고 있습니다. 업계는 AI 산업의 빠른 성장에 대응하기 위해 기존 계통 활용을 넘어 과도기적 전력원으로서 LNG의 역할을 포함한 실질적인 에너지 정책 재논의가 필요하다고 주장합니다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-19T11:15:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260519021284236",
+      "collectedAt": "2026-05-19T09:04:54.468Z"
+    },
+    {
+      "id": "29e4cc48-732d-4d7a-b2e1-61672aeaaee7",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "LS일렉트릭, 美빅테크 데이터센터용 전력기기 1050억원 수주",
+      "titleOriginal": null,
+      "summary": "LS일렉트릭이 미국 빅테크 기업의 대형 데이터센터에 7000만 달러(약 1050억 원) 규모의 배전 기기 공급 계약을 체결했습니다. 진공차단기(VCB) 등 핵심 전력기기 공급을 통해 북미 전력 인프라 시장에서의 점유율을 확대할 계획입니다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-19T08:13:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260519020155491",
+      "collectedAt": "2026-05-19T09:05:37.660Z"
+    },
+    {
+      "id": "38f46f02-c471-442e-b072-f5f9aaed5a62",
+      "source": "한국에너지공단 (KEA)",
+      "sourceId": "kea",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한국에너지공단-한국타이어, 고효율 타이어 보급 활성화 업무 협약 체결",
+      "titleOriginal": null,
+      "summary": "한국에너지공단과 한국타이어가 고효율 타이어 보급 확대를 위해 업무협약을 체결하고, 타이어 에너지소비효율 제도를 홍보하기 위한 공동 캠페인과 택시 대상 연비 개선 실증 프로젝트를 추진합니다. 실증 데이터를 통해 고효율 타이어의 경제성을 입증하고, 소비자의 자발적 선택을 유도하여 수송 부문의 에너지 절약을 도모할 계획입니다.",
+      "topics": [
+        "정책·규제",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-19T09:08:50.735Z",
+      "originalUrl": "https://www.energy.or.kr/front/board/View3.do?boardMngNo=3&boardNo=10024981",
+      "collectedAt": "2026-05-19T09:08:50.734Z"
+    },
+    {
+      "id": "e1b9cbaf-d900-4585-900b-82493147462b",
+      "source": "녹색에너지연구원 (IGT)",
+      "sourceId": "igt",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[논평] 정부 1차 재생에너지 기본계획 수립 방향 환영하나, 실행 방법 여전히 물음표",
+      "titleOriginal": null,
+      "summary": "정부가 2030년 재생에너지 100GW 달성을 목표로 '제1차 재생에너지 기본계획'을 발표했으나, 녹색전환연구소는 구체적인 투자 주체, 간헐성 해소 대책, 시민 참여 전략 등 실질적 이행 방안이 미흡하다고 지적했다. 해당 계획이 실효성을 갖추기 위해서는 재원 조달 모델과 제도적 뒷받침을 포함한 구체적인 후속 조치가 필요하다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-19T00:00:00.000Z",
+      "originalUrl": "https://igt.or.kr/bbs/board.php?bo_table=m03_03&wr_id=81",
+      "collectedAt": "2026-05-19T09:10:33.461Z"
+    },
+    {
+      "id": "f54d3f0d-0b9e-4514-95dd-5708b777dfb0",
+      "source": "녹색에너지연구원 (IGT)",
+      "sourceId": "igt",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[보도자료] “서울 기후대응기금 3년 새 40% 줄어” …광역지자체 5곳 중 4곳, 지역 기후대응기금 액수 감소",
+      "titleOriginal": null,
+      "summary": "녹색전환연구소 분석 결과, 서울·경기 등 광역지자체 기후대응기금이 재정 부족과 타회계 전입금 의존 구조로 인해 최근 3년 새 대폭 감소한 것으로 나타났다. 특히 기금 운용이 온실가스 감축보다 기존 환경사업이나 화석연료 시설 유지보수에 편중되어 있어 탄소중립 실효성 논란이 제기된다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-19T00:00:00.000Z",
+      "originalUrl": "https://igt.or.kr/bbs/board.php?bo_table=m03_03&wr_id=80",
+      "collectedAt": "2026-05-19T09:10:45.576Z"
+    }
+  ]
+}

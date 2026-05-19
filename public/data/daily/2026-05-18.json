@@ -1,0 +1,526 @@
+{
+  "date": "2026-05-18",
+  "generatedAt": "2026-05-19T09:11:08.805Z",
+  "articleCount": 29,
+  "articles": [
+    {
+      "id": "5d491d9f-eea4-480f-81fd-029e7aab6571",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "X-energy, 텍사스 원자로에 대한 연방 환경 승인 획득",
+      "titleOriginal": "X-energy gets federal environmental approval for Texas nuclear reactors",
+      "summary": "아마존이 지원하는 원자력 스타트업 X-energy가 미국 고온가스로 개발 노력을 재개하기 위한 주요 단계로 연방 환경 승인을 획득했습니다. 이는 미국 텍사스에 건설될 X-energy의 첫 번째 플랜트 건설 허가 확보에 큰 진전을 의미합니다. 미국 원자력규제위원회(Nuclear Regulatory Commission)는 최근 핵심 환경 검토를 승인했습니다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-18T20:00:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/nuclear/x-energy-gets-federal-approval-reactors",
+      "collectedAt": "2026-05-19T08:48:47.941Z"
+    },
+    {
+      "id": "8688fc70-95e4-4dc1-9be1-ae2373320e19",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "대만, 태양광 허가 방식을 지역화된 접근법으로 전환",
+      "titleOriginal": "Taiwan shifting to regionalized approach for solar permitting",
+      "summary": "대만 타오위안 경제개발부는 태양광 발전이 \"신뢰할 수 있고 믿을 수 있는 이웃\"이 되도록 새로운 태양광 프로젝트 지침을 발표했습니다. 이 지침에 따라 태양광 사업자는 프로젝트 계획 시 환경 민감 지역을 검사하고, 자연재해로 손상된 태양광 패널의 보관 계획을 의무적으로 마련해야 합니다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-18T13:33:12.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/18/taiwan-shifting-to-regionalized-approach-for-solar-permitting/",
+      "collectedAt": "2026-05-19T08:49:52.390Z"
+    },
+    {
+      "id": "2b0cfe0a-1835-4e33-b22f-21322fe7936f",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "스페인에서 축산 분뇨장에 부유식 태양광 테스트",
+      "titleOriginal": "Floating PV tested at manure lagoon in Spain",
+      "summary": "스페인 엔지니어링 회사 인터기아(Intergia)는 돼지 농장의 분뇨장에서 암모니아 배출을 줄이고 현장 태양광 발전을 위해 부유식 PV 시스템을 테스트하고 있습니다. 현재 두 개의 프로토타입이 배출량 감소, 내구성 및 에너지 성능을 측정하기 위해 평가되고 있습니다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-18T13:30:45.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/18/floating-pv-tested-at-manure-lagoon-in-spain/",
+      "collectedAt": "2026-05-19T08:49:59.948Z"
+    },
+    {
+      "id": "08c57e1d-cb99-4f83-808a-4b88de3c9f67",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "스페인, 프랑스, 생물다양성 손실 없는 재생에너지 확대의 벤치마크를 세우다",
+      "titleOriginal": "Spain, France set benchmark in renewables expansion without biodiversity loss",
+      "summary": "스위스 연구에 따르면, 유럽 그린 딜 하에 프랑스, 이탈리아, 스페인의 재생에너지 계획과 생물다양성 통합 방식이 비교되었습니다. 연구 결과, 프랑스와 스페인은 더 발전된 프레임워크를 갖춘 반면, 이탈리아는 지역적으로 파편화되어 있음을 보여주었습니다. 또한, 세 국가 모두 누적 영향 평가에 중대한 공백이 있는 것으로 나타났습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-18T11:58:38.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/18/spain-france-set-benchmark-in-renewables-expansion-without-biodiversity-loss/",
+      "collectedAt": "2026-05-19T08:50:07.732Z"
+    },
+    {
+      "id": "b6569100-9c18-4f73-8ebe-354bad409a08",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "토요, 에티오피아 관세 회피 의혹 부인… 4GW 생산 확대 및 미국 셀 공장 계획 확인",
+      "titleOriginal": "Toyo denies Ethiopia duty evasion, confirms 4 GW ramp and US cell plant",
+      "summary": "일본 태양광 제조사 토요(Toyo)는 에티오피아 태양광 셀 생산 시설에 대한 관세 회피 의혹을 전면 부인하며 해당 주장이 허위라고 반박했다. 또한, 동사는 작년 에티오피아 공장의 생산 능력을 4GW로 확대했으며, 향후 미국 내 태양광 셀 공장 설립 계획을 추진 중이다.",
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-18T11:18:38.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/18/toyo-denies-ethiopia-duty-evasion-confirms-4-gw-ramp-and-us-cell-plant/",
+      "collectedAt": "2026-05-19T08:50:21.855Z"
+    },
+    {
+      "id": "01e26da5-6fb2-4d57-a3ab-fbab322e1a96",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "GCL 테크놀로지, 새로운 에너지 저장 사업으로 태양광(PV) 넘어 확장",
+      "titleOriginal": "GCL Technology expands beyond PV with new energy storage business",
+      "summary": "GCL 테크놀로지(GCL Technology)는 '다제품(multi-product)' 신에너지 플랫폼으로의 전환의 일환으로 리튬 이온 배터리 저장 사업을 확장하고 있다. 특히 LFP(리튬인산철) 소재 기반의 에너지 저장 시스템에 주력하여 기존 태양광(PV) 사업 외 신규 영역으로의 진출을 모색하고 있다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-18T11:10:19.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/18/gcl-technology-expands-beyond-pv-with-new-energy-storage-business/",
+      "collectedAt": "2026-05-19T08:50:45.990Z"
+    },
+    {
+      "id": "ae5a09c8-5071-4305-ae3b-10a535e5c76f",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "충전식 아연 배터리: 도전 과제 극복 및 기회 모색",
+      "titleOriginal": "Rechargeable zinc batteries: Overcoming challenges and finding opportunities",
+      "summary": "징크 배터리 이니셔티브(Zinc Battery Initiative)의 Josef Daniel-Ivad는 징크 배터리 제조업체 및 기술의 현재 확장에 대한 최신 정보를 제공합니다. 이 업데이트는 징크 배터리 솔루션의 상업화 및 시장 도입 진전을 보여줍니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-18T10:41:09.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/18/rechargeable-zinc-batteries-overcoming-challenges-and-finding-opportunities/",
+      "collectedAt": "2026-05-19T08:50:52.502Z"
+    },
+    {
+      "id": "750e12ab-e05e-4da4-876e-d77c9f5d5969",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "일본 과학자들이 페로브스카이트-CIGS 탠덤 태양전지에서 세계 기록인 25.14% 효율을 달성하다",
+      "titleOriginal": "Japanese scientists achieve world record 25.14% efficiency for perovskite-CIGS tandem solar cell",
+      "summary": "일본 과학자들이 페로브스카이트-CIGS 탠덤 태양전지 분야에서 세계 기록인 25.14%의 효율을 달성했습니다. 이 혁신적인 성과는 일본 산업기술종합연구소(AIST)에 의해 공식적으로 인증되었습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-18T10:10:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/18/japanese-scientists-achieve-world-record-25-14-efficiency-for-perovskite-cigs-tandem-solar-cell/",
+      "collectedAt": "2026-05-19T08:51:01.194Z"
+    },
+    {
+      "id": "8efeb270-29ac-48b0-bc51-8bf6a92a5ea4",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "루마니아, 태양광 보조금에서 저장 시스템 보조금으로 전환",
+      "titleOriginal": "Romania moves from solar to storage rebates",
+      "summary": "루마니아는 주택 태양광 설치 보조금 제도를 2년 연속 운영하지 않고, 대신 기존 태양광 생산자가 배터리 저장 시스템을 설치하는 데 자금을 지원할 계획이다. 루마니아 태양광 산업 협회(Romanian Photovoltaic Industry Association)는 태양광 설치 특정 보조금이 없음에도 불구하고 루마니아 옥상 태양광 시장의 강력한 성장이 지속될 것으로 예상하고 있다.",
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-18T10:08:54.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/18/romania-moves-from-solar-to-storage-rebates/",
+      "collectedAt": "2026-05-19T08:51:10.460Z"
+    },
+    {
+      "id": "d9e6a160-ff6f-4661-afac-4180c1c0a33f",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "딤플렉스, 경상업용 프로판 공기열원 히트펌프 출시",
+      "titleOriginal": "Dimplex launches propane air-to-water heat pumps for light commercial applications",
+      "summary": "영국 기반 제조업체 딤플렉스가 경상업용 프로판 공기열원 히트펌프를 새로 출시했습니다. 이 히트펌프는 최대 70°C의 물 공급 온도를 지원하며, 최대 5.2의 계절 성능 계수(SCOP)를 달성합니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-18T08:50:23.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/18/dimplex-launches-propane-air-to-water-heat-pumps-for-light-commercial-applications/",
+      "collectedAt": "2026-05-19T08:51:21.154Z"
+    },
+    {
+      "id": "f309678f-43b1-4613-83c1-1a1fbb1429d5",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "도요타는 형성되지 않는 수소 시장을 구축하기 위해 계속 노력하고 있다",
+      "titleOriginal": "Toyota Keeps Trying To Assemble A Hydrogen Market That Refuses To Form",
+      "summary": "도요타는 전 니콜라 경영진이 설립한 하이로드(Hyroad)로부터 수소 트럭 자산을 인수하며 40대 규모의 트럭 공급 계약을 체결했습니다. 그러나 본 기사는 글로벌 운송 시장에서 도요타가 여전히 형성되지 않는 수소 연료 시장을 활성화하기 위해 고군분투하고 있음을 비판적으로 분석합니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-18T23:27:17.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/18/toyota-keeps-trying-to-assemble-a-hydrogen-market-that-refuses-to-form/",
+      "collectedAt": "2026-05-19T08:52:37.080Z"
+    },
+    {
+      "id": "572d5e78-7492-4d1a-b1a2-6e593a8aa99d",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "BYD, 유럽 시장 겨냥해 맞춤형 소형 전기차 모델 출시",
+      "titleOriginal": "BYD Targets Europe with Smaller, Tailored EV Models",
+      "summary": "BYD는 유럽 시장을 공략하기 위해 현지 소비자 기호에 맞춘 소형 전기차 모델을 중심으로 대규모 수출 전략을 추진하고 있습니다. 이는 중국 전기차 제조사들이 글로벌 시장 점유율을 확대하기 위한 최근의 공격적인 행보를 보여주는 사례입니다.",
+      "topics": [
+        "시장·가격 동향",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-18T22:20:17.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/18/byd-targets-europe-with-tailored-ev-models/",
+      "collectedAt": "2026-05-19T08:52:57.905Z"
+    },
+    {
+      "id": "b58fe800-e6a7-45c5-9ca1-b1ad82b0dc78",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "지역사회가 전기차를 더 많이 도입할수록 전력망은 더 깨끗해질 것이다",
+      "titleOriginal": "If Communities Adopt More EVs, Cleaner Grids Will Follow",
+      "summary": "전기차 보급 확대가 전력망의 탈탄소화를 촉진하여 전반적인 탄소 배출량 감소로 이어진다는 점을 강조합니다. CleanTechnica는 전기차 사용이 늘어남에 따라 더욱 친환경적인 전력 생산 체계가 구축되는 선순환 구조의 중요성을 설명합니다.",
+      "topics": [
+        "전력 인프라",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-18T19:29:33.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/18/if-communities-adopt-more-evs-cleaner-grids-will-follow/",
+      "collectedAt": "2026-05-19T08:53:17.754Z"
+    },
+    {
+      "id": "a770e5f0-3f1a-4e80-9256-49a11e6e3fbc",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "중고 전기차 — 지금이 구매 적기인가, 아니면 기다리는 것이 나은가?",
+      "titleOriginal": "Used Electric Vehicles — Is Now The Time To Buy, Or Better To Wait?",
+      "summary": "이 기사는 미국 내 중고 전기차 시장 동향을 분석하며, 중고 전기차 구매에 대한 적절한 시기를 탐구한다. 과거 제한적이었던 공급과 모델 다양성 문제를 언급하며, 감가상각과 같은 요소들을 고려하여 지금 구매해야 할지 아니면 기다려야 할지 논한다. 본문은 중고 전기차 시장의 변화와 구매 전략에 대한 깊이 있는 분석을 예고한다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-18T16:08:19.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/18/used-electric-vehicles-is-now-the-time-to-buy-or-better-to-wait/",
+      "collectedAt": "2026-05-19T08:53:39.988Z"
+    },
+    {
+      "id": "bf3bec8b-b067-436f-82d3-ec2db1ae2ec1",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "지역사회 배터리, 태양광 및 EV 충전기 결합",
+      "titleOriginal": "Neighborhood Battery Combined With Solar & EV Chargers",
+      "summary": "이 기사는 지역사회 태양광의 개념을 확장하여, 태양광 및 전기차(EV) 충전기와 결합된 '지역사회 배터리' 시스템을 다룹니다. 이는 자가 주택에 태양광 설치가 어려운 사람들에게 청정 전기를 제공하고, 지역사회 차원의 통합 에너지 인프라 솔루션을 제시하는 것을 목표로 합니다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-18T14:05:09.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/18/neighborhood-battery-combined-with-solar-ev-chargers/",
+      "collectedAt": "2026-05-19T08:53:54.884Z"
+    },
+    {
+      "id": "5d6f5fbf-980e-43f8-875b-1b4ec0192cd8",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "석탄 오염은 폐뿐만 아니라 태양광 패널에도 해롭다",
+      "titleOriginal": "Coal Pollution Hurts Solar Panels, Just Like Your Lungs",
+      "summary": "석탄 화력 발전소에서 배출되는 에어로졸이 인근 태양광 패널 위에 쌓여 빛을 산란시키고 에너지 전환 효율을 감소시킨다. 클린테크니카(CleanTechnica)는 이러한 대기 오염 물질이 태양광 발전 시설의 성능에 미치는 악영향을 지적했다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-18T12:01:35.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/18/solar-panels-coal-power-pollution-aersols-trump/",
+      "collectedAt": "2026-05-19T08:54:01.984Z"
+    },
+    {
+      "id": "32e9b0fd-10d3-473e-af35-3b59daef226b",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "상업용 차량의 빠른 전동화와 30% 태양광 세액 공제를 서두르는 주택 소유자들",
+      "titleOriginal": "Fleets are moving fast to electrify as homeowners race to get 30% solar credit",
+      "summary": "상업용 운송 및 물류 업계는 유가 위기에 대응하기 위해 차량 전동화를 가속화하고 있습니다. 또한, 주택 소유자들은 오는 7월 4일 마감되는 30% 태양광 세액 공제 혜택을 받기 위해 관련 설치를 서두르고 있습니다.",
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-18T21:51:41.000Z",
+      "originalUrl": "https://electrek.co/2026/05/18/fleets-are-moving-fast-to-electrify-as-homeowners-race-to-get-30-solar-credit/",
+      "collectedAt": "2026-05-19T08:54:37.323Z"
+    },
+    {
+      "id": "fdd161ae-aca3-4da1-a986-83702cd822f2",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "BYD, 송 울트라 EV로 2,700마일 이상 주행하며 새 배터리 및 5분 충전 기술 입증",
+      "titleOriginal": "BYD is driving the Song Ultra EV over 2,700 miles to prove its new battery and 5-min charging",
+      "summary": "중국 BYD는 신형 블레이드 배터리와 5분 플래시 충전 기술을 탑재한 송 울트라 EV로 2,700마일(4,395km) 이상을 주행하며 기술 검증에 나선다. 이 차량은 중국 최대 고속도로를 횡단하여 완주하는 최초의 EV가 될 예정이다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-18T21:18:47.000Z",
+      "originalUrl": "https://electrek.co/2026/05/18/byd-drives-ev-2700-miles-to-prove-new-battery-5-min-charging/",
+      "collectedAt": "2026-05-19T08:54:57.362Z"
+    },
+    {
+      "id": "d973f6d3-14ca-46b9-be4f-631e5ef9c38e",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "볼보, EX60 가격 6만 달러 미만, 주행거리 300마일 이상으로 공개",
+      "titleOriginal": "Volvo reveals EX60 prices start at under $60,000 with over 300 miles of range",
+      "summary": "볼보는 '게임 체인저'가 될 2027년형 EX60의 시작 가격이 6만 달러 미만으로, 대부분의 럭셔리 경쟁 모델보다 저렴하다고 발표했습니다. 이 신형 전기차는 최대 400마일(약 640km)까지 주행 가능하며, 기존 볼보 전기차 중 가장 진보된 모델로 더 빠른 충전 속도를 제공합니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-18T20:32:24.000Z",
+      "originalUrl": "https://electrek.co/2026/05/18/volvo-ex60-prices-start-under-60000-over-300-miles-range/",
+      "collectedAt": "2026-05-19T08:55:11.876Z"
+    },
+    {
+      "id": "fa5a191a-b4a7-4902-be87-330733d432a1",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "BYD, 플래그십 전기 SUV 사전예약 10만 대 돌파로 출시 연기",
+      "titleOriginal": "BYD delays flagship electric SUV launch as preorders surge to over 100,000",
+      "summary": "BYD의 새로운 플래그십 전기 SUV가 10만 건 이상의 사전 예약이 몰리면서 출시가 연기되었습니다. 해당 차량은 590마일(950km)의 주행 거리와 5분 만에 충전이 가능한 신형 블레이드 배터리 및 플래시 충전 시스템을 탑재하여 큰 관심을 받고 있습니다.",
+      "topics": [
+        "운영 최적화",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-18T16:07:51.000Z",
+      "originalUrl": "https://electrek.co/2026/05/18/byd-delays-flagship-ev-suv-launch-orders-surge-over-100000/",
+      "collectedAt": "2026-05-19T08:55:40.570Z"
+    },
+    {
+      "id": "9c0fd257-a4fc-4916-ae40-c58b39662268",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "포드, EV 및 브롱코 포함 5종 신차로 유럽 재도약에 베팅",
+      "titleOriginal": "Ford bets on 5 new vehicles, including EVs and Bronco, to spark Europe comeback",
+      "summary": "포드는 유럽 시장에서 고전하는 브랜드의 재도약을 위해 전동화 브롱코와 여러 대의 신규 EV를 포함한 5종의 신차를 선보일 예정입니다. 이는 유럽 내 포드 브랜드의 판매를 활성화하기 위한 핵심 전략입니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-18T14:35:25.000Z",
+      "originalUrl": "https://electrek.co/2026/05/18/ford-5-new-vehicles-evs-bronco-europe/",
+      "collectedAt": "2026-05-19T08:55:57.153Z"
+    },
+    {
+      "id": "99e5e1f1-97f3-4f54-be96-a889449f699d",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "멕시코, 재생에너지 확대 위한 경매 추진",
+      "titleOriginal": "Mexico advances auctions in renewables push",
+      "summary": "멕시코 정부가 재생에너지 생산 능력을 확대하기 위해 새로운 에너지 경매 절차를 가속화하고 있습니다. 이번 조치는 국가 에너지 정책의 일환으로, 민간 투자 유치를 통해 재생에너지 시장 점유율을 높이는 것을 목표로 합니다.",
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-18T10:08:12.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1958467/mexico-advances-auctions-renewables-push",
+      "collectedAt": "2026-05-19T08:56:54.298Z"
+    },
+    {
+      "id": "05a7910a-45bc-4b89-a523-bb63c3d2ae07",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전KPS, 1년 11개월만에 사장 재공모…장기 표류 끝나나",
+      "titleOriginal": null,
+      "summary": "발전설비 정비 전문 공기업인 한전KPS가 사장 선임 절차를 원점에서 재개하며 신임 사장 공모에 나섰다. 기존 후보자 임명이 무산되고 전임 사장의 임기 만료 후 1년 11개월간 이어진 경영 공백을 해소할 수 있을지 주목된다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-18T16:59:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260518026015729",
+      "collectedAt": "2026-05-19T09:05:56.159Z"
+    },
+    {
+      "id": "a834ee3a-29f4-4535-b687-d0f4dcfc4831",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "신한울 원전 “국내 전력 10% 책임…K-원전 수출 확대”",
+      "titleOriginal": null,
+      "summary": "신한울 원전 1~4호기가 국내 전체 전력의 약 10%를 담당하여 AI 시대 전력 수요 급증과 에너지 안보에 기여할 전망이다. 특히 독자 기술인 APR1400 원자로를 통해 2030년까지 원전 10기 수출 목표 달성에 속도를 내고 있다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-18T16:14:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260518022385575",
+      "collectedAt": "2026-05-19T09:06:23.620Z"
+    },
+    {
+      "id": "d1ed056a-7f29-49a6-bcb3-9ab49b920aae",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "강원도, ‘수소 클러스터’ 착공 초읽기…국가 거점어항 유치전도 본격화",
+      "titleOriginal": null,
+      "summary": "강원도는 668억 원을 투입해 동해 북평산단에 수소 저장·운송 산업 핵심 인프라를 구축하며 6월 착공을 앞두고 있다. 또한, 어촌 경제 활성화를 위해 강릉 사천진항과 속초 대포항을 대상으로 총 1,254억 원 규모의 해양수산부 '국가 거점어항 조성사업' 유치에 총력을 기울이고 있다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-18T15:27:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260518021145559",
+      "collectedAt": "2026-05-19T09:06:37.049Z"
+    },
+    {
+      "id": "09b96827-7f7b-4cc5-80cf-4b226c271ae1",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“에너지 위기 내게 맡겨라”…석탄·바이오 다 잡은 LX인터내셔널 ‘주목’",
+      "titleOriginal": null,
+      "summary": "중동 분쟁에 따른 LNG 공급 불안으로 석탄과 바이오연료가 대체 자원으로 주목받는 가운데, LX인터내셔널이 관련 자산 운영과 생산 확대로 수혜를 입고 있다. 정부는 탄소 감축을 위해 바이오디젤 의무혼합률 상향 및 바이오 항공유·선박유 도입 등 관련 정책을 상반기 내 발표할 예정이다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-18T15:12:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260518028475602",
+      "collectedAt": "2026-05-19T09:06:59.788Z"
+    },
+    {
+      "id": "23c6d88a-3b17-4d29-a5d8-f4fc3cfa36fc",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[기후에너지 단상] 5월 이른 더위에 한숨 돌리는 전력당국…태양광 시대의 아이러니",
+      "titleOriginal": null,
+      "summary": "태양광 발전 비중이 50%에 육박하는 봄철, 전력 수요가 낮으면 공급 과잉으로 인한 정전 위기가 커져 오히려 적정한 냉방 수요가 전력망 안정에 도움을 주고 있다. 이에 정부는 태양광 발전이 집중되는 낮 시간대 전기 요금을 낮추고 전기차 충전 요금을 할인하는 등 전력망 운영 최적화와 소비 패턴 변화를 유도하고 있다.",
+      "topics": [
+        "운영 최적화",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-18T13:29:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260518021085410",
+      "collectedAt": "2026-05-19T09:07:19.156Z"
+    },
+    {
+      "id": "86112a1e-f348-46d6-8e9b-1d15225cbe4a",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[EE칼럼] 태양광은 전력 공급자원보다 수요자원에 가깝다",
+      "titleOriginal": null,
+      "summary": "자가용 태양광을 현행 중앙집중형 발전소가 아닌 수요지 인근의 '수요자원'으로 재정의하여 송전 부담을 줄이는 분산형 에너지 시스템으로 전환해야 한다고 주장한다. 또한 현재의 상계거래 구조와 가격 체계가 계통 안정화 비용을 충분히 반영하지 못하고 있음을 지적하며, 시장 원리에 기반한 정책적 개선이 필요함을 강조한다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-18T10:58:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260518020416972",
+      "collectedAt": "2026-05-19T09:07:37.657Z"
+    },
+    {
+      "id": "1e561d1a-1e9a-4a11-8212-2f6f14f40df1",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전 건설 UAE원전 드론 공격에 화재…“방사능 이상 없어”",
+      "titleOriginal": null,
+      "summary": "한전이 건설하고 운영 중인 UAE 바라카 원자력발전소 단지가 드론 공격을 받아 외부 발전기에 화재가 발생했으나 인명 및 방사능 피해는 없는 것으로 확인되었습니다. 총 5,600MW 규모로 UAE 전력의 약 25%를 담당하는 핵심 에너지 시설에 대한 공격으로, 국제원자력기구(IAEA)는 원전 안전을 위협하는 군사 활동에 대해 강한 우려를 표명했습니다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-18T10:22:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260518025165509",
+      "collectedAt": "2026-05-19T09:07:54.897Z"
+    }
+  ]
+}
