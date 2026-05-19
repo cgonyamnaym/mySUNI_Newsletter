@@ -1,7 +1,7 @@
 {
   "date": "2026-05-19",
-  "generatedAt": "2026-05-19T09:11:08.805Z",
-  "articleCount": 25,
+  "generatedAt": "2026-05-19T11:14:59.399Z",
+  "articleCount": 29,
   "articles": [
     {
       "id": "24f6715c-37c3-4714-9136-1b9cd99020ac",
@@ -452,6 +452,78 @@
       "publishedAt": "2026-05-19T00:00:00.000Z",
       "originalUrl": "https://igt.or.kr/bbs/board.php?bo_table=m03_03&wr_id=80",
       "collectedAt": "2026-05-19T09:10:45.576Z"
+    },
+    {
+      "id": "25deaa75-81c7-4317-b3a1-7c435fda9f47",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "오만 전력 기업, 2.7GW 규모의 연속 풍력·태양광·저장장치 프로젝트 전력구매계약(PPA) 체결",
+      "titleOriginal": "Oman power company signs 2.7 GW PPA for continuous wind-solar-storage project",
+      "summary": "오만의 O-Green Energy가 24시간 전력 공급을 위한 2.7GW 규모의 풍력, 태양광 및 배터리 저장 프로젝트의 전력구매계약을 체결했습니다. 이번 프로젝트는 Nama Power and Water Procurement가 2030년까지 목표로 하는 7GW 규모의 태양광 및 3GW 규모의 배터리 저장 용량 확보 계획의 일환입니다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-19T10:48:02.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/19/oman-power-company-signs-2-7-gw-ppa-for-continuous-wind-solar-storage-project/",
+      "collectedAt": "2026-05-19T10:52:07.651Z"
+    },
+    {
+      "id": "5edf2357-90ee-41af-988d-4d8192ae2f0f",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "호주, 10개월간 가정용 배터리 40만 대(11.2 GWh) 설치",
+      "titleOriginal": "Australia installs 400,000 home batteries in 10 months for 11.2 GWh",
+      "summary": "호주 전역에서 최근 10개월 동안 11.2 GWh 규모의 가정용 배터리 40만 대가 설치되며 소비자 주도의 에너지 저장 장치 도입 열풍이 불고 있습니다. 이번 성과는 호주 내 분산형 에너지 자원 확산과 에너지 저장 시장의 급격한 성장을 잘 보여줍니다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-19T09:45:40.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/19/australia-installs-400000-home-batteries-in-10-months-for-11-2-gwh/",
+      "collectedAt": "2026-05-19T10:52:19.206Z"
+    },
+    {
+      "id": "17dd0910-26f1-42cd-a656-20716aada733",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "블루에티(Bluetti), 발코니 태양광용 신규 에너지 저장 시스템 출시",
+      "titleOriginal": "Bluetti launches new storage systems for balcony PV",
+      "summary": "블루에티(Bluetti)가 도심 가정용 발코니 태양광 발전 시스템인 'Balco 260'과 'Balco 500'을 출시했습니다. 이 제품들은 MPPT, 인버터, 배터리 저장 장치 및 스마트 제어 기능을 통합한 플러그 앤 플레이 방식의 시스템입니다.",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-19T09:02:29.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/19/bluetti-launches-new-storage-systems-for-balcony-pv/",
+      "collectedAt": "2026-05-19T10:52:42.013Z"
+    },
+    {
+      "id": "ee690620-3e0a-46a6-a256-091c82312c1b",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“기후위기는 생존권 문제”…미래세대·농민, 탄소중립법 ‘조기 감축’ 요구",
+      "titleOriginal": null,
+      "summary": "헌법재판소의 헌법불합치 판결 이후에도 탄소중립기본법 개정이 지연되자, 시민사회와 정치권이 2035년까지 61% 이상 온실가스를 감축하는 조기 감축 경로를 법률에 명시할 것을 촉구했다. 국회 기후위기특별위원회 임기 종료를 앞두고 미래세대와 농민 등은 기후위기를 생존권 문제로 규정하며 조속한 입법을 강력히 요구하고 있다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-19T18:05:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260519020056114",
+      "collectedAt": "2026-05-19T11:07:16.609Z"
     }
   ]
 }
