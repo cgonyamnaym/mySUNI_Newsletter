@@ -1,0 +1,403 @@
+{
+  "date": "2026-05-20",
+  "generatedAt": "2026-05-20T10:55:17.938Z",
+  "articleCount": 22,
+  "articles": [
+    {
+      "id": "7a34757a-db45-4cf8-b0f3-6f83f42e527d",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "폴란드: 석탄에서 태양광으로, 안정적인 일자리 전환",
+      "titleOriginal": "From coal to solar: A stable jobs transition for Poland",
+      "summary": "폴란드 연구에 따르면, 폴란드의 태양광 산업 발전은 향후 15년간 안정적인 경제 부양책을 제공할 것으로 예상됩니다. 이는 투자 및 PV 설비 운영과 유지보수 수준에 따라 2040년까지 20,000명에서 40,000명에 달하는 직접적인 정규직 일자리를 지원할 것입니다.",
+      "topics": [
+        "2. 에너지원",
+        "5. ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-20T10:36:33.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/20/from-coal-to-solar-a-stable-jobs-transition-for-poland/",
+      "collectedAt": "2026-05-20T10:36:51.544Z"
+    },
+    {
+      "id": "0ebe8c7d-d983-4019-9de4-16bc4c13812c",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "공급망 추적성, 유럽 태양광 조달의 규제 리스크 감소시켜",
+      "titleOriginal": "Supply chain traceability reduces regulatory risk in European solar procurement",
+      "summary": "유럽 내 대규모 태양광 프로젝트 참여를 위해 공급망의 투명성과 검증된 자료 확보가 필수적인 요건으로 자리 잡고 있습니다. 이는 촉박한 프로젝트 일정 속에서도 원자재의 출처와 환경 및 사회적 기준 준수 여부를 증명하여 규제 리스크를 관리해야 함을 시사합니다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-20T09:00:56.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/20/supply-chain-traceability-reduces-regulatory-risk-in-european-solar-procurement/",
+      "collectedAt": "2026-05-20T10:36:57.047Z"
+    },
+    {
+      "id": "e5cbab24-1612-40be-a374-f4cc68a0ef1d",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "사하즈 솔라, 클라리온, 아랍에미리트(UAE)에 750MW PV 모듈 공장 건설 계획",
+      "titleOriginal": "Sahaj Solar, Clarion plan 750 MW PV module factory in UAE",
+      "summary": "사하즈 솔라와 클라리온 인베스트먼트가 아랍에미리트(UAE)에 750MW 규모의 PV 모듈 공장 건설을 계획하고 있습니다. 이 공장은 사하즈 솔라의 제조 전문성과 클라리온 인베스트먼트의 물류 역량을 결합하여 전 세계 시장, 특히 GCC 국가 및 미국에 제품을 공급할 예정입니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-20T08:59:11.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/20/sahaj-solar-clarion-plan-750-mw-pv-module-factory-in-uae/",
+      "collectedAt": "2026-05-20T10:37:12.775Z"
+    },
+    {
+      "id": "78b0056d-9845-402b-9f97-ead46048b919",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "한국, 신재생에너지 의무할당제 폐지 법안 추진",
+      "titleOriginal": "South Korea advances bill to scrap renewable quota system",
+      "summary": "한국 국회 상임위원회는 기존의 신재생에너지 공급 의무화 제도(RPS)를 폐지하고 정부 주도의 경매제로 전환하는 내용의 법안을 통과시켰습니다. 이번 변화는 신재생에너지 시장의 운영 방식을 개편하여 정책 효율성을 높이려는 조치로 풀이됩니다.",
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-20T08:40:56.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/20/south-korea-advances-bill-to-scrap-renewable-quota-system/",
+      "collectedAt": "2026-05-20T10:37:29.671Z"
+    },
+    {
+      "id": "2e08acb5-72e1-4b6c-b521-db24111e0e6e",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "연구진, 기존 장치보다 약 50배 얇은 페로브스카이트 태양전지 개발",
+      "titleOriginal": "Researchers develop perovskite solar cells about 50 times thinner than conventional devices",
+      "summary": "NTU 싱가포르 연구진이 진공 기반 열 증착 공정을 사용하여 기존보다 약 50배 얇은 페로브스카이트 태양전지를 개발했습니다. 이 장치는 반투명하며 산란광에서도 에너지를 생성할 수 있어 건물 창문 및 외벽 통합에 유망합니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-20T08:35:05.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/20/researchers-develop-perovskite-solar-cells-about-50-times-thinner-than-conventional-devices/",
+      "collectedAt": "2026-05-20T10:37:42.617Z"
+    },
+    {
+      "id": "25836ac0-97e9-4d38-b32d-b4c7761ea486",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "아메아 파워, 남아프리카공화국에 120MW 태양광 발전소 가동",
+      "titleOriginal": "Amea Power switches on 120 MW solar plant in South Africa",
+      "summary": "아메아 파워는 남아프리카공화국 노스웨스트주에 120MW 규모의 두른후크 태양광 PV 프로젝트를 가동했습니다. 이 발전소는 남아프리카공화국의 재생에너지 독립 전력 생산자 조달 프로그램(REIPPPP)의 여섯 번째 입찰 창에서 완료된 첫 번째 사업입니다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-20T08:06:23.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/20/amea-power-switches-on-120-mw-solar-plant-in-south-africa/",
+      "collectedAt": "2026-05-20T10:37:58.973Z"
+    },
+    {
+      "id": "522d4f35-4aea-49d9-be65-8a375040c249",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "인도 스타트업, 수소 연료전지 고정식 발전기 출시",
+      "titleOriginal": "Indian startup offers hydrogen fuel cell stationary gensets",
+      "summary": "인도의 스타트업 하이드로버트 에너지(Hydrovert Energy)가 상업 및 산업용 백업 전력 공급을 위한 5kVA에서 50kVA 용량의 수소 연료전지 기반 고정식 발전기를 개발했습니다. 이 시스템은 화석 연료, 재생에너지 전기분해, 원자력 등 생산 방식과 관계없이 수소를 단일 연료로 사용하여 전력을 생성합니다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-20T07:55:24.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/20/indian-startup-offers-hydrogen-fuel-cell-stationary-gensets/",
+      "collectedAt": "2026-05-20T10:38:09.979Z"
+    },
+    {
+      "id": "baf2bb99-a28d-4c60-826d-557a6c5d1f3f",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "유럽은 경쟁력 있는 폴리실리콘 산업을 구축할 수 있을까?",
+      "titleOriginal": "Can Europe build a competitive polysilicon industry?",
+      "summary": "유럽은 높은 에너지 비용과 아시아 공급망의 가격 경쟁력으로 인해 폴리실리콘 생산에 어려움을 겪고 있습니다. 하지만 네덜란드 스타트업인 Resilicon은 저렴한 재생 에너지 활용과 혁신적인 정책 지원을 통해 유럽 내 폴리실리콘 공장의 경쟁력을 확보할 수 있다고 주장합니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-20T07:41:47.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/20/can-europe-build-a-competitive-polysilicon-industry/",
+      "collectedAt": "2026-05-20T10:38:22.795Z"
+    },
+    {
+      "id": "93453220-4ebb-47a1-98d8-1abab0528c82",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "차량 일체형 태양광(VIPV) 탑재 전기차, 전력 수요의 최대 80% 충당 가능",
+      "titleOriginal": "EVs equipped with vehicle-integrated PV could cover up to 80% of their electricity needs",
+      "summary": "프라운호퍼 태양에너지 시스템 연구소(Fraunhofer ISE)는 차량 일체형 태양광(VIPV) 기술을 통해 전기차가 필요한 전력의 최대 80%를 자체 조달할 수 있음을 입증했다. 특히 물류 분야의 대형 트럭에 이 기술을 적용할 경우, 냉난방 및 보조 장치 운영에 필요한 전력을 확보해 전력망의 부담을 크게 완화할 수 있을 것으로 기대된다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-20T06:00:21.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/20/evs-equipped-with-vehicle-integrated-pv-could-cover-up-to-80-of-their-electricity-needs/",
+      "collectedAt": "2026-05-20T10:38:42.860Z"
+    },
+    {
+      "id": "1cd38c3c-85b8-4b5a-a11b-4bea61968c62",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미국 태양광 산업, 발표된 생산 능력과 실제 공장 가동률 간의 거대한 격차 직면",
+      "titleOriginal": "U.S. solar faces massive gap between stated capacity and real factory output",
+      "summary": "미국 태양광 에너지 산업 협회(SEIA)는 2022년 이후 431억 달러 규모의 국내 제조 투자 계획을 발표했으나, 공급망 병목 현상과 엄격한 무역 규제로 인해 실제 생산량은 기대에 미치지 못하고 있습니다. 이번 의회 행사를 통해 업계는 발표된 설비 능력과 실제 공장 가동 현황 사이의 큰 격차를 해결해야 하는 과제를 확인했습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-20T05:44:47.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/20/u-s-solar-faces-massive-gap-between-stated-capacity-and-real-factory-output/",
+      "collectedAt": "2026-05-20T10:39:11.990Z"
+    },
+    {
+      "id": "4b7cb6e2-f0f4-4e9d-86f7-580f5856d0a2",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Hydrostor의 온타리오 지하 양수 발전 저장 계획, BESS 벤치마크에 직면하다",
+      "titleOriginal": "Hydrostor’s Underground Pumped Hydro Ontario Storage Plan Runs Into the BESS Benchmark",
+      "summary": "온타리오주의 전력망 제약 문제를 해결하기 위한 Hydrostor의 Quinte 에너지 저장 프로젝트가 기존 BESS(배터리 에너지 저장 시스템) 기술의 효율성과 비용 경쟁력이라는 과제에 직면했습니다. 본 기사는 장기적인 인프라 구축보다 현재 전력망의 용량과 유연성을 신속히 확보하는 것이 더 시급하다는 관점에서 해당 프로젝트의 타당성을 분석합니다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-20T06:31:26.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/20/hydrostors-underground-pumped-hydro-ontario-storage-plan-runs-into-the-bess-benchmark/",
+      "collectedAt": "2026-05-20T10:40:57.223Z"
+    },
+    {
+      "id": "4ec5e378-aa5b-4465-a26c-e2bf05799674",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "상업용 건물 내 데이터 센터 서버 에너지 사용량 증가",
+      "titleOriginal": "Data Center Server Energy Use Grows Across The Commercial Building Stock",
+      "summary": "미국 에너지정보청(EIA)의 '연례 에너지 전망 2026(AEO2026)' 보고서에 따르면, 상업용 건물 내 데이터 센터 서버의 전력 소비량이 지속적으로 증가할 전망입니다. 특히 독립형 데이터 센터의 에너지 사용량이 급증하여 2050년까지 서버 단독 소비량만 최대 8180억 kWh(BkWh)에 이를 것으로 예측됩니다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-20T03:53:55.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/19/data-center-server-energy-use-grows-across-the-commercial-building-stock/",
+      "collectedAt": "2026-05-20T10:41:13.995Z"
+    },
+    {
+      "id": "8468d6ab-1bc7-47d8-af7d-e8508c2e076e",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "JUSTIFI 도구, 에너지 생산성 프로젝트의 가치 창출 기대",
+      "titleOriginal": "JUSTIFI Tool Could Unlock Value in Energy Productivity Projects",
+      "summary": "에너지 생산성을 정확하게 측정하기 위해 운영 및 전략적 개선 효과를 포함하는 '다중 이점(Multiple benefits)' 개념을 도입한 무료 소프트웨어 도구 JUSTIFI가 공개되었습니다. CleanTechnica가 보도한 이 도구는 기업들이 단순한 에너지 절감을 넘어 생산성 향상, 안전 개선 등 에너지 프로젝트의 잠재적 가치를 체계적으로 분석할 수 있도록 지원합니다.",
+      "topics": [
+        "운영 최적화",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-20T03:51:55.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/19/justifi-tool-could-unlock-value-in-energy-productivity-projects/",
+      "collectedAt": "2026-05-20T10:41:34.732Z"
+    },
+    {
+      "id": "3f692781-b430-4bf4-9460-c49f0f6146b9",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "2025년 고성능 컴퓨팅과 AI가 응용 에너지 연구를 어떻게 가속화했는가",
+      "titleOriginal": "How High-Performance Computing and AI Accelerated Applied Energy Research in 2025",
+      "summary": "로키 국립연구소(NLR)의 케스트렐(Kestrel) 슈퍼컴퓨터가 2025년 한 해 동안 500개 이상의 에너지 모델링 및 시뮬레이션 프로젝트를 지원하며 연구 효율성을 크게 높였습니다. AI와 고성능 컴퓨팅 기술의 결합을 통해 복잡한 에너지 연구 과제들이 가속화되면서 기술적 혁신이 뒷받침되었습니다.",
+      "topics": [
+        "운영 최적화",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-20T03:46:25.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/19/how-high-performance-computing-and-ai-accelerated-applied-energy-research-in-2025/",
+      "collectedAt": "2026-05-20T10:41:53.882Z"
+    },
+    {
+      "id": "859af634-eb9a-446e-800c-4292efa7725e",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미국 에너지 업계, 2030년까지 배터리 저장 장치에 1,000억 달러 투자 [업데이트]",
+      "titleOriginal": "American energy sector to invest $100B in battery storage by 2030 [update]",
+      "summary": "미국 에너지 업계가 풍력 및 태양광 발전 지원을 넘어 AI 데이터 센터 운영을 뒷받침하기 위해 배터리 저장 장치에 1,000억 달러 규모의 투자를 진행하고 있습니다. 최근 수요 증가에 따라 관련 투자가 더욱 확대되는 추세입니다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-20T00:05:00.000Z",
+      "originalUrl": "https://electrek.co/2026/05/19/american-energy-sector-set-to-invest-100b-in-battery-storage-by-2030/",
+      "collectedAt": "2026-05-20T10:43:17.372Z"
+    },
+    {
+      "id": "35e34a6d-2d52-4399-b42a-a5a9240c256d",
+      "source": "전자신문 (Energy)",
+      "sourceId": "etnews",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "사용후 배터리도 '국가 전략자원'…순환 생태계 법적 토대 마련",
+      "titleOriginal": null,
+      "summary": "산업통상자원부가 사용후 배터리를 국가 전략자원으로 관리하기 위한 '사용후 배터리의 관리 및 산업육성에 관한 법률' 제정안을 의결했다. 이는 글로벌 친환경 규제에 대응하고 전기차 및 ESS 폐배터리의 안전 관리와 산업 육성을 위한 법적 토대를 마련한 것이다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-20T09:53:19.000Z",
+      "originalUrl": "https://www.etnews.com/20260520000514",
+      "collectedAt": "2026-05-20T10:46:34.009Z"
+    },
+    {
+      "id": "0b60c4b7-e2e2-4953-8744-472414b5cee4",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "서해안 HVDC 준공 2030년 목표 설정",
+      "titleOriginal": null,
+      "summary": "기후에너지환경부가 새만금~서화성을 잇는 서해안 HVDC 사업의 2030년 준공을 목표로 기술 국산화 및 산업 생태계 구축 포럼을 개최했다. HVDC는 장거리·대용량 전력 전송과 재생에너지 확대에 최적화된 차세대 송전기술로 평가받는다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-20T10:13:06.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69980",
+      "collectedAt": "2026-05-20T10:49:12.343Z"
+    },
+    {
+      "id": "7101775c-5745-468b-806a-988c042f193a",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "에너지공단-한국타이어, 고효율 타이어 보급 확산 협력",
+      "titleOriginal": null,
+      "summary": "한국에너지공단과 한국타이어가 타이어 에너지소비효율 제도 활성화와 고효율 타이어 보급 확대를 위한 업무협약을 체결했다. 양사는 이번 협력을 통해 에너지 절약 문화를 확산하고 소비자 인식을 제고하는 데 집중할 계획이다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-20T09:55:38.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69979",
+      "collectedAt": "2026-05-20T10:49:37.010Z"
+    },
+    {
+      "id": "54ca29f4-2914-40e7-828c-64d13f63df80",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "국회 운동장 50kW급 태양광 준공…우 의장 “국회 2035년 탄소중립 추진”",
+      "titleOriginal": null,
+      "summary": "국회가 2035년 탄소중립 달성을 목표로 운동장 지붕에 50kW급 태양광 발전설비를 준공하여 국회 어린이집 전력을 100% 재생에너지로 충당하게 됐다. 국회는 2030년까지 온실가스 70% 감축 및 재생에너지 80% 조달을 목표로 건물 에너지 효율 개선과 RE100 추진 등 구체적인 로드맵을 실행하고 있다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-20T15:05:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260520026156418",
+      "collectedAt": "2026-05-20T10:53:11.280Z"
+    },
+    {
+      "id": "e9c109b4-5bd4-4b5f-ad80-3d8d9b0da622",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "이란 전쟁·AI가 띄운 ‘태양광 시대’…1.5도 목표는 여전히 난항 [이슈+]",
+      "titleOriginal": null,
+      "summary": "지정학적 리스크와 AI 데이터센터발 전력 수요 급증으로 에너지 안보가 중요해지면서, 태양광이 2032년 석탄을 제치고 세계 최대 발전원이 될 전망이다. BNEF는 청정에너지 기술의 경제성 확보로 화석연료 의존도는 줄어들겠으나, 파리기후협약의 '1.5도 목표' 달성은 여전히 난항을 겪고 있다고 분석했다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-20T11:59:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260520027006331",
+      "collectedAt": "2026-05-20T10:53:30.505Z"
+    },
+    {
+      "id": "13ce61c2-d265-4571-8ebd-08ef4b95837d",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "CHPS 입찰 재개 임박…연료전지 ‘숨통’, 수소혼소 ‘미궁’",
+      "titleOriginal": null,
+      "summary": "정부가 지난해 중단했던 청정수소발전시장(CHPS) 입찰을 재개할 예정이나, 일반수소발전은 재개 가능성이 높은 반면 LNG 수소혼소는 대상 제외 가능성이 거론되며 불확실성이 커지고 있습니다. 특히 청정수소 기준을 국내산 그린수소로 제한할 경우 사업 제약이 커질 것으로 예상되어 업계의 우려가 깊어지고 있습니다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-20T11:33:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260520022086161",
+      "collectedAt": "2026-05-20T10:53:48.791Z"
+    },
+    {
+      "id": "5e5c78f3-c20f-48e6-a866-0794c9062ca6",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“AI 데이터센터는 초대형 전기난로”…도시열섬 현상 실제 입증",
+      "titleOriginal": null,
+      "summary": "AI 데이터센터가 배출하는 폐열 밀도가 한낮 태양열의 최대 6배에 달하며, 인근 주거지 기온을 최대 2.2℃까지 상승시키는 '포켓형 열섬' 현상을 유발한다는 연구 결과가 나왔습니다. 이러한 폐열 배출은 주변 지역의 냉방 전력 수요 증가와 에너지 빈곤 심화라는 역설적 피드백 루프를 야기할 위험이 있어 녹지 조성 등 도시 설계 차원의 대응이 요구됩니다.",
+      "topics": [
+        "전력 인프라",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-20T10:33:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260520020116183",
+      "collectedAt": "2026-05-20T10:54:09.128Z"
+    }
+  ]
+}

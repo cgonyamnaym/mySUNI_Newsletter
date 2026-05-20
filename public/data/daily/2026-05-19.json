@@ -1,7 +1,7 @@
 {
   "date": "2026-05-19",
-  "generatedAt": "2026-05-19T11:14:59.399Z",
-  "articleCount": 29,
+  "generatedAt": "2026-05-20T10:55:17.939Z",
+  "articleCount": 42,
   "articles": [
     {
       "id": "24f6715c-37c3-4714-9136-1b9cd99020ac",
@@ -524,6 +524,240 @@
       "publishedAt": "2026-05-19T18:05:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260519020056114",
       "collectedAt": "2026-05-19T11:07:16.609Z"
+    },
+    {
+      "id": "43f8f05e-90c0-4b37-8a6d-5d571496c7eb",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "파키스탄의 운영 태양광(PV) 용량 51 GW로 추정",
+      "titleOriginal": "Pakistan’s operational PV capacity estimated a 51 GW",
+      "summary": "최신 Renewables First 보고서에 따르면, 파키스탄의 운영 태양광(PV) 용량은 51 GW로 추정됩니다. 파키스탄은 가구, 농장, 기업들이 전력망 의존도를 줄이기 위해 분산형 태양광을 도입하면서 태양광 발전 보급이 지속적으로 확대되고 있습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-19T14:02:06.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/19/pakistans-operational-pv-capacity-estimated-a-51-gw/",
+      "collectedAt": "2026-05-20T10:39:24.389Z"
+    },
+    {
+      "id": "adabbea3-756b-431a-904b-2dbed3c2bb9b",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "소수력 발전이 태양광과 경쟁하는 방법",
+      "titleOriginal": "How small hydropower can compete with solar PV",
+      "summary": "본 기사는 개발도상국의 원격지 에너지 접근성을 높이기 위한 소수력 발전의 가능성과 경쟁력 확보 방안을 다룹니다. 특히 태양광 발전 대비 효율적인 전력 공급을 위해 필요한 기술적 표준 및 운영 기준을 탐구합니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-19T13:57:29.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/19/how-small-hydropower-can-compete-with-solar-pv/",
+      "collectedAt": "2026-05-20T10:39:37.237Z"
+    },
+    {
+      "id": "a5fac7b5-4a27-4569-8238-d490632711ce",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Carbon, 프랑스 태양광 모듈 기가팩토리 프로젝트 철회",
+      "titleOriginal": "Carbon scraps solar module gigafactory project in France",
+      "summary": "프랑스 포쉬르메르에서 5GW 규모의 태양광 통합 제조 시설을 건설하려던 카본(Carbon)의 기가팩토리 프로젝트가 규제 불확실성과 투자 보증 부족으로 결국 무산되었습니다. 중국 제조사 론지(Longi)와의 협력 등 다각적인 노력에도 불구하고, 유럽연합의 산업 정책 및 시장 메커니즘에 대한 불투명성으로 인해 프로젝트가 최종 중단되었습니다.",
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-19T13:03:32.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/19/carbon-scraps-solar-module-gigafactory-project-in-france/",
+      "collectedAt": "2026-05-20T10:39:52.911Z"
+    },
+    {
+      "id": "ec23b56f-45fa-4e0b-8b93-196b0c61e956",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "태양광 모듈 방오 코팅 수명에 미치는 강우의 영향",
+      "titleOriginal": "The impact of rain on PV module antisoiling coating lifetime",
+      "summary": "인도 연구진은 열화 실험과 환경 스트레스 모델을 결합하여 태양광 패널 방오 코팅의 내구성을 예측하는 프레임워크를 개발했습니다. 연구 결과, 코팅의 수명은 현지 기후와 설치 각도, 그리고 빗물의 산도(pH)에 크게 의존하는 것으로 나타났습니다.",
+      "topics": [
+        "운영 최적화",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-19T11:40:48.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/19/the-impact-of-rain-on-pv-module-antisoiling-coating-lifetime/",
+      "collectedAt": "2026-05-20T10:40:22.705Z"
+    },
+    {
+      "id": "a96d803b-2bff-493d-bc38-eda731587f51",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "중국산 금지: 우리는 또 과잉 대응하고 있는가?",
+      "titleOriginal": "Banning China: Are we overreacting again?",
+      "summary": "태양광 시스템 및 분산형 에너지 자산의 사이버 보안 강화 필요성이 제기되고 있으나, 이를 위한 중국산 장비 금지 등의 조치는 성급한 정책 결정보다는 전문가의 면밀한 평가를 바탕으로 이루어져야 합니다. 특정 기관이나 수치가 명시되지 않은 본문 내용에 따라, 에너지 인프라 보호를 위한 합리적인 정책 수립의 중요성을 강조하고 있습니다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-19T10:52:19.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/19/banning-china-are-we-overreacting-again/",
+      "collectedAt": "2026-05-20T10:40:33.648Z"
+    },
+    {
+      "id": "510f578e-b478-40d8-b1b1-a9ada00d9271",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "폴란드는 수소 버스를 도입했지만, 이후 감당하기 힘든 연료비 고지서를 받았다",
+      "titleOriginal": "Poland Bought Hydrogen Buses. Then The Fuel Bills Arrived",
+      "summary": "CEE Bankwatch의 2026년 5월 보고서는 폴란드의 수소 버스 도입 사례를 통해 실제 운영 현장에서 발생하는 높은 연료 비용 문제를 지적합니다. 이 보고서는 수소 에너지의 미래 전망이 아닌 실제 운영 데이터를 분석하여 도입 전략의 문제점을 조명하고 있습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-19T22:18:04.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/19/poland-bought-hydrogen-buses-then-the-fuel-bills-arrived/",
+      "collectedAt": "2026-05-20T10:42:14.289Z"
+    },
+    {
+      "id": "0104bfc4-d288-4c5f-96e4-80ef8619a96b",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "내 전기차 충전 비용은 생각보다 훨씬 저렴하다",
+      "titleOriginal": "Charging My Electric Car Is MUCH Cheaper Than Most People Think",
+      "summary": "CleanTechnica에 게시된 이 글은 전기차 충전 비용이 일반적인 인식보다 훨씬 저렴하다는 사실을 저자의 경험을 통해 강조합니다. 전기차 운영 비용의 경제성을 분석하며 전기차 보급 확대를 위한 비용적 이점을 제시합니다.",
+      "topics": [
+        "시장·가격 동향",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-19T19:11:22.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/19/charging-my-electric-car-is-much-cheaper-than-most-people-think/",
+      "collectedAt": "2026-05-20T10:42:33.945Z"
+    },
+    {
+      "id": "13d4ed71-c192-4cb1-ab29-cd66e2ea0c70",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "원격 및 산업 지역의 마이크로그리드 강화를 위한 미국 에너지부(DOE)의 새로운 자금 지원 기회",
+      "titleOriginal": "New US DOE Funding Opportunity To Strengthen Microgrids in Remote & Industrial Regions",
+      "summary": "미국 에너지부(DOE) 전력국이 지원하고 로키 국립연구소(NLR)가 주도하는 '커뮤니티 마이크로그리드 지원 파트너십(C-MAP)'을 통해 최대 250만 달러의 프로젝트 직접 자금과 100만 달러 상당의 기술 지원이 제공됩니다. 이번 공모는 원격지 및 산업 지역의 마이크로그리드 역량을 강화하고 전력 인프라를 개선하는 것을 목표로 합니다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-19T14:33:42.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/19/new-us-doe-funding-opportunity-to-strengthen-microgrids-in-remote-industrial-regions/",
+      "collectedAt": "2026-05-20T10:43:04.917Z"
+    },
+    {
+      "id": "cbce8286-1ab1-46dd-99d8-4731fbeba552",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "지프 제조사, 18,000달러 미만의 '획기적인' 전기차 출시 계획 발표",
+      "titleOriginal": "Jeep maker reveals plans for a new ‘groundbreaking’ EV that will start at under $18,000",
+      "summary": "지프의 모기업인 스텔란티스가 18,000달러 미만의 가격으로 출시될 소형 전기차 개발 계획을 발표했습니다. 이번 계획은 저가형 전기차 시장 공략을 통해 전기차 대중화를 앞당기려는 전략의 일환으로 풀이됩니다.",
+      "topics": [
+        "시장·가격 동향",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-19T16:22:22.000Z",
+      "originalUrl": "https://electrek.co/2026/05/19/jeep-maker-new-18000-ev-groundbreaking/",
+      "collectedAt": "2026-05-20T10:44:16.051Z"
+    },
+    {
+      "id": "7770562d-643e-40a2-bb60-6701380586d2",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "단독: 테슬라(TSLA), 휴스턴에 거대 태양광 패널 공장 건설",
+      "titleOriginal": "Exclusive: Tesla (TSLA) is building its giant solar panel factory in Houston",
+      "summary": "테슬라가 휴스턴 인근 브룩셔 지역에 대규모 태양광 패널 제조 공장을 건설하며 메가팩 제조 시설과 통합 운영할 계획입니다. 이는 테슬라가 목표로 하는 연간 100GW 규모의 태양광 발전 설비 생산을 위한 첫 번째 구체적인 전략적 행보입니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-19T15:22:20.000Z",
+      "originalUrl": "https://electrek.co/2026/05/19/tesla-tsla-solar-panel-factory-houston-brookshire-100-gw/",
+      "collectedAt": "2026-05-20T10:44:36.623Z"
+    },
+    {
+      "id": "1a2a3429-bcb5-4449-be77-d9a65765305b",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "중동발 위기 대응…한-일 원유·LNG 협력 확대",
+      "titleOriginal": null,
+      "summary": "한-일 양국은 중동발 에너지 시장 불안정에 대응하기 위해 원유 스와프 및 상호 공급에 합의했다. 이를 통해 LNG와 원유 등 에너지 공급망 분야에서 긴밀한 협력을 강화하기로 했다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-19T22:04:12.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69972",
+      "collectedAt": "2026-05-20T10:49:48.311Z"
+    },
+    {
+      "id": "45c032e6-c677-4c93-9067-af4082aa8411",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전력거래소 퇴임 후 현장에서 다시 쓰는 인생 2막",
+      "titleOriginal": null,
+      "summary": "전력거래소 출신 손윤태 무원이앤씨 사장이 외산 EMS에서 국산 K-EMS로의 성공적인 전환을 통해 국가 전력계통 운영 기술 자립을 이뤄낸 경험을 회고했다. 제61회 전기의 날 기념식을 통해 대한민국 전력산업의 기술적 독립과 발전 과정을 조명했다.",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-19T20:11:35.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69971",
+      "collectedAt": "2026-05-20T10:50:12.929Z"
+    },
+    {
+      "id": "bfcb140d-3cbc-4cdb-9d9e-e68e8354daf1",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "석유·LNG 부족하면 교환…한·일, 지정학 위기 맞서 ‘에너지 공조’",
+      "titleOriginal": null,
+      "summary": "한국과 일본은 지정학적 리스크에 대비해 원유·석유제품·LNG를 서로 교환하는 스와프 체계를 구축하고, 공급망 위기 시 수출 제한을 최소화하기로 합의했다. 또한 한국은 일본의 '아시아 에너지·자원 공급망 강화 파트너십(POWERR Asia)'에 참여하여 희토류 등 핵심 자원의 공동 비축과 공급망 회복력을 강화할 방침이다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-19T21:03:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260519020116122",
+      "collectedAt": "2026-05-20T10:54:29.446Z"
     }
   ]
 }
