@@ -1,0 +1,25 @@
+{
+  "date": "2026-05-21",
+  "generatedAt": "2026-05-20T22:34:10.367Z",
+  "articleCount": 1,
+  "articles": [
+    {
+      "id": "4a67d383-1d74-433a-b3e0-fbd6c5d33799",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "발명의 날 기념식…남동발전, 단체부문 국무총리 표창 수상",
+      "titleOriginal": null,
+      "summary": "한국남동발전이 지난 5년간 추진한 지식재산 경영 강화와 연구개발(R&D) 혁신 성과를 인정받아 제61회 발명의 날 기념식에서 단체부문 국무총리 표창을 수상했다. 이번 수상은 전사적인 발명 문화 확산과 지식재산 기반의 기술혁신 노력을 대외적으로 평가받은 결과다.",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-21T01:19:20.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69989",
+      "collectedAt": "2026-05-20T22:31:27.942Z"
+    }
+  ]
+}

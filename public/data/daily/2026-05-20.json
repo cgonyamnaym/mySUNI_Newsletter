@@ -1,7 +1,7 @@
 {
   "date": "2026-05-20",
-  "generatedAt": "2026-05-20T10:55:17.938Z",
-  "articleCount": 22,
+  "generatedAt": "2026-05-20T22:34:10.366Z",
+  "articleCount": 32,
   "articles": [
     {
       "id": "7a34757a-db45-4cf8-b0f3-6f83f42e527d",
@@ -398,6 +398,186 @@
       "publishedAt": "2026-05-20T10:33:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260520020116183",
       "collectedAt": "2026-05-20T10:54:09.128Z"
+    },
+    {
+      "id": "55854114-4a13-4d66-a2e8-cd62b1e191b9",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미국 PV 제조 자본 지출, 국내 공급망의 '획기적인 해'인 2027년에 70억 달러 도달 전망",
+      "titleOriginal": "U.S. PV manufacturing capex could reach $7 billion in 2027 in breakout year for domestic supply-chain",
+      "summary": "Tesla와 Corning과 같은 기업들의 수십억 달러 투자에 힘입어, 2027년 미국 태양광(PV) 제조 자본 지출은 전년 대비 150% 증가한 70억 달러에 이를 것으로 예측됩니다. 이는 실리콘 기반 기술이 박막 기술 투자를 능가하며 국내 공급망을 확고히 하는 획기적인 해가 될 것입니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-20T13:52:10.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/20/u-s-pv-manufacturing-capex-could-reach-7-billion-in-2027-in-breakout-year-for-domestic-supply-chain/",
+      "collectedAt": "2026-05-20T22:26:05.443Z"
+    },
+    {
+      "id": "a1595794-675c-4e3f-bdc0-3e079ef51945",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "중국, 우주 기반 태양광 발전소 첫 실험 실시",
+      "titleOriginal": "China conducts first experiments for space-based solar power plants",
+      "summary": "중국은 우주에서 수집한 태양 에너지를 지구로 무선 전송하는 '선 체이싱(Sun Chasing)' 프로젝트를 추진하고 있습니다. 최근 실험에서 100m 이상의 거리에서 움직이는 목표물에 최대 1,180W의 전력을 효율적으로 무선 전송하는 데 성공했습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "publishedAt": "2026-05-20T13:47:38.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/20/china-conducts-first-experiments-for-space-based-solar-power-plants/",
+      "collectedAt": "2026-05-20T22:26:11.453Z"
+    },
+    {
+      "id": "e3e9e9e8-d6fb-4ac5-9298-61eac153ae45",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "DNV, 새로운 수상 태양광 안전 표준 발표",
+      "titleOriginal": "DNV publishes new floating PV safety standards",
+      "summary": "노르웨이 선급 DNV가 수상 태양광 시스템의 안전을 위한 두 가지 새로운 가이드라인을 발표했습니다. 이 가이드라인은 수상 태양광 시스템의 부유체 구조 설계와 계류 및 위치 유지 시스템에 대한 내용을 다룹니다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-20T11:43:09.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/20/dnv-publishes-new-floating-pv-safety-standards/",
+      "collectedAt": "2026-05-20T22:26:35.854Z"
+    },
+    {
+      "id": "61586ef5-4236-4e40-9ecd-f99612a30d96",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "인도, PV 출력 제한 증가세",
+      "titleOriginal": "PV curtailment on the rise in India",
+      "summary": "Ember 보고서에 따르면 인도는 2026년 1분기에 송전 제약으로 인해 300 GWh의 재생에너지를 출력 제한했습니다. 이는 급증하는 태양광 발전량에 비해 송전 인프라가 부족하여 운영 최적화에 어려움을 겪고 있음을 시사합니다.",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-20T11:15:45.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/20/pv-curtailment-on-the-rise-in-india/",
+      "collectedAt": "2026-05-20T22:26:40.935Z"
+    },
+    {
+      "id": "21ad69be-aabd-493d-bda9-23ce3ddb771e",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "이탈리아, 2026-2027년 재생에너지 경매 통해 태양광 10GW 할당 예정",
+      "titleOriginal": "Italy to assign 10 GW of PV in 2026-2027 renewables auctions",
+      "summary": "이탈리아 에너지청(GSE)은 2026년과 2027년 재생에너지 경매를 통해 태양광 10GW와 풍력 16GW의 발전 용량을 할당할 계획입니다. 이번 계획은 이탈리아의 재생에너지 보급을 가속화하기 위한 대규모 에너지 정책의 일환입니다.",
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-20T10:58:42.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/20/italy-to-assign-10-gw-of-pv-in-2026-2027-renewables-auctions/",
+      "collectedAt": "2026-05-20T22:26:50.995Z"
+    },
+    {
+      "id": "1118be57-6dd2-4793-9e6a-caca4cb7ba50",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "BYD, 신형 급속충전 전기차 주문 16만 대 돌파로 공급난 겪어",
+      "titleOriginal": "BYD is struggling to meet demand for new fast-charging EVs as orders reach 100K, 60K",
+      "summary": "BYD의 차세대 블레이드 배터리 2.0과 플래시 충전 기술을 탑재한 플래그십 전기 SUV가 10만 대, 송 울트라 EV가 6만 대 이상의 주문을 기록했습니다. 폭발적인 수요로 인해 BYD는 현재 생산 물량을 맞추는 데 어려움을 겪고 있습니다.",
+      "topics": [
+        "시장·가격 동향",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-20T19:38:49.000Z",
+      "originalUrl": "https://electrek.co/2026/05/20/byd-struggles-to-meet-demand-for-new-fast-charging-evs/",
+      "collectedAt": "2026-05-20T22:27:10.788Z"
+    },
+    {
+      "id": "c0bb612b-bbee-4e27-86e6-87ad481fe067",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "BYD Song Ultra EV, 신형 배터리와 5분 충전 기술로 2,700마일 주행 성공",
+      "titleOriginal": "BYD Song Ultra EV conquers an over 2,700-mile trip with its new battery and 5-min charging",
+      "summary": "BYD의 신형 Song Ultra EV가 자체 개발한 블레이드 배터리와 5분 급속 충전 기술을 탑재하고 중국 최장 고속도로를 가로지르는 2,700마일(약 4,395km) 주행을 성공적으로 마쳤습니다. 이번 성과는 BYD의 차세대 전기차 충전 및 배터리 기술의 성능을 실전 환경에서 증명한 사례입니다.",
+      "topics": [
+        "운영 최적화",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-20T15:30:54.000Z",
+      "originalUrl": "https://electrek.co/2026/05/20/byd-ev-conquers-2700-mile-trip-with-new-battery-5-min-charging/",
+      "collectedAt": "2026-05-20T22:27:47.113Z"
+    },
+    {
+      "id": "481e7b5c-ca58-4c4f-9fd6-08ad0b86bb34",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "아인라이드(Einride) L4 자율주행 전기 트럭, 오하이오주에서 본격 운영 시작",
+      "titleOriginal": "Einride L4 autonomous electric semi truck gets real – in Ohio",
+      "summary": "스웨덴 AI 물류 기업 아인라이드(Einride)가 SAE 레벨 4 자율주행 전기 트럭을 미국 오하이오주 메리스빌의 EASE 로지스틱스 물류 창고 구간에 배치했습니다. 이번 프로젝트는 DriveOhio 트럭 자동화 회랑(Truck Automation Corridor) 사업의 일환으로 진행됩니다.",
+      "topics": [
+        "운영 최적화",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-20T11:00:01.000Z",
+      "originalUrl": "https://electrek.co/2026/05/20/einride-l4-autonomous-electric-semi-truck-gets-real-in-ohio/",
+      "collectedAt": "2026-05-20T22:28:07.171Z"
+    },
+    {
+      "id": "b1d386e6-61b5-4da7-b51f-28b6a682c459",
+      "source": "Electrek",
+      "sourceId": "electrek",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "세계 최초 공개: 역대 가장 강력한 메르세데스 AMG는 전기차다",
+      "titleOriginal": "World premiere: The most powerful Mercedes AMG ever is electric",
+      "summary": "메르세데스(Mercedes)는 LA에서 자사의 초고성능 전기차(EV)인 AMG GT 4-Door Coupe를 세계 최초로 공개했다. 이 모델은 1153마력, 0-60마일 2초, 11분 충전 등 역대 메르세데스 차량 중 가장 강력한 출력을 자랑하며, 레이스 준비가 된 기능들을 포함한다. 비록 가짜 V8 엔진 소리가 나지만 끌 수 있는 기능이 있다.",
+      "topics": [
+        "ESG·탄소중립",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-20T03:30:00.000Z",
+      "originalUrl": "https://electrek.co/2026/05/19/mercedes-unveils-amg-gt-ev-1153hp-0-60-in-2s-11min-charge-fake-v8-noise/",
+      "collectedAt": "2026-05-20T22:28:27.627Z"
+    },
+    {
+      "id": "3d92cf21-4ba9-4a3f-b07d-4afa023055c0",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "서울에너지공사 여름철 특별안전대책 가동",
+      "titleOriginal": null,
+      "summary": "서울에너지공사가 여름철 복합재난에 대비해 에너지 기반 시설의 위험 요인을 사전에 발굴·제거하는 2026년도 여름철 안전관리 특별대책을 시행한다. 이번 대책은 사후 대응이 아닌 예방 중심의 안전관리에 초점을 맞추고 있다.",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-20T20:33:12.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69982",
+      "collectedAt": "2026-05-20T22:32:12.449Z"
     }
   ]
 }
