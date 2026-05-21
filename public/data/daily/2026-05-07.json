@@ -18,7 +18,8 @@
       ],
       "publishedAt": "2026-05-07T07:30:00.000Z",
       "originalUrl": "https://www.canarymedia.com/articles/clean-industry/industry-fuel-shocks-electrifying",
-      "collectedAt": "2026-05-12T08:00:37.385Z"
+      "collectedAt": "2026-05-12T08:00:37.385Z",
+      "primaryTopic": "전력 인프라"
     },
     {
       "id": "5ac74f9d-77dc-4b86-afba-bad8b29ec156",
@@ -36,7 +37,8 @@
       ],
       "publishedAt": "2026-05-07T22:12:56.000Z",
       "originalUrl": "https://electrek.co/2026/05/07/blinks-56k-ev-ports-to-get-plug-and-charge-access-through-emobi/",
-      "collectedAt": "2026-05-12T08:03:51.145Z"
+      "collectedAt": "2026-05-12T08:03:51.145Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "ce8618ed-aecd-4c20-b258-ed58c2d62ee7",
@@ -53,7 +55,8 @@
       ],
       "publishedAt": "2026-05-07T21:28:31.000Z",
       "originalUrl": "https://electrek.co/2026/05/07/toyotas-15k-electric-suv-chinas-top-selling-joint-venture-ev-7-months/",
-      "collectedAt": "2026-05-12T08:03:51.145Z"
+      "collectedAt": "2026-05-12T08:03:51.145Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "f3299fb5-b2b0-48fc-b8a2-97b0493c68d1",
@@ -71,7 +74,8 @@
       ],
       "publishedAt": "2026-05-07T20:36:37.000Z",
       "originalUrl": "https://electrek.co/2026/05/07/hyundai-patent-reveals-new-body-on-frame-ev-battery-setup/",
-      "collectedAt": "2026-05-12T08:03:51.145Z"
+      "collectedAt": "2026-05-12T08:03:51.145Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "568a097e-c64f-4cc1-9ae9-b7719adbcd54",
@@ -88,7 +92,8 @@
       ],
       "publishedAt": "2026-05-07T17:57:12.000Z",
       "originalUrl": "https://electrek.co/2026/05/07/ev-suv-with-semi-solid-state-battery-on-sale-soon/",
-      "collectedAt": "2026-05-12T08:03:51.146Z"
+      "collectedAt": "2026-05-12T08:03:51.146Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "e5c21dc4-81c2-499d-b401-1fbce76a9823",
@@ -106,7 +111,8 @@
       ],
       "publishedAt": "2026-05-07T16:50:40.000Z",
       "originalUrl": "https://electrek.co/2026/05/07/tesla-4680-battery-cell-performance-data-shows-cant-build-own-cells/",
-      "collectedAt": "2026-05-12T08:03:51.146Z"
+      "collectedAt": "2026-05-12T08:03:51.146Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "a7e307b6-1f7c-453e-adfb-41d5d1f00653",
@@ -123,7 +129,8 @@
       ],
       "publishedAt": "2026-05-07T15:52:37.000Z",
       "originalUrl": "https://electrek.co/2026/05/07/byds-flagship-electric-suv-secures-100000-orders-two-weeks/",
-      "collectedAt": "2026-05-12T08:03:51.147Z"
+      "collectedAt": "2026-05-12T08:03:51.147Z",
+      "primaryTopic": "전력 인프라"
     },
     {
       "id": "e25fdebb-52e3-4787-ae28-71be441015e2",
@@ -141,7 +148,8 @@
       ],
       "publishedAt": "2026-05-07T13:31:43.000Z",
       "originalUrl": "https://electrek.co/2026/05/07/porsche-taycan-turbo-gt-manthey-kit-nurburgring-ev-record/",
-      "collectedAt": "2026-05-12T08:03:51.147Z"
+      "collectedAt": "2026-05-12T08:03:51.147Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "7a807e79-539e-41b7-982e-a71c712ecad4",
@@ -159,7 +167,8 @@
       ],
       "publishedAt": "2026-05-07T10:40:00.000Z",
       "originalUrl": "https://electrek.co/2026/05/07/honda-patents-fake-clutch-for-electric-motorcycles-and-it-might-actually-make-sense/",
-      "collectedAt": "2026-05-12T08:03:51.147Z"
+      "collectedAt": "2026-05-12T08:03:51.147Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "97775e41-a3ce-4f61-bf52-c7e6b011bd2e",
@@ -177,7 +186,8 @@
       ],
       "publishedAt": "2026-05-07T02:29:40.000Z",
       "originalUrl": "https://about.bnef.com/insights/clean-energy/energy-storage-enters-the-100-gigawatt-era-three-things-to-know/",
-      "collectedAt": "2026-05-12T08:04:06.715Z"
+      "collectedAt": "2026-05-12T08:04:06.715Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "753e0154-996c-450a-869c-158a18ffff91",
@@ -192,7 +202,8 @@
       "topics": [],
       "publishedAt": "2026-05-07T10:30:19.000Z",
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69877",
-      "collectedAt": "2026-05-12T08:06:09.991Z"
+      "collectedAt": "2026-05-12T08:06:09.991Z",
+      "primaryTopic": null
     },
     {
       "id": "01698283-cd22-459d-a1e0-5625b7bcbf02",
@@ -210,7 +221,8 @@
       ],
       "publishedAt": "2026-05-07T01:05:49.000Z",
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69873",
-      "collectedAt": "2026-05-12T08:06:09.991Z"
+      "collectedAt": "2026-05-12T08:06:09.991Z",
+      "primaryTopic": "전력 인프라"
     },
     {
       "id": "d7911019-7fa8-462e-92ec-075966f0c31f",
@@ -222,10 +234,13 @@
       "title": "LS에코에너지, 400㎸ 초고압 케이블 국제인증·PQ 착수",
       "titleOriginal": null,
       "summary": "내년 하반기 양산 목표…“LS전선 본사 수준으로” ▲LS에코에너지 베트남 생산법인 LS-비나(VINA)의 하이퐁 공장 전경. 사진=LS에코에너지 LS에코에너지는 베트남 생산법인 LS-비나(VINA)가 400킬로볼트(㎸)급 초고압 케이블 국제 인증과 송전망 장기 운전 신뢰성 평가(PQ)에 착수한다고 7일 밝혔다. LS-비나는 약 1년간 인증과 평가를 거쳐 400㎸ 케이블을 내년 하반기 양산할 계획이다. 이번 프로젝트를 완료하면 LS-비나는 400㎸급 케이블을 생산하는 LS전선 본사 수준의 생산 능력을 확보하게 된다. LS-비나는 현재",
-      "topics": [],
+      "topics": [
+        "전력 인프라"
+      ],
       "publishedAt": "2026-05-07T23:05:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260508023372660",
-      "collectedAt": "2026-05-12T08:11:28.950Z"
+      "collectedAt": "2026-05-12T08:11:28.950Z",
+      "primaryTopic": "전력 인프라"
     },
     {
       "id": "c9e634d7-a374-44ec-9400-5a9de9e337d5",
@@ -243,7 +258,8 @@
       ],
       "publishedAt": "2026-05-07T10:11:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260507023502448",
-      "collectedAt": "2026-05-12T08:11:28.950Z"
+      "collectedAt": "2026-05-12T08:11:28.950Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "64c7e1de-81ff-40ad-b870-2cc56736456e",
@@ -261,7 +277,8 @@
       ],
       "publishedAt": "2026-05-07T08:48:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260507027432868",
-      "collectedAt": "2026-05-12T08:11:28.950Z"
+      "collectedAt": "2026-05-12T08:11:28.950Z",
+      "primaryTopic": "전력 인프라"
     },
     {
       "id": "dd246532-9e8c-4ace-af6e-79239ed08e71",
@@ -276,7 +293,8 @@
       "topics": [],
       "publishedAt": "2026-05-07T08:22:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260507027532842",
-      "collectedAt": "2026-05-12T08:11:28.950Z"
+      "collectedAt": "2026-05-12T08:11:28.950Z",
+      "primaryTopic": null
     },
     {
       "id": "a7ece0a8-9aa0-4cab-a556-c1dd4b215e4d",
@@ -294,7 +312,8 @@
       ],
       "publishedAt": "2026-05-07T08:12:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260507021372820",
-      "collectedAt": "2026-05-12T08:11:28.951Z"
+      "collectedAt": "2026-05-12T08:11:28.951Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "45f5497b-93e9-44bb-8829-f4df799c4487",
@@ -312,7 +331,8 @@
       ],
       "publishedAt": "2026-05-07T02:01:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260507029362650",
-      "collectedAt": "2026-05-12T08:11:28.951Z"
+      "collectedAt": "2026-05-12T08:11:28.951Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "c19ffe71-7506-44d4-9686-cb45fbb0c877",
@@ -329,7 +349,8 @@
       ],
       "publishedAt": "2026-05-07T01:58:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260507025543957",
-      "collectedAt": "2026-05-12T08:11:28.951Z"
+      "collectedAt": "2026-05-12T08:11:28.951Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "e2dcbccd-4f50-4478-9f41-e352b8abea5b",
@@ -346,7 +367,8 @@
       ],
       "publishedAt": "2026-05-07T01:52:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260507021002511",
-      "collectedAt": "2026-05-12T08:11:28.951Z"
+      "collectedAt": "2026-05-12T08:11:28.951Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "7396ac53-1cfe-47e8-a024-f18d65743650",
@@ -363,7 +385,8 @@
       ],
       "publishedAt": "2026-05-07T00:00:00.000Z",
       "originalUrl": "https://igt.or.kr/bbs/board.php?bo_table=m03_03&wr_id=76",
-      "collectedAt": "2026-05-12T08:12:14.891Z"
+      "collectedAt": "2026-05-12T08:12:14.891Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "33fa0305-dd65-4bb3-93ec-38dbb9fcf97c",
@@ -375,10 +398,13 @@
       "title": "[보도자료] “지방선거 기후공약? 구호보다는 구체적 내용 중요”",
       "titleOriginal": null,
       "summary": "[보도자료] “지방선거 기후공약? 구호보다는 구체적 내용 중요” 2026-05-07 0 81 05.07 09:33 - 7일 오전 기후정치바람 국회서 ‘내 삶을 바꾸는 기후공약, 시·도지사 준비됐나’ 토론회 개최- 기후정치바람, 시·도지사 후보 기후공약 검증 위한 체크리스트 공개 “선언적 재생에너지 공약 많아… 에너지 전환 연계 취약계층 보호 전략 부재” - 각 정당 “기후공약 중요”… 구체적 내용·준비 수준엔 ‘온도차’ - 더불어민주당·조국혁신당·진보당·정의당 등 각 정당별 주요 기후공약 소개6·3 지방선거에 출마한 시·도지사 후보",
-      "topics": [],
+      "topics": [
+        "에너지원"
+      ],
       "publishedAt": "2026-05-07T00:00:00.000Z",
       "originalUrl": "https://igt.or.kr/bbs/board.php?bo_table=m03_03&wr_id=75",
-      "collectedAt": "2026-05-12T08:12:14.891Z"
+      "collectedAt": "2026-05-12T08:12:14.891Z",
+      "primaryTopic": "에너지원"
     }
   ]
 }

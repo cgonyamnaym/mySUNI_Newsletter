@@ -19,7 +19,8 @@
       ],
       "publishedAt": "2026-05-05T23:00:51.000Z",
       "originalUrl": "https://www.energy-storage.news/australia-nsw-battery-storage-systems-capture-11-9-of-state-consumption/",
-      "collectedAt": "2026-05-06T06:19:33.816Z"
+      "collectedAt": "2026-05-06T06:19:33.816Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "0448cc8f-22d6-4089-be8a-785f1f9d8eb1",
@@ -37,7 +38,8 @@
       ],
       "publishedAt": "2026-05-05T23:00:00.000Z",
       "originalUrl": "https://www.energy-storage.news/beyond-deployment-building-a-circular-future-for-renewable-energy/",
-      "collectedAt": "2026-05-06T06:19:33.817Z"
+      "collectedAt": "2026-05-06T06:19:33.817Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "3a6e896e-0d7b-4788-81d0-d361f63fd260",
@@ -55,7 +57,8 @@
       ],
       "publishedAt": "2026-05-05T13:24:47.000Z",
       "originalUrl": "https://www.energy-storage.news/caiso-ceo-expects-batteries-to-play-an-important-role-in-the-newly-launched-extended-day-ahead-market/",
-      "collectedAt": "2026-05-06T06:19:33.817Z"
+      "collectedAt": "2026-05-06T06:19:33.817Z",
+      "primaryTopic": "운영 최적화"
     },
     {
       "id": "c91b7765-9525-4fb0-ac3c-20c6c0b7bf2c",
@@ -73,7 +76,8 @@
       ],
       "publishedAt": "2026-05-05T09:45:53.000Z",
       "originalUrl": "https://www.energy-storage.news/ess-inc-partners-with-alsym-energy-for-8-5gwh-of-us-sodium-ion-bess-cells/",
-      "collectedAt": "2026-05-06T06:19:33.817Z"
+      "collectedAt": "2026-05-06T06:19:33.817Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "f4720750-1b5c-4239-828e-0fae834e644f",
@@ -91,7 +95,8 @@
       ],
       "publishedAt": "2026-05-05T09:44:02.000Z",
       "originalUrl": "https://www.energy-storage.news/r-power-and-axpo-agree-optimisation-deal-with-floor-for-1-2gwh-poland-bess/",
-      "collectedAt": "2026-05-06T06:19:33.817Z"
+      "collectedAt": "2026-05-06T06:19:33.817Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "937e38a9-166f-4f55-9214-8f895633529e",
@@ -109,7 +114,8 @@
       ],
       "publishedAt": "2026-05-05T08:01:37.000Z",
       "originalUrl": "https://www.energy-storage.news/two-battery-storage-projects-totalling-2-15gwh-clear-australias-epbc-act-assessment/",
-      "collectedAt": "2026-05-06T06:19:33.817Z"
+      "collectedAt": "2026-05-06T06:19:33.817Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "7655f795-be12-46c5-9346-0f46ac5efae4",
@@ -127,7 +133,8 @@
       ],
       "publishedAt": "2026-05-05T08:00:23.000Z",
       "originalUrl": "https://www.energy-storage.news/western-australia-awards-1-9gw-of-renewables-and-3-7gwh-of-battery-storage-under-cis-tenders-5-and-6/",
-      "collectedAt": "2026-05-06T06:19:33.817Z"
+      "collectedAt": "2026-05-06T06:19:33.817Z",
+      "primaryTopic": "시장·가격 동향"
     },
     {
       "id": "aadf0e27-59da-4a4d-9d85-fe57278d8007",
@@ -145,7 +152,8 @@
       ],
       "publishedAt": "2026-05-05T20:53:00.000Z",
       "originalUrl": "https://www.canarymedia.com/articles/offshore-wind/ocean-winds-trump-deal-europe-floating-turbines",
-      "collectedAt": "2026-05-06T06:19:35.302Z"
+      "collectedAt": "2026-05-06T06:19:35.302Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "8ba86470-ccfd-4bc4-8983-cef5b52701ad",
@@ -163,7 +171,8 @@
       ],
       "publishedAt": "2026-05-05T07:30:00.000Z",
       "originalUrl": "https://www.canarymedia.com/articles/nuclear/americas-nuclear-dry-spell-is-over",
-      "collectedAt": "2026-05-06T06:19:35.302Z"
+      "collectedAt": "2026-05-06T06:19:35.302Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "8f592931-bf3d-4588-b269-7ed5ca507a2c",
@@ -178,7 +187,8 @@
       "topics": [],
       "publishedAt": "2026-05-05T07:30:00.000Z",
       "originalUrl": "https://www.canarymedia.com/articles/emissions-reduction/virginia-rggi-carbon-price-energy-affordability",
-      "collectedAt": "2026-05-06T06:19:35.302Z"
+      "collectedAt": "2026-05-06T06:19:35.302Z",
+      "primaryTopic": null
     },
     {
       "id": "73e5e44d-387f-4ce0-8433-3a3f8adb75a3",
@@ -196,7 +206,8 @@
       ],
       "publishedAt": "2026-05-05T13:35:34.000Z",
       "originalUrl": "https://www.pv-magazine.com/2026/05/05/eu-solar-and-storage-push-could-cut-power-system-costs-by-nearly-half/",
-      "collectedAt": "2026-05-06T06:19:36.559Z"
+      "collectedAt": "2026-05-06T06:19:36.559Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "218f9a30-940b-4d1b-ae40-9bd6b6f27087",
@@ -214,7 +225,8 @@
       ],
       "publishedAt": "2026-05-05T12:35:07.000Z",
       "originalUrl": "https://www.pv-magazine.com/2026/05/05/indonesia-tenders-1-2-gw-of-solar/",
-      "collectedAt": "2026-05-06T06:19:36.559Z"
+      "collectedAt": "2026-05-06T06:19:36.559Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "62fc910a-3cbb-43e4-8132-14828a3a4675",
@@ -232,7 +244,8 @@
       ],
       "publishedAt": "2026-05-05T09:59:45.000Z",
       "originalUrl": "https://www.pv-magazine.com/2026/05/05/dutch-regulator-plans-feed-in-tariff-for-large-solar-producers/",
-      "collectedAt": "2026-05-06T06:19:36.559Z"
+      "collectedAt": "2026-05-06T06:19:36.559Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "26c3193d-d0ca-4511-8e82-982c86eba1f3",
@@ -250,7 +263,8 @@
       ],
       "publishedAt": "2026-05-05T09:30:13.000Z",
       "originalUrl": "https://www.pv-magazine.com/2026/05/05/france-publishes-specifications-for-925-mw-ground-mounted-solar-tender/",
-      "collectedAt": "2026-05-06T06:19:36.559Z"
+      "collectedAt": "2026-05-06T06:19:36.559Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "af216e46-ef17-4272-a231-1cb4ec1ff85d",
@@ -268,7 +282,8 @@
       ],
       "publishedAt": "2026-05-05T09:00:59.000Z",
       "originalUrl": "https://www.pv-magazine.com/2026/05/05/solar-sector-raises-11-1-billion-in-q1-2026-as-debt-financing-hits-decade-high/",
-      "collectedAt": "2026-05-06T06:19:36.559Z"
+      "collectedAt": "2026-05-06T06:19:36.559Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "172f6500-e8cd-40a7-ba96-5e5e609649ac",
@@ -286,7 +301,8 @@
       ],
       "publishedAt": "2026-05-05T08:30:12.000Z",
       "originalUrl": "https://www.pv-magazine.com/2026/05/05/home-batteries-earn-during-negative-electricity-price-spikes/",
-      "collectedAt": "2026-05-06T06:19:36.559Z"
+      "collectedAt": "2026-05-06T06:19:36.559Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "15e70738-5694-4fbb-af82-3cf3e1f9a864",
@@ -304,7 +320,8 @@
       ],
       "publishedAt": "2026-05-05T08:28:41.000Z",
       "originalUrl": "https://www.pv-magazine.com/2026/05/05/swiss-balancing-energy-market-now-open-to-ci-solar/",
-      "collectedAt": "2026-05-06T06:19:36.559Z"
+      "collectedAt": "2026-05-06T06:19:36.559Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "bcfd1428-89e1-4b26-b507-c3c3930f75db",
@@ -322,7 +339,8 @@
       ],
       "publishedAt": "2026-05-05T08:15:25.000Z",
       "originalUrl": "https://www.pv-magazine.com/2026/05/05/oman-seeks-consultant-for-green-hydrogen-project/",
-      "collectedAt": "2026-05-06T06:19:36.559Z"
+      "collectedAt": "2026-05-06T06:19:36.559Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "95ee4844-6dc2-4c8c-a51c-3c47e3262c67",
@@ -340,7 +358,8 @@
       ],
       "publishedAt": "2026-05-05T08:05:43.000Z",
       "originalUrl": "https://www.pv-magazine.com/2026/05/05/rooftop-solar-surges-to-new-high-in-australian-on-back-of-battery-boom/",
-      "collectedAt": "2026-05-06T06:19:36.559Z"
+      "collectedAt": "2026-05-06T06:19:36.559Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "da3aec8f-e34c-4b05-8118-78348d914b9d",
@@ -358,7 +377,8 @@
       ],
       "publishedAt": "2026-05-05T08:00:43.000Z",
       "originalUrl": "https://www.pv-magazine.com/2026/05/05/new-technique-measures-water-ingress-in-pv-modules-without-disconnecting-them/",
-      "collectedAt": "2026-05-06T06:19:36.559Z"
+      "collectedAt": "2026-05-06T06:19:36.559Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "26ae69d1-267d-4b6c-b1f2-1d8773b4ef15",
@@ -376,7 +396,8 @@
       ],
       "publishedAt": "2026-05-05T07:45:57.000Z",
       "originalUrl": "https://www.pv-magazine.com/2026/05/05/western-australia-backs-grid-buildout-ahead-of-coal-exit/",
-      "collectedAt": "2026-05-06T06:19:36.559Z"
+      "collectedAt": "2026-05-06T06:19:36.559Z",
+      "primaryTopic": "전력 인프라"
     },
     {
       "id": "f1904227-03db-4d7f-8d89-10cfd2ec7f60",
@@ -394,7 +415,8 @@
       ],
       "publishedAt": "2026-05-05T07:08:38.000Z",
       "originalUrl": "https://www.pv-magazine.com/2026/05/05/pumped-storage-project-advances-at-1-35-gw-hydropower-plant-in-india/",
-      "collectedAt": "2026-05-06T06:19:36.559Z"
+      "collectedAt": "2026-05-06T06:19:36.559Z",
+      "primaryTopic": "시장·가격 동향"
     },
     {
       "id": "973fe5a2-cb3d-4e8f-b5bc-2479fc539131",
@@ -411,7 +433,8 @@
       ],
       "publishedAt": "2026-05-05T07:00:22.000Z",
       "originalUrl": "https://www.pv-magazine.com/2026/05/05/fluorine-use-in-pv-backsheets-dropped-sharply-over-past-three-decades/",
-      "collectedAt": "2026-05-06T06:19:36.559Z"
+      "collectedAt": "2026-05-06T06:19:36.559Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "2c8950d4-e75c-4e8f-911a-674954e932fc",
@@ -429,7 +452,8 @@
       ],
       "publishedAt": "2026-05-05T15:10:40.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/05/vinfast-scales-up-in-asia-as-mpv-7-electric-7-seater-debuts-in-the-philippines/",
-      "collectedAt": "2026-05-06T06:19:38.040Z"
+      "collectedAt": "2026-05-06T06:19:38.040Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "e59de32b-9d89-489d-961e-f76c455ea8cc",
@@ -446,7 +470,8 @@
       ],
       "publishedAt": "2026-05-05T15:01:38.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/05/philippine-pension-fund-for-govt-retirees-powers-solar-rooftops/",
-      "collectedAt": "2026-05-06T06:19:38.040Z"
+      "collectedAt": "2026-05-06T06:19:38.040Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "ffe4baef-398f-4de9-aa94-361f545981b9",
@@ -463,7 +488,8 @@
       ],
       "publishedAt": "2026-05-05T07:33:34.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/05/renewable-energy-transition-powers-ahead-in-australia/",
-      "collectedAt": "2026-05-06T06:19:38.041Z"
+      "collectedAt": "2026-05-06T06:19:38.041Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "9c8320e3-48b1-495d-89f3-4ab9b8e1ad04",
@@ -481,7 +507,8 @@
       ],
       "publishedAt": "2026-05-05T03:59:50.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/04/hyundai-failed-to-consider-cleaner-alternatives-in-air-permit-for-proposed-louisiana-steel-plant-in-violation-of-the-law-company-promises/",
-      "collectedAt": "2026-05-06T06:19:38.041Z"
+      "collectedAt": "2026-05-06T06:19:38.041Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "5639b500-ecba-49ae-beb7-19b955784b9c",
@@ -498,7 +525,8 @@
       ],
       "publishedAt": "2026-05-05T03:52:27.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/04/sierra-club-response-to-berkshire-hathaway-shareholder-meeting/",
-      "collectedAt": "2026-05-06T06:19:38.041Z"
+      "collectedAt": "2026-05-06T06:19:38.041Z",
+      "primaryTopic": "전력 인프라"
     },
     {
       "id": "c2903701-e8ae-4a00-8d20-b5c445847e8e",
@@ -516,7 +544,8 @@
       ],
       "publishedAt": "2026-05-05T03:44:24.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/04/duke-lags-on-goals-should-concern-climate-investors-ahead-of-shareholder-meeting/",
-      "collectedAt": "2026-05-06T06:19:38.041Z"
+      "collectedAt": "2026-05-06T06:19:38.041Z",
+      "primaryTopic": "전력 인프라"
     },
     {
       "id": "19a273a6-c468-4e8b-83cc-fac69101a271",
@@ -534,7 +563,8 @@
       ],
       "publishedAt": "2026-05-05T21:52:44.000Z",
       "originalUrl": "https://electrek.co/2026/05/05/ev-charger-system-runs-like-a-mini-power-plant-10-mw-abb/",
-      "collectedAt": "2026-05-06T06:19:39.457Z"
+      "collectedAt": "2026-05-06T06:19:39.457Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "8966ee98-a6ff-4a9d-a023-8e2d11e73fae",
@@ -551,7 +581,8 @@
       ],
       "publishedAt": "2026-05-05T20:54:16.000Z",
       "originalUrl": "https://electrek.co/2026/05/05/volkswagens-affordable-electric-suv-spotted-undisguised-video/",
-      "collectedAt": "2026-05-06T06:19:39.457Z"
+      "collectedAt": "2026-05-06T06:19:39.457Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "23482d5f-6d8e-4691-84ce-b30c9bdcd52f",
@@ -569,7 +600,8 @@
       ],
       "publishedAt": "2026-05-05T20:14:49.000Z",
       "originalUrl": "https://electrek.co/2026/05/05/wattev-orders-370-tesla-semis-california-largest-ev-truck-deployment/",
-      "collectedAt": "2026-05-06T06:19:39.458Z"
+      "collectedAt": "2026-05-06T06:19:39.458Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "38e8f8f7-1ac4-412a-8456-4afc0dc46dd0",
@@ -586,7 +618,8 @@
       ],
       "publishedAt": "2026-05-05T19:21:43.000Z",
       "originalUrl": "https://electrek.co/2026/05/05/honda-shelves-11b-canada-ev-plant-electric-retreat/",
-      "collectedAt": "2026-05-06T06:19:39.458Z"
+      "collectedAt": "2026-05-06T06:19:39.458Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "97cdd39c-6ed9-4aaf-8e2a-f567ced69a72",
@@ -604,7 +637,8 @@
       ],
       "publishedAt": "2026-05-05T17:20:36.000Z",
       "originalUrl": "https://electrek.co/2026/05/05/tesla-semi-60-truck-order-forum-mobility-port-drayage/",
-      "collectedAt": "2026-05-06T06:19:39.458Z"
+      "collectedAt": "2026-05-06T06:19:39.458Z",
+      "primaryTopic": "전력 인프라"
     },
     {
       "id": "35322dbd-a108-41d8-8dd5-2bb67d023842",
@@ -622,7 +656,8 @@
       ],
       "publishedAt": "2026-05-05T16:01:05.000Z",
       "originalUrl": "https://electrek.co/2026/05/05/byd-overtakes-tesla-kia-best-selling-ev-brand-key-overseas-markets/",
-      "collectedAt": "2026-05-06T06:19:39.458Z"
+      "collectedAt": "2026-05-06T06:19:39.458Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "d9ba0408-5d3d-4e6a-8bdd-ada4fd42af31",
@@ -637,7 +672,8 @@
       "topics": [],
       "publishedAt": "2026-05-05T15:37:52.000Z",
       "originalUrl": "https://electrek.co/2026/05/05/volvo-trucks-adds-electric-pto-to-vnr-electric-semi-lineup/",
-      "collectedAt": "2026-05-06T06:19:39.458Z"
+      "collectedAt": "2026-05-06T06:19:39.458Z",
+      "primaryTopic": null
     },
     {
       "id": "05b06e29-ec01-4236-9a78-144638e9e3a8",
@@ -654,7 +690,8 @@
       ],
       "publishedAt": "2026-05-05T13:54:30.000Z",
       "originalUrl": "https://electrek.co/2026/05/05/byds-off-road-brand-debuts-first-ev-sedan-sports-car-images/",
-      "collectedAt": "2026-05-06T06:19:39.458Z"
+      "collectedAt": "2026-05-06T06:19:39.458Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "fb2737f1-39eb-43b1-9703-3e96ab638577",
@@ -672,7 +709,8 @@
       ],
       "publishedAt": "2026-05-05T13:28:25.000Z",
       "originalUrl": "https://electrek.co/2026/05/05/volkswagen-rivian-stake-15-percent-largest-shareholder/",
-      "collectedAt": "2026-05-06T06:19:39.458Z"
+      "collectedAt": "2026-05-06T06:19:39.458Z",
+      "primaryTopic": "시장·가격 동향"
     },
     {
       "id": "185dc74d-82d4-4bbe-aab8-fb8169c93e90",
@@ -690,7 +728,8 @@
       ],
       "publishedAt": "2026-05-05T06:25:05.000Z",
       "originalUrl": "https://electrek.co/2026/05/04/ride1up-makes-history-launching-worlds-first-e-bike-with-semi-solid-state-battery/",
-      "collectedAt": "2026-05-06T06:19:39.458Z"
+      "collectedAt": "2026-05-06T06:19:39.458Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "43fdfb55-491f-4e5c-b665-d9a039f87543",
@@ -707,7 +746,8 @@
       ],
       "publishedAt": "2026-05-05T12:27:04.000Z",
       "originalUrl": "https://about.bnef.com/insights/data-center/ai-data-centers-energy-and-finance-dispatch-from-the-bnef-summit-new-york-2026/",
-      "collectedAt": "2026-05-06T06:19:41.004Z"
+      "collectedAt": "2026-05-06T06:19:41.004Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "f1cc5d13-76d6-4a82-94fc-19632b717b70",
@@ -725,7 +765,8 @@
       ],
       "publishedAt": "2026-05-05T13:34:36.000Z",
       "originalUrl": "https://www.windpowermonthly.com/article/1957005/rwe-offshore-wind-chief-step-down-year",
-      "collectedAt": "2026-05-06T06:19:48.443Z"
+      "collectedAt": "2026-05-06T06:19:48.443Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "08a45be3-7b2a-4322-a0c4-620834e044df",
@@ -743,7 +784,8 @@
       ],
       "publishedAt": "2026-05-05T10:01:41.000Z",
       "originalUrl": "https://www.windpowermonthly.com/article/1956952/california-probes-golden-state-wind-developers-120m-trump-buyout",
-      "collectedAt": "2026-05-06T06:19:48.443Z"
+      "collectedAt": "2026-05-06T06:19:48.443Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "8b2031cc-a7fb-4600-8114-f448766a26c8",
@@ -760,7 +802,8 @@
       ],
       "publishedAt": "2026-05-05T10:00:45.000Z",
       "originalUrl": "https://www.windpowermonthly.com/article/1956955/data-key-avoiding-wind-farm-shutdowns-birds-%E2%80%93-experts",
-      "collectedAt": "2026-05-06T06:19:48.443Z"
+      "collectedAt": "2026-05-06T06:19:48.443Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "8a111517-9bea-4335-ba0b-10dbcbb8d79a",
@@ -777,7 +820,8 @@
       ],
       "publishedAt": "2026-05-05T07:45:04.000Z",
       "originalUrl": "https://www.windpowermonthly.com/article/1956919/massachusetts-save-14bn-vineyard-wind-powers",
-      "collectedAt": "2026-05-06T06:19:48.443Z"
+      "collectedAt": "2026-05-06T06:19:48.443Z",
+      "primaryTopic": "시장·가격 동향"
     },
     {
       "id": "dc7d116a-19f7-43de-acb0-def5a70e95b4",
@@ -794,7 +838,8 @@
       ],
       "publishedAt": "2026-05-05T23:56:49.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367654",
-      "collectedAt": "2026-05-06T06:19:49.970Z"
+      "collectedAt": "2026-05-06T06:19:49.970Z",
+      "primaryTopic": "운영 최적화"
     },
     {
       "id": "e454e6bf-47ae-48be-9e01-0cd5607fb448",
@@ -809,7 +854,8 @@
       "topics": [],
       "publishedAt": "2026-05-05T23:45:26.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367666",
-      "collectedAt": "2026-05-06T06:19:49.970Z"
+      "collectedAt": "2026-05-06T06:19:49.970Z",
+      "primaryTopic": null
     },
     {
       "id": "50cf2d47-369b-4847-bb8f-dacd25479180",
@@ -826,7 +872,8 @@
       ],
       "publishedAt": "2026-05-05T23:29:51.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367664",
-      "collectedAt": "2026-05-06T06:19:49.970Z"
+      "collectedAt": "2026-05-06T06:19:49.970Z",
+      "primaryTopic": "전력 인프라"
     },
     {
       "id": "cdf7ec87-bdcb-42fb-92b2-90880450ee9a",
@@ -844,7 +891,8 @@
       ],
       "publishedAt": "2026-05-05T23:10:53.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367662",
-      "collectedAt": "2026-05-06T06:19:49.970Z"
+      "collectedAt": "2026-05-06T06:19:49.970Z",
+      "primaryTopic": "전력 인프라"
     },
     {
       "id": "ff60ca0e-7641-4853-a75a-4c7a4e688730",
@@ -862,7 +910,8 @@
       ],
       "publishedAt": "2026-05-05T11:59:13.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367655",
-      "collectedAt": "2026-05-06T06:19:49.970Z"
+      "collectedAt": "2026-05-06T06:19:49.970Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "df1a01bc-1bcc-45a9-a9ac-f7ed1164089c",
@@ -879,7 +928,8 @@
       ],
       "publishedAt": "2026-05-05T06:44:00.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367652",
-      "collectedAt": "2026-05-06T06:19:49.971Z"
+      "collectedAt": "2026-05-06T06:19:49.971Z",
+      "primaryTopic": "시장·가격 동향"
     },
     {
       "id": "4e439afe-acc9-47b2-802a-67d64fbff54e",
@@ -896,7 +946,8 @@
       ],
       "publishedAt": "2026-05-05T06:28:44.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367650",
-      "collectedAt": "2026-05-06T06:19:49.971Z"
+      "collectedAt": "2026-05-06T06:19:49.971Z",
+      "primaryTopic": "시장·가격 동향"
     },
     {
       "id": "4a406b95-c6da-4181-b0af-9b23fa74cbc8",
@@ -913,7 +964,8 @@
       ],
       "publishedAt": "2026-05-05T06:04:22.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367649",
-      "collectedAt": "2026-05-06T06:19:49.971Z"
+      "collectedAt": "2026-05-06T06:19:49.971Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "df071416-26e8-4239-bd72-c98b3c56d282",
@@ -928,7 +980,8 @@
       "topics": [],
       "publishedAt": "2026-05-05T03:51:44.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367647",
-      "collectedAt": "2026-05-06T06:19:49.971Z"
+      "collectedAt": "2026-05-06T06:19:49.971Z",
+      "primaryTopic": null
     },
     {
       "id": "934e49fe-4a56-435e-a8ab-8a42d67c8844",
@@ -946,7 +999,8 @@
       ],
       "publishedAt": "2026-05-05T02:44:00.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367646",
-      "collectedAt": "2026-05-06T06:19:49.971Z"
+      "collectedAt": "2026-05-06T06:19:49.971Z",
+      "primaryTopic": "운영 최적화"
     },
     {
       "id": "55d3ca41-4718-4772-8918-b8d06e7d8ef0",
@@ -964,7 +1018,8 @@
       ],
       "publishedAt": "2026-05-05T22:00:00.000Z",
       "originalUrl": "http://www.e2news.com/news/articleView.html?idxno=330069",
-      "collectedAt": "2026-05-06T06:19:52.803Z"
+      "collectedAt": "2026-05-06T06:19:52.803Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "21d4e080-6035-4563-b514-1ea325be0f16",
@@ -979,7 +1034,8 @@
       "topics": [],
       "publishedAt": "2026-05-05T07:53:15.000Z",
       "originalUrl": "http://www.e2news.com/news/articleView.html?idxno=330123",
-      "collectedAt": "2026-05-06T06:19:52.803Z"
+      "collectedAt": "2026-05-06T06:19:52.803Z",
+      "primaryTopic": null
     },
     {
       "id": "534c685b-6e78-4d34-a8ed-5cdffd60590f",
@@ -994,7 +1050,8 @@
       "topics": [],
       "publishedAt": "2026-05-05T00:00:00.000Z",
       "originalUrl": "http://www.e2news.com/news/articleView.html?idxno=330115",
-      "collectedAt": "2026-05-06T06:19:52.804Z"
+      "collectedAt": "2026-05-06T06:19:52.804Z",
+      "primaryTopic": null
     },
     {
       "id": "fc73035f-1f69-4470-8ef7-97a9ba56c8e8",
@@ -1011,7 +1068,8 @@
       ],
       "publishedAt": "2026-05-05T23:55:00.000Z",
       "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=166968",
-      "collectedAt": "2026-05-06T06:19:53.879Z"
+      "collectedAt": "2026-05-06T06:19:53.879Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "e158015c-861a-4348-acc2-44f9229b406c",
@@ -1029,7 +1087,8 @@
       ],
       "publishedAt": "2026-05-05T23:43:00.000Z",
       "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=166967",
-      "collectedAt": "2026-05-06T06:19:53.879Z"
+      "collectedAt": "2026-05-06T06:19:53.879Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "a585fc60-d633-43b9-a53b-2d25b3b7db38",
@@ -1046,7 +1105,8 @@
       ],
       "publishedAt": "2026-05-05T23:28:34.000Z",
       "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=166966",
-      "collectedAt": "2026-05-06T06:19:53.879Z"
+      "collectedAt": "2026-05-06T06:19:53.879Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "fb075fb0-c1a0-40a0-a8eb-0c710b1b3e70",
@@ -1064,7 +1124,8 @@
       ],
       "publishedAt": "2026-05-05T23:21:23.000Z",
       "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=166965",
-      "collectedAt": "2026-05-06T06:19:53.879Z"
+      "collectedAt": "2026-05-06T06:19:53.879Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "68834d0e-3c8e-4a59-9817-46bb38713d12",
@@ -1082,7 +1143,8 @@
       ],
       "publishedAt": "2026-05-05T23:16:24.000Z",
       "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=166964",
-      "collectedAt": "2026-05-06T06:19:53.879Z"
+      "collectedAt": "2026-05-06T06:19:53.879Z",
+      "primaryTopic": "전력 인프라"
     },
     {
       "id": "3168acc5-e7cc-4de4-bf68-f6e9a4877688",
@@ -1099,7 +1161,8 @@
       ],
       "publishedAt": "2026-05-05T22:45:08.000Z",
       "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=166963",
-      "collectedAt": "2026-05-06T06:19:53.879Z"
+      "collectedAt": "2026-05-06T06:19:53.879Z",
+      "primaryTopic": "전력 인프라"
     },
     {
       "id": "faf80203-7784-4d6d-961c-1b88dbc277ae",
@@ -1116,7 +1179,8 @@
       ],
       "publishedAt": "2026-05-05T21:00:00.000Z",
       "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=166962",
-      "collectedAt": "2026-05-06T06:19:53.879Z"
+      "collectedAt": "2026-05-06T06:19:53.879Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "6dc548a2-9de5-4fdb-9fe4-bc6976132019",
@@ -1131,7 +1195,8 @@
       "topics": [],
       "publishedAt": "2026-05-05T23:25:50.000Z",
       "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=297405",
-      "collectedAt": "2026-05-06T06:19:55.203Z"
+      "collectedAt": "2026-05-06T06:19:55.203Z",
+      "primaryTopic": null
     },
     {
       "id": "0e4fafac-8365-4da3-9f6a-a73e7bdbe7e6",
@@ -1146,7 +1211,8 @@
       "topics": [],
       "publishedAt": "2026-05-05T21:11:02.000Z",
       "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=297404",
-      "collectedAt": "2026-05-06T06:19:55.203Z"
+      "collectedAt": "2026-05-06T06:19:55.203Z",
+      "primaryTopic": null
     },
     {
       "id": "d00141b3-9726-4377-8d19-03f96e794df0",
@@ -1161,7 +1227,8 @@
       "topics": [],
       "publishedAt": "2026-05-05T02:59:31.000Z",
       "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=297403",
-      "collectedAt": "2026-05-06T06:19:55.203Z"
+      "collectedAt": "2026-05-06T06:19:55.203Z",
+      "primaryTopic": null
     },
     {
       "id": "96fd9f83-b3c9-430a-b255-241caa33d3e9",
@@ -1179,7 +1246,8 @@
       ],
       "publishedAt": "2026-05-05T02:50:32.000Z",
       "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=297399",
-      "collectedAt": "2026-05-06T06:19:55.203Z"
+      "collectedAt": "2026-05-06T06:19:55.203Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "a31578c1-1131-48ec-af95-585249ec2478",
@@ -1194,7 +1262,8 @@
       "topics": [],
       "publishedAt": "2026-05-05T13:33:45.000Z",
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69865",
-      "collectedAt": "2026-05-06T06:19:57.189Z"
+      "collectedAt": "2026-05-06T06:19:57.189Z",
+      "primaryTopic": null
     },
     {
       "id": "7b5cdafc-aef9-42d1-8a6e-2d77767eeeee",
@@ -1209,7 +1278,8 @@
       "topics": [],
       "publishedAt": "2026-05-05T08:12:26.000Z",
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69864",
-      "collectedAt": "2026-05-06T06:19:57.190Z"
+      "collectedAt": "2026-05-06T06:19:57.190Z",
+      "primaryTopic": null
     },
     {
       "id": "00f57681-bb80-4d3d-b98c-85eb1ede65c4",
@@ -1226,7 +1296,8 @@
       ],
       "publishedAt": "2026-05-05T01:12:00.000Z",
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69863",
-      "collectedAt": "2026-05-06T06:19:57.190Z"
+      "collectedAt": "2026-05-06T06:19:57.190Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "29ddeb12-6afb-4d11-8a29-475d8ae3f097",
@@ -1238,10 +1309,14 @@
       "title": "“韓, AI가 돈 버는 나라”…반도체·에너지, 전쟁 위기를 기회로",
       "titleOriginal": null,
       "summary": "SK하이닉스·삼성전자, 반도체 영업익 573조 시대 LS일렉트릭, 배전 사이클 진입…북미 매출 80% 급증 조선·두산에너빌리티, 에너지 재편이 만든 수주 호황 글로벌 인공지능(AI) 수요가 폭증하는 가운데 전쟁발(發) 에너지 위기까지 겹쳤다. 한국 기업들은 두 흐름의 교차점에서 각자의 방식으로 수혜를 받고 있다. 고대역폭메모리(HBM) 반도체로 AI 수요를 확보한 SK하이닉스와 삼성전자, 데이터센터 전력 인프라를 공급하는 LS일렉트릭, 에너지 공급망 재편으로 수주가 늘어나는 조선 3사, 원전·소형모듈원전(SMR)으로 장기 수주를 쌓",
-      "topics": [],
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
       "publishedAt": "2026-05-05T04:16:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260429024270747",
-      "collectedAt": "2026-05-06T06:20:16.676Z"
+      "collectedAt": "2026-05-06T06:20:16.676Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "5a8ed660-13f9-4f19-92ed-63d2ce3b0b53",
@@ -1259,7 +1334,8 @@
       ],
       "publishedAt": "2026-05-05T16:01:05.000Z",
       "originalUrl": "https://electrek.co/2026/05/05/byd-outsells-tesla-kia-as-top-selling-ev-brand-overseas/",
-      "collectedAt": "2026-05-12T08:03:51.156Z"
+      "collectedAt": "2026-05-12T08:03:51.156Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "2b49529d-cb14-4d6d-9654-06e41666eea6",
@@ -1276,7 +1352,8 @@
       ],
       "publishedAt": "2026-05-05T12:27:04.000Z",
       "originalUrl": "https://about.bnef.com/insights/clean-energy/ai-data-centers-energy-and-finance-dispatch-from-the-bnef-summit-new-york-2026/",
-      "collectedAt": "2026-05-12T08:04:06.716Z"
+      "collectedAt": "2026-05-12T08:04:06.716Z",
+      "primaryTopic": "에너지원"
     }
   ]
 }

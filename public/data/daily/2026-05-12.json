@@ -16,7 +16,8 @@
       "topics": [],
       "publishedAt": "2026-05-12T07:08:48.347Z",
       "originalUrl": "https://www.iea.org/commentaries/how-governments-can-best-support-consumers-during-this-energy-crisis",
-      "collectedAt": "2026-05-12T07:08:48.347Z"
+      "collectedAt": "2026-05-12T07:08:48.347Z",
+      "primaryTopic": null
     },
     {
       "id": "a0e02e2f-905a-4efe-aee5-b5e4573af546",
@@ -34,7 +35,8 @@
       ],
       "publishedAt": "2026-05-12T07:08:48.347Z",
       "originalUrl": "https://www.iea.org/commentaries/policy-and-financing-momentum-sustain-ccus-progress-despite-setbacks",
-      "collectedAt": "2026-05-12T07:08:48.347Z"
+      "collectedAt": "2026-05-12T07:08:48.347Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "a44cf9d5-7db8-457c-a3f2-f5738a89145c",
@@ -51,7 +53,8 @@
       ],
       "publishedAt": "2026-05-12T07:08:48.347Z",
       "originalUrl": "https://www.iea.org/commentaries/businesses-see-competitive-value-of-energy-efficiency-but-smaller-firms-struggle-to-access-solutions",
-      "collectedAt": "2026-05-12T07:08:48.347Z"
+      "collectedAt": "2026-05-12T07:08:48.347Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "d0e07e81-61cf-4a8b-8940-768e13d7fd1f",
@@ -66,7 +69,8 @@
       "topics": [],
       "publishedAt": "2026-05-12T07:08:48.347Z",
       "originalUrl": "https://www.iea.org/commentaries/wired-for-water-how-electrification-is-transforming-desalination",
-      "collectedAt": "2026-05-12T07:08:48.347Z"
+      "collectedAt": "2026-05-12T07:08:48.347Z",
+      "primaryTopic": null
     },
     {
       "id": "216e8dfa-55d5-49f0-9379-3aebc49c0f5c",
@@ -83,7 +87,8 @@
       ],
       "publishedAt": "2026-05-12T07:08:48.347Z",
       "originalUrl": "https://www.iea.org/commentaries/why-the-growth-of-energy-service-companies-is-uneven-globally",
-      "collectedAt": "2026-05-12T07:08:48.347Z"
+      "collectedAt": "2026-05-12T07:08:48.347Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "fb797d8c-b177-44ca-9444-f692a9a7e9f4",
@@ -98,7 +103,8 @@
       "topics": [],
       "publishedAt": "2026-05-12T07:08:48.347Z",
       "originalUrl": "https://www.iea.org/commentaries/the-next-wave-of-led-lighting-smarter-circular-and-more-efficient",
-      "collectedAt": "2026-05-12T07:08:48.347Z"
+      "collectedAt": "2026-05-12T07:08:48.347Z",
+      "primaryTopic": null
     },
     {
       "id": "77cdc787-a896-4aaa-a08c-085cf3c2eb38",
@@ -116,7 +122,8 @@
       ],
       "publishedAt": "2026-05-12T07:08:48.347Z",
       "originalUrl": "https://www.iea.org/commentaries/copper-prices-have-hit-record-highs-but-smelters-face-mounting-strategic-pressures",
-      "collectedAt": "2026-05-12T07:08:48.347Z"
+      "collectedAt": "2026-05-12T07:08:48.347Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "80844d42-b6ac-49a2-b661-63ad342ae701",
@@ -133,7 +140,8 @@
       ],
       "publishedAt": "2026-05-12T07:08:48.348Z",
       "originalUrl": "https://www.iea.org/commentaries/sodium-ion-battery-momentum-grows-but-challenges-remain",
-      "collectedAt": "2026-05-12T07:08:48.348Z"
+      "collectedAt": "2026-05-12T07:08:48.348Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "51922cb0-5d93-4497-b0c0-6ccaa104bed6",
@@ -151,7 +159,8 @@
       ],
       "publishedAt": "2026-05-12T07:08:48.348Z",
       "originalUrl": "https://www.iea.org/commentaries/global-battery-markets-are-growing-strongly-and-so-are-the-supply-risks",
-      "collectedAt": "2026-05-12T07:08:48.348Z"
+      "collectedAt": "2026-05-12T07:08:48.348Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "3d89c2ee-5dd7-4a28-8649-227a3a2548ba",
@@ -168,7 +177,8 @@
       ],
       "publishedAt": "2026-05-12T07:08:48.348Z",
       "originalUrl": "https://www.iea.org/commentaries/what-it-would-take-to-unlock-the-next-phase-of-hydrogen-growth",
-      "collectedAt": "2026-05-12T07:08:48.348Z"
+      "collectedAt": "2026-05-12T07:08:48.348Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "0ff17c83-50f4-4750-a0b7-ab75b198be1c",
@@ -183,7 +193,8 @@
       "topics": [],
       "publishedAt": "2026-05-12T07:08:48.348Z",
       "originalUrl": "https://www.iea.org/commentaries/canada-is-set-to-play-a-leading-role-in-supplying-the-world-with-responsibly-produced-critical-minerals",
-      "collectedAt": "2026-05-12T07:08:48.348Z"
+      "collectedAt": "2026-05-12T07:08:48.348Z",
+      "primaryTopic": null
     },
     {
       "id": "6aeb0f33-b552-4146-b793-445b9724ef65",
@@ -195,10 +206,13 @@
       "title": "Designing an effective strategic stockpiling system for critical minerals",
       "titleOriginal": "Designing an effective strategic stockpiling system for critical minerals",
       "summary": "Alessio Scanziani, Energy Security Analyst Shobhan Dhir, Critical Minerals Analyst Mari Nishiumi, Consultant Kentaro Miwa, Consultant Tae-Yoon Kim, Head of Critical Minerals Division Commentary — 27 January 2026 Cite commentary Close dialog IEA (2026), Designing an effective strategic stockpiling sy",
-      "topics": [],
+      "topics": [
+        "에너지원"
+      ],
       "publishedAt": "2026-05-12T07:08:48.348Z",
       "originalUrl": "https://www.iea.org/commentaries/designing-an-effective-strategic-stockpiling-system-for-critical-minerals",
-      "collectedAt": "2026-05-12T07:08:48.348Z"
+      "collectedAt": "2026-05-12T07:08:48.348Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "6fc9b1c1-0b2f-43ce-876b-8edef5f9742e",
@@ -216,7 +230,8 @@
       ],
       "publishedAt": "2026-05-12T07:08:48.348Z",
       "originalUrl": "https://www.iea.org/commentaries/investment-in-next-generation-geothermal-is-surging-policies-are-key-to-further-growth",
-      "collectedAt": "2026-05-12T07:08:48.348Z"
+      "collectedAt": "2026-05-12T07:08:48.348Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "9b2b62d9-1da6-448e-810e-a3fcac281922",
@@ -228,10 +243,14 @@
       "title": "7 certainties about energy for this age of uncertainty",
       "titleOriginal": "7 certainties about energy for this age of uncertainty",
       "summary": "Fatih Birol, Executive Director Commentary — 19 January 2026 Cite commentary Close dialog IEA (2026), 7 certainties about energy for this age of uncertainty, IEA, Paris https://www.iea.org/commentaries/7-certainties-about-energy-for-this-age-of-uncertainty, Licence: CC BY 4.0 Copy to clipboard Share",
-      "topics": [],
+      "topics": [
+        "ESG·탄소중립",
+        "정책·규제"
+      ],
       "publishedAt": "2026-05-12T07:08:48.348Z",
       "originalUrl": "https://www.iea.org/commentaries/7-certainties-about-energy-for-this-age-of-uncertainty",
-      "collectedAt": "2026-05-12T07:08:48.348Z"
+      "collectedAt": "2026-05-12T07:08:48.348Z",
+      "primaryTopic": "ESG·탄소중립"
     },
     {
       "id": "24d22a6d-52d6-4262-ab7d-21355b86a4b5",
@@ -246,7 +265,8 @@
       "topics": [],
       "publishedAt": "2026-05-12T07:08:48.348Z",
       "originalUrl": "https://www.iea.org/commentaries/can-low-temperature-heat-in-factories-be-electrified-competitively",
-      "collectedAt": "2026-05-12T07:08:48.348Z"
+      "collectedAt": "2026-05-12T07:08:48.348Z",
+      "primaryTopic": null
     },
     {
       "id": "f788bce1-7d1d-4e5a-a0e0-761bc5984bdb",
@@ -258,10 +278,13 @@
       "title": "Opportunities for district heating in the changing energy landscape",
       "titleOriginal": "Opportunities for district heating in the changing energy landscape",
       "summary": "Fabian Voswinkel, Energy Efficiency Policy Analyst Chiara Delmastro, Energy Analyst Buildings Brendan Reidenbach, Energy Efficiency Policy Analyst Oskar Kvarnström, Former Energy Policy Analyst Commentary — 08 December 2025 Cite commentary Close dialog IEA (2025), Opportunities for district heating ",
-      "topics": [],
+      "topics": [
+        "정책·규제"
+      ],
       "publishedAt": "2026-05-12T07:08:48.348Z",
       "originalUrl": "https://www.iea.org/commentaries/opportunities-for-district-heating-in-the-changing-energy-landscape",
-      "collectedAt": "2026-05-12T07:08:48.348Z"
+      "collectedAt": "2026-05-12T07:08:48.348Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "16fe7b8d-d6e2-4b5a-9183-650b4a2432c9",
@@ -276,7 +299,8 @@
       "topics": [],
       "publishedAt": "2026-05-12T07:08:48.348Z",
       "originalUrl": "https://www.iea.org/commentaries/overcoming-energy-constraints-is-key-to-delivering-on-europe-s-data-centre-goals",
-      "collectedAt": "2026-05-12T07:08:48.348Z"
+      "collectedAt": "2026-05-12T07:08:48.348Z",
+      "primaryTopic": null
     },
     {
       "id": "f4df640a-f98a-462b-897c-ccb8f04b1fa6",
@@ -293,7 +317,8 @@
       ],
       "publishedAt": "2026-05-12T07:08:48.348Z",
       "originalUrl": "https://www.iea.org/commentaries/unlocking-investment-opportunities-in-latin-america-s-energy-transition",
-      "collectedAt": "2026-05-12T07:08:48.348Z"
+      "collectedAt": "2026-05-12T07:08:48.348Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "49238d9a-9658-436a-95fa-9e537fea436c",
@@ -310,7 +335,8 @@
       ],
       "publishedAt": "2026-05-12T07:08:48.348Z",
       "originalUrl": "https://www.iea.org/commentaries/slow-efficiency-progress-is-a-wasted-opportunity",
-      "collectedAt": "2026-05-12T07:08:48.348Z"
+      "collectedAt": "2026-05-12T07:08:48.348Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "6d67c501-dcda-4050-a494-0e64f755a1aa",
@@ -322,10 +348,14 @@
       "title": "Scenarios in the World Energy Outlook 2025",
       "titleOriginal": "Scenarios in the World Energy Outlook 2025",
       "summary": "Laura Cozzi, Director, Sustainability, Technology and Outlooks Tim Gould, Chief Energy Economist Commentary — 05 November 2025 Cite commentary Close dialog IEA (2025), Scenarios in the World Energy Outlook 2025, IEA, Paris https://www.iea.org/commentaries/scenarios-in-the-world-energy-outlook-2025, ",
-      "topics": [],
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
       "publishedAt": "2026-05-12T07:08:48.349Z",
       "originalUrl": "https://www.iea.org/commentaries/scenarios-in-the-world-energy-outlook-2025",
-      "collectedAt": "2026-05-12T07:08:48.349Z"
+      "collectedAt": "2026-05-12T07:08:48.349Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "50147c3a-b316-4573-a0f6-4c44c8cf595f",
@@ -337,10 +367,13 @@
       "title": "Integrated energy and water management will boost savings in industry",
       "titleOriginal": "Integrated energy and water management will boost savings in industry",
       "summary": "Vida Rozite, Energy Policy Analyst Emma Mooney, Energy Analyst Tomás de Oliveira Bredariol, Energy and Environmental Policy Analyst Commentary — 04 November 2025 Cite commentary Close dialog IEA (2025), Integrated energy and water management will boost savings in industry, IEA, Paris https://www.iea",
-      "topics": [],
+      "topics": [
+        "정책·규제"
+      ],
       "publishedAt": "2026-05-12T07:08:48.349Z",
       "originalUrl": "https://www.iea.org/commentaries/integrated-energy-and-water-management-will-boost-savings-in-industry",
-      "collectedAt": "2026-05-12T07:08:48.349Z"
+      "collectedAt": "2026-05-12T07:08:48.349Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "69c80dfc-3416-4910-a65b-c29a1696d53c",
@@ -355,7 +388,8 @@
       "topics": [],
       "publishedAt": "2026-05-12T07:08:48.349Z",
       "originalUrl": "https://www.iea.org/commentaries/driving-down-the-cost-of-carbon-removal-why-innovation-matters",
-      "collectedAt": "2026-05-12T07:08:48.349Z"
+      "collectedAt": "2026-05-12T07:08:48.349Z",
+      "primaryTopic": null
     },
     {
       "id": "16f790cd-000f-4fa2-934f-249d2b293296",
@@ -373,7 +407,8 @@
       ],
       "publishedAt": "2026-05-12T07:08:48.349Z",
       "originalUrl": "https://www.iea.org/commentaries/how-can-innovation-help-secure-future-battery-markets-and-mineral-supplies",
-      "collectedAt": "2026-05-12T07:08:48.349Z"
+      "collectedAt": "2026-05-12T07:08:48.349Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "b095e927-1c7b-4024-82b9-cc9a2b6aa4cd",
@@ -390,7 +425,8 @@
       ],
       "publishedAt": "2026-05-12T07:08:48.349Z",
       "originalUrl": "https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality",
-      "collectedAt": "2026-05-12T07:08:48.349Z"
+      "collectedAt": "2026-05-12T07:08:48.349Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "39fec620-54ec-4fe8-8aa3-9598539afe6a",
@@ -402,10 +438,13 @@
       "title": "Hydropower is still ‘the forgotten giant of electricity’ – and that needs to change",
       "titleOriginal": "Hydropower is still ‘the forgotten giant of electricity’ – and that needs to change",
       "summary": "Fatih Birol, Executive Director Commentary — 22 October 2025 Cite commentary Close dialog IEA (2025), Hydropower is still ‘the forgotten giant of electricity’ – and that needs to change, IEA, Paris https://www.iea.org/commentaries/hydropower-is-still-the-forgotten-giant-of-electricity-and-that-needs",
-      "topics": [],
+      "topics": [
+        "정책·규제"
+      ],
       "publishedAt": "2026-05-12T07:08:48.349Z",
       "originalUrl": "https://www.iea.org/commentaries/hydropower-is-still-the-forgotten-giant-of-electricity-and-that-needs-to-change",
-      "collectedAt": "2026-05-12T07:08:48.349Z"
+      "collectedAt": "2026-05-12T07:08:48.349Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "b1b13b7e-a3a6-4aa2-a3df-a1c8f6b6aa3e",
@@ -420,7 +459,8 @@
       "topics": [],
       "publishedAt": "2026-05-12T07:09:40.110Z",
       "originalUrl": "https://www.energy.or.kr/front/board/View3.do?boardMngNo=3&boardNo=10024980",
-      "collectedAt": "2026-05-12T07:09:40.110Z"
+      "collectedAt": "2026-05-12T07:09:40.110Z",
+      "primaryTopic": null
     },
     {
       "id": "bacde388-a52f-429e-8836-5d329fa84650",
@@ -435,7 +475,8 @@
       "topics": [],
       "publishedAt": "2026-05-12T07:09:40.111Z",
       "originalUrl": "https://www.energy.or.kr/front/board/View3.do?boardMngNo=3&boardNo=10024979",
-      "collectedAt": "2026-05-12T07:09:40.111Z"
+      "collectedAt": "2026-05-12T07:09:40.111Z",
+      "primaryTopic": null
     },
     {
       "id": "d61b3cd0-dfbf-4412-92c1-7a830b55d3d2",
@@ -447,10 +488,13 @@
       "title": "에너지공단, 기후부·에너지유관기관과 함께‘오늘의 에너지절약 국민행동’순차 홍보 - 여섯 번째 국민행동 : 고효율 가전제품 구매, LED로 교체 -",
       "titleOriginal": null,
       "summary": "보도자료 에너지공단, 기후부·에너지유관기관과 함께‘오늘의 에너지절약 국민행동’순차 홍보 - 여섯 번째 국민행동 : 고효율 가전제품 구매, LED로 교체 - 작성일 :2026-04-22 에너지공단, 기후부·에너지유관기관과 함께‘오늘의 에너지절약 국민행동’순차 홍보 - 여섯 번째 국민행동 : 고효율 가전제품 구매, LED로 교체 - 한국에너지공단(이사장 최재관, 이하 공단)은 기후에너지환경부, 에너지 유관기관과 함께 진행하는 ‘오늘의 에너지절약 국민행동’ 순차 홍보의 여섯 번째 국민행동으로 「고효율 가전제품 구매하고, LED로 교체하기",
-      "topics": [],
+      "topics": [
+        "정책·규제"
+      ],
       "publishedAt": "2026-05-12T07:09:40.111Z",
       "originalUrl": "https://www.energy.or.kr/front/board/View3.do?boardMngNo=3&boardNo=10024977",
-      "collectedAt": "2026-05-12T07:09:40.111Z"
+      "collectedAt": "2026-05-12T07:09:40.111Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "288e1f93-43c0-46c3-ac07-6b51ded161cf",
@@ -462,10 +506,13 @@
       "title": "한국에너지공단, 등유·LPG 사용 에너지 취약계층에 5만 원 긴급 추가 지원",
       "titleOriginal": null,
       "summary": "보도자료 한국에너지공단, 등유·LPG 사용 에너지 취약계층에 5만 원 긴급 추가 지원 작성일 :2026-04-20 한국에너지공단, 등유·LPG 사용 에너지 취약계층에 5만 원 긴급 추가 지원 - 기존 에너지바우처 등유·LPG 선불카드에 추가 지원 금액(5만원) 지급 - 한국에너지공단(이사장 최재관, 이하 공단)은 최근 중동 전쟁 장기화로 국제 유가가 급등함에 따라 에너지 취약계층의 실질적 부담을 최소화하고자 에너지 바우처 수급 세대 중 등유 및 액화석유가스(LPG) 사용 세대에 5만 원을 추가 지원한다고 밝혔다. 이번 조치는 지난 ",
-      "topics": [],
+      "topics": [
+        "시장·가격 동향"
+      ],
       "publishedAt": "2026-05-12T07:09:40.111Z",
       "originalUrl": "https://www.energy.or.kr/front/board/View3.do?boardMngNo=3&boardNo=10024976",
-      "collectedAt": "2026-05-12T07:09:40.111Z"
+      "collectedAt": "2026-05-12T07:09:40.111Z",
+      "primaryTopic": "시장·가격 동향"
     },
     {
       "id": "effd6732-069b-4b92-a18e-7fc95b5caff8",
@@ -480,7 +527,8 @@
       "topics": [],
       "publishedAt": "2026-05-12T07:09:40.112Z",
       "originalUrl": "https://www.energy.or.kr/front/board/View3.do?boardMngNo=3&boardNo=10024975",
-      "collectedAt": "2026-05-12T07:09:40.112Z"
+      "collectedAt": "2026-05-12T07:09:40.112Z",
+      "primaryTopic": null
     },
     {
       "id": "36f5b53c-e86b-4b7b-a1ad-d18cdb080ceb",
@@ -495,7 +543,8 @@
       "topics": [],
       "publishedAt": "2026-05-12T07:09:40.112Z",
       "originalUrl": "https://www.energy.or.kr/front/board/View3.do?boardMngNo=3&boardNo=10024974",
-      "collectedAt": "2026-05-12T07:09:40.112Z"
+      "collectedAt": "2026-05-12T07:09:40.112Z",
+      "primaryTopic": null
     },
     {
       "id": "9df34321-8ee9-4e69-991e-1a3390d905ae",
@@ -510,7 +559,8 @@
       "topics": [],
       "publishedAt": "2026-05-12T07:09:40.112Z",
       "originalUrl": "https://www.energy.or.kr/front/board/View3.do?boardMngNo=3&boardNo=10024973",
-      "collectedAt": "2026-05-12T07:09:40.112Z"
+      "collectedAt": "2026-05-12T07:09:40.112Z",
+      "primaryTopic": null
     },
     {
       "id": "5288d2d0-6957-47c3-a436-f84d5e9ac7f0",
@@ -522,10 +572,13 @@
       "title": "에너지공단, 기후부·에너지 유관기관과 함께 ‘오늘의 에너지절약 국민행동’ 순차 홍보 시작",
       "titleOriginal": null,
       "summary": "보도자료 에너지공단, 기후부·에너지 유관기관과 함께 ‘오늘의 에너지절약 국민행동’ 순차 홍보 시작 작성일 :2026-04-14 에너지공단, 기후부·에너지 유관기관과 함께 ‘오늘의 에너지절약 국민행동’순차 홍보 시작 - 첫 번째 국민행동 : 승용차 5부제 참여하기 - 이번 순차 홍보는 중동전쟁 장기화로 자원안보위기 상황이 지속되는 가운데, 국민의 에너지절약 동참이 더욱 중요해짐에 따라 지난 3월 24일 기후에너지환경부가 발표한 ‘12가지 에너지절약 국민 행동’을 알기 쉽게 소개하고, 국민의 생활 속 에너지절약 실천을 확산하기 위해 추",
-      "topics": [],
+      "topics": [
+        "정책·규제"
+      ],
       "publishedAt": "2026-05-12T07:09:40.112Z",
       "originalUrl": "https://www.energy.or.kr/front/board/View3.do?boardMngNo=3&boardNo=10024972",
-      "collectedAt": "2026-05-12T07:09:40.112Z"
+      "collectedAt": "2026-05-12T07:09:40.112Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "2dda0998-e637-456e-bca1-e5ac6589b4e9",
@@ -536,10 +589,13 @@
       "title": "[IRENA] 보고서",
       "titleOriginal": null,
       "summary": "WORLD\nENERGY\nTRANSITIONS\nOUTLOOK 2024\n1.5° C PATHWAY\n\n-- 1 of 142 --\n\nABOUT IRENA\nThe International Renewable Energy Agency (IRENA) serves as the principal platform for international\nco-operation, a c",
-      "topics": [],
+      "topics": [
+        "에너지원"
+      ],
       "publishedAt": "2026-05-12T07:09:59.805Z",
       "originalUrl": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Nov/IRENA_World_Energy_Transitions_Outlook_2024.pdf",
-      "collectedAt": "2026-05-12T07:09:59.805Z"
+      "collectedAt": "2026-05-12T07:09:59.805Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "394301d1-b4de-40d9-81d8-58d507160fba",
@@ -556,7 +612,8 @@
       ],
       "publishedAt": "2026-05-12T07:35:10.000Z",
       "originalUrl": "https://www.pv-magazine.com/2026/05/12/coal-india-shuts-down-solar-manufacturing-arm/",
-      "collectedAt": "2026-05-12T08:01:17.422Z"
+      "collectedAt": "2026-05-12T08:01:17.422Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "c7ababc5-4b0f-40d2-ad65-15faf8d067cd",
@@ -574,7 +631,8 @@
       ],
       "publishedAt": "2026-05-12T06:59:29.000Z",
       "originalUrl": "https://www.pv-magazine.com/2026/05/12/zendure-launches-ems-combining-rooftop-pv-battery-storage-and-household-loads/",
-      "collectedAt": "2026-05-12T08:01:17.423Z"
+      "collectedAt": "2026-05-12T08:01:17.423Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "8e7ddb5a-3f15-49d6-99aa-11bbd446cc32",
@@ -592,7 +650,8 @@
       ],
       "publishedAt": "2026-05-12T06:12:21.000Z",
       "originalUrl": "https://www.pv-magazine.com/2026/05/12/new-zealand-moves-to-reduce-red-tape-for-rooftop-solar/",
-      "collectedAt": "2026-05-12T08:01:17.423Z"
+      "collectedAt": "2026-05-12T08:01:17.423Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "6053465e-32c0-4c05-a6ee-b408c1ccb9d9",
@@ -610,7 +669,8 @@
       ],
       "publishedAt": "2026-05-12T06:00:46.000Z",
       "originalUrl": "https://www.pv-magazine.com/2026/05/12/u-s-transformer-market-faces-severe-supply-constraints/",
-      "collectedAt": "2026-05-12T08:01:17.423Z"
+      "collectedAt": "2026-05-12T08:01:17.423Z",
+      "primaryTopic": "전력 인프라"
     },
     {
       "id": "1804ef76-63f4-440a-b42e-79a020109693",
@@ -628,7 +688,8 @@
       ],
       "publishedAt": "2026-05-12T03:41:16.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/11/34-northvolt-sized-battery-factories-could-be-lost-if-eu-scales-back-ev-targets-study/",
-      "collectedAt": "2026-05-12T08:02:02.060Z"
+      "collectedAt": "2026-05-12T08:02:02.060Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "819b7e38-5a59-44e5-aaaa-1b98dee57f85",
@@ -646,7 +707,8 @@
       ],
       "publishedAt": "2026-05-12T02:57:35.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/11/introducing-ford-energy/",
-      "collectedAt": "2026-05-12T08:02:02.061Z"
+      "collectedAt": "2026-05-12T08:02:02.061Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "cf9ef734-0942-4c55-a153-c73535185ca7",
@@ -664,7 +726,8 @@
       ],
       "publishedAt": "2026-05-12T00:21:17.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/11/epa-to-allow-power-plants-to-bulldoze-through-pollution-protections/",
-      "collectedAt": "2026-05-12T08:02:02.061Z"
+      "collectedAt": "2026-05-12T08:02:02.061Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "1aa00dae-36ad-490d-aee6-59311cb269e0",
@@ -682,7 +745,8 @@
       ],
       "publishedAt": "2026-05-12T08:00:00.000Z",
       "originalUrl": "https://www.etnews.com/20260512000364",
-      "collectedAt": "2026-05-12T08:05:22.979Z"
+      "collectedAt": "2026-05-12T08:05:22.979Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "22b969ac-064d-4ca3-874a-6e4b2716c59e",
@@ -699,7 +763,8 @@
       ],
       "publishedAt": "2026-05-12T07:30:46.000Z",
       "originalUrl": "https://www.etnews.com/20260512000451",
-      "collectedAt": "2026-05-12T08:05:22.981Z"
+      "collectedAt": "2026-05-12T08:05:22.981Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "0de6b7d1-3cd4-48f6-987e-2bd7d5ea3c73",
@@ -716,7 +781,8 @@
       ],
       "publishedAt": "2026-05-12T04:28:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260512021183827",
-      "collectedAt": "2026-05-12T08:11:28.946Z"
+      "collectedAt": "2026-05-12T08:11:28.946Z",
+      "primaryTopic": "전력 인프라"
     },
     {
       "id": "228cf71c-bede-4474-933a-4cbdd3df67a4",
@@ -728,10 +794,13 @@
       "title": "[EE칼럼] AI와 전력, 그리고 국가 전략의 재편",
       "titleOriginal": null,
       "summary": "필자는 지난 4월부터 스탠포드대학교 프리먼 스포글리 국제학 연구소(FSI, The Freeman Spogli Institute for International Studies at Stanford) 산하 아시아태평양연구센터(APARC, The Shorenstein Asia-Pacific Research Center)에 머물며, 다양한 학제 간 세미나와 토론에 참여할 기회를 가졌다. 경제, 기술, 안보를 넘나드는 논의 속에서 가장 중요한 시대적 흐름을 하나 꼽으라면 역시 인공지능(AI)이다. AI는 이미 선택의 문제가 아니며, AI를 ",
-      "topics": [],
+      "topics": [
+        "운영 최적화"
+      ],
       "publishedAt": "2026-05-12T01:58:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260512027515283",
-      "collectedAt": "2026-05-12T08:11:28.947Z"
+      "collectedAt": "2026-05-12T08:11:28.947Z",
+      "primaryTopic": "운영 최적화"
     },
     {
       "id": "38d7f5ff-8464-47eb-b12c-b9aceb7b938e",
@@ -748,7 +817,8 @@
       ],
       "publishedAt": "2026-05-12T00:41:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260512028513939",
-      "collectedAt": "2026-05-12T08:11:28.947Z"
+      "collectedAt": "2026-05-12T08:11:28.947Z",
+      "primaryTopic": "에너지원"
     }
   ]
 }

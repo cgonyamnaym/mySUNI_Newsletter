@@ -18,7 +18,8 @@
       ],
       "publishedAt": "2026-05-02T21:07:24.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/02/living-without-fossil-fuel-is-harder-than-we-think/",
-      "collectedAt": "2026-05-06T06:19:38.041Z"
+      "collectedAt": "2026-05-06T06:19:38.041Z",
+      "primaryTopic": "전력 인프라"
     },
     {
       "id": "91f4bf43-eaca-4987-8da5-322e9f577f61",
@@ -36,7 +37,8 @@
       ],
       "publishedAt": "2026-05-02T19:57:16.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/02/3-2-million-awarded-for-tribal-solar-projects/",
-      "collectedAt": "2026-05-06T06:19:38.041Z"
+      "collectedAt": "2026-05-06T06:19:38.041Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "8d277c4f-3d77-41e4-adcb-c3e0ee82a6dc",
@@ -53,7 +55,8 @@
       ],
       "publishedAt": "2026-05-02T19:28:41.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/02/maritime-decarbonization-is-closer-cheaper-and-more-practical-than-it-looks/",
-      "collectedAt": "2026-05-06T06:19:38.041Z"
+      "collectedAt": "2026-05-06T06:19:38.041Z",
+      "primaryTopic": "ESG·탄소중립"
     },
     {
       "id": "1166fbb6-d026-4d60-b89a-706e2125d7c2",
@@ -71,7 +74,8 @@
       ],
       "publishedAt": "2026-05-02T03:55:35.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/01/un-shipping-deal-lives-to-fight-another-day-as-us-fails-to-derail-negotiations/",
-      "collectedAt": "2026-05-06T06:19:38.041Z"
+      "collectedAt": "2026-05-06T06:19:38.041Z",
+      "primaryTopic": "ESG·탄소중립"
     },
     {
       "id": "4c5d9a86-bd92-48aa-b5e8-3dcc5cb3db65",
@@ -89,7 +93,8 @@
       ],
       "publishedAt": "2026-05-02T23:00:00.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367591",
-      "collectedAt": "2026-05-06T06:19:49.971Z"
+      "collectedAt": "2026-05-06T06:19:49.971Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "439bf648-822d-4435-8bfe-d7683756574d",
@@ -107,7 +112,8 @@
       ],
       "publishedAt": "2026-05-02T10:22:17.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367600",
-      "collectedAt": "2026-05-06T06:19:49.971Z"
+      "collectedAt": "2026-05-06T06:19:49.971Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "32204902-579f-4cdb-83b1-253e14bb18f3",
@@ -124,7 +130,8 @@
       ],
       "publishedAt": "2026-05-02T10:21:50.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367562",
-      "collectedAt": "2026-05-06T06:19:49.971Z"
+      "collectedAt": "2026-05-06T06:19:49.971Z",
+      "primaryTopic": "시장·가격 동향"
     },
     {
       "id": "e6eeafca-8380-4a3c-afc8-894510968cc3",
@@ -141,7 +148,8 @@
       ],
       "publishedAt": "2026-05-02T10:20:25.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367553",
-      "collectedAt": "2026-05-06T06:19:49.971Z"
+      "collectedAt": "2026-05-06T06:19:49.971Z",
+      "primaryTopic": "시장·가격 동향"
     },
     {
       "id": "b012f8bf-514a-4451-9dbb-d47a03a36f9a",
@@ -156,7 +164,8 @@
       "topics": [],
       "publishedAt": "2026-05-02T23:56:35.000Z",
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69855",
-      "collectedAt": "2026-05-06T06:19:57.190Z"
+      "collectedAt": "2026-05-06T06:19:57.190Z",
+      "primaryTopic": null
     },
     {
       "id": "2994d926-a7d9-4190-af75-ccff30642eee",
@@ -171,7 +180,8 @@
       "topics": [],
       "publishedAt": "2026-05-02T23:50:30.000Z",
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69854",
-      "collectedAt": "2026-05-06T06:19:57.190Z"
+      "collectedAt": "2026-05-06T06:19:57.190Z",
+      "primaryTopic": null
     },
     {
       "id": "d055cfab-6614-4c14-a09f-7cf4cba81668",
@@ -188,7 +198,8 @@
       ],
       "publishedAt": "2026-05-02T23:39:34.000Z",
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69853",
-      "collectedAt": "2026-05-06T06:19:57.190Z"
+      "collectedAt": "2026-05-06T06:19:57.190Z",
+      "primaryTopic": "ESG·탄소중립"
     },
     {
       "id": "77e61d56-d16b-4d9b-8866-6d1c2221b4ab",
@@ -206,7 +217,8 @@
       ],
       "publishedAt": "2026-05-02T23:07:00.000Z",
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69852",
-      "collectedAt": "2026-05-06T06:19:57.190Z"
+      "collectedAt": "2026-05-06T06:19:57.190Z",
+      "primaryTopic": "전력 인프라"
     },
     {
       "id": "aabd19cb-c364-4e9d-a550-d23ec39e1108",
@@ -221,7 +233,8 @@
       "topics": [],
       "publishedAt": "2026-05-02T22:52:50.000Z",
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69851",
-      "collectedAt": "2026-05-06T06:19:57.190Z"
+      "collectedAt": "2026-05-06T06:19:57.190Z",
+      "primaryTopic": null
     },
     {
       "id": "d8bce363-7059-41ad-8dd4-a78448359892",
@@ -239,7 +252,8 @@
       ],
       "publishedAt": "2026-05-02T22:43:22.000Z",
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69850",
-      "collectedAt": "2026-05-06T06:19:57.190Z"
+      "collectedAt": "2026-05-06T06:19:57.190Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "cc400896-1f04-4d29-8f8d-9ceadfd1d596",
@@ -254,7 +268,8 @@
       "topics": [],
       "publishedAt": "2026-05-02T01:51:46.000Z",
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69849",
-      "collectedAt": "2026-05-06T06:19:57.190Z"
+      "collectedAt": "2026-05-06T06:19:57.190Z",
+      "primaryTopic": null
     },
     {
       "id": "9dfdd99d-6a2c-49c8-9a3d-df0bcad4f350",
@@ -269,7 +284,8 @@
       "topics": [],
       "publishedAt": "2026-05-02T21:31:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260430026208374",
-      "collectedAt": "2026-05-06T06:20:16.677Z"
+      "collectedAt": "2026-05-06T06:20:16.677Z",
+      "primaryTopic": null
     }
   ]
 }

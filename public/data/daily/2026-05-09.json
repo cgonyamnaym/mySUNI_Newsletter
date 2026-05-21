@@ -19,7 +19,8 @@
       ],
       "publishedAt": "2026-05-09T09:30:08.000Z",
       "originalUrl": "https://www.pv-magazine.com/2026/05/09/entso-e-data-center-growth-europe-demand-side-flexibility-market-participation-policy-recommendations-grid-operators/",
-      "collectedAt": "2026-05-12T08:01:17.426Z"
+      "collectedAt": "2026-05-12T08:01:17.426Z",
+      "primaryTopic": "전력 인프라"
     },
     {
       "id": "7be46ffb-f693-45f4-9cab-fb8573d35902",
@@ -37,7 +38,8 @@
       ],
       "publishedAt": "2026-05-09T09:00:08.000Z",
       "originalUrl": "https://www.pv-magazine.com/2026/05/09/sunwoda-completes-large-scale-fire-test-for-5-mwh-liquid-cooling-ess/",
-      "collectedAt": "2026-05-12T08:01:17.429Z"
+      "collectedAt": "2026-05-12T08:01:17.429Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "413c8eae-44d9-4186-a7fb-82fa3cf95121",
@@ -55,7 +57,8 @@
       ],
       "publishedAt": "2026-05-09T08:30:43.000Z",
       "originalUrl": "https://www.pv-magazine.com/2026/05/09/argentina-sees-strong-growth-in-solar-distributed-generation-amid-electricity-price-hikes/",
-      "collectedAt": "2026-05-12T08:01:17.430Z"
+      "collectedAt": "2026-05-12T08:01:17.430Z",
+      "primaryTopic": "시장·가격 동향"
     },
     {
       "id": "fd62563f-330a-45f5-b467-aee6990b7de3",
@@ -73,7 +76,8 @@
       ],
       "publishedAt": "2026-05-09T08:00:44.000Z",
       "originalUrl": "https://www.pv-magazine.com/2026/05/09/solar-pv-accounted-for-29-of-electricity-generation-in-chile-in-march-with-instantaneous-peaks-reaching-75/",
-      "collectedAt": "2026-05-12T08:01:17.430Z"
+      "collectedAt": "2026-05-12T08:01:17.430Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "ef26ce9f-2d43-4ef3-820d-04b0607185f8",
@@ -91,7 +95,8 @@
       ],
       "publishedAt": "2026-05-09T07:30:42.000Z",
       "originalUrl": "https://www.pv-magazine.com/2026/05/09/spain-supports-4-2-gw-8-gwh-of-pumped-hydro-storage-with-e165-million/",
-      "collectedAt": "2026-05-12T08:01:17.430Z"
+      "collectedAt": "2026-05-12T08:01:17.430Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "1d22f11b-f86b-479d-81c2-60281672204a",
@@ -109,7 +114,8 @@
       ],
       "publishedAt": "2026-05-09T07:00:03.000Z",
       "originalUrl": "https://www.pv-magazine.com/2026/05/09/u-s-solar-panel-manufacturers-need-to-learn-to-solder/",
-      "collectedAt": "2026-05-12T08:01:17.430Z"
+      "collectedAt": "2026-05-12T08:01:17.430Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "4968a8fa-d631-4a31-9b34-a1a296574560",
@@ -127,7 +133,8 @@
       ],
       "publishedAt": "2026-05-09T06:30:03.000Z",
       "originalUrl": "https://www.pv-magazine.com/2026/05/09/bolivia-presents-new-law-to-boost-renewables-private-investments/",
-      "collectedAt": "2026-05-12T08:01:17.430Z"
+      "collectedAt": "2026-05-12T08:01:17.430Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "9151b804-a727-4914-9b3f-a488925bfbe6",
@@ -145,7 +152,8 @@
       ],
       "publishedAt": "2026-05-09T18:12:49.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/09/philippines-first-offshore-wind-zones-could-generate-11-twh-a-year-but-when/",
-      "collectedAt": "2026-05-12T08:02:02.066Z"
+      "collectedAt": "2026-05-12T08:02:02.066Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "875acca6-3e28-41db-b454-43362eb9854b",
@@ -163,7 +171,8 @@
       ],
       "publishedAt": "2026-05-09T17:33:00.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/09/indonesias-ev-transition-not-just-to-cut-emissions-more-so-to-cut-oil-dependence-study-says/",
-      "collectedAt": "2026-05-12T08:02:02.066Z"
+      "collectedAt": "2026-05-12T08:02:02.066Z",
+      "primaryTopic": "운영 최적화"
     },
     {
       "id": "ab0187c0-e675-4f41-ad88-94dcb055225d",
@@ -178,7 +187,8 @@
       "topics": [],
       "publishedAt": "2026-05-09T15:00:32.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/09/vauxhall-plans-new-low-cost-electric-suv-with-assistance-from-leapmotor/",
-      "collectedAt": "2026-05-12T08:02:02.066Z"
+      "collectedAt": "2026-05-12T08:02:02.066Z",
+      "primaryTopic": null
     },
     {
       "id": "2df94b45-897f-4098-a301-df6fd6cd87a5",
@@ -195,7 +205,8 @@
       ],
       "publishedAt": "2026-05-09T03:57:43.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/08/an-electric-citroen-2cv-for-less-than-15000-im-drooling/",
-      "collectedAt": "2026-05-12T08:02:02.067Z"
+      "collectedAt": "2026-05-12T08:02:02.067Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "e52fa2a4-e6d2-4db0-9060-94fe58689ba3",
@@ -212,7 +223,8 @@
       ],
       "publishedAt": "2026-05-09T03:50:26.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/08/irelands-energy-poverty-problem-needs-flexible-electric-heat-not-fabric-first-delay/",
-      "collectedAt": "2026-05-12T08:02:02.067Z"
+      "collectedAt": "2026-05-12T08:02:02.067Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "347bee9e-1c98-465d-b619-596c74378fc8",
@@ -230,7 +242,8 @@
       ],
       "publishedAt": "2026-05-09T03:31:05.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/08/ryanairs-global-emissions-are-now-50-higher-than-in-2019-the-largest-increase-worldwide/",
-      "collectedAt": "2026-05-12T08:02:02.068Z"
+      "collectedAt": "2026-05-12T08:02:02.068Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "6671c9f1-061c-4f90-babe-e8c587fff50c",
@@ -247,7 +260,8 @@
       ],
       "publishedAt": "2026-05-09T15:00:00.000Z",
       "originalUrl": "https://electrek.co/2026/05/09/gm-car-battery-backup-gm-energy-home-system-video/",
-      "collectedAt": "2026-05-12T08:03:51.139Z"
+      "collectedAt": "2026-05-12T08:03:51.139Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "4aaf51af-c03a-4848-ac58-98774d07033d",
@@ -262,7 +276,8 @@
       "topics": [],
       "publishedAt": "2026-05-09T12:34:39.000Z",
       "originalUrl": "https://electrek.co/2026/05/09/get-real-deepway-delivered-8020-electric-semi-trucks-last-year/",
-      "collectedAt": "2026-05-12T08:03:51.139Z"
+      "collectedAt": "2026-05-12T08:03:51.139Z",
+      "primaryTopic": null
     },
     {
       "id": "0ab33886-ed3e-40b3-8287-e43ec6e8302c",
@@ -280,7 +295,8 @@
       ],
       "publishedAt": "2026-05-09T02:53:58.000Z",
       "originalUrl": "https://electrek.co/2026/05/08/at-under-49000-volkswagens-id-buzz-might-finally-be-priced-right/",
-      "collectedAt": "2026-05-12T08:03:51.140Z"
+      "collectedAt": "2026-05-12T08:03:51.140Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "ed54f091-5e07-4c73-99fb-49fe502bd55d",
@@ -298,7 +314,8 @@
       ],
       "publishedAt": "2026-05-09T01:57:01.000Z",
       "originalUrl": "https://electrek.co/2026/05/08/new-chevy-spark-euv-is-officially-the-best-selling-electric-suv-in-brazil/",
-      "collectedAt": "2026-05-12T08:03:51.140Z"
+      "collectedAt": "2026-05-12T08:03:51.140Z",
+      "primaryTopic": "정책·규제"
     }
   ]
 }

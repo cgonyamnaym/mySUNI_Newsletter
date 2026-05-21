@@ -18,7 +18,8 @@
       ],
       "publishedAt": "2026-05-03T21:05:34.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/03/the-new-england-fishing-industry-is-helping-scientists-to-understand-ocean-changes/",
-      "collectedAt": "2026-05-06T06:19:38.041Z"
+      "collectedAt": "2026-05-06T06:19:38.041Z",
+      "primaryTopic": "전력 인프라"
     },
     {
       "id": "4620bafc-baf9-42ec-8e6a-2c7953600ecc",
@@ -35,7 +36,8 @@
       ],
       "publishedAt": "2026-05-03T18:14:35.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/03/eu-green-hydrogen-scheme-embraces-high-tech-solar-foods/",
-      "collectedAt": "2026-05-06T06:19:38.041Z"
+      "collectedAt": "2026-05-06T06:19:38.041Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "745d8f92-0377-417d-b220-eee3cab44d60",
@@ -52,7 +54,8 @@
       ],
       "publishedAt": "2026-05-03T14:41:36.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/03/electric-buses-sent-to-ukraine-for-humanitarian-assistance/",
-      "collectedAt": "2026-05-06T06:19:38.041Z"
+      "collectedAt": "2026-05-06T06:19:38.041Z",
+      "primaryTopic": "시장·가격 동향"
     },
     {
       "id": "d6a9cc25-f66d-4b64-9dc1-0b99dd148434",
@@ -69,7 +72,8 @@
       ],
       "publishedAt": "2026-05-03T00:25:16.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/02/top-selling-electric-vehicles-in-the-world-march-2026/",
-      "collectedAt": "2026-05-06T06:19:38.041Z"
+      "collectedAt": "2026-05-06T06:19:38.041Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "1019fc8f-fd50-482f-af8e-c10ca0d05e2e",
@@ -86,7 +90,8 @@
       ],
       "publishedAt": "2026-05-03T14:53:00.000Z",
       "originalUrl": "https://electrek.co/2026/05/03/here-are-the-best-electric-bikes-you-can-buy-at-every-price-level/",
-      "collectedAt": "2026-05-06T06:19:39.458Z"
+      "collectedAt": "2026-05-06T06:19:39.458Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "c6d7bd35-d88a-41a9-85eb-8bc1ff674655",
@@ -103,7 +108,8 @@
       ],
       "publishedAt": "2026-05-03T06:23:18.000Z",
       "originalUrl": "https://electrek.co/2026/05/02/segway-launches-60-mph-electric-dirt-bike-and-its-basically-a-full-e-motorcycle/",
-      "collectedAt": "2026-05-06T06:19:39.458Z"
+      "collectedAt": "2026-05-06T06:19:39.458Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "db67ccc2-aff6-4418-bcf2-7997bb2b17ae",
@@ -121,7 +127,8 @@
       ],
       "publishedAt": "2026-05-03T23:46:20.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367631",
-      "collectedAt": "2026-05-06T06:19:49.971Z"
+      "collectedAt": "2026-05-06T06:19:49.971Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "1beb3834-71cd-4745-9fa1-3f79d412becf",
@@ -138,7 +145,8 @@
       ],
       "publishedAt": "2026-05-03T23:00:00.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367568",
-      "collectedAt": "2026-05-06T06:19:49.971Z"
+      "collectedAt": "2026-05-06T06:19:49.971Z",
+      "primaryTopic": "전력 인프라"
     },
     {
       "id": "50b22062-e7e8-424e-a283-320155eb5cf4",
@@ -156,7 +164,8 @@
       ],
       "publishedAt": "2026-05-03T23:00:00.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367567",
-      "collectedAt": "2026-05-06T06:19:49.971Z"
+      "collectedAt": "2026-05-06T06:19:49.971Z",
+      "primaryTopic": "운영 최적화"
     },
     {
       "id": "1ac69635-d9a4-4e72-8d8a-7db855a84a8a",
@@ -171,7 +180,8 @@
       "topics": [],
       "publishedAt": "2026-05-03T23:00:00.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367530",
-      "collectedAt": "2026-05-06T06:19:49.971Z"
+      "collectedAt": "2026-05-06T06:19:49.971Z",
+      "primaryTopic": null
     },
     {
       "id": "57e911cb-eb6e-4d99-8a4c-5a41f4a1cc9f",
@@ -189,7 +199,8 @@
       ],
       "publishedAt": "2026-05-03T12:26:19.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367630",
-      "collectedAt": "2026-05-06T06:19:49.971Z"
+      "collectedAt": "2026-05-06T06:19:49.971Z",
+      "primaryTopic": "ESG·탄소중립"
     },
     {
       "id": "a7ca237a-872b-42d8-93fe-c31cda45aa8b",
@@ -207,7 +218,8 @@
       ],
       "publishedAt": "2026-05-03T11:08:47.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367628",
-      "collectedAt": "2026-05-06T06:19:49.971Z"
+      "collectedAt": "2026-05-06T06:19:49.971Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "5e65dc5e-4a9a-49cd-a1d6-872eabb87304",
@@ -225,7 +237,8 @@
       ],
       "publishedAt": "2026-05-03T10:56:45.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367627",
-      "collectedAt": "2026-05-06T06:19:49.971Z"
+      "collectedAt": "2026-05-06T06:19:49.971Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "a1711a32-812e-4e95-be90-5933e3f049d2",
@@ -242,7 +255,8 @@
       ],
       "publishedAt": "2026-05-03T09:37:56.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367624",
-      "collectedAt": "2026-05-06T06:19:49.971Z"
+      "collectedAt": "2026-05-06T06:19:49.971Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "f4c940ae-26a6-4433-b0b7-e5e4879bce0c",
@@ -260,7 +274,8 @@
       ],
       "publishedAt": "2026-05-03T05:14:56.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367623",
-      "collectedAt": "2026-05-06T06:19:49.971Z"
+      "collectedAt": "2026-05-06T06:19:49.971Z",
+      "primaryTopic": "전력 인프라"
     },
     {
       "id": "9d3090e7-1110-4177-977d-e6c308b1e93e",
@@ -277,7 +292,8 @@
       ],
       "publishedAt": "2026-05-03T03:00:00.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367581",
-      "collectedAt": "2026-05-06T06:19:49.971Z"
+      "collectedAt": "2026-05-06T06:19:49.971Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "81bbf9ca-f78d-4be9-b5d1-79652d996d7a",
@@ -295,7 +311,8 @@
       ],
       "publishedAt": "2026-05-03T02:29:34.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367622",
-      "collectedAt": "2026-05-06T06:19:49.971Z"
+      "collectedAt": "2026-05-06T06:19:49.971Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "43e6eabe-b3ad-41ac-ab44-3730227f6b1a",
@@ -312,7 +329,8 @@
       ],
       "publishedAt": "2026-05-03T00:00:00.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367555",
-      "collectedAt": "2026-05-06T06:19:49.971Z"
+      "collectedAt": "2026-05-06T06:19:49.971Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "430f5c56-4516-4bc3-b524-1112e6d810f4",
@@ -330,7 +348,8 @@
       ],
       "publishedAt": "2026-05-03T23:39:00.000Z",
       "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=166937",
-      "collectedAt": "2026-05-06T06:19:53.880Z"
+      "collectedAt": "2026-05-06T06:19:53.880Z",
+      "primaryTopic": "ESG·탄소중립"
     },
     {
       "id": "dadb4752-07ec-4089-b2f1-ee2357ea0ee1",
@@ -348,7 +367,8 @@
       ],
       "publishedAt": "2026-05-03T23:33:05.000Z",
       "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=166936",
-      "collectedAt": "2026-05-06T06:19:53.880Z"
+      "collectedAt": "2026-05-06T06:19:53.880Z",
+      "primaryTopic": "전력 인프라"
     },
     {
       "id": "15697df6-54cd-4d93-a467-37826c5b14dd",
@@ -365,7 +385,8 @@
       ],
       "publishedAt": "2026-05-03T23:18:00.000Z",
       "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=166935",
-      "collectedAt": "2026-05-06T06:19:53.880Z"
+      "collectedAt": "2026-05-06T06:19:53.880Z",
+      "primaryTopic": "시장·가격 동향"
     },
     {
       "id": "fa2f636e-7c87-49f5-9738-d2e167b02972",
@@ -383,7 +404,8 @@
       ],
       "publishedAt": "2026-05-03T21:00:00.000Z",
       "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=166934",
-      "collectedAt": "2026-05-06T06:19:53.880Z"
+      "collectedAt": "2026-05-06T06:19:53.880Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "7559d780-94b6-43d8-a4c3-3f1415e3fae3",
@@ -401,7 +423,8 @@
       ],
       "publishedAt": "2026-05-03T08:47:03.000Z",
       "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=166933",
-      "collectedAt": "2026-05-06T06:19:53.880Z"
+      "collectedAt": "2026-05-06T06:19:53.880Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "eead6676-0a2b-4d82-bc01-715951d650c4",
@@ -416,7 +439,8 @@
       "topics": [],
       "publishedAt": "2026-05-03T07:40:00.000Z",
       "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=166932",
-      "collectedAt": "2026-05-06T06:19:53.880Z"
+      "collectedAt": "2026-05-06T06:19:53.880Z",
+      "primaryTopic": null
     },
     {
       "id": "8c696050-39a3-4f31-8b01-a55de7ef5c8b",
@@ -434,7 +458,8 @@
       ],
       "publishedAt": "2026-05-03T01:03:28.000Z",
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69860",
-      "collectedAt": "2026-05-06T06:19:57.190Z"
+      "collectedAt": "2026-05-06T06:19:57.190Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "d44d23c2-7b94-4c8f-8225-f97ab8d3f19b",
@@ -451,7 +476,8 @@
       ],
       "publishedAt": "2026-05-03T00:50:28.000Z",
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69859",
-      "collectedAt": "2026-05-06T06:19:57.190Z"
+      "collectedAt": "2026-05-06T06:19:57.190Z",
+      "primaryTopic": "시장·가격 동향"
     },
     {
       "id": "e5e27188-f4de-4527-86a1-84c8c2515dcd",
@@ -469,7 +495,8 @@
       ],
       "publishedAt": "2026-05-03T00:45:09.000Z",
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69858",
-      "collectedAt": "2026-05-06T06:19:57.190Z"
+      "collectedAt": "2026-05-06T06:19:57.190Z",
+      "primaryTopic": "전력 인프라"
     },
     {
       "id": "71a17b6e-f14b-4a2a-a28d-326e1de23560",
@@ -486,7 +513,8 @@
       ],
       "publishedAt": "2026-05-03T00:16:09.000Z",
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69857",
-      "collectedAt": "2026-05-06T06:19:57.190Z"
+      "collectedAt": "2026-05-06T06:19:57.190Z",
+      "primaryTopic": "ESG·탄소중립"
     },
     {
       "id": "887ff76c-96f2-4303-92af-a5c52903113f",
@@ -501,7 +529,8 @@
       "topics": [],
       "publishedAt": "2026-05-03T00:11:32.000Z",
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69856",
-      "collectedAt": "2026-05-06T06:19:57.190Z"
+      "collectedAt": "2026-05-06T06:19:57.190Z",
+      "primaryTopic": null
     },
     {
       "id": "fc734445-4166-4c06-a222-9158c501af8d",
@@ -513,10 +542,14 @@
       "title": "“단기 대안 LNG뿐인데, LNG는 쓰지마”…반도체·DC의 전력 딜레마",
       "titleOriginal": null,
       "summary": "용인반도체 최소 10GW 신규 필요, 데이터센터 2038년까지 3배 이상 증가\n원전·석탄은 시간·입지 제약, 재생+ESS도 한계…SMR은 아직 초기 단계\n단기적·안정적으로 공급 가능한 전력은 LNG뿐이지만 탄소중립에 막혀 \n정부는 규제 강화 흐름…산업계·전문가 “공급 해법 없이 탄소 감축만 강조” ▲용인 처인구 원삼면 반도체클러스터 일반산업단지 조감도. 제공=용인특례시 주요 제조 대기업들이 폭증하는 글로벌 수요를 충당하고 경쟁에 앞서 나가기 위해 현실적으로 액화천연가스(LNG)를 활용한 열병합발전을 검토하고 있지만 정작 정책 환경은",
-      "topics": [],
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
       "publishedAt": "2026-05-03T21:36:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260430021298799",
-      "collectedAt": "2026-05-06T06:20:16.677Z"
+      "collectedAt": "2026-05-06T06:20:16.677Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "4985ac30-b558-4dcb-bd16-023be4d0b09d",
@@ -531,7 +564,8 @@
       "topics": [],
       "publishedAt": "2026-05-03T21:00:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260501028091638",
-      "collectedAt": "2026-05-06T06:20:16.677Z"
+      "collectedAt": "2026-05-06T06:20:16.677Z",
+      "primaryTopic": null
     },
     {
       "id": "0cfbcadd-bb94-488f-bfcf-ac30a87d64df",
@@ -548,7 +582,8 @@
       ],
       "publishedAt": "2026-05-03T02:53:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260503024361851",
-      "collectedAt": "2026-05-06T06:20:16.677Z"
+      "collectedAt": "2026-05-06T06:20:16.677Z",
+      "primaryTopic": "ESG·탄소중립"
     }
   ]
 }

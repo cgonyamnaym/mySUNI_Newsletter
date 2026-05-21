@@ -19,7 +19,8 @@
       ],
       "publishedAt": "2026-05-01T13:47:25.000Z",
       "originalUrl": "https://www.energy-storage.news/data-centres-speed-to-power-need-driving-us-ldes-commercialisation/",
-      "collectedAt": "2026-05-06T06:19:33.818Z"
+      "collectedAt": "2026-05-06T06:19:33.818Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "f3cf384a-a160-4c07-af92-a18dd63dde70",
@@ -37,7 +38,8 @@
       ],
       "publishedAt": "2026-05-01T11:09:59.000Z",
       "originalUrl": "https://www.energy-storage.news/1gwh-of-bess-progressed-across-eu-by-recap-flower-goldbeck-tavion-longi-teos-and-spp/",
-      "collectedAt": "2026-05-06T06:19:33.818Z"
+      "collectedAt": "2026-05-06T06:19:33.818Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "9274babc-171b-4778-bdde-a32c25a3a117",
@@ -54,7 +56,8 @@
       ],
       "publishedAt": "2026-05-01T08:12:01.000Z",
       "originalUrl": "https://www.energy-storage.news/australia-india-japan-philippines-drive-apac-battery-storage-shift/",
-      "collectedAt": "2026-05-06T06:19:33.818Z"
+      "collectedAt": "2026-05-06T06:19:33.818Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "174dc488-e81f-4018-a4f6-03e18bb710fd",
@@ -72,7 +75,8 @@
       ],
       "publishedAt": "2026-05-01T19:30:00.000Z",
       "originalUrl": "https://www.canarymedia.com/articles/hydrogen/socalgas-customers-spared-hydrogen-pipeline-plans",
-      "collectedAt": "2026-05-06T06:19:35.302Z"
+      "collectedAt": "2026-05-06T06:19:35.302Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "df03266a-95fd-4485-9315-636638faa2a7",
@@ -90,7 +94,8 @@
       ],
       "publishedAt": "2026-05-01T21:51:57.000Z",
       "originalUrl": "https://electrek.co/2026/05/01/solar-farm-lets-cattle-roam-under-moving-panels/",
-      "collectedAt": "2026-05-06T06:19:39.458Z"
+      "collectedAt": "2026-05-06T06:19:39.458Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "927698e5-109d-4391-a507-73635aa6e574",
@@ -108,7 +113,8 @@
       ],
       "publishedAt": "2026-05-01T18:24:12.000Z",
       "originalUrl": "https://electrek.co/2026/05/01/1-4b-saved-massachusetts-locks-in-cheaper-offshore-wind-power/",
-      "collectedAt": "2026-05-06T06:19:39.458Z"
+      "collectedAt": "2026-05-06T06:19:39.458Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "cca76be5-e5cd-451e-8d55-6afc43998356",
@@ -126,7 +132,8 @@
       ],
       "publishedAt": "2026-05-01T10:07:13.000Z",
       "originalUrl": "https://www.windpowermonthly.com/article/1956757/eu-takes-three-countries-court-failures-renewables-drive",
-      "collectedAt": "2026-05-06T06:19:48.443Z"
+      "collectedAt": "2026-05-06T06:19:48.443Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "b6260049-20c8-4041-9c94-27c327abc744",
@@ -144,7 +151,8 @@
       ],
       "publishedAt": "2026-05-01T09:16:20.000Z",
       "originalUrl": "https://www.windpowermonthly.com/article/1956742/cip-launches-new-developer-deal-closes-orsteds-onshore-renewables-business",
-      "collectedAt": "2026-05-06T06:19:48.443Z"
+      "collectedAt": "2026-05-06T06:19:48.443Z",
+      "primaryTopic": "ESG·탄소중립"
     },
     {
       "id": "3250c19a-8eab-46d5-a002-bafa1af33a23",
@@ -161,7 +169,8 @@
       ],
       "publishedAt": "2026-05-01T08:03:51.000Z",
       "originalUrl": "https://www.windpowermonthly.com/article/1956730/wind-power-patents-dongfang-siemens-gamesa-mingyang-equinor",
-      "collectedAt": "2026-05-06T06:19:48.443Z"
+      "collectedAt": "2026-05-06T06:19:48.443Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "73707f97-2c0d-4bf1-a844-7eb6787f2585",
@@ -178,7 +187,8 @@
       ],
       "publishedAt": "2026-05-01T23:00:00.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367563",
-      "collectedAt": "2026-05-06T06:19:49.971Z"
+      "collectedAt": "2026-05-06T06:19:49.971Z",
+      "primaryTopic": "운영 최적화"
     },
     {
       "id": "9e41f890-1b5f-4b6f-b1f4-84497d18b9da",
@@ -193,7 +203,8 @@
       "topics": [],
       "publishedAt": "2026-05-01T22:00:00.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367601",
-      "collectedAt": "2026-05-06T06:19:49.971Z"
+      "collectedAt": "2026-05-06T06:19:49.971Z",
+      "primaryTopic": null
     },
     {
       "id": "299029bb-d7be-400f-88a7-328d44e93cc9",
@@ -211,7 +222,8 @@
       ],
       "publishedAt": "2026-05-01T08:45:23.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367619",
-      "collectedAt": "2026-05-06T06:19:49.971Z"
+      "collectedAt": "2026-05-06T06:19:49.971Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "2bbeb0e7-247c-434f-b8e2-9acf795987aa",
@@ -229,7 +241,8 @@
       ],
       "publishedAt": "2026-05-01T05:00:00.000Z",
       "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367599",
-      "collectedAt": "2026-05-06T06:19:49.971Z"
+      "collectedAt": "2026-05-06T06:19:49.971Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "186712dd-7e34-47e3-aedd-477b34b852c8",
@@ -241,10 +254,14 @@
       "title": "[에너지 인사이트] “닫힌 듯 열려 있는 호르무즈”…에너지 안보의 본질을 묻다",
       "titleOriginal": null,
       "summary": "“완전 봉쇄 아닌 ‘선별적 리스크’…시장보다 구조가 흔들린다”\n중동 변수 반복되는 시대…에너지 정책은 ‘최악’을 기준으로 설계해야\n가격보다 중요한 안정성…균형 잡힌 에너지믹스가 해법 ▲세계 원유 물동량의 1/5, 우리나라 원유 수입의 2/3 이상이 통과하는 중동의 호르무즈해협(오른쪽)과 호르무즈해협 봉쇄 시 대안 길인 홍해해협(왼쪽). 사진=구글 지도 중동 사태가 한치앞도 예상할 수 없는 상황으로 전개되고 있다. 호르무즈 해협의 불확실성 지속으로 글로벌 에너지 시장은 연일 롤러코스터같은 변동성을 보이고 있다. 완전한 차단 여부보다 ",
-      "topics": [],
+      "topics": [
+        "시장·가격 동향",
+        "정책·규제"
+      ],
       "publishedAt": "2026-05-01T21:41:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260430025248362",
-      "collectedAt": "2026-05-06T06:20:16.677Z"
+      "collectedAt": "2026-05-06T06:20:16.677Z",
+      "primaryTopic": "시장·가격 동향"
     },
     {
       "id": "9beddd79-2337-4e65-964b-bda25aa0ebce",
@@ -256,10 +273,13 @@
       "title": "[EE칼럼] 트럼프 리스크와 중동 전쟁: 에너지 질서 재편의 출발점",
       "titleOriginal": null,
       "summary": "김동성(Robert Kim) 변호사 / 영국 킹스톤 왕립자치시 의원 / 한영변호사협회장 ▲김동성(Robert Kim) 변호사 / 영국 킹스톤 왕립자치시 의원 / 한영변호사협회장 브렉시트, 러시아–우크라이나 전쟁, 가자 사태 등 이미 세계적으로 불확실성이 많은 상황에서 다시 등장한 트럼프는 관세 압박, 베네주엘라 대통령 납치, 그린랜드 강제매입 시도, 캐나다 합병 협박 그리고 미·이란 전쟁으로 세계적인 긴장을 극도로 고조시키며 동맹과 통상, 에너지 시장에 추가적인 변동성을 부여하고 있다. 이러한 사건들은 서로 다른 지역에서 발생했지만",
-      "topics": [],
+      "topics": [
+        "시장·가격 동향"
+      ],
       "publishedAt": "2026-05-01T21:06:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260430023157810",
-      "collectedAt": "2026-05-06T06:20:16.677Z"
+      "collectedAt": "2026-05-06T06:20:16.677Z",
+      "primaryTopic": "시장·가격 동향"
     }
   ]
 }

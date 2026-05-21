@@ -19,7 +19,8 @@
       ],
       "publishedAt": "2026-05-10T14:57:24.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/10/more-battery-electric-trucks-take-to-australian-roads/",
-      "collectedAt": "2026-05-12T08:02:02.065Z"
+      "collectedAt": "2026-05-12T08:02:02.065Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "07ba6c70-bc56-43d2-aae8-5ba3f4135a26",
@@ -34,7 +35,8 @@
       "topics": [],
       "publishedAt": "2026-05-10T13:37:29.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/10/greenlane-expands-electric-truck-charging-plans-chargers-in-texas/",
-      "collectedAt": "2026-05-12T08:02:02.065Z"
+      "collectedAt": "2026-05-12T08:02:02.065Z",
+      "primaryTopic": null
     },
     {
       "id": "6e887899-68a9-45e3-b2c8-1438727000d8",
@@ -51,7 +53,8 @@
       ],
       "publishedAt": "2026-05-10T00:52:16.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/09/offshore-wind-in-the-philippines-wont-prosper-without-ports/",
-      "collectedAt": "2026-05-12T08:02:02.066Z"
+      "collectedAt": "2026-05-12T08:02:02.066Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "faf0751a-3101-4272-8bc9-5dce7482ef9e",
@@ -68,7 +71,8 @@
       ],
       "publishedAt": "2026-05-10T13:13:28.000Z",
       "originalUrl": "https://electrek.co/2026/05/10/e-quipment-highlight-kalmar-li-ion-super-heavy-electric-forklifts/",
-      "collectedAt": "2026-05-12T08:03:51.138Z"
+      "collectedAt": "2026-05-12T08:03:51.138Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "1b9a11fc-7014-4fe8-ae4b-9f5099b7b0b6",
@@ -83,7 +87,8 @@
       "topics": [],
       "publishedAt": "2026-05-10T23:50:14.000Z",
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=69898",
-      "collectedAt": "2026-05-12T08:06:09.990Z"
+      "collectedAt": "2026-05-12T08:06:09.990Z",
+      "primaryTopic": null
     },
     {
       "id": "56af6326-8b50-47fa-8472-f47c4b421449",
@@ -98,7 +103,8 @@
       "topics": [],
       "publishedAt": "2026-05-10T21:00:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260509020183337",
-      "collectedAt": "2026-05-12T08:11:28.948Z"
+      "collectedAt": "2026-05-12T08:11:28.948Z",
+      "primaryTopic": null
     },
     {
       "id": "ac713572-174f-4d91-ab4c-83b4511dc4f4",
@@ -115,7 +121,8 @@
       ],
       "publishedAt": "2026-05-10T12:09:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260510025503540",
-      "collectedAt": "2026-05-12T08:11:28.948Z"
+      "collectedAt": "2026-05-12T08:11:28.948Z",
+      "primaryTopic": "에너지원"
     },
     {
       "id": "6e97f657-0069-4b3f-b6bb-d8caf29e2542",
@@ -127,10 +134,14 @@
       "title": "SK에너지, 전국 SK주유소에 월 최대 200억 지원",
       "titleOriginal": null,
       "summary": "최고가격제 시행부터 종료까지…“유통 안정 취지” ▲SK이노베이션 울산 콤플렉스(CLX) 전경. 사진=SK이노베이션 SK에너지는 직영을 제외한 국내 SK주유소 2500여곳 전체를 대상으로 매월 최대 200억원 규모의 고유가·위기극복 지원금을 지급하겠다고 10일 밝혔다. 지원 대상 기간은 1차 최고가격제 시행 시점인 지난 3월 13일 0시부터 향후 최고가격제 종료일까지다. SK에너지는 3~4월분 지원금에 대해 이르면 이달 중 전달을 마칠 계획이다. 지원금은 판매량 연동 지원금과 정액 지원 방식으로 지급된다. 고유가에 따른 전국 SK주유",
-      "topics": [],
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
       "publishedAt": "2026-05-10T06:49:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260510023213414",
-      "collectedAt": "2026-05-12T08:11:28.949Z"
+      "collectedAt": "2026-05-12T08:11:28.949Z",
+      "primaryTopic": "정책·규제"
     },
     {
       "id": "ed35d4cb-063f-4e3d-b3dd-2c0dae62621a",
@@ -142,10 +153,13 @@
       "title": "3월 OECD 에너지물가 상승률 역대 세 번째…“한국도 안심 이르다”",
       "titleOriginal": null,
       "summary": "지난 3월 경제협력개발기구(OECD) 회원국의 에너지 물가가 역대 세 번째로 크게 뛴 것으로 나타났다. 미국·이스라엘과 이란 간 전쟁에 따른 고유가가 글로벌 인플레이션 재점화로 이어질 수 있다는 우려가 커지는 가운데, 한국 역시 영향권에서 자유롭지 않다는 지적이 나온다. 10일 OECD가 최근 발간한 보고서에 따르면 지난 3월 OECD 전체 회원국의 소비자물가 상승률은 4.0%로 집계됐다. 지난해 9월 4.1%에서 하락한 뒤 올해 1월 3.3%, 2월 3.4% 수준에 머물렀지만 3월 들어 전월 대비 0.6%포인트(p) 상승했다. 월",
-      "topics": [],
+      "topics": [
+        "시장·가격 동향"
+      ],
       "publishedAt": "2026-05-10T01:06:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260510024153411",
-      "collectedAt": "2026-05-12T08:11:28.949Z"
+      "collectedAt": "2026-05-12T08:11:28.949Z",
+      "primaryTopic": "시장·가격 동향"
     },
     {
       "id": "bbadd924-6f8b-41bd-8515-bda5e557393c",
@@ -162,7 +176,8 @@
       ],
       "publishedAt": "2026-05-10T00:55:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260510022503398",
-      "collectedAt": "2026-05-12T08:11:28.949Z"
+      "collectedAt": "2026-05-12T08:11:28.949Z",
+      "primaryTopic": "전력 인프라"
     }
   ]
 }
