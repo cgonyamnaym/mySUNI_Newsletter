@@ -2,14 +2,18 @@
 
 import { useEffect, useState, useMemo } from 'react'
 import Link from 'next/link'
-import { ArrowLeft, Sparkles } from 'lucide-react'
+import { Sparkles } from 'lucide-react'
 import { Header } from '@/components/Header'
 import { TranslationBadge } from '@/components/TranslationBadge'
 import { TOPICS } from '@/lib/constants'
-import { screenArticles, getScoreLabel } from '@/lib/screening'
+import { screenArticles, computeDemandKeywords, getScoreLabel } from '@/lib/screening'
+import { getArchiveEntries } from '@/lib/newsletter-archive'
 import type { Article, MetaIndex } from '@/lib/types'
 
+// /screening 전용 스토리지 키 (더 이상 /collect와 공유하지 않음)
 const STORAGE_KEY = 'newsletter-selection'
+
+type LimitOption = 30 | 50 | 100 | 'all'
 
 interface StoredSelection {
   reportId: string
@@ -27,7 +31,11 @@ function loadSelection(): StoredSelection | null {
 }
 
 function saveSelection(ids: string[]) {
-  const v: StoredSelection = { reportId: 'recent-14-days', selectedIds: ids, updatedAt: new Date().toISOString() }
+  const v: StoredSelection = {
+    reportId: 'recent-14-days',
+    selectedIds: ids,
+    updatedAt: new Date().toISOString(),
+  }
   localStorage.setItem(STORAGE_KEY, JSON.stringify(v))
 }
 
@@ -44,9 +52,11 @@ async function fetchJson<T>(path: string): Promise<T | null> {
 export default function ScreeningPage() {
   const [index, setIndex] = useState<MetaIndex | null>(null)
   const [allArticles, setAllArticles] = useState<Article[]>([])
+  // 스크리닝 결과 30개 안에서만 선택 ID를 관리
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set())
   const [activeTopic, setActiveTopic] = useState<string>('전체')
   const [loading, setLoading] = useState(true)
+  const [limitOption, setLimitOption] = useState<LimitOption>(30)
 
   useEffect(() => {
     fetchJson<MetaIndex>('/data/index.json').then(setIndex)
@@ -71,6 +81,8 @@ export default function ScreeningPage() {
         }
       }
       setAllArticles(all)
+
+      // localStorage에서 선택 복원 (스크리닝 결과 안의 ID만 유지)
       const stored = loadSelection()
       if (stored && stored.reportId === 'recent-14-days') {
         setSelectedIds(new Set(stored.selectedIds))
@@ -80,9 +92,34 @@ export default function ScreeningPage() {
     load()
   }, [index])
 
-  const screened = useMemo(() => screenArticles(allArticles, 50), [allArticles])
+  // 과거 아카이브에서 수요 키워드 추출 (마운트 시 1회)
+  const { demandKeywords, archiveArticleCount } = useMemo(() => {
+    const entries = getArchiveEntries()
+    const articles = entries.flatMap((e) => e.articles)
+    return { demandKeywords: computeDemandKeywords(articles), archiveArticleCount: articles.length }
+  }, [])
 
-  // id → 전체 순위(1-based) 맵 — 토픽 필터 후에도 원래 순위 표시용
+  const effectiveLimit = limitOption === 'all' ? undefined : limitOption
+
+  const screened = useMemo(
+    () => screenArticles(allArticles, { limit: effectiveLimit, categoryMax: 8, sourceMax: 4 }, demandKeywords),
+    [allArticles, effectiveLimit, demandKeywords]
+  )
+
+  // 스크리닝된 ID 집합 — 여기 없는 ID는 선택에서 제거
+  const screenedIdSet = useMemo(() => new Set(screened.map((a) => a.id)), [screened])
+
+  // screened 목록이 바뀔 때 selectedIds를 screened 안으로 정리
+  useEffect(() => {
+    if (screenedIdSet.size === 0) return
+    setSelectedIds((prev) => {
+      const next = new Set(Array.from(prev).filter((id) => screenedIdSet.has(id)))
+      if (next.size !== prev.size) saveSelection(Array.from(next))
+      return next
+    })
+  }, [screenedIdSet])
+
+  // id → 전체 순위(1-based) 맵
   const rankMap = useMemo(
     () => new Map(screened.map((a, i) => [a.id, i + 1])),
     [screened]
@@ -115,35 +152,67 @@ export default function ScreeningPage() {
     })
   }
 
-  const allFilteredSelected = filteredScreened.length > 0 && filteredScreened.every((a) => selectedIds.has(a.id))
+  const allFilteredSelected =
+    filteredScreened.length > 0 && filteredScreened.every((a) => selectedIds.has(a.id))
+
+  const LIMIT_OPTIONS: { value: LimitOption; label: string }[] = [
+    { value: 30, label: '30개' },
+    { value: 50, label: '50개' },
+    { value: 100, label: '100개' },
+    { value: 'all', label: '전체' },
+  ]
 
   return (
     <div className="flex flex-col h-full bg-wds-gray-50 relative">
       <Header lastUpdated={index?.lastUpdated ?? ''} latestReportId={index?.availableReports[0]} />
 
       <main className="flex-1 max-w-5xl mx-auto w-full px-4 py-6 pb-24">
-        {/* 헤더 */}
-        <div className="flex items-center gap-3 mb-2">
-          <Link
-            href="/collect"
-            className="inline-flex items-center gap-1.5 text-[13px] font-semibold text-wds-gray-500 hover:text-wds-gray-900 transition-colors"
-          >
-            <ArrowLeft size={15} />
-            기사 선택으로 돌아가기
-          </Link>
-        </div>
-
+        {/* 페이지 헤더 */}
         <div className="flex items-center justify-between mb-5">
           <div className="flex items-center gap-2.5">
             <Sparkles size={20} className="text-wds-blue-500" />
-            <h1 className="text-2xl font-bold text-wds-gray-950">키워드 연관성 스크리닝</h1>
+            <h1 className="text-2xl font-bold text-wds-gray-950">기사 선택</h1>
           </div>
         </div>
 
+        {/* 안내 배너 */}
         <div className="mb-5 text-sm text-wds-gray-600 bg-white p-4 rounded-xl border border-wds-gray-200 shadow-wds-xs">
-          <strong>안내:</strong> 최근 14일 기사 중 토픽 키워드(계통·ESS·탄소중립 등)와 연관성이 높은 순으로 상위 50개를 표시합니다.
+          <strong>안내:</strong> 최근 14일 수집 기사 중 에너지 키워드 연관성이 높고 카테고리 다양성을 고려해
+          <strong> 상위 30개</strong>를 자동 선별했습니다.
           뉴스레터에 포함할 기사를 선택한 후 하단의 <strong>뉴스레터 생성하기</strong>를 누르세요.
-          기사 선택 페이지의 선택 항목과 통합됩니다.
+          {archiveArticleCount > 0 ? (
+            <span className="ml-2 inline-flex items-center gap-1 text-orange-500 font-semibold">
+              <span className="inline-block w-1.5 h-1.5 rounded-full bg-orange-400" />
+              수요 분석 활성 (아카이브 {archiveArticleCount}개 기사 기반)
+            </span>
+          ) : (
+            <span className="ml-2 text-wds-gray-400">
+              (뉴스레터 확정 후 수요 분석이 활성화됩니다)
+            </span>
+          )}
+        </div>
+
+        {/* 표시 개수 선택 */}
+        <div className="mb-4 flex items-center gap-2">
+          <span className="text-[12px] text-wds-gray-500 font-medium shrink-0">표시 개수</span>
+          {LIMIT_OPTIONS.map(({ value, label }) => (
+            <button
+              key={value}
+              onClick={() => setLimitOption(value)}
+              className={`px-3 py-1 text-[12px] font-semibold rounded-md border transition-colors ${
+                limitOption === value
+                  ? 'bg-wds-gray-900 text-white border-wds-gray-900 shadow-sm'
+                  : 'bg-white text-wds-gray-600 border-wds-gray-300 hover:border-wds-gray-500 hover:text-wds-gray-950'
+              }`}
+            >
+              {label}
+            </button>
+          ))}
+          {limitOption !== 'all' && (
+            <span className="text-[12px] text-wds-gray-400 ml-1">
+              / 전체 {allArticles.length}건
+            </span>
+          )}
         </div>
 
         {/* 토픽 필터 + 전체 선택/해제 */}
@@ -214,9 +283,7 @@ export default function ScreeningPage() {
                     <div className="flex-1 min-w-0">
                       {/* 메타 */}
                       <div className="flex items-center gap-2 mb-2 flex-wrap">
-                        {/* 순위 */}
                         <span className="text-[11px] font-bold text-wds-gray-400 tabular-nums w-6">#{rank}</span>
-                        {/* 연관성 점수 배지 */}
                         <span
                           className="inline-flex items-center px-2.5 py-0.5 rounded-full text-[11px] font-bold"
                           style={{ background: scoreInfo.bg, color: scoreInfo.text }}
@@ -262,7 +329,7 @@ export default function ScreeningPage() {
 
                       {/* 매칭 키워드 */}
                       {article.matchedKeywords.length > 0 && (
-                        <div className="flex flex-wrap gap-1.5 mb-3">
+                        <div className="flex flex-wrap gap-1.5 mb-2">
                           <span className="text-[11px] text-wds-gray-400 font-medium mt-0.5">매칭:</span>
                           {article.matchedKeywords.slice(0, 6).map((kw) => (
                             <span
@@ -275,6 +342,58 @@ export default function ScreeningPage() {
                           {article.matchedKeywords.length > 6 && (
                             <span className="text-[11px] text-wds-gray-400 mt-0.5">
                               +{article.matchedKeywords.length - 6}개
+                            </span>
+                          )}
+                        </div>
+                      )}
+
+                      {/* 수요 키워드 */}
+                      {article.matchedDemandKeywords.length > 0 && (
+                        <div className="flex flex-wrap gap-1.5 mb-2">
+                          <span className="text-[11px] text-orange-400 font-medium mt-0.5">수요:</span>
+                          {article.matchedDemandKeywords.slice(0, 5).map((kw) => (
+                            <span
+                              key={kw}
+                              className="inline-block px-2 py-0.5 rounded text-[11px] font-medium"
+                              style={{ background: 'rgba(251,146,60,0.12)', color: '#EA6C00' }}
+                            >
+                              {kw}
+                            </span>
+                          ))}
+                          {article.matchedDemandKeywords.length > 5 && (
+                            <span className="text-[11px] text-orange-300 mt-0.5">
+                              +{article.matchedDemandKeywords.length - 5}개
+                            </span>
+                          )}
+                        </div>
+                      )}
+
+                      {/* 전략 중요도 신호 + SK 연관성 */}
+                      {(article.strategicSignals.length > 0 || article.skRelevance || article.isDuplicate) && (
+                        <div className="flex flex-wrap gap-1.5 mb-3">
+                          {article.strategicSignals.map((sig) => (
+                            <span
+                              key={sig}
+                              className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-bold"
+                              style={{ background: 'rgba(99,102,241,0.12)', color: '#4F46E5' }}
+                            >
+                              ⚡ {sig}
+                            </span>
+                          ))}
+                          {article.skRelevance && (
+                            <span
+                              className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-bold"
+                              style={{ background: 'rgba(239,68,68,0.10)', color: '#DC2626' }}
+                            >
+                              SK 연관
+                            </span>
+                          )}
+                          {article.isDuplicate && (
+                            <span
+                              className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-bold"
+                              style={{ background: 'rgba(112,115,124,0.10)', color: '#70737C' }}
+                            >
+                              중복 감점
                             </span>
                           )}
                         </div>
@@ -316,7 +435,6 @@ export default function ScreeningPage() {
       <div className="fixed bottom-0 left-64 right-0 z-20 bg-white border-t border-wds-gray-200 shadow-[0_-4px_16px_rgba(23,23,23,0.06)] px-6 py-4 flex items-center justify-between">
         <span className="text-[14px] text-wds-gray-950 font-semibold">
           <span className="text-wds-blue-500 font-bold text-[16px]">{selectedIds.size}개</span> 기사 선택됨
-          <span className="text-[12px] text-wds-gray-400 ml-2 font-normal">(기사 선택 페이지 포함)</span>
         </span>
         <Link
           href="/generate"

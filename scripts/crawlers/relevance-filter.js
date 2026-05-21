@@ -35,8 +35,14 @@ const EXCLUDE_KW_EN = [
 const TRUSTED_ENERGY_SOURCES = new Set([
   'energy-storage', 'pv-magazine', 'windpower-monthly', 'bnef',
   'iea', 'irena',
+  'world-nuclear-news',        // 원전 전문 (WNA 운영)
+  'carbon-brief',              // 에너지·기후 정책 전문 (Gemini가 isEnergyMain 2차 필터)
+  'data-center-dynamics',      // 데이터센터 전력·인프라 (비전력 기사는 Gemini가 필터)
+  'utility-dive',              // 전력산업 정책·규제·시장 전문 (전체 기사가 전력 관련)
+  'hydrogen-central',          // 수소 전문 뉴스 집약 (전체 기사가 수소 관련)
   'electimes', 'e2news', 'energydaily', 'todayenergy', 'energytimes',
   'kea', 'igt',
+  'kaif',                      // 국내 원전 공식 단체
 ])
 
 const ENERGY_KW_KO = [

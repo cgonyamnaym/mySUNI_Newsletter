@@ -138,7 +138,9 @@ const TOPIC_RULES = [
  * @param {string} title
  * @param {string} summary
  * @param {string} lang  - 'ko' | 'en'
- * @returns {string[]}   - TopicId 배열 (최대 2개)
+ * @returns {{ topics: string[], primaryTopic: string|null }}
+ *   topics: 점수 상위 최대 2개 (UI 필터용)
+ *   primaryTopic: 점수 1위 카테고리 (스크리닝 cap 계산 + 뉴스레터 섹션 배치용)
  */
 function classifyTopics(title = '', summary = '', lang = 'ko') {
   const text = `${title} ${summary}`.toLowerCase()
@@ -156,12 +158,15 @@ function classifyTopics(title = '', summary = '', lang = 'ko') {
     if (score > 0) scores[rule.id] = score
   }
 
-  // 점수 내림차순 정렬, 최대 2개 반환
+  // 점수 내림차순 정렬
   const sorted = Object.entries(scores)
     .sort(([, a], [, b]) => b - a)
     .map(([id]) => id)
 
-  return sorted.slice(0, 2)
+  return {
+    topics:       sorted.slice(0, 2),           // UI 필터용 (최대 2개)
+    primaryTopic: sorted.length > 0 ? sorted[0] : null,  // 스크리닝 cap용 (1위만)
+  }
 }
 
 module.exports = { classifyTopics }

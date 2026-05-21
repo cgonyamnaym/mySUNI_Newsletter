@@ -3,16 +3,18 @@
 import { useEffect, useState, useMemo } from 'react'
 import Link from 'next/link'
 import { Header } from '@/components/Header'
-import { Sparkles } from 'lucide-react'
 import { TranslationBadge } from '@/components/TranslationBadge'
 import { TOPICS } from '@/lib/constants'
+import { screenArticles, computeDemandKeywords, getScoreLabel } from '@/lib/screening'
+import { getArchiveEntries } from '@/lib/newsletter-archive'
 import type { Article, MetaIndex } from '@/lib/types'
 
-// ── 스토리지 ─────────────────────────────────────────────
 const STORAGE_KEY = 'newsletter-selection'
 
+type LimitOption = 50 | 100 | 'all'
+
 interface StoredSelection {
-  reportId: string // Used as a 'period' key now
+  reportId: string
   selectedIds: string[]
   updatedAt: string
 }
@@ -26,12 +28,11 @@ function loadSelection(): StoredSelection | null {
   }
 }
 
-function saveSelection(reportId: string, ids: string[]) {
-  const v: StoredSelection = { reportId, selectedIds: ids, updatedAt: new Date().toISOString() }
+function saveSelection(ids: string[]) {
+  const v: StoredSelection = { reportId: 'recent-14-days', selectedIds: ids, updatedAt: new Date().toISOString() }
   localStorage.setItem(STORAGE_KEY, JSON.stringify(v))
 }
 
-// ── 데이터 fetch ──────────────────────────────────────────
 async function fetchJson<T>(path: string): Promise<T | null> {
   try {
     const res = await fetch(path)
@@ -42,36 +43,29 @@ async function fetchJson<T>(path: string): Promise<T | null> {
   }
 }
 
-export default function SelectPage() {
+export default function CollectPage() {
   const [index, setIndex] = useState<MetaIndex | null>(null)
-  const [articles, setArticles] = useState<Article[]>([])
+  const [allArticles, setAllArticles] = useState<Article[]>([])
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set())
   const [activeTopic, setActiveTopic] = useState<string>('전체')
   const [loading, setLoading] = useState(true)
+  const [limitOption, setLimitOption] = useState<LimitOption>(50)
 
-  // index 로드
   useEffect(() => {
-    fetchJson<MetaIndex>('/data/index.json').then((idx) => {
-      setIndex(idx)
-    })
+    fetchJson<MetaIndex>('/data/index.json').then(setIndex)
   }, [])
 
-  // 최근 2주 데이터 로드
   useEffect(() => {
     if (!index) return
-
-    async function loadRecent14Days() {
+    async function load() {
       setLoading(true)
-      // Get the last 14 available dates
       const recentDates = index!.availableDates.slice(0, 14)
-
-      const dailyResults = await Promise.all(
+      const results = await Promise.all(
         recentDates.map((d) => fetchJson<{ articles: Article[] }>(`/data/daily/${d}.json`))
       )
-
       const all: Article[] = []
       const seen = new Set<string>()
-      for (const r of dailyResults) {
+      for (const r of results) {
         for (const a of r?.articles ?? []) {
           if (!seen.has(a.id)) {
             seen.add(a.id)
@@ -79,90 +73,122 @@ export default function SelectPage() {
           }
         }
       }
-      all.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
-
-      setArticles(all)
-
+      setAllArticles(all)
       const stored = loadSelection()
       if (stored && stored.reportId === 'recent-14-days') {
         setSelectedIds(new Set(stored.selectedIds))
       }
       setLoading(false)
     }
-
-    loadRecent14Days()
+    load()
   }, [index])
 
-  // 토픽 필터
-  const filtered = useMemo(() => {
-    if (activeTopic === '전체') return articles
-    return articles.filter((a) => a.topics.includes(activeTopic as Article['topics'][0]))
-  }, [articles, activeTopic])
+  // 아카이브 기반 수요 키워드
+  const { demandKeywords, archiveArticleCount } = useMemo(() => {
+    const entries = getArchiveEntries()
+    const articles = entries.flatMap((e) => e.articles)
+    return { demandKeywords: computeDemandKeywords(articles), archiveArticleCount: articles.length }
+  }, [])
 
-  const topicCounts = useMemo(() => {
-    const counts: Record<string, number> = { '전체': articles.length }
-    TOPICS.forEach(t => counts[t.id] = 0)
-    articles.forEach(a => {
-      a.topics.forEach(tId => {
-        if (counts[tId] !== undefined) counts[tId]++
-      })
-    })
-    return counts
-  }, [articles])
+  const effectiveLimit = limitOption === 'all' ? undefined : limitOption
+
+  // 연관성 점수 순 정렬 (screenArticles 적용)
+  const screened = useMemo(
+    () => screenArticles(allArticles, effectiveLimit, demandKeywords),
+    [allArticles, effectiveLimit, demandKeywords]
+  )
+
+  const rankMap = useMemo(
+    () => new Map(screened.map((a, i) => [a.id, i + 1])),
+    [screened]
+  )
+
+  const filtered = useMemo(() => {
+    if (activeTopic === '전체') return screened
+    return screened.filter((a) => a.topics.includes(activeTopic as Article['topics'][0]))
+  }, [screened, activeTopic])
+
+  const LIMIT_OPTIONS: { value: LimitOption; label: string }[] = [
+    { value: 50, label: '50개' },
+    { value: 100, label: '100개' },
+    { value: 'all', label: '전체' },
+  ]
 
   function toggleArticle(id: string) {
     setSelectedIds((prev) => {
       const next = new Set(prev)
       if (next.has(id)) next.delete(id)
       else next.add(id)
-      saveSelection('recent-14-days', Array.from(next))
+      saveSelection(Array.from(next))
       return next
     })
   }
 
   function clearAll() {
     setSelectedIds(new Set())
-    saveSelection('recent-14-days', [])
+    saveSelection([])
   }
 
   function toggleAll() {
-    const allFiltered = new Set(filtered.map((a) => a.id))
-    const allSelected = filtered.every((a) => selectedIds.has(a.id))
+    const allFilteredIds = new Set(filtered.map((a) => a.id))
+    const allSelected = filtered.length > 0 && filtered.every((a) => selectedIds.has(a.id))
     setSelectedIds((prev) => {
       const next = new Set(prev)
-      if (allSelected) allFiltered.forEach((id) => next.delete(id))
-      else allFiltered.forEach((id) => next.add(id))
-      saveSelection('recent-14-days', Array.from(next))
+      if (allSelected) allFilteredIds.forEach((id) => next.delete(id))
+      else allFilteredIds.forEach((id) => next.add(id))
+      saveSelection(Array.from(next))
       return next
     })
   }
 
   const allFilteredSelected = filtered.length > 0 && filtered.every((a) => selectedIds.has(a.id))
 
-  if (!index && !loading) return null
-
   return (
     <div className="flex flex-col h-full bg-wds-gray-50 relative">
       <Header lastUpdated={index?.lastUpdated ?? ''} latestReportId={index?.availableReports[0]} />
-      
+
       <main className="flex-1 max-w-5xl mx-auto w-full px-4 py-6 pb-24">
-        <div className="flex items-center justify-between mb-6">
-          <h1 className="text-2xl font-bold text-wds-gray-950">기사 선택 및 수집</h1>
-          <Link
-            href="/screening"
-            className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-wds-blue-500 text-white text-[13px] font-bold hover:bg-wds-blue-600 active:scale-95 transition-all shadow-md hover:shadow-lg"
-          >
-            <Sparkles size={15} />
-            키워드 연관성 스크리닝
-          </Link>
+        <div className="flex items-center justify-between mb-5">
+          <h1 className="text-2xl font-bold text-wds-gray-950">기사 선택</h1>
         </div>
-        
+
+        {/* 안내 배너 */}
         <div className="mb-4 text-sm text-wds-gray-600 bg-white p-4 rounded-xl border border-wds-gray-200 shadow-wds-xs">
-          <strong>안내:</strong> 최근 2주(14일) 동안 수집된 기사 목록입니다. 뉴스레터에 포함할 기사를 개별 선택하거나 전체 선택할 수 있습니다.
+          <strong>안내:</strong> 최근 14일 수집 기사 중 토픽 키워드와의 연관성이 높은 순으로 표시됩니다.
+          뉴스레터에 포함할 기사를 선택한 후 하단의 <strong>뉴스레터 생성하기</strong>를 누르세요.
+          {archiveArticleCount > 0 ? (
+            <span className="ml-2 inline-flex items-center gap-1 text-orange-500 font-semibold">
+              <span className="inline-block w-1.5 h-1.5 rounded-full bg-orange-400" />
+              수요 분석 활성 (아카이브 {archiveArticleCount}개 기사 기반)
+            </span>
+          ) : (
+            <span className="ml-2 text-wds-gray-400">(뉴스레터 확정 후 수요 분석이 활성화됩니다)</span>
+          )}
+        </div>
+
+        {/* 표시 개수 선택 */}
+        <div className="mb-4 flex items-center gap-2">
+          <span className="text-[12px] text-wds-gray-500 font-medium shrink-0">표시 개수</span>
+          {LIMIT_OPTIONS.map(({ value, label }) => (
+            <button
+              key={value}
+              onClick={() => setLimitOption(value)}
+              className={`px-3 py-1 text-[12px] font-semibold rounded-md border transition-colors ${
+                limitOption === value
+                  ? 'bg-wds-gray-900 text-white border-wds-gray-900 shadow-sm'
+                  : 'bg-white text-wds-gray-600 border-wds-gray-300 hover:border-wds-gray-500 hover:text-wds-gray-950'
+              }`}
+            >
+              {label}
+            </button>
+          ))}
+          {limitOption !== 'all' && (
+            <span className="text-[12px] text-wds-gray-400 ml-1">/ 전체 {allArticles.length}건</span>
+          )}
         </div>
 
         {/* 토픽 필터 + 전체 선택/해제 */}
-        <div className="mb-4 flex items-center justify-between gap-3 flex-wrap">
+        <div className="mb-5 flex items-center justify-between gap-3 flex-wrap">
           <div className="flex gap-2 flex-wrap">
             {['전체', ...TOPICS.map((t) => t.id)].map((topic) => (
               <button
@@ -193,15 +219,17 @@ export default function SelectPage() {
 
         {/* 기사 목록 */}
         {loading ? (
-          <div className="py-20 text-center text-[14px] text-wds-gray-500 font-medium">데이터를 불러오는 중입니다...</div>
+          <div className="py-20 text-center text-[14px] text-wds-gray-500 font-medium">연관성 분석 중입니다...</div>
         ) : filtered.length === 0 ? (
           <div className="py-20 text-center text-[14px] text-wds-gray-500 bg-white rounded-xl border border-wds-gray-200 shadow-sm">
-            {articles.length === 0 ? '수집된 기사가 없습니다.' : '해당 토픽의 기사가 없습니다.'}
+            {allArticles.length === 0 ? '수집된 기사가 없습니다.' : '해당 토픽의 기사가 없습니다.'}
           </div>
         ) : (
           <ul className="flex flex-col gap-3">
             {filtered.map((article) => {
+              const rank = rankMap.get(article.id) ?? 0
               const checked = selectedIds.has(article.id)
+              const scoreInfo = getScoreLabel(article.relevanceScore)
               return (
                 <li
                   key={article.id}
@@ -213,7 +241,6 @@ export default function SelectPage() {
                   }`}
                 >
                   <div className="flex gap-4">
-                    {/* 명시적 체크박스 */}
                     <div className="mt-1 flex-shrink-0">
                       <input
                         type="checkbox"
@@ -224,15 +251,23 @@ export default function SelectPage() {
                     </div>
 
                     <div className="flex-1 min-w-0">
-                      {/* 메타: 소스명 + 날짜 + 뱃지 */}
+                      {/* 메타 */}
                       <div className="flex items-center gap-2 mb-2 flex-wrap">
+                        <span className="text-[11px] font-bold text-wds-gray-400 tabular-nums w-6">#{rank}</span>
+                        <span
+                          className="inline-flex items-center px-2.5 py-0.5 rounded-full text-[11px] font-bold"
+                          style={{ background: scoreInfo.bg, color: scoreInfo.text }}
+                        >
+                          {scoreInfo.label} {article.relevanceScore}점
+                        </span>
+                        <span className="text-wds-gray-300 text-[10px]">|</span>
                         <span className="text-[12px] font-semibold text-wds-gray-600">{article.source}</span>
                         <span className="text-wds-gray-300 text-[10px]">|</span>
                         <span className="text-[12px] text-wds-gray-500 tabular-nums">
                           {article.publishedAt.slice(0, 10)}
                         </span>
                         {article.isTranslated && <TranslationBadge />}
-                        {article.topics.map(topic => {
+                        {article.topics.map((topic) => {
                           const topicCfg = TOPICS.find((t) => t.id === topic)
                           if (!topicCfg) return null
                           return (
@@ -257,19 +292,91 @@ export default function SelectPage() {
 
                       {/* 요약 */}
                       {article.summary && (
-                        <p className="text-[14px] text-wds-gray-700 leading-relaxed line-clamp-2 mb-3">
+                        <p className="text-[14px] text-wds-gray-700 leading-relaxed line-clamp-2 mb-2">
                           {article.summary}
                         </p>
                       )}
 
-                      {/* 원문 링크 버튼 */}
+                      {/* 매칭 키워드 */}
+                      {article.matchedKeywords.length > 0 && (
+                        <div className="flex flex-wrap gap-1.5 mb-2">
+                          <span className="text-[11px] text-wds-gray-400 font-medium mt-0.5">매칭:</span>
+                          {article.matchedKeywords.slice(0, 6).map((kw) => (
+                            <span
+                              key={kw}
+                              className="inline-block px-2 py-0.5 bg-wds-gray-100 text-wds-gray-600 rounded text-[11px] font-medium"
+                            >
+                              {kw}
+                            </span>
+                          ))}
+                          {article.matchedKeywords.length > 6 && (
+                            <span className="text-[11px] text-wds-gray-400 mt-0.5">
+                              +{article.matchedKeywords.length - 6}개
+                            </span>
+                          )}
+                        </div>
+                      )}
+
+                      {/* 수요 키워드 */}
+                      {article.matchedDemandKeywords.length > 0 && (
+                        <div className="flex flex-wrap gap-1.5 mb-2">
+                          <span className="text-[11px] text-orange-400 font-medium mt-0.5">수요:</span>
+                          {article.matchedDemandKeywords.slice(0, 5).map((kw) => (
+                            <span
+                              key={kw}
+                              className="inline-block px-2 py-0.5 rounded text-[11px] font-medium"
+                              style={{ background: 'rgba(251,146,60,0.12)', color: '#EA6C00' }}
+                            >
+                              {kw}
+                            </span>
+                          ))}
+                          {article.matchedDemandKeywords.length > 5 && (
+                            <span className="text-[11px] text-orange-300 mt-0.5">
+                              +{article.matchedDemandKeywords.length - 5}개
+                            </span>
+                          )}
+                        </div>
+                      )}
+
+                      {/* 전략 중요도 신호 + SK 연관성 + 중복 감점 */}
+                      {(article.strategicSignals.length > 0 || article.skRelevance || article.isDuplicate) && (
+                        <div className="flex flex-wrap gap-1.5 mb-3">
+                          {article.strategicSignals.map((sig) => (
+                            <span
+                              key={sig}
+                              className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-bold"
+                              style={{ background: 'rgba(99,102,241,0.12)', color: '#4F46E5' }}
+                            >
+                              ⚡ {sig}
+                            </span>
+                          ))}
+                          {article.skRelevance && (
+                            <span
+                              className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-bold"
+                              style={{ background: 'rgba(239,68,68,0.10)', color: '#DC2626' }}
+                            >
+                              SK 연관
+                            </span>
+                          )}
+                          {article.isDuplicate && (
+                            <span
+                              className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-bold"
+                              style={{ background: 'rgba(112,115,124,0.10)', color: '#70737C' }}
+                            >
+                              중복 감점
+                            </span>
+                          )}
+                        </div>
+                      )}
+
+                      {/* 원문 링크 */}
                       <div className="flex justify-end border-t border-wds-gray-100 pt-3 mt-1">
                         <a
                           href={article.originalUrl || '#'}
                           target="_blank"
                           rel="noopener noreferrer"
                           onClick={(e) => {
-                            e.stopPropagation() // Prevent row click
+                            e.stopPropagation()
                             if (!article.originalUrl) {
                               e.preventDefault()
                               alert('원문 링크가 존재하지 않습니다.')
@@ -277,7 +384,7 @@ export default function SelectPage() {
                           }}
                           className="inline-flex items-center gap-1 text-[13px] font-bold text-wds-blue-500 hover:text-wds-blue-600 hover:bg-wds-blue-50 px-3 py-1.5 rounded-lg transition-colors"
                         >
-                          원문 보기 
+                          원문 보기
                           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                             <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                             <polyline points="15 3 21 3 21 9"></polyline>
@@ -294,7 +401,7 @@ export default function SelectPage() {
         )}
       </main>
 
-      {/* Sticky bottom CTA 바 */}
+      {/* Sticky bottom CTA */}
       <div className="fixed bottom-0 left-64 right-0 z-20 bg-white border-t border-wds-gray-200 shadow-[0_-4px_16px_rgba(23,23,23,0.06)] px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <span className="text-[14px] text-wds-gray-950 font-semibold">
@@ -309,16 +416,16 @@ export default function SelectPage() {
             </button>
           )}
         </div>
-          <Link
-            href="/generate"
-            className={`px-6 py-2.5 rounded-xl text-[14px] font-bold transition-all ${
-              selectedIds.size > 0
-                ? 'bg-wds-blue-500 text-white hover:bg-wds-blue-600 shadow-md hover:shadow-lg'
-                : 'bg-wds-gray-100 text-wds-gray-400 pointer-events-none'
-            }`}
-          >
-            뉴스레터 생성하기 →
-          </Link>
+        <Link
+          href="/generate"
+          className={`px-6 py-2.5 rounded-xl text-[14px] font-bold transition-all ${
+            selectedIds.size > 0
+              ? 'bg-wds-blue-500 text-white hover:bg-wds-blue-600 shadow-md hover:shadow-lg'
+              : 'bg-wds-gray-100 text-wds-gray-400 pointer-events-none'
+          }`}
+        >
+          뉴스레터 생성하기 →
+        </Link>
       </div>
     </div>
   )

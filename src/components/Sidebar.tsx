@@ -8,7 +8,7 @@ export function Sidebar() {
 
   const links = [
     { href: '/', label: '홈' },
-    { href: '/collect', label: '기사 선택 및 수집' },
+    { href: '/screening', label: '기사 선택' },
     { href: '/generate', label: '뉴스레터 생성' },
     { href: '/newsletter-archive', label: '뉴스레터 아카이브' },
     { href: '/archive', label: '과거 아카이브' },
@@ -31,9 +31,7 @@ export function Sidebar() {
       </div>
       <nav className="flex-1 py-4 px-3 flex flex-col gap-1">
         {links.map((link) => {
-          // /screening은 /collect의 하위 플로우이므로 collect를 활성으로 표시
-        const effectivePath = pathname.startsWith('/screening') ? '/collect' : pathname
-        const active = effectivePath === link.href || (link.href !== '/' && effectivePath.startsWith(link.href))
+          const active = pathname === link.href || (link.href !== '/' && pathname.startsWith(link.href))
           return (
             <Link
               key={link.href}

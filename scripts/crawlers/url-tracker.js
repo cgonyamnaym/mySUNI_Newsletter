@@ -57,8 +57,9 @@ async function isUrlAccessible(url) {
   try {
     const res = await fetch(url, { method: 'HEAD', headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' }, signal: AbortSignal.timeout(10000) })
     if (res.ok) return true
-    if (res.status === 405 || res.status === 403) {
-      const getRes = await fetch(url, { method: 'GET', headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(10000) })
+    // 405(HEAD 미지원), 403(봇 차단), 404(HEAD에서 오탐 — e2news 등) 모두 GET으로 재확인
+    if (res.status === 405 || res.status === 403 || res.status === 404) {
+      const getRes = await fetch(url, { method: 'GET', headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' }, signal: AbortSignal.timeout(10000) })
       return getRes.ok
     }
     return false

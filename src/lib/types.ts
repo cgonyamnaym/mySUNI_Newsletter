@@ -17,6 +17,7 @@ export interface Article {
   titleOriginal: string | null
   summary: string
   topics: TopicId[]
+  primaryTopic?: TopicId  // 핵심 카테고리 1개 (스크리닝 cap 계산 + 뉴스레터 섹션 배치용)
   publishedAt: string
   originalUrl: string
   collectedAt: string

@@ -71,6 +71,11 @@ async function crawlRss(sources, { daysBack = 1, noSummarize = false, startDate,
       continue
     }
 
+    // RSS 피드에 이중 슬래시 URL이 포함된 경우 정규화 (예: WNN의 //articles/)
+    feed.items.forEach(item => {
+      if (item.link) item.link = item.link.replace(/([^:])\/\/+/g, '$1/')
+    })
+
     // 최근 기사만 필터
     const recentItems = feed.items.filter(item =>
       isRecent(item.pubDate ?? item.isoDate, daysBack, startDate, endDate) && isRelevant(item, source)
@@ -154,7 +159,8 @@ async function crawlRss(sources, { daysBack = 1, noSummarize = false, startDate,
         titleKo:       item.title,
         titleOriginal: source.lang === 'en' ? item.title : null,
         summary:       item.contentSnippet?.slice(0, 300) ?? '',
-        topics:        classifyTopics(item.title, item.contentSnippet ?? '', source.lang),
+        topics:        classifyTopics(item.title, item.contentSnippet ?? '', source.lang).topics,
+        primaryTopic:  classifyTopics(item.title, item.contentSnippet ?? '', source.lang).primaryTopic,
       }
 
       if (!noSummarize && process.env.GEMINI_API_KEY) {
@@ -171,9 +177,9 @@ async function crawlRss(sources, { daysBack = 1, noSummarize = false, startDate,
             meta.titleKo = meta.titleKo.replace(/\s*-\s*[^-]+$/, '').trim()
           }
           // AI 토픽이 비어 있으면 키워드 분류로 보완
-          if (!meta.topics || meta.topics.length === 0) {
-            meta.topics = classifyTopics(item.title, rawContent, source.lang)
-          }
+          const classified = classifyTopics(item.title, rawContent, source.lang)
+            meta.topics = classified.topics
+            if (!meta.primaryTopic) meta.primaryTopic = classified.primaryTopic
         } catch (err) {
           console.warn(`    ⚠ 요약 실패: ${err.message}`)
         }
@@ -200,6 +206,7 @@ async function crawlRss(sources, { daysBack = 1, noSummarize = false, startDate,
         titleOriginal: meta.titleOriginal,
         summary:       meta.summary,
         topics:        meta.topics,
+        primaryTopic:  meta.primaryTopic ?? null,
         publishedAt:   new Date(pubDate).toISOString(),
         originalUrl:   finalUrl,
         collectedAt,

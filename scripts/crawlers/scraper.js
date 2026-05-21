@@ -143,10 +143,13 @@ function extractItems($, cfg, pageUrl) {
     if (titleEls.length > 0) break
   }
 
+  // linkBaseUrl: 목록 페이지와 기사 본문 도메인이 다를 때 사용 (예: slv.e2news.com → www.e2news.com)
+  const linkBase = cfg.linkBaseUrl ?? pageUrl
+
   titleEls.each((_, el) => {
     const title = $(el).text().trim()
     const href  = $(el).attr('href') ?? $(el).closest('a').attr('href')
-    const url   = resolveUrl(href, pageUrl)
+    const url   = resolveUrl(href, linkBase)
     if (!title || !url) return
 
     let dateText = null
@@ -338,7 +341,8 @@ async function crawlScrape(sources, { daysBack = 1, noSummarize = false, startDa
         titleKo:       item.title,
         titleOriginal: source.lang === 'en' ? item.title : null,
         summary:       bodyText.slice(0, 300),  // 본문 앞부분을 fallback 요약으로 사용
-        topics:        classifyTopics(item.title, bodyText, source.lang),
+        topics:        classifyTopics(item.title, bodyText, source.lang).topics,
+        primaryTopic:  classifyTopics(item.title, bodyText, source.lang).primaryTopic,
       }
 
       if (!noSummarize && process.env.GEMINI_API_KEY) {
@@ -350,7 +354,9 @@ async function crawlScrape(sources, { daysBack = 1, noSummarize = false, startDa
           })
           if (source.lang === 'en') meta.titleOriginal = item.title
           if (!meta.topics || meta.topics.length === 0) {
-            meta.topics = classifyTopics(item.title, '', source.lang)
+            const classified = classifyTopics(item.title, '', source.lang)
+            meta.topics = classified.topics
+            if (!meta.primaryTopic) meta.primaryTopic = classified.primaryTopic
           }
         } catch (err) {
           console.warn(`    ⚠ 요약 실패: ${err.message}`)
@@ -375,6 +381,7 @@ async function crawlScrape(sources, { daysBack = 1, noSummarize = false, startDa
         titleOriginal: meta.titleOriginal,
         summary:       meta.summary,
         topics:        meta.topics,
+        primaryTopic:  meta.primaryTopic ?? null,
         publishedAt:   pubDate,
         originalUrl:   item.url,
         collectedAt,
