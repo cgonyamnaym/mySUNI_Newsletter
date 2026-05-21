@@ -1,20 +1,20 @@
 ---
 template: design
-version: 2.0
+version: 2.4
 feature: newsletter-dashboard
-date: 2026-04-30
+date: 2026-05-21
 author: hyeokyeong@gmail.com
 project: 에너지 뉴스레터 대시보드
 ---
 
 # 뉴스레터 대시보드 v2 — Design Document
 
-> **Summary**: 19개 지정 소스(rss/google-news/scrape 3방식) 수집 파이프라인 + Next.js SSG/CSR 혼합 아키텍처. 기사 선택(/select) → 뉴스레터 자동 생성(/newsletter) 2-페이지 워크플로 포함.
+> **Summary**: 26개 지정 소스(24개 활성, rss/scrape 2방식) 수집 파이프라인 + Next.js SSG/CSR 혼합 아키텍처. 기사 선택(/collect) → 스크리닝(/screening) → 뉴스레터 자동 생성(/generate) 워크플로 포함.
 >
 > **Project**: 에너지 뉴스레터 대시보드
-> **Version**: 2.0
+> **Version**: 2.3
 > **Author**: hyeokyeong@gmail.com
-> **Date**: 2026-04-30
+> **Date**: 2026-05-18
 > **Status**: In Progress
 > **Planning Doc**: [newsletter-dashboard.plan.md](../../01-plan/features/newsletter-dashboard.plan.md)
 
@@ -27,8 +27,8 @@ project: 에너지 뉴스레터 대시보드
 | **WHY** | 소스 신뢰도 + 뉴스레터 제작 자동화로 팀 생산성 향상 (격주 작업 시간: 시간 단위 → 분 단위) |
 | **WHO** | 뉴스레터 편집 담당자(1~2명) + 구독 임직원 전체 |
 | **RISK** | JS SPA 스크래핑 불가 → Google News site: 우회 / localStorage 용량 초과 / CSS 셀렉터 변경 |
-| **SUCCESS** | 19개 소스 중 15개+ 정상 수집 / /select·/newsletter 정상 동작 / 복사 버튼 동작 |
-| **SCOPE** | Sprint 1: 크롤링 수정 ✅ / Sprint 2: /select ✅ / Sprint 3: /newsletter ✅ |
+| **SUCCESS** | 26개 소스 중 20개+ 정상 수집 / /collect·/screening·/generate 정상 동작 / 복사 버튼 동작 |
+| **SCOPE** | Sprint 1~5 ✅ 완료 / Sprint 6: /screening 스크리닝 ✅ 완료 / Sprint 7: /collect 스크리닝 통합 + /newsletter-archive 신규 ✅ |
 
 ---
 
@@ -36,7 +36,7 @@ project: 에너지 뉴스레터 대시보드
 
 ### 1.1 Design Goals
 
-- **소스 정확도**: `source_websites.csv` 19개 지정 소스만 수집. rss/google-news/scrape 3방식 혼합
+- **소스 정확도**: `sources.js` 26개 지정 소스(24개 활성). rss/scrape 2방식 (google-news 방식 제거)
 - **뉴스레터 워크플로**: 브라우저에서 기사 선택 → 6개 카테고리 뉴스레터 즉시 생성·복사
 - **Zero Server**: 런타임 서버 없음. 크롤링 JSON → `public/data/` → CSR fetch
 - **WDS 컴플라이언스**: `design_base/` Wanted Design System 토큰 100% 준수 (Pretendard, `#0066FF`, `rgba(112,115,124,0.16)` 보더 등)
@@ -44,7 +44,7 @@ project: 에너지 뉴스레터 대시보드
 ### 1.2 Design Principles
 
 - **URL-First State**: 필터·검색은 URL searchParams, 선택 상태는 localStorage
-- **CSR for Interactivity**: `/select`, `/newsletter`는 완전 CSR (`'use client'`) — SSG 하이드레이션 오류 방지
+- **CSR for Interactivity**: `/collect`, `/screening`, `/generate`는 완전 CSR (`'use client'`) — SSG 하이드레이션 오류 방지
 - **Graceful Degradation**: localStorage 없음/만료 → 빈 선택으로 초기화, fetch 실패 → 해당 날짜 skip
 
 ### 1.3 Design System Reference
@@ -79,7 +79,7 @@ project: 에너지 뉴스레터 대시보드
 │                                                                  │
 │  Windows Task Scheduler → scripts/run-crawl.js                  │
 │         │                                                        │
-│         ├─► rss-crawler.js   (type: rss, google-news)           │
+│         ├─► rss-crawler.js   (type: rss)                        │
 │         ├─► scraper.js       (type: scrape, Cheerio)            │
 │         └─► pdf-crawler.js   (미사용)                            │
 │                  │                                               │
@@ -104,7 +104,9 @@ project: 에너지 뉴스레터 대시보드
 │                                                                  │
 │  CSR 페이지 ('use client', 브라우저 fetch):                       │
 │    /collect           → app/collect/page.tsx                    │
+│    /screening         → app/screening/page.tsx (Sprint 6)       │
 │    /generate          → app/generate/page.tsx                   │
+│    /newsletter-archive → app/newsletter-archive/page.tsx (신규) │
 │                              │                                   │
 │                    localStorage (선택 상태)                       │
 └─────────────────────────────────────────────────────────────────┘
@@ -118,8 +120,8 @@ scripts/
   reclassify-articles.js  ← 기존 기사 토픽 재분류 마이그레이션
   biweekly-report.js      ← 격주 리포트 생성
   crawlers/
-    sources.js            ← 19개 소스 설정 배열 (rss/google-news/scrape)
-    rss-crawler.js        ← crawlRss(): rss + google-news 타입 처리
+    sources.js            ← 26개 소스 설정 배열 (rss/scrape, 24개 활성)
+    rss-crawler.js        ← crawlRss(): rss 타입 처리
     scraper.js            ← crawlScrape(): Cheerio 멀티셀렉터 지원
     classifier.js         ← 키워드 기반 토픽 분류 (6개 카테고리, 한/영)
     body-fetcher.js       ← fetchBodyText(url): 본문 전문 수집 + countSentences()
@@ -131,11 +133,20 @@ scripts/
 
 **소스 타입 분류** (sources.js):
 
-| 타입 | 수집 방식 | 소스 수 |
+| 타입 | 수집 방식 | 소스 수 (활성) |
 |------|---------|--------|
-| `rss` | 공식 RSS 피드 직접 파싱 (rss-parser) | 3개 |
-| `google-news` | `https://news.google.com/rss/search?q=site:{domain}` | 8개 |
-| `scrape` | Cheerio HTML 파싱 + CSS 셀렉터 | 7개 |
+| `rss` | 공식 RSS 피드 직접 파싱 (rss-parser) | 17개 (15개) |
+| `scrape` | Cheerio HTML 파싱 + CSS 셀렉터 | 8개 |
+| `pdf` | PDF 직접 URL 수집 (IRENA) | 1개 |
+
+> google-news 방식 제거됨 (Cloudflare/SPA 차단으로 대체 소스 직접 추가)
+
+**글로벌/국내 분류**:
+
+| 구분 | 소스 수 (활성) | 주요 소스 |
+|------|--------|----------|
+| 글로벌(global) | 13개 | IEA, IRENA, BNEF, PV Magazine, Energy Storage News, etc. |
+| 국내(domestic) | 11개 | 에너지경제신문, 전기신문, 이투뉴스, 에너지데일리, 한국에너지공단, etc. |
 
 **scraper.js 핵심 동작**:
 ```js
@@ -195,11 +206,12 @@ const ENERGY_KW_EN = [
 /**
  * 제목(+요약)에 에너지 관련 키워드가 1개 이상 포함되는지 확인.
  * @param {string} title
- * @param {string} summary  - 없으면 ''
- * @param {string} lang     - 'ko' | 'en'
+ * @param {string} summary   - 없으면 ''
+ * @param {string} lang      - 'ko' | 'en'
+ * @param {string} sourceId  - TRUSTED_ENERGY_SOURCES에 포함 시 제외 키워드 통과 후 무조건 pass
  * @returns {boolean}
  */
-function isEnergyRelevant(title, summary = '', lang = 'ko') { ... }
+function isEnergyRelevant(title, summary = '', lang = 'ko', sourceId = '') { ... }
 ```
 
 **판정 기준**:
@@ -285,15 +297,96 @@ async function isBodyLongEnough(url, minSentences = 10) { ... }
 > **성능**: 기사당 HTTP 요청 1회 추가 (~1–3s). `BODY_CHECK_TIMEOUT_MS` 환경변수로 조정 가능.
 > 소스당 기사 수가 많을 경우 `Promise.allSettled` 병렬 처리로 전체 실행 시간 최소화.
 
+### 2.6 연관성 스크리닝 (screening.ts)
+
+수집된 기사를 다차원 점수화하여 뉴스레터 가치가 높은 순으로 정렬하는 CSR 레이어.
+
+**`screenArticles` 함수 시그니처**:
+
+```typescript
+interface ScreeningOptions {
+  limit?: number        // 총 선정 개수 (기본값 30)
+  categoryMax?: number  // primaryTopic당 최대 선정 수 (기본값 8)
+  sourceMax?: number    // 동일 sourceId당 최대 선정 수 (기본값 4)
+}
+
+function screenArticles(
+  articles: Article[],
+  options?: ScreeningOptions | number,  // 하위 호환: 숫자로 limit만 넘길 수도 있음
+  demandKeywords?: Map<string, number>
+): ScoredArticle[]
+```
+
+**점수 계산 구조** (`screenArticles()` — Pass 1):
+
+| 항목 | 점수 | 비고 |
+|------|------|------|
+| AI 분류 토픽 | +15/개 | 무제한 합산 |
+| 토픽 키워드 매칭 | +5/키워드 | TOPICS 상수 기준 |
+| 광범위 에너지 키워드 | +1/키워드 | BROAD_KEYWORDS |
+| 요약 품질 (100자+) | +3 | |
+| 최신성 (3일 이내) | +5 | 7일 이내 +3 |
+| 수요 키워드 (아카이브 기반) | 최대 +15 | 과거 확정 기사에서 학습 |
+| 전략 중요도 신호 | 최대 +30 | 5개 신호: 대형 규모/정책·규제/산업 구조/기술 전환점/시장 긴급 |
+| SK 그룹 사업 연관성 | +15 | SK_GROUP_KW 매칭 |
+| 사업 연관성 합계 | 최대 +20 | 소스신뢰도 + 국내 영향 + 글로벌 파급력 |
+| 소스 신뢰도 (Tier1) | +10 | IEA, IRENA, BNEF |
+| 소스 신뢰도 (Tier2) | +5 | 전문지 18개 |
+| 국내 직접 영향 키워드 | +8 | 한전, 산업부 등 |
+| 글로벌 파급력 키워드 | +5 | G7, COP, EU 등 |
+| 정보 품질 합계 | 최대 +10 | 공식기관 + 수량 패턴 |
+| 공식 기관 언급 | +5 | 정부, DOE, FERC 등 |
+| 수량 패턴 (GW/억원/%) | +5 | QUANTITY_PATTERN regex |
+
+**패스 2: 중복 감점**:
+- 상위 200개 기사 대상 pairwise Jaccard 유사도 비교
+- 임계값 ≥ 0.4 → 후순위 기사 -15점, `isDuplicate: true` 마킹
+- 감점 후 재정렬
+
+**패스 3: Greedy Diversity Selection** (v2.4 신규):
+- 점수 순으로 순회하며 `LIMIT`개 선정
+- 3-A: categoryMax(primaryTopic 기준) + sourceMax 모두 적용
+- 3-B: 부족 시 categoryMax 무시, sourceMax만 유지
+- 3-C: 그래도 부족 시 모든 cap 무시, 점수순으로 채움
+- 목적: 동일 카테고리·동일 소스 과잉 집중 방지
+
+**점수 레이블**:
+
+| 범위 | 레이블 | 색상 |
+|------|--------|------|
+| ≥ 75 | 연관성 높음 | 녹색 |
+| ≥ 45 | 연관성 보통 | 주황색 |
+| < 45 | 연관성 낮음 | 회색 |
+
 ### 2.3 CSR 데이터 플로우
 
 ```
-/collect
+/collect  (스크리닝+선택 통합 페이지 — Sprint 7 개편)
   mount → fetch /data/index.json          (MetaIndex)
         → fetch /data/daily/{date}.json × 14 (최근 14일 DailyData)
-        → 기사 목록 렌더링 (토픽 필터, 체크박스)
-  체크박스 클릭 → localStorage 'newsletter-selection' 저장
+        → screenArticles(allArticles, {limit, categoryMax, sourceMax}, demandKeywords) 점수화·정렬
+        → getArchiveEntries() → computeDemandKeywords() (수요 키워드)
+        → 기사 목록 렌더링 (연관성 점수·배지·체크박스)
+  표시 개수 변경 (50/100/전체) → effectiveLimit 재계산
+  토픽 필터 클릭 → screened 결과 내 필터링
+  기사 클릭 → localStorage 선택 저장
+  [선택 초기화] → localStorage selectedIds 초기화
+  [전체 선택/해제] → 현재 토픽 기준 토글
+  [뉴스레터 생성하기 →] 버튼 → Link href="/generate"  ← (screening 경유 없이 직접)
+
+/screening  (독립 스크리닝 뷰 — Sidebar "기사 선택" 진입점)
+  mount → fetch /data/index.json
+        → fetch /data/daily/{date}.json × 14
+        → screenArticles(allArticles, {limit:30, categoryMax:8, sourceMax:4}, demandKeywords) 점수화·정렬
+        → getArchiveEntries() → computeDemandKeywords() (수요 키워드)
+  표시 개수 변경 (30/50/100/전체) → effectiveLimit 재계산
+  토픽 필터 → filteredScreened 재계산
+  기사 클릭 → localStorage 선택 저장
   [뉴스레터 생성하기] 버튼 → Link href="/generate"
+
+/newsletter-archive  (뉴스레터 아카이브 — Sprint 7 신규)
+  mount → getArchiveEntries() (localStorage 또는 파일 기반)
+        → 확정 뉴스레터 목록 렌더링
 
 /generate
   mount → localStorage.getItem('newsletter-selection')
@@ -301,9 +394,9 @@ async function isBodyLongEnough(url, minSentences = 10) { ... }
         → fetch /data/daily/{date}.json × 14
         → selectedIds로 필터링
         → TOPICS 순서대로 그룹핑·렌더링 (미분류 → '기타' 섹션)
-  [HTML 복사] → navigator.clipboard.write(HTML Blob)
+  [복사] → navigator.clipboard.writeText(plainText)
   [인쇄] → window.print()
-  [← 기사 선택] → Link href="/collect"
+  [← 기사 선택으로] → Link href="/collect"
 ```
 
 ---
@@ -334,6 +427,7 @@ export interface Article {
   titleOriginal: string | null        // 원문 제목 (번역 시)
   summary: string                     // AI 한국어 요약 (3문장)
   topics: TopicId[]                   // 분류 토픽 (최대 3개)
+  primaryTopic?: TopicId              // 핵심 카테고리 1개 (스크리닝 cap 계산 + 뉴스레터 섹션 배치용)
   publishedAt: string                 // ISO8601
   originalUrl: string                 // 원문 URL
   collectedAt: string                 // 수집 시각 ISO8601
@@ -375,19 +469,22 @@ interface Source {
   name: string
   lang: 'ko' | 'en'
   origin: 'domestic' | 'global'
-  type: 'rss' | 'google-news' | 'scrape'
+  type: 'rss' | 'scrape' | 'pdf'
   enabled: boolean
-  // type='rss' | 'google-news':
+  // type='rss':
   rssUrl?: string
-  keywords?: string[]
+  keywords?: string[]          // 화이트리스트 키워드 (power-magazine 등 화석연료 배제용)
   // type='scrape':
-  baseUrl?: string
   scrapeConfig?: {
     listUrl: string
-    titleSelector: string     // 쉼표로 멀티셀렉터 지원
+    titleSelector: string
     linkSelector?: string
-    baseUrl?: string
+    dateSelector?: string
+    onclickPattern?: object    // onclick="fn_Detail(...)" 방식 (KEA)
+    pagination?: object
   }
+  // type='pdf':
+  directPdfUrls?: string[]     // IRENA 등 직접 PDF URL 목록
 }
 ```
 
@@ -401,9 +498,9 @@ interface Source {
 
 | Method | Path | Used By | 비고 |
 |--------|------|---------|------|
-| GET | `/data/index.json` | SSG generateStaticParams + CSR /select | MetaIndex |
-| GET | `/data/daily/YYYY-MM-DD.json` | SSG 페이지 + CSR /select,/newsletter | DailyData |
-| GET | `/data/biweekly/YYYY-BWnn.json` | SSG 격주 리포트 + CSR /select,/newsletter | BiweeklyData |
+| GET | `/data/index.json` | SSG generateStaticParams + CSR /collect,/screening,/generate | MetaIndex |
+| GET | `/data/daily/YYYY-MM-DD.json` | SSG 페이지 + CSR /collect,/screening,/generate | DailyData |
+| GET | `/data/biweekly/YYYY-BWnn.json` | SSG 격주 리포트 | BiweeklyData |
 
 ### 4.2 SSG Data Fetcher (`src/lib/data.ts`)
 
@@ -418,10 +515,10 @@ function getLatestDate(index: MetaIndex): string
 function getLatestReportId(index: MetaIndex): string | undefined
 ```
 
-### 4.3 CSR Fetch 패턴 (`/select`, `/newsletter`)
+### 4.3 CSR Fetch 패턴 (`/collect`, `/screening`, `/generate`)
 
 ```typescript
-// /select, /newsletter 공통 패턴
+// /collect, /screening, /generate 공통 패턴
 const res = await fetch(`/data/biweekly/${reportId}.json`)
 if (!res.ok) return null
 const data: BiweeklyData = await res.json()
@@ -480,7 +577,7 @@ const dailyResults = await Promise.all(
 └─────────────────────────────────────────────────────┘
 ```
 
-#### 기사 선택 페이지 (`/select`) — CSR
+#### 기사 선택 페이지 (`/collect`) — CSR
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -504,7 +601,7 @@ const dailyResults = await Promise.all(
 └─────────────────────────────────────────────────────┘
 ```
 
-#### 뉴스레터 생성 페이지 (`/newsletter`) — CSR
+#### 뉴스레터 생성 페이지 (`/generate`) — CSR
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -546,20 +643,32 @@ const dailyResults = await Promise.all(
 
 ```
 메인 (/) ─────────────────────────────────────────────────────
-  → [뉴스레터 생성] 버튼 (Header/Footer) → /select
+  → Sidebar [기사 선택] 링크 → /screening  (Sprint 7 변경)
+  → Sidebar [뉴스레터 생성] 링크 → /generate
+  → Sidebar [뉴스레터 아카이브] 링크 → /newsletter-archive  (신규)
+  → Sidebar [과거 아카이브] 링크 → /archive
 
-/select ───────────────────────────────────────────────────────
-  → 격주 기간 드롭다운 (availableReports)
+/collect ──────────────────────────────────────────────────────  (직접 URL 또는 /generate ← 링크 경유)
+  → screenArticles() 점수 순 정렬 (collect에도 스크리닝 통합)
+  → 표시 개수 선택 (50/100/전체)
   → 토픽 필터 클릭 → 해당 토픽 기사만 표시
   → 체크박스 클릭 → localStorage 저장
-  → [전체 선택/해제] 토글
-  → [뉴스레터 생성 →] 버튼 → /newsletter
+  → [전체 선택/해제] 토글 (현재 토픽 기준)
+  → [선택 초기화] → localStorage 초기화
+  → [뉴스레터 생성하기 →] 버튼 → /generate  ← (스크리닝 경유 제거)
 
-/newsletter ───────────────────────────────────────────────────
+/screening ────────────────────────────────────────────────────  (Sidebar 기본 진입점)
+  → screenArticles() 점수 순 정렬 (default 30개, Greedy Diversity)
+  → 표시 개수 선택 (30/50/100/전체)
+  → 토픽 필터 클릭 → 해당 토픽만 표시
+  → 기사 클릭 → 선택/해제, localStorage 저장
+  → [뉴스레터 생성하기 →] 버튼 → /generate
+
+/generate ─────────────────────────────────────────────────────
   → localStorage 읽기 → 선택 기사 렌더링 (6개 카테고리)
   → [복사] → navigator.clipboard.writeText(plainText)
   → [인쇄] → window.print()
-  → [← 기사 선택으로] → router.back()
+  → [← 기사 선택으로] → /collect
 
 메인 기존 플로우 ──────────────────────────────────────────────
   → 토픽 필터 → URL?topic=...
@@ -588,8 +697,10 @@ const dailyResults = await Promise.all(
 
 | Page | Location | Data Source |
 |------|----------|------------|
-| `/select` | `src/app/select/page.tsx` | CSR fetch + localStorage |
-| `/newsletter` | `src/app/newsletter/page.tsx` | localStorage + CSR fetch |
+| `/collect` | `src/app/collect/page.tsx` | CSR fetch + screening.ts + localStorage |
+| `/screening` | `src/app/screening/page.tsx` | CSR fetch + screening.ts + localStorage |
+| `/generate` | `src/app/generate/page.tsx` | localStorage + CSR fetch |
+| `/newsletter-archive` | `src/app/newsletter-archive/page.tsx` | getArchiveEntries() (Sprint 7 신규) |
 
 ### 5.5 Page UI Checklist
 
@@ -597,7 +708,7 @@ const dailyResults = await Promise.all(
 
 - [x] Header: 서비스 로고/제목 (에너지 인사이트)
 - [x] Header: 마지막 업데이트 날짜 (MM. DD. HH:mm 형식)
-- [x] Header: "뉴스레터 생성" 파란 버튼 → /select
+- [x] Header: "뉴스레터 생성" 파란 버튼 → /collect
 - [x] Header: 최신 격주 리포트 링크 (있을 때만)
 - [x] Header: SearchBar
 - [x] TopicFilter: "전체" + 6개 토픽 칩 (선택 시 강조)
@@ -605,17 +716,37 @@ const dailyResults = await Promise.all(
 - [x] NewsCard: 소스명, 날짜, 제목, TranslationBadge, 요약, TopicBadge, 원문 링크
 - [x] Footer: 저작권, 뉴스레터 생성 링크, 격주 리포트 링크
 
-#### 기사 선택 (`/select`)
+#### 기사 선택 (`/collect`) — Sprint 7: 스크리닝 통합
 
-- [x] 격주 기간 드롭다운 (availableReports 기반)
+- [x] 연관성 점수 순 정렬 (screenArticles — 스크리닝 통합)
+- [x] 점수 레이블 배지 (높음/보통/낮음)
+- [x] 수요 키워드 배지 (주황색, 아카이브 기반)
+- [x] 전략 중요도 신호 배지 (⚡ 보라색)
+- [x] SK 연관 배지 (빨간색)
+- [x] 중복 감점 배지 (회색)
+- [x] 표시 개수 선택 (50 / 100 / 전체)
 - [x] 토픽 필터 버튼 (전체 + 6개)
-- [x] 전체 선택 / 전체 해제 버튼
+- [x] 전체 선택 / 전체 해제 버튼 (현재 토픽 기준)
+- [x] 선택 초기화 버튼
 - [x] 기사 카드 + 체크박스 (체크 시 배경색 변경)
 - [x] 선택 개수 표시 (sticky 하단 바)
 - [x] localStorage 저장 (새로고침 후 선택 유지)
-- [x] "뉴스레터 생성" CTA 버튼 → /newsletter
+- [x] "뉴스레터 생성하기" CTA 버튼 → /generate  ← (screening 경유 제거)
 
-#### 뉴스레터 생성 (`/newsletter`)
+#### 연관성 스크리닝 (`/screening`)
+
+- [x] 연관성 점수 순 정렬 (screenArticles)
+- [x] 점수 레이블 배지 (높음/보통/낮음)
+- [x] 전략 중요도 신호 배지 (⚡ 보라색)
+- [x] SK 연관 배지 (빨간색)
+- [x] 중복 감점 배지 (회색)
+- [x] 수요 키워드 배지 (주황색, 아카이브 기반)
+- [x] 토픽 필터 버튼 (전체 + 6개)
+- [x] 표시 개수 선택 (50 / 100 / 전체)
+- [x] 체크박스 선택 → localStorage 저장
+- [x] "뉴스레터 생성하기" CTA 버튼 → /generate
+
+#### 뉴스레터 생성 (`/generate`)
 
 - [x] sticky 상단: 뒤로 가기, 복사, 인쇄 버튼
 - [x] 기간 표시 (startDate ~ endDate)
@@ -661,7 +792,7 @@ const dailyResults = await Promise.all(
 | localStorage 없음/만료 | 빈 선택으로 초기화 | 기사 선택 필요 안내 |
 | fetch 실패 (daily) | Promise.allSettled → null → skip | 해당 날짜 기사 미표시 |
 | fetch 실패 (biweekly) | null → 빈 상태 렌더링 | 로딩 실패 메시지 |
-| 선택 기사 0개 | /newsletter에서 빈 화면 | "선택된 기사 없음" |
+| 선택 기사 0개 | /generate에서 빈 화면 | "선택된 기사 없음" |
 | localStorage 200개 초과 | 제한 없음 (현재), 필요 시 slice | — |
 
 ### 6.3 SSG 빌드
@@ -691,7 +822,7 @@ const dailyResults = await Promise.all(
 | # | 함수 | 테스트 | 기대값 |
 |---|------|--------|--------|
 | 1 | `crawlRss(sources)` | rss 타입 소스 | articles[] 반환 (length > 0) |
-| 2 | `crawlRss(sources)` | google-news 타입 소스 | GNews RSS 파싱 정상 |
+| 2 | `crawlRss(sources)` | rss 타입 다중 소스 | articles[] 반환 (sourceOrigin 포함) |
 | 3 | `crawlScrape(sources)` | scrape 타입 소스 (IEA) | `.m-news-detailed-listing__hover` 셀렉터 매칭 |
 | 4 | `filterNew(urls)` | 이미 수집된 URL | `newUrls.length === 0` |
 | 5 | `summarize({lang:'en'})` | 영어 기사 | `titleKo` 한국어, `titleOriginal` 영어 |
@@ -713,19 +844,22 @@ const dailyResults = await Promise.all(
 |---|--------|------|--------|
 | 1 | `/` | 로드 | Header + TopicFilter + NewsGrid 표시 |
 | 2 | `/` | "에너지원" 필터 클릭 | URL `?topic=에너지원`, 해당 토픽만 표시 |
-| 3 | `/select` | 로드 | 격주 드롭다운 + 기사 목록 표시 |
-| 4 | `/select` | 체크박스 클릭 | 카드 배경 변경, 하단 카운트 업데이트 |
-| 5 | `/select` | 새로고침 | localStorage에서 선택 복원 |
-| 6 | `/newsletter` | 로드 | 6개 카테고리 섹션 렌더링 (선택된 토픽만) |
-| 7 | `/newsletter` | [복사] 클릭 | 클립보드에 plain text 복사 |
+| 3 | `/collect` | 로드 | 기사 목록 표시 |
+| 4 | `/collect` | 체크박스 클릭 | 카드 배경 변경, 하단 카운트 업데이트 |
+| 5 | `/collect` | 새로고침 | localStorage에서 선택 복원 |
+| 6 | `/screening` | 로드 | 점수 순 정렬 + 배지 표시 |
+| 7 | `/screening` | 표시 개수 변경 | 해당 개수로 목록 재렌더링 |
+| 8 | `/generate` | 로드 | 6개 카테고리 섹션 렌더링 (선택된 토픽만) |
+| 9 | `/generate` | [복사] 클릭 | 클립보드에 plain text 복사 |
 
 ### 8.3 L3: E2E 시나리오
 
 | # | 시나리오 | Steps | 성공 기준 |
 |---|----------|-------|---------|
-| 1 | 뉴스레터 생성 전체 플로우 | / → /select → 기사 선택 → /newsletter → 복사 | 선택 기사가 뉴스레터에 카테고리별 표시 |
-| 2 | 선택 상태 유지 | /select 선택 → /newsletter → ← 뒤로 | localStorage 선택 복원됨 |
-| 3 | 토픽 필터 | /select → 토픽 클릭 → 해당 토픽만 표시 | 다른 토픽 기사 미표시 |
+| 1 | 뉴스레터 생성 전체 플로우 | / → /collect → /screening → 기사 선택 → /generate → 복사 | 선택 기사가 뉴스레터에 카테고리별 표시 |
+| 2 | 선택 상태 유지 | /screening 선택 → /generate → ← 뒤로 | localStorage 선택 복원됨 |
+| 3 | 토픽 필터 | /collect 또는 /screening → 토픽 클릭 → 해당 토픽만 표시 | 다른 토픽 기사 미표시 |
+| 4 | 스크리닝 점수화 | /screening 로드 → 상위 기사 확인 | 연관성 높음 기사가 상위 표시 |
 | 4 | 기존 열람 플로우 | / → 토픽 필터 → 검색 → 원문 클릭 | URL searchParam 업데이트, 원문 새 탭 |
 
 ---
@@ -749,7 +883,7 @@ const dailyResults = await Promise.all(
 | 대상 | 규칙 | 예시 |
 |------|------|------|
 | Components | PascalCase | `NewsCard`, `TopicFilter` |
-| Pages (CSR) | `'use client'` + PascalCase 파일 | `select/page.tsx` |
+| Pages (CSR) | `'use client'` + PascalCase 파일 | `collect/page.tsx` |
 | Functions | camelCase | `getDailyData()`, `loadSelection()` |
 | Constants | UPPER_SNAKE 또는 camelCase 객체 | `TOPICS`, `TOPIC_EMOJI` |
 | Types/Interfaces | PascalCase | `Article`, `NewsletterSelection` |
@@ -761,8 +895,9 @@ const dailyResults = await Promise.all(
 | `TopicFilter` | ✅ | `useRouter`, `useSearchParams` |
 | `NewsGrid` | ✅ | `useSearchParams`, Fuse.js |
 | `SearchBar` | ✅ | `useRouter`, `useSearchParams` |
-| `select/page.tsx` | ✅ | localStorage, fetch, useState |
-| `newsletter/page.tsx` | ✅ | localStorage, fetch, navigator.clipboard |
+| `collect/page.tsx` | ✅ | localStorage, fetch, useState |
+| `screening/page.tsx` | ✅ | fetch, screening.ts, localStorage |
+| `generate/page.tsx` | ✅ | localStorage, fetch, navigator.clipboard |
 | `NewsCard`, `Header`, `Footer` | ❌ | 순수 props 렌더링 |
 | `page.tsx` (SSG) | ❌ | RSC, fs.readFileSync |
 
@@ -803,11 +938,11 @@ c:/Users/mysuni_newsletter_pjt2/
 │   ├── biweekly-report.js             ✅ 격주 리포트 생성
 │   ├── crawl.bat                      ✅ Windows Task Scheduler 래퍼
 │   └── crawlers/
-│       ├── sources.js                 ✅ 19개 소스 (rss/google-news/scrape)
-│       ├── rss-crawler.js             ✅ RSS + GNews 수집
+│       ├── sources.js                 ✅ 26개 소스 (rss/scrape, 24개 활성)
+│       ├── rss-crawler.js             ✅ RSS 수집
 │       ├── scraper.js                 ✅ Cheerio HTML 스크래핑 (v2 신규)
 │       ├── body-fetcher.js            ✅ 본문 수집 + 문장 수 필터
-│       ├── relevance-filter.js        🔲 에너지 관련성 키워드 필터 (신규)
+│       ├── relevance-filter.js        ✅ 에너지 관련성 키워드 필터
 │       ├── summarizer.js              ✅ Gemini rate limit + fallback
 │       └── url-tracker.js             ✅ URL dedup
 ├── src/
@@ -821,10 +956,14 @@ c:/Users/mysuni_newsletter_pjt2/
 │   │   ├── biweekly-report/
 │   │   │   ├── page.tsx               ✅ 최신 리포트 redirect
 │   │   │   └── [reportId]/page.tsx    ✅ 격주 리포트 (SSG)
-│   │   ├── select/
-│   │   │   └── page.tsx               ✅ 기사 선택 (CSR) — v2 신규
-│   │   └── newsletter/
-│   │       └── page.tsx               ✅ 뉴스레터 생성 (CSR) — v2 신규
+│   │   ├── collect/
+│   │   │   └── page.tsx               ✅ 기사 선택+스크리닝 통합 (CSR) — Sprint 7 개편
+│   │   ├── screening/
+│   │   │   └── page.tsx               ✅ 스크리닝 독립 뷰 (CSR) — Sprint 6, Sidebar 진입점
+│   │   ├── generate/
+│   │   │   └── page.tsx               ✅ 뉴스레터 생성 (CSR) — v2 신규 (구 /newsletter)
+│   │   └── newsletter-archive/
+│   │       └── page.tsx               ✅ 뉴스레터 아카이브 (CSR) — Sprint 7 신규
 │   ├── components/
 │   │   ├── Header.tsx                 ✅ + 뉴스레터 버튼 (v2 수정)
 │   │   ├── Footer.tsx                 ✅ + 뉴스레터 링크 (v2 수정)
@@ -839,6 +978,8 @@ c:/Users/mysuni_newsletter_pjt2/
 │       ├── types.ts                   ✅ + sourceOrigin (v2 수정)
 │       ├── constants.ts               ✅ TOPICS, TOPIC_MAP
 │       ├── data.ts                    ✅ public/data/ 경로 (v2 수정)
+│       ├── screening.ts               ✅ screenArticles(), computeDemandKeywords() — Sprint 6 신규
+│       ├── newsletter-archive.ts      ✅ getArchiveEntries() — 수요 키워드 분석용
 │       └── search.ts                  ✅ Fuse.js singleton
 ├── design_base/                       ✅ Wanted Design System 참조
 ├── next.config.js                     ✅ output: 'export'
@@ -851,11 +992,12 @@ c:/Users/mysuni_newsletter_pjt2/
 | Sprint | 범위 | 상태 |
 |--------|------|------|
 | Sprint 1 | 크롤링 수정 (sources.js 재작성, scraper.js 신규, 7개 소스 수정, public/data/ 이동) | ✅ 완료 |
-| Sprint 2 | `/select` 페이지 (CSR, 격주 드롭다운, 체크박스, localStorage) | ✅ 완료 |
-| Sprint 3 | `/newsletter` 페이지 (CSR, 6카테고리, 복사, 인쇄) | ✅ 완료 |
+| Sprint 2 | `/collect` 페이지 (CSR, 격주 드롭다운, 체크박스, localStorage) | ✅ 완료 |
+| Sprint 3 | `/generate` 페이지 (CSR, 6카테고리, 복사, 인쇄) | ✅ 완료 |
 | 공통 | Article.sourceOrigin, Header/Footer 뉴스레터 버튼, WDS 디자인 시스템 통합 | ✅ 완료 |
 | Sprint 4 | 기사 본문 길이 필터: `body-fetcher.js` 신규, `rss-crawler.js` + `scraper.js` 연동 | ✅ 완료 |
-| Sprint 5 | 에너지 관련성 필터: `relevance-filter.js` 신규, 크롤러 연동, 기존 데이터 소급 제거 | 🔲 예정 |
+| Sprint 5 | 에너지 관련성 필터: `relevance-filter.js` 신규, 크롤러 연동, 기존 데이터 소급 제거 | ✅ 완료 |
+| Sprint 6 | 연관성 스크리닝: `screening.ts` (다차원 점수화, 중복 감점), `/screening` 페이지 | ✅ 완료 |
 
 ---
 
@@ -869,3 +1011,5 @@ c:/Users/mysuni_newsletter_pjt2/
 | 2.0 | 2026-04-30 | v2 전면 개정: design_base WDS 통합, scraper.js, /select·/newsletter, public/data/ 경로, sourceOrigin |
 | 2.1 | 2026-05-12 | §2.4→2.5 재번호: 본문 10문장 필터 (body-fetcher.js), 아카이브 2주 단위 개편 반영 |
 | 2.2 | 2026-05-12 | §2.4 신규: 에너지 관련성 키워드 필터 (relevance-filter.js), 소급 제거 스크립트 |
+| 2.3 | 2026-05-18 | Sprint 5 완료 처리, Sprint 6 신규: screening.ts 다차원 점수화 + /screening 페이지, 소스 26개(24활성), google-news 타입 제거, 라우트명 /select→/collect, /newsletter→/generate |
+| 2.4 | 2026-05-21 | Sprint 7 반영: /collect 스크리닝 통합, /newsletter-archive 신규, Sidebar 구조 변경, screenArticles ScreeningOptions + Pass 3, Article.primaryTopic, isEnergyRelevant sourceId 파라미터, /screening LimitOption 30 추가 |
