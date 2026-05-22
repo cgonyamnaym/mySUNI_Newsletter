@@ -1,0 +1,896 @@
+{
+  "date": "2026-05-22",
+  "generatedAt": "2026-05-22T02:55:59.484Z",
+  "articleCount": 47,
+  "articles": [
+    {
+      "id": "e5fb84fa-517c-4a64-aed6-4c1d0ef515ec",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(창간 62주년)이형주 한국전기공사협회 회장 “‘해결하는 협회’ 회원과의 약속…6개월 내 실천하고 3년 내 완성”",
+      "titleOriginal": null,
+      "summary": "제28대 한국전기공사협회 이형주 회장은 2만 2천여 회원사의 경영난을 타개하기 위해 ‘해결하는 협회’를 비전으로 제시했다. 대형공사 통합발주 대응과 자재비 상승 등 업계 현안을 해결하기 위한 구체적인 제도 개선을 3년 내 완수하겠다는 계획이다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T08:53:09.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368250",
+      "collectedAt": "2026-05-22T00:04:27.736Z"
+    },
+    {
+      "id": "4d1d2a3f-3421-4cbf-a047-bb8b95c07f44",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(특별기고)전력시장 신뢰, 전력감독원에서 시작된다",
+      "titleOriginal": null,
+      "summary": "전력시장 참여자가 2001년 19개에서 2026년 약 7800개로 급증하고 가격입찰제(PBP) 도입 등 시장 복잡성이 커졌으나, 운영과 감시 기능이 혼재된 현 시스템으로는 공정성 확보에 한계가 있음. 이에 따라 전력시장의 신뢰성과 투명한 이해상충 관리를 위해 독립적인 전력감독원 설립이 필요함을 강조함.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-05-22T08:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368240",
+      "collectedAt": "2026-05-22T00:05:12.124Z"
+    },
+    {
+      "id": "45eb1825-61bd-4522-bbb9-b89d4a8ca5ef",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(인터뷰)심현보 안좌쏠라시티 대표 “주민 상생이 성공 열쇠…지역과 함께 가야 지속가능”",
+      "titleOriginal": null,
+      "summary": "안좌쏠라시티는 탄소중립 실현을 위해 유휴 간척지를 활용한 대규모 태양광 발전단지 사업을 추진하고 있다. 특히 주민들이 협동조합 형태로 참여하고 발전 수익을 공유하는 '햇빛연금' 모델을 통해 지역 상생과 재생에너지 사업의 수용성 확보를 도모하고 있다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-22T00:17:40.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368226",
+      "collectedAt": "2026-05-22T00:05:23.715Z"
+    },
+    {
+      "id": "ab42aa72-b492-4a49-a09b-d35c2139fb85",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(창간 62주년) “재생에너지로 살아난 섬…신안, 인구소멸 해법을 쓰다” (上) 안좌쏠라시티",
+      "titleOriginal": null,
+      "summary": "전남 신안군은 재생에너지 발전 수익을 주민과 공유하는 ‘햇빛연금’과 ‘바람연금’ 정책을 통해 지역 소득을 안정시키고 인구 소멸 위기를 극복하고 있다. 안좌쏠라시티와 같은 대규모 태양광 발전 단지를 중심으로 인구 반등과 지역경제 활성화를 이끌어내며 새로운 지역 생존 모델을 제시하고 있다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-22T00:17:27.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368225",
+      "collectedAt": "2026-05-22T00:05:43.166Z"
+    },
+    {
+      "id": "5a8768c6-abc7-4f42-b519-b77a5ebc4b48",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(인터뷰)박성욱 신안군 태양광정책팀장 “햇빛연금은 단순 복지 아니야…지역 생존 전략”",
+      "titleOriginal": null,
+      "summary": "신안군은 재생에너지 수익을 주민과 공유하는 '햇빛연금' 모델을 통해 지역 소멸 위기를 극복하고 있다. 2021년 햇빛연금 도입 이후 인구 감소세가 완화되었으며, 2023년부터는 3년 연속 인구 증가라는 성과를 거두며 에너지 자원을 활용한 지속 가능한 지역 생존 전략을 증명하고 있다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-22T00:16:52.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368229",
+      "collectedAt": "2026-05-22T00:06:08.661Z"
+    },
+    {
+      "id": "ff327c15-6937-4ecc-af50-414261e62b84",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(창간62주년) 재생에너지로 살아난 섬…신안, 인구소멸 해법을 쓰다 (下) 신안군 햇빛연금",
+      "titleOriginal": null,
+      "summary": "전남 신안군은 태양광 및 해상풍력 사업의 이익을 주민과 공유하는 '햇빛연금'과 '바람연금' 정책을 통해 지역 갈등을 해소하고 경제 활성화를 도모하고 있다. 이러한 재생에너지 수익 공유 모델은 인구 유입을 촉진하며 지방 소멸 위기에 대응하는 혁신적인 정책 사례로 주목받고 있다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-22T00:16:36.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368227",
+      "collectedAt": "2026-05-22T00:06:23.401Z"
+    },
+    {
+      "id": "85d625da-ee30-4242-aeec-100eb771ece7",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "흔들리는 LNG-CHP…집단E ‘대체’보다 ‘보완’이 현실",
+      "titleOriginal": null,
+      "summary": "정부가 '열에너지 혁신 전략'을 통해 2035년까지 재생열 비중을 35%로 확대하겠다는 방침을 세웠으나, 업계는 의존도가 높은 LNG 열병합발전(CHP)을 대체할 현실적인 주열원 확보에 어려움을 겪고 있습니다. 이에 따라 업계는 기술적 한계와 경제성을 고려해 단기적 대체보다는 기존 LNG-CHP와 신재생 에너지를 결합하는 '보완' 중심의 전환 전략을 모색하고 있습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-22T00:16:06.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368251",
+      "collectedAt": "2026-05-22T00:06:48.795Z"
+    },
+    {
+      "id": "8d0b8468-772b-42b0-8511-01bc223857a5",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "권병철 기후부 열산업혁신과장 “집단E, LNG 의존 낮추고 재생열 결합 구조로 전환”",
+      "titleOriginal": null,
+      "summary": "산업통상자원부는 '열에너지 혁신 전략'의 일환으로 집단에너지 산업의 LNG 의존도를 낮추고 재생열과 전기화 중심으로 구조 전환을 추진한다. 초기 투자비 부담을 고려해 시장 충격을 최소화하며 단계적으로 친환경 연료 기반 체계를 구축할 계획이다.",
+      "topics": [
+        "ESG·탄소중립",
+        "정책·규제"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-05-22T00:15:49.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368248",
+      "collectedAt": "2026-05-22T00:07:08.825Z"
+    },
+    {
+      "id": "9dc3d01a-5912-4075-bb66-5f9ebc3602ce",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "탄소중립 퍼스트 무버, 한전 전력연구원 8대 연구소장을 만나다 ② 김주용 한전 전력연구원 차세대배전연구소장",
+      "titleOriginal": null,
+      "summary": "재생에너지 확대와 분산형 전원 증가에 따라 배전망이 핵심 플랫폼으로 변화함에 따라 한전 전력연구원 차세대배전연구소가 배전계통 운영 혁신을 추진하고 있다. 차세대배전연구소는 차세대 배전망 관리시스템(ADMS)과 지능형 전력 계량 인프라(AMI) 등을 활용해 전력망 운영의 안정성과 가시성을 확보하는 기술을 개발 중이다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-05-22T00:15:13.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368222",
+      "collectedAt": "2026-05-22T00:07:36.914Z"
+    },
+    {
+      "id": "181b8872-4dce-4e1a-99ea-97bf9e0a5fb4",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[E·D칼럼] 에너지 규제기구 재편과 독립성 확보",
+      "titleOriginal": null,
+      "summary": "재생에너지 및 AI 데이터센터 확산에 따른 전력설비 확충 문제가 국가적 현안으로 부상하고 있다. 이를 해결하기 위해 기술적 해법과 더불어 전력시스템의 효율적 운영을 위한 규제기구의 재편 및 독립성 확보가 필수적이라는 논의를 담고 있다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-22T08:00:00.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=167490",
+      "collectedAt": "2026-05-22T00:22:13.334Z"
+    },
+    {
+      "id": "486c4108-7dbd-46b0-b2ff-675c57be07b6",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[이슈추적] 열에너지 탈탄소화의 빛과 그림자",
+      "titleOriginal": null,
+      "summary": "기후에너지환경부는 화석연료 의존도가 높은 열에너지를 2035년까지 재생열 비중 35%로 전환하겠다는 혁신전략을 발표했다. 그러나 재생열 공급의무화(RHO) 등 강제성 정책에 비해 구체적인 실현 수단과 인센티브가 부족해 현장의 실효성 논란과 업계 간 갈등이 심화되고 있다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:00:05.130Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330515",
+      "collectedAt": "2026-05-22T01:00:05.130Z"
+    },
+    {
+      "id": "77697dc6-afc7-411f-bdb1-aa6efcb76119",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "건물이 약해 지붕에 태양광 못 올린다는 건 옛말",
+      "titleOriginal": null,
+      "summary": "HT-ENS가 기존 일반 모듈 대비 무게를 60% 수준으로 줄인 경량형 태양광 모듈을 통해 구조보강 비용 없이도 노후 건물이나 PEB 구조의 지붕에 태양광 설치를 가능하게 한다. 실제 1년간의 실증 결과 발전 효율이 기존 모듈보다 우수한 것으로 나타났으며, 향후 물류센터 및 방음터널 등 신규 시장으로 확대 적용될 전망이다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:00:26.792Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330296",
+      "collectedAt": "2026-05-22T01:00:26.792Z"
+    },
+    {
+      "id": "71a50699-0836-45d6-afbe-73df0f905782",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "LPG수입사 SK가스·E1 매출액·영업이익 ‘극과 극’",
+      "titleOriginal": null,
+      "summary": "SK가스와 E1이 올해 1분기 국제 LPG 가격 급등과 환율 변동 속에서 상반된 실적을 기록했습니다. SK가스는 울산GPS 발전량 증가 등에 힘입어 연결기준 영업이익이 101.5% 급증했으나, E1은 현물 가격 급등 영향으로 영업이익이 적자 전환되는 대조적인 모습을 보였습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:00:38.251Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330523",
+      "collectedAt": "2026-05-22T01:00:38.251Z"
+    },
+    {
+      "id": "f1505954-f3da-4a78-8a16-53fb498884a5",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "4\n\t\t\t\t가스공사 신임사장 홍의락 의원說 vs 산업부 “내정 없다”",
+      "titleOriginal": null,
+      "summary": "재공모 후보군에서 홍의락 의원 내정설 수면위 부상 ‘에너지 공기업 수장에 잇단 정치권 출신’ 비난 부담 재공모에 들어간 한국가스공사 신임사장에 홍의락 전 더불어민주당 의원(원내)의 내정설이 수면위로 떠오르고, 이에 대해 주무부처인 산업부가 “특정 후보자가 내정된 바 없다”며 진화에 나서 결과가 주목된다. [이투뉴스] 재공모에 들어간 한국가스공사 신임사장에 ",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:01:08.799Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330434",
+      "collectedAt": "2026-05-22T01:01:08.799Z"
+    },
+    {
+      "id": "656cb1a2-9423-4d60-bf02-c7faf8ae6e57",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "5\n\t\t\t\t[마켓 in] 떠오르는 히트펌프…보일러社 시장공략 ‘4사 4색’",
+      "titleOriginal": null,
+      "summary": "열에너지 탈탄소화 힘 실리며 차세대 난방 솔루션으로 급부상 저GWP 냉매·하이브리드화, AI 기반 운전 최적화 등 개발 박차 히트펌프가 차세대 난방 솔루션으로 급부상하며 보급 확대를 위한 다양한 정책이 추진되면서 국내 보일러 제조사들의 움직임이 한층 빨라지고 있다. [이투뉴스] 탄소중립 정책에 힘이 실리면서 최종에너지 소비의 절반 이상을 차지하는 열에너지 ",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:01:28.938Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330193",
+      "collectedAt": "2026-05-22T01:01:28.938Z"
+    },
+    {
+      "id": "e12602fb-bd56-4590-866c-c8d4f03cc4d7",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "6\n\t\t\t\t신성이엔지 신성룡 부사장 영입...재생에너지 사업 강화",
+      "titleOriginal": null,
+      "summary": "제조 경쟁력 강화·차세대 에너지 솔루션 확대 추진 11일 선임된 신성룡 신성이엔지 부사장. [이투뉴스] 신성이엔지는 재생에너지 사업 강화를 위해 신성룡 부사장을 신규 영입했다고 12일 밝혔다. 아울러 김제 제조라인 투자도 추진하고, 반도체·데이터센터 등 기존 사업 역량과의 시너지를 극대화 한다는 방침이다. 신 부사장은 1992년 한국코트렐공업주식회사(현 K",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:01:58.958Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330301",
+      "collectedAt": "2026-05-22T01:01:58.958Z"
+    },
+    {
+      "id": "eb17f52d-ef42-4348-bb6b-4eee81e7e390",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "7\n\t\t\t\t에너지공단 \"햇빛소득마을 700개소 넘어 1000개소 설치 목표\"",
+      "titleOriginal": null,
+      "summary": "14일 '재생에너지 대전환 추진 제3차 실무협의회' 열려 속도·투명성·책임성 확보...햇빛소득마을 실행 로드맵 제시 14일 열린 '재생에너지 대전환 추진 제3차 실무협의회'에서 참석자들이 토론을 하고 있다. [이투뉴스] 정부가 올해 건설하겠다고 선언한 햇빛소득마을 공식 목표(700개소)를 초과해 1000개소 설치를 목표로 보다 적극적으로 사업이 추진할 예정",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:02:28.958Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330451",
+      "collectedAt": "2026-05-22T01:02:28.958Z"
+    },
+    {
+      "id": "ecc99511-089b-4e1f-8c88-5ef0d020ba7e",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "8\n\t\t\t\t해상풍력 공동접속 본격화...접속선로 59% 줄이고 3.6조 절감",
+      "titleOriginal": null,
+      "summary": "해상풍력 발전단가 인하·전력구매비용 절감 효과 기대 15일 한전 경인건설본부에서 열린 '해상풍력 공동접속설비 추진 간담회 및 MOU 협약식' 후 참여자들이 기념사진을 촬영하고 있다. [이투뉴스] 기후에너지부와 한전이 해상풍력의 신속하고 효율적인 계통연계와 사업자들의 인허가 부담을 낮추기 위해 공동접속 방식을 구축한다. 접속선로는 59% 줄고 총투자비는 약 ",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:02:58.992Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330505",
+      "collectedAt": "2026-05-22T01:02:58.992Z"
+    },
+    {
+      "id": "f2a7b04a-4d75-43ee-ab9d-935da5e54c95",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "화산·단층·내륙·인구밀집지 고준위 방폐장 후보지서 배제",
+      "titleOriginal": null,
+      "summary": "고준위 방사성폐기물관리위원회가 화산·지진·단층 지대, 내륙, 인구밀집지 등을 고준위 방폐장 후보지에서 제외하기로 하고, 전문위원회를 구성해 연내 부적합지역을 발표할 계획이다. 향후 부적합지역을 제외한 곳에서 공모를 받아 6~9년간 조사를 거쳐 최종 부지를 선정하며, 유치 지역에는 3,000억 원 이상의 특별지원금 등이 제공될 예정이다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:03:29.003Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330510",
+      "collectedAt": "2026-05-22T01:03:29.003Z"
+    },
+    {
+      "id": "e9608969-e96f-4d91-ac8d-d2a64c7d2d75",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "10\n\t\t\t\t[기획] 해상풍력 특별법 시행 한 달...방향 잡혔지만 아직 과도기",
+      "titleOriginal": null,
+      "summary": "“계획입지·인허가 통합 제도 전환…인프라 부족·어업 갈등 과제로 남아” 103건 사업 확대 속 산업 기반 미흡…34GW 기존사업 정상화도 관건 전라남도 신안군 자은도 북서쪽 공유수면해상에 위치한 전남해상풍력 1단지 10MW급 풍력발전기. [이투뉴스] 정부는 지난 3월 26일 국내 해상풍력 산업 구조를 재편하기 위해 ‘해상풍력 특별법’을 시행했다. 난개발을 ",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:03:54.555Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330142",
+      "collectedAt": "2026-05-22T01:03:54.555Z"
+    },
+    {
+      "id": "a777e509-eae6-4cbb-bac1-e18c9e5009f2",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[정책 in] LPG배관망 구축사업…이용자 “종합 만족도 90점”",
+      "titleOriginal": null,
+      "summary": "10년 간 전국 1300개소 배관 2500km 구축…10만 세대 혜택 경제성·안전성·편의성 등 정책효과 실증, 지역 균형발전 기여 [이투뉴스] 도시가스가 공급되지 않는 농어촌 주민의 에너지복지 측면에서 정책과제로 진행된 LPG배관망 사업이 10년을 맞았다. 용기형 LPG나 등유 등을 사용할 수밖에 없어 연료비 부담과 안전사고 위험에 노출되었던 도서 산간 지",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:04:19.039Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330681",
+      "collectedAt": "2026-05-22T01:04:19.039Z"
+    },
+    {
+      "id": "1404e833-62b6-4d8f-a5be-de7fca06f246",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한화큐셀, 남동발전 해남 400MW 태양광에 모듈 64만장 공급",
+      "titleOriginal": null,
+      "summary": "국내 최대급 재생에너지 프로젝트...2028년 6월 준공 목표 140만평 부지에 조성...정부 재생에너지 100GW 정책과 맞물려 한화큐셀 충북 진천공장 전경. 이 공장에서는 한국남동발전의 대규모 태양광 발전소 사업에 공급될 모듈·셀을 생산한다. [이투뉴스] 한화큐셀이 한국남동발전의 전남 해남군 문내면 일대 400MW급 대규모 태양광 발전단지에 고효율 태양",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:04:49.046Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330673",
+      "collectedAt": "2026-05-22T01:04:49.046Z"
+    },
+    {
+      "id": "530ec776-d6d0-4e0e-8c28-fdd0cf0524da",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "린나이, 민·관협력 그린파트너 활동 동참…염생식물 식재",
+      "titleOriginal": null,
+      "summary": "염생식물 군락지 조성으로 해양 생태계 보전 및 탄소흡수원 확대 린나이 임직원들이 소래습지생태공원에서 염생식물을 식재하고 있다. [이투뉴스] 린나이가 인천시 기업 ESG 연계 자원봉사 활성화 및 사회적 가치 창출을 위한 민·관협력 프로그램 ‘그린파트너’ 2026년 상반기 연합활동에 참여해 지속 가능한 친환경 행보를 이어갔다. 인천 소래습지생태공원 일대에서 ‘",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:05:19.076Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330672",
+      "collectedAt": "2026-05-22T01:05:19.076Z"
+    },
+    {
+      "id": "21009eed-fc42-4211-bd45-0ae048c3c269",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "삼천리 모터스 BMW 동탄 전시장 리뉴얼 오픈",
+      "titleOriginal": null,
+      "summary": "최신 전시 컨셉트 ‘리테일 넥스트’ 적용…차별화된 브랜드 경험 제공 삼천리 모터스BMW 동탄 전시장 내부 모습 [이투뉴스] BMW 공식 딜러사 삼천리 모터스가 BMW 동탄 전시장을 새롭게 단장해 문을 열었다. BMW 동탄 전시장은 연면적 약 608평, 지상 5층 규모로 조성됐으며 BMW그룹의 최신 전시 공간 콘셉트인 ‘리테일 넥스트(Retail Next)’",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:05:49.066Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330671",
+      "collectedAt": "2026-05-22T01:05:49.066Z"
+    },
+    {
+      "id": "62d64e13-c138-4447-b62e-c831e1da1f0d",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스안전公, 산업부·중기부 ‘수출바우처사업’ 수행기관 지정",
+      "titleOriginal": null,
+      "summary": "국내 방폭 관련 기업 대상 IECEx 인증 서비스 제공 지원 [이투뉴스] 한국가스안전공사(사장 박경국)가 산업통상부와 중소벤처기업부에서 주관하는 수출지원기반활용사업(수출바우처사업) 수행기관에 지정돼 국내 방폭 관련 기업을 대상으로 해외규격인증 취득 비용을 지원할 수 있게 됐다. ‘수출지원기반활용사업’은 정부가 중소·중견기업의 수출 경쟁력 강화를 위해 기업별",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:06:19.087Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330670",
+      "collectedAt": "2026-05-22T01:06:19.087Z"
+    },
+    {
+      "id": "a448c7e5-452b-4936-b169-eb47a5b44374",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "대성쎌틱, 가정용 이동식 에어컨 출시…계절가전 라인업 확대",
+      "titleOriginal": null,
+      "summary": "냉방·송풍·제습까지 가능한 실용형으로 설치 간편·편의기능 강화 대성쎌틱에너시스가 출시한 가정용 이동식 에어컨 ‘아이스 I’ [이투뉴스] 대성산업의 대표적 계열사로 보일러 제조 전문기업인 대성쎌틱에너시스(대표 고봉식)가 여름철 냉방 수요 증가에 맞춰 가정용 이동식 에어컨 ‘아이스I’를 새롭게 출시하며 계절가전 라인업 확대에 나섰다. 이번 신제품은 ‘설치 걱정",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:06:49.102Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330669",
+      "collectedAt": "2026-05-22T01:06:49.102Z"
+    },
+    {
+      "id": "b7d0549c-80ee-40f1-9b7b-fb0959ba360a",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "미래엔서해에너지, 고객사와 전력·석유시장 이슈 공유",
+      "titleOriginal": null,
+      "summary": "고객사 초청 세미나 개최…선제적 경영전략 수립 지원 미래엔서해에너지 ‘2026년 고객사 초청 세미나’에서 참석자들이 초청강사의 강의를 경청하고 있다. [이투뉴스] 충남 서북부 5개 시·군(당진, 서산, 예산, 홍성, 태안)에 깨끗하고 편리한 도시가스를 공급하는 미래엔서해에너지(대표이사 송민섭)는 20일 당진시 시곡동 소재 본사에서 ‘2026년 고객 초청 세",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:07:19.139Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330668",
+      "collectedAt": "2026-05-22T01:07:19.139Z"
+    },
+    {
+      "id": "a4c64a4b-f123-45a0-8620-572d80383db4",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“신재생 설비 폐기물 대응 위해 전주기 관리체계 필요”",
+      "titleOriginal": null,
+      "summary": "국회입법조사처 '신재생에너지 설비 폐기물의 전주기 관리 체계로의 전환' 보고서 관리대상·책임주체·비용부담 구조 정비 및 안전관리 체계 법제화 제언 18MW 규모 장흥풍력발전단지 전경. [이투뉴스] 수명 종료 이후 발생하는 신재생에너지 설비 폐기물을 설비별 특성에 맞춰 관리하고 설치부터 해체·재활용까지 이어지는 ‘전주기 관리체계’를 구축해야 한다는 지적이 나",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:07:49.133Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330656",
+      "collectedAt": "2026-05-22T01:07:49.133Z"
+    },
+    {
+      "id": "60bc1863-4059-41c8-903b-1f1da2669592",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "정부, 유류세 인하 7월 말까지 2개월 연장",
+      "titleOriginal": null,
+      "summary": "휘발유 15%·경유 25%↓ [이투뉴스] 중동 전쟁의 충격을 줄이기 위해 도입된 유류세 인하 조치가 현행과 같은 폭으로 2개월 연장된다. 구윤철 부총리 겸 재정경제부 장관은 21일 정부서울청사에서 민생물가 특별관리 관계 장관 태스크포스(TF) 및 대외경제장관회의를 주재하고 '6월 이후 유류세 운용 방안'을 공개했다. 중동 전쟁 발발 이후 국민 유류비 부담을",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:08:19.179Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330662",
+      "collectedAt": "2026-05-22T01:08:19.179Z"
+    },
+    {
+      "id": "834fea28-1567-40a3-bf85-dacecffbe20e",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "김성진 전력거래소 이사장, 제주 V2G 실증단지·제주본부 현장점검",
+      "titleOriginal": null,
+      "summary": "김성진 전력거래소 이사장이 제주 V2G 실증단지를 방문해 전기차를 활용한 전력 수급조절 기술과 현황을 점검했다. 또한, 재생에너지 비중이 높은 제주 지역의 여름철 전력수급 안정성을 확보하고, 분산자원 연계를 통한 탄소중립 실현을 위한 대응역량 강화를 주문했다.",
+      "topics": [
+        "전력 인프라",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:08:49.182Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330650",
+      "collectedAt": "2026-05-22T01:08:49.181Z"
+    },
+    {
+      "id": "3142eaa5-3748-47a7-937c-4f69fcd33832",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "귀뚜라미, 롯데홈쇼핑 '엘라이브'에서 '창문형 에어컨' 라이브 방송",
+      "titleOriginal": null,
+      "summary": "슬림핏 팬, 신세계 모바일 상품권 등 이벤트 진행 귀뚜라미가 21일 낮 12시부터 1시간 롯데홈쇼핑의 라이브커머스 플랫폼 엘라이브(L.live)에서 귀뚜라미 창문형 에어컨(KAB-35W) 특별 라이브 방송을 진행한다. [이투뉴스] 귀뚜라미(대표 김학수)가 21일 낮 12시부터 1시간 롯데홈쇼핑의 모바일 전용 라이브커머스 플랫폼 엘라이브(L.live)를 통해",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:09:12.191Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330647",
+      "collectedAt": "2026-05-22T01:09:12.191Z"
+    },
+    {
+      "id": "8745079f-aabc-4bb0-b875-364acfa1f200",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "에기평·수소연합·KOTRA, WHS 2026에서 한국관 운영",
+      "titleOriginal": null,
+      "summary": "기획·운영 단계부터 기업 지원까지...3개 기관 동시 협력 현대자동차·삼성물산·미코파워 등 국내 대표기업도 참가 20일부터 이틀간 네덜란드 로테르담에서 열리는 WHS 2026 한국관 전경. 현대자동차의 대표적인 수소전기차 '디 올 뉴 넥쏘'가 전시돼 있다. [이투뉴스] 한국에너지기술평가원(원장 이승재)과 한국수소연합(회장 김재홍), KOTRA는 20∼21일",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:09:39.208Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330637",
+      "collectedAt": "2026-05-22T01:09:39.208Z"
+    },
+    {
+      "id": "9cd95b2a-ba0b-4e94-9e09-39e3a80d18d1",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[분석] 인도·동남아, 미-이란 전쟁으로 '2차 에너지 충격’'",
+      "titleOriginal": null,
+      "summary": "전쟁 장기화로 초기 대응 한계… 연료난·물가상승·성장둔화 확산 연료부족 상황 악화 불가피, 전쟁 끝나도 해소에 더 시간 걸릴 듯 [이투뉴스] 미국-이란 전쟁으로 인한 에너지 충격에 대응하던 인도와 동남아시아 국가들의 초기 방어 수단이 한계에 이르면서 보다 심각한 ‘2차 충격’이 본격화되고 있다. 전쟁 발발 직후 아시아 각국 정부는 에너지 수송의 핵심 통로인",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:10:09.247Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330351",
+      "collectedAt": "2026-05-22T01:10:09.247Z"
+    },
+    {
+      "id": "313af50c-9b59-4965-8bac-4afa3258d186",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "귀뚜라미범양냉방 박창덕 전무, ‘설비 신기술 대회’서 '우수상' 수상",
+      "titleOriginal": null,
+      "summary": "‘단폭형 원심식 송풍기’ 개발로 국가경쟁력 확보 기여 박창덕 귀뚜라미범양냉방 전무(왼쪽)가 제14회 설비 신기술 대회에서 우수상을 수상한 후 연창근 대한설비융합협회장과 기념촬영하고 있다. [이투뉴스] 귀뚜라미범양냉방의 박창덕 전무가 지난 15일 2026 대한민국 기계설비전시회(HVAC KOREA 2026) 기간에 진행된 ‘제14회 설비 신기술 대회 시상식’",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:10:39.244Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330635",
+      "collectedAt": "2026-05-22T01:10:39.244Z"
+    },
+    {
+      "id": "4a1fbf7f-8079-42ca-9ef8-b387bfe14b31",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "6\n\t\t\t\t[진단] 중동發 LNG공급망 위기…효자노릇 한 가스公 해외사업",
+      "titleOriginal": null,
+      "summary": "수입선 다변화와 안정적 지분물량 확보로 수급 안정 및 리스크 해소 11개국서 탐사·개발·생산 등 21개 프로젝트 진행…에너지 안보 일조 세계 11개국에서 진행되고 있는 한국가스공사의 21개 프로젝트 현황. [이투뉴스] 올해 2월 28일 발발한 미국과 이스라엘-이란 간 전쟁은 글로벌 에너지 공급망에 유례없는 충격을 가했다. 전 세계 LNG 물동량의 약 20%",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:13:39.351Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330254",
+      "collectedAt": "2026-05-22T01:13:39.351Z"
+    },
+    {
+      "id": "e9a3d34c-bebc-4b18-964d-e9ac6889956c",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "7\n\t\t\t\t상장 도시가스사 경영 기상도 ‘흐림’",
+      "titleOriginal": null,
+      "summary": "1Q 매출액 증가 ‘24년 1社→‘25년 7社→’26년 0社 영업이익 증가 6→5→4社, 순이익 증가 6→4→4社 1분기 개별재무제표 기준 [이투뉴스] 증시에 상장된 7개 도시가스사가 올해 1분기 아쉬운 경영 성적표를 받아들었다. 매출액이 줄어든 것은 물론이고 영업이익이나 순이익 등 수익성도 지난해 같은 기간보다 부진한 것으로 나타났다. 매출액은 7개사 모",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:14:09.360Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330553",
+      "collectedAt": "2026-05-22T01:14:09.360Z"
+    },
+    {
+      "id": "727c3682-9453-4883-b711-8e30ad175536",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "8\n\t\t\t\t[정책in] 위헌 탄소중립기본법, 정부·산업계·시민사회 이견에 공회전",
+      "titleOriginal": null,
+      "summary": "조기감축론 vs 속도조절론 간 충돌, 탄소예산 도입 여부도 입장 차 ​​​​​​​개정시한 넘겼지만 기후특위 가동시한 연장, 거버넌스 복원도 숙제 청년과 청소년 등 미래세대가 헌법재판소 앞에서 기후위기 방관은 위헌이라고 침묵시위를 벌이고 있다. [이투뉴스] 이미 법적시한은 지났다. 하지만 여전히 결론을 못 내리고 갈팡질팡이다. 헌법불합치 판정을 받은 탄소중립",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:14:39.376Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330503",
+      "collectedAt": "2026-05-22T01:14:39.376Z"
+    },
+    {
+      "id": "ff750b6e-df64-4197-9562-acf3fd60562b",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "9\n\t\t\t\t非리튬계 장주기 LDES에 연일 힘실는 기후부",
+      "titleOriginal": null,
+      "summary": "국내 생산기업 방문 및 차세대 ESS 기술개발 간담회 김성환 \"LDES 기술 다변화 및 트랙레코드 확보 지원\" 19일 오후 5시 서울 중구 대한상공회의소에서 열린 차세대 ESS 기술개발 혁신 간담회에서 김성환 장관(앞줄 왼쪽에서 다섯번째)이 발언하고 있다. [이투뉴스] 정부가 비(非)리튬계 장주기 에너지저장장치(LDES, Long Duration Energ",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:15:09.434Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330628",
+      "collectedAt": "2026-05-22T01:15:09.434Z"
+    },
+    {
+      "id": "c58c0efc-624b-421a-8254-39014cb8d9c4",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "10\n\t\t\t\t[기업 in] '태양광 쌍두마차' 한화큐셀·SDN, 에너지플랫폼사업자 꿈꾼다",
+      "titleOriginal": null,
+      "summary": "한화큐셀, 페로브스카이트-실리콘 탠덤셀 기반 차세대 기술경쟁 나서 SDN, BC모듈·TOPCon·화웨이 인버터까지...다양한 포트폴리오로 승부 [이투뉴스] 국내 태양광을 선도하는 기업들이 차세대 기술과 그들만의 에너지 솔루션을 앞세워 시장 경쟁력 강화에 나서고 있다. 바로 한화큐셀과 SDN이다. 두 기업 모두 단순 기자재 공급을 넘어 발전사업과 차세대 신기",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:15:39.427Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330213",
+      "collectedAt": "2026-05-22T01:15:39.427Z"
+    },
+    {
+      "id": "a614cdf7-1142-45e1-8b6d-baeefc44c1ca",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "태양광만으로 전력수요 50.1% 첫 충당",
+      "titleOriginal": null,
+      "summary": "노동절 연휴인 1일 낮, 태양광 발전량이 전체 전력수요의 50.1%(28.95GW)를 기록하며 국내 최초로 절반을 넘어섰다. 전력당국은 과잉 전력 해소를 위해 원전 감발, 양수발전 가동 및 재생에너지 출력제어 등 비상 운용을 시행했으나, 향후 태양광과 원전이 동시에 늘어나는 에너지 믹스 구조상 출력제어 문제는 지속될 전망이다.",
+      "topics": [
+        "운영 최적화",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:18:43.348Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330084",
+      "collectedAt": "2026-05-22T01:18:43.348Z"
+    },
+    {
+      "id": "0a97f5bf-f25a-4ed1-a926-f29e10757bfd",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "지역난방 경영실적 전기·열 비중 따라 이원화",
+      "titleOriginal": null,
+      "summary": "열판매 비중 높은 업체는 최고 실적, 전기부문에선 대부분 약세 ​​​​​​​LNG 직도입 수익하락도 영향…전반적으로 수익구조 개선 확연 [이투뉴스] 국내 지역난방부문 집단에너지업체의 지난해 경영실적이 전기와 열 비중에 따라 확연하게 갈렸다. 전기부문 비중이 높은 업체는 약세를 보였으나 열비중이 큰 사업자는 강세를 나타냈기 때문이다. 아울러 LNG 직공급으로",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:19:00.513Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=329862",
+      "collectedAt": "2026-05-22T01:19:00.513Z"
+    },
+    {
+      "id": "9dcb2826-d70e-4d79-b1ca-685b3fc06055",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전력거래소 이사장에 김성진 前 산업부 대변인 내정",
+      "titleOriginal": null,
+      "summary": "내달초 제10대 이사장으로 취임 3년 임기 시작 행시 33회로 공직 입문 에너지현안에 지속관심 김성진 전력거래소 이사장 내정자 [이투뉴스] 전력거래소 이사장으로 김성진 전 산업통상자원부 대변인<사진>이 내정됐다. 김 내정자는 내달초 취임식을 갖고 3년 임기를 시작할 예정이다. 전력거래소는 기후에너지환경부 소관 준정부기관으로 실시간 전력수급과 계통·시장 운영",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:19:29.533Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=329712",
+      "collectedAt": "2026-05-22T01:19:29.533Z"
+    },
+    {
+      "id": "017a5008-8163-4c0f-80da-2ee5f080630a",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "햇빛소득마을 닻 올리기도 전에 표류",
+      "titleOriginal": null,
+      "summary": "기후부 없앤다는 RPS로 행안부는 REC 가중치 적용 \"사업 좌초되면 '정권이 거짓말 했다' 후폭풍 올수도\" 작년 11월 20일 여주시 구양리 마을 태양광발전소 시설을 방문한 김민석 국무총리(오른쪽 두번째)가 주민 대표로부터 햇빛두레 발전소 현황에 대한 설명을 듣고 있다. ⓒ국무조정실 [이투뉴스] 이재명 대통령의 대선공약이자 현 정부 대표 재생에너지 보급정",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:19:59.556Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=329631",
+      "collectedAt": "2026-05-22T01:19:59.556Z"
+    },
+    {
+      "id": "73dbf366-c35a-4ed3-aecf-fd82d37ac150",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[尹정부 태양광대출 무더기 기소] \"일흔 넘어 시작한 태양광으로 범죄자 신세\"",
+      "titleOriginal": null,
+      "summary": "포도 농사 짓던 장모 대표와 위법 몰랐다는 A 대표의 사연 \"자금 일부 불과한데도 전체 자금을 사기로 판단 가중처벌\" 장모 대표가 경기도 화성시에서 운영하고 있는 200kW 용량의 태양광발전소 전경 [이투뉴스] \"징역 1년, 집행유예 2년, 이런건 TV에서나 봤지 나한테 그런 게 올 줄 몰랐죠. 사람을 때렸다던가 심각한 중범죄를 저지른 것도 아닌데, 갑자기",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:20:29.568Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=329572",
+      "collectedAt": "2026-05-22T01:20:29.568Z"
+    },
+    {
+      "id": "9f35d4df-38c4-450f-92bf-e60b9a8b41b9",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "발전사 열병합 독식…수열가격·공급안정 수면위로",
+      "titleOriginal": null,
+      "summary": "일부 발전공기업의 수열가 인상요구로 한난과 협상 난기류 ​​​​​​​민간업체도 계약 앞두고 예의주시, 불안정성 이전보다 커져 발전공기업과 집단에너지업체 간 발전배열 계약단가를 두고 이견을 보이고 있다. 사진은 남동발전 분당복합에서 열을 공급받고 있는 한난 본사 모습. [이투뉴스] 수열가격 산정 및 공급조건 등 발전배열 수급계약을 둘러싸고 집단에너지와 발전공",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:20:59.592Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=329443",
+      "collectedAt": "2026-05-22T01:20:59.592Z"
+    },
+    {
+      "id": "6600d6d9-69cc-4167-b16e-e25b2fe96a3d",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "태양광 겨눈 尹정부 전방위 기소에 궁지 몰린 사업자들",
+      "titleOriginal": null,
+      "summary": "발전사업 3천건 무더기 기소로 업계 위축 \"대다수 고의·악의없이 관행적 대출 시행\" 2일 본지와 만나 인터뷰를 나누는 태양광업계 관계자. [이투뉴스] “20년 넘게 태양광을 개발하던 사람들이 하루 아침에 전과자가 될 위기입니다. 경제활동이 위축되고, 폐업이나 사업 전환을 고민하는 등 생계까지 영향을 받고 있습니다.\" 지난 2일 기자와 만난 태양광업체 대표 ",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:21:29.626Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=329224",
+      "collectedAt": "2026-05-22T01:21:29.626Z"
+    },
+    {
+      "id": "1d517732-e43d-4d41-b373-fbb9d7634583",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "지역난방 열요금, 한난의 마지노선 깨졌다",
+      "titleOriginal": null,
+      "summary": "열요금 하한제 시행 따라 GS파워·나래ES 등 4개 업체 2% 인하 ​​​​​​​한난요금의 98% 적용, 내년 7월부터 95%로 열요금 하한선 확대 열요금 하한제로 한난보다 더 낮은 지역난방 요금이 등장했다. 사진은 한난 분당본사(왼쪽부터 시계방향으로)와 GS파워 안양열병합, 나래에너지서비스의 위례열병합발전소. [이투뉴스] 한국지역난방공사를 기점으로 그 위",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T01:21:59.644Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=329212",
+      "collectedAt": "2026-05-22T01:21:59.644Z"
+    }
+  ]
+}
