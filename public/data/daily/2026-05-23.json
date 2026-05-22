@@ -1,0 +1,45 @@
+{
+  "date": "2026-05-23",
+  "generatedAt": "2026-05-22T23:25:41.186Z",
+  "articleCount": 2,
+  "articles": [
+    {
+      "id": "b462254f-44c5-4890-b6c1-4df28450bcb0",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“올여름 에너지 가격 폭등 가능성”…글로벌 석유·가스 재고 최저 수준",
+      "titleOriginal": null,
+      "summary": "호르무즈 해협의 지정학적 리스크로 글로벌 석유·가스 재고가 급감하면서 올여름 에너지 가격 폭등 가능성이 커지고 있다. 특히 EU의 천연가스 재고율이 9년 만에 최저치인 36.3%로 떨어진 가운데, 여름철 전력 수요 증가와 공급 부족이 맞물려 복합 에너지 위기가 우려된다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-23T06:33:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260522028247184",
+      "collectedAt": "2026-05-22T22:46:50.919Z"
+    },
+    {
+      "id": "e40aef2c-eb7d-42ba-973c-dbbb5c096d2c",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "내년부터 RPS 폐지…재생에너지 시장, ‘장기 경매제’로 전면 개편",
+      "titleOriginal": null,
+      "summary": "정부가 신재생에너지공급의무화(RPS) 제도를 폐지하고 내년부터 재생에너지 장기 고정가격 경매제도로 전면 개편합니다. 소규모 태양광 우대 및 햇빛소득마을 지원을 강화하는 한편, 2035년까지 태양광 80원, 해상풍력 150원 수준의 발전단가 인하를 목표로 제시했습니다.",
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-23T06:31:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260522020316869",
+      "collectedAt": "2026-05-22T22:47:07.191Z"
+    }
+  ]
+}

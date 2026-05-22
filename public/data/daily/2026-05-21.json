@@ -1,7 +1,7 @@
 {
   "date": "2026-05-21",
-  "generatedAt": "2026-05-22T02:55:59.483Z",
-  "articleCount": 103,
+  "generatedAt": "2026-05-22T23:25:41.185Z",
+  "articleCount": 104,
   "articles": [
     {
       "id": "4a67d383-1d74-433a-b3e0-fbd6c5d33799",
@@ -1907,6 +1907,25 @@
       "publishedAt": "2026-05-21T10:58:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260521021275776",
       "collectedAt": "2026-05-22T00:51:47.256Z"
+    },
+    {
+      "id": "6f00aef9-d45e-421e-8df7-08a7ebc76835",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "산업안전보건공단 '현장 중심 맞춤형 안전 교육' 확대",
+      "titleOriginal": null,
+      "summary": "한국산업안전보건공단이 한전MCS(주)와 업무협약을 맺고 현장 맞춤형 안전 교육 및 사고 데이터 기반 콘텐츠 공동 개발 등 4대 핵심 분야 협력을 추진한다. 전력량계 검침 등 야외 작업이 많은 한전MCS 현장 노동자의 안전을 확보하고, 실질적인 산업재해 감축과 안전 문화 확산을 목표로 한다.",
+      "topics": [
+        "전력 인프라",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-05-21T23:43:05.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298167",
+      "collectedAt": "2026-05-22T22:44:47.373Z"
     }
   ]
 }
