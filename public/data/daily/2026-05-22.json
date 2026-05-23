@@ -1,7 +1,7 @@
 {
   "date": "2026-05-22",
-  "generatedAt": "2026-05-22T23:25:41.183Z",
-  "articleCount": 143,
+  "generatedAt": "2026-05-23T01:20:59.681Z",
+  "articleCount": 145,
   "articles": [
     {
       "id": "e5fb84fa-517c-4a64-aed6-4c1d0ef515ec",
@@ -2659,6 +2659,42 @@
       "publishedAt": "2026-05-22T22:56:49.717Z",
       "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330684",
       "collectedAt": "2026-05-22T22:56:49.717Z"
+    },
+    {
+      "id": "67048318-f925-47f9-83a4-9b9f85918037",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "전기 트럭을 두려워하는 사람은 누구인가? 오하이오, 인디애나, 캘리포니아, 미시간은 아니다...",
+      "titleOriginal": "Who’s Afraid Of Electric Trucks? Not Ohio, Indiana, California, Michigan…",
+      "summary": "스웨덴의 전기차 기업 아인라이드(Einride)가 올여름부터 오하이오주와 인디애나주를 잇는 I-70 구간에서 자율주행 전기 트럭을 운행할 예정이다. 이번 프로젝트는 미국 내 주요 주들에서 무인 전기 트럭 도입이 본격화되고 있음을 보여준다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-22T23:41:25.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/22/electric-trucks-us-autonomous-pickups/",
+      "collectedAt": "2026-05-23T00:06:42.845Z"
+    },
+    {
+      "id": "36150b06-fcb5-4b88-bf80-b8b32bff0fdd",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "플로팅 태양광, 데산티스탄에 오다",
+      "titleOriginal": "Floating Solar Comes To DeSantistan",
+      "summary": "D3 Energy가 플로리다주 교통부(Florida DOT)와 마스터 리스 계약을 체결하여 주 내 모든 빗물 저류지에 부유식 태양광 패널을 설치하게 되었습니다. 이번 협력을 통해 유휴 수자원을 활용한 재생 에너지 발전 규모가 확대될 것으로 기대됩니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-22T23:00:39.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/22/floating-solar-comes-to-desantistan/",
+      "collectedAt": "2026-05-23T00:07:00.806Z"
     }
   ]
 }

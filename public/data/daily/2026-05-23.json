@@ -1,7 +1,7 @@
 {
   "date": "2026-05-23",
-  "generatedAt": "2026-05-22T23:25:41.186Z",
-  "articleCount": 2,
+  "generatedAt": "2026-05-23T01:20:59.682Z",
+  "articleCount": 16,
   "articles": [
     {
       "id": "b462254f-44c5-4890-b6c1-4df28450bcb0",
@@ -40,6 +40,272 @@
       "publishedAt": "2026-05-23T06:31:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260522020316869",
       "collectedAt": "2026-05-22T22:47:07.191Z"
+    },
+    {
+      "id": "09d2f01e-4025-433c-a501-7e1090a24838",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[진단] 호르무즈 해협 봉쇄 장기화…LNG도입단가 10월 최고치",
+      "titleOriginal": null,
+      "summary": "호르무즈 해협 봉쇄 장기화로 글로벌 LNG 공급 차질이 발생하며, 국내 도입단가가 10월 MMBtu당 13.4~16.1달러로 최고치를 기록할 전망입니다. 이에 따라 에너지경제연구원은 안정적 수급을 위한 겨울철 재고 확보 전략 강화 및 선제적인 에너지 수요관리를 제안했습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-23T00:46:20.103Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330752",
+      "collectedAt": "2026-05-23T00:46:20.103Z"
+    },
+    {
+      "id": "71c4d9ed-f117-42c6-a93e-70277dc0a531",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "서부발전, 서산시와 공공부지·산업단지 활용 태양광 확대",
+      "titleOriginal": null,
+      "summary": "한국서부발전이 서산시 및 산업단지 입주기업협의체와 협약을 맺고 서산 오토밸리·인더스밸리 내 공영주차장 등을 활용한 태양광 발전사업을 추진한다. 이번 사업은 공공 주도의 재생에너지 보급 확대와 함께 발전 수익을 입주기업과 공유하는 상생 모델을 구축해 향후 다른 산업단지로 확산할 계획이다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-23T00:46:31.051Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330748",
+      "collectedAt": "2026-05-23T00:46:31.051Z"
+    },
+    {
+      "id": "193e4c1d-7dd5-483a-b033-97913f5d4fed",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "국내 최초 '지역난방+신재생'으로 ZEB 4등급 도전",
+      "titleOriginal": null,
+      "summary": "서울에너지공사가 목동2 가로주택정비사업조합과 협력하여 지역난방과 지열·태양광을 결합한 에너지믹스 모델을 통해 국내 최초로 민간 정비사업 ZEB 4등급 획득에 도전한다. 이를 통해 에너지자립률 40% 이상을 달성하고, 용적률 완화 및 취득세 감면 혜택으로 조합원 분담금을 줄이며 연간 40% 수준의 에너지 절감 및 온실가스 감축 효과를 기대한다.",
+      "topics": [
+        "ESG·탄소중립",
+        "운영 최적화"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-23T00:47:04.982Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330746",
+      "collectedAt": "2026-05-23T00:47:04.982Z"
+    },
+    {
+      "id": "cc7c12a7-275b-4dae-9dec-5cafa44b7581",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "안동복합화력 투입 두산 가스터빈 시운전 돌입",
+      "titleOriginal": null,
+      "summary": "한국남부발전이 건설 중인 524MW급 안동복합 2호기에 두산에너빌리티의 'K-가스터빈'이 투입되어 최초수전과 24시간 무부하 연속 기동시험을 완료했다. 이번 시운전 성공으로 내년 3월 준공을 목표로 하는 발전소 건설 사업이 본격적인 본궤도에 올랐다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-23T00:47:16.169Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330742",
+      "collectedAt": "2026-05-23T00:47:16.169Z"
+    },
+    {
+      "id": "d41e4e79-a654-42cf-86f4-4c52ea93544d",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "571MW 동서발전 음성천연가스발전소 상업운전 개시",
+      "titleOriginal": null,
+      "summary": "한국동서발전이 6차 전력수급계획의 석탄화력 건설계획을 변경해 추진한 국내 1호 연료전환 프로젝트인 '음성천연가스발전소 1호기(571MW)'가 상업운전을 시작했다. 독일 지멘스사의 최신 가스터빈을 도입하여 복합효율 57.75%를 달성했으며, 향후 중부 내륙 지역의 전력 안정성과 재생에너지 변동성 보완 역할을 수행할 예정이다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-23T00:47:49.710Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330736",
+      "collectedAt": "2026-05-23T00:47:49.710Z"
+    },
+    {
+      "id": "91b46a8d-b711-445f-9ed5-cbbaaa037122",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한난, 비상경영으로 재무개선 및 공적기능 이행",
+      "titleOriginal": null,
+      "summary": "한국지역난방공사가 중동 위기에 따른 에너지 수급 불안에 대응하기 위해 비상경영을 실시, 예산 절감 및 연료 최적화로 159억 원의 재무 성과를 달성했다. 또한, 4월 열요금 동결 및 에너지 취약계층 특별요금 지원 조기 시행, EERS 사업 확대 등 공공기관으로서 에너지 공적 기능을 강화하고 있다.",
+      "topics": [
+        "운영 최적화",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-23T00:48:00.792Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330739",
+      "collectedAt": "2026-05-23T00:48:00.792Z"
+    },
+    {
+      "id": "f6c7541a-f958-42c3-b444-60286b471505",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "행안부 '방재의 날…'가스안전公, 국가 재난관리 유공 '대통령 표창' 영예",
+      "titleOriginal": null,
+      "summary": "한국가스안전공사가 행정안전부 주관 '제33회 방재의 날'에서 공공기관 중 유일하게 국가 재난관리 유공 대통령 표창을 수상했다. 공사는 첨단기술 기반의 재난관리체계 확립과 산불·풍수해 등 자연재난 상황에서 가스시설 긴급 점검 및 피해 복구를 지원해 국민 안전에 기여한 성과를 인정받았다.",
+      "topics": [
+        "정책·규제",
+        "운영 최적화"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-23T00:48:29.996Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330735",
+      "collectedAt": "2026-05-23T00:48:29.996Z"
+    },
+    {
+      "id": "8424995b-f73b-465a-94dc-13cdad01faff",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스公 및 협력업체 임직원 “안전·청렴은 선택 아닌 필수” 결의",
+      "titleOriginal": null,
+      "summary": "한국가스공사는 22일 인천기지본부에서 임직원 및 협력업체 관계자 100여 명이 참석한 가운데 안전·청렴 실천 결의대회를 개최했다. 이번 행사는 천연가스 생산·공급 현장의 무사고 달성과 부패 근절을 통해 공기업으로서의 투명성과 안전 경영을 강화하기 위해 마련되었다.",
+      "topics": [
+        "운영 최적화",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-23T00:48:41.021Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330734",
+      "collectedAt": "2026-05-23T00:48:41.021Z"
+    },
+    {
+      "id": "1240ef41-33f7-41ea-adc5-361708da2a26",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "원자력안전재단 이사장에 김성진 前 사회혁신비서관",
+      "titleOriginal": null,
+      "summary": "김성진 전 대통령비서실 사회혁신비서관이 한국원자력안전재단 제4대 이사장으로 취임했다. 김 이사장은 원자력 및 방사선 안전 규제 지원 기능을 강화하고, 관행적 행정을 개선해 국민이 안심할 수 있는 안전 플랫폼을 구축하겠다는 계획을 밝혔다.",
+      "topics": [
+        "정책·규제",
+        "운영 최적화"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-23T00:49:06.456Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330730",
+      "collectedAt": "2026-05-23T00:49:06.456Z"
+    },
+    {
+      "id": "86f163d1-8d5c-4f6d-8bc3-6f30a2a6294c",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "‘햇빛 ReSCO 마켓’ 열어 햇빛소득마을 조성 박차",
+      "titleOriginal": null,
+      "summary": "한국에너지공단 경남본부가 전국 최초로 재생에너지 종합서비스기업(ReSCO)과 지역주민을 연결하는 ‘햇빛 ReSCO 마켓’을 개최했다. 이 행사는 햇빛소득마을 사업 참여 희망 주민들에게 1대1 컨설팅 및 맞춤형 정보를 제공하여 재생에너지 보급을 활성화하기 위해 마련되었다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-23T00:49:20.923Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330728",
+      "collectedAt": "2026-05-23T00:49:20.923Z"
+    },
+    {
+      "id": "e2c8ae8f-30c8-4f8c-ac75-8dcf518fbf4c",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "IEA “이란 위기 지속 시 7~8월 세계 석유시장 레드존 진입”",
+      "titleOriginal": null,
+      "summary": "IEA는 이란발 에너지 충격과 호르무즈 해협 위기로 인해 오는 7~8월 세계 석유시장이 '레드존'에 진입할 수 있다고 경고했다. 현재 공급 차질로 일일 약 1,400만 배럴의 원유가 시장에서 이탈한 상황이며, IEA는 전략비축유 추가 방출 검토 및 재생에너지·원자력 등 에너지원 다변화가 필요하다고 강조했다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-23T00:49:51.407Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330714",
+      "collectedAt": "2026-05-23T00:49:51.407Z"
+    },
+    {
+      "id": "222a3e55-533d-4912-b2ec-a0758655883d",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전방위 지원으로 공공소각장 준공 앞당긴다",
+      "titleOriginal": null,
+      "summary": "기후에너지환경부가 2030년 직매립 금지제도 전국 시행에 대비해 공공소각시설 확충을 위한 절차 간소화 및 재정지원을 강화한다. 폐기물 처리수수료 가산금을 기존 10%에서 20%로 인상하고, 지방재정투자심사 면제 및 국고 지원 대상 확대 등을 통해 소각장 조기 구축에 나선다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-23T00:50:22.411Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330726",
+      "collectedAt": "2026-05-23T00:50:22.411Z"
+    },
+    {
+      "id": "9bbf5d6b-4687-4208-98ee-880b1dfe8d4f",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "발전소에서 돈주고 버리던 숯, 고품질 토양개량제로 자원화",
+      "titleOriginal": null,
+      "summary": "한국남동발전의 자회사 코엔바이오가 바이오매스 발전소에서 발생하는 부산물을 고품질 바이오차로 자원화하여 연간 25만 포 생산 체계를 구축했다. 이를 통해 기존에 톤당 6만 4천 원을 들여 폐기하던 부산물을 1만 3천 원대 가격의 친환경 토양개량제로 전환해 탄소중립과 저탄소 농업에 기여하고 있다.",
+      "topics": [
+        "운영 최적화",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-23T00:50:40.380Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330682",
+      "collectedAt": "2026-05-23T00:50:40.380Z"
+    },
+    {
+      "id": "bca42109-3949-4998-b004-40c27ae62626",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "지자체별 재생에너지 자립률 최대 729배 격차",
+      "titleOriginal": null,
+      "summary": "국내 전력 소비 상위 20개 지자체의 재생에너지 자립률이 평균 3.2%에 불과하며, 지역 간 최대 729배의 격차를 보이는 것으로 나타났다. 그린피스와 에너지전환포럼은 송전망 문제 해결과 에너지 안보를 위해 2030년까지 지자체별 재생에너지 자립률 30% 달성 및 관련 제도 의무화를 촉구했다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-23T00:51:03.366Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330684",
+      "collectedAt": "2026-05-23T00:51:03.366Z"
     }
   ]
 }
