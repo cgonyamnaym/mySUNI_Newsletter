@@ -1,7 +1,7 @@
 {
   "date": "2026-05-22",
-  "generatedAt": "2026-05-23T01:20:59.681Z",
-  "articleCount": 145,
+  "generatedAt": "2026-05-23T22:09:12.383Z",
+  "articleCount": 146,
   "articles": [
     {
       "id": "e5fb84fa-517c-4a64-aed6-4c1d0ef515ec",
@@ -2695,6 +2695,22 @@
       "publishedAt": "2026-05-22T23:00:39.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/22/floating-solar-comes-to-desantistan/",
       "collectedAt": "2026-05-23T00:07:00.806Z"
+    },
+    {
+      "id": "b0f58582-e01d-458b-afda-8bccf084ad50",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(KECA 네트워크)전기공사협회 경남도회–전기안전공사 경남본부, 안전·청렴 협력체계 구축",
+      "titleOriginal": null,
+      "summary": "한국전기공사협회 경남도회와 한국전기안전공사 경남본부가 지난 19일 '행복동행 경남 정착과 협력체계 구축 업무협약식'을 열고 지역 사회 전기안전 강화 및 청렴문화 확산을 위한 협력체계를 구축했습니다. 이 협약식에는 양 기관 관계자 총 11명이 참석했으며, 안전과 청렴을 최우선 가치로 공동 노력할 예정입니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-22T22:22:56.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368408",
+      "collectedAt": "2026-05-23T22:01:57.641Z"
     }
   ]
 }

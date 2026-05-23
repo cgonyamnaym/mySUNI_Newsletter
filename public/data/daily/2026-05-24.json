@@ -1,0 +1,26 @@
+{
+  "date": "2026-05-24",
+  "generatedAt": "2026-05-23T22:09:12.384Z",
+  "articleCount": 1,
+  "articles": [
+    {
+      "id": "253e8df2-27a8-49b2-8d20-193dca400a05",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“풍력 터빈, 주민 건강 해치지 않는다”…미국 연구 사실일까?",
+      "titleOriginal": null,
+      "summary": "미국 연구팀이 12년간 12만 가구를 추적 조사한 결과, 일반적인 이격거리 내 풍력 터빈이 주민 건강에 직접적인 악영향을 미친다는 증거는 확인되지 않았습니다. 다만 연구진은 초근접 거주자에 대한 표본 한계와 인구 밀도가 높은 한국 등의 환경에서는 이격거리 확보 및 사회적 수용성 확보가 여전히 중요하다고 지적했습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-24T06:32:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260522022466990",
+      "collectedAt": "2026-05-23T22:06:27.781Z"
+    }
+  ]
+}

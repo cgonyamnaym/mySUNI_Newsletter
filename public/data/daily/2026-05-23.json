@@ -1,7 +1,7 @@
 {
   "date": "2026-05-23",
-  "generatedAt": "2026-05-23T01:20:59.682Z",
-  "articleCount": 16,
+  "generatedAt": "2026-05-23T22:09:12.381Z",
+  "articleCount": 37,
   "articles": [
     {
       "id": "b462254f-44c5-4890-b6c1-4df28450bcb0",
@@ -306,6 +306,397 @@
       "publishedAt": "2026-05-23T00:51:03.366Z",
       "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330684",
       "collectedAt": "2026-05-23T00:51:03.366Z"
+    },
+    {
+      "id": "aac1e23e-b63e-4d78-97e4-930abe2ff40d",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "브라질, 배터리 저장 잠재력 활용 부족",
+      "titleOriginal": "Brazil falls short of its battery storage potential",
+      "summary": "브라질 에너지 저장 솔루션 협회는 브라질 전력 부문의 시스템적 문제를 해결하기 위한 배터리 저장 기술 적용 방안을 논의하기 위해 임원진을 소집했다. 이들은 단순히 배터리 에너지 저장 시스템(BESS)과 열에너지, 재생에너지와 에너지 안보 간의 논쟁을 넘어, 안보, 가격, 재생가능성, 유연성의 최적 조합을 찾는 것이 중요하다고 강조했다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-23T10:00:04.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/23/brazil-falls-short-of-its-battery-storage-potential/",
+      "collectedAt": "2026-05-23T21:58:49.427Z"
+    },
+    {
+      "id": "6a047c75-888f-40f2-90b5-c1744e7e4073",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "EU, 옥상 태양광 발전량 과소평가",
+      "titleOriginal": "EU understimating rooftop PV power generation",
+      "summary": "SolarPower Europe은 EU의 태양광 발전량이 실제보다 상당히 적게 보고되고 있다고 추정했다. 이 단체는 2025년 실제 PV 출력이 410 TWh에 달할 것으로 예상하는 반면, 공식 통계는 275 TWh에 불과하다고 지적했다. 이러한 격차는 불완전한 옥상 태양광 등록, 데이터 전송 지연 및 자가 소비 발전량 측정의 어려움 때문이라고 설명한다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-23T09:00:06.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/23/eu-understimating-rooftop-pv-power-generation/",
+      "collectedAt": "2026-05-23T21:58:56.193Z"
+    },
+    {
+      "id": "15785747-9120-4bc1-b4b1-50cfe8df99e3",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "후지야마 파워, 인도에 1.2 GW TOPCon 태양전지 제조 시설 설립",
+      "titleOriginal": "Fujiyama Power to set up 1.2 GW TOPCon solar cell manufacturing facility in India",
+      "summary": "후지야마 파워 시스템즈는 현재 인도 우타르프라데시에서 1 GW 모노 PERC 태양전지 제조 시설을 운영하고 있습니다. 회사는 온그리드 루프탑 태양광 부문에서의 입지를 확장하기 위해 마디아프라데시에 1.2 GW 규모의 TOPCon 태양전지 제조 시설을 추가로 설립할 계획입니다.",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-05-23T08:00:56.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/23/fujiyama-power-to-set-up-1-2-gw-topcon-solar-cell-manufacturing-facility-in-india/",
+      "collectedAt": "2026-05-23T21:59:06.432Z"
+    },
+    {
+      "id": "22fe2722-6e48-4291-ad7c-ee4b235db1d8",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "유럽, 전력망 가용 용량 파악 지도 구축",
+      "titleOriginal": "Europe creates map to locate available capacity in power grids",
+      "summary": "유럽은 전력망의 가용 용량을 파악하기 위한 새로운 범유럽 디지털 플랫폼을 구축했습니다. 이 플랫폼은 송전 및 배전망을 포함한 유럽 전력망의 수용 용량에 대한 정보 접근성과 투명성을 높이는 데 중점을 둡니다. 이를 통해 전력망의 효율적인 활용을 지원할 예정입니다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-05-23T07:00:14.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/23/europe-creates-map-to-locate-available-capacity-in-power-grids/",
+      "collectedAt": "2026-05-23T21:59:14.466Z"
+    },
+    {
+      "id": "10f55769-ba45-44fe-b755-8f945a969801",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미국 내 의무 유틸리티 요금이 옥상 태양광의 가격 신호를 왜곡한다",
+      "titleOriginal": "Mandatory utility fees distort price signals for rooftop solar in the US",
+      "summary": "미국 27개 주의 규제 기관들이 주거용 전기 요금 체계를 높은 고정 월 요금과 낮은 사용량 기반 요금으로 변경하고 있어, 옥상 태양광 및 가정용 배터리 시스템의 경제성을 약화시키고 있습니다. 이러한 재설계는 분산 에너지 인센티브를 감소시키고, 피크 요금 차익 거래로 인한 절감 효과를 압박하며, 비용이 많이 드는 중앙 집중식 전력망 확장에 대한 의존도를 강화합니다. 이는 장기적으로 소비자들의 전기 요금 상승으로 이어질 수 있습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-23T06:00:26.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/23/mandatory-utility-fees-distort-price-signals-for-rooftop-solar-in-the-us/",
+      "collectedAt": "2026-05-23T21:59:23.756Z"
+    },
+    {
+      "id": "2e259241-f780-4523-9e61-862683d12d54",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "EV 충전, 보한글스에서 치킨 리퍼를 만나다 (즉, 전기차 전쟁은 끝났다)",
+      "titleOriginal": "EV Charging Meets Chicken Rippers At Bojangles (In Other Words, The War On EVs Is Over)",
+      "summary": "선도적인 퀵서비스 레스토랑 체인인 Bojangles는 새로 출시된 립앤딥 치킨 리퍼 슬라이더와 함께 새로운 전기차(EV) 충전 캠페인을 시작했습니다. 이 캠페인은 EV의 광범위한 수용을 상징하며, '전기차 전쟁이 끝났다'는 메시지를 전달합니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-23T20:59:22.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/23/ev-charging-chicken-rippers-bo-jangles/",
+      "collectedAt": "2026-05-23T21:59:38.722Z"
+    },
+    {
+      "id": "a87d7543-b5bc-49ff-a3e6-9027ecf77649",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "100% 전기 폭스바겐 ID. 폴로 GTI",
+      "titleOriginal": "The 100% Electric VW ID. Polo GTI",
+      "summary": "폭스바겐은 유럽의 선두적인 전기차 판매업체이며, 전 세계적으로도 상위권에 속하지만 BYD나 테슬라만큼은 아니다. 이 기사는 유럽 시장에서 폭스바겐이 강세를 보임을 강조하며 새로운 100% 전기 ID. 폴로 GTI 모델을 소개한다. 해당 내용은 CleanTechnica에 2026년 5월 23일 게시되었다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-23T19:11:35.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/23/the-100-electric-vw-id-polo-gti/",
+      "collectedAt": "2026-05-23T21:59:43.339Z"
+    },
+    {
+      "id": "d5a0147e-ed27-4e99-a99b-20a9992318d6",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "네 서부 주, 지열 에너지 혁명을 시작하기 위해 힘을 합치다",
+      "titleOriginal": "Four Western States Combine Forces To Kickstart A Geothermal Energy Revolution",
+      "summary": "애리조나, 콜로라도, 뉴멕시코, 유타 네 서부 주가 협력하여 주 경계 내 수백 기가와트 규모의 지열 에너지를 개발하기 위해 힘을 모았습니다. 이들 주는 새로운 시추 기술, AI 및 기타 첨단 시스템을 활용하여 지열 에너지 혁명을 주도할 계획입니다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-23T18:10:51.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/23/geothermal-energy-us-hundreds-gigawatts/",
+      "collectedAt": "2026-05-23T21:59:55.220Z"
+    },
+    {
+      "id": "7bf6bf11-5633-4182-87ef-3f7fa9d05aeb",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Earth.org, 청정에너지 신화를 반박하다",
+      "titleOriginal": "Earth.org Debunks Clean Energy Myths",
+      "summary": "이 기사는 Earth.org가 효과적임이 입증된 5가지 정보 왜곡 대응 전략을 통해 청정에너지 신화를 반박했다고 언급합니다. 해당 내용은 Cleantechnica 웹사이트에 처음 게재되었습니다.",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-05-23T17:24:42.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/23/earth-org-debunks-clean-energy-myths/",
+      "collectedAt": "2026-05-23T22:00:04.134Z"
+    },
+    {
+      "id": "1c6b733d-7db4-4277-8c33-78bc74ec5c37",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "세계 4위 경제대국, 트럼프에 맞서 해상풍력 추진",
+      "titleOriginal": "World’s Fourth-Largest Economy Challenges Trump On Offshore Wind",
+      "summary": "세계 4위 경제대국인 캘리포니아의 해상풍력 이해관계자들이 연방 에너지 정책의 급격한 전환에도 불구하고 해상풍력 개발 계획을 추진하고 있다. 이들은 2045년까지 총 25기가와트(GW) 규모의 해상풍력 발전을 목표로 하고 있다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-23T12:49:41.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/23/offshore-wind-california-global-agreements/",
+      "collectedAt": "2026-05-23T22:00:14.943Z"
+    },
+    {
+      "id": "8ddb0300-083c-4fa9-af17-ddce23794fcf",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "UAE 원자력 발전소 드론 공격 — 상황이 나빠질 수 있다",
+      "titleOriginal": "Drone Strikes Nuclear Power Plant in UAE — This Could Get Bad",
+      "summary": "미국과 이스라엘의 이란 폭격 이후 중동에서 재앙이 진행 중이며, 호르무즈 해협은 봉쇄되어 전 세계 석유 산업이 위기에 처해 있습니다. CleanTechnica의 보도에 따르면, 아랍에미리트(UAE)의 한 원자력 발전소가 드론 공격을 받았다는 보고가 있어 상황이 훨씬 더 악화될 수 있음을 경고하고 있습니다. 이 사건은 전력 인프라의 안보 위협을 보여주며 국제 정세의 긴장을 반영합니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-23T03:30:58.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/22/drone-strikes-nuclear-power-plant-in-uae-this-could-get-bad/",
+      "collectedAt": "2026-05-23T22:00:23.616Z"
+    },
+    {
+      "id": "a975dacc-a064-4060-84b8-e0973437b132",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "현대, 노동·시민권·환경 보건 지도자 대표단으로부터 루이지애나 제철소 관련 요구사항 제출받아",
+      "titleOriginal": "Hyundai Issued with Demands on Louisiana Steel Mill by Delegation of Labor, Civil Rights, Environmental Health Leaders",
+      "summary": "굿 네이버스 루이지애나(Good Neighbors Louisiana) 연합 대표단이 현대의 곤잘레스 사무실을 방문하여 도널드슨빌에 제안된 58억 달러 규모의 제철소에 대한 요구사항을 전달했습니다. 이들은 개발 과정에서 노동자와 주민을 위한 보호 조치 없이 진행되는 것에 대한 우려를 표명했습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-23T00:58:46.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/22/hyundai-issued-with-demands-on-louisiana-steel-mill-by-delegation-of-labor-civil-rights-environmental-health-leaders/",
+      "collectedAt": "2026-05-23T22:00:34.932Z"
+    },
+    {
+      "id": "70e7059b-bcdd-4688-91ee-d519b30725dd",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“규제 풀겠다더니”...재기본에 다시 등장한 '태양광 이격거리 기준'?",
+      "titleOriginal": null,
+      "summary": "정부가 올해 초 재생에너지법 개정을 통해 원칙적으로 제한했던 태양광 이격거리 규제가 최근 공개된 ‘제1차 재생에너지 기본계획’에서 다시 등장하여 논란이 되고 있다. 업계는 이번 기본계획에 구체적인 거리 기준이 담기면서 지자체가 이격거리 규제를 재도입할 수 있는 중앙정부 차원의 가이드라인이 제시되었다고 우려하고 있다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-23T09:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368382",
+      "collectedAt": "2026-05-23T22:01:11.297Z"
+    },
+    {
+      "id": "6171e71c-fec5-4114-9461-8ca147524699",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "연원섭 한전 인사처장 “고졸 인재는 보조 인력이 아니다…에너지 산업 미래 이끌 핵심 자산”",
+      "titleOriginal": null,
+      "summary": "한국전력 연원섭 인사처장은 AI 전력망과 분산에너지 중심으로 급변하는 에너지 산업에서 고졸 인재가 핵심 기술 인재임을 강조했다. 한전은 학벌보다 직무 역량이 존중받는 능력 중심 사회 구현과 선취업 후진학 모델을 통해 과도한 사회적 비용을 줄이고 청년의 조기 안착을 돕기 위해 고졸 채용을 확대하며, 특히 분산에너지 특별법 시행 등으로 현장형 기술 인재 확보의 중요성이 커지고 있다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-05-23T07:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368304",
+      "collectedAt": "2026-05-23T22:01:15.887Z"
+    },
+    {
+      "id": "6a183316-421b-46cb-bd4e-6eb88d685e2b",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(창간62주년) “고졸 인재가 에너지 산업 이끈다”…한전, ‘선취업 후진학’ 새 모델 제시",
+      "titleOriginal": null,
+      "summary": "한국전력은 청년 취업난과 인력 미스매치 해결을 위해 고졸 인재를 에너지 산업 핵심 인력으로 육성하는 ‘선취업 후진학’ 모델을 제시했다. 올해 고졸 공채 규모를 2023년 11명에서 약 7.5배 증가한 82명으로 확대하며, 학벌 중심 사회구조를 실무 역량 중심으로 전환하고 사회적 비용 절감을 목표로 한다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-05-23T07:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368303",
+      "collectedAt": "2026-05-23T22:01:26.849Z"
+    },
+    {
+      "id": "7ddc4817-5bea-476d-95f7-34e857a7f69e",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[분석] “햇빛이 마을 소득 된다”… ‘햇빛소득마을’, 지방소멸 해법 될까",
+      "titleOriginal": null,
+      "summary": "햇빛소득마을은 태양광 발전 수익을 주민과 지역사회가 공유하는 모델로, 에너지전환 시대의 새로운 지역발전 모델로 주목받고 있다. 정부는 2030년까지 전국 3000여 개 마을 조성을 추진하며 지방소멸 대응과 공동체 회복의 대안을 모색하고 있으나, 전력계통 포화 및 수익성 불확실성 등 현실적 제약으로 인해 제도 보완과 지역 거버넌스 구축이 핵심 과제로 부상했다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-23T10:39:22.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=167567",
+      "collectedAt": "2026-05-23T22:03:42.309Z"
+    },
+    {
+      "id": "0f86600b-41a4-4fec-a950-56d4e60c5fa2",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "동서발전, 정부 지원과제 8건 신규 참여한다",
+      "titleOriginal": null,
+      "summary": "한국동서발전은 2026년 상반기 정부지원 연구개발과제 공모에서 8건의 신규 R&D 과제에 참여하게 되었다. 총 사업비 1361억원 규모의 신규 과제를 포함하여, 동서발전은 총 32건의 정부지원 연구과제에 참여하며 발전 현장 실증 환경을 제공하고 기술 검증을 수행할 예정이다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-23T10:34:00.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=167566",
+      "collectedAt": "2026-05-23T22:03:48.946Z"
+    },
+    {
+      "id": "46c24c42-b5a0-418c-ab42-0c01b542673c",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[분석] 호르무즈 봉쇄 장기화… 국제유가 160달러·LNG 급등 ‘에너지 쇼크’ 현실화 우려",
+      "titleOriginal": null,
+      "summary": "호르무즈 해협 봉쇄 장기화와 중동 LNG 생산시설 타격으로 국제 에너지 시장이 복합 공급위기 국면에 진입하고 있다. 국제유가는 배럴당 160달러까지 치솟을 수 있으며, 국내 LNG 도입단가 또한 올 하반기 급등할 것으로 전망된다. 이는 단순 유가 급등을 넘어 원유·LNG·전력 시장, 물가, 산업 생산비까지 연결되는 구조적 에너지 위기로 확산될 우려가 있다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-05-23T10:12:00.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=167565",
+      "collectedAt": "2026-05-23T22:03:57.069Z"
+    },
+    {
+      "id": "7f226c05-6cb6-401f-a2e1-58e8268dc46a",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "서울에너지공사, 민간 첫 ZEB 4등급 추진",
+      "titleOriginal": null,
+      "summary": "서울에너지공사는 민간 정비사업 최초로 제로에너지건축물(ZEB) 4등급 달성을 추진한다. 이는 공동주택 ZEB 의무화에 대응하기 위한 것으로, 지열·태양광·지역난방 등을 결합한 에너지믹스 모델을 서울 양천구 목동 가로주택 재건축 사업에 적용할 예정이다. 이로써 대도심형 에너지전환 해법을 제시하고 시민의 에너지 부담을 줄이는 것이 목표다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-23T10:31:28.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70002",
+      "collectedAt": "2026-05-23T22:04:40.809Z"
+    },
+    {
+      "id": "ab9f7c7c-ebac-4e00-ae2e-051ecc7c7c85",
+      "source": "그린포스트코리아",
+      "sourceId": "greenpost",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[이슈분석] EU 배터리 '줄파산' 과 對中 규제… 韓 배터리의 진격은 계속될까",
+      "titleOriginal": null,
+      "summary": "아시아 기업에 맞서겠다던 유럽 배터리 스타트업들이 양산 수율 문제 등으로 '데스밸리'를 넘지 못하고 줄줄이 파산하며 EU의 자국 기업 육성 구상이 흔들리고 있다. 노르웨이의 모로우배터리와 스웨덴의 노스볼트 등의 연쇄 파산에도 불구하고, EU의 대중국 규제는 역설적으로 한국 배터리 기업에 새로운 기회가 되고 있다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-23T07:40:00.000Z",
+      "originalUrl": "https://www.greenpostkorea.co.kr/news/articleView.html?idxno=306730",
+      "collectedAt": "2026-05-23T22:04:55.253Z"
+    },
+    {
+      "id": "de3345c0-a23f-4a53-823e-07f7966ef407",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한국원자력안전재단 신임 이사장에 김성진 변호사 취임",
+      "titleOriginal": null,
+      "summary": "원자력안전위원회 산하 공공기관인 한국원자력안전재단의 제4대 이사장으로 김성진 변호사가 취임했다. 김 이사장은 원자력 및 방사선 안전 규제 지원 기능 강화와 국민 눈높이에 맞는 안전 소통 확대, 조직 전문성 제고를 핵심 과제로 제시했다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-23T16:29:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260523027397490",
+      "collectedAt": "2026-05-23T22:07:00.276Z"
     }
   ]
 }
