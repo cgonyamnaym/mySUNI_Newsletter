@@ -1,7 +1,7 @@
 {
   "date": "2026-05-24",
-  "generatedAt": "2026-05-24T00:05:48.465Z",
-  "articleCount": 3,
+  "generatedAt": "2026-05-24T22:11:38.697Z",
+  "articleCount": 21,
   "articles": [
     {
       "id": "253e8df2-27a8-49b2-8d20-193dca400a05",
@@ -59,6 +59,340 @@
       "publishedAt": "2026-05-24T06:00:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260522024045974",
       "collectedAt": "2026-05-24T00:02:41.440Z"
+    },
+    {
+      "id": "ef98aff5-9da8-47c2-9b6d-b25f180afa2d",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "보고서: 미국, 1분기에 10 GWh의 신규 에너지 저장 용량 추가하며 사상 최고 기록",
+      "titleOriginal": "REPORT: U.S. Adds 10 GWh of New Energy Storage Capacity in 1st Quarter, Best Q1 on Record",
+      "summary": "2026년 1분기에 미국 에너지 저장 산업은 9.7 GWh(제목에서는 10 GWh로 언급)의 신규 용량을 설치하여 해당 부문 역사상 가장 강력한 1분기 실적을 기록했습니다. 이는 이란 전쟁으로 인한 에너지 안보 강화 노력에 힘입어 향후 5년간 에너지 저장 예측치가 상향 조정된 결과입니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-24T13:05:59.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/24/report-u-s-adds-10-gwh-of-new-energy-storage-capacity-in-1st-quarter-best-q1-on-record/",
+      "collectedAt": "2026-05-24T21:59:42.211Z"
+    },
+    {
+      "id": "72956dce-a06b-4213-adfe-c9d3907beb39",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미국 고위 관료, 배터리 저장 기술에 무지 — 비웃음 유발 :)",
+      "titleOriginal": "Top US Official Doesn’t Know About Battery Storage — Cue The Laughter :)",
+      "summary": "미국 내무부 장관 더그 버검이 이달 초 태양광 시스템에 대한 배경 지식 없이 증언하며 이를 폄하했다. 그는 해가 지면 네바다의 태양광 프로젝트들이 아무것도 생산하지 못한다고 비웃었으며, 이는 배터리 저장 기술의 중요성을 간과했음을 보여준다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-24T11:45:36.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/24/top-us-official-doesnt-know-about-battery-storage-cue-the-laughter/",
+      "collectedAt": "2026-05-24T21:59:47.868Z"
+    },
+    {
+      "id": "fac6f76a-a0fe-4974-ae47-c1e1e0fea724",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "경남도, 도내 원전기업 미국 원전건설 공급망 진입 총력전",
+      "titleOriginal": null,
+      "summary": "경상남도는 도내 원전기업의 미국 원전 및 전력 시장 진출을 지원하기 위해 '2026 경남 원전기업 미국 시장개척단'을 11월 19일부터 22일까지 미국 현지에 파견했다. 이번 시장개척단에는 한국수력원자력, 두산에너빌리티 등을 포함한 기업 및 기관들이 참여하여 경남 원전산업의 제조 경쟁력을 홍보하고 현지 관계자들과 간담회를 가졌다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-24T16:22:10.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368416",
+      "collectedAt": "2026-05-24T22:00:26.312Z"
+    },
+    {
+      "id": "559e5b73-f517-4874-aee4-cf47e14c763a",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "내 집과 전기차로 돈 번다’ 제주형 분산에너지 도민 지갑으로",
+      "titleOriginal": null,
+      "summary": "제주특별자치도는 전기차의 전력망 되팔이 수익과 태양광 잉여 전력으로 난방비를 절감하는 '제주형 분산에너지 상용화 모델'을 도민 앞에 공개했다. 이 모델은 지난 22일 150여 명이 참석한 '제주형 분산에너지 확산 3차 도민 토론회'에서 논의되었으며, 전기차·태양광·히트펌프·제로에너지주택 등을 활용한 생활 속 에너지 자원 활용 방안을 제시한다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-24T16:03:19.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368415",
+      "collectedAt": "2026-05-24T22:00:35.173Z"
+    },
+    {
+      "id": "6d236c39-e326-495f-87d7-46cb764ec6ae",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "AI 예측 깬 고효율 유기태양전지 개발!",
+      "titleOriginal": null,
+      "summary": "UNIST와 성균관대학교 공동 연구팀이 인공지능 예측을 뛰어넘는 고효율 유기태양전지를 개발했다. 친환경 공정에서도 19.67%의 광전변환효율을 기록했으며, AI가 놓쳤던 분자 간의 뭉침이 고성능의 핵심 비결로 밝혀졌다. 이는 저렴하고 쉽게 제조 가능한 차세대 유기태양전지 개발에 중요한 진전을 보여준다.",
+      "topics": [
+        "운영 최적화",
+        "에너지원"
+      ],
+      "primaryTopic": "운영 최적화",
+      "publishedAt": "2026-05-24T15:49:55.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368414",
+      "collectedAt": "2026-05-24T22:00:43.696Z"
+    },
+    {
+      "id": "dd4e78e5-0efe-47d2-9e33-529888e51747",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "경북도, 우기 앞두고 동해안-신가평 송전선로 현장 긴급 점검",
+      "titleOriginal": null,
+      "summary": "경상북도가 여름철 우기를 앞두고 '500kV HVDC 동해안-신가평 송전선로' 공사 현장을 긴급 점검했다. 이는 환경단체의 토사 유출 및 산림 훼손 우려 제기에 따른 것으로, 황명석 경상북도지사 권한대행이 배수시설 관리와 주민 대피체계 등을 집중 확인했다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-05-24T15:36:35.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368413",
+      "collectedAt": "2026-05-24T22:00:52.396Z"
+    },
+    {
+      "id": "583427f0-8213-4766-b59b-a7cb7bf0a434",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(창간 62주년) ‘데이터가 품질 무기’ 스위코진광, MES로 해외 40개국 홀린 비결은",
+      "titleOriginal": null,
+      "summary": "전남 나주에 위치한 스위코진광은 개폐기 생산 전문 기업으로, 베트남 등 약 40여 개국에 맞춤형 제품을 수출하며 국내 대표 수출 기업으로 성장했습니다. 이들의 성공 비결은 국가별 미세한 기후 및 전력 환경 차이를 반영한 유연한 맞춤형 생산과 이를 오차 없이 구현하는 MES(생산공정관리시스템) 시스템에 있습니다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-05-24T07:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368309",
+      "collectedAt": "2026-05-24T22:01:02.712Z"
+    },
+    {
+      "id": "228fcf64-f040-47cb-a974-b023eead7533",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "최승현 스위코진광 대표 “현장의 땀방울 담긴 데이터, 10년 뒤 기업 격차 가를 것”",
+      "titleOriginal": null,
+      "summary": "40년간 개폐기 분야에 몸담아온 최승현 스위코진광 대표는 오는 6월 창립 10주년을 앞두고 글로벌 수준의 품질 신뢰와 수출 확대를 목표로 하고 있다. 이를 위해 진광이앤씨를 인수하고 초기 구축 비용에만 수억 원을 투자해 고도화된 생산공정관리시스템(MES)을 도입했으며, 현장의 데이터를 통해 미래 기업의 경쟁력을 확보할 것이라고 밝혔다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-05-24T07:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368307",
+      "collectedAt": "2026-05-24T22:01:10.576Z"
+    },
+    {
+      "id": "0dcf2455-f54a-453b-9482-b963f0725406",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[창간좌담회]“스마트 조명 잠재력에 주목…정책이 디딤돌 되면 시장 열릴 것”",
+      "titleOriginal": null,
+      "summary": "2010년대 초 녹색성장의 핵심이었던 국내 LED 시장이 출혈경쟁과 중국산 제품으로 성장이 멈추고 영세 기업들이 위기에 처했다. 이에 '스마트 조명'이 구원투수로 주목받고 있지만, 시장 활성화에 어려움을 겪고 있다. 본지는 2026년 5월 19일 학계, 연구계, 산업계 등 5명의 전문가와 좌담회를 통해 스마트 조명 산업 활성화를 위한 정책적 지원과 과제를 모색했다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-24T07:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368297",
+      "collectedAt": "2026-05-24T22:01:21.071Z"
+    },
+    {
+      "id": "808b1f79-9d2c-4829-a43d-8e4447727a24",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(창간 62주년) 오덕근 JR에너지솔루션 대표 “배터리 3사와는 상호 보완관계, 다품종 소량생산으로 생태계 견인”",
+      "titleOriginal": null,
+      "summary": "JR에너지솔루션은 2022년 12월 출범한 배터리 파운드리 기업으로, 반도체 파운드리 모델을 이차전지 시장에 접목하여 새로운 산업 생태계를 구축하고 있다. 이 회사는 다품종 소량생산 전략을 통해 글로벌 배터리 공급망 재편 속에서 시장을 개척하며, 올해 영업이익 흑자 전환을 목표로 하고 있다. 오덕근 대표는 과거 대기업에서 포착한 전극 등 반제품 수요를 바탕으로 TSMC와 같은 배터리 파운드리 비전을 제시한다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-24T07:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368244",
+      "collectedAt": "2026-05-24T22:01:33.420Z"
+    },
+    {
+      "id": "8c9f869a-6df2-488a-bc82-4ac1f46321e6",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "RPS 사실상 폐지 · 내년 장기경매제로 전면 개편",
+      "titleOriginal": null,
+      "summary": "국회가 재생에너지법 개정안 등을 통과시키며 내년 1월부터 신재생에너지공급의무화(RPS)가 사실상 폐지되고 장기고정가격 계약시장(장기경매)으로 전면 개편됩니다. 이와 함께 전력망 확충을 위한 민간 BT 참여 허용, 석탄발전 폐지지역 지원 특별법 통과 등이 추진되지만, 단기적 보급 위축과 REC 시장 충격 등의 우려도 제기되고 있습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-24T20:29:51.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298214",
+      "collectedAt": "2026-05-24T22:02:45.533Z"
+    },
+    {
+      "id": "dbbfaebc-0a3d-4c80-8750-d716dc82df60",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "지역난방公, 에너지 위기 대응 비상경영 실적 점검",
+      "titleOriginal": null,
+      "summary": "한국지역난방공사는 중동전쟁 장기화와 국제유가 상승 등으로 인한 에너지 위기 대응을 위해 비상경영을 추진하고 있다. 자체 컨틴전시 플랜상 '심각' 단계에 진입한 국제유가에 대응하여 159억 원의 예산을 절감하고 열병합발전기 최적 운전으로 연료비도 크게 줄였다. 또한 4월 1일 자 열요금을 동결하고 에너지 취약계층 지원을 조기화하며 국민 상생 경영을 실천하고 있다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-24T20:01:38.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298212",
+      "collectedAt": "2026-05-24T22:02:52.761Z"
+    },
+    {
+      "id": "be12687a-05dd-4933-bbe1-034558ab0b9e",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "기후부, ‘공공소각시설 조기 확충방안’ 발표",
+      "titleOriginal": null,
+      "summary": "기후에너지환경부는 2030년 생활폐기물 직매립 전면 금지에 대비하고 폐기물 지역 이동 문제를 해소하기 위해 '공공소각시설 조기 확충방안'을 발표했다. 이 방안은 사업 절차 혁신, 지방정부 설치 유인 강화, 현장 밀착 지원을 핵심으로 하며, 폐기물 처리수수료 가산금 인상(10%→20%) 및 지방재정투자심사 면제(2026년 20개 사업) 등 구체적 지원책을 포함한다.",
+      "topics": [
+        "시장·가격 동향",
+        "정책·규제"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-05-24T20:01:38.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298208",
+      "collectedAt": "2026-05-24T22:03:15.090Z"
+    },
+    {
+      "id": "56866310-f3ea-4eaf-a70d-635ff86c954e",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[시장 전망] 육상(해안)-선박 전력 공급 규모, 2035년 23억 달러 전망",
+      "titleOriginal": null,
+      "summary": "육상-선박 전력 공급 시장은 해양 배출 규제 강화와 녹색 항만 인프라 확대로 2025년 약 12억 달러에서 2035년 약 23억 달러로 성장할 전망이다. IMO 수준의 환경 프레임워크 준수 및 무배출 접안 정책이 주요 동력이며, 스마트 그리드 통합과 재생에너지 연계 기술이 핵심이다. 다만 높은 초기 투자와 전력망 용량 제한 등의 제약이 있어 정부 지원과 표준화 노력이 상용화 속도를 좌우할 것이다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-24T10:48:16.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298206",
+      "collectedAt": "2026-05-24T22:03:29.744Z"
+    },
+    {
+      "id": "784c9149-5323-4ccd-b28d-1ce18672cae1",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스안전공사 대전광역본부-소상공인시장진흥공단 세종센터 '합동 가스안전 점검 캠페인' 진행",
+      "titleOriginal": null,
+      "summary": "한국가스안전공사 대전광역본부가 소상공인시장진흥공단 세종센터와 22일 세종시 대평시장에서 '합동 가스안전 점검 캠페인'을 진행했습니다. 2021년 12월 체결된 업무협약의 일환으로 추진된 이번 캠페인은 가스 사고와 화재에 취약한 전통시장 내 시설을 점검하고 안전한 가스 사용 및 사고 예방을 홍보하는 데 중점을 두었습니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-24T00:33:06.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298200",
+      "collectedAt": "2026-05-24T22:04:06.741Z"
+    },
+    {
+      "id": "74b7fc9b-4634-4623-a266-69759855ecef",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[기자수첩] 재생에너지 정책, 실험대상 아니다",
+      "titleOriginal": null,
+      "summary": "한국의 재생에너지 정책이 정권 교체에 따라 윤석열 정부의 친원전 기조(재생에너지 발전비중 30%→20%대 축소)와 이재명 정부의 재생에너지 확대(2035년까지 30% 목표)를 오가며 일관성 없는 흐름을 보이고 있다. 이에 업계는 장기적인 사업 계획 수립과 기술 개발에 어려움을 겪으며, 재생에너지가 더 이상 특정 정권의 실험 대상이 아닌 글로벌 탄소중립 및 RE100 시대의 필수 과제임을 강조한다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-24T22:06:26.585Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330625",
+      "collectedAt": "2026-05-24T22:06:26.585Z"
+    },
+    {
+      "id": "487c211b-d531-44c6-89cd-9ac83fefec5f",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[사설] 석유최고가격제 깊어지는 시름",
+      "titleOriginal": null,
+      "summary": "미-이란 전쟁으로 국제유가가 급등하자 정부가 석유최고가격제를 도입해 휘발유와 경유 가격을 통제하고 있으나, 정유업계의 누적 손실액이 3조원대에 달하며 정부 재정 부담도 가중되고 있다. 정유업계는 정부의 손실 보전 방식과 기준에 난색을 표하며, 휘발유세 감면 등 보다 다각적인 가격 안정 대책을 요구하고 있다.",
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-24T22:06:31.903Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330750",
+      "collectedAt": "2026-05-24T22:06:31.903Z"
+    },
+    {
+      "id": "a0428d62-ef22-45fb-8082-a1948a6942df",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[칼럼] 선거의 존재 이유를 묻다",
+      "titleOriginal": null,
+      "summary": "헌법재판소가 탄소중립기본법 8조에 대해 헌법불합치 결정을 내렸음에도, 국회가 온실가스 감축 경로 설정을 미루고 공론화위원회에 책임을 회피하고 있음을 비판한다. 저자는 기후 위기 대응이 시급한 상황에서 정당들이 선거를 통해 구체적인 감축 정책을 경쟁하고 시민들의 알 권리를 보장해야 한다고 강조한다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-24T22:06:47.993Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330751",
+      "collectedAt": "2026-05-24T22:06:47.993Z"
     }
   ]
 }

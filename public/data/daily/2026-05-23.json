@@ -1,7 +1,7 @@
 {
   "date": "2026-05-23",
-  "generatedAt": "2026-05-24T00:05:48.464Z",
-  "articleCount": 38,
+  "generatedAt": "2026-05-24T22:11:38.698Z",
+  "articleCount": 41,
   "articles": [
     {
       "id": "b462254f-44c5-4890-b6c1-4df28450bcb0",
@@ -716,6 +716,59 @@
       "publishedAt": "2026-05-23T22:13:35.000Z",
       "originalUrl": "https://cleantechnica.com/2026/05/23/kia-ev6-price-gets-cut-to-37900/",
       "collectedAt": "2026-05-23T23:53:14.045Z"
+    },
+    {
+      "id": "e81ba75e-97e7-491d-8422-355ca04f2375",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스안전공사, 행정안전부 주관 ‘제33회 방재의 날’ 대통령 표창 수상",
+      "titleOriginal": null,
+      "summary": "한국가스안전공사는 행정안전부 주관 '제33회 방재의 날'에서 국가 재난관리에 기여한 공로를 인정받아 공공기관으로 유일하게 단체 부문 대통령 표창을 수상했다. 공사는 첨단기술 기반의 신속하고 정확한 가스 재난 관리 체계를 확립하고, 지난해 전국적인 산불·풍수해 발생 시 LPG용기 수거 및 이재민 지원 등을 통해 2차 피해 확산을 예방하며 국민의 일상 회복에 기여했다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-23T23:59:12.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298198",
+      "collectedAt": "2026-05-24T22:04:16.720Z"
+    },
+    {
+      "id": "a5c7360d-15cd-4103-8461-1ea6db07ea69",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스안전공사, 해외 진출 준비 '방폭 기업' 제도적 본격 지원",
+      "titleOriginal": null,
+      "summary": "한국가스안전공사가 산업통상부와 중소벤처기업부 주관 '수출 지원 기반 활용 사업' 수행기관으로 지정되어 해외 진출을 준비하는 방폭 기업들을 제도적으로 지원한다. 공사는 국제 방폭 인증(IECEx) 공인기관으로서 전문 인력과 인프라를 활용, 수출 바우처 사업을 통해 해당 기업들에게 IECEx 인증 서비스를 제공하여 해외 진출 부담을 낮춰줄 예정이다.",
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-05-23T22:38:33.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298196",
+      "collectedAt": "2026-05-24T22:04:41.126Z"
+    },
+    {
+      "id": "afc4f4b4-76fd-4707-ba7f-ed9a03b8e8d4",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스안전공사 대전광역본부, 고압 · 특수가스 취급 연구기관 등 안전관리 체계 강화",
+      "titleOriginal": null,
+      "summary": "한국가스안전공사 대전광역본부는 5월 20일 '가스 안전관리 상시 협의체' 상반기 정기회의를 개최하여 고압 및 특수가스를 취급하는 연구기관과 산업체 연구소의 안전관리 체계 강화를 추진했다. 이날 회의에는 가스안전공사, 국방과학연구소 등 12개 기관 및 대전시청 등 지자체 관계자 약 30명이 참여해 맞춤형 안전관리 체계 구축 및 현장 협력 방안을 논의하고 현장 견학을 병행했다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-23T22:05:57.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298195",
+      "collectedAt": "2026-05-24T22:04:59.087Z"
     }
   ]
 }
