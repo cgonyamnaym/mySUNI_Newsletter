@@ -1,7 +1,7 @@
 {
   "date": "2026-05-23",
-  "generatedAt": "2026-05-23T22:09:12.381Z",
-  "articleCount": 37,
+  "generatedAt": "2026-05-24T00:05:48.464Z",
+  "articleCount": 38,
   "articles": [
     {
       "id": "b462254f-44c5-4890-b6c1-4df28450bcb0",
@@ -697,6 +697,25 @@
       "publishedAt": "2026-05-23T16:29:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260523027397490",
       "collectedAt": "2026-05-23T22:07:00.276Z"
+    },
+    {
+      "id": "687b8bc0-d345-4d8b-8163-d4e29f06a33a",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "기아 EV6 가격 37,900달러로 인하!",
+      "titleOriginal": "Kia EV6 Price Gets Cut to $37,900!",
+      "summary": "클린테크니카(CleanTechnica)는 기아의 전기차 모델인 EV6의 가격이 37,900달러로 대폭 인하되었다고 보도했습니다. 이번 가격 조정은 전기차 시장의 경쟁력을 강화하고 소비자 접근성을 높이기 위한 전략으로 풀이됩니다.",
+      "topics": [
+        "운영 최적화",
+        "정책·규제"
+      ],
+      "primaryTopic": "운영 최적화",
+      "publishedAt": "2026-05-23T22:13:35.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/23/kia-ev6-price-gets-cut-to-37900/",
+      "collectedAt": "2026-05-23T23:53:14.045Z"
     }
   ]
 }

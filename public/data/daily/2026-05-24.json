@@ -1,7 +1,7 @@
 {
   "date": "2026-05-24",
-  "generatedAt": "2026-05-23T22:09:12.384Z",
-  "articleCount": 1,
+  "generatedAt": "2026-05-24T00:05:48.465Z",
+  "articleCount": 3,
   "articles": [
     {
       "id": "253e8df2-27a8-49b2-8d20-193dca400a05",
@@ -21,6 +21,44 @@
       "publishedAt": "2026-05-24T06:32:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260522022466990",
       "collectedAt": "2026-05-23T22:06:27.781Z"
+    },
+    {
+      "id": "35565cee-0dde-480b-8bf5-3eebc60b0f83",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "건설업계의 새 영토 된 SMR…“시공 넘어 에너지 패권 경쟁”",
+      "titleOriginal": null,
+      "summary": "AI 시대 전력 수요 급증과 탄소중립 흐름에 따라 SMR이 핵심 에너지 인프라로 부상하며, 국내 주요 건설사들이 단순 시공을 넘어 지분 투자와 공동개발 등 사업 영역을 확장하고 있다. 미·일 전략무역협정을 통한 3320억 달러 규모의 에너지 분야 투자 등 글로벌 공급망 구축 경쟁이 가속화되는 가운데, 상업화 검증과 비용 리스크 극복이 주요 과제로 꼽힌다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-24T09:00:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260522028574687",
+      "collectedAt": "2026-05-24T00:02:09.800Z"
+    },
+    {
+      "id": "4a58a53d-6c60-4d60-b56b-5a835190d197",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "원전 vs 재생에너지…여야 에너지 공약 ‘극과 극’ [창간기획]",
+      "titleOriginal": null,
+      "summary": "이 기사는 6·3 지방선거를 앞두고 여야의 에너지 공약이 '극과 극'으로 나뉘는 양상을 분석합니다. 더불어민주당은 RE100(재생에너지 100% 사용)을 전면에 내세우며 'AI 기반 에너지고속도로 구축'(2030년까지 서해안 중심 초고압 송전망 구축)과 '햇빛소득마을'을 통한 산업 경쟁력 강화 및 지역 균형발전을 추진하고 있습니다. 반면 국민의힘은 원자력 발전을 중심으로 '원전 생태계 복원과 확장'을 강조하며, 현재 건설 중인 2기를 포함해 총 5기의 원전 건설과 SMR(소형모듈원자로) 기술 육성을 통해 AI 시대의 안정적이고 저렴한 전력 공급을 목표로 합니다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-24T06:00:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260522024045974",
+      "collectedAt": "2026-05-24T00:02:41.440Z"
     }
   ]
 }
