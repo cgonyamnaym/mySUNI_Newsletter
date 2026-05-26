@@ -1,0 +1,860 @@
+{
+  "date": "2026-05-25",
+  "generatedAt": "2026-05-26T01:05:02.400Z",
+  "articleCount": 46,
+  "articles": [
+    {
+      "id": "73fa3d49-ac81-4a2d-9539-1538fbcf93c0",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "JA Solar, Gold Stone Energy claim world’s highest efficiency for silicon solar cells with 28.2%-efficient back contact device",
+      "titleOriginal": "JA Solar, Gold Stone Energy claim world’s highest efficiency for silicon solar cells with 28.2%-efficient back contact device",
+      "summary": "The result was certified by TÜV Rheinland and represents the highest efficiency ever recorded for a single-junction silicon solar cells.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-25T14:40:15.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/25/ja-solar-gold-stone-energy-claim-worlds-highest-efficiency-for-silicon-solar-cells-with-28-2-efficient-back-contact-device/",
+      "collectedAt": "2026-05-25T23:58:41.824Z"
+    },
+    {
+      "id": "2e80888d-c6d9-4404-a2b9-20aa8d56e66b",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Cuba raises renewable electricity export tariff 30-fold",
+      "titleOriginal": "Cuba raises renewable electricity export tariff 30-fold",
+      "summary": "Cuba has introduced a new tariff of CUP 90 ($3.75)/kWh for surplus renewable electricity exported to the national grid, replacing a lower differentiated pricing system for residential and non-resident",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-05-25T13:04:34.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/25/cuba-raises-renewable-electricity-export-tariff-30-fold/",
+      "collectedAt": "2026-05-25T23:59:01.917Z"
+    },
+    {
+      "id": "f2e9db37-865c-453e-adbc-d1e913c08802",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "EU awards €400 million to 65 industrial heat projects in auction",
+      "titleOriginal": "EU awards €400 million to 65 industrial heat projects in auction",
+      "summary": "The European Commission has awarded €400 million ($465.7 million) to 65 industrial heat decarbonization projects across 10 European countries in its first Innovation Fund heat auction, targeting elect",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-05-25T12:15:40.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/25/eu-awards-e400-million-to-65-industrial-heat-projects-in-auction/",
+      "collectedAt": "2026-05-25T23:59:31.936Z"
+    },
+    {
+      "id": "697dabf4-26eb-4a23-9ea9-72e532067b95",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "An uncomfortable truth: What Spain’s blackout really showed",
+      "titleOriginal": "An uncomfortable truth: What Spain’s blackout really showed",
+      "summary": "Spain and Portugal experienced a historic blackout caused not by cyberattacks or renewables alone, but by a fast-moving overvoltage event that exposed weaknesses in voltage control, grid coordination,",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-25T12:00:40.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/25/an-uncomfortable-truth-what-spains-blackout-really-showed/",
+      "collectedAt": "2026-05-26T00:00:01.950Z"
+    },
+    {
+      "id": "593a0005-3d39-4f86-aaaf-3c27ea398751",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "산마리노, 태양광 인수 프로그램 착수",
+      "titleOriginal": "San Marino launches solar acquisition program",
+      "summary": "산마리노의 공공 전력회사가 국내 재생에너지 발전량 증대 및 장기적인 에너지 안보 강화를 목표로 새로운 태양광 자산 인수 프로그램을 시작했습니다. 이 프로그램은 투자자들로부터 태양광 발전 자산이나 개발 단계의 기업을 매입하여 국가의 에너지 독립성을 높이려는 전략입니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-25T11:00:32.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/25/san-marino-launches-solar-acquisition-program/",
+      "collectedAt": "2026-05-26T00:00:31.968Z"
+    },
+    {
+      "id": "1143cfc5-e187-43a4-b65e-ce25bff728ee",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "DAS Solar, UNSW build tunnel back-contact solar cell with 27% efficiency, lower silver content",
+      "titleOriginal": "DAS Solar, UNSW build tunnel back-contact solar cell with 27% efficiency, lower silver content",
+      "summary": "Researchers from UNSW and DAS Solar developed a zero-busbar metal grid optimization approach for tunnel oxide passivated back-contact (TBC) silicon solar cells, enabling more efficient current collect",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-25T09:00:12.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/25/das-solar-unsw-build-tunnel-back-contact-solar-cell-with-27-efficiency-lower-silver-content/",
+      "collectedAt": "2026-05-26T00:00:48.303Z"
+    },
+    {
+      "id": "56303356-fd75-456b-99b8-67335187fa88",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Finergreen exits Africa, focuses growth on Europe and Asia",
+      "titleOriginal": "Finergreen exits Africa, focuses growth on Europe and Asia",
+      "summary": "French advisory firm Finergreen has sold its African operations to local management teams and will refocus its strategy on Europe and Asia, where it says its main growth opportunities lie.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-25T08:15:52.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/25/finergreen-exits-africa-focuses-growth-on-europe-and-asia/",
+      "collectedAt": "2026-05-26T00:01:11.991Z"
+    },
+    {
+      "id": "7e70b63f-7e55-4a53-a8a8-e63f336939f3",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Pollution from coal plants can reduce solar generation by over 5%",
+      "titleOriginal": "Pollution from coal plants can reduce solar generation by over 5%",
+      "summary": "Research from the UK finds aerosols reduced global solar output by 5.8% in 2023, equivalent to 111 TWh. While China accounted for over half the global total in 2023, the country is the only major sola",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-25T08:00:32.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/25/pollution-from-coal-plants-can-reduce-solar-generation/",
+      "collectedAt": "2026-05-26T00:01:41.992Z"
+    },
+    {
+      "id": "17daec04-e0d3-4aa2-b78a-3df97a092dcf",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Inlyte Energy targets US data centers with iron-sodium batteries",
+      "titleOriginal": "Inlyte Energy targets US data centers with iron-sodium batteries",
+      "summary": "California-based Inlyte Energy plans pilot projects in Switzerland and the United States this year to demonstrate its iron-sodium battery technology for data centers and utility-scale energy storage a",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-25T07:30:13.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/25/inlyte-energy-targets-us-data-centers-with-iron-sodium-batteries/",
+      "collectedAt": "2026-05-26T00:02:11.998Z"
+    },
+    {
+      "id": "af1f9900-e79c-420f-847b-758cd36c090c",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Solar module recycling based on oxidative liquefaction",
+      "titleOriginal": "Solar module recycling based on oxidative liquefaction",
+      "summary": "Researchers have developed a low-temperature, hydrogen peroxide-mediated oxidative liquefaction process to recycle end-of-life solar panels by selectively breaking down polymers into useful chemical f",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-25T07:00:23.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/25/solar-module-recycling-based-oxidative-liquefaction/",
+      "collectedAt": "2026-05-26T00:02:42.033Z"
+    },
+    {
+      "id": "2f0672d4-fbb5-426e-9ecb-ab57aea736fe",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Fortescue begins building 690 MW solar farm, 650 MWh BESS in Australia",
+      "titleOriginal": "Fortescue begins building 690 MW solar farm, 650 MWh BESS in Australia",
+      "summary": "One of Australia’s biggest miners has commenced construction of a 690 MW solar farm and 650 MWh battery energy storage system in Western Australia as part of plans to eliminate diesel and gas from its",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-25T06:47:03.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/25/fortescue-begins-building-690-mw-solar-farm-650-mwh-bess-in-australia/",
+      "collectedAt": "2026-05-26T00:03:12.051Z"
+    },
+    {
+      "id": "986bac3b-9258-44d1-984c-218ce800d2de",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Oil in turmoil, solar stays stable",
+      "titleOriginal": "Oil in turmoil, solar stays stable",
+      "summary": "Soaring energy costs have grabbed headlines around the world the past two months, but prices across the solar supply chain are marching to their own beat, writes Hanwei Wu of OPIS. Oversupply in Asia ",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-05-25T06:00:36.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/25/oil-in-turmoil-solar-stays-stable/",
+      "collectedAt": "2026-05-26T00:03:42.073Z"
+    },
+    {
+      "id": "c904371e-9b27-44b5-b7e9-e03ec0cbc692",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "An Post Reaches Emissions Milestone 3 Months Early",
+      "titleOriginal": "An Post Reaches Emissions Milestone 3 Months Early",
+      "summary": "<p>An Post, the national postal service of Ireland, has achieved its carbon reduction plans three months early. </p>\n<p>The post <a href=\"https://cleantechnica.com/2026/05/25/an-post-reaches-emissions",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-25T21:47:13.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/25/an-post-reaches-emissions-milestone-3-months-early/",
+      "collectedAt": "2026-05-26T00:04:13.936Z"
+    },
+    {
+      "id": "ad012f0b-460b-48e5-940b-1aac8e97409d",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "The Future of Home Energy Is an Intelligent Ecosystem",
+      "titleOriginal": "The Future of Home Energy Is an Intelligent Ecosystem",
+      "summary": "<p>Home energy is moving beyond individual upgrades toward one intelligent, connected system. Homes are using more electricity than they did a decade ago. EVs charge in the driveway. Heat pumps are re",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-25T20:23:32.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/25/the-future-of-home-energy-is-an-intelligent-ecosystem/",
+      "collectedAt": "2026-05-26T00:04:42.104Z"
+    },
+    {
+      "id": "6191beb9-6aba-413a-a738-8ef540a9d1f9",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "$1 Billion Electric Truck Rebate Program Announced",
+      "titleOriginal": "$1 Billion Electric Truck Rebate Program Announced",
+      "summary": "<p>Just a bit ago, WattEV ordered 370 Tesla semi trucks, which is quite a large order for electric heavy-duty cargo trucks in the US. The Tesla Semi has been in development for years, including variou",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-25T15:50:08.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/25/1-billion-electric-truck-rebate-program-announced/",
+      "collectedAt": "2026-05-26T00:05:12.121Z"
+    },
+    {
+      "id": "3f3c33fb-b95b-478a-8901-280b7013ff1f",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "US Solar & Storage Manufacturers Flood DC To Highlight Global Leadership & Jobs",
+      "titleOriginal": "US Solar & Storage Manufacturers Flood DC To Highlight Global Leadership & Jobs",
+      "summary": "<p>Something most people still don&#8217;t know is that the US solar power and storage industry has gotten quite large. The US solar industry employs about 280,000 people. The energy storage industry ",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-25T05:00:12.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/25/us-solar-storage-manufacturers-flood-dc-to-highlight-global-leadership-jobs/",
+      "collectedAt": "2026-05-26T00:05:42.128Z"
+    },
+    {
+      "id": "a7fae3ec-2d3f-4a82-8b8b-c7139e17ea60",
+      "source": "Carbon Brief",
+      "sourceId": "carbon-brief",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Analysis: China’s new carbon metric leaves Germany-sized gap in its emissions",
+      "titleOriginal": "Analysis: China’s new carbon metric leaves Germany-sized gap in its emissions",
+      "summary": "<p>A major change in the way that China measures its core climate goal has effectively...</p>\n<p>The post <a href=\"https://www.carbonbrief.org/analysis-chinas-new-carbon-metric-leaves-germany-sized-ga",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-25T23:01:00.000Z",
+      "originalUrl": "https://www.carbonbrief.org/analysis-chinas-new-carbon-metric-leaves-germany-sized-gap-in-its-emissions/",
+      "collectedAt": "2026-05-26T00:06:15.028Z"
+    },
+    {
+      "id": "88887af2-d7e6-49e3-a0ea-ba62dffb0307",
+      "source": "Carbon Brief",
+      "sourceId": "carbon-brief",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Revealed: Floods have forced at least 67 closures at NHS hospitals since 2021",
+      "titleOriginal": "Revealed: Floods have forced at least 67 closures at NHS hospitals since 2021",
+      "summary": "<p>At least 67 NHS hospital wards, departments and other sites across the UK have been...</p>\n<p>The post <a href=\"https://www.carbonbrief.org/revealed-floods-have-forced-at-least-67-closures-at-nhs-h",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-25T15:00:00.000Z",
+      "originalUrl": "https://www.carbonbrief.org/revealed-floods-have-forced-at-least-67-closures-at-nhs-hospitals-since-2021/",
+      "collectedAt": "2026-05-26T00:06:42.156Z"
+    },
+    {
+      "id": "ac79af3f-2792-4cc9-9a64-bc30c713ba3d",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "김성환 기후장관, 러브버그 방제 현장 점검…“여름철 국민 불편 최소화”",
+      "titleOriginal": null,
+      "summary": "김성환 기후에너지환경부 장관이 여름철을 앞두고 붉은등우단털파리(이하 러브버그) 사전 방제 현장을 점검했다.25일 기후에너지환경부에 따르면 이날 김성환 장관은 서울 노원구 불암산 일대에서 진행 중인 러브버그 유충 방제 현장을 찾아 대응 상황을 살폈다.김 장관은 미생물 제제(Bti)를 활용해 유충 단계에서 개체수를 조절하는 실증연구가 진행 중인 방제 현장을 돌",
+      "topics": [
+        "정책·규제"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-05-25T14:43:36.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368431",
+      "collectedAt": "2026-05-26T00:09:54.336Z"
+    },
+    {
+      "id": "2ef88aad-a6db-4e44-bcb7-fff9cbc655e1",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "유명무실했던 재생에너지 거래시장…새판 짜이나",
+      "titleOriginal": null,
+      "summary": "한국의 재생에너지 전력거래시장이 두 갈래의 제도 개편을 거치며 모처럼 시장다운 골격을 갖춰나가는 모습이다. 이른바 ▲계약시장 ▲현물시장은 전력시장의 두 축으로 불리지만, 재생에너지에서는 사실 이름만 걸어둔 시장에 가까웠다면는 게 업계의 평가다. 그러나 이제는 재생에너지가 제대로 된 전력시장에 편입될 수 있도록 제도를 손질해나가고 있는 것.먼저 신재생에너지 ",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-25T12:58:06.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368430",
+      "collectedAt": "2026-05-26T00:10:24.347Z"
+    },
+    {
+      "id": "58216ebc-a39a-4c06-be3a-7b523a1db56f",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "김성진 전력거래소 이사장, 제주 V2G 실증단지 방문 현장 점검",
+      "titleOriginal": null,
+      "summary": "김성진 전력거래소 이사장이 제주지역 V2G(Vehicle-to-Grid) 실증현장을 찾아 전기차 기반 미래 전력망 운영 가능성을 점검했다. 재생에너지와 전기차를 연계한 분산에너지 활용 확대와 함께, 제주지역 전력계통 안정운영 상황도 직접 확인하며 여름철 전력수급 대응체계 점검에 나섰다.김 이사장은 지난 20일 제주지역 V2G 실증단지를 방문해 전기차를 활용",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-05-25T12:21:24.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368427",
+      "collectedAt": "2026-05-26T00:10:54.344Z"
+    },
+    {
+      "id": "8ea8764a-3432-4a78-9355-11fdcb4a0f8c",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“접경지 복합재난에도 전력망 사수”…한전, 안전한국훈련 실시",
+      "titleOriginal": null,
+      "summary": "한국전력이 접경지역 안보 위협과 복합재난 상황에 대비한 대규모 재난대응 훈련을 실시하며 국가 핵심 전력설비 보호 역량 강화에 나섰다. 특히 군·경·소방·지자체와의 실시간 공조체계를 기반으로 실제 상황에 준하는 통합 대응훈련을 진행하며 재난 대응체계를 전면 점검했다.한전은 최근 경기 남양주시에 위치한 미금변전소에서 ‘2026년도 재난대응 안전한국훈련’을 실시",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-05-25T12:14:44.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368426",
+      "collectedAt": "2026-05-26T00:11:24.379Z"
+    },
+    {
+      "id": "c10912b5-a37d-43ec-b05d-877a51253a4c",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(기자의 눈)해상풍력 소외된 RPS 일몰안, REC 대안 필요",
+      "titleOriginal": null,
+      "summary": "국회 기후에너지환경노동위원회가 지난 19일 '신에너지 및 재생에너지 개발·이용·보급 촉진법' 일부개정법률안(이하 개정안)을 의결하면서 그동안 재생에너지 보급을 이끌어 온 RPS 제도의 일몰이 가시화됐다.이번 개정안의 핵심은 시장 기반 인증서 제도인 신재생에너지공급인증서(REC)를 단계적으로 폐지하고, 정부 주도의 재생에너지 설비 계약시장제도(이하 계약시장제",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-25T11:44:40.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368318",
+      "collectedAt": "2026-05-26T00:11:54.379Z"
+    },
+    {
+      "id": "f63dc923-a973-48c4-8178-214ae4471a71",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "신안에서 배운 '햇빛연금' 모델, 재생에너지 주권과 지역 소멸의 해법 찾아",
+      "titleOriginal": null,
+      "summary": "정부가 전기국가로 전환을 선언하면서 재생에너지 확대에 방점을 찍었다. 국제유가에 흔들리지 않는 가격안정성 때문이다. 또 재생에너지 확대를 통해 소멸하는 지방에 활기를 불어넣겠다는 계획도 있다. 대표적인 것이 햇빛소득마을이다. 원자재가 들지 않는 재생에너지로 전기를 생산하고 그 이익을 재생에너지 발전소 주변 주민과 공유하는 방식이다. 대표적인 성공 모델이 전",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-25T11:34:11.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368339",
+      "collectedAt": "2026-05-26T00:12:24.409Z"
+    },
+    {
+      "id": "932ca07d-a161-47eb-b996-a8a84a4834f0",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(창간 62주년 축하메시지) 이선희 한국자동제어공업협동조합 이사장",
+      "titleOriginal": null,
+      "summary": "우리나라 전기분야를 대표하는 전문 언론인 전기신문의 창간 62주년을 진심으로 축하드립니다.전기신문은 전기와 에너지계를 뛰어넘어 산업과 경제분야까지 그 지평을 넓혀 왔습니다.지난 62년간 우리나라 전력산업과 함께 걸어온 전기신문의 헌신과 열정에 깊은 감사를 드립니다.오늘날 전력산업은 빅데이터, IoT 등 4차 산업기술과 융합하면서 새로운 가치를 만들어내고 있",
+      "topics": [
+        "운영 최적화",
+        "에너지원"
+      ],
+      "primaryTopic": "운영 최적화",
+      "publishedAt": "2026-05-25T10:43:17.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368008",
+      "collectedAt": "2026-05-26T00:12:54.414Z"
+    },
+    {
+      "id": "b39a0d3d-6e64-4c89-935c-050a17807357",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(창간 62주년 축하메시지) 유병언 한국전력기기사업협동조합 이사장",
+      "titleOriginal": null,
+      "summary": "전력망의 최일선에서 전기의 흐름을 연결하고 위험을 차단하는 전력기기는 인체로 치면 혈류를 통제하는 판막과도 같습니다. 이 핵심 기기들이 제 역할을 다할 때 비로소 국가 전력망이라는 거대한 시스템이 안전하게 박동할 수 있습니다.생각해 보면 지난 62년간 전기신문이 걸어온 길 역시 우리 전력기기의 역할과 무척이나 닮아 있습니다. 시시각각 쏟아지는 에너지 정책과",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-05-25T10:42:56.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367926",
+      "collectedAt": "2026-05-26T00:13:24.440Z"
+    },
+    {
+      "id": "75d1cf64-bde9-48cf-bb2e-8ef33cc3b6cb",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(창간 62주년 축하메시지) 유신하 한국중전기사업협동조합 이사장",
+      "titleOriginal": null,
+      "summary": "전기신문의 뜻깊은 창간 62주년을 진심으로 축하드립니다.반세기를 넘어 62년 동안 전기·에너지 산업의 곁을 지켜온 전기신문은, 산업 현장의 치열한 목소리를 대변하고 공정하고 깊이 있는 보도를 통해 정책 당국과 중전기 업계 간의 소통을 이끄는 대한민국 최고의 에너지 전문 언론으로 자리매김했습니다.우리는 탄소중립과 에너지 안보라는 거대한 시대적 과제 앞에 서 ",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-05-25T10:39:31.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367925",
+      "collectedAt": "2026-05-26T00:13:54.437Z"
+    },
+    {
+      "id": "bdf9475e-2a4c-40d9-bef0-e71870f53ced",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(창간 62주년 축하메시지) 류인규 한국전선공업협동조합 이사장",
+      "titleOriginal": null,
+      "summary": "지난 62년간 전기신문은 우리나라 전력·전기 산업의 발전과 함께하며 산업 전반의 흐름을 정확하고 신속하게 전달해 온 대표적인 전문지로 자리매김해 왔습니다.급변하는 산업 환경 속에서도 균형 잡힌 시각과 깊이 있는 분석을 통해 정책과 시장, 기술을 연결하는 가교 역할을 충실히 수행해 온 점에 대해 전선업계를 대표해 깊은 감사의 말씀을 드립니다. 특히 산업 현장",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-25T10:36:25.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367968",
+      "collectedAt": "2026-05-26T00:14:24.457Z"
+    },
+    {
+      "id": "1dd85195-e870-4719-af03-12584dc83489",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(창간 62주년 축하메시지) 문희봉 한국전기공업협동조합 이사장",
+      "titleOriginal": null,
+      "summary": "전기신문 창립 62주년을 600여 조합원사와 함께 진심으로 축하드립니다.지난 1964년 창간 이후 전기신문은 우리 전기산업의 역사와 함께하며 업계의 권익 보호와 정책 대안 제시에 앞장서 온 최고의 전문지로 자리매김해 왔습니다. 급변하는 산업 환경 속에서도 현장의 생생한 목소리를 전달하며 전기업계의 길잡이 역할을 해오신 전기신문 임직원 여러분의 노고에 깊이 ",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-05-25T10:29:01.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368294",
+      "collectedAt": "2026-05-26T00:14:54.482Z"
+    },
+    {
+      "id": "040ebc26-996e-49e9-b80f-2af78fc7856c",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(창간 62주년 축하메시지) 이상호 한국전기산업진흥회 회장",
+      "titleOriginal": null,
+      "summary": "전기·전력 산업 전반에 걸친 깊이 있는 분석과 시대를 꿰뚫는 통찰력으로 전기산업의 미래를 밝히는 등불이 되어 준 전기신문의 창간 62주년을 모든 회원사와 함께 축하드립니다.지금 우리는 전기산업의 거대한 패러다임이 바뀌는 '대전환기'에 서 있습니다.탄소중립이라는 시대적 과제를 넘어, AI 열풍에 따른 데이터센터의 폭발적 증가, 디지털 전환(DX), 재생에너지",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-05-25T10:28:23.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367702",
+      "collectedAt": "2026-05-26T00:15:24.487Z"
+    },
+    {
+      "id": "7a0b61d3-4729-4dcc-9a54-061144a49248",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "산업수도 울산 찾은 이형주 회장...“회원 보호·업역 확대” 강조",
+      "titleOriginal": null,
+      "summary": "이형주 한국전기공사협회 회장이 산업수도 울산을 찾아 회원사들과 직접 소통하며 공공입찰 제도 개선과 현안 해결 의지를 강조했다.현장에서는 나라장터 자재단가 현실화와 공공기관 입찰 진입장벽 완화 등 중소업체들의 현실적인 애로사항이 잇따라 제기됐다.이형주 회장은 22일 울산 MH컨벤션 6층 힐탑홀에서 열린 ‘2026년도 지역별 순회 회원 간담회’에서 “탄소중립과",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-05-25T10:04:20.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368410",
+      "collectedAt": "2026-05-26T00:15:54.504Z"
+    },
+    {
+      "id": "01e38b07-93d9-4914-8c39-2a8003fdb55e",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전기안전공사, 정읍시와 복합재난 합동 안전한국훈련 실시",
+      "titleOriginal": null,
+      "summary": "전기안전공사가 정읍시와 복합재난 상황을 가정한 안전한국훈련을 실시했다.한국전기안전공사(사장 남화영)는 지난 22일 전북 정읍시 전기안전인재개발원에서 정읍시·경찰·소방 등 유관기관과 함께 ‘재난대응 안전한국훈련’을 실시했다고 밝혔다.이날 안전한국훈련은 행정안전부 기본계획에 따라 민·관이 함께 참여하는 재난대응 훈련으로, 19개 기관 소속 약 300여 명이 참",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-25T06:55:47.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368419",
+      "collectedAt": "2026-05-26T00:16:24.536Z"
+    },
+    {
+      "id": "4238915e-4a39-49b4-857a-b949ffda6aa3",
+      "source": "전자신문 (Energy)",
+      "sourceId": "etnews",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“구조·공정은 단순, 성능·수명은 더 강력”…GIST, 저비용·고효율 차세대 수소 생산 전극 개발",
+      "titleOriginal": null,
+      "summary": "광주과학기술원(GIST·총장 임기철)은 주종훈 환경·에너지공학과 교수팀이 이장용 건국대학교 교수 팀, 김성준 한국화학연구원 박사팀과 공동으로 차세대 그린수소 생산 장치의 성능과 내구성을 높일 수 있는 '일체형 비귀금속 다공성 전극'을 개발했다고 26일 밝혔다. 최근 탄소중립 실현을 위한 핵심 기술로 그린수소가 주목받고 있다. 그린수소는 물을 전기로 분해해 ",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-25T23:54:47.000Z",
+      "originalUrl": "https://www.etnews.com/20260526000027",
+      "collectedAt": "2026-05-26T00:17:20.151Z"
+    },
+    {
+      "id": "ae1edc4c-5d62-4d08-83e8-fc35a99b3b3a",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "K-water 노사, 가족과 함께한 ‘상생 사회공헌’…“현충원 참배부터 농촌 일손돕기까지”",
+      "titleOriginal": null,
+      "summary": "[에너지데일리 조남준 기자] 한국수자원공사 노사가 호국보훈의 의미를 되새기고 지역사회 상생을 실천하기 위한 가족 참여형 사회공헌활동에 나섰다.단순 봉사활동을 넘어 보훈·가족친화·농촌상생 가치를 결합한 ESG형 사회공헌 모델이라는 점에서 공공기관 조직문화 혁신 사례로도 주목된다.한국수자원공사(K-water, 사장 윤석대)는 지난 23일 노사 공동으로 임직원과",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-05-25T21:04:41.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=167571",
+      "collectedAt": "2026-05-26T00:19:43.463Z"
+    },
+    {
+      "id": "a9ac757d-80a1-4677-9c67-4003d93e6334",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "정부 '유류세 한시 인하 조치' 2개월 추가 연장",
+      "titleOriginal": null,
+      "summary": "\r\n<img alt=\"서울 시내 주유소에서 운전자들이 차량에 셀프 주유하고 있다./신영균 기자\" src=\"https://cdn.todayenergy.kr/news/photo/202605/298218_170004_294.jpg\" />\r\n서울 시내 주유소에서 운전자들이 차량에 셀프 주유하고 있다./신영균 기자\r\n\r\n\r\n\r\n[투데이에너지 신영균 기자]&nbsp;",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-05-25T18:36:35.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298218",
+      "collectedAt": "2026-05-26T00:22:05.732Z"
+    },
+    {
+      "id": "c3440df1-dca0-468a-9ae5-cea4a0f5eefd",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "대성에너지, 자원봉사능력개발원과 함께 지역사회 나눔 실천",
+      "titleOriginal": null,
+      "summary": "\r\n<img alt=\"(좌)자원봉사능력개발원 박종률 이사장 (우)대성에너지 홍현식 지속성장실장/대성에너지 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202605/298217_170003_4411.jpg\" />\r\n(좌)자원봉사능력개발원 박종률 이사장 (우)대성에너지 홍현식 지속성장실장/대성에너지 제공\r\n\r\n\r\n\r\n[투",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-05-25T09:05:00.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298217",
+      "collectedAt": "2026-05-26T00:22:35.742Z"
+    },
+    {
+      "id": "9b254970-d71c-4012-b3a3-28e60a14b64b",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[기자수첩] ‘전기 먹는 하마’의 역설 ",
+      "titleOriginal": null,
+      "summary": "\r\n<img alt=\"신일영 기자\" src=\"https://cdn.todayenergy.kr/news/photo/202605/298159_169940_5417.jpg\" />\r\n신일영 기자\r\n\r\n\r\n\r\n[투데이에너지 신일영 기자]&nbsp;&lsquo;전기 먹는 하마&rsquo; 최근 급속도로 성장하는 AI 산업을 설명할 때 자주 등장하는 표현이 다. 실제로",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-25T07:00:00.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298159",
+      "collectedAt": "2026-05-26T00:23:05.734Z"
+    },
+    {
+      "id": "2f06b9f7-d415-4cbc-99dc-2043741722a2",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[기자수첩] 해상풍력의 미래, 결국 밸류체인에 달렸다",
+      "titleOriginal": null,
+      "summary": "\r\n<img alt=\"김원빈 기자\" src=\"https://cdn.todayenergy.kr/news/photo/202605/298157_169938_5012.jpg\" />\r\n김원빈 기자\r\n\r\n\r\n\r\n[투데이에너지 김원빈 기자]&nbsp; 국내 해상풍력 시장이 본격 확대 국면에 접어들고 있다. 올해 상반기만 1800MW 규모 입찰이 진행됐고 정부도 재생에너",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-25T07:00:00.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298157",
+      "collectedAt": "2026-05-26T00:23:35.776Z"
+    },
+    {
+      "id": "60e4f4ea-c4f5-4557-8804-fbccd9f7f4ae",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[사설] 2026년 석유시장 경고음",
+      "titleOriginal": null,
+      "summary": "[투데이에너지]&nbsp;2026년 세계 석유시장은 극심한 불확실성과 위기 국면에 접어들었다. 전쟁에 따른 호르무즈 해협 폐쇄가 장기화되면서 걸프 국가의 생산 손실은 전례 없는 규모에 이르렀고, 이에 따른 공급 차질과 전 세계 재고 급감은 시장을 긴장시키고 있다.\r\n\r\n4월 한 달간 감소한 석유 재고만 2억 5천만 배럴에 달해 이는 하루 400만 배럴에 해",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-05-25T07:00:00.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298156",
+      "collectedAt": "2026-05-26T00:24:05.795Z"
+    },
+    {
+      "id": "53d46f1a-02a7-480d-824f-15df63fb8ec5",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[시평] 핵연료주기 생애 걸쳐 방폐물 관리 책임져야 ",
+      "titleOriginal": null,
+      "summary": "\r\n<img alt=\"백민훈  한국방사성폐기물학회 학회장\" src=\"https://cdn.todayenergy.kr/news/photo/202605/298155_169937_3756.jpg\" />\r\n백민훈&nbsp; 한국방사성폐기물학회 학회장\r\n\r\n\r\n\r\n[투데이에너지]&nbsp;현대 사회는 전기에너지의 시대라 해도 과언이 아니다. 이제 전기가 없으면 현대",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-25T07:00:00.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298155",
+      "collectedAt": "2026-05-26T00:24:35.779Z"
+    },
+    {
+      "id": "27294387-aa2e-4648-9fe5-6051c9ed8272",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[기획] 한국의 NDC 상향③ - CCfD와 전환금융 지원 ",
+      "titleOriginal": null,
+      "summary": "\r\n<img alt=\"CCfD와 전환금융은 기술적· 금융적 불확실성을 해소하는 핵심 지원 수단이다. /이미지 AI 생성 \" src=\"https://cdn.todayenergy.kr/news/photo/202605/298161_169941_5928.jpg\" />\r\nCCfD와 전환금융은 기술적&middot; 금융적 불확실성을 해소하는 핵심 지원 수단이다. /이",
+      "topics": [
+        "ESG·탄소중립",
+        "에너지원"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-05-25T06:00:00.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298161",
+      "collectedAt": "2026-05-26T00:25:05.830Z"
+    },
+    {
+      "id": "82dd9be0-dd13-43a0-9d70-4f03cdae6748",
+      "source": "그린포스트코리아",
+      "sourceId": "greenpost",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "해남에서 쏘아올린 '태양광 부활' 신호탄… 한화, 사상 최대 규모 수주",
+      "titleOriginal": null,
+      "summary": "전남 해남군 문내면 일대 약 140만 평 부지. 국내 최대 규모인 400MW(메가와트)급 태양광 단지가 들어설 이곳이 침체되었던 국내 태양광 산업의 '구조적 반등'을 가늠할 시험대로 부상하고 있다. 한화솔루션 큐셀부문(한화큐셀)이 이번 프로젝트에 국산 고효율 셀과 모듈 64만 장을 전량 공급하기로 하면서, 단순한 대형 수주를 넘어 '공급망 안보' 중심의 시",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-05-25T07:45:00.000Z",
+      "originalUrl": "https://www.greenpostkorea.co.kr/news/articleView.html?idxno=306744",
+      "collectedAt": "2026-05-26T00:26:10.367Z"
+    },
+    {
+      "id": "814e5eed-0c11-490f-9181-283ba978e5f8",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "부동산→AI·재생에너지로…은행 돈줄, 방향 틀었다 [창간기획]",
+      "titleOriginal": null,
+      "summary": "생산적 금융 드라이브 ‘투자금융’ 강화\n국민성장펀드 출범, 금융그룹 잇단 펀드 조성\n\n부동산·담보대출서 AI·에너지 조준\n이자이익 치중 벗어나 수익구조 다변화 ▲부동산 대출에 치우친 금융 구조를 바꾸겠다는 정부 기조가 본격화되면서 은행권 자금도 첨단·미래 산업으로 향하는 흐름이 뚜렷해지고 있다. 은행권의 자금 흐름이 바뀌고 있다. 그동안 은행권은 부동산과 ",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-25T17:32:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260525025374918",
+      "collectedAt": "2026-05-26T00:30:01.760Z"
+    },
+    {
+      "id": "1ade7942-9c69-43f7-8d34-b0cd457546d8",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "이철우·임종식 후보, 지역 발전·미래 경쟁력 강조",
+      "titleOriginal": null,
+      "summary": "이철우 후보 “영주 미래산업·부자 농촌 시대 열겠다”…영주 집중유세 총력\n임종식 경북교육감 후보, 시민사회단체 선정 ‘좋은 후보’ 이름 올려 ◇이철우 후보 “영주 미래산업·부자 농촌 시대 열겠다\"…영주 집중유세 총력 ▲국민의힘 이철우 경북도지사 후보가 공식 선거운동 닷새째를 맞아 영주를 찾아 지역 발전 청사진을 제시하며 세 결집에 나섰다. 제공-국민의힘 이",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-25T14:46:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260525026557706",
+      "collectedAt": "2026-05-26T00:30:31.766Z"
+    },
+    {
+      "id": "81525599-1c8d-4db5-bfc6-e09663f6fcb6",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[에너지경제 여론조사] 李 대통령 지지율 59.3%…민주 47.5% vs 국힘 33.3%",
+      "titleOriginal": null,
+      "summary": "TK(7.1%P)·부울경(1.1%P) 하락…“보수결집\" 민주, '탱크데이' 강경대응 긍정 평가 국힘, '5·18 비하' 등 발언 논란 영향 ▲5월 3주차 이재명 대통령 국정수행 평가 요약. 자료=리얼미터 이재명 대통령의 국정 수행 지지율이 지난주 대비 소폭 하락하며 1주 만에 다시 50%대로 하락했다. 정당 지지도에서는 더불어민주당은 상승한 반면 국민의힘은",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-25T08:14:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260523025197450",
+      "collectedAt": "2026-05-26T00:31:01.779Z"
+    },
+    {
+      "id": "0a102c91-3089-44a4-a856-99551caab6fe",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“보이지 않는 탄소폭탄”…지하수 고갈이 전 세계 온실가스를 늘린다",
+      "titleOriginal": null,
+      "summary": "지하수는 사실 ‘숨은 탄소 저장고’\n콜라병 뚜껑 열 때 배출되는 것처럼\n지하수에 녹아 있던 온실가스 배출돼\n동아시아서도 지하수 탄소 배출 증가 ▲중국 안후이성 황산시 치먼현의 한 생태 시범 차밭에 설치된 스프링클러 관개 시스템을 보여준다.  (사진=신화통신/연합뉴스) 지하수를 퍼 올리는 일이 단순한 물 부족 문제를 넘어 전 세계 온실가스를 늘리는 숨은 배출",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-25T06:32:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260522022326973",
+      "collectedAt": "2026-05-26T00:31:31.805Z"
+    }
+  ]
+}
