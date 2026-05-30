@@ -1,0 +1,2014 @@
+{
+  "date": "2026-05-29",
+  "generatedAt": "2026-05-30T00:32:09.301Z",
+  "articleCount": 108,
+  "articles": [
+    {
+      "id": "d207f0a8-a44e-449f-ae5f-04b6e08148c5",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "인도, 1분기에 2.7 GW 옥상 태양광 설치",
+      "titleOriginal": "India installs 2.7 GW of rooftop PV in Q1",
+      "summary": "인도는 2026년 1분기에 2.7 GW 규모의 옥상 태양광 설비를 설치했습니다. 이러한 성장은 주로 'PM Surya Ghar' 프로그램 하의 주거용 설치에 의해 주도되었습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T14:56:42.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/29/residential-segment-accounts-for-82-of-indias-rooftop-solar-additions-in-q1-2026-mercom/",
+      "collectedAt": "2026-05-29T22:43:19.394Z"
+    },
+    {
+      "id": "e46d6d68-e083-488b-bc54-68bbe40a5211",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "PV 제조 내부: 호주 틴도 솔라의 태양광 제조 시설",
+      "titleOriginal": "Inside PV Manufacturing: Tindo’s solar manufacturing facility in Australia",
+      "summary": "pv magazine은 호주 유일의 태양광 패널 제조업체인 틴도 솔라와 애들레이드에 위치한 그들의 제조 시설을 소개한다. 이 시설은 현재 생산 능력을 180MW로 늘리기 위한 개발을 진행 중이다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T12:18:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/29/inside-pv-manufacturing-tindos-solar-manufacturing-facility-in-australia/",
+      "collectedAt": "2026-05-29T22:43:25.820Z"
+    },
+    {
+      "id": "787f04e1-7e27-4ac1-b921-e2e4c912206f",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "더 하이드로젠 스트림: JCN, 수소 구동 백호 로더 출시",
+      "titleOriginal": "The Hydrogen Stream: JCN launches hydrogen-powered backhoe loader",
+      "summary": "JCB는 1억 파운드 규모의 수소 엔진 프로그램의 일환으로 최초의 수소 동력 백호 로더를 출시했습니다. 이 장비는 55kW 수소 엔진과 지붕에 장착된 350바 복합 탱크를 특징으로 하며, 디젤과 유사한 성능으로 하루 종일 작업이 가능하도록 설계되었습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T12:15:50.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/29/the-hydrogen-stream-jcn-launches-hydrogen-powered-backhoe-loader/",
+      "collectedAt": "2026-05-29T22:43:35.302Z"
+    },
+    {
+      "id": "029db3a9-fe77-4a79-b4ea-f0889dc6d256",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "중국 PV 산업 브리핑: 폴리실리콘 가격 안정세 유지",
+      "titleOriginal": "Chinese PV Industry Brief: Polysilicon prices remain stable",
+      "summary": "중국 CNMIA는 주간 폴리실리콘 및 웨이퍼 가격이 안정세를 유지했다고 보고했습니다. 하지만, 약한 거래 활동, 신규 주문 감소, 하류 수요의 신중한 태도로 인해 태양광 시장은 관망세로 전환되었습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T12:11:01.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/29/chinese-pv-industry-brief-polysilicon-prices-remain-stable/",
+      "collectedAt": "2026-05-29T22:43:46.343Z"
+    },
+    {
+      "id": "f9b946e1-0800-4fb2-bd22-a2b6fb657f39",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "비스만, 모노블록 공기-물 열펌프 첫 선",
+      "titleOriginal": "Viessmann debuts monoblock air-to-water heat pump",
+      "summary": "비스만(Viessmann)이 4~12kW 출력을 제공하고 최대 75°C의 유량 온도를 지원하는 새로운 모노블록 공기-물 열펌프 시스템을 선보였다. 이 시스템은 R290 냉매를 사용하여 신축 건물뿐만 아니라 기존 건물 개조에도 효율적으로 적용될 수 있다. 해당 열펌프는 효율적인 난방 솔루션을 제공한다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T12:04:01.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/29/viessmann-debuts-monoblock-air-to-water-heat-pump/",
+      "collectedAt": "2026-05-29T22:43:54.790Z"
+    },
+    {
+      "id": "1096e249-4a0c-4c8b-9aa5-23d694cf00fb",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "포괄적 리더십은 단순한 트렌드가 아닌 회복탄력성 있는 산업을 구축하는 방식이다",
+      "titleOriginal": "Inclusive leadership is not a trend, it is how resilient industries are built",
+      "summary": "Women in Solar+ Europe(WiSEu)는 Solar & Storage Live España 2026 패널 토론에서 포괄적 리더십과 심리적 안전이 에너지 전환에서 혁신, 협력 및 회복탄력성을 어떻게 이끄는지에 대한 통찰력을 공유했다. 컨설팅, 지속가능성 및 다중 에너지 조직의 리더들은 진화하는 태양광 생태계에서 다양한 관점, 신뢰 및 인간 중심 리더십의 중요성을 논의했다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T11:12:12.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/29/inclusive-leadership-is-not-a-trend-it-is-how-resilient-industries-are-built/",
+      "collectedAt": "2026-05-29T22:44:04.164Z"
+    },
+    {
+      "id": "1b93906c-1eac-4f52-a8ed-c6c9a69f0667",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "모든 태양전지 효율 한눈에 보기 – 업데이트됨",
+      "titleOriginal": "All solar cell efficiencies at a glance – updated",
+      "summary": "마틴 그린 교수 연구팀이 태양전지 효율표 버전 68을 발행했습니다. 이 최신 버전에는 총 21개의 새로운 결과가 보고되었습니다. 해당 내용은 pv magazine Global을 통해 공개되었습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T11:03:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/29/all-solar-cell-efficiencies-at-a-glance-updated-6/",
+      "collectedAt": "2026-05-29T22:44:17.144Z"
+    },
+    {
+      "id": "5c7662cf-a84c-4804-a394-20088ee5f83f",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "중국 연구진, 새로운 패시베이션 전략으로 33.33% 효율 페로브스카이트-실리콘 탠덤 태양전지 개발",
+      "titleOriginal": "Chinese researchers build 33.33%-efficient perovskite-silicon tandem solar cell via new passivation strategy",
+      "summary": "CAS가 주도하는 중국 연구진이 피라미드형 실리콘의 누수 문제를 해결하기 위해 산화알루미늄 나노코팅을 활용한 새로운 피크 선택적 패시베이션 전략을 개발했습니다. 이 방법을 통해 약 33.33%의 효율을 달성하는 고효율의 안정적인 페로브스카이트-실리콘 탠덤 태양전지 장치를 제작했으며, 이는 기존 실리콘 제조 방식과 호환됩니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T09:19:11.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/29/chinese-researchers-build-33-33-efficient-perovskite-silicon-tandem-solar-cell-via-new-passivation-strategy/",
+      "collectedAt": "2026-05-29T22:44:21.843Z"
+    },
+    {
+      "id": "5501c0be-4fb5-45ba-b41f-fafd9258f3a7",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "SolaX ORI 에너지 저장 시스템, 극한 조건 하 대규모 화재 테스트 완료",
+      "titleOriginal": "SolaX ORI energy storage system completes large-scale fire test under extreme conditions",
+      "summary": "SolaX ORI 에너지 저장 시스템이 극한 조건에서 대규모 화재 테스트를 성공적으로 마쳤습니다. 이는 에너지 저장 시스템의 안전성 평가가 개별 부품 성능을 넘어 전체 시스템의 극심한 고장 조건 하에서의 행동 방식에 중점을 두는 최신 경향을 반영합니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T09:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/29/solax-ori-energy-storage-system-completes-large-scale-fire-test-under-extreme-conditions/",
+      "collectedAt": "2026-05-29T22:44:36.250Z"
+    },
+    {
+      "id": "423fcfb5-15db-46b6-95d3-b59107a4f7ec",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Nextpower, 에너지 저장 시장 진출",
+      "titleOriginal": "Nextpower gets into energy storage",
+      "summary": "Nextpower가 BESS(배터리 에너지 저장 시스템) 시장에 진출한다. 이는 인공지능(AI) 데이터센터 구축이 전력에 대한 의존도를 높여감에 따라 발생하는 막대한 기회를 포착하기 위함이다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T08:36:34.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/29/nextpower-gets-into-energy-storage/",
+      "collectedAt": "2026-05-29T22:44:46.327Z"
+    },
+    {
+      "id": "d958c177-e9c7-40a0-8c8c-331974eb8bef",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "신한울 4호기 착공",
+      "titleOriginal": "Construction starts for Shin Hanul 4",
+      "summary": "대한민국 신한울 원자력발전소 4호기 원자로 건물에 첫 콘크리트가 타설되며 공식적인 건설이 시작되었습니다. 이는 신한울 4호기 건설의 첫 단계를 의미합니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T16:11:17.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/construction-starts-for-shin-hanul-unit-4",
+      "collectedAt": "2026-05-29T22:45:13.438Z"
+    },
+    {
+      "id": "f356b2af-e5e9-4f61-8549-578a9ecafed1",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "19년 만에, 기업들이 미국 신규 건설 프로젝트를 위해 협력하다",
+      "titleOriginal": "Nineteen years on, companies team up for US new-build project",
+      "summary": "Fulcrum Point Holdings와 Blue Castle Holdings는 Holtec International의 SMR-300 소형 모듈형 원자로 기술을 사용하여 유타주 그린리버에 원자력 발전소를 건설하는 프로젝트를 위해 합작 투자를 설립했습니다. 이 협력은 부지 개발, 인허가, 그리고 최종적인 원자로 배치 단계를 진행하는 것을 목표로 합니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T14:39:16.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/nineteen-years-on-companies-team-up-for-us-new-build-project",
+      "collectedAt": "2026-05-29T22:45:17.159Z"
+    },
+    {
+      "id": "7b8753e6-222f-453b-be0e-eeb6b0cb4f42",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "트라우스피니드 원전 폐로 이정표 달성",
+      "titleOriginal": "Decommissioning milestone reached at Trawsfynydd",
+      "summary": "Nuclear Restoration Services는 영국 웨일스 북부 그위네드에 위치한 폐쇄된 트라우스피니드 원자력 발전소에서 중간 수준의 방사성 폐기물을 모두 제거하는 20년 프로젝트를 완료했다고 발표했습니다. 이로써 발전소 폐로 과정에서 중요한 이정표가 달성되었으며, 모든 잔여 방사성 폐기물 처리가 마무리되었습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T13:04:09.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/decommissioning-milestone-reached-at-trawsfynydd",
+      "collectedAt": "2026-05-29T22:45:29.640Z"
+    },
+    {
+      "id": "9504d682-e5c9-4234-aefc-4c0e47f998c9",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "에네르고아톰, 중앙 집중식 핵연료 저장 시설 운영 허가 획득",
+      "titleOriginal": "Energoatom gets operating licence for centralised fuel storage facility",
+      "summary": "우크라이나 국영 원자력 발전 기업 에네르고아톰은 중앙 집중식 사용후핵연료 저장 시설의 운영 허가를 획득했습니다. 이 허가는 우크라이나 국가 원자력 규제 검사국으로부터 공식적으로 발급되었습니다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-05-29T10:27:53.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/energoatom-gets-operating-licence-for-centralised-fuel-storage-facility",
+      "collectedAt": "2026-05-29T22:45:40.723Z"
+    },
+    {
+      "id": "b4b61ce7-f73a-4757-9c5c-633ebd55f9d9",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "ITER 자석 시험 시설 가동 개시",
+      "titleOriginal": "ITER magnet test facility begins operation",
+      "summary": "ITER 국제기구는 첫 번째 자석 코일이 4 켈빈(영하 269°C)으로 성공적으로 냉각된 후, 자석 극저온 시험 시설의 운영을 시작했다고 발표했습니다. 이는 핵융합 에너지 연구를 위한 ITER 프로젝트의 중요한 기술적 진전을 의미합니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T10:11:40.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/iter-magnet-test-facility-begins-operation",
+      "collectedAt": "2026-05-29T22:45:46.574Z"
+    },
+    {
+      "id": "2548940c-a3e0-486a-b9de-8348801a769c",
+      "source": "Carbon Brief",
+      "sourceId": "carbon-brief",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "드브리프드 2026년 5월 29일: 유럽의 '놀라운' 5월 | 인도 폭염 사망자 | 나이지리아의 태양광 미니그리드",
+      "titleOriginal": "DeBriefed 29 May 2026: Europe’s ‘mind-boggling’ May | Indian heat deaths | Nigeria’s solar mini-grids",
+      "summary": "Carbon Brief의 'DeBriefed' 2026년 5월 29일호는 이번 주 기후 관련 주요 동향을 다룹니다. 이 보고서는 유럽의 5월 이상 기후 현상과 인도에서의 폭염으로 인한 사망자 발생 소식을 전달합니다. 또한, 나이지리아에서 전력 공급 확대를 위한 태양광 미니그리드 구축 현황에 대한 중요한 정보를 제공합니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T14:00:00.000Z",
+      "originalUrl": "https://www.carbonbrief.org/debriefed-29-may-2026-europes-mind-boggling-may-indian-heat-deaths-nigerias-solar-mini-grids/",
+      "collectedAt": "2026-05-29T22:46:00.291Z"
+    },
+    {
+      "id": "1c8b14cf-baf3-4a44-ac9f-dfab66c32110",
+      "source": "Carbon Brief",
+      "sourceId": "carbon-brief",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "AI 붐으로 미국, 중국보다 화석 연료 발전에 더 많이 투자",
+      "titleOriginal": "AI boom means US is now ‘investing more’ in fossil-fuel power than China",
+      "summary": "Carbon Brief 기사에 따르면, AI 및 데이터센터 붐이 미국 내 가스 발전 투자를 급증시키고 있습니다. 이로 인해 미국은 현재 중국보다 화석 연료 발전에 더 많은 투자를 하고 있는 것으로 나타났으며, 이는 에너지 투자 시장의 주요 동향을 반영합니다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-05-29T12:58:11.000Z",
+      "originalUrl": "https://www.carbonbrief.org/ai-boom-means-us-is-now-investing-more-in-fossil-fuel-power-than-china/",
+      "collectedAt": "2026-05-29T22:46:10.665Z"
+    },
+    {
+      "id": "19a28bc2-0106-4cfc-938a-8a1f0ef89b1e",
+      "source": "Power Magazine",
+      "sourceId": "power-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "ContourGlobal, 칠레에 주요 태양광-ESS 프로젝트 가동",
+      "titleOriginal": "CoutourGlobal Brings Major Solar-Plus-Storage Project Online in Chile",
+      "summary": "글로벌 청정에너지 기업 ContourGlobal이 칠레에서 유틸리티 규모의 태양광-에너지 저장 시스템(ESS) 프로젝트 상업 운전을 시작했습니다. 이 프로젝트는 남미에서 가장 긴 지속 시간을 가진 배터리 에너지 저장 시스템을 특징으로 합니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T17:19:08.000Z",
+      "originalUrl": "https://www.powermag.com/coutourglobal-brings-major-solar-plus-storage-project-online-in-chile/",
+      "collectedAt": "2026-05-29T22:46:42.539Z"
+    },
+    {
+      "id": "eb5e2286-8ca3-4cfa-a9cc-0dfca87e7d93",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "집단E부터 태양광·EV·수소까지…中도 주목한 대도심형 에너지 솔루션",
+      "titleOriginal": null,
+      "summary": "서울에너지공사가 지역난방과 지열, 태양광을 결합한 도심형 에너지 모델을 중국 시찰단에 소개하며 탄소중립 기술력을 입증했다. 특히 목동 가로주택정비사업을 통해 에너지자립률 40% 이상, 동일 면적 대비 에너지 40% 절감을 목표로 하는 효율적인 에너지믹스 전략을 제시했다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T17:41:37.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368603",
+      "collectedAt": "2026-05-29T22:48:08.593Z"
+    },
+    {
+      "id": "31fd46e3-7c9c-4cf9-9604-c37eaf426cee",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전기안전공사, 재난안전 평가 최고등급 ‘우수’ 달성",
+      "titleOriginal": null,
+      "summary": "한국전기안전공사가 행정안전부 주관 2026년 재난안전사업 평가에서 최고등급인 ‘우수’를 달성했다. 특히 노후공동주택 세대별 점검 사업과 전기설비 안전점검 사업이 높은 평가를 받았으며, 이는 다음연도 정책과 예산에 반영될 예정이다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T17:28:47.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368594",
+      "collectedAt": "2026-05-29T22:48:25.513Z"
+    },
+    {
+      "id": "b8f7fe71-2100-4434-8e63-64dc08b42f20",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "쉘코리아, 민지선 신임 대표이사 선임",
+      "titleOriginal": null,
+      "summary": "글로벌 에너지 기업 쉘코리아는 6월 1일부로 민지선 신임 대표이사를 선임했다. 민 대표는 2014년부터 LNG, 신재생에너지 분야에서 이해관계자 및 리스크 관리, 대외협력 업무를 수행해왔다. 향후 한국 시장 내 다양한 이해관계자와의 협력을 강화하고, LNG 및 저탄소에너지 등 주력 사업 간 시너지 확대와 신규 기회 발굴에 집중할 예정이다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T15:54:38.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368606",
+      "collectedAt": "2026-05-29T22:48:32.783Z"
+    },
+    {
+      "id": "80669314-8bc7-4fe5-b82f-c7e143d41f17",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "법무법인 지평, 풍력협회와 해상풍력 주민수용성 세미나 공동 개최",
+      "titleOriginal": null,
+      "summary": "법무법인 지평과 한국풍력산업협회가 6월 12일 해상풍력 사업의 핵심 난제인 주민수용성 문제를 다루는 세미나를 개최한다. 이번 행사는 영광 해상풍력 판결을 중심으로 사업 추진 과정에서 발생하는 어업 피해 및 환경 영향 등의 갈등 해결 방안을 논의하기 위해 마련되었다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T15:27:45.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368605",
+      "collectedAt": "2026-05-29T22:48:45.245Z"
+    },
+    {
+      "id": "0bc1e4c6-6460-48b2-ab39-315502eeefc3",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(신재생學 춘계학술대회)AI가 공정 수행하는 탠덤태양전지 시대 첫발",
+      "titleOriginal": null,
+      "summary": "한국에너지기술연구원, 한화솔루션 등 과제 수행 기관들은 2024년부터 2029년까지 AI 자율실험실 구축 사업을 추진, 페로브스카이트-실리콘 탠덤 태양전지 공정을 AI로 최적화할 계획이다. 이는 일반 태양전지보다 공정 수가 2~3배 많은 탠덤 태양전지의 효율과 생산성을 높이고, 공정 데이터 기반으로 성능 향상, 트러블 슈팅, 공정 개선 방향 예측까지 가능한 자율형 제조 환경을 구축하는 것이 목표다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T15:24:29.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368604",
+      "collectedAt": "2026-05-29T22:49:10.098Z"
+    },
+    {
+      "id": "40107f45-8749-4734-b1f9-bf072c7bc99e",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "점점 중요해지는 일상 속 에너지…대국민 소통과 이해 증진이 필요하다",
+      "titleOriginal": null,
+      "summary": "국제 정세와 AI 확산 등으로 에너지 이슈가 중요해짐에 따라 국민의 이해를 돕기 위한 소통의 필요성이 커지고 있다. 에너지정보문화재단은 정보 접근성을 높이기 위해 어린이 체험관 '에정타운' 리뉴얼 등 체험형 소통 사업을 추진하고 있다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T13:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368546",
+      "collectedAt": "2026-05-29T22:50:05.875Z"
+    },
+    {
+      "id": "79cdfe79-6413-4f64-b2ba-5a2bb415309b",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "김정호 의원 “해상풍력 REC 대안, 하위법령에서 논의할 것”",
+      "titleOriginal": null,
+      "summary": "김정호 의원이 대표 발의한 '신재생에너지법 개정안'이 국회 상임위를 통과함에 따라 현행 RPS 제도와 REC가 단계적으로 일몰될 예정입니다. 이에 따라 해상풍력 업계의 우려가 커지자, 김 의원은 하위법령 논의를 통해 향후 REC를 대체할 보급 확대 방안을 마련하겠다고 밝혔습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T12:02:57.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368600",
+      "collectedAt": "2026-05-29T22:50:42.865Z"
+    },
+    {
+      "id": "77d68f9e-3208-4d68-a019-1c731f7800c8",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "상승세 탄 ‘탄소배출권’…산업계 부담·기대 교차",
+      "titleOriginal": null,
+      "summary": "최근 2025년물 탄소배출권(KAU25) 가격이 t당 2만2500원을 기록하며 지난해 12월 말 대비 116.3% 급등했다. 이는 제4차 계획기간(2026~2030년) 배출권 할당량 축소 기대감, 경매 시장 수요 급증, 다수 업종의 배출권 부족 우려, 정부의 할당 취소 범위 확대 및 발전 부문 유상할당 단계적 확대 등 복합적인 요인에 기인한다. 이처럼 탄소배출권 가격이 가파른 상승세를 보이면서 산업계에서는 부담과 기대가 교차하는 상황이다.",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-05-29T12:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368542",
+      "collectedAt": "2026-05-29T22:51:16.846Z"
+    },
+    {
+      "id": "b7c63429-fef6-46ad-9833-0e847f372751",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(월요기획)슈퍼사이클 맞은 전력기자재…국내 수요 위기 온다",
+      "titleOriginal": null,
+      "summary": "AI 데이터센터 증설과 재생에너지 확대에 따른 글로벌 전력기기 수요 폭발로 국내 기업들이 호황을 맞았으나, 국내 2030년 재생에너지 100GW 달성 등을 위한 인프라 구축 과정에서 기자재 수급 위기가 우려되고 있다. 이에 전력당국은 안정적인 전력망 확보를 위해 주요 기자재 선제적 확보 작업에 나섰다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-05-29T11:46:01.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368551",
+      "collectedAt": "2026-05-29T22:51:22.697Z"
+    },
+    {
+      "id": "a4927dc3-dae4-4478-8874-f6f4f0c62afe",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "탄소중립 퍼스트 무버, 한전 전력연구원 8대 연구소장을 만나다③ 박명혜 한전 전력연구원 디지털솔루션연구소장",
+      "titleOriginal": null,
+      "summary": "한전 전력연구원 디지털솔루션연구소는 재생에너지 확대와 AI 대전환에 발맞춰 전력망 운영의 지능화와 디지털화를 추진하고 있다. 이를 위해 데이터 플랫폼, 통신·보안 기술, AI 기반 설비진단 솔루션을 개발하여 안정적인 미래형 전력 운영 체계를 구축하는 데 집중하고 있다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-05-29T11:38:31.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368302",
+      "collectedAt": "2026-05-29T22:51:39.858Z"
+    },
+    {
+      "id": "16e1954b-ffe7-4aca-aea3-6420aae7bc8b",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(KECA 네트워크) 세종충남도회, 전기사업분야 산재 예방 결의 및 협약 체결",
+      "titleOriginal": null,
+      "summary": "한국전기공사협회 세종충남도회가 한국전력공사 보령지사에서 '2026년 자율안전 다짐대회'를 개최하고 전기사업 분야 산업재해 예방을 위한 업무협약을 체결했다. 이번 행사에는 고용노동부, 안전보건공단 등 유관기관 관계자 50여 명이 참석해 전기 공사 현장의 안전 문화 확산을 도모했다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-05-29T11:18:13.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368599",
+      "collectedAt": "2026-05-29T22:52:02.508Z"
+    },
+    {
+      "id": "998d5b61-b895-4508-86d4-4320bc84f5e4",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "여한구 통상본부장, \"K-전기기기 세계시장 주도...무역 금융 지원 확대\"",
+      "titleOriginal": null,
+      "summary": "올해 K-전기기기 수출이 역대 최대 실적을 기록할 것으로 예상됨에 따라, 산업통상부는 여한구 통상교섭본부장이 HD현대일레트릭 등 수출 현장을 방문해 업계 간담회를 진행했다. 정부는 K-전력기기의 세계시장 주도를 위해 무역 금융 지원 확대 등 수출 지원 방안을 모색 중이며, 우리나라 전체 수출은 3~4월 연속 800억 달러를 돌파했다.",
+      "topics": [
+        "시장·가격 동향",
+        "운영 최적화"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-05-29T11:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368585",
+      "collectedAt": "2026-05-29T22:52:48.243Z"
+    },
+    {
+      "id": "2e48c584-a3a9-4a6a-9597-137ad38c5882",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "선전 커화, 메가와트급 충전 시스템으로 유럽 중대형 트럭 시장 공략",
+      "titleOriginal": null,
+      "summary": "글로벌 충전 솔루션 기업 선전 커화가 전기트럭의 긴 충전 시간을 해결하기 위한 메가와트급 대용량 충전 시스템을 유럽 시장에 선보였다. 독일 정부가 향후 4년간 10억 유로를 투입해 전용 충전 네트워크를 구축하기로 함에 따라 관련 인프라 시장 확대가 예상된다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T10:39:11.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368592",
+      "collectedAt": "2026-05-29T22:53:30.232Z"
+    },
+    {
+      "id": "6438a0d9-7047-4934-aca9-0017257de428",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "화재율 ‘뚝’ 수명은 ‘쑥’…정유·ESS 업계 ‘액침냉각’ 기술에 이목집중",
+      "titleOriginal": null,
+      "summary": "정부가 ESS 화재 예방책을 추진하는 가운데, 배터리를 절연유에 직접 담가 냉각하는 '액침냉각' 기술이 차세대 ESS 대안으로 주목받고 있다. 이 기술은 열폭주를 억제해 화재 안전성을 높일 뿐만 아니라, 배터리 수명을 기존 대비 약 15~25% 개선하는 효과가 입증되었다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T10:30:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368553",
+      "collectedAt": "2026-05-29T22:54:20.667Z"
+    },
+    {
+      "id": "8eb27681-e2e1-4453-b391-6f6e4a29b140",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전기안전공사, 국가재난관리 유공 국무총리표창 수상",
+      "titleOriginal": null,
+      "summary": "한국전기안전공사가 재난 위험요인 예방 및 신속한 복구 지원 공로를 인정받아 ‘국가재난관리 유공’ 국무총리 표창을 수상했다. 공사는 2025년 문화재 및 전통시장 등 3,000개소의 전기설비를 집중 점검하여 700여 건의 위험요인을 발굴하고 조치하는 성과를 거두었다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T10:19:15.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368593",
+      "collectedAt": "2026-05-29T22:54:46.784Z"
+    },
+    {
+      "id": "3e45100f-6d0a-4455-a592-b2cdfc05c266",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "에노바-슈나이더 일렉트릭, 차세대 ‘액체냉각’ AI 데이터센터 시장 공략 위해 맞손",
+      "titleOriginal": null,
+      "summary": "에노바와 슈나이더 일렉트릭 코리아가 AI 데이터센터(AIDC)의 고집적 수요에 대응하기 위해 업무협약(MOU)을 체결했다. 양사는 에노바의 사업 모델과 슈나이더 일렉트릭의 인프라 솔루션을 결합해 차세대 액체냉각 데이터센터 표준을 구축할 계획이다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T09:47:28.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368589",
+      "collectedAt": "2026-05-29T22:55:22.870Z"
+    },
+    {
+      "id": "59d01faf-5fd8-4f32-9caf-943580d99c47",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전기차 충전 삼중 딜레마…리베이트·요금·인프라 해법 없나",
+      "titleOriginal": null,
+      "summary": "국회 토론회에서 아파트 단지 내 충전기 설치 과정의 불법 리베이트 관행이 전기차 완속 충전 요금 급등의 주요 원인으로 지목되었다. 전기차 신차 비중이 25%에 육박하며 시장이 급성장함에 따라, 음성적인 영업 비용을 해결하고 충전 인프라 갈등을 해소하기 위한 구조적 개선책이 요구되고 있다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T09:04:52.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368556",
+      "collectedAt": "2026-05-29T22:55:42.437Z"
+    },
+    {
+      "id": "97cf23d7-e387-435d-8ee6-76f8d817fd56",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(신재생學 춘계학술대회)‘After 석탄·재생에너지 시대’ 체질전환 준비하는 발전公",
+      "titleOriginal": null,
+      "summary": "국내 발전 공기업들이 석탄 중심의 사업 구조에서 재생에너지 플랫폼 기업으로의 전환을 본격화하고 있다. 한국신재생에너지학회 춘계학술대회에서 실무자들은 계통 불안정 해결을 위한 스마트인버터 운영과 배전 단위의 유연성 확보 등 디지털 기반의 대응 전략을 논의했다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T09:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368583",
+      "collectedAt": "2026-05-29T22:56:09.415Z"
+    },
+    {
+      "id": "a80546bb-70b9-4a25-b214-e9514a867b5a",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(기자의눈) 충전사업자 폭리론, 팩트는 거꾸로다",
+      "titleOriginal": null,
+      "summary": "전기차 완속 충전요금 상승의 원인으로 지목된 리베이트 관행을 분석하고, 실제 매출 상위 6개사 중 5곳이 순손실을 기록하는 등 사업자의 수익성이 악화된 현실을 지적했다. 2022년 한전 특례할인 폐지 이후 kWh당 20원 수준의 낮은 마진 구조로 인해 충전 사업자의 수익 모델이 위협받고 있음을 시사한다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-05-29T08:51:25.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368571",
+      "collectedAt": "2026-05-29T22:56:22.898Z"
+    },
+    {
+      "id": "1bbcf22e-3161-4f60-ab76-def7cda765ec",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전기차와 충전기는 하나의 시스템이다",
+      "titleOriginal": null,
+      "summary": "전기차 충전 서비스가 단순 전력 공급을 넘어 다양한 디지털 요소가 결합된 복합 서비스로 진화함에 따라, 사용자 만족도 제고를 위해서는 단일 시스템 관점의 기술 고도화가 필수적이다. 특히 OCPP와 ISO 15118 등 국제 표준을 바탕으로 충전기와 차량 간의 통신 신뢰성과 Plug & Charge 기능을 강화하는 것이 충전 인프라 성장의 핵심 과제이다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T08:48:46.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368543",
+      "collectedAt": "2026-05-29T22:57:02.642Z"
+    },
+    {
+      "id": "35a90c15-250d-4d45-8695-b8b1d4c97488",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "분리발주, 국가 인프라 산업의 핵심  ‘전기시공’ 공급망 유지를 위해 필요",
+      "titleOriginal": null,
+      "summary": "송도세브란스병원 건립 과정에서 전기공사 분리발주를 위반한 통합 발주 방식이 지역 업계의 반발을 사고 있다. 전기공사업법은 효율성을 명분으로 한 일괄입찰 방식을 인정하지 않으며, 이를 위반할 경우 사법적 제재 대상이 될 수 있다는 점을 강조하고 있다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-05-29T08:45:25.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368557",
+      "collectedAt": "2026-05-29T22:57:25.354Z"
+    },
+    {
+      "id": "17a1e5fb-a158-4c96-a968-2321f1ae4c9d",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(데스크시선)호르무즈 트라우마",
+      "titleOriginal": null,
+      "summary": "과거 번영의 상징이었던 호르무즈 해협이 오늘날 중동 전쟁의 화약고로 변하며 현대 에너지 공급망의 취약성을 드러내고 있다. 이로 인해 세계 경제가 의존해온 '에너지 신화'가 붕괴하고 에너지 안보에 대한 근본적인 위협이 고조되고 있다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T08:38:22.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368501",
+      "collectedAt": "2026-05-29T22:57:52.750Z"
+    },
+    {
+      "id": "e47790d8-e46d-45ad-bab2-0bfbfcbbdbff",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "서울도시가스, 제31회 안전의 날 기념식 개최… “안전은 타협 없는 최우선 가치”",
+      "titleOriginal": null,
+      "summary": "서울도시가스가 제31회 안전의 날 기념식을 통해 무재해 사업장 구축과 선제적 안전관리 실천 의지를 재확인했다. 매년 5월을 '안전문화의 달'로 지정하여 임직원의 안전의식을 고취하고, 에너지 산업 여건 변화에 대응하는 지속 가능한 안전관리 체계를 강화하고 있다.",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-05-29T18:39:25.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=167743",
+      "collectedAt": "2026-05-29T23:00:28.514Z"
+    },
+    {
+      "id": "3172f9fe-c395-4871-bab5-b65b155ae1d8",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“지방선거 후보 기후공약, 기대에 미치지 못했다”",
+      "titleOriginal": null,
+      "summary": "지방선거 후보들의 기후공약이 미흡하거나 기존 정책을 재탕하는 수준이라는 시민사회의 분석이 발표되었습니다. 특히 에너지전환 공약을 낸 후보 254명 중 215명이 '햇빛소득'이나 '바람소득'을 제시한 도 지역 후보로, 광역시와의 공약 편차가 큼이 지적되었습니다.",
+      "topics": [
+        "정책·규제"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-05-29T17:59:49.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=167742",
+      "collectedAt": "2026-05-29T23:00:58.381Z"
+    },
+    {
+      "id": "4d8633a8-ae26-44ee-ade4-0b486bc35227",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“호르무즈 해협 재개방돼도 예전 같지 않다… 다양한 대처 방안 모색”",
+      "titleOriginal": null,
+      "summary": "호르무즈 해협의 지정학적 리스크로 인해 에너지 업계는 향후 해협이 재개방되더라도 과거와 같은 정상화는 어려울 것으로 보고 있다. 이에 산유국들은 에너지 안보를 위해 호르무즈 해협 외의 송유관 인프라 확충 및 우회 수송로 확보를 추진하며 의존도 완화에 나서고 있다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T17:22:00.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=167741",
+      "collectedAt": "2026-05-29T23:01:18.560Z"
+    },
+    {
+      "id": "200c42d1-2457-4736-b2e5-b1daab80bbd8",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "SK이터닉스, RE100 이행 기업들에 재생에너지 전력 공급 ‘주력’",
+      "titleOriginal": null,
+      "summary": "SK이터닉스가 국내 RE100 이행 기업을 대상으로 100MW 규모의 태양광 직접전력거래계약(직접PPA)을 체결했다. 이번 계약으로 향후 25년간 총 5023억 원 규모의 재생에너지를 공급하며, 누적 다섯 번째 대규모 직접PPA 성과를 달성했다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T17:02:33.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=167740",
+      "collectedAt": "2026-05-29T23:01:38.658Z"
+    },
+    {
+      "id": "d91f2cb5-0996-4afe-b089-052883c06fc5",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“해상풍력 주민수용성 관한 법적 판단 논의한다”",
+      "titleOriginal": null,
+      "summary": "법무법인 지평과 한국풍력산업협회가 6월 12일 해상풍력 사업의 핵심 이슈인 주민수용성과 어업 피해 보상 관련 세미나를 개최한다. 이번 세미나는 최근 선고된 광주지법의 영광 해상풍력 판결이 향후 업계 분쟁 해결 및 실무 대응에 미칠 영향과 기준을 논의하기 위해 마련되었다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T16:38:33.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=167737",
+      "collectedAt": "2026-05-29T23:02:20.475Z"
+    },
+    {
+      "id": "3cdaae1d-dd5d-4640-8aae-a7fab8b6d844",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "중부발전, 세종시설공단과 탄소중립 실현 협약 체결",
+      "titleOriginal": null,
+      "summary": "한국중부발전과 세종시설공단이 세종시 내 재생에너지 보급 확대를 위해 태양광 발전사업 추진 업무협약을 체결했다. 공단 내 유휴부지를 활용한 태양광 설비 구축을 통해 탄소중립 달성과 에너지 전환을 가속화할 계획이다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T14:59:00.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=167735",
+      "collectedAt": "2026-05-29T23:02:40.795Z"
+    },
+    {
+      "id": "52794549-aafc-463d-a94b-20a95501a703",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“에너지복지는 국가 책임”… 도시가스 요금경감 재원체계 전면 개편 제안",
+      "titleOriginal": null,
+      "summary": "도시가스 요금경감 제도가 일반 소비자의 부담에 의존하는 구조적 한계를 보임에 따라, 모든 LNG 수입자가 비용을 분담하고 정부가 재정을 책임지는 체계로의 전환이 제기됐다. 천연가스 직수입 물량 증가에 대응하여 요금체계의 지속가능성을 확보하려는 정책적 변화가 필요한 시점이다.",
+      "topics": [
+        "ESG·탄소중립",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-05-29T14:57:00.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=167736",
+      "collectedAt": "2026-05-29T23:03:15.176Z"
+    },
+    {
+      "id": "fa0c98f5-733e-46ca-a24b-eac4eff5e95e",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "예스코・예스코노동조합,  ‘노사상생인증’ 획득… “협력적 노사문화 구축”",
+      "titleOriginal": null,
+      "summary": "도시가스 기업 예스코와 예스코노동조합이 노사 간 신뢰와 협력을 바탕으로 한 경영 성과를 인정받아 ‘노사상생인증’을 획득했다. 이번 인증은 디지털 전환 및 안전관리 강화 등 에너지 산업의 당면 과제를 해결하기 위한 핵심 동력으로서 협력적 노사문화의 가치를 높게 평가받은 결과다.",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-05-29T11:23:00.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=167730",
+      "collectedAt": "2026-05-29T23:04:09.530Z"
+    },
+    {
+      "id": "68c8f6b0-3c14-47f8-83c2-130e4a686232",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“도시가스 안전관리도 AX 전환”…디지털 혁신기술 한자리에",
+      "titleOriginal": null,
+      "summary": "도시가스 산업이 AI, AR, 디지털 플랫폼을 결합한 'AX(AI 전환)' 시대로 진입하며 지능형 안전관리 체계를 구축하고 있다. 한국가스학회 2026년 봄 학술대회에서는 정압기 유지관리 효율 개선을 중심으로 수소 인프라 대응 및 실시간 위험도 분석 기술이 논의되었다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T11:04:00.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=167715",
+      "collectedAt": "2026-05-29T23:04:50.144Z"
+    },
+    {
+      "id": "cb6abff0-2e95-4119-9b16-0cd79f9ea52e",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“에기평, SMR 산업 육성·안전 동시에 확보한다”",
+      "titleOriginal": null,
+      "summary": "한국에너지기술평가원이 소형모듈원자로(SMR) 규제연구추진단(RMAS)과 업무협약을 체결하고, SMR 기술 개발 및 실증 과정에서의 협력 체계를 구축했다. 이번 협약은 탄소중립, AI 전력수요 대응, 에너지 안보를 위해 SMR의 적기 상용화와 글로벌 경쟁력을 확보하는 데 목적이 있다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T10:02:40.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=167725",
+      "collectedAt": "2026-05-29T23:05:01.451Z"
+    },
+    {
+      "id": "3e2fc93a-5a95-4619-8377-0503e168d74a",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "중부발전, 현장 혁신 DNA 키운다… ‘KOMIPO 프론티어’ 출범",
+      "titleOriginal": null,
+      "summary": "한국중부발전이 에너지 전환과 탄소중립, 발전설비 안전성 강화 등 복합적 경영 과제 해결을 위해 사내 혁신 조직인 'KOMIPO 프론티어'를 출범했다. 실무자가 직접 혁신 과제를 발굴하고 경영진과 소통하는 참여형 모델을 통해 현장 중심의 조직 혁신을 추진한다.",
+      "topics": [
+        "시장·가격 동향",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-05-29T09:54:00.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=167724",
+      "collectedAt": "2026-05-29T23:05:22.550Z"
+    },
+    {
+      "id": "cd7059f6-8cc6-4b3a-9bad-a1686da35c17",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "신한울 4호기 원자로건물 공사 본격화… “대한민국 에너지 미래 첫 삽”",
+      "titleOriginal": null,
+      "summary": "한국수력원자력이 신한울 4호기 원자로건물 기초지반에 최초 콘크리트를 타설하며 신한울 3·4호기 건설사업이 본공사 단계에 진입했다. 이번 사업은 국내 원전 생태계 복원과 에너지 안보 강화, 탄소중립 실현을 위한 핵심적인 전환점이 될 것으로 평가된다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T09:42:00.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=167723",
+      "collectedAt": "2026-05-29T23:05:54.947Z"
+    },
+    {
+      "id": "c0f46701-487c-46b4-aada-6cd21068153e",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "GS칼텍스, 취약계층 주거 에너지 효율 개선",
+      "titleOriginal": null,
+      "summary": "GS칼텍스가 한국에너지재단과 함께 전국 저소득층 1,200가구 및 사회복지시설을 대상으로 단열 시공, 보일러 교체 등을 지원하는 '2026년 에너지효율개선 민관공동사업'을 추진한다. 지난 2025년도 사업 결과, 지원 가구의 난방 에너지 사용량을 평균 25.2% 절감하는 성과를 거둔 바 있다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T09:36:00.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=167721",
+      "collectedAt": "2026-05-29T23:06:10.742Z"
+    },
+    {
+      "id": "6f2344ae-3510-4988-b7ca-40dae3a3d875",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "서부발전, 신재생에너지학회 ‘산업진흥대상’ 수상",
+      "titleOriginal": null,
+      "summary": "한국서부발전이 재생에너지 산업 발전과 에너지전환 확대에 기여한 공로를 인정받아 한국신재생에너지학회로부터 '산업진흥대상'을 수상했다. 이번 수상은 국내 신재생에너지의 상용화 촉진 및 보급 확대에 대한 노력을 높게 평가받은 결과다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T09:25:29.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=167719",
+      "collectedAt": "2026-05-29T23:06:39.276Z"
+    },
+    {
+      "id": "04fdf221-c3e0-4522-a3c4-6408ca2a4551",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전기안전공사, 재난안전사업 평가 ‘최고등급’… 예방 중심 정책 성과 입증",
+      "titleOriginal": null,
+      "summary": "한국전기안전공사가 행정안전부의 '2026년 재난안전사업 평가'에서 '노후공동주택 세대별 전기안전점검 사업'과 '전기설비 안전점검 사업'으로 최고 등급을 획득했다. 이는 단순 점검을 넘어 위험요인을 사전에 제거하는 예방형 안전관리 체계가 국가 재난안전 정책의 모범사례로 인정받은 결과이다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T09:05:00.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=167716",
+      "collectedAt": "2026-05-29T23:07:07.263Z"
+    },
+    {
+      "id": "0fac1822-f03e-41b5-8a36-7aa378ef15c5",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한국가스학회, 첫 ‘수소·가스 AI 경진대회’ 성료… “산업안전 패러다임 AI로 전환”",
+      "titleOriginal": null,
+      "summary": "한국가스학회가 '2026년 봄 학술대회'에서 첫 수소·가스 AI 경진대회를 개최하며 산업 안전관리 체계를 기존 사후 대응형에서 예측·자율형으로 전환하는 혁신 기술들을 선보였다. 딥러닝, 디지털트윈, LLM 등 AI 기술을 수소충전소 및 가스배관 설비에 도입해 차세대 가스 산업의 운영 효율과 안전성을 강화하는 미래상을 제시했다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T06:00:00.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=167713",
+      "collectedAt": "2026-05-29T23:07:18.329Z"
+    },
+    {
+      "id": "2312f05b-6be7-4d09-84f9-277781a70bfb",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "에너지볼트, 일본 850MW BESS 인수…현지 시장 본격 진출",
+      "titleOriginal": null,
+      "summary": "에너지볼트가 글로벌 개발사 바이바 r.e.로부터 일본 내 850MW 규모의 배터리 에너지저장장치(BESS) 포트폴리오를 인수하며 일본 시장에 본격 진출했다. 이번 인수를 통해 2028년 상업운전을 목표로 3시간 지속형 BESS를 구축하며, 향후 연간 1억 8,000만 달러 이상의 반복 EBITDA 창출을 기대하고 있다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T18:03:11.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298464",
+      "collectedAt": "2026-05-29T23:10:00.522Z"
+    },
+    {
+      "id": "87fbe617-cf47-42ae-b17a-c0bf92096c14",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "서울도시가스, '선제적 안전관리·무재해 실천' 팔 걷었다",
+      "titleOriginal": null,
+      "summary": "서울도시가스가 '제31회 안전의 날'을 맞아 안전관리 우수사례 발표대회를 열고 디지털 기술 기반의 예측형 안전관리 체계 고도화 의지를 밝혔다. 이번 대회에서는 현장안전관리와 기술개발 분야에서 총 28건의 혁신 과제가 접수되었으며, 최종 9건의 우수사례가 선정되어 현장 중심의 안전 문화 확산을 도모했다.",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-05-29T17:37:45.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298467",
+      "collectedAt": "2026-05-29T23:10:47.682Z"
+    },
+    {
+      "id": "e8c3ac9a-cfe1-48f3-801f-e3143975a2a1",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[분석] 도시가스 도매요금, ‘민수용 동결·산업용 인상’ 지속",
+      "titleOriginal": null,
+      "summary": "6월 도시가스 도매요금은 민수용을 동결한 반면, 산업용 및 발전용 요금을 MJ당 약 2원 인상하며 대조적인 흐름을 보였다. 이는 국제 LNG 가격 상승과 환율 불안, 지정학적 리스크로 인한 원료비 부담이 반영된 결과로, 정부의 물가 안정 정책과 에너지 수급 비용 상승 사이의 균형을 맞추려는 조치로 풀이된다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T17:24:17.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298466",
+      "collectedAt": "2026-05-29T23:11:05.893Z"
+    },
+    {
+      "id": "decd9973-bd20-4484-ad0c-28d7d3764931",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스안전공사, 글로벌 가스 안전 · 인증 기관과 협력 확대",
+      "titleOriginal": null,
+      "summary": "한국가스안전공사가 노르웨이 글로벌 안전·인증 기관인 DNV와 업무협약을 체결하고 가스 안전 분야 협력을 강화한다. 양 기관은 AI 기반 정량적 위험성 평가(QRA) 공동 연구 및 실증, 임직원 인적 교류를 통해 사후 수습 중심에서 사전 예측·대응 중심의 가스 안전 체계로 전환할 계획이다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T17:03:11.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298459",
+      "collectedAt": "2026-05-29T23:11:33.581Z"
+    },
+    {
+      "id": "0ce76ab6-9d19-4c6a-b83a-b741bf70d865",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "휴맥스이브이, 충전기 운영 매출 성장 및 흑자 지속",
+      "titleOriginal": null,
+      "summary": "휴맥스이브이가 전기차 충전기 운영(CPO) 사업에서 데이터 기반의 운영 고도화를 통해 1분기 매출이 전년 동기 대비 46% 성장하고 3개 분기 연속 EBITDA 흑자를 달성했다. 전국 3,400여 개 충전소에서 약 2만 기의 충전기를 직접 관리하며 인프라 확대와 수익성 개선이라는 두 가지 성과를 동시에 확보하고 있다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T16:41:27.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298456",
+      "collectedAt": "2026-05-29T23:11:45.217Z"
+    },
+    {
+      "id": "60b30673-7c05-4343-97c5-c104ade6526b",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "GS칼텍스, 에너지 취약계층 복지 향상 성과 입증",
+      "titleOriginal": null,
+      "summary": "GS칼텍스가 한국에너지재단과 협력해 저소득층 가구의 노후 시설을 보수하는 '에너지 효율 개선 민관 공동 사업'을 4년째 추진하고 있다. 올해 전국 1,200가구를 대상으로 벽체 단열 및 고효율 보일러 교체 등을 지원하며, 지난해 지원 가구의 난방 에너지 절감률 25.2%를 기록하는 등 실질적인 성과를 거두고 있다.",
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-05-29T16:06:14.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298455",
+      "collectedAt": "2026-05-29T23:12:31.274Z"
+    },
+    {
+      "id": "7b895953-d3d1-4510-af0a-f2bdfa92a13c",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "중부발전-세종시설공단, 태양광 발전사업 추진 협력",
+      "titleOriginal": null,
+      "summary": "한국중부발전과 세종시설공단이 공단 내 유휴부지를 활용한 태양광 발전사업을 추진하기 위해 업무협약을 체결했다. 중부발전은 기술력과 운영 노하우를 바탕으로 사업을 총괄하고, 세종시설공단은 부지 제공 및 인허가 등 행정적 지원을 통해 지역 내 재생에너지 보급 확대와 탄소중립 실현에 기여할 방침이다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-05-29T15:43:08.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298453",
+      "collectedAt": "2026-05-29T23:12:49.556Z"
+    },
+    {
+      "id": "43d767e0-88e1-4ccf-9dd7-ed977dfe99b3",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "남부발전, 2040년 재생에너지 11.2GW 보급 계획",
+      "titleOriginal": null,
+      "summary": "한국남부발전은 2040년까지 총 11.2GW 규모의 재생에너지를 보급하겠다는 투자 로드맵을 발표했다. 이를 위해 금융기관, 개발사, 기술기업 등과 협력하여 해상풍력, 태양광, ESS 분야의 투자 활성화 및 산업 생태계 강화에 나설 계획이다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T15:28:25.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298450",
+      "collectedAt": "2026-05-29T23:13:27.542Z"
+    },
+    {
+      "id": "cd2f43d8-36d2-4483-b323-8dea0f406bba",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "이온어스, 일본 이동형 ESS 시장 진출 본격화",
+      "titleOriginal": null,
+      "summary": "국내 이동형 ESS 기업 이온어스가 일본 신덴하이텍스, 에네만과 업무협약을 맺고 현지 시장 진출을 본격화한다. 향후 3년간 최소 300만 달러 규모의 '인디고' 시리즈 공급 및 현지 맞춤형 제품 고도화와 실증 사업을 추진할 계획이다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T15:28:09.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298410",
+      "collectedAt": "2026-05-29T23:14:01.175Z"
+    },
+    {
+      "id": "d6291472-b0c7-4f49-bbe5-9194d1ae2a83",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "에기평, ‘윙윙 꿀벌정원’ 나무심기 봉사활동 추진",
+      "titleOriginal": null,
+      "summary": "한국에너지기술평가원이 대전 미호동 에너지자립마을에서 탄소중립 실천을 위해 밀원수 80주를 식재하고 토종벌집을 설치하는 봉사활동을 진행했다. 이번 활동은 기관의 R&D 지원으로 조성된 에너지자립마을에 생태보전 활동을 융합하여 탄소흡수와 생물다양성 보호를 동시에 도모했다는 점에서 의미가 있다.",
+      "topics": [
+        "ESG·탄소중립",
+        "정책·규제"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-05-29T15:08:37.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298445",
+      "collectedAt": "2026-05-29T23:14:57.832Z"
+    },
+    {
+      "id": "07d08688-06cb-4716-9187-043db17bd8b2",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "첨단한옥창호, 남수헌 한옥체험마을에 한식시스템창호 공급",
+      "titleOriginal": null,
+      "summary": "첨단한옥창호가 한옥체험마을 '남수헌'에 평균 열관류율 1.174~1.212W/㎡K 수준의 고효율 한식시스템창호를 공급했다. 목재와 알루미늄 결합 구조로 내구성을 높이고 기밀성(0.79~0.00㎥/h㎡)을 확보하여 한옥의 에너지 소비 효율을 개선했다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T15:05:53.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298447",
+      "collectedAt": "2026-05-29T23:15:08.847Z"
+    },
+    {
+      "id": "d7d03ebd-0564-49a1-8799-9379e7062039",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "SK이터닉스, RE100 기업 대상 100MW 재생에너지 공급",
+      "titleOriginal": null,
+      "summary": "SK이터닉스가 국내 RE100 이행 기업과 25년간 5,023억 원 규모의 100MW 태양광 직접전력거래계약(PPA)을 체결했다. 이번 계약을 포함해 현재까지 누적 355MW, 약 1조 8,000억 원 규모의 직접PPA 실적을 달성하며 재생에너지 공급 사업을 확대하고 있다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T14:17:09.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298437",
+      "collectedAt": "2026-05-29T23:16:39.062Z"
+    },
+    {
+      "id": "75bab969-51b0-409d-bbcc-4443d7280c0e",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "테라클, 육군과 폐섬유 재활용·자원화 협력 추진",
+      "titleOriginal": null,
+      "summary": "화학적 재활용 스타트업 테라클이 육군5군수지원사령부와 협력하여 대량의 폐섬유를 고순도 재생 원료로 전환하는 순환경제 모델을 구축한다. 테라클은 연간 4,000톤 규모의 폐기물 처리가 가능한 해중합 공장을 통해 정부의 탄소중립 및 재생 원료 의무화 정책 실현에 기여할 계획이다.",
+      "topics": [
+        "ESG·탄소중립",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-05-29T14:17:09.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298433",
+      "collectedAt": "2026-05-29T23:17:30.601Z"
+    },
+    {
+      "id": "42b45c2e-0f37-4b8d-94f8-1572f5b3f31c",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "남동발전 ‘2026년 신입사원 입사식’ 개최",
+      "titleOriginal": null,
+      "summary": "한국남동발전이 최근 5년 내 최대 규모인 신입사원 128명의 입사식을 개최했다. 이번 채용은 평균 87대 1의 경쟁률을 기록했으며, 직무능력 중심의 다단계 평가를 통해 선발된 인재들이 향후 현장에 배치될 예정이다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T14:15:05.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298442",
+      "collectedAt": "2026-05-29T23:18:01.457Z"
+    },
+    {
+      "id": "3ad1c0e3-c217-4a1d-a246-7fc3596ddd9a",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전KPS ‘2026년 청렴의 날’ 문화행사 개최",
+      "titleOriginal": null,
+      "summary": "전력 설비 정비 전문기업 한전KPS가 매년 5월 넷째 주 목요일을 '청렴의 날'로 지정하고 반부패 문화 확산을 위한 '청렴 ON STAGE' 행사를 개최했다. 임직원 및 외부 거래회사 관계자 등 250여 명이 참여하여 상생협력 간담회, 청렴인상 시상식, 뮤지컬 공연 등을 통해 윤리경영 실천 의지를 다졌다.",
+      "topics": [
+        "ESG·탄소중립",
+        "전력 인프라"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-05-29T14:02:19.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298440",
+      "collectedAt": "2026-05-29T23:18:28.202Z"
+    },
+    {
+      "id": "ab097ec5-1827-45a0-b3a1-f6b034e07343",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "서부발전, 한국신재생에너지학회 ‘산업진흥대상’ 수상",
+      "titleOriginal": null,
+      "summary": "한국서부발전이 태양광 및 풍력 등 재생에너지 사업 확대와 지역 상생 모델 구축 성과를 인정받아 한국신재생에너지학회 ‘산업진흥대상’을 수상했다. 서부발전은 햇들원 태양광(60MW) 및 군위풍백 육상풍력(75MW) 등 주요 사업을 통해 2040년까지 재생에너지 설비 13.9GW 확보를 목표로 탄소중립 실현에 앞장서고 있다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T13:47:57.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298438",
+      "collectedAt": "2026-05-29T23:18:53.976Z"
+    },
+    {
+      "id": "8539b679-3239-4e7c-a2d2-9e1f592b774c",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "중부발전 ‘KOMIPO 프론티어’ 발대식 개최",
+      "titleOriginal": null,
+      "summary": "한국중부발전이 전국 사업소 실무직원 20명으로 구성된 사내 혁신조직 'KOMIPO 프론티어' 발대식을 개최했다. 이들은 안전경영, 탄소중립 실천 등 핵심 국정과제와 연계한 현장 중심의 혁신 과제를 발굴하고 실행할 예정이다.",
+      "topics": [
+        "시장·가격 동향",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-05-29T13:36:45.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298435",
+      "collectedAt": "2026-05-29T23:19:10.265Z"
+    },
+    {
+      "id": "babfd205-f679-4a23-a00d-857edbc20881",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한수원, 신한울4호기 원자로건물 공사 착수",
+      "titleOriginal": null,
+      "summary": "한국수력원자력이 신한울4호기의 원자로건물 기초 콘크리트 타설을 시작하며 본격적인 건설 공정에 돌입했다. 2033년 준공을 목표로 하는 신한울 3·4호기는 완공 시 경북 지역 전력 소요량의 약 46%를 공급하며 국가 에너지 안보 및 탄소중립 달성에 기여할 전망이다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T13:24:33.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298434",
+      "collectedAt": "2026-05-29T23:19:25.093Z"
+    },
+    {
+      "id": "9ad2ccf1-a3d1-434d-a394-563379fec30b",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "산업부, K-전기기기 수출현장 점검",
+      "titleOriginal": null,
+      "summary": "산업통상자원부가 글로벌 전력망 수요 급증에 대응해 HD현대일렉트릭을 방문하여 수출 확대 방안을 논의했다. 정부는 올해 역대 최대인 275조 원의 무역보험을 공급하고, 향후 5년간 전기기기 등 대규모 사업에 127조 원 규모의 금융 지원과 보증을 강화하여 기업의 수주를 전폭 지원하기로 했다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-05-29T13:16:36.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298432",
+      "collectedAt": "2026-05-29T23:19:55.504Z"
+    },
+    {
+      "id": "475188e4-e754-492e-8242-e4999b7abb60",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "수자원공사, 피지컬 AI로 K-물산업 혁신 모색",
+      "titleOriginal": null,
+      "summary": "한국수자원공사는 혁신클러스터학회 춘계학술대회에서 AI 정수장 및 사족보행 로봇 등 현실 인프라와 AI를 결합한 '피지컬 AI' 기술을 통한 물관리 혁신 방안을 발표했다. 특히 OpenAI와의 협약을 통해 물관리 AI 전환을 가속화하고, 글로벌 등대 선정 및 글로모 어워즈 수상 등 입증된 기술력을 바탕으로 K-물산업의 해외 진출을 본격화할 계획이다.",
+      "topics": [
+        "운영 최적화",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "운영 최적화",
+      "publishedAt": "2026-05-29T12:51:03.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298426",
+      "collectedAt": "2026-05-29T23:20:47.840Z"
+    },
+    {
+      "id": "7e283ec4-c434-4342-b510-7c7aac5e21b0",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "지평·풍력협회, 해상풍력 분쟁 대응 방향 논의",
+      "titleOriginal": null,
+      "summary": "한국풍력산업협회와 법무법인 지평은 해상풍력 사업의 주민수용성 확보와 법적 대응을 위해 6월 12일 세미나를 개최한다. 이번 세미나는 최근 광주지법의 영광 해상풍력 관련 손해배상 청구 기각 판결을 분석하고, 해상풍력 보급 촉진 특별법 등 제도적 변화에 따른 실무적 대응 방안을 논의할 예정이다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T12:51:03.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298422",
+      "collectedAt": "2026-05-29T23:21:00.552Z"
+    },
+    {
+      "id": "fcf55029-3c2f-4320-9ce3-841d869bb0b9",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "에기평, SMR 안전·육성 공조 체계 구축",
+      "titleOriginal": null,
+      "summary": "한국에너지기술평가원이 소형모듈원자로규제연구추진단(RMAS)과 업무협약을 체결하여 SMR의 적기 상용화를 위한 기술 개발 및 안전 규제 공조 체계를 구축했다. 이번 협약은 SMR 특별법 시행에 대비해 R&D 사업 관리와 인허가 불확실성을 최소화하고, 세계 시장 경쟁력을 강화하기 위한 전략적 협력을 목적으로 한다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T12:51:03.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298421",
+      "collectedAt": "2026-05-29T23:21:19.518Z"
+    },
+    {
+      "id": "18643803-39ef-4fe4-919c-2e6193727a50",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "ABB, 가스안전공사와 모바일가드 공급 계약 체결",
+      "titleOriginal": null,
+      "summary": "ABB가 한국가스안전공사에 레이저 기반 고감도 가스 누출 탐지 솔루션 '모바일가드'를 공급하여 2026년부터 운용한다. 이 기술은 기존 대비 감도를 최대 1000배, 탐지 속도를 약 10배 높여 가스 배관 안전 확보와 메탄 배출량 정량화 및 탄소 관리 효율을 크게 개선할 전망이다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-05-29T11:37:40.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298423",
+      "collectedAt": "2026-05-29T23:21:39.138Z"
+    },
+    {
+      "id": "65fba2b9-7b46-49df-9a56-094e9f83ac68",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "기후부, 난방전기화 1차 지원 제품 10종 공개",
+      "titleOriginal": null,
+      "summary": "기후에너지환경부가 공기열 히트펌프를 재생에너지 설비로 인정하고, 제1차 난방전기화 사업 대상 제품 10종(삼성 6종, LG 3종, 대성히트에너시스 1종)을 공개했다. 해당 제품 설치 시 전기요금 선택제 신청이 가능해지며, 정부는 2026년 3분기 중 2차 대상 제품을 추가 선정할 계획이다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-05-29T11:11:38.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298417",
+      "collectedAt": "2026-05-29T23:22:28.975Z"
+    },
+    {
+      "id": "d023333e-96f4-4eac-9701-05e047e7998a",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "환경산업기술원, 산업 현장 목소리 듣고 혁신 창출한다",
+      "titleOriginal": null,
+      "summary": "한국환경산업기술원이 산업 현장의 애로사항을 발굴해 환경기술개발(R&D)에 반영하고자 5월 29일부터 6월 26일까지 '2026년도 산업 현장 불편 공모전'을 개최한다. 선정된 아이디어는 총 1,040만 원의 상금과 함께 올해 말 수립될 국가 환경기술개발 중장기 계획의 기초자료로 활용될 예정이다.",
+      "topics": [
+        "정책·규제"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-05-29T11:11:38.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298414",
+      "collectedAt": "2026-05-29T23:23:36.309Z"
+    },
+    {
+      "id": "706704b5-c04e-4f41-9dfa-29f50d60b13b",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "기후부, 공기열에너지 재생에너지 인정기준 고시",
+      "titleOriginal": null,
+      "summary": "기후에너지환경부가 대기 중 열을 활용하는 공기열에너지를 재생에너지로 공식 인정하고 관련 고시를 시행한다. 히트펌프의 계절 난방 성능계수(SCOP) 3.3 이상, 친환경 냉매 사용 등 구체적인 기술 기준을 마련하여 향후 공기열 히트펌프 보급 지원 사업의 근거를 확보했다.",
+      "topics": [
+        "ESG·탄소중립",
+        "정책·규제"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-05-29T11:11:38.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298409",
+      "collectedAt": "2026-05-29T23:24:21.291Z"
+    },
+    {
+      "id": "9fdbda50-eb09-4208-ac5f-c12f4532a709",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "예스코-예스코노조, '상생 노사문화 구축 성과' 결실",
+      "titleOriginal": null,
+      "summary": "예스코와 예스코노조가 신뢰와 협력을 바탕으로 구축한 노사상생 문화를 인정받아 중소벤처기업인증원으로부터 '노사상생인증'을 획득했다. 예스코는 갈등관리 TFT 및 CEO 현장 미팅 등 실질적인 소통 구조를 정착시켜 현장의 목소리를 경영에 반영하고 ESG 경영을 실천한 점을 높게 평가받았다.",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-05-29T10:23:24.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298411",
+      "collectedAt": "2026-05-29T23:25:03.793Z"
+    },
+    {
+      "id": "eed42449-ddec-4a28-af00-29e11df3d67f",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "도시가스 복지 5000억 시대…직수입 물량 무임승차?",
+      "titleOriginal": null,
+      "summary": "연간 5000억 원 규모에 달하는 도시가스 복지 재원이 가스공사 배관망 소비자에게만 전가되면서 직수입 물량과의 형평성 논란이 제기되었다. 복지 재원 조달 구조의 불균형 문제가 공론화되며 제도 개선 필요성이 대두되고 있다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-05-29T15:35:49.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70068",
+      "collectedAt": "2026-05-29T23:26:18.285Z"
+    },
+    {
+      "id": "81659588-f853-4e74-a567-124b6978ac09",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한수원 비상임이사 인선…한수원노조, 탈원전인사 선임 반발",
+      "titleOriginal": null,
+      "summary": "한국수력원자력 노동조합이 탈원전 성향 인사의 비상임이사 선임에 대해 사업 지체 우려를 제기하며 반발하고 있습니다. 노조는 이번 인사와 관련하여 기후에너지부 장관에게 책임을 묻겠다고 경고하며, 시민사회단체 등과 공동 대응을 예고했습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-29T10:57:00.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70057",
+      "collectedAt": "2026-05-29T23:26:47.990Z"
+    },
+    {
+      "id": "54f4d3ee-9f2b-4159-97b9-65e237974169",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "핵융합 9000억 예산설…노동계, 재원 공개하라 촉구",
+      "titleOriginal": null,
+      "summary": "핵융합 분야에 9000억 원 규모의 예산이 투입될 것이라는 설이 제기되자, 원자력·에너지 노조 및 과학기술계가 예산 출처와 규모를 투명하게 공개하라고 정부에 촉구했다. 노조 측은 해당 예산이 기존 원자력 및 에너지 분야 예산의 축소나 유용으로 이어질 경우 전력 수급 안정성에 차질이 빚어질 것을 우려하고 있다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-05-29T10:28:54.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70056",
+      "collectedAt": "2026-05-29T23:27:08.812Z"
+    },
+    {
+      "id": "121c2630-5ece-477c-8493-aef7ac43d25c",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "재생에너지총연합회 “햇빛소득마을, 속도감 있는 행정 혁신이 필요”",
+      "titleOriginal": null,
+      "summary": "재생에너지단체총연합회는 정부가 목표한 '햇빛소득마을 500개' 달성을 위해 행정안전부에 인허가 통합심의제 도입, 적극행정 면책 강화, 주민 특별보증 상품 개발 등 3대 행정 과제를 제안했다. 사업자들은 현행 지자체의 복잡한 인허가 절차가 개선되지 않으면 올해 준공 물량이 목표치에 크게 미달할 것이라고 경고했다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T16:08:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260529020429099",
+      "collectedAt": "2026-05-29T23:29:55.982Z"
+    },
+    {
+      "id": "07888926-fb51-43ad-8497-8b941b02d9b2",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "탄소중립법 개정 또 무산…환경단체 “이재명 정권·국회 책임”",
+      "titleOriginal": null,
+      "summary": "국회 기후위기특별위원회의 임기 종료로 헌법재판소가 요구한 '탄소중립기본법' 개정안 처리가 하반기로 미뤄졌다. 2030년 이후의 구체적인 온실가스 감축 경로 미비를 해결해야 하는 법 개정이 지연되면서, 환경단체들은 이를 정치권과 정부의 산업 논리 우선주의라며 강하게 비판하고 나섰다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T15:12:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260529023548975",
+      "collectedAt": "2026-05-29T23:30:16.156Z"
+    },
+    {
+      "id": "adf73ca0-633e-486f-910e-938680771dd4",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "대한민국 도시가스 1위 삼천리, 70년 신뢰 위에 쌓아 올린 에너지 공급망",
+      "titleOriginal": null,
+      "summary": "삼천리는 국내 최대 도시가스 공급망(8,314km)을 기반으로 337만 고객에게 에너지를 안정적으로 공급하며 업계 1위를 유지하고 있다. 최근에는 시흥클린에너지센터 운영을 통해 바이오메탄 혼입 등 저탄소 에너지 전환을 추진하며, 탄소배출권 사업 및 친환경 충전소 구축 등 ESG 경영과 탄소중립 실현에 집중하고 있다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T14:56:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260529020279068",
+      "collectedAt": "2026-05-29T23:30:27.509Z"
+    },
+    {
+      "id": "c6d19cfc-2634-42c9-9522-31521c810f13",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "중동발 LNG 폭등…6월 발전용 가스요금 3개월 새 20% 뛰었다",
+      "titleOriginal": null,
+      "summary": "중동 전쟁의 장기화로 인해 국제 LNG 가격이 급등하면서 국내 발전용 및 산업용 가스요금이 최근 3개월 사이 약 20% 상승했다. 민생 부담을 고려해 주택·일반용 요금은 동결되었으나, 원가 상승으로 인해 향후 전력도매가격(SMP) 상승 및 전기요금 인상 압박이 가중될 것으로 전망된다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T14:33:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260529029598924",
+      "collectedAt": "2026-05-29T23:31:01.780Z"
+    },
+    {
+      "id": "acb48fb2-df34-417d-a5fc-2f542733367b",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "IEA “올해 천연가스 투자 10년 만에 최고”…석유 투자는 감소세",
+      "titleOriginal": null,
+      "summary": "올해 전 세계 에너지 투자액은 3조 4000억 달러로 예상되며, 중동 정세 불안으로 인해 재생에너지와 전력망에 2조 2000억 달러가 집중되는 한편 천연가스 투자는 10년 만에 최고치인 330억 달러를 기록할 전망이다. 반면 원유 업스트림 투자는 3년 연속 감소세를 보이고 있으며, 중국과 인도 주도로 석탄 투자 또한 14년 만에 최고치인 1800억 달러에 이를 것으로 관측된다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T23:37:24.742Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330875",
+      "collectedAt": "2026-05-29T23:37:24.742Z"
+    },
+    {
+      "id": "765384bb-94a5-4b80-8563-7bd740bb3c85",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "SMR산업 육성 및 안전성 확보 공동 대응",
+      "titleOriginal": null,
+      "summary": "한국에너지기술평가원과 SMR규제추진단이 SMR의 조기 상용화와 글로벌 경쟁력 확보를 위한 업무협약을 체결했다. 양 기관은 최근 통과된 ‘소형모듈원자로 개발 촉진 및 지원에 관한 특별법’에 발맞춰, 기술개발 초기 단계부터 규제 요건을 상호 공유하고 안전 기준을 선제적으로 마련하는 등 긴밀히 협력할 계획이다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T23:38:29.142Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330887",
+      "collectedAt": "2026-05-29T23:38:29.142Z"
+    },
+    {
+      "id": "189b1cc6-b9a8-4323-be9a-cb487949303c",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "딥리뉴어블스, 디지털 이노베이션 환경기술부문 대상",
+      "titleOriginal": null,
+      "summary": "태양광 전문 플랫폼 기업 딥리뉴어블스가 지붕형 태양광 원스톱 플랫폼 '솔라리스'를 통해 '제21회 한국일보 디지털 이노베이션' 환경기술부문 대상을 2년 연속 수상했다. 솔라리스는 GIS 기반 분석과 특허 기술을 활용해 태양광 사업의 복잡한 인허가 및 사업성 검토 과정을 디지털화하여 재생에너지 도입 효율을 높였다는 평가를 받았다.",
+      "topics": [
+        "운영 최적화",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T23:39:11.203Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330876",
+      "collectedAt": "2026-05-29T23:39:11.203Z"
+    },
+    {
+      "id": "4cae3ff4-58d1-4ffd-ac4e-d24ff6eaf922",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "수자원공사, 삼표레미콘 부지 복합시설에 수열에너지 1800RT 공급",
+      "titleOriginal": null,
+      "summary": "한국수자원공사가 성수동 옛 삼표레미콘 부지 복합시설에 1800RT 규모의 수열에너지를 공급하기로 협약했다. 이를 통해 기존 냉난방 방식 대비 에너지 사용량을 약 35% 절감할 수 있으며, 공사는 2030년까지 28만 4000RT 규모의 수열에너지를 보급해 탄소중립과 에너지 자립을 강화할 계획이다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T23:39:46.615Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330874",
+      "collectedAt": "2026-05-29T23:39:46.615Z"
+    },
+    {
+      "id": "9a0bbbe3-87fe-45a4-8127-dd3c5a935e8f",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "영국, 북해 가스전 개발 확대 주장 놓고 격론",
+      "titleOriginal": null,
+      "summary": "토니 블레어 전 영국 총리가 북해 가스전 개발 확대와 2050년 탄소중립 목표 포기를 주장하자 기후 전문가 및 에너지 업계가 이를 강력히 비판하며 격론이 벌어지고 있다. 영국 정부는 신규 탐사 허가를 불허하고 청정 전력 생산을 통한 에너지 주권 확보를 강조하며 기존 탄소중립 정책을 유지하겠다는 입장을 재확인했다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T23:40:07.379Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330870",
+      "collectedAt": "2026-05-29T23:40:07.379Z"
+    },
+    {
+      "id": "3b3c1342-e675-4451-b93a-1e0191471540",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "지평·풍력산업협회, 내달 12일 해상풍력 주민수용성 판결 세미나",
+      "titleOriginal": null,
+      "summary": "법무법인 지평과 한국풍력산업협회는 광주지법의 영광 해상풍력 손해배상 청구 기각 판결을 계기로 해상풍력 사업의 주민수용성과 어업 피해 보상 기준을 논의하는 세미나를 개최한다. 이번 행사에서는 해상풍력 보급 촉진 특별법 고시 등 관련 제도 변화와 실무적인 사업 리스크 최소화 방안을 다룰 예정이다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T23:40:39.918Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330869",
+      "collectedAt": "2026-05-29T23:40:39.918Z"
+    },
+    {
+      "id": "98e72d64-8c9b-45fc-a0cf-2ab7cfe0d0a5",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "LG엔솔, 북미 AI 데이터센터·전력망에 ESS 6GWh 공급",
+      "titleOriginal": null,
+      "summary": "LG에너지솔루션이 미국 DTE에너지와 16억 달러(약 2조 4000억원) 규모의 ESS 배터리 공급 계약을 체결했다. 이번에 공급되는 6GWh 분량의 ESS는 북미 AI 데이터센터의 전력 부하 제어 및 재생에너지 연계 전력망 안정화를 위해 활용될 예정이다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T23:40:50.868Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330867",
+      "collectedAt": "2026-05-29T23:40:50.868Z"
+    },
+    {
+      "id": "555d1c30-818f-4f77-86a6-2e7d170f88ac",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "효성중공업, 창원공장 지붕태양광+외부 PPA 조달 추가",
+      "titleOriginal": null,
+      "summary": "효성중공업은 창원공장의 저탄소 생산기반을 강화하기 위해 기존 5.3MW 자가 태양광에 더해 외부 발전사업자로부터 1.6MW 규모의 전력을 PPA 방식으로 추가 조달한다. 이를 통해 재생에너지 사용량을 약 30% 늘리고, 연간 약 966톤의 온실가스를 감축하는 효과를 거둘 것으로 기대된다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T23:41:12.516Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330863",
+      "collectedAt": "2026-05-29T23:41:12.516Z"
+    },
+    {
+      "id": "9dcac623-941b-42a1-a36f-0d44cb77a393",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "신한울 4호기, 2033년 준공 목표 원자로 건물 올린다",
+      "titleOriginal": null,
+      "summary": "한국수력원자력이 신한울 4호기(1400MW)의 원자로 건물 최초 콘크리트 타설을 시작하며 2033년 준공을 위한 본격적인 건설 단계에 돌입했다. 신한울 3·4호기가 완공되면 총 2800MW의 설비용량을 갖춰 경북지역 전력 소비량의 약 46%를 공급할 수 있을 것으로 전망된다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T23:42:32.962Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330857",
+      "collectedAt": "2026-05-29T23:42:32.962Z"
+    },
+    {
+      "id": "43c6007d-c5e0-43ae-b8bc-b4ebf07fe45b",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한난, 기업가치 제고 우수기업상 수상",
+      "titleOriginal": null,
+      "summary": "한국지역난방공사(한난)가 2년 연속 기업가치 제고 계획을 공시하며 주주환원, 지배구조 개선, 수익성 강화 노력을 인정받아 한국거래소로부터 '2026년 기업가치 제고 우수기업'으로 선정되었습니다. 한난은 재무실적 개선과 주주권익 향상을 통해 기업가치 재평가를 달성하고 주주와 함께 성장하는 경영 기조를 지속할 계획입니다.",
+      "topics": [
+        "운영 최적화",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T23:43:50.339Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330849",
+      "collectedAt": "2026-05-29T23:43:50.339Z"
+    },
+    {
+      "id": "a464dfe8-b82f-46a2-b4d4-de00517972fa",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "서울에너지공사, 발전소주변지역 장학금 지원대상 모집",
+      "titleOriginal": null,
+      "summary": "서울에너지공사가 '발전소주변지역 지원에 관한 법률'에 따라 목동 및 노원 열병합발전소 반경 5km 이내 거주 고등학생 61명을 선발해 장학금을 지원한다. 이번 사업은 지역사회와의 상생 및 미래 인재 양성을 목적으로 학교별 추천을 통해 진행된다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T23:44:32.417Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330846",
+      "collectedAt": "2026-05-29T23:44:32.417Z"
+    },
+    {
+      "id": "78213c38-0af1-408e-8a9f-c10b04e9503c",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "건설현장 무공해 전환 위한 관계기관 간담회",
+      "titleOriginal": null,
+      "summary": "수도권대기환경청이 건설현장의 대기오염물질 저감을 위해 2024년부터 추진 중인 '무공해건설현장 지원사업'의 현황을 공유하고 활용 확대 방안을 논의했다. 해당 사업은 행정·공공기관 발주 공사에 무공해 건설기계 임차료 및 충전시설 설치비 등을 지원하여 내연기관 중심의 건설현장을 친환경으로 전환하는 것을 목적으로 한다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T23:45:06.261Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330845",
+      "collectedAt": "2026-05-29T23:45:06.261Z"
+    },
+    {
+      "id": "bd67f143-ae5a-4899-bbf7-d6984ba5116f",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "AI 전력 수요 대응 최적 솔루션 ‘천연가스’",
+      "titleOriginal": null,
+      "summary": "급증하는 AI 데이터센터 전력 수요에 대응하기 위해 천연가스 발전이 적시성, 신뢰성, 효율성을 갖춘 최적의 대안으로 부각되고 있다. BNEF 등 주요 기관은 2035년 데이터센터 전력 공급의 64%가 화석연료 발전을 통해 충당될 것으로 전망하며, 국내에서도 데이터센터 전력 부족 현상을 해결할 중추적 에너지원으로 천연가스의 전략적 가치를 강조하고 있다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T23:45:17.725Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330841",
+      "collectedAt": "2026-05-29T23:45:17.725Z"
+    },
+    {
+      "id": "a42188b3-09d3-49b0-957c-280baab229ea",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“고장 나도 안 멈춘다” 유니슨 10MW급 풍력터빈 실증",
+      "titleOriginal": null,
+      "summary": "유니슨이 700억 원 규모의 국책과제를 통해 개발한 10MW급 국산 해상풍력 터빈을 전남 영광에서 실증하며 내년 6월 상용화를 목표로 하고 있다. 특히 주요 부품과 센서를 이중화하는 다중화 설계를 적용해 고장 시에도 발전을 지속할 수 있도록 함으로써 유지보수 비용 절감과 사업 수익성을 극대화했다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T23:45:41.820Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330794",
+      "collectedAt": "2026-05-29T23:45:41.820Z"
+    },
+    {
+      "id": "dc19f2d2-3f84-44e3-a959-7d915bb031db",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "남부발전, 2030년까지 재생에너지 설비 3.4GW로 확대",
+      "titleOriginal": null,
+      "summary": "한국남부발전이 재생에너지 발전설비를 2030년 3.4GW, 2040년 11.2GW까지 확대하는 중장기 투자 로드맵을 발표했다. 이를 위해 금융·사업개발·기술 분야 11개 기업과 업무협약을 체결하고 태양광, 해상풍력, ESS 등 미래 에너지 산업 생태계 조성에 나선다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T23:46:04.281Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330823",
+      "collectedAt": "2026-05-29T23:46:04.281Z"
+    },
+    {
+      "id": "86cba621-7543-4c08-af8e-9507b545ede0",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "8\n\t\t\t\t집단에너지 무탄소화 등 미래전략 모색",
+      "titleOriginal": null,
+      "summary": "한국지역난방공사가 정부의 '열에너지 혁신전략'을 이행하고 지속 가능한 성장동력을 확보하기 위해 '집단에너지 무탄소화 워킹그룹'을 구성했다. 공사는 기존 화석연료 중심의 공급시스템을 히트펌프 및 전극보일러 등 탄소중립 기술로 전환하여 생산부터 소비까지 전 과정의 탈탄소화를 추진할 계획이다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T23:46:23.297Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330843",
+      "collectedAt": "2026-05-29T23:46:23.297Z"
+    },
+    {
+      "id": "45abaef9-4e10-4bda-8570-a36d84471949",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "수소충전소 방호벽 방폭·내진성능 획기적 향상",
+      "titleOriginal": null,
+      "summary": "한국가스기술공사가 수소충전소 방호벽에 '프리캐스트 콘크리트(PC) 공법'을 도입해 방폭·내진성능을 강화하고 2개월 이상의 공기를 단축하는 기술기준을 신설했습니다. 이는 기존 현장 시공의 소음·분진 민원과 인력난을 해결하기 위한 스마트 건설기술로, 50여 년 만의 방호벽 관련 기준 대변화라는 평가를 받습니다.",
+      "topics": [
+        "정책·규제",
+        "운영 최적화"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T23:46:48.473Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330787",
+      "collectedAt": "2026-05-29T23:46:48.473Z"
+    },
+    {
+      "id": "ef39f51f-5fca-4c38-a086-8437059308f8",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "2026 해상풍력 공급망 컨퍼런스 전시회, 내달 16일 여수서 개최",
+      "titleOriginal": null,
+      "summary": "국내 최대 해상풍력 행사인 '2026 해상풍력 공급망 컨퍼런스 전시회'가 내달 16일부터 이틀간 여수에서 개최되며, 72개 기업·기관이 참여해 93개 부스를 운영한다. 이번 행사에서는 처음으로 '민관 해상풍력 경쟁력 강화 위원회'의 논의 경과가 공개되며, 국내 공급망 육성 전략과 글로벌 진출 방안 등이 집중 논의될 예정이다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-29T23:47:04.246Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330783",
+      "collectedAt": "2026-05-29T23:47:04.246Z"
+    }
+  ]
+}
