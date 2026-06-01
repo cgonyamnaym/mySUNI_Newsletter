@@ -1,0 +1,209 @@
+{
+  "date": "2026-05-31",
+  "generatedAt": "2026-06-01T01:20:53.305Z",
+  "articleCount": 11,
+  "articles": [
+    {
+      "id": "a89379ee-2e35-4949-b337-6f315bedf15b",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "KR, IMO IGC Code 개정안에 국내 의견 반영…LNG선 수백억 원대 부담 줄였다",
+      "titleOriginal": null,
+      "summary": "한국선급(KR)이 IMO 제111차 해사안전위원회에서 IGC Code 개정안에 자사의 제안을 반영시켜 LNG선 분야의 규제 부담을 완화했다. 이번 개정으로 국내 조선·해운업계는 LNG선 건조 및 운영 과정에서 수백억 원 규모의 비용 절감 효과를 거둘 것으로 기대된다.",
+      "topics": [
+        "정책·규제"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-05-31T13:46:42.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368636",
+      "collectedAt": "2026-06-01T00:01:31.137Z"
+    },
+    {
+      "id": "2d67b69e-6444-4270-85dc-4dee452962b3",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "KR, 금양상선 전기 하이브리드 선박 기술 검증 주도...친환경 3등급 인증 획득 성과",
+      "titleOriginal": null,
+      "summary": "한국선급(KR)과 금양상선이 협력하여 개발한 전기 하이브리드 추진 선박이 한국해양교통안전공단으로부터 친환경 선박 3등급 인증을 획득했다. 국내 연근해 중소 선사 최초로 하이브리드 시스템의 친환경성을 국가로부터 공식 인정받은 사례로, 기존 디젤 엔진을 대체하는 전기 추진 기술의 상용화 성과를 거뒀다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-31T13:39:03.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368635",
+      "collectedAt": "2026-06-01T00:01:50.561Z"
+    },
+    {
+      "id": "67249cef-f421-4953-805e-b9eb3d8f4383",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“재생에너지 넘어 유연성으로”…제주도, 제7차 지역에너지계획 공개",
+      "titleOriginal": null,
+      "summary": "제주도가 2026년부터 2030년까지 적용될 제7차 지역에너지계획을 발표하며 재생에너지 확대와 전력계통 안정성을 위한 유연성 자원 확충을 핵심 과제로 제시했다. 이번 계획은 '청정에너지로 만드는 녹색 삶의 도시, 제주'를 비전으로 삼아 2035년까지의 장기 에너지 수급 전망을 포함하고 있다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-05-31T13:29:40.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368634",
+      "collectedAt": "2026-06-01T00:02:17.106Z"
+    },
+    {
+      "id": "d9db05fb-9aaa-4264-9e36-0dffcb2e3b5c",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "바닷속 ‘하얀 석유’ 리튬, 햇빛으로 뽑아낸다",
+      "titleOriginal": null,
+      "summary": "POSTECH 이상준 교수 연구팀이 태양빛을 활용해 고농도 염수에서 리튬만을 효율적으로 회수하는 나노여과막 기술을 개발했다. 배터리 핵심 원자재인 리튬의 추출 효율을 높여 전기차와 에너지 저장 장치 산업의 공급망 확보에 기여할 것으로 기대된다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-31T13:21:06.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368629",
+      "collectedAt": "2026-06-01T00:03:01.194Z"
+    },
+    {
+      "id": "2e590685-7ba8-4fd2-b9c5-78010197e10e",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“구리에선 불가능” 수십 년 상식 뒤집어… 전자 충돌 없이 달리는 '탄도 전도' 실험 성공",
+      "titleOriginal": null,
+      "summary": "POSTECH과 공동 연구팀이 반도체 내부 전자 충돌을 제거해 열 발생과 전력 손실을 획기적으로 줄이는 '탄도 전도' 현상을 실험으로 입증했다. 이는 기존 구리 배선의 한계를 극복하여 반도체의 전력 효율을 극대화할 수 있는 차세대 반도체 배선 기술의 가능성을 열었다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-31T13:19:20.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368631",
+      "collectedAt": "2026-06-01T00:03:12.156Z"
+    },
+    {
+      "id": "1134faae-f04a-4559-93a9-b41173dc6b4d",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“다쳐도 스스로 낫는 촉매 나왔다”  수소차·연료전지 핵심 난제 극복할까",
+      "titleOriginal": null,
+      "summary": "POSTECH 연구팀이 산화되어 성능이 저하되어도 스스로 원래 상태를 회복하는 촉매 기술을 개발했다. 이 기술은 수소차와 연료전지의 수명을 획기적으로 연장하여 수소 경제 상용화를 앞당기는 데 기여할 것으로 기대된다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-31T12:54:27.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368630",
+      "collectedAt": "2026-06-01T00:04:05.481Z"
+    },
+    {
+      "id": "5ef01737-dff3-4ffc-9423-2d871de70535",
+      "source": "전자신문 (Energy)",
+      "sourceId": "etnews",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "포스텍-서울대·LG엔솔, 충·방전 반복해도 안깨지는 실리콘 배터리 소재 개발",
+      "titleOriginal": null,
+      "summary": "포스텍, 서울대, LG에너지솔루션 공동 연구팀이 충·방전 반복 시 발생하는 팽창 문제를 해결한 고강도 실리콘 음극재 신소재를 개발했다. 기존 흑연 대비 높은 에너지 저장 효율을 가진 실리콘 소재의 내구성을 확보하여 전기차 배터리의 성능 한계를 극복할 것으로 기대된다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-31T23:50:25.000Z",
+      "originalUrl": "https://www.etnews.com/20260601000026",
+      "collectedAt": "2026-06-01T00:06:52.163Z"
+    },
+    {
+      "id": "2f39d335-dda3-47a5-87ef-514c517ca84a",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한국가스안전공사-DNV '맞손',  AI 기반 ‘예측형 가스안전’ 시대 연다",
+      "titleOriginal": null,
+      "summary": "한국가스안전공사가 글로벌 인증기관 DNV와 업무협약을 맺고 가스 및 수소 산업의 안전 관리를 위한 AI 기반 사고 예측 기술 개발에 협력하기로 했다. 이를 통해 사후 점검 중심에서 사전 분석을 통한 예측형 안전관리 체계로의 전환을 추진한다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-31T14:25:37.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=167750",
+      "collectedAt": "2026-06-01T00:09:09.434Z"
+    },
+    {
+      "id": "a73b862f-454b-45a0-b217-71840b333d0b",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[초점] “AI가 정수장 운영하고 로봇이 순찰”… K-물산업, ‘피지컬 AI’ 시대 개막",
+      "titleOriginal": null,
+      "summary": "한국수자원공사가 혁신클러스터학회 춘계학술대회에서 AI와 로봇 기술을 접목한 '피지컬 AI' 기반의 물 관리 미래 비전을 제시했다. 정수장 운영 자동화, 순찰 로봇 도입, 디지털트윈을 활용한 홍수·가뭄 예측 등 스마트 물 관리 기술을 통해 글로벌 물산업 경쟁력을 강화할 계획이다.",
+      "topics": [
+        "운영 최적화"
+      ],
+      "primaryTopic": "운영 최적화",
+      "publishedAt": "2026-05-31T14:07:00.000Z",
+      "originalUrl": "http://www.energydaily.co.kr/news/articleView.html?idxno=167749",
+      "collectedAt": "2026-06-01T00:09:35.457Z"
+    },
+    {
+      "id": "41db72da-c0df-4330-bc65-72d375f6d756",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[시장 전망] 글로벌 알루미늄 수요, 2031년까지 9287만 톤 전망",
+      "titleOriginal": null,
+      "summary": "글로벌 알루미늄 수요가 전기차 및 친환경 인프라 확대로 연평균 3.29% 성장해 2031년 9287만 톤에 달할 전망이다. 알루미늄 산업은 에너지 비용 변동성 및 CBAM 등 탄소 규제에 대응하기 위해 저탄소 제련 기술과 재활용 역량 확보를 핵심 경쟁력으로 삼고 있다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-05-31T10:08:57.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298471",
+      "collectedAt": "2026-06-01T00:13:01.389Z"
+    },
+    {
+      "id": "6dfd2731-4207-4187-aa53-b45c299baeee",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "에너지 볼트, 일본 850MW BESS 포트폴리오 인수",
+      "titleOriginal": null,
+      "summary": "에너지 볼트가 바이바 r.e.로부터 일본 내 850MW 규모의 배터리 에너지 저장 시스템(BESS) 포트폴리오를 인수하며 아시아 시장에 본격 진출한다. 3시간급 저장 설계를 도입해 2028년부터 순차적 운영을 시작하며, 이를 통해 연간 1억 8천만 달러 이상의 반복 EBITDA 창출을 목표로 하는 '소유·운영' 전략을 강화할 방침이다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-05-31T09:49:44.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298470",
+      "collectedAt": "2026-06-01T00:13:25.687Z"
+    }
+  ]
+}

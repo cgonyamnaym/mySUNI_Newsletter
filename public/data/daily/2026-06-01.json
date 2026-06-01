@@ -1,0 +1,557 @@
+{
+  "date": "2026-06-01",
+  "generatedAt": "2026-06-01T01:20:53.304Z",
+  "articleCount": 29,
+  "articles": [
+    {
+      "id": "1a3ffe2c-faa4-4881-ba3c-526330296585",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "민지선 쉘코리아 신임 대표 1일부터 임기 시작",
+      "titleOriginal": null,
+      "summary": "글로벌 에너지 기업 쉘코리아가 민지선 신임 대표를 선임하고 1일부터 공식 임기를 시작했다. 민 대표는 LNG 및 저탄소 에너지 사업의 시너지를 강화하고 한국 시장 내 에너지 전환 흐름에 맞춘 신규 사업 기회를 발굴하는 데 주력할 계획이다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-01T08:29:34.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368642",
+      "collectedAt": "2026-06-01T00:00:22.073Z"
+    },
+    {
+      "id": "69b83a38-2a4c-4f72-b197-26832ed2fbbf",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전KPS, ‘청렴의 날’ 지정…거래회사·지역사회와 청렴문화 확산",
+      "titleOriginal": null,
+      "summary": "한전KPS는 ESG 경영 실천과 청렴 문화 확산을 위해 매년 5월 넷째 주 목요일을 ‘청렴의 날’로 지정했다. 지난 5월 28일 본사에서 거래회사 및 지역주민 등 250여 명이 참석한 가운데 반부패 문화행사인 ‘청렴 ON STAGE’를 개최하며 조직 내외부의 청렴 가치 공유에 나섰다.",
+      "topics": [
+        "ESG·탄소중립",
+        "전력 인프라"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-06-01T07:30:13.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368640",
+      "collectedAt": "2026-06-01T00:00:48.581Z"
+    },
+    {
+      "id": "3c760e1e-15e0-4379-ab34-4da299c1d59a",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전기공사협회 기술위원회 출범…업계 미래 경쟁력 이끌 싱크탱크 가동",
+      "titleOriginal": null,
+      "summary": "한국전기공사협회가 업계 전문가 23명으로 구성된 기술위원회를 출범시켜 전기공사업계의 품셈, 노임, 송·변·배전 등 주요 기술 현안에 대한 정책 자문을 강화한다. 이번 위원회는 현장 중심의 기술정책 발굴과 제도 개선을 통해 업계의 미래 경쟁력을 확보하는 싱크탱크 역할을 수행할 예정이다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-01T00:03:41.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368601",
+      "collectedAt": "2026-06-01T00:01:13.654Z"
+    },
+    {
+      "id": "a4eb2f33-c895-4795-aa92-4e9b8d9bd88e",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[인터뷰] 박영철 한국남부발전 경영기획부사장",
+      "titleOriginal": null,
+      "summary": "한국남부발전 박영철 경영기획부사장은 취임 후 '흑자경영 TF'를 통해 당기순이익 4,127억 원 달성 및 부채비율 하락 등 재무 건전성을 확보했다. 또한 미국 가스복합발전 사업의 성공과 에너지 전환 전략을 바탕으로 2035년까지 신성장 매출 3조 8,000억 원 및 에너지 전환용량 3GW 달성을 목표로 투자를 확대하고 있다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-01T08:00:00.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298425",
+      "collectedAt": "2026-06-01T00:10:26.016Z"
+    },
+    {
+      "id": "01325c98-842f-4a84-9cf2-1d3149592a32",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[2030 NDC 상향 파고④] 수소도시·수소환원제철·연료전지 클러스터",
+      "titleOriginal": null,
+      "summary": "본 기사는 2030 NDC 달성을 위해 수소도시, 수소환원제철(HR), 연료전지 클러스터를 지역 기반의 통합 패키지로 구축해야 한다고 강조한다. 이를 위해 재생에너지 PPA 확대, 전환 금융 지원, 탄소 가격 제도 명확화 등 실효성 있는 정책과 민관 투자 협력의 필요성을 제언한다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-01T07:10:00.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298465",
+      "collectedAt": "2026-06-01T00:10:46.462Z"
+    },
+    {
+      "id": "4fd150f9-1ca9-4fbf-9f9c-aadfced291f4",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[기자수첩] 냉매는 지금도 새고 있다",
+      "titleOriginal": null,
+      "summary": "기후에너지환경부의 냉매 전주기 관리 시범사업이 현장 현실과 괴리되어 실효성 논란이 일고 있다. 이산화탄소 대비 최대 1만 2,000배의 온난화 지수를 가진 냉매의 불법 유출과 회수율 저조 문제를 해결하기 위해 실질적인 인센티브 및 관리 체계 개선이 시급하다.",
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-06-01T07:00:00.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298463",
+      "collectedAt": "2026-06-01T00:11:12.692Z"
+    },
+    {
+      "id": "2fd61080-e5e6-4647-8d51-c2c48d08ec0a",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[기자수첩] 전력 계통 신뢰도 기준 유연성 필요",
+      "titleOriginal": null,
+      "summary": "국제 LNG 가격 상승에 따른 SMP 인상과 동해안 석탄화력의 송전 제약을 해결하기 위해 현행 345kV 이상 송전망의 'N-2' 신뢰도 기준을 완화해야 한다는 의견이 제기되었습니다. 일본의 사례처럼 고장 시 발전기를 즉시 탈락시키는 방식 등 기술적 고도화를 통한 유연한 운영 지침 마련이 필요합니다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-01T07:00:00.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298460",
+      "collectedAt": "2026-06-01T00:11:44.189Z"
+    },
+    {
+      "id": "2abf8a65-21e1-4502-a6b7-d8480ca0509b",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[사설] RPS 폐지, 성공의 조건",
+      "titleOriginal": null,
+      "summary": "정부는 신재생에너지공급의무화(RPS) 제도의 경직성을 해소하고 시장 효율성을 높이기 위해 내년부터 RPS를 폐지하고 경쟁입찰 및 성과 중심의 인센티브 모델로 전환한다. 이번 정책 변화는 2035년 NDC 목표 달성을 위한 에너지 전환 가속화와 분산에너지 활성화에 중점을 두고 있다.",
+      "topics": [
+        "ESG·탄소중립",
+        "에너지원"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-06-01T07:00:00.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298458",
+      "collectedAt": "2026-06-01T00:12:10.711Z"
+    },
+    {
+      "id": "a2ae881f-16f1-48ed-9b52-a4fd15e88da9",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[시평] ODA 통해 확장되는 K-가스안전",
+      "titleOriginal": null,
+      "summary": "한국가스안전공사가 몽골에서 추진하는 가스안전관리 법적 기반 구축 및 역량 강화 사업 등 ODA를 통해 한국의 가스 안전 시스템을 해외에 이식하는 '예방적 안전외교'를 전개하고 있다. 이는 단순한 기술 수출을 넘어 한국형 안전관리 모델과 소프트 인프라를 전파함으로써 향후 국내 기업의 해외 진출 기반을 마련하는 전략적 플랫폼으로 활용되고 있다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-01T07:00:00.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298457",
+      "collectedAt": "2026-06-01T00:12:36.385Z"
+    },
+    {
+      "id": "3dfcfada-d3e7-4755-91f4-ae06d4acdca6",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "지역과 함께 에너지전환…중부발전, 세종 태양광사업 추진",
+      "titleOriginal": null,
+      "summary": "한국중부발전과 세종시설공단이 세종시의 에너지전환 및 탄소중립 실현을 위해 업무협약을 체결했다. 양사는 공단이 보유한 유휴 부지를 활용해 태양광발전 사업을 추진하며 지역 내 재생에너지 보급을 확대할 계획이다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-01T07:47:55.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70075",
+      "collectedAt": "2026-06-01T00:14:01.874Z"
+    },
+    {
+      "id": "9a13ef23-a98f-4edc-8616-a85c9872f8dc",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "원자력연구원 \"고준위폐기물 처분장 성능평가 기술 자립화\"",
+      "titleOriginal": null,
+      "summary": "한국원자력연구원이 과학기술정보통신부 예타사업을 통해 고준위 방사성폐기물 처분장의 열·수리·역학·화학(THMC) 복합거동을 해석하는 독자적인 성능평가 모델을 개발했다. 이번 기술 확보로 향후 국내 부지조사, 설계, 인허가 및 안전성 입증 과정에서 고준위폐기물 처분 시스템의 신뢰성을 높이는 핵심 도구로 활용될 전망이다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-01T00:20:47.285Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330810",
+      "collectedAt": "2026-06-01T00:20:47.285Z"
+    },
+    {
+      "id": "aac8f8d7-96be-49d1-9509-7936a994601a",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "부산시, 원자력산업 육성계획 수립",
+      "titleOriginal": null,
+      "summary": "부산시는 2026년부터 5년간 1882억 원을 투입해 대형 원전 중심의 산업구조를 소형모듈원자로(SMR)와 원전 해체 등 차세대 원자력산업 중심으로 재편한다. 이를 위해 산업기반 확충, 기업 경쟁력 강화, 인재 양성, 산·학·연·관 협력이라는 4대 전략과 18개 중점과제를 추진할 계획이다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-01T00:22:02.919Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330905",
+      "collectedAt": "2026-06-01T00:22:02.919Z"
+    },
+    {
+      "id": "776ef259-0a55-4ed0-a42d-5b26e98dacd4",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "경동도시가스, 수소충전소 통합 안전관리모델 정립",
+      "titleOriginal": null,
+      "summary": "경동도시가스가 HAZOP 및 FMEA 기법을 적용해 수소충전소의 위험 요인을 정량화하고, 공정별 중점관리점검표를 도입한 통합 안전관리모델을 정립했다. 실제 운영 데이터 분석을 통해 28건의 핵심 위험요인을 도출했으며, 이를 통해 현장의 위험도 평균을 5.1점에서 3.5점까지 낮추는 것을 목표로 한다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-01T00:22:26.738Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330901",
+      "collectedAt": "2026-06-01T00:22:26.738Z"
+    },
+    {
+      "id": "20c9a810-e80e-4a54-b31b-7db90b7056e6",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "도시가스배관 정밀안전진단 ‘진단주기 차등화’ 공감대",
+      "titleOriginal": null,
+      "summary": "한국가스학회는 배관 안전도 평가 결과에 따라 5년 주기로 일괄 적용되던 도시가스 중압배관 정밀안전진단 주기를 3~7년으로 차등화하는 제도 개선 방안을 논의했다. 또한, 토양 부식성 평가 등 과학적 분석을 기반으로 중점 관리 대상을 선정하고, 모범 관리 사례에 인센티브를 부여하는 효율적 안전 관리 체계 도입의 필요성이 강조되었다.",
+      "topics": [
+        "운영 최적화",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-01T00:22:38.000Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330900",
+      "collectedAt": "2026-06-01T00:22:38.000Z"
+    },
+    {
+      "id": "2badf936-961e-4ca7-b1d2-205ec1ed214c",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "K-그리드포밍 인버터 그리드코드 ‘윤곽’",
+      "titleOriginal": null,
+      "summary": "한국전력공사가 재생에너지 확대와 계통 불안정 해결을 위해 그리드포밍(GFM) 인버터의 기술적 요구사항을 담은 'K-그리드코드' 초안을 공개했다. 이번 기준은 개별제어와 단지제어를 결합한 계층형 성능체계를 도입하고, 공장 시험부터 현장 시운전까지 3단계 검증 체계를 통해 재생에너지 100GW 시대의 전력망 안정화를 목표로 한다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-01T00:23:17.836Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330899",
+      "collectedAt": "2026-06-01T00:23:17.836Z"
+    },
+    {
+      "id": "1b6fb0cc-0018-4b28-ae50-27114182a887",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "서울도시가스, ‘제31회 안전의 날’ 성료…“선제적 안전관리” 결의",
+      "titleOriginal": null,
+      "summary": "서울도시가스가 ‘제31회 안전의 날’을 맞아 전 임직원이 참여하는 무재해 실천 결의와 안전관리 혁신사례 발표대회를 개최했다. 특히 디지털 기술을 활용한 예측형 안전관리 체계 고도화와 현장안전관리 및 기술개발 분야에서 총 28건의 혁신과제를 발굴하며 선제적 안전 경영을 강화하고 있다.",
+      "topics": [
+        "운영 최적화",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-01T00:23:48.924Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330896",
+      "collectedAt": "2026-06-01T00:23:48.924Z"
+    },
+    {
+      "id": "9e92b36b-efc9-46f2-b998-af44b0e43c93",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "미국 전시회에서 고마력 중대형 LPG 트럭 잇따라 선보여",
+      "titleOriginal": null,
+      "summary": "미국에서 고마력 중대형 LPG 트럭이 잇따라 공개되며 친환경 상용차 시장의 주목을 받고 있다. 스태너다인의 401마력 LPG 직분사 시스템과 넥시오 파워의 7.2L LPG 플랫폼은 디젤 대비 질소산화물(NOx)을 96~97% 감축하고 연료비를 최대 50% 절감하는 등 2027년 북미 배출가스 규제 대응과 경제성 확보를 동시에 겨냥했다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-01T00:24:12.728Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330895",
+      "collectedAt": "2026-06-01T00:24:12.728Z"
+    },
+    {
+      "id": "febb5e7b-8e60-4db4-9e55-65371e182428",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "스페인 LPG차 시장 경제성·실용성 앞세워 가파른 성장세",
+      "titleOriginal": null,
+      "summary": "스페인의 LPG 차량 판매량이 전년 대비 76.4% 급증한 5만 9783대를 기록하며 가파른 성장세를 보이고 있다. 이는 우수한 경제성과 주행거리 확보, 그리고 정부의 'ECO 라벨' 부여를 통한 도심 진입 혜택 등 친환경 정책이 맞물린 결과로, 탄소 중립으로 가는 가교 역할을 하고 있다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-01T00:25:01.256Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330893",
+      "collectedAt": "2026-06-01T00:25:01.256Z"
+    },
+    {
+      "id": "29a912c3-b5ec-4387-919c-bab3c78c2046",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "예스코-예스코노동조합 ‘상생 노사문화’ 공인…‘노사상생인증’ 획득",
+      "titleOriginal": null,
+      "summary": "서울권역 도시가스 공급사인 예스코가 투명한 정보 공유와 현장 중심의 소통 구조를 인정받아 중소벤처기업인증원으로부터 '노사상생인증'을 획득했다. 이번 인증은 회사가 ESG 경영의 사회적 책임을 실천하고 노사 간 협력을 통한 지속 가능한 노사문화를 정착시켰다는 점에서 높은 평가를 받았다.",
+      "topics": [
+        "ESG·탄소중립",
+        "운영 최적화"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-01T00:25:23.994Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330892",
+      "collectedAt": "2026-06-01T00:25:23.994Z"
+    },
+    {
+      "id": "22cacb90-1fe0-4b6e-905d-0e57073c859e",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스안전公-글로벌 안전·인증기관 ‘DNV’ 전략적 협약",
+      "titleOriginal": null,
+      "summary": "한국가스안전공사가 노르웨이의 글로벌 안전·인증기관 DNV와 업무협약을 체결하고 가스안전 분야 협력을 본격화한다. 양 기관은 AI를 활용한 정량적 위험성 평가(QRA) 기반의 사고 예측·대응 프로그램 공동 개발 및 실증 연구를 통해 선제적 가스안전 관리 체계 구축에 나설 예정이다.",
+      "topics": [
+        "운영 최적화",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-01T00:25:35.091Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330891",
+      "collectedAt": "2026-06-01T00:25:35.091Z"
+    },
+    {
+      "id": "453ceff4-c815-4f4e-9e6d-13c5b75fa5a4",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "IEA “올해 천연가스 투자 10년 만에 최고”…석유 투자는 감소세",
+      "titleOriginal": null,
+      "summary": "올해 전 세계 에너지 투자 규모는 3조 4000억 달러로 예상되며, 중동 정세 불안에 따른 공급망 다변화로 천연가스 투자가 10년 만에 최고치인 330억 달러를 기록할 전망입니다. 반면 재생에너지와 전력망, 에너지 저장장치 분야에는 2조 2000억 달러가 집중되는 가운데 원유 업스트림 투자는 3년 연속 감소세를 보이고 있습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-01T00:26:33.477Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330875",
+      "collectedAt": "2026-06-01T00:26:33.477Z"
+    },
+    {
+      "id": "4e5907b3-4154-48ff-a63a-1eeffde0066c",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "AI 전력 수요 대응 최적 솔루션 ‘천연가스’",
+      "titleOriginal": null,
+      "summary": "급증하는 AI 데이터센터 전력 수요를 충당하기 위해 천연가스 발전이 높은 적시성, 신뢰성, 효율성을 바탕으로 최적의 대안으로 부상하고 있다. 특히 2035년까지 화석연료 발전이 전체 발전량의 64%를 차지할 것으로 전망되는 가운데, 천연가스 발전은 타 에너지원 대비 압도적인 전력밀도와 신속한 건설이 가능해 데이터센터 전력 공급의 핵심 역할을 할 것으로 분석된다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-01T00:28:23.639Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330841",
+      "collectedAt": "2026-06-01T00:28:23.639Z"
+    },
+    {
+      "id": "6c6e6451-54bb-4102-adf1-efe50d3e12b3",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "집단에너지 무탄소화 등 미래전략 모색",
+      "titleOriginal": null,
+      "summary": "한국지역난방공사가 정부의 '열에너지 혁신전략' 이행을 위해 집단에너지 무탄소화를 추진하는 워킹그룹을 구성하고 미래 전략을 모색했다. 히트펌프와 전극보일러 등 신기술을 도입하여 열 생산부터 소비까지 전 과정을 탈탄소화함으로써 국가 탄소중립 목표 달성에 기여할 계획이다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-01T00:28:35.085Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330843",
+      "collectedAt": "2026-06-01T00:28:35.085Z"
+    },
+    {
+      "id": "7db5be5f-1906-4867-9d5e-8e15b229834b",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“고장 나도 안 멈춘다” 유니슨 10MW급 풍력터빈 실증",
+      "titleOriginal": null,
+      "summary": "유니슨이 700억 원 규모의 국책과제를 통해 개발한 10MW급 해상풍력터빈을 전남 영광에서 실증 중이다. 핵심 부품의 다중화 설계를 통해 고장 시에도 운전을 지속할 수 있도록 하여 유지보수 효율과 발전사업자의 수익성을 극대화했으며, 향후 20MW급 모델 개발과 해외 시장 진출을 목표로 하고 있다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-01T00:29:10.910Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330794",
+      "collectedAt": "2026-06-01T00:29:10.910Z"
+    },
+    {
+      "id": "86926e71-cbdf-49e7-a536-f9dc7dcb7d62",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "남부발전, 2030년까지 재생에너지 설비 3.4GW로 확대",
+      "titleOriginal": null,
+      "summary": "한국남부발전이 재생에너지 투자설명회를 열고 2030년 3.4GW, 2040년 11.2GW 규모의 재생에너지 설비 확대 로드맵을 발표했다. 이를 위해 주요 시중은행, 두산에너빌리티 등 11개 기업과 금융 조달, 사업 개발, 기술 실증 등을 아우르는 협약을 체결하며 탄소중립 목표 달성을 위한 생태계 강화에 나선다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-01T00:29:25.455Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330823",
+      "collectedAt": "2026-06-01T00:29:25.455Z"
+    },
+    {
+      "id": "725c1643-82e3-4234-adf3-cc9c64601a10",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "수소충전소 방호벽 방폭·내진성능 획기적 향상",
+      "titleOriginal": null,
+      "summary": "한국가스기술공사 등 민관 협업을 통해 수소충전소 방호벽에 '프리캐스트 콘크리트(PC) 방호벽' 공법을 도입하고 관련 가스기술기준을 50년 만에 개정했다. 이를 통해 2개월 이상의 건설 공기 단축과 함께 도심지 내 소음·분진 저감 등 스마트 건설기술 기반의 안전하고 효율적인 수소 인프라 구축이 가능해졌다.",
+      "topics": [
+        "정책·규제",
+        "전력 인프라"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-01T00:29:58.320Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330787",
+      "collectedAt": "2026-06-01T00:29:58.320Z"
+    },
+    {
+      "id": "ae0b3d00-0b38-4adc-8ac9-e83694787914",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스학회 ‘봄 학술대회’ 성황…AI 시대 수소·가스 기술·정책 논의",
+      "titleOriginal": null,
+      "summary": "한국가스학회는 봄 학술대회를 열어 AI 기반의 수소·가스 정책 및 기술, CCUS, 암모니아 활용 등 미래 가스산업의 디지털 전환을 논의했다. 이번 행사에서는 전년 대비 대폭 증가한 312편의 논문이 발표되었으며, 제1회 수소·가스 산업 AI 활용 우수사례 경진대회 등을 통해 산업 현장의 기술 혁신과 안전관리 체계 강화를 모색했다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-01T00:30:19.806Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330840",
+      "collectedAt": "2026-06-01T00:30:19.806Z"
+    },
+    {
+      "id": "cb672104-e76c-4dd1-86f6-570c3c09d5c8",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "SMR산업 육성 및 안전성 확보 공동 대응",
+      "titleOriginal": null,
+      "summary": "한국에너지기술평가원과 소형모듈원자로(SMR) 규제연구추진단이 SMR 상용화 촉진과 안전성 확보를 위한 업무협약을 체결했다. 이번 협약은 '소형모듈원자로 개발 촉진 및 지원에 관한 특별법' 시행을 앞두고 진흥사업과 안전규제 간 협력체계를 구축하여 인허가 불확실성을 최소화하는 데 중점을 둔다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-01T00:30:46.519Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330887",
+      "collectedAt": "2026-06-01T00:30:46.519Z"
+    },
+    {
+      "id": "5b94d94c-4689-48c3-b3b8-517ffe2b6f2a",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "9\n\t\t\t\t2026 해상풍력 공급망 컨퍼런스 전시회, 내달 16일 여수서 개최",
+      "titleOriginal": null,
+      "summary": "한국풍력산업협회는 다음 달 16일부터 이틀간 여수에서 국내외 72개 기업·기관이 참여하는 '2026 해상풍력 공급망 컨퍼런스 전시회'를 개최한다. 이번 행사에서는 전남 특별관 운영과 함께 '민관 해상풍력 경쟁력 강화 위원회'의 논의 경과가 처음 공개되며, 국내외 공급망 육성 및 시장 진출 전략이 집중 논의될 예정이다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-01T00:31:09.485Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330783",
+      "collectedAt": "2026-06-01T00:31:09.485Z"
+    }
+  ]
+}
