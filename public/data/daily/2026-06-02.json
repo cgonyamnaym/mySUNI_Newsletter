@@ -1,0 +1,311 @@
+{
+  "date": "2026-06-02",
+  "generatedAt": "2026-06-02T00:31:32.825Z",
+  "articleCount": 16,
+  "articles": [
+    {
+      "id": "9662aa0d-1157-4d6d-9e1f-ffe648935720",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "중동 사태 버팀목 된 LPG, ‘에너지 안보’ 재평가론 대두",
+      "titleOriginal": null,
+      "summary": "중동 사태로 인한 에너지 수급 불안 속에서 북미 의존도가 높은 LPG가 석유화학 원료 공급 및 에너지 안보의 완충 역할을 수행하고 있음이 재조명되고 있습니다. LPG 업계는 국제 가격 급등에도 물가 안정을 위해 가격 인상을 자제하고 있으나, 탄소중립 정책 기조에 따라 시장 축소 위기에 처해 있어 재평가가 필요한 상황입니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T06:46:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260601021029656",
+      "collectedAt": "2026-06-01T23:42:37.314Z"
+    },
+    {
+      "id": "164e4784-df9e-47fc-be3d-0b07f895ac61",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "두산에너빌리티, 8400억원 규모 사우디 자푸라 열병합 2단계 수주",
+      "titleOriginal": null,
+      "summary": "두산에너빌리티가 사우디 아람코 컨소시엄으로부터 8400억원 규모의 자푸라 열병합발전소 2단계 건설공사를 수주했다. 2029년까지 330MW 전력과 시간당 465톤의 증기를 생산하는 설비를 EPC 방식으로 구축할 계획이다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T00:00:11.447Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330949",
+      "collectedAt": "2026-06-02T00:00:11.447Z"
+    },
+    {
+      "id": "6699359f-220f-40be-b36d-066f92863739",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "남부발전 신입사원, 석탄·풍력발전 현장 교육",
+      "titleOriginal": null,
+      "summary": "한국남부발전이 제39기 신입사원 102명을 대상으로 삼척빛드림본부와 정암풍력발전단지를 방문하는 6주간의 현장 교육 프로그램을 시작했다. 이번 교육은 전통적인 석탄화력발전과 미래 재생에너지 현장을 교차 방문해 에너지 전환 현황을 체득하고 전문가로서의 직무 사명감을 고취하기 위해 마련되었다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T00:00:31.617Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330947",
+      "collectedAt": "2026-06-02T00:00:31.617Z"
+    },
+    {
+      "id": "c12766e6-293e-4894-a793-4e9ad4c50b1a",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "에너지정보문화재단, 에너지 이슈 검증 전문가 협의체 발족",
+      "titleOriginal": null,
+      "summary": "한국에너지정보문화재단이 에너지 대전환 및 전기요금 등 주요 현안의 정확한 정보 전달을 위해 각계 전문가로 구성된 '에너지 이슈 검증 전문가 협의체'를 발족했다. 재단은 이를 통해 상시 자문 및 모니터링 체계를 구축하고, 검증된 정보를 카드뉴스와 영상 등 다양한 콘텐츠로 제작해 국민 소통을 강화할 계획이다.",
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T00:00:51.434Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330933",
+      "collectedAt": "2026-06-02T00:00:51.434Z"
+    },
+    {
+      "id": "217242c7-f8c2-4abe-9127-0f0ab6fbf97a",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한수원, 에너지전환 조직 및 전문성 강화 조직개편",
+      "titleOriginal": null,
+      "summary": "한국수력원자력이 AI·재생에너지·양수발전 등 핵심 국정과제 전담 조직을 신설하고 현장 안전관리 체계를 강화하는 조직개편을 단행했다. 본사 인력 100여 명을 현장에 재배치하고 사업리스크관리실 및 리스크관리위원회를 신설해 책임경영과 객관적인 의사결정 역량을 높였다.",
+      "topics": [
+        "운영 최적화",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T00:01:11.660Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330930",
+      "collectedAt": "2026-06-02T00:01:11.660Z"
+    },
+    {
+      "id": "f86b560c-2945-4131-8566-736f81c67e98",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "BEP, 현대건설과 1.6GW 태양광PPA 공급 협력",
+      "titleOriginal": null,
+      "summary": "브라이트에너지파트너스(BEP)와 현대건설이 1.6GW 규모의 태양광 발전 전력을 공급하기 위한 업무협약을 체결했다. 양사는 이번 협력을 통해 연간 2000GWh의 재생에너지를 확보하고, 국내 기업들의 RE100 이행 수요에 대응할 계획이다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T00:01:31.882Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330919",
+      "collectedAt": "2026-06-02T00:01:31.882Z"
+    },
+    {
+      "id": "8e733847-5adf-411d-97be-62a40fdf1c3f",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "‘컵라면 용기’도 나프타로 재생…열분해 시범사업 확대",
+      "titleOriginal": null,
+      "summary": "기후에너지환경부와 한국순환자원유통지원센터가 기존에 소각되던 컵라면 용기 등 폴리스티렌 페이퍼(PSP)를 열분해하여 나프타로 재활용하는 시범사업을 전국 5개 권역 15개 업체로 확대한다. 이를 통해 플라스틱의 순환 경제를 구축하고 석유화학 공정의 기초 원료인 열분해유의 생산 기반을 강화할 계획이다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T00:02:11.760Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330923",
+      "collectedAt": "2026-06-02T00:02:11.760Z"
+    },
+    {
+      "id": "caf6bdf2-f1db-475b-ab04-50c6a94e7bac",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "남동발전, 5년來 최대 규모 신입사원 채용 128명 선발",
+      "titleOriginal": null,
+      "summary": "한국남동발전이 최근 5년 사이 최대 규모인 128명의 신입사원을 채용하고 진주 본사에서 입사식을 개최했다. 사무, 기계, 전기 등 전 직군에서 대졸 수준 평균 87대 1의 높은 경쟁률을 기록했으며, 직무능력 중심의 다단계 평가를 통해 우수 인재를 선발했다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T00:02:31.826Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330921",
+      "collectedAt": "2026-06-02T00:02:31.826Z"
+    },
+    {
+      "id": "ba55d2d9-a10b-4ba7-b31f-9410b8676c1d",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스누출·공급중단 가상…해양에너지, 32개 Zone별 비상훈련",
+      "titleOriginal": null,
+      "summary": "해양에너지가 광주광역시의 '2026년 집중안전점검'에 발맞춰 5월 2일부터 27일까지 전 임직원 대상 비상훈련을 실시했다. 공급권역을 35개 Zone으로 나누어 가스 누출 및 공급 중단 상황을 가정한 실전 대응 훈련을 통해 안전관리 역량을 강화했다.",
+      "topics": [
+        "운영 최적화",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T00:03:11.641Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330920",
+      "collectedAt": "2026-06-02T00:03:11.641Z"
+    },
+    {
+      "id": "dfbd2bb6-3428-4631-8f54-0260401c8223",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "SK이터닉스, 100MW 태양광 직접전력거래계약 체결",
+      "titleOriginal": null,
+      "summary": "SK이터닉스가 국내 RE100 이행기업과 25년간 5,023억원 규모의 100MW 태양광 직접전력거래계약(PPA)을 체결했습니다. 이번 계약을 포함해 SK이터닉스는 총 355MW, 약 1조 8,000억원 규모의 누적 PPA 계약을 달성하며 재생에너지 공급 사업자로 입지를 강화하고 있습니다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T00:03:51.504Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330916",
+      "collectedAt": "2026-06-02T00:03:51.504Z"
+    },
+    {
+      "id": "310f1476-6ea1-46c6-829a-1c242d111a41",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "LG엔솔, 북미 AI 데이터센터·전력망에 ESS 6GWh 공급",
+      "titleOriginal": null,
+      "summary": "LG에너지솔루션이 미국 DTE에너지와 16억 달러(약 2조 4000억원) 규모의 ESS 배터리 공급 계약을 체결했다. 북미 AI 데이터센터와 전력망 보강을 위해 향후 2년간 6GWh 규모의 ESS를 공급하며 현지 생산 거점을 활용한 시장 공략을 가속화할 계획이다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T00:04:31.509Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330867",
+      "collectedAt": "2026-06-02T00:04:31.509Z"
+    },
+    {
+      "id": "92acbbec-d553-4894-b32f-715a62cd5167",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "환경 공공기관도 에너지전환 동참…RE100 이행 선언",
+      "titleOriginal": null,
+      "summary": "한국환경공단이 2030년까지 사용 전력의 100%를 재생에너지로 전환하는 'K-eco 2030 RE100' 발대식을 열고 탄소중립 실행체계를 본격 가동했다. 공단은 자가 발전설비 확충, 전력구매계약(PPA), 녹색프리미엄 등 다양한 이행 수단을 통해 재생에너지 전환 목표를 달성할 계획이다.",
+      "topics": [
+        "ESG·탄소중립",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T00:04:51.504Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330956",
+      "collectedAt": "2026-06-02T00:04:51.504Z"
+    },
+    {
+      "id": "6ad9c80e-5d29-42c1-80ef-dbaac925409e",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스기술공사, 대대적 조직개편…본업 중심 경영내실화",
+      "titleOriginal": null,
+      "summary": "한국가스기술공사가 본업인 LNG 등 에너지 설비 유지보수 역량을 강화하고 안전관리 시스템을 고도화하기 위해 기존 3본부 체제를 2본부 체제로 축소하는 대대적인 조직개편을 단행했다. 이번 개편은 임종석 사장의 경영방침에 따라 기술안전사업본부로의 사업 일원화 및 경영전략본부 축소를 통한 경영 내실화와 현장 안전사고 제로화에 초점을 맞췄다.",
+      "topics": [
+        "운영 최적화",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T00:05:31.529Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330953",
+      "collectedAt": "2026-06-02T00:05:31.529Z"
+    },
+    {
+      "id": "f401565f-28f3-4474-8a4b-c25252fca633",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "중동사태 여진…6월에도 LPG가격·도시가스 도매요금 인상",
+      "titleOriginal": null,
+      "summary": "중동 사태에 따른 국제 에너지 가격 상승과 환율 변동으로 인해 6월 LPG 가격이 kg당 30원 인상되고, 도시가스 도매요금은 MJ당 0.9654원 인상되었다. 정부의 물가 안정 정책으로 인해 민수용 요금은 동결되었으나, 원가 상승분을 완전히 반영하지 못한 미반영분이 누적되어 향후 가격 결정에 부담으로 작용할 전망이다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T00:05:52.814Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330952",
+      "collectedAt": "2026-06-02T00:05:52.814Z"
+    },
+    {
+      "id": "ab662349-5e2b-4da7-9b78-10491db32702",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "韓·中 녹색협력, 에너지·자원순환 분야로 확대한다",
+      "titleOriginal": null,
+      "summary": "기후에너지환경부는 '청천계획'의 일환으로 국내 14개 녹색기업과 함께 중국 현지 수출박람회에 참여하여 에너지 및 자원순환 분야의 협력을 강화한다. 이번 파견단은 수소 생산·저장, 폐배터리 재활용 등 유망 녹색기술의 중국 시장 진출과 실질적인 수출 계약 성사를 지원하는 데 주력한다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T00:06:11.612Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330957",
+      "collectedAt": "2026-06-02T00:06:11.612Z"
+    },
+    {
+      "id": "0de36c61-b29c-4d50-b1f7-dffeee6ca2b3",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "임종석 가스기술공사 신임사장, 현장 경영행보 박차",
+      "titleOriginal": null,
+      "summary": "임종석 한국가스기술공사 신임 사장이 강원지사와 삼척기지지사를 방문하여 천연가스 설비 운영 현황을 점검하고 현장 중심의 안전 경영을 강조했다. 이번 행보를 통해 무재해·무사고 사업장 실현을 위한 선제적 안전관리와 조직 문화 혁신, 신입 직원 정주 여건 개선 등을 주문했다.",
+      "topics": [
+        "운영 최적화",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T00:08:11.819Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330951",
+      "collectedAt": "2026-06-02T00:08:11.819Z"
+    }
+  ]
+}
