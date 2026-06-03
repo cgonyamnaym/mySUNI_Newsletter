@@ -1,7 +1,7 @@
 {
   "date": "2026-06-02",
-  "generatedAt": "2026-06-02T00:31:32.825Z",
-  "articleCount": 16,
+  "generatedAt": "2026-06-03T00:43:03.035Z",
+  "articleCount": 126,
   "articles": [
     {
       "id": "9662aa0d-1157-4d6d-9e1f-ffe648935720",
@@ -306,6 +306,1993 @@
       "publishedAt": "2026-06-02T00:08:11.819Z",
       "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330951",
       "collectedAt": "2026-06-02T00:08:11.819Z"
+    },
+    {
+      "id": "46f49a35-6d69-4c5b-a9d1-da4151b69484",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "옥상 태양광, 남아프리카 공화국 1년간 전력난 없이 보내도록 지원",
+      "titleOriginal": "Rooftop PV helps South Africa pass one year without loadshedding",
+      "summary": "남아프리카 공화국의 전력 공기업 Eskom은 옥상 태양광 발전의 확산, 수요 감소, 그리고 요금 인상 등의 요인에 힘입어 1년 이상 전력난(loadshedding) 없이 안정적인 전력 공급을 유지할 수 있었습니다. 이는 남아프리카 공화국이 장기간의 전력 위기를 극복하고 전력 공급 안정성을 강화하는 데 중요한 전환점이 되었습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T14:08:08.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/02/rooftop-pv-helps-south-africa-pass-one-year-without-loadshedding/",
+      "collectedAt": "2026-06-02T23:05:19.874Z"
+    },
+    {
+      "id": "11086b32-64b8-43b1-85ac-9a2a8b4fcf58",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "프랑스 태양광 기가팩토리, 신규 투자자 유치",
+      "titleOriginal": "Planned solar gigafactory in France welcomes new investor",
+      "summary": "에코랩(Ecolab)이 프랑스 내 두 개의 인프라 프로젝트에 1억 유로(1억 1,650만 달러)를 투자한다고 발표했다. 이 투자에는 태양광 전지 및 모듈 생산을 위한 홀로솔리스(HoloSolis) 기가팩토리 건설 프로젝트가 포함된다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T11:54:05.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/02/la-future-gigafactory-photovoltaique-holosolis-accueille-un-nouvel-investisseur/",
+      "collectedAt": "2026-06-02T23:05:25.681Z"
+    },
+    {
+      "id": "d55a7123-b0e8-4532-960c-a94659933034",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "아르헨티나 축구 클럽, 120kW 태양광 시스템 가동 시작",
+      "titleOriginal": "Argentine football club inaugurates 120 kW solar system",
+      "summary": "부에노스아이레스에 위치한 아르헨티나 축구 클럽 아틀레티코 벨레스 사르스필드가 경기장 옥상에 120kW 규모의 태양광 시스템을 설치하고 가동을 시작했다. 이 시스템은 구단의 연간 전력 수요 중 최대 20%를 충당할 것으로 예상된다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T11:11:19.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/02/el-club-argentino-velez-sarsfield-inaugura-una-planta-solar-de-120-kwp-en-su-estadio-de-futbol-y-preve-cubrir-hasta-el-20-de-su-demanda-electrica/",
+      "collectedAt": "2026-06-02T23:05:34.974Z"
+    },
+    {
+      "id": "3b82dfda-8466-49c5-9740-ed0288ba1765",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Nextpower, Gamechange에 특허 소송 제기",
+      "titleOriginal": "Nextpower files patent lawsuit against Gamechange",
+      "summary": "Nextpower는 미국 델라웨어 지방법원에 Gamechange Energy를 상대로 특허 소송을 제기했습니다. Nextpower는 Gamechange Energy가 자사의 트래커 기술 및 소프트웨어 관련 특허 3건을 침해했다고 주장하며, Gamechange Energy는 이를 부인하고 전면적인 방어를 계획하고 있습니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T10:08:38.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/02/nextpower-files-patent-lawsuit-against-gamechange/",
+      "collectedAt": "2026-06-02T23:05:43.528Z"
+    },
+    {
+      "id": "eddbf43c-84fd-41c9-87f0-c80b3a4980d9",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "필리핀, 태양광 및 배터리 제품 인증 규정 강화 제안",
+      "titleOriginal": "Philippines proposes stricter PV, battery product certification rules",
+      "summary": "필리핀이 태양광(PV) 및 배터리 제품에 대한 더욱 엄격한 인증 규정 도입을 제안했습니다. 이 제안된 규정은 현지 제조품이든 수입품이든 모든 태양광 및 PV 부품의 제품 안전 및 품질 표준에 적용됩니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T10:00:51.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/02/philippines-proposes-stricter-solar-and-battery-product-certification-rules/",
+      "collectedAt": "2026-06-02T23:05:55.587Z"
+    },
+    {
+      "id": "9c272719-9910-4b97-bc41-bc631e9b0024",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "슬로베니아, 전력 공유 제도 도입 예정",
+      "titleOriginal": "Slovenia to introduce electricity sharing",
+      "summary": "슬로베니아는 7월 1일부터 전력 공유 제도를 시행하며, 현재 제도 등록이 가능하다. 이 제도를 통해 태양광 발전 소유자는 초과 전력을 국내 어디든 지정된 수신자에게 상호 합의된 가격으로 전송할 수 있다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T09:17:15.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/02/slovenia-to-introduce-electricity-sharing/",
+      "collectedAt": "2026-06-02T23:06:06.620Z"
+    },
+    {
+      "id": "a2722b31-339b-45bd-9b52-7b554e3628d3",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "통웨이, 인터솔라 유럽 2026에서 TNC 3.0 시리즈 선보인다",
+      "titleOriginal": "Tongwei to showcase TNC 3.0 series at Intersolar Europe 2026",
+      "summary": "통웨이는 차세대 주력 태양광 모델인 TNC 3.0 시리즈를 인터솔라 유럽 2026에서 선보일 예정이다. 이와 함께 다양한 신제품 및 솔루션도 함께 공개할 계획이다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T09:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/02/tongwei-to-showcase-tnc-3-0-series-at-intersolar-europe-2026/",
+      "collectedAt": "2026-06-02T23:06:15.485Z"
+    },
+    {
+      "id": "d52c2869-ccb5-485d-861d-1d63b9c7591a",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "독일 스타트업, 압축기 없는 전기열량식 히트펌프 기술 발전시켜",
+      "titleOriginal": "German startup advancing compressor-free electrocaloric heat pump technology",
+      "summary": "독일 스타트업 Qurie GmbH는 기존 증기 압축 사이클을 고체 재료로 대체하는 압축기 없는 전기열량식 히트펌프를 개발했습니다. 이 기술은 이론적 효율 70% 이상을 달성하고 에너지 소비를 최대 30%까지 절감할 잠재력을 가지고 있습니다. 특허 받은 히트파이프 기반 설계로 복잡한 기계 없이도 최대 20Hz로 작동하며, 10kW 미만의 소형 냉각 애플리케이션을 목표로 합니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T08:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/02/german-startup-advancing-compressor-free-electrocaloric-heat-pump-technology/",
+      "collectedAt": "2026-06-02T23:06:27.544Z"
+    },
+    {
+      "id": "bd29c08b-881a-4de2-a088-5cd028af652a",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "마스텍, 새로운 플러그인 배터리 시리즈 공개",
+      "titleOriginal": "Marstek debuts new plug-in battery series",
+      "summary": "마스텍 에너지가 주거용 플러그인 배터리 시리즈인 '비너스'를 출시했습니다. 이 시리즈는 2 kWh Venus E Mini, 5 kWh Venus E Gen 4.0, 10 kWh Venus E Max로 구성됩니다. 해당 배터리 제품군은 발코니 태양광 저장부터 주택 전체 에너지 관리 및 백업 전력 공급에 이르는 다양한 용도로 활용될 수 있습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T07:10:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/02/marstek-debuts-new-plug-in-battery-series/",
+      "collectedAt": "2026-06-02T23:06:39.747Z"
+    },
+    {
+      "id": "883328da-517e-45ce-a2ef-1ee12c693c53",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "재난 지역 차량 통합형 태양광 발전의 필요성",
+      "titleOriginal": "The case for vehicle-integrated photovoltaics in disaster zones",
+      "summary": "IEA PVPS 보고서는 태양광 전기차가 단순한 운송 수단을 넘어 분산형, 이동형, 무연료 비상 에너지 네트워크로서 재난 대비를 재정의할 수 있다고 강조합니다. 이 보고서는 차량 통합형 태양광 발전(VIPV)이 재난 지역에서 핵심적인 역할을 할 수 있음을 강력하게 주장합니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T07:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/02/the-case-for-vehicle-integrated-phovoltaics-in-disaster-zones/",
+      "collectedAt": "2026-06-02T23:06:44.589Z"
+    },
+    {
+      "id": "08f86070-5850-46aa-9a39-d2044e3a510f",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "쉬다바오 건설 현장에서 주요 이정표 달성",
+      "titleOriginal": "Milestones reached at Xudabao construction site",
+      "summary": "중국 랴오닝성에 위치한 쉬다바오(Xudabao) 원자력 발전소 건설 현장에서 주요 공정 이정표가 달성되었습니다. 3호기는 원자로 가동 전 고온 기능 테스트를 완료했으며, 2호기는 원자로 압력 용기 설치를 마쳤습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T14:09:44.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/milestones-reached-at-xudabao-construction-site",
+      "collectedAt": "2026-06-02T23:07:12.641Z"
+    },
+    {
+      "id": "be934fe5-5990-4890-9bf8-6008da460645",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "뉴욕, 신규 원자력 발전소 건설 제안 모집 공고",
+      "titleOriginal": "New York issues solicitations for nuclear new-build",
+      "summary": "뉴욕 전력청은 뉴욕주 북부에 최소 1GW 규모의 첨단 원자력 에너지를 개발하기 위한 원자력 개발사 및 공급 파트너 모집 공고를 발표했습니다. 또한, 원자력 인력 양성 기금으로 4천만 달러를 지원할 훈련 제공자들을 초청했습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T14:38:28.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/new-york-issues-solicitations-for-nuclear-new-build",
+      "collectedAt": "2026-06-02T23:07:16.752Z"
+    },
+    {
+      "id": "b6ef48a4-52dd-42c7-9f08-1301d0c4bc83",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "영국, 싱가포르와 원자력 규제 협력",
+      "titleOriginal": "UK to cooperate with Singapore on nuclear regulation",
+      "summary": "영국 원자력 규제청(Office for Nuclear Regulation)은 싱가포르 국가환경청(National Environment Agency)과 민간 원자력 에너지 규제 협력을 공식화하는 양해각서(MOU)를 체결했다. 이번 협력은 양국 간의 원자력 안전 및 규제 분야 전문성 강화를 목표로 한다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T15:03:42.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/uk-to-cooperate-with-singapore-on-nuclear-regulation",
+      "collectedAt": "2026-06-02T23:07:30.054Z"
+    },
+    {
+      "id": "6ca11466-8335-4d4d-9c78-3667ce4584ea",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "우렌코, 미국 내 새로운 농축 플랜트 증설 예정",
+      "titleOriginal": "Urenco to build new US enrichment plant capacity",
+      "summary": "Urenco는 Urenco USA의 National Enrichment Facility에 수십억 달러를 투자하여 농축 용량을 50% 가까이 증설할 계획이라고 발표했습니다. 이 프로젝트는 2029년에 착공하여 2032년부터 저농축 우라늄을 생산할 예정입니다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-02T16:50:17.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/urenco-usa-to-build-new-us-enrichment-plant",
+      "collectedAt": "2026-06-02T23:07:37.291Z"
+    },
+    {
+      "id": "d014892e-04f2-462b-a92f-c64d50a1e2cf",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "후쿠시마 제1 원전 2호기 연료 이송 작업 시작",
+      "titleOriginal": "Fuel transfer work begins at Fukushima Daiichi unit 2",
+      "summary": "도쿄전력은 일본 후쿠시마 제1 원전 2호기에서 사용후 핵연료 저장 수조의 연료집합체 제거 작업을 시작했다고 발표했다. 이 작업은 손상된 원전의 안전 관리 및 폐로 과정에서 중요한 단계이다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T11:44:23.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/fuel-transfer-work-begins-at-fukushima-daiichi-unit-2",
+      "collectedAt": "2026-06-02T23:07:47.280Z"
+    },
+    {
+      "id": "2f400ab5-d8ae-4e59-b7e8-f2e9561d778f",
+      "source": "Carbon Brief",
+      "sourceId": "carbon-brief",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Q&A: 전 세계 '이산화탄소 제거'의 현재 상태",
+      "titleOriginal": "Q&A: The current state of ‘carbon dioxide removal’ around the world",
+      "summary": "이 기사는 전 세계적인 이산화탄소 제거(CDR) 기술의 현재 상태에 대한 질의응답을 다룹니다. 내용에 따르면, 기후 목표 달성을 위해 이산화탄소 제거 기술이 현재보다 훨씬 더 빠른 속도로 배포되어야 할 필요성이 강조됩니다. (제공된 본문 내용이 매우 제한적이므로, 구체적인 수치나 기관명은 포함되지 않았습니다.)",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T13:31:33.000Z",
+      "originalUrl": "https://www.carbonbrief.org/qa-the-current-state-of-carbon-dioxide-removal-around-the-world/",
+      "collectedAt": "2026-06-02T23:08:01.541Z"
+    },
+    {
+      "id": "e0cd64a0-d573-4e7c-8235-86a8dc643426",
+      "source": "Power Magazine",
+      "sourceId": "power-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "트럼프의 풍력 에너지 반대 캠페인과 석유 및 가스, LNG, 원자력 프로젝트 추진 대비",
+      "titleOriginal": "Contrasting Trump’s Campaign Against Wind Energy With Promotion of Oil and Gas, LNG, and Nuclear Projects",
+      "summary": "트럼프 행정부는 미국 내 풍력 에너지 개발에 대한 전례 없는 공격을 가하며, 동시에 석유 및 가스, 액화천연가스(LNG) 생산, 마이크로원자로 핵 프로젝트를 적극적으로 추진했습니다. 이 기간 동안 165개의 풍력 프로젝트가 차단되었고, 해상 풍력 회사들이 사업을 포기하도록 설득하는 데 약 20억 달러의 납세자 자금이 사용되었습니다. 이는 트럼프 행정부의 상반된 에너지 정책 기조를 명확히 보여줍니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T20:32:53.000Z",
+      "originalUrl": "https://www.powermag.com/contrasting-trumps-campaign-against-wind-energy-with-promotion-of-oil-and-gas-lng-and-nuclear-projects/",
+      "collectedAt": "2026-06-02T23:08:24.912Z"
+    },
+    {
+      "id": "008101ae-b019-4645-9635-108b68b8871e",
+      "source": "Power Magazine",
+      "sourceId": "power-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "극한 기상 조건 하의 태양광 발전 프로젝트 설계 및 건설 계획",
+      "titleOriginal": "Design and Construction Planning of Solar Power Projects Under Extreme Weather Conditions",
+      "summary": "세계기상기구(WMO)가 발표한 2024년 세계 기후 보고서에 따르면, 지구 온난화로 인해 극한 기상 현상의 빈도와 강도가 증가하고 있습니다. 특히 열대성 저기압과 극심한 강우가 증가하는 추세이며, 이는 태양광 발전 프로젝트의 설계 및 건설 계획에 중요한 고려 사항이 됩니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T04:20:06.000Z",
+      "originalUrl": "https://www.powermag.com/design-and-construction-planning-of-solar-power-projects-under-extreme-weather-conditions/",
+      "collectedAt": "2026-06-02T23:08:29.425Z"
+    },
+    {
+      "id": "4f3b963a-456c-47e1-b36c-e14160419b86",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "분당발전본부, 전 직원 윤리의식 확산",
+      "titleOriginal": null,
+      "summary": "한국남동발전 분당발전본부가 기업윤리의 날을 맞아 전 직원을 대상으로 청렴 문화 확산을 위한 '윤리의 날' 행사를 개최했다. 이번 행사는 8회째를 맞이했으며, 본부장 청렴 메시지 전달 및 협력사 대상 윤리인권 실천 프로그램 등을 통해 윤리경영 공감대를 형성했다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T19:46:12.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368713",
+      "collectedAt": "2026-06-02T23:11:23.873Z"
+    },
+    {
+      "id": "43d7bc4e-7c63-4f77-a786-d13ce7bc9e79",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "원광전력, 노후 공장 활용한 태양광 기술개발 나선다",
+      "titleOriginal": null,
+      "summary": "원광전력이 한국건설기술연구원이 주관하는 ‘노후 공장 그린리모델링을 위한 저비용·경량화 프리패브 BIPV 지붕 유닛 시스템 개발’ 과제에 참여한다. 이를 통해 기존 노후 공장의 구조적 한계를 극복하고, 태양광 설비를 경제적이고 효율적으로 설치할 수 있는 기술을 확보할 계획이다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T19:35:19.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368709",
+      "collectedAt": "2026-06-02T23:12:08.678Z"
+    },
+    {
+      "id": "fbd973f5-0f0a-4ed0-b412-befdeee88e0e",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "ESCO 업계 평균 부채비율 144.9% 기록",
+      "titleOriginal": null,
+      "summary": "ESCO 업계의 평균 부채비율은 144.968%, 매출액순이익률은 8.148%로 집계되었다. 이 수치들은 '에너지절약전문기업 관리규정'에 따라 2026년 ESCO 투자사업 적격심사 시 기업의 재무 건전성 및 경영 상태를 평가하는 기준으로 활용될 예정이다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-02T19:33:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368708",
+      "collectedAt": "2026-06-02T23:12:23.923Z"
+    },
+    {
+      "id": "369d40cb-3313-48a8-a959-03375fbb1e4c",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "송재호 도시가스협회장 “지역 독점 안주할 때 아니다”",
+      "titleOriginal": null,
+      "summary": "송재호 한국도시가스협회장은 변화하는 에너지 시장 속 업계 생존을 위해 '아웃 오브 박스' 전략을 선언했다. 정부의 히트펌프 보급 정책에 대응해 기존 2천만 가구의 도시가스 인프라와 히트펌프를 결합한 하이브리드 난방 체계 구축을 대안으로 제시했다.",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-06-02T16:53:59.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368704",
+      "collectedAt": "2026-06-02T23:12:53.761Z"
+    },
+    {
+      "id": "649cadce-846d-4cc5-8091-290ae17eb10e",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(KECA 네트워크)서울중부회, ‘2026년도 임･위원 워크숍’ 개최",
+      "titleOriginal": null,
+      "summary": "한국전기공사협회 서울중부회는 박임우 회장을 포함한 임원 및 위원 32명이 참석한 가운데 2026년도 임·위원 워크숍을 개최했다. 참가자들은 중앙회 사옥 내 전기안전 AI센터 및 교육시설을 견학하며 시회 발전 방안과 전기공사 업계의 미래 전략을 논의했다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T16:50:46.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368706",
+      "collectedAt": "2026-06-02T23:13:14.054Z"
+    },
+    {
+      "id": "732f102b-d287-4f77-b396-abb9c16826ff",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "브이피피랩, 제주서 재생에너지 입찰제도 설명회 개최",
+      "titleOriginal": null,
+      "summary": "재생에너지 IT기업 브이피피랩이 지난 5월 30일 제주 지역 태양광 발전사업자들을 대상으로 '재생에너지 입찰제도 제주 설명회'를 개최했다. 이 설명회는 입찰제도 이해를 높이고 실제 운영 데이터를 기반으로 입찰시장 참여 시 수익성 개선 효과와 운영 사례를 공유하는 데 목적을 두었다. 제주 지역 발전사업자 및 관련 협·단체 관계자들이 참석하여 재생에너지 시장 참여 활성화 방안을 논의했다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T16:00:06.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368702",
+      "collectedAt": "2026-06-02T23:14:14.084Z"
+    },
+    {
+      "id": "37e1e8db-5953-412d-903b-6c5afb268d00",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "기후부, 농업용 히트펌프·태양광 등 배출권거래제 외부사업 인정",
+      "titleOriginal": null,
+      "summary": "기후에너지환경부가 농업용 히트펌프, 건물 태양광 등 20건의 온실가스 감축 사업을 배출권거래제 외부사업으로 신규 승인했다. 이를 통해 연간 약 7만 3433t의 온실가스 감축이 기대되며, 기존 사업을 포함해 총 32만 9306t 규모의 감축량을 인증했다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-06-02T16:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368697",
+      "collectedAt": "2026-06-02T23:14:30.471Z"
+    },
+    {
+      "id": "1bf6f1a6-3231-488f-8b90-71408297dcd2",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(전기공사 뱅가드)장호운 서울동부회장, ‘탕평 인사’로 화합 기틀 마련…“분리발주 사수로 회원사 생존권 지킬 것”",
+      "titleOriginal": null,
+      "summary": "장호운 서울동부회장은 취임 후 탕평 인사를 통해 조직의 화합을 이끌어내며 빠른 안정을 도모했다. 향후 전기공사업계의 핵심 현안인 '분리발주 사수'를 통해 회원사의 생존권을 보호하고 협회 혁신을 추진하겠다는 의지를 밝혔다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T15:24:31.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367911",
+      "collectedAt": "2026-06-02T23:14:43.916Z"
+    },
+    {
+      "id": "035e5cc1-9039-4cb3-9e81-551b79dbe12b",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(전기공사 뱅가드) 박임우 서울중부회장 “하나 되는 중부회…차세대 경영자 육성으로 100년 미래 설계”",
+      "titleOriginal": null,
+      "summary": "박임우 서울중부회장은 회원사와의 소통 강화와 현장 애로사항 해결을 최우선 과제로 삼아 운영·윤리·대외협력 위원회를 구성했다. 특히 중앙회와 협력해 전기공사 업계의 경영 효율성을 저해하는 과도한 규제와 복잡한 서류 작업을 간소화하는 정책 추진에 집중하고 있다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T15:22:36.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367912",
+      "collectedAt": "2026-06-02T23:15:04.056Z"
+    },
+    {
+      "id": "c96fe2ec-2223-4ca1-8e06-3aacba5b9020",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(전기공사 뱅가드)김동율 서울서부회장 “회원 지갑 채우는 ‘세일즈 회장’…일거리 창출 위해 현장으로 뛰겠다”",
+      "titleOriginal": null,
+      "summary": "김동율 한국전기공사협회 서울서부회장은 취임 후 관내 일거리 부족 문제를 해결하기 위해 한전, 안전공사, 관내 구청 등 유관기관과 협력하며 회원사의 공사 수주 기회 확대를 추진하고 있다. 지역 내 수의계약 공사의 지역 업체 수주를 목표로 현장 소통을 강화하고 원로자문위원회 및 여성 위원회 운영을 통해 조직 화합을 도모하고 있다.",
+      "topics": [
+        "시장·가격 동향",
+        "전력 인프라"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-02T15:20:19.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367910",
+      "collectedAt": "2026-06-02T23:15:23.987Z"
+    },
+    {
+      "id": "cf876979-166a-4a1b-9365-39fdd44c7be6",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(전기공사 뱅가드)백정선 서울남부회장 “디지털 혁신·남부 포럼으로 ‘회원 주인’ 남부회 열 것”",
+      "titleOriginal": null,
+      "summary": "백정선 서울남부회장은 회원 권익 보호와 화합을 위해 디지털 기반의 '회원관리시스템'을 올해 안에 구축하고 젊은 인재 중심의 조직 혁신을 추진한다. 이를 통해 투명한 운영 구조를 확립하고 미래 전기공사 업계를 이끌 리더를 양성하겠다는 비전을 제시했다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T15:18:26.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367908",
+      "collectedAt": "2026-06-02T23:15:54.396Z"
+    },
+    {
+      "id": "820ccb65-02de-4ba9-ab64-d9c3e3977961",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(전기공사 뱅가드) 추영호 부산시회장 “회원과 함께 움직이는 협회…현장 애로사항 끝까지 해결할 것”",
+      "titleOriginal": null,
+      "summary": "추영호 한국전기공사협회 부산광역시회장은 취임 100일을 맞아 협회를 '실천 중심 조직'으로 재편해 현장 애로사항을 해결하겠다는 의지를 밝혔다. SOC 투자 축소 및 유지·보수 중심의 시장 변화 속에서 지역 전기공사업계의 경쟁력 확보와 진입 장벽 완화를 위한 실질적 대책을 추진할 계획이다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-02T15:16:31.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367943",
+      "collectedAt": "2026-06-02T23:16:14.345Z"
+    },
+    {
+      "id": "c68e1308-a172-47a6-95b6-d8abc4738ba3",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(전기공사 뱅가드) 이병철 대구시회장 “820여 회원사 하나로 단합하는 대구시회 만들겠다”",
+      "titleOriginal": null,
+      "summary": "이병철 한국전기공사협회 대구시회장은 820여 회원사의 화합과 투명한 협회 운영을 강조하며 업계 발전을 도모하겠다고 밝혔다. 특히 분리발주 사수, 인력 수급, 일거리 창출 등 대구 지역의 현안 해결을 위해 유관기관 협력 및 전담 TF 구성을 추진하고 있다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-02T15:13:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368453",
+      "collectedAt": "2026-06-02T23:16:34.635Z"
+    },
+    {
+      "id": "4ce07593-363e-4afa-b20c-b983b88bb450",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(전기공사 뱅가드) 홍종경 인천시회장 “회원 중심 운영으로 인천시회 미래 함께 열어갈 것”",
+      "titleOriginal": null,
+      "summary": "홍종경 제17대 한국전기공사협회 인천시회 회장이 취임하며 전기공사 분리발주 정착과 불법 시공 근절을 통한 시장 질서 확립을 강조했다. 지자체 및 유관기관과의 협력을 강화해 불합리한 입찰 환경을 개선하고, 성실한 회원사 보호를 위한 책임 있는 역할을 수행할 계획이다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T15:11:45.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367721",
+      "collectedAt": "2026-06-02T23:16:54.475Z"
+    },
+    {
+      "id": "ac3ed73e-9601-4f16-8453-7e777312f379",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(전기공사 뱅가드) 박병무 광주시회장 “도회를 지역 전기공사업 성장 거점 조직으로 육성”",
+      "titleOriginal": null,
+      "summary": "한국전기공사협회 광주시회 제14대 회장으로 취임한 박병무 회장이 회원사 경쟁력 강화와 실질적인 지원 조직으로의 도약을 선언했다. 공사 물량 감소 및 자재·노무비 상승 등 현장 위기 극복을 위해 제도 개선과 맞춤형 정책을 적극 추진할 계획이다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T15:10:04.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367811",
+      "collectedAt": "2026-06-02T23:17:14.436Z"
+    },
+    {
+      "id": "d4e78d8e-0691-4f4f-be4d-4513e218b173",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(전기공사 뱅가드) 이상우 대전시회장 “신구 조화로 조직 경쟁력 강화…더욱 단단한 시회로 발전”",
+      "titleOriginal": null,
+      "summary": "이상우 한국전기공사협회 대전광역시회장은 세대교체 흐름에 맞춰 젊은 세대와 기존 회원 간의 신구 조화를 도모하고, 이를 통해 전기공사업계의 조직 경쟁력을 강화하겠다는 포부를 밝혔다. 인구 감소 등 지역 내 구조적 어려움을 극복하기 위해 젊은 인력의 협회 활동 참여를 확대하고 새로운 먹거리 발굴 및 기술 변화 대응에 주력할 방침이다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T15:08:32.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367809",
+      "collectedAt": "2026-06-02T23:17:34.358Z"
+    },
+    {
+      "id": "4b203156-9fd8-48e4-881b-36e2ebea083b",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(전기공사 뱅가드) 김진모 울산시회장 “현장형 리더십으로…회원･현장･실행 중심의 시회 만들겠다”",
+      "titleOriginal": null,
+      "summary": "김진모 한국전기공사협회 울산광역시회장은 공사 물량 감소와 인력난 등 업계의 위기를 극복하기 위해 회원사를 직접 방문하는 '현장 밀착형 리더십'을 강조하고 있다. 특히 공사대금 미지급 문제 해결을 최우선 과제로 삼아 현장의 목소리를 협회 운영과 정책에 적극 반영하겠다는 의지를 밝혔다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T15:07:21.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367945",
+      "collectedAt": "2026-06-02T23:17:54.472Z"
+    },
+    {
+      "id": "ede3b078-d07b-4939-8db2-fe34fe75f6a8",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(전기공사 뱅가드) 김만석 경기도회장 “회원과 함께 전진하는 ‘회원이 행복한 도회’ 실현”",
+      "titleOriginal": null,
+      "summary": "김만석 한국전기공사협회 경기도회장이 취임하며 회원 간 화합과 소통을 통한 '회원이 행복한 도회' 구현을 강조했다. 또한 전기공사업계의 권익 보호와 위상 정립을 위해 중앙회와 지역 간의 긴밀한 협업 및 법·제도적 공조 체계를 강화하겠다는 의지를 밝혔다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T15:04:31.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367464",
+      "collectedAt": "2026-06-02T23:18:14.478Z"
+    },
+    {
+      "id": "dc2ac126-abc8-487f-b660-15ea0131768f",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(전기공사 뱅가드) 유영진 경기도중부회장 “젊고, 생동감 있는 도회 구현…분열된 생각･마음 봉합해 갈 것”",
+      "titleOriginal": null,
+      "summary": "유영진 한국전기공사협회 경기도 중부회장이 취임하며 소통형 리더십을 바탕으로 1,800여 회원사의 화합과 동반성장을 도모하겠다고 밝혔다. 현장의 불합리한 제도를 개선하고 회원들이 안전하게 일할 수 있는 환경을 조성하는 데 역량을 집중할 계획이다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T15:03:23.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367454",
+      "collectedAt": "2026-06-02T23:18:34.428Z"
+    },
+    {
+      "id": "f13415c3-f072-4aa8-b7bd-b64e90cf3a7c",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(전기공사 뱅가드) 명영준 경기도북부회장 “모든 회원 참여･성장하는 도회로의 변화 ‘첫발’\"",
+      "titleOriginal": null,
+      "summary": "명영준 한국전기공사협회 경기도북부회장이 취임하며 회원 중심의 도약과 실질적인 혜택 제공을 위한 조직 변화를 선언했다. 세대 및 성별을 아우르는 소통과 화합을 바탕으로, 공정하고 투명한 운영을 통해 중앙회 정책과 유익한 정보를 회원사들에게 적극 공유할 계획이다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T15:00:19.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368381",
+      "collectedAt": "2026-06-02T23:18:54.337Z"
+    },
+    {
+      "id": "44978e81-bd5e-4ab9-b8f5-107d327b3703",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(전기공사 뱅가드)한정훈 강원도회장 “말보다 행동으로, 결과로 증명하는 도회장 되겠다”",
+      "titleOriginal": null,
+      "summary": "한정훈 한국전기공사협회 강원특별자치도회 회장은 강원도 내 전기공사 물량 감소 위기를 극복하기 위해 10억 원 이상 공사의 지역 수주 확대를 추진하겠다고 밝혔다. 이를 통해 회원사의 경영 환경을 개선하고 협회 신사옥 건립 등 주요 현안을 완수하겠다는 의지를 표명했다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-02T14:58:35.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368187",
+      "collectedAt": "2026-06-02T23:19:14.551Z"
+    },
+    {
+      "id": "db06e702-8585-4bc6-ac01-55a5eaf67bfa",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(전기공사 뱅가드) 김완영 세종충남도회장 “실행 중심 조직 운영 ‘시동’…회원이 주인인 도회가 목표”",
+      "titleOriginal": null,
+      "summary": "김완영 한국전기공사협회 세종충남도회장이 회원사의 경영 실무 지원을 강화하는 '실행 중심 회무'를 목표로 내걸었다. 1400여 개 회원사를 대상으로 법률·노무 지원 및 입찰부터 준공까지의 전 과정을 밀착 지원하여 현장 중심의 변화를 이끌겠다는 방침이다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-02T14:56:32.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367808",
+      "collectedAt": "2026-06-02T23:19:34.444Z"
+    },
+    {
+      "id": "49f43955-bb09-48ad-8661-514c22f6157d",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(전기공사 뱅가드) 최병인 전북도회장 “신재생E 메카 ‘전북’…투자모델 발굴 등 지속가능한 성장 동력 찾을 것”",
+      "titleOriginal": null,
+      "summary": "최병인 한국전기공사협회 전북특별자치도회장은 새만금을 중심으로 급성장하는 전북의 신재생에너지 시장을 단순 시공을 넘어 새로운 수익 모델과 투자처로 활용해야 한다고 강조했다. 특히 태양광, 풍력, ESS 등 관련 설비 확장에 대응해 전기공사업계가 지속 가능한 성장 동력을 확보하기 위한 장기적인 방향성을 마련해야 한다고 역설했다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T14:48:42.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367802",
+      "collectedAt": "2026-06-02T23:20:14.555Z"
+    },
+    {
+      "id": "4b9ad38e-56ca-4957-ad48-4f71ae833f4b",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(전기공사 뱅가드)조성모 전남도회장 “소통·책임·실행으로 회원이 체감하는 실질적 변화 이끌겠다”",
+      "titleOriginal": null,
+      "summary": "한국전기공사협회 전남도회 제29대 회장으로 취임한 조성모 회장은 1,620여 개 회원사의 권익 보호와 실질적인 성과 창출을 다짐했다. 특히 전남 지역의 신재생에너지 산업 집적지와 주요 전력 공기업 인프라를 활용하여 전기공사 물량 확보 및 시장 확대를 추진할 계획이다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T14:46:26.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367810",
+      "collectedAt": "2026-06-02T23:20:34.527Z"
+    },
+    {
+      "id": "46cc6f13-39d7-47a9-8116-fe0515ac755e",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(전기공사 뱅가드) 전재용 경북도회장 “화합·소통으로 회원이 주인 되는 강한 경북도회 만들 것”",
+      "titleOriginal": null,
+      "summary": "전재용 한국전기공사협회 경상북도회장은 현장 소통을 강화하고 공정하고 투명한 회무 체계를 구축해 회원사의 권익을 증진하겠다고 밝혔다. 특히 원자재 가격 상승과 인력난 해소를 위해 적정 공사비 확보와 분리발주 원칙 준수 등 실질적인 정책 지원에 집중할 계획이다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T14:44:58.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367977",
+      "collectedAt": "2026-06-02T23:20:54.994Z"
+    },
+    {
+      "id": "757497fb-4423-4b5c-a5bc-7271d041265e",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(전기공사 뱅가드) 장정기 경남도회장 “회원이 변화 실제로 체감, 신뢰할 수 있는 도회 만들겠다\"",
+      "titleOriginal": null,
+      "summary": "장정기 한국전기공사협회 경남도회장이 1500여 회원사를 위해 현장 중심의 소통과 실질적인 경영 지원을 강화하겠다는 운영 방향을 밝혔다. 현장 목소리를 직접 청취해 전기공사업계의 현안을 해결하고 조직 내부의 화합과 신뢰를 회복하는 데 주력할 방침이다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T14:41:51.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367900",
+      "collectedAt": "2026-06-02T23:21:14.519Z"
+    },
+    {
+      "id": "fbea9164-e115-47ab-8ad2-551f6d5659a6",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "기후부, 장마철 앞두고 송전선로 건설 현장 불시점검",
+      "titleOriginal": null,
+      "summary": "기후에너지환경부는 장마철을 대비해 강원도 홍천군의 '동해안-신가평 송전선로 건설사업' 현장을 불시 점검한다. 최근 발생한 토사 유출 사고와 관련하여 재해 예방 대책의 이행 여부를 선제적으로 확인하기 위한 조치이다.",
+      "topics": [
+        "정책·규제",
+        "전력 인프라"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-06-02T14:20:49.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368698",
+      "collectedAt": "2026-06-02T23:21:34.418Z"
+    },
+    {
+      "id": "f290d55b-47d7-43df-bf6d-0c23bbbe02ca",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(전기공사 뱅가드) 서창덕 제주도회장 “소통·상생 기반, 제주 전기공사업계 미래 100년 준비할 것”",
+      "titleOriginal": null,
+      "summary": "서창덕 제31대 한국전기공사협회 제주도회장이 취임하며 소통과 상생을 통한 전기공사업계의 지속가능한 성장을 강조했다. 현재 452개 회원사가 활동 중인 제주도회는 전기설비 개보수 봉사와 장학사업 등 지역사회와 상생하는 역할을 강화해 나갈 방침이다.",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-06-02T14:13:41.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=367982",
+      "collectedAt": "2026-06-02T23:21:54.512Z"
+    },
+    {
+      "id": "67d2a8c0-eadf-46f6-8caa-3ab471063a36",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전, 전력기자재 계약절차 손질…“공정성·조달안정성 강화”",
+      "titleOriginal": null,
+      "summary": "한국전력이 전력기자재 구매계약의 투명성과 조달 안정성을 높이기 위해 계약 방식 변경 시 사전예고제를 도입하고 단가계약 구매요청 기한을 명문화했다. 이를 통해 제조사의 준비 부족 문제를 해소하고 구매 프로세스의 공정성을 강화할 방침이다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-02T13:08:30.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368695",
+      "collectedAt": "2026-06-02T23:22:14.590Z"
+    },
+    {
+      "id": "a404c4c9-5e4b-42e9-9fc3-c8110f7cf92f",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[백척간두 한국 자동차 산업] ③(끝) '샌드위치' 신세 한국차, 포기할 수 없는 미래차",
+      "titleOriginal": null,
+      "summary": "한국 자동차 부품사들은 내연기관 투자 부채와 전동화 전환의 어려움으로 경영난을 겪고 있으며, 2035 국가 온실가스 감축 목표(NDC) 달성을 위한 무공해차 보급 정책에 대해 현실적인 속도 조절을 요구하고 있다. 정부는 이러한 산업계의 위기 상황에도 불구하고 여전히 높은 보급 목표를 유지하고 있어, 금융 지원 및 고용 규제 완화 등 구체적인 실효 대책이 시급한 실정이다.",
+      "topics": [
+        "ESG·탄소중립",
+        "에너지원"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-06-02T11:43:29.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368279",
+      "collectedAt": "2026-06-02T23:22:54.569Z"
+    },
+    {
+      "id": "e446b5a0-485a-4390-a1d1-1590e32c187c",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[반도체 패권 전쟁, 전기가 결정한다] ③(끝) '뉴 노멀'된 비싼 전기 요금, 제도 현실화 작업 본격화",
+      "titleOriginal": null,
+      "summary": "반도체 산업의 핵심 경쟁력이었던 저렴한 전기 요금 시대가 저물고, 에너지 비용 부담이 가중됨에 따라 정부와 업계가 대책 마련에 나섰다. 한국전력의 독점 구조와 원가 연동 한계로 인해 에너지 비용 효율화를 위한 제도적 현실화 작업이 본격화되고 있다.",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-02T10:59:27.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368373",
+      "collectedAt": "2026-06-02T23:24:34.619Z"
+    },
+    {
+      "id": "cc3b7bf5-8f50-4845-9604-f23ef9cea5c0",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "서부발전, 직업계고 찾아 안전교육…현장형 인재 육성",
+      "titleOriginal": null,
+      "summary": "한국서부발전이 고용노동부 서산지청, 충남교육청과 협력하여 충남 지역 10개 직업계고 학생 278명을 대상으로 ‘미래산업인 안전보건교육’ 프로젝트를 추진한다. 발전소 현장 경험과 안전 실습을 제공해 에너지 산업 분야의 맞춤형 미래 인재를 양성하는 것이 핵심이다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T10:50:33.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368688",
+      "collectedAt": "2026-06-02T23:24:54.595Z"
+    },
+    {
+      "id": "ebf5f40f-5423-4a94-8e31-6fbb6769eb99",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "김광석 친환경상용차자원순환협회 회장 “2027년 전기차 폐차 쏟아진다…자원순환 인프라 구축 시급”",
+      "titleOriginal": null,
+      "summary": "2027년부터 본격화될 전기차 폐차 시대에 대비해 폐배터리 및 폐충전기 자원순환 인프라 구축의 시급성을 강조했다. 2026년 기준 친환경차 누적 보급 100만 대를 넘어선 가운데, 안전한 폐차 처리 및 자원 회생을 위한 전문적인 대응 체계 마련이 필요하다는 내용이다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T10:50:22.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368655",
+      "collectedAt": "2026-06-02T23:25:14.559Z"
+    },
+    {
+      "id": "457a9d6b-9399-4adb-af53-d5c4df0a79f8",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "환경성 광고 검증기준 강화… ‘그린워싱’ 차단 위한 실증제도 정비",
+      "titleOriginal": null,
+      "summary": "기후에너지환경부가 허위·과장 친환경 광고인 '그린워싱'을 방지하기 위해 '환경성 표시·광고 관리제도에 관한 고시 일부개정안'을 행정예고했다. 이번 개정은 '환경기술 및 환경산업 지원법' 개정에 발맞춰 기업의 환경성 광고에 대한 검증 기준을 강화하고 신뢰성을 확보하는 데 목적이 있다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-06-02T18:28:56.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200075",
+      "collectedAt": "2026-06-02T23:27:59.144Z"
+    },
+    {
+      "id": "e377f7a9-e252-460c-8119-802a08901095",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[초점] 전기차 초급속 충전기 안전인증 확대… “충전속도 안전관리 체계 고도화”",
+      "titleOriginal": null,
+      "summary": "산업통상자원부는 전기차 초급속 충전 수요 증가에 대응해 '전기용품 및 생활용품 안전관리법 시행규칙'을 개정한다. 기존 200kVA 이하로 제한되던 전기차 충전기 안전확인 대상 범위를 500kVA 이하로 대폭 확대하여 고출력 충전 인프라의 안전관리 체계를 강화한다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T18:20:16.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200074",
+      "collectedAt": "2026-06-02T23:28:19.263Z"
+    },
+    {
+      "id": "b9119918-446a-46b2-8431-7315fd73c5d2",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "SAF 생산세액공제 도입 추진… “항공 탄소중립·정유산업 경쟁력 동시 잡는다”",
+      "titleOriginal": null,
+      "summary": "국제 항공업계의 탄소중립 규제 강화에 대응해 국내 지속가능항공유(SAF) 생산 기반을 마련하고자 생산 단계 세제지원을 신설하는 '조세특례제한법 일부개정법률안'이 발의되었다. 이번 법안은 ICAO의 국제항공 탄소상쇄·감축제도(CORSIA) 등 글로벌 환경 규제에 발맞춰 국내 정유 산업의 경쟁력을 강화하고 민간 투자를 촉진하기 위해 추진된다.",
+      "topics": [
+        "ESG·탄소중립",
+        "정책·규제"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-06-02T18:12:02.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200073",
+      "collectedAt": "2026-06-02T23:28:39.275Z"
+    },
+    {
+      "id": "760c3d58-a706-4a73-8ab4-7e888e650fff",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스안전공사, 노후 CNG충전소 집중 안전점검… 여름철 재난 대비 강화",
+      "titleOriginal": null,
+      "summary": "한국가스안전공사가 여름철 자연재난에 대비해 준공 후 20년 이상 경과한 노후 CNG 충전소를 대상으로 민관 합동 현장 안전점검을 실시했다. 이번 점검은 정부의 ‘대한민국 집중안전점검(4월 20일~6월 19일)’과 연계하여 시설 안전성과 재난 대응체계를 강화하기 위해 추진되었다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T17:54:15.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200072",
+      "collectedAt": "2026-06-02T23:28:59.420Z"
+    },
+    {
+      "id": "49d57feb-b549-45eb-b04a-9cb0ecc546ff",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "동서발전, 일상에 스며든 청렴... ‘윤리의 날’ 개최",
+      "titleOriginal": null,
+      "summary": "한국동서발전은 6월 2일 '윤리의 날'을 맞아 전 임직원이 참여하는 청렴 문화 확산 행사를 개최했다. 기존의 형식적인 방식에서 벗어나 포춘쿠키 나눔 등 직원들이 즐겁게 체험하며 윤리 경영을 실천할 수 있는 다양한 프로그램을 진행했다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T16:56:12.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200068",
+      "collectedAt": "2026-06-02T23:30:19.201Z"
+    },
+    {
+      "id": "e98c10c3-a60f-4a62-b917-89fcbc5716ad",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[인터뷰] 송재호 회장 / 한국도시가스협회 “도시가스업계, 30년 뒤 생존 고민해야”",
+      "titleOriginal": null,
+      "summary": "송재호 한국도시가스협회장은 현행 지역독점 및 공급사업 중심 모델로는 미래 생존이 어렵다고 지적하며 체질 개선을 강조했다. 이를 위해 LNG 직도입 및 히트펌프 확산 대응을 위한 미래혁신위원회 운영 등 업계의 지속 가능한 발전 전략을 모색할 계획이다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T16:49:53.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200067",
+      "collectedAt": "2026-06-02T23:30:39.336Z"
+    },
+    {
+      "id": "c0a70163-4c06-466a-a05c-7008e9591256",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“아이온커뮤니케이션즈, 몽골 마이크로그리드 프로젝트 결실 맺었다”",
+      "titleOriginal": null,
+      "summary": "아이온커뮤니케이션즈가 몽골 국립대학교와 함께 42개월간 진행한 국책 과제를 성공적으로 완수하고 마이크로그리드 연구센터를 준공했다. 해당 프로젝트는 풍력, 태양광, 태양열 등 재생에너지와 EMS 시스템을 결합한 독립형 마이크로그리드 운영 실증을 지속하고 있다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T16:31:56.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200066",
+      "collectedAt": "2026-06-02T23:30:59.261Z"
+    },
+    {
+      "id": "1d7fca6f-038a-492e-92bd-9f0024858e71",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "ESCO협회, 2026년 ESCO경영상태 업계 평균 공시",
+      "titleOriginal": null,
+      "summary": "ESCO협회가 2026년 ESCO 투자사업 적격심사에 적용할 업계 평균 경영상태를 산출해 공시했다. 이번에 발표된 기준은 부채비율 144.968%, 매출액순이익률 8.148%로 향후 관련 사업 심사의 지표로 활용된다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-02T16:06:31.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200062",
+      "collectedAt": "2026-06-02T23:31:59.324Z"
+    },
+    {
+      "id": "aa4d88f8-ce13-491a-a982-833009be069d",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“녹색에너지연구원, MVDC 스테이션 통해 전남을 직류산업 거점으로 만든다”",
+      "titleOriginal": null,
+      "summary": "녹색에너지연구원은 2019년 에너지신산업 규제자유특구 사업으로 구축한 MVDC 스테이션을 활용해 전남을 직류산업 및 차세대 전력망 실증 거점으로 육성하고 있다. 이를 통해 기존 교류 중심 전력망을 직류 기반으로 전환하는 기술 실증과 산업 생태계 확대를 추진 중이다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-02T16:01:39.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200060",
+      "collectedAt": "2026-06-02T23:32:19.230Z"
+    },
+    {
+      "id": "e6bc9e18-742d-44d1-8da2-4458665ecaa6",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전, 지방선거 및 재·보궐선거 대비 ‘무결점 전력공급’ 총력",
+      "titleOriginal": null,
+      "summary": "한국전력은 제9회 전국동시지방선거를 앞두고 전국 1만 8,390개 투·개표소 및 선관위 시설에 대한 특별 안전점검을 완료했다. 선거 기간 중 안정적인 전력 공급을 위해 24시간 비상대응체계를 가동하여 무정전 선거 지원에 나선다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-02T16:00:20.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200061",
+      "collectedAt": "2026-06-02T23:32:39.307Z"
+    },
+    {
+      "id": "6828fda0-d59b-4e9a-ad8c-d60724ef077e",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전기안전공사, 6·3 지방선거 투·개표소 특별점검 시행",
+      "titleOriginal": null,
+      "summary": "한국전기안전공사가 제9회 전국동시지방선거를 앞두고 전국 투·개표소의 전기설비를 특별 점검했다. 이번 조치는 전기 사고로 인한 선거 업무 차질을 사전에 방지하고 안정적인 투표 환경을 조성하기 위해 시행되었다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T15:49:06.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200059",
+      "collectedAt": "2026-06-02T23:32:59.406Z"
+    },
+    {
+      "id": "cf1928b7-9e78-4f29-9ed2-4d0dc2745b00",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“한·중, 청정에너지 기술로 기후위기 대응하자”",
+      "titleOriginal": null,
+      "summary": "한국에너지기술연구원이 중국과 5월 31일부터 6월 3일까지 제주에서 기후변화 대응 및 청정에너지 기술 협력 워크숍을 개최했다. 이번 행사에서는 온실가스 포집, 수소, 에너지 AI 등 15개 세션과 180건의 논문 발표를 통해 양국의 에너지 연구 성과 공유 및 실질적 협력 방안을 모색했다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T15:32:40.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200058",
+      "collectedAt": "2026-06-02T23:33:19.339Z"
+    },
+    {
+      "id": "66c05a24-8479-4ace-ae1c-e0502ae948f3",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "중부발전, ‘청렴·윤리 문화주간’… 전사적 의식 내재화 지속",
+      "titleOriginal": null,
+      "summary": "한국중부발전은 임직원의 청렴 윤리 의식을 제고하고 경영 의지를 전파하기 위해 '2026년 청렴·윤리 문화주간' 행사를 개최했다. 이번 행사는 청탁금지법 및 이해충돌방지법 등을 주제로 한 퀴즈, DIY 체험 등 4가지 영역의 프로그램을 통해 사내 윤리 문화 내재화를 추진한다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T14:24:44.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200053",
+      "collectedAt": "2026-06-02T23:34:39.209Z"
+    },
+    {
+      "id": "b9abd381-be62-409e-8d91-25ee1b675196",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한수원, 협력사 원자력 품질교육 심화과정 시행",
+      "titleOriginal": null,
+      "summary": "한국수력원자력이 약 30개 협력사 품질 담당자를 대상으로 원자력 품질보증 및 일반규격품검증(CGID) 심화 교육을 실시했다. 협력사의 현업 적용 능력을 높이기 위해 교육 시간을 기존 8시간에서 16시간으로 대폭 확대하여 운영했다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T14:13:07.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200052",
+      "collectedAt": "2026-06-02T23:34:59.428Z"
+    },
+    {
+      "id": "544e4391-f80a-471e-abcc-1ef877882c48",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전, 전력기자재 구매제도 손질… 계약 투명성·조달 안정성 강화",
+      "titleOriginal": null,
+      "summary": "한국전력이 전력기자재 구매 과정의 투명성과 공정성을 높이기 위해 '사전예고 기능 강화' 및 '단가계약 구매요청 기한 설정'을 포함한 업무절차 개선 방안을 마련했다. 이번 조치는 기존 연초 일괄 공지 방식의 한계를 보완하여 제조사의 예측 가능성을 높이고 안정적인 기자재 조달 체계를 구축하기 위함이다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-02T13:15:17.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200051",
+      "collectedAt": "2026-06-02T23:35:19.321Z"
+    },
+    {
+      "id": "d02428e7-800e-4f2e-9d1d-d0bffaeeeee2",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "‘비철금속 제련 90주년, 역사의 현장에서 미래를 열다’",
+      "titleOriginal": null,
+      "summary": "대한민국 비철금속 산업이 첫 제련 90주년을 맞아 반도체, 이차전지, 에너지 산업의 핵심 원료 공급원으로서 도약을 선언했다. 울산 온산국가산업단지에서 열린 '제19회 비철금속의 날' 기념식에는 산업통상자원부와 관련 업계 관계자 130여 명이 참석해 산업의 전략적 가치를 재확인했다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T13:00:00.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200040",
+      "collectedAt": "2026-06-02T23:35:39.400Z"
+    },
+    {
+      "id": "f7e2a927-89b4-47f9-b2cc-28ed920f44dc",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한·캐나다 수소동맹 본격화… 생산부터 모빌리티·인프라까지 협력 확대",
+      "titleOriginal": null,
+      "summary": "한국과 캐나다가 청정수소 생산, 운송, 모빌리티 및 인프라 구축 등 수소산업 전 분야에서 전략적 파트너십을 강화하고 있다. 수소 수입국인 한국의 수요와 캐나다의 풍부한 재생에너지 기반 청정수소 생산 잠재력이 결합하여 양국 간 에너지 협력이 본격화될 전망이다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T09:17:58.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200048",
+      "collectedAt": "2026-06-02T23:36:39.427Z"
+    },
+    {
+      "id": "adac7f28-0996-4081-8a56-d92d58564532",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "환경산업 인재양성 플랫폼 인정받았다… 환경ISC, 출범 후 첫 ‘S등급’ 쾌거",
+      "titleOriginal": null,
+      "summary": "한국상하수도협회가 운영하는 환경 인적자원개발위원회(환경ISC)가 고용노동부 주관 ‘2025년 산업별 인적자원개발위원회 사업 성과평가’에서 최고 등급인 S등급을 획득했다. 이는 탄소중립과 녹색산업 전환을 위한 핵심 인재 양성 역량과 컨트롤타워로서의 전문성을 정부로부터 공식 인정받은 결과이다.",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-06-02T09:00:26.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200046",
+      "collectedAt": "2026-06-02T23:37:19.539Z"
+    },
+    {
+      "id": "c5602438-8527-4b82-a806-bea58afc16c4",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[초점] “중국 녹색전환 시장을 잡아라”… 수소·폐배터리·자원순환으로 넓어지는 K-녹색산업",
+      "titleOriginal": null,
+      "summary": "한국 녹색산업이 과거 환경 정화 중심에서 수소 생산, 폐배터리 재활용 등 에너지 및 자원순환 산업으로 중국 시장 공략 범위를 확장하고 있다. 이는 중국의 탄소중립 정책과 자원안보 전략에 대응하여 미래 녹색 시장을 선점하기 위한 전략적 행보로 풀이된다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T08:49:07.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200044",
+      "collectedAt": "2026-06-02T23:37:59.552Z"
+    },
+    {
+      "id": "a83912b2-4a10-4478-983f-94a543254776",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "서부발전, 직업계고교생 대상 맞춤형 안전교육 시행",
+      "titleOriginal": null,
+      "summary": "한국서부발전이 고용노동부 서산지청 및 충청남도교육청과 협력하여 충남 지역 10개 직업계고 학생 278명을 대상으로 ‘미래산업인 안전보건교육’을 실시한다. 이번 프로젝트는 에너지·발전산업 분야 취업 희망자를 대상으로 실질적인 안전 지식과 현장 이해도를 제고하기 위해 마련되었다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T08:33:33.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200043",
+      "collectedAt": "2026-06-02T23:38:19.608Z"
+    },
+    {
+      "id": "3dbd438f-92dd-4e5d-9ebd-9b4478200c3b",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전, ‘슬기로운 전기생활 공모전’… 에너지 절약 문화 확산",
+      "titleOriginal": null,
+      "summary": "한국전력이 중동 전쟁에 따른 에너지 위기를 극복하고자 국민 참여형 '슬기로운 전기생활 공모전'을 개최한다. 이번 행사는 주택용 에너지캐시백 지원 확대 등 '에너지 절감 특별지원 대책'과 연계해 에너지 절약을 일상적인 문화로 정착시키기 위해 마련되었다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-02T08:24:28.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200042",
+      "collectedAt": "2026-06-02T23:38:39.490Z"
+    },
+    {
+      "id": "d06b5c6b-da84-42ab-80c7-766057a4395f",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[분석] 호르무즈 리스크 시대...오만,  ‘에너지 안보·물류 허브’ 전략 현실화되나",
+      "titleOriginal": null,
+      "summary": "중동 정세 불안에 대응하여 한국 정부가 오만과 원유 및 나프타 공급 안정화를 위한 경제협력을 본격 추진한다. 이번 협의는 에너지 안보 강화를 비롯해 공급망 재편과 미래 수소산업 협력 등 전략적 파트너십 확대를 목표로 한다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T08:23:04.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200041",
+      "collectedAt": "2026-06-02T23:38:59.493Z"
+    },
+    {
+      "id": "2dd11c07-5249-445b-adf5-5890192c46b7",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스기술공사, ‘본업 경쟁력·안전경영’ 중심 조직개편 단행",
+      "titleOriginal": null,
+      "summary": "한국가스기술공사가 LNG 및 친환경 에너지 설비 유지보수라는 본연의 역할 강화와 현장 안전관리 중심의 경영 내실화를 위해 조직개편을 단행했다. 이에 따라 기존 3본부 12처 2실 체제를 2본부 10처 1실 체제로 축소·조정하여 효율적인 운영 체계를 구축했다.",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-06-02T06:00:00.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200039",
+      "collectedAt": "2026-06-02T23:39:19.688Z"
+    },
+    {
+      "id": "c68f36d8-3191-4f0a-8c0f-15127847d3dc",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "대구환경청, 지역 산업단지 재생에너지 보급 확대",
+      "titleOriginal": null,
+      "summary": "대구지방환경청이 한국산업단지공단 및 지역 기업들과 협력하여 대구 산업단지 내 유휴부지를 활용한 태양광 발전 보급 확대 업무협약을 체결했다. 이번 협약은 민관 협업을 통해 산업단지의 재생에너지 전환을 가속화하고, 입주 기업들의 탄소중립 실현 및 지역 산업 경쟁력을 강화하는 데 목적이 있다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T17:49:08.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298576",
+      "collectedAt": "2026-06-02T23:41:47.442Z"
+    },
+    {
+      "id": "092560b9-5c2f-4f80-9955-16467af6ef4c",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "SEG솔라, 美 휴스턴에 4.6GW 모듈 공장 건설",
+      "titleOriginal": null,
+      "summary": "미국 태양광 기업 SEG솔라가 텍사스주 휴스턴에 4.6GW 규모의 신규 모듈 공장을 건설하여 미국 내 생산능력을 총 10.6GW로 확대한다. 이번 신규 시설은 해외우려기관(FEOC) 규정을 충족하는 고효율 이종접합(HJT) 모듈 생산을 목표로 하며 2027년 5월 상업 생산을 시작할 예정이다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T17:49:08.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298574",
+      "collectedAt": "2026-06-02T23:41:58.482Z"
+    },
+    {
+      "id": "4f080b40-356e-4075-a892-d28b537e0b0e",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "동서발전 ‘윤리의 날’ 행사 개최",
+      "titleOriginal": null,
+      "summary": "한국동서발전이 6월 2일 윤리의 날을 맞아 임직원의 청렴 의식 고취를 위한 '쿠키 톡, 윤리 톡' 및 '윤리지식 골든벨' 등 참여형 행사를 개최했다. 또한 고위공직자 대상 '찾아가는 반부패교육'과 '365 안심신고 설명회'를 통해 윤리경영 실천의 내실을 다졌다.",
+      "topics": [
+        "정책·규제"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-06-02T17:14:10.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298575",
+      "collectedAt": "2026-06-02T23:42:18.380Z"
+    },
+    {
+      "id": "78d1f741-ea6b-4186-9328-0a87a39d978e",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한국환경공단, 중소 환경기업 돕는 실증 프로그램 가동",
+      "titleOriginal": null,
+      "summary": "한국환경공단이 중소·중견 환경기업의 기술 상용화를 돕기 위해 '2026년 상생협력 실증 프로그램' 업무협약을 체결했다. 공단은 이번 프로그램을 통해 선정된 15개 기업에 과제당 최대 10억 원을 지원하여 신기술의 현장 실증과 초기 시장 진입을 도울 계획이다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-06-02T16:57:28.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298573",
+      "collectedAt": "2026-06-02T23:42:58.386Z"
+    },
+    {
+      "id": "ed358130-99ef-4981-89a6-e05d8425ef93",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전, 6.3 지방선거 ‘무결점 전력공급’ 총력",
+      "titleOriginal": null,
+      "summary": "한국전력은 제9회 전국동시지방선거를 앞두고 전국 1만 8,390곳의 선거 시설에 4중 전원 체계를 구축하는 등 무결점 전력공급을 위한 비상근무에 돌입했다. 선거 당일 24시간 종합상황실 운영과 함께 6,607명의 인력 및 협력사를 투입해 안정적인 전력망 운영에 만전을 기한다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-02T16:28:27.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298569",
+      "collectedAt": "2026-06-02T23:43:38.686Z"
+    },
+    {
+      "id": "fb58abf8-eec2-4ac7-bca8-2eb08db4b90c",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "서울물재생시설공단, 시민 가치 최우선 경영활동 선포",
+      "titleOriginal": null,
+      "summary": "서울물재생시설공단이 시민 체감 서비스 품질 향상을 위해 소비자중심경영(CCM) 인증 추진을 선포했다. 공단은 최고고객책임자(CCO) 임명 및 4대 혁신과제 수립을 통해 하수처리 및 물재생 시설 운영 전반을 시민 관점에서 개선할 계획이다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T16:26:10.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298566",
+      "collectedAt": "2026-06-02T23:43:58.402Z"
+    },
+    {
+      "id": "5a129310-07dd-4ac8-a52b-bbd2ff348d3b",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전기안전공사, 6.3 지방선거 투·개표소 특별점검 실시",
+      "titleOriginal": null,
+      "summary": "한국전기안전공사는 제9회 전국동시지방선거의 안전한 운영을 위해 전국 1만 8,000여 개 투·개표소의 전기설비 및 비상전원장치를 특별 점검했다. 선거 당일에는 전국 개표소 등에 전문인력 458명을 배치해 전기사고 발생에 대비한 신속 대응 체계를 운영할 예정이다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T16:16:26.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298568",
+      "collectedAt": "2026-06-02T23:44:18.543Z"
+    },
+    {
+      "id": "6cf45a1f-b5ad-43eb-9924-5289bb74b271",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한국에너지기술연구원, 한-중 청정에너지 워크숍 개최",
+      "titleOriginal": null,
+      "summary": "한국에너지기술연구원은 5월 31일부터 6월 3일까지 제주에서 양국 전문가 270여 명이 참석한 가운데 '제14회 한-중 청정에너지 워크숍'을 개최했다. 이번 행사에서는 CCUS, 수소, 에너지 AI 등 핵심 기술 분야의 연구 성과 180건을 공유하며 탄소중립 실현을 위한 양국 간 실질적 협력 방안을 모색했다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T15:57:11.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298563",
+      "collectedAt": "2026-06-02T23:44:38.396Z"
+    },
+    {
+      "id": "be33cd04-2e86-44f4-986e-fbdd42cc2d77",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "충북TP, 차세대에너지센터장에 문진철 선임",
+      "titleOriginal": null,
+      "summary": "충북테크노파크가 차세대에너지 분야 신임 센터장으로 문진철 수석연구원을 임명했다. 신임 센터장은 2026년 6월 1일부터 3년간 태양광 및 이차전지 등 충북 지역의 핵심 에너지 신산업 육성과 기업 지원을 총괄하게 된다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T15:55:33.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298565",
+      "collectedAt": "2026-06-02T23:44:58.409Z"
+    },
+    {
+      "id": "2fcedc91-e220-483b-8739-0856237eced6",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[시장 전망] 산업용 밸브, 2034년 1471억 9천만 달러 규모 예상",
+      "titleOriginal": null,
+      "summary": "글로벌 산업용 밸브 시장은 석유·가스 생산 및 발전 부문 등의 투자 확대에 힘입어 2026년 1083억 6천만 달러에서 2032년 1471억 9천만 달러 규모로 연평균 5.2% 성장할 전망이다. 특히 아시아 태평양 지역이 산업화와 에너지 인프라 확충을 바탕으로 가장 빠른 성장세를 보이며 시장을 주도할 것으로 예상된다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-02T15:23:50.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298560",
+      "collectedAt": "2026-06-02T23:46:18.646Z"
+    },
+    {
+      "id": "6373d6b3-5f4a-407c-9685-b43bc8bea90b",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "중부발전 ‘2026년 청렴·윤리 문화주간 행사’ 개최",
+      "titleOriginal": null,
+      "summary": "한국중부발전이 임직원의 청렴 의식 내재화를 위해 본사와 전 사업소에서 '2026년 청렴·윤리 문화주간 행사'를 개최했다. 청렴 퀴즈, DIY 체험, AI 아바타 상담 등 다양한 프로그램을 통해 조직 내 건강한 청렴 문화를 확산하는 데 주력했다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T14:52:01.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298555",
+      "collectedAt": "2026-06-02T23:46:58.479Z"
+    },
+    {
+      "id": "22ac7c94-2248-4dd8-b75d-215d5f54f3b7",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "삼성중공업, 4.3조원 규모 FLNG 1기 수주",
+      "titleOriginal": null,
+      "summary": "삼성중공업이 북미 발주처로부터 4조 3,301억원 규모의 부유식 액화천연가스 생산설비(FLNG) 1기를 수주했다. 이번 수주를 포함해 삼성중공업은 올해 총 83억달러를 수주하며 연간 목표의 60%를 달성했으며, 전 세계 FLNG 시장 점유율 64%로 독보적인 경쟁력을 입증했다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-02T14:44:50.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298554",
+      "collectedAt": "2026-06-02T23:47:38.638Z"
+    },
+    {
+      "id": "8265bcb5-8495-45f9-8e33-2190b8f98842",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한수원, 협력사 원자력 품질교육 실시",
+      "titleOriginal": null,
+      "summary": "한국수력원자력이 협력사의 원자력 품질 역량 강화를 위해 30개 사 40여 명을 대상으로 16시간 규모의 심화 교육을 실시했다. 올해 상반기 기초 과정에 184개 사 300여 명이 수료한 데 이어, 하반기에는 재료·용접 기술 및 온라인 교육을 추가해 협력사 품질 관리와 청렴도 향상을 지원할 계획이다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T14:40:17.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298553",
+      "collectedAt": "2026-06-02T23:48:18.570Z"
+    },
+    {
+      "id": "8392626a-cc92-42cb-8a02-43a414684a28",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전, 전력기자재 구매 계약 절차 개선",
+      "titleOriginal": null,
+      "summary": "한국전력이 전력기자재 구매 계약의 투명성과 조달 안정성을 위해 제조사 사전예고 기간을 5개월로 의무화하고, 단가계약 구매요청 기한을 종료 3개월 전으로 설정하는 업무절차 개선을 실시했다. 또한, 최초 도입 품목은 총액계약 구매를 원칙으로 명문화해 특정 제조사에 대한 특혜 소지를 차단하고 시장 참여 기회를 확대했다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-02T13:40:04.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298550",
+      "collectedAt": "2026-06-02T23:48:38.835Z"
+    },
+    {
+      "id": "5428aacf-1efe-43c1-b344-8356158186f3",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "로사톰, 차세대 부유식 원전용 첫 SMR 제작 완료",
+      "titleOriginal": null,
+      "summary": "러시아 로사톰이 55MW급 소형모듈원자로(SMR) 'RITM-200C' 제작을 완료하며 해상형 SMR 상용화에 진입했다. 해당 원자로는 향후 건조될 부유식 발전선에 2기씩 탑재되어 추코트카 자치구 내 구리 광산 산업단지에 전력을 공급할 예정이다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T13:19:28.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298548",
+      "collectedAt": "2026-06-02T23:48:58.636Z"
+    },
+    {
+      "id": "6dd5483a-44a4-4311-874f-d406c309b607",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "삼성重, 북미 발주로 4조3301억원 규모 FLNG 1기 수주",
+      "titleOriginal": null,
+      "summary": "삼성중공업이 북미 발주처로부터 4조3301억원 규모의 부유식 액화천연가스 생산설비(FLNG) 1기를 수주하며 세계 시장 점유율 64%를 공고히 했습니다. 이번 수주를 포함해 삼성중공업의 올해 누적 수주액은 83억달러를 기록했으며, 이는 글로벌 LNG 수요 확대에 따른 해상가스전 개발 프로젝트가 가속화된 결과로 분석됩니다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-02T13:11:35.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298549",
+      "collectedAt": "2026-06-02T23:49:18.646Z"
+    },
+    {
+      "id": "07b4b950-d47f-410e-a15c-4cd582761a6f",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[포커스] 전기차 배터리는 CATL의 시대…K배터리의 선택은?",
+      "titleOriginal": null,
+      "summary": "2026년 1~4월 글로벌 배터리 시장에서 CATL이 점유율 40.1%로 1위를 지키는 등 중국 업체들이 강세를 보이고 있다. 국내 업체들은 전기차 수요 둔화에 대응해 ESS(에너지저장장치) 시장으로 사업 포트폴리오를 다변화하며 경쟁력 확보에 주력하고 있다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T11:49:42.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298542",
+      "collectedAt": "2026-06-02T23:49:58.709Z"
+    },
+    {
+      "id": "38ac3a28-4e75-4899-b4eb-40c85476e920",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "UN 사무총장, 전 세계 재생에너지로의 전환 촉구",
+      "titleOriginal": null,
+      "summary": "안토니우 구테흐스 UN 사무총장이 세계 환경의 날을 맞아 화석 연료에서 재생에너지로의 신속하고 공정한 전환을 촉구했다. 특히 지구 기온 상승폭을 제한하기 위해 메탄 배출 감축, 산림·해양 보호, 개발도상국 대상 기후 재정 지원 이행이 필수적이라고 강조했다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T11:15:51.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298545",
+      "collectedAt": "2026-06-02T23:50:18.712Z"
+    },
+    {
+      "id": "840b383c-6731-40eb-823a-c777055858ec",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "제주 지역 태양광 사업자 대상 ‘재생에너지 입찰제도’ 설명회 성료",
+      "titleOriginal": null,
+      "summary": "재생에너지 IT기업 브이피피랩이 제주 지역 태양광 사업자를 대상으로 '재생에너지 입찰제도'의 운영 구조와 수익성 변화를 분석한 설명회를 개최했다. 실제 운영 데이터를 기반으로 한 시뮬레이션을 통해 시장 참여 전후의 수익 구조를 구체적으로 제시함으로써 사업자들의 이해를 돕고 시장 참여 대응력을 강화했다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T10:40:19.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298539",
+      "collectedAt": "2026-06-02T23:50:58.809Z"
+    },
+    {
+      "id": "a545b2dc-9aae-447b-936a-e6cd73c8eccf",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "\"태양광 검사 일정도 앱으로 관리한다\"…에이치에너지·전기안전공사 협력",
+      "titleOriginal": null,
+      "summary": "에이치에너지가 한국전기안전공사 전북본부와 협력하여 태양광 발전소 법정검사 정보를 자산관리 플랫폼 '솔라온케어'와 연계한다. 이를 통해 발전사업자는 전기사업법상 의무인 정기검사 일정을 앱으로 관리하고 신청까지 원스톱으로 처리할 수 있어 운영 효율성이 개선될 전망이다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T10:40:19.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298531",
+      "collectedAt": "2026-06-02T23:51:58.666Z"
+    },
+    {
+      "id": "157101fb-f6b4-4b00-90fc-c439dae6a229",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "동서발전 ‘전사 발전분야 AI 추진 워크숍’ 개최",
+      "titleOriginal": null,
+      "summary": "한국동서발전은 사업소별로 분산된 AI 발전 운영 기술을 통합하기 위해 전사 AI 추진 워크숍을 개최했다. 이번 워크숍을 통해 자체 개발한 TPMS 및 e-PHI 시스템 등의 운영 노하우를 공유하고, 통합 운영체계를 구축하여 발전 효율 향상과 중복 투자 감소를 도모할 예정이다.",
+      "topics": [
+        "운영 최적화",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "운영 최적화",
+      "publishedAt": "2026-06-02T10:31:00.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298538",
+      "collectedAt": "2026-06-02T23:52:38.728Z"
+    },
+    {
+      "id": "37773dcc-0aa4-4901-8e12-08ef025dc984",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "남부발전, 신입사원 교육 프로그램 착수",
+      "titleOriginal": null,
+      "summary": "한국남부발전이 신입사원 102명을 채용하고 에너지 대전환 시대를 대비한 6주간의 교육 프로그램에 착수했다. 신입사원들은 삼척빛드림본부와 정암풍력발전단지를 방문하여 화력발전의 안정적 운영과 탄소중립을 위한 재생에너지 전환 현장을 학습했다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T10:18:47.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298536",
+      "collectedAt": "2026-06-02T23:52:58.757Z"
+    },
+    {
+      "id": "9cc05b44-d767-44a6-ba5d-5925960330f8",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한·중 에너지 전문가 270여 명 한자리...청정에너지 워크숍 개최",
+      "titleOriginal": null,
+      "summary": "한국에너지기술연구원은 5월 31일부터 4일간 제주에서 제14차 한·중 청정에너지 워크숍을 개최하여 270여 명의 전문가와 탄소중립 실현을 위한 협력 방안을 논의했다. 이번 행사에서는 CCUS, 수소·연료전지, 에너지 AI 등 15개 세션에서 총 180건의 논문이 발표되며 기술 교류와 공동연구의 기반을 다졌다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T10:09:47.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298535",
+      "collectedAt": "2026-06-02T23:53:18.777Z"
+    },
+    {
+      "id": "92ac63bc-aabe-4df8-99d8-6eab3873e299",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스기술공사 임종석 사장, ‘안전·소통 경영’ 본격 시동",
+      "titleOriginal": null,
+      "summary": "한국가스기술공사 임종석 신임 사장이 취임 후 강원지사와 삼척기지지사를 방문해 현장 경영을 본격화했다. 임 사장은 천연가스 설비의 철저한 예방 점검과 안전 최우선 경영을 강조하며, 신입직원 정주 여건 개선 및 노사 간 상호 존중을 통한 조직 문화 혁신을 당부했다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T09:48:50.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298530",
+      "collectedAt": "2026-06-02T23:53:38.812Z"
+    },
+    {
+      "id": "163a1db8-5b35-4c89-99f0-dfa8f74ce255",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "BEP·현대건설, 재생에너지 PPA 시장 협력 확대",
+      "titleOriginal": null,
+      "summary": "브라이트에너지파트너스(BEP)와 현대건설이 1.6GW 규모의 태양광 재생에너지 공급 및 직접 전력구매계약(PPA) 시장 확대를 위한 업무협약을 체결했다. 양사는 이번 협력을 통해 기업들의 RE100 수요에 대응하고, 태양광 발전사업 개발 및 신규 사업 모델 발굴을 공동 추진할 계획이다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T09:40:28.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298529",
+      "collectedAt": "2026-06-02T23:53:58.810Z"
+    },
+    {
+      "id": "53fb72f9-a8aa-4dd5-99a1-74c7566491ac",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "서부발전 ‘미래산업인 안전보건교육’ 운영",
+      "titleOriginal": null,
+      "summary": "한국서부발전이 충남 지역 직업계고 학생 278명을 대상으로 발전소 현장 중심의 '미래산업인 안전보건교육'을 운영한다. 고연차 직원으로 구성된 'WP-안전코칭단'이 강사로 참여해 이론 교육과 발전소 안전체험장 실습을 병행하며 지역 미래 인재의 안전 역량 강화를 지원한다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T09:38:30.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298528",
+      "collectedAt": "2026-06-02T23:54:18.845Z"
+    },
+    {
+      "id": "b904ea58-7edf-4f27-8515-a0a89b0e6d4c",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "수소연합- 캐나다수소협,  ‘제1회 한-캐 수소 협력 포럼’ 개최",
+      "titleOriginal": null,
+      "summary": "한국수소연합과 캐나다수소협회는 토론토에서 '제1회 한-캐 수소 협력 포럼'을 열고 현대자동차그룹, 한화 등 양국 60여 명의 관계자가 참석해 수소 밸류체인 및 기술협력 방안을 논의했다. 양측은 수소 산업의 경쟁력 제고를 위해 정부의 정책적 지원과 더불어 오는 11월 한국에서 개최될 '제2회 월드하이드로젠엑스포(WHE 2026)'를 통한 협력 확대를 도모하기로 했다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-02T09:30:19.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298527",
+      "collectedAt": "2026-06-02T23:54:38.831Z"
+    },
+    {
+      "id": "d7b1fa84-687a-44e0-8390-3fb04f01d6cd",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전 ‘슬기로운 전기생활 공모전’ 개최",
+      "titleOriginal": null,
+      "summary": "한국전력은 중동 전쟁에 따른 에너지 위기 극복과 절약 문화 확산을 위해 6월 1일부터 30일까지 '슬기로운 전기생활 공모전'을 개최한다. 이번 공모전은 주택용 에너지캐시백 제도와 연계해 총 20명에게 1,450만 원의 상금을 수여하며 국민의 자발적인 에너지 절약을 유도할 계획이다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-02T09:27:40.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298526",
+      "collectedAt": "2026-06-02T23:54:58.978Z"
+    },
+    {
+      "id": "b4b86ba8-eb06-4459-a169-d8fa55073447",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스기술공사, 조직개편 단행… LNG 등 설비 유지보수 강화",
+      "titleOriginal": null,
+      "summary": "한국가스기술공사가 본업 중심의 경영 내실화와 현장 안전 강화를 위해 기존 3본부 체제를 2본부로 개편하고, 정비와 에너지 사업본부를 '기술안전사업본부'로 일원화했다. 이번 개편을 통해 LNG 등 친환경 에너지 설비의 유지보수 전문성을 높이고, 안전관리 전담부서를 직속 편제하여 안전사고 제로화를 추진한다.",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-06-02T08:58:57.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298524",
+      "collectedAt": "2026-06-02T23:55:18.757Z"
+    },
+    {
+      "id": "c9b05517-0e20-4a95-bdd2-d1769459ee17",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전기안전기술사회, 전문기술 역량 강화 워크숍 성료",
+      "titleOriginal": null,
+      "summary": "전기안전기술사회는 지난 5월 29일부터 30일까지 회원 워크숍을 열고 초고압 변압기 검수, 글로벌 접지시스템, 측정장비 교정 등 최신 전기안전 기술 공유 및 실무 역량 강화를 논의했다. 이번 행사를 통해 회원 간 네트워크를 활성화하고 전력설비 안전성 향상을 위한 정책 제언 및 미래 발전 방향을 모색했다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-02T08:55:40.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298523",
+      "collectedAt": "2026-06-02T23:55:38.782Z"
+    },
+    {
+      "id": "94432073-c560-4d05-bc1d-894d1fea1c1d",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "남동발전 AI 업무혁신 체계 구축 착수",
+      "titleOriginal": null,
+      "summary": "한국남동발전이 사내 문서와 데이터를 활용한 AI 플랫폼 구축에 착수하며 디지털 업무 혁신을 추진한다. 계약, 감사, 회계 등 핵심 업무에 특화된 AI 서비스를 도입해 전자결재 문서 활용도를 최적화하는 것이 주요 내용이다.",
+      "topics": [
+        "운영 최적화",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "운영 최적화",
+      "publishedAt": "2026-06-02T09:08:41.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70095",
+      "collectedAt": "2026-06-02T23:56:38.130Z"
+    },
+    {
+      "id": "1572d0d4-0ae4-4b85-b01c-8be1bec2e344",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“칩은 넘치는데 켤 전기가 없다”…AI 3대 강국 발목 잡는 ‘전력 인프라’[이슈]",
+      "titleOriginal": null,
+      "summary": "정부가 AI 3대 강국을 목표로 GPU 26만 장 확보 등 인프라 구축에 속도를 내고 있으나, 데이터센터의 급격한 전력 수요 증가를 전력망과 발전설비가 뒷받침하지 못하는 병목 현상이 발생하고 있다. 이에 따라 제11차 전력수급기본계획 재검토와 탄소중립 목표를 고려한 현실적인 전력 공급 정책 마련이 국가적 과제로 떠오르고 있다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T18:07:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260602029349717",
+      "collectedAt": "2026-06-02T23:59:05.083Z"
+    },
+    {
+      "id": "f4612271-52e2-43fb-89ac-8dbf74065576",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "에이치에너지, 전기안전공사 전북본부와 맞손…‘솔라온케어’에 태양광 법정검사 연계",
+      "titleOriginal": null,
+      "summary": "에이치에너지가 한국전기안전공사 전북본부와 업무협약을 체결하고, 태양광 발전소의 법정검사 정보를 민간 자산관리 플랫폼 '솔라온케어'와 연계하기로 했다. 이를 통해 발전 사업자는 플랫폼 내에서 발전 현황 확인부터 정기검사 일정 관리 및 신청까지 원스톱으로 처리하며 운영 불확실성을 해소할 수 있게 된다.",
+      "topics": [
+        "운영 최적화",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T17:24:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260602023220168",
+      "collectedAt": "2026-06-02T23:59:24.959Z"
+    },
+    {
+      "id": "ddd8ad51-79c9-476c-bef6-1c355c3a4094",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한국수소연합, 캐나다와 수소 공급망·기술 협력 강화",
+      "titleOriginal": null,
+      "summary": "한국수소연합과 캐나다수소협회가 토론토에서 '제1회 한국-캐나다 수소 협력 포럼'을 열고 양국 기업 관계자 60여 명이 참석해 수소 기술 교류 및 사업 협력을 논의했다. 현대차, 코오롱, 한화 등 국내 기업들은 수소 모빌리티 및 청정수소 프로젝트 전략을 공유하며 공급망 확대와 기술 개발을 위한 정책 지원의 필요성에 공감했다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T16:20:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260602024030079",
+      "collectedAt": "2026-06-02T23:59:44.820Z"
+    },
+    {
+      "id": "232979b0-d86e-4cbe-badc-6ca88be1dd8e",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[K-핵잠 시대 (중)] 조선·원자력 기반 ‘독자 개발’…방산기술·일자리 경제효과 압도적",
+      "titleOriginal": null,
+      "summary": "한국형 핵추진 잠수함 사업을 단순 국방비를 넘어 원자력과 조선 역량을 결집한 국가 전략산업으로 규정하고, 독자 개발 시 해외 직도입 대비 생산유발계수 3배, 부가가치 유발 7배의 경제적 효과를 기대함. 특히 핵심 기술인 '극소형 원자로'는 향후 민간 소형 모듈 원전(SMR) 산업으로 파생되어 국가 에너지 기술 경쟁력을 견인할 것으로 전망됨.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T16:06:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260602023269749",
+      "collectedAt": "2026-06-03T00:00:04.942Z"
+    },
+    {
+      "id": "99a67f38-d18e-4c37-be51-a8090b16b935",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "AI시대 핵심은 전력…가온전선 ‘AI데이터센터 인프라주’로 주목",
+      "titleOriginal": null,
+      "summary": "가온전선의 미국 자회사 LSCUS가 글로벌 빅테크 기업들과 총 5조 2,000억 원 규모의 장기 공급 계약을 체결하며 AI 데이터센터 인프라 기업으로 재평가받고 있습니다. AI 산업 확장에 따른 전력 인프라 수요 급증으로 향후 가온전선의 매출이 현재 대비 2배 이상 성장할 것으로 전망됩니다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-02T10:47:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260602023470006",
+      "collectedAt": "2026-06-03T00:00:25.064Z"
     }
   ]
 }
