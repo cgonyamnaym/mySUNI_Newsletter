@@ -1,0 +1,45 @@
+{
+  "date": "2026-06-04",
+  "generatedAt": "2026-06-04T00:02:06.597Z",
+  "articleCount": 2,
+  "articles": [
+    {
+      "id": "38c29036-9578-4267-8d8e-6614feec1a9e",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스안전公-민·관 합동점검단 두달 간 CNG충전소 실태점검",
+      "titleOriginal": null,
+      "summary": "한국가스안전공사가 '대한민국 집중안전점검'의 일환으로 준공 후 20년 이상 경과한 전국 21개 CNG충전소를 대상으로 민·관 합동 안전점검을 실시한다. 폭염과 집중호우 등 여름철 자연재난에 대비해 가스 누출 및 안전설비 작동 상태를 집중적으로 확인하고 위험요인을 사전에 발굴하여 개선할 방침이다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-04T00:00:04.546Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331008",
+      "collectedAt": "2026-06-04T00:00:04.546Z"
+    },
+    {
+      "id": "af30f821-3989-4075-8cfc-5e0d6bfe4fdb",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "삼성重, 부유식 액화천연가스 생산설비(FLNG) 1기 4.3조원 수주",
+      "titleOriginal": null,
+      "summary": "삼성중공업이 북미 발주처로부터 4조 3301억 원 규모의 부유식 액화천연가스 생산설비(FLNG) 1기를 수주하며 세계 시장 점유율 64%를 확보했다. 이번 수주를 포함해 삼성중공업은 올해 누적 83억 달러를 수주하며 연간 목표액의 60%를 달성했다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-04T00:01:04.389Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331005",
+      "collectedAt": "2026-06-04T00:01:04.389Z"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "date": "2026-06-03",
-  "generatedAt": "2026-06-03T00:43:03.036Z",
-  "articleCount": 15,
+  "generatedAt": "2026-06-04T00:02:06.597Z",
+  "articleCount": 45,
   "articles": [
     {
       "id": "1bb4a573-3e34-4014-9e87-aa3691f79673",
@@ -287,6 +287,565 @@
       "publishedAt": "2026-06-03T00:11:33.205Z",
       "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330867",
       "collectedAt": "2026-06-03T00:11:33.205Z"
+    },
+    {
+      "id": "01aa5db1-e475-40db-8448-50b285d9b263",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "징코솔라, 25.91% 효율의 700W TOPCon 태양광 모듈 출시",
+      "titleOriginal": "JinkoSolar launches 700 W TOPCon solar module with 25.91% efficiency",
+      "summary": "징코솔라(JinkoSolar)는 25.91%의 효율을 자랑하는 700W TOPCon 태양광 모듈 'Tiger Neo 5.0'을 출시했다. 이 모듈은 고순도 균일 실리콘 기판, 광대역 스펙트럼 광 포집 구조, 전면 패시베이션 및 무간격 셀 배열 캡슐화 기술을 적용하여 변환 효율과 모듈 출력을 향상시켰다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-03T14:29:51.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/03/jinkosolar-launches-700-w-topcon-solar-module-with-25-91-efficiency/",
+      "collectedAt": "2026-06-03T23:07:59.521Z"
+    },
+    {
+      "id": "48b37fbd-aff3-4ac1-94e1-c39782a2fcc7",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "베트남 최초의 직접 전력 구매 계약 가동 시작",
+      "titleOriginal": "Vietnam’s first direct power purchase agreement enters operation",
+      "summary": "베트남에서 49MW 규모의 태양광 발전소와 연계된 첫 직접 전력 구매 계약(DPPA)이 가동을 시작했다. 에너지 분석가 Lam Pham은 pv magazine과의 인터뷰에서 이러한 DPPA가 베트남의 태양광 발전 확대에 중요한 촉매제가 될 것이라고 언급했다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-06-03T13:15:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/03/vietnams-first-direct-power-purchase-agreement-enters-operation/",
+      "collectedAt": "2026-06-03T23:08:05.470Z"
+    },
+    {
+      "id": "76de1328-2806-449d-be68-2589e3693432",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "프랑스, -€498/MWh의 기록적인 마이너스 현물 가격 기록",
+      "titleOriginal": "France sees negative spot price of -€498/MWh",
+      "summary": "프랑스 전력 시장에서 -€498/MWh에 달하는 기록적인 마이너스 현물 가격이 관측되었습니다. 2026년 초부터 현재까지 총 450시간 동안 0 또는 마이너스 가격이 기록되었는데, 이는 2025년 동기 대비 320시간에서 크게 증가한 수치입니다.",
+      "topics": [
+        "운영 최적화",
+        "정책·규제"
+      ],
+      "primaryTopic": "운영 최적화",
+      "publishedAt": "2026-06-03T12:30:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/03/un-prix-spot-negatif-record-de-498-e-mwh-enregistre-le-1er-mai/",
+      "collectedAt": "2026-06-03T23:08:13.216Z"
+    },
+    {
+      "id": "e645bd91-3158-4b26-b0fc-2c42f1a800ed",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "앵커 솔릭스, 2 kWh 가정용 백업 전력 시스템 출시",
+      "titleOriginal": "Anker Solix launches 2 kWh home backup power system",
+      "summary": "중국 제조업체 앵커 솔릭스는 2 kWh 용량의 가정용 백업 전력 시스템인 S2000을 출시했습니다. 이 시스템은 400 W의 태양광 입력 기능을 갖추고 있으며, 냉장고를 최대 35시간 동안 연속으로 백업할 수 있습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-03T12:02:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/03/anker-solix-launches-2-kwh-home-backup-power-system/",
+      "collectedAt": "2026-06-03T23:08:24.560Z"
+    },
+    {
+      "id": "54d8421c-3e81-4253-a3ec-7640bb8d4fa6",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "멕시코, 분산형 태양광 발전 용량 5 GW 초과",
+      "titleOriginal": "Mexico exceeds 5 GW of distributed solar capacity",
+      "summary": "멕시코 국가에너지위원회 발표에 따르면, 멕시코의 분산형 태양광 발전 용량이 2025년 말 기준 5 GW를 초과했다. 0.7 MW 미만 시스템의 분산형 발전 용량 중 태양광이 99.5% 이상을 차지하며 압도적인 비중을 보였다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-03T10:30:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/03/mexico-supera-en-2025-los-5-gw-solares-en-generacion-distribuida/",
+      "collectedAt": "2026-06-03T23:08:34.103Z"
+    },
+    {
+      "id": "412f14a7-597e-4eaa-89e2-e6918b635eea",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "캄보디아의 유틸리티 규모 태양광, 2030년 및 2035년 목표 초과 달성",
+      "titleOriginal": "Cambodia’s utility-scale solar surpasses planned targets for 2030 and 2035",
+      "summary": "캄보디아의 유틸리티 규모 태양광 발전이 2030년과 2035년 목표를 초과 달성하며 급증하고 있습니다. 반면, 연간 30 MW의 옥상 태양광 쿼터와 예상 그리드 영향 비용보다 3~4배 높은 보상 관세로 인해 분산형 태양광은 성장이 지연되고 있습니다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-03T10:01:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/03/cambodias-utility-scale-solar-surpasses-planned-targets-for-2030-and-2035/",
+      "collectedAt": "2026-06-03T23:08:44.422Z"
+    },
+    {
+      "id": "04a0948b-79bb-44e1-b86b-87df7cf6ec1e",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "브라질의 전력망 확장과 배터리 도입으로 출력 제한 완화 전망",
+      "titleOriginal": "Grid expansion, batteries to ease curtailment in Brazil",
+      "summary": "Aurora Energy Research의 분석에 따르면, 브라질은 전력망 확장과 배터리 도입을 통해 2025년 21%에 달할 것으로 예상되는 전력 출력 제한(curtailment)을 완화할 계획입니다. 이러한 노력을 통해 브라질의 출력 제한은 10년 말까지 8~12%포인트 감소할 것으로 전망됩니다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-03T09:30:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/03/melhorias-na-rede-eletrica-e-entrada-de-baterias-no-medio-prazo-aliviarao-curtailment-projeta-aurora/",
+      "collectedAt": "2026-06-03T23:08:54.009Z"
+    },
+    {
+      "id": "eba207a2-c65e-4440-93a9-29aac77fe530",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "신재생에너지 적용 분야에서 천연 에스테르 유체가 미네랄 오일보다 우수하다",
+      "titleOriginal": "Natural ester fluids beat mineral oil for use in renewable energy applications",
+      "summary": "천연 에스테르 유체는 미네랄 오일보다 더 작고 가벼우며 열 효율적인 변압기 설계를 가능하게 합니다. 이는 태양광 발전 애플리케이션에서 설치 공간, 복잡성 및 전체 프로젝트 자본 지출(CAPEX)을 줄이는 데 기여합니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-03T09:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/03/natural-ester-fluids-beat-mineral-oil-for-use-in-renewable-energy-applications/",
+      "collectedAt": "2026-06-03T23:09:04.385Z"
+    },
+    {
+      "id": "b2b186fd-5997-4ce0-aaf9-67be9f6dd26f",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "프랑스, 독일, 포르투갈, 스페인, 일일 태양광 기록 경신",
+      "titleOriginal": "France, Germany, Portugal, Spain set daily solar records",
+      "summary": "AleaSoft Energy Forecasting의 최신 분석에 따르면, 지난주 프랑스, 포르투갈, 스페인에서 일일 태양광 발전량 신기록이 세워졌음에도 불구하고 주간 평균 전력 가격이 상승했습니다. 이는 풍력 에너지 생산 감소와 전력 수요 증가가 복합적으로 작용한 결과입니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-03T08:41:15.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/03/france-germany-portugal-spain-set-daily-solar-records/",
+      "collectedAt": "2026-06-03T23:09:15.669Z"
+    },
+    {
+      "id": "a4d474c8-380d-4d1a-aa39-9e8babcf43d4",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "과학자들, 공동 증착 역 페로브스카이트에서 27% 효율 달성",
+      "titleOriginal": "Scientists achieve 27% efficiency in a co-deposited inverted perovskite",
+      "summary": "중국 과학자들이 공동 증착 역 페로브스카이트 태양전지에서 자가 조립 분자의 응집 및 성능 저하를 방지하는 새로운 기술을 개발했습니다. 이 접근법은 해당 아키텍처에서 보고된 최고 수준인 27%의 인증된 전력 변환 효율을 가능하게 했습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-03T08:30:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/03/scientists-achieve-27-efficiency-in-a-co-deposited-inverted-perovskite/",
+      "collectedAt": "2026-06-03T23:09:24.488Z"
+    },
+    {
+      "id": "02256666-818c-407e-8216-d8dc0884a88c",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "네덜란드 MSR 시험 시설 가동",
+      "titleOriginal": "Dutch MSR testing facility launched",
+      "summary": "네덜란드 노르트 브라반트주 아인트호벤 하이테크 캠퍼스에 용융염 원자로(MSR) 기술을 개발하고 테스트할 수 있는 첨단 시설이 가동을 시작했습니다. 이 시설은 차세대 원자력 기술 발전에 중요한 역할을 할 것으로 기대됩니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-03T13:30:14.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/dutch-msr-testing-facility-launched",
+      "collectedAt": "2026-06-03T23:09:50.043Z"
+    },
+    {
+      "id": "e51186dd-ca4d-4f21-ae63-405f8bb5a814",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "아크쿠유 원전에 최종 증기 발생기 인도 완료",
+      "titleOriginal": "Final steam generators delivered for Akkuyu",
+      "summary": "튀르키예 아크쿠유 원자력 발전소의 4호기를 위한 최종 증기 발생기 4대가 성공적으로 인도되었습니다. 이번 인도로 핵심 원자로 건물 장비의 배송이 완료되었습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-03T13:26:13.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/final-steam-generators-delivered-for-akkuyu",
+      "collectedAt": "2026-06-03T23:09:55.310Z"
+    },
+    {
+      "id": "87bdef89-9a1f-4748-8828-225806e3f330",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "X-energy, 영국 규제 평가를 위해 Xe-100 제출",
+      "titleOriginal": "X-energy submits Xe-100 for UK regulatory assessment",
+      "summary": "미국의 첨단 원자력 기술 개발사인 X-energy는 자사의 Xe-100 고온 가스 냉각 원자로에 대해 영국 규제 평가를 위한 GDA(Generic Design Assessment) 절차 참여 신청서를 제출했습니다. 이 신청은 영국 내 Xe-100 원자로의 설계 승인을 얻기 위한 중요한 단계입니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-03T15:27:19.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/x-energy-submits-xe-100-for-uk-regulatory-assessment",
+      "collectedAt": "2026-06-03T23:10:06.099Z"
+    },
+    {
+      "id": "27a7bfa2-8622-42dd-b805-e6042315a566",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "아르헨티나, 수출을 핵심 원자력 정책 목표로 간주",
+      "titleOriginal": "Argentina sees exports as a key nuclear policy objective",
+      "summary": "아르헨티나는 자국의 원자력 분야에 대한 4가지 최우선 목표를 발표했다. 이 목표들은 고부가가치 수출, 에너지 안보 확보, 국가 기술 역량 보존 및 개발, 그리고 지정학적 위치를 기반으로 한 지역 리더십 강화이다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-03T12:34:00.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/argentina-sees-exports-as-key-nuclear-policy-objective",
+      "collectedAt": "2026-06-03T23:10:14.343Z"
+    },
+    {
+      "id": "a70f2627-bc8c-417f-bc3d-957b6facfbcf",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Alleima, 원자력 수요 증가에 발맞춰 생산 능력 확장",
+      "titleOriginal": "Alleima expands capacity as nuclear demand grows",
+      "summary": "Alleima는 스웨덴 산드비켄에 'Tube Mill 2026' 생산 시설을 가동하며 원자력 수요 증가에 대비하고 있습니다. 이는 기존 원자로뿐만 아니라 소형 및 차세대 원자로 시장의 성장에 대응하기 위한 중요한 이정표입니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-03T12:44:45.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/alleima-expands-capacity-as-nuclear-demand-grows",
+      "collectedAt": "2026-06-03T23:10:25.455Z"
+    },
+    {
+      "id": "f209ec5b-9b20-4ed0-a0ef-55e0bb3e243e",
+      "source": "Carbon Brief",
+      "sourceId": "carbon-brief",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "분석: 중국의 CO2, '낭비된' 풍력 및 태양광으로 인해 2026년 초 2% 증가",
+      "titleOriginal": "Analysis: China’s CO2 climbs 2% in early 2026 due to ‘wasted’ wind and solar",
+      "summary": "Carbon Brief의 분석에 따르면, 2026년 1분기 중국의 이산화탄소(CO2) 배출량이 2% 증가한 것으로 나타났습니다. 이는 '낭비된' 풍력 및 태양광 발전으로 인한 것으로, 재생에너지의 효율적인 통합 및 활용에 어려움이 있음을 시사합니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-03T23:01:00.000Z",
+      "originalUrl": "https://www.carbonbrief.org/analysis-chinas-co2-climbs-2-in-early-2026-due-to-wasted-wind-and-solar/",
+      "collectedAt": "2026-06-03T23:10:34.739Z"
+    },
+    {
+      "id": "a19021cb-183f-472f-aa82-9712ec631a70",
+      "source": "Carbon Brief",
+      "sourceId": "carbon-brief",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "2026년 6월 3일 기사 요약: 아마존 횡단 고속도로 | 엘니뇨 영향 | CO2 제거 현황",
+      "titleOriginal": "Cropped 3 June 2026: Highway through the Amazon | El Niño impact | State of CO2 removal",
+      "summary": "본 기사는 2026년 6월 3일자 'Carbon Brief'에서 발행된 기후, 토지, 식량 분야의 주요 소식 요약본입니다. 이 요약본은 아마존을 관통하는 고속도로 건설 계획, 엘니뇨 현상의 영향, 그리고 이산화탄소(CO2) 제거 기술의 현재 상황을 설명하고 있습니다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-03T14:06:03.000Z",
+      "originalUrl": "https://www.carbonbrief.org/cropped-3-june-2026-highway-through-the-amazon-el-nino-impact-state-of-co2-removal/",
+      "collectedAt": "2026-06-03T23:10:44.757Z"
+    },
+    {
+      "id": "36e5dd78-4f9a-43e7-81be-5b8ad1b6b9da",
+      "source": "Carbon Brief",
+      "sourceId": "carbon-brief",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Q&A: 영국 7차 탄소 예산이 '8,650억 파운드' 경제적 이익을 어떻게 창출할까",
+      "titleOriginal": "Q&A: How UK’s seventh carbon budget will deliver ‘£865bn’ in economic benefits",
+      "summary": "영국 노동당 정부는 영국의 온실가스 배출량을 1990년 대비 87% 감축하는 목표를 세웠습니다. 이는 7차 탄소 예산의 일환으로, 이를 통해 총 8,650억 파운드에 달하는 경제적 이익을 창출할 것으로 기대하고 있습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-03T08:11:32.000Z",
+      "originalUrl": "https://www.carbonbrief.org/qa-how-uks-seventh-carbon-budget-will-deliver-865bn-in-economic-benefits/",
+      "collectedAt": "2026-06-03T23:10:54.434Z"
+    },
+    {
+      "id": "0ead7122-4633-499e-8680-6f819a8231b8",
+      "source": "Power Magazine",
+      "sourceId": "power-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "AI 기반 전력망 관리: 재생에너지 출력 제한 감소",
+      "titleOriginal": "AI-Powered Grid Management: Reducing Renewable Electricity Curtailment",
+      "summary": "인공지능(AI)은 유럽 전역에서 풍력 및 태양광 발전이 확대됨에 따라 에너지 시스템을 혁신하고 있다. AI 기반 지능형 알고리즘은 발전과 소비를 실시간으로 동기화하여 전력망을 안정화하고, 고비용의 재생에너지 출력 제한(curtailment)을 방지함으로써 모든 생산된 전력을 효율적으로 활용하는 데 기여한다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-03T22:53:38.000Z",
+      "originalUrl": "https://www.powermag.com/ai-powered-grid-management-reducing-renewable-electricity-curtailment/",
+      "collectedAt": "2026-06-03T23:11:18.403Z"
+    },
+    {
+      "id": "81cba4ee-ff9f-43a8-9d67-b77e95407654",
+      "source": "Power Magazine",
+      "sourceId": "power-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미국 유일의 상업용 우라늄 농축 기업, 핵연료 공급 격차 확대 속 민간 자금으로 새 공장 건설",
+      "titleOriginal": "America’s Only Commercial Uranium Enricher Is Privately Building a New Plant Amid a Widening Nuclear Fuel Supply Gap",
+      "summary": "미국 유일의 상업용 우라늄 농축 시설 운영사인 Urenco USA는 뉴멕시코 유니스에 위치한 NEF의 저농축 우라늄(LEU) 생산 능력을 약 50% 확장할 계획입니다. 수십억 달러가 투입되는 이 민간 투자 프로젝트는 2029년에 착공되어 2032년 초기 생산을 시작하고 2036년에는 210만 SWU의 신규 용량을 완전히 가동할 예정입니다. 이는 핵연료 공급 격차 확대에 대응하기 위한 것으로, Urenco USA의 현재 연간 생산량 430만 SWU에 추가됩니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-03T14:05:10.000Z",
+      "originalUrl": "https://www.powermag.com/americas-only-commercial-uranium-enricher-is-privately-building-a-new-plant-amid-a-widening-nuclear-fuel-supply-gap/",
+      "collectedAt": "2026-06-03T23:11:25.642Z"
+    },
+    {
+      "id": "5eb70f1f-edb4-4327-b1f9-654261e1bc85",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전, 사우디 자푸라 2단계 열병합 사업 단독 수주…2조원대 매출 기대",
+      "titleOriginal": null,
+      "summary": "한국전력이 사우디 아람코와 자푸라 2단계 열병합 발전소 건설·운영 사업 계약을 체결하며 중동 에너지 시장 입지를 강화했다. 이 사업은 331MW 발전 설비와 시간당 약 465t 증기 생산 규모로, 2029년 6월까지 발전소를 건설한 뒤 17년간 운영하며 총 2조1000억원의 매출이 기대된다.",
+      "topics": [
+        "시장·가격 동향",
+        "전력 인프라"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-03T13:14:46.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368714",
+      "collectedAt": "2026-06-03T23:12:12.929Z"
+    },
+    {
+      "id": "7db075ae-18a1-43ff-9225-9759dddcd7e4",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[인터뷰] 송재호 회장 \"정체된 도시가스산업, 새 성장동력 찾아야\"",
+      "titleOriginal": null,
+      "summary": "한국도시가스협회 송재호 회장은 탄소중립과 전기화 확대 등 급변하는 환경 속에서 도시가스업계의 성장 정체를 진단하며 미래혁신위원회를 통한 체질 개선을 강조했다. 특히 지역 독점 체제의 지속 가능성을 검토하고 LNG 직도입에 따른 시장 왜곡 대응 등 지속가능한 미래 전략 마련에 집중하겠다는 의지를 밝혔다.",
+      "topics": [
+        "ESG·탄소중립",
+        "에너지원"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-06-03T08:48:34.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298578",
+      "collectedAt": "2026-06-03T23:13:53.262Z"
+    },
+    {
+      "id": "91c06cdc-d567-4a15-898c-5bc77165aa96",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "34개 도시가스사! 20년 뒤에도 그대로 있을까?",
+      "titleOriginal": null,
+      "summary": "한국도시가스협회 송재호 회장은 현재의 지역독점 구조가 장기적으로 유지되기 어렵다고 경고하며, 도시가스 산업의 지속가능성을 위한 미래 대응책 마련을 촉구했다. 20~30년 뒤 변화할 에너지 환경에 대비해 기존 사업 모델의 혁신이 필요함을 강조했다.",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-06-03T19:21:11.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70103",
+      "collectedAt": "2026-06-03T23:14:22.730Z"
+    },
+    {
+      "id": "b6345455-0e11-4851-be35-4eb29348dd00",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "홍수기 임박…한강수력본부, 소통 통한 재난대응 공조 강화",
+      "titleOriginal": null,
+      "summary": "한국수력원자력 한강수력본부가 6월 21일부터 9월 20일까지 이어지는 홍수기에 대비해 춘천시청 및 경찰청 등 유관기관과 '2026년 홍수기 춘천댐 운영 소통회의'를 개최했다. 이번 회의를 통해 댐 운영 관련 협력 네트워크를 강화하고 재난 대응 공조 체계를 점검하며 안전한 홍수기 관리에 박차를 가하고 있다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-03T12:33:33.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70101",
+      "collectedAt": "2026-06-03T23:14:33.599Z"
+    },
+    {
+      "id": "732047cd-a9ce-4323-89bf-41dfc4378499",
+      "source": "그린포스트코리아",
+      "sourceId": "greenpost",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "공급과잉·전력망· 해외규제··· 추락하는 중국 태양광",
+      "titleOriginal": null,
+      "summary": "세계 태양광 패널의 80% 이상을 공급하는 중국 태양광 산업이 무한 확장에 따른 공급과잉으로 수익성 악화와 연쇄 파산 위기를 겪고 있다. 전력망 부족 및 해외 규제와 맞물려 글로벌 청정에너지 시장의 생태계가 요동치고 있다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-03T11:26:17.000Z",
+      "originalUrl": "https://www.greenpostkorea.co.kr/news/articleView.html?idxno=306827",
+      "collectedAt": "2026-06-03T23:15:07.388Z"
+    },
+    {
+      "id": "9f5a56c0-3022-4439-9e72-5d545b97cd57",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전·두산·수은 ‘K-원팀’, 사우디 2.1조 열병합발전 추가 수주",
+      "titleOriginal": null,
+      "summary": "한국전력이 사우디아라비아 자푸라 2단계 열병합 발전사업(331㎿)을 수주하며 1단계에 이어 총 2조 1,000억 원 규모의 프로젝트를 확보했다. 이번 사업은 두산에너빌리티의 기자재 공급과 수출입은행의 금융 지원이 더해진 'K-원팀' 전략의 성과로, 한전은 사우디에서 대규모 가스복합 및 신재생 사업을 연이어 수주하며 입지를 강화하고 있다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-03T15:03:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260603027170347",
+      "collectedAt": "2026-06-03T23:16:48.422Z"
+    },
+    {
+      "id": "b1b794b1-17d2-4cbb-b83e-561d8e8269d9",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[EE칼럼] 이란 전쟁과 에너지 실용주의",
+      "titleOriginal": null,
+      "summary": "이란 전쟁으로 인한 에너지 위기 속에서 세계 각국은 탄소중립과 ESG 대신 자국 에너지 안보를 최우선하는 '에너지 실용주의'로 정책 기조를 선회하고 있다. 영국과 한국을 포함한 주요국들은 화석연료 수입 의존도를 낮추기 위해 석탄발전 재가동 및 국내 석유·가스 생산 확대를 포함한 현실적인 에너지 자립 전략을 모색하고 있다.",
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-03T10:58:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260601024161329",
+      "collectedAt": "2026-06-03T23:17:08.706Z"
+    },
+    {
+      "id": "89a709d8-ed9b-4ffb-8ea2-3d152232fc6b",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[기자수첩] 가스 공기관·단체 신임수장의 제3의시선",
+      "titleOriginal": null,
+      "summary": "최근 한국가스기술공사, 대한LPG협회, 한국가스공사 등 주요 가스 관련 기관에 정치인 출신 인사가 잇따라 선임되면서 전문성 결여에 대한 우려가 제기되고 있다. 기사는 탄소중립과 수소경제 전환 등 가스산업의 중대한 변곡점에서 신임 수장들이 기존 관행을 탈피한 객관적이고 합리적인 리더십을 발휘해 주기를 당부하고 있다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-03T23:22:58.508Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331010",
+      "collectedAt": "2026-06-03T23:22:58.508Z"
+    },
+    {
+      "id": "cd47e356-f2dd-4dbc-be9f-cfbe8b7d2c64",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[초대석] 추대로 3연임된 송재호 한국도시가스협회 회장",
+      "titleOriginal": null,
+      "summary": "송재호 한국도시가스협회 회장이 3연임에 성공하며 탄소중립과 전기화 등 변화하는 에너지 환경 속에서 도시가스 산업의 체질 혁신과 미래 경쟁력 확보를 강조했다. 그는 LNG와 LPG 간의 세제 역진성 개선 및 합리적인 공급비용 산정 체계 마련을 촉구하며, 미래혁신위원회를 중심으로 업계의 지속가능한 생존 전략을 수립할 계획이다.",
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-03T23:23:09.532Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331009",
+      "collectedAt": "2026-06-03T23:23:09.532Z"
+    },
+    {
+      "id": "9c866c60-552a-4019-b7b8-309fc5c03a72",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "영국, 북해 가스전 개발 확대 주장 놓고 격론",
+      "titleOriginal": null,
+      "summary": "토니 블레어 전 영국 총리가 에너지 안보를 이유로 북해 석유·가스 시추 확대와 2050 탄소중립 목표 포기를 주장했으나, 전문가와 영국 정부는 이를 경제적 실효성 없는 퇴행적 정책이라며 일축했습니다. 영국 정부는 신규 탐사 허가를 중단하고 재생에너지 중심의 에너지 자립과 가격 안정화 정책을 지속하겠다는 입장을 고수하고 있습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-03T23:28:49.960Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330870",
+      "collectedAt": "2026-06-03T23:28:49.960Z"
     }
   ]
 }
