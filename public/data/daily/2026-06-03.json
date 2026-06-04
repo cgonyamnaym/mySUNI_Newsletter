@@ -1,7 +1,7 @@
 {
   "date": "2026-06-03",
-  "generatedAt": "2026-06-04T00:02:06.597Z",
-  "articleCount": 45,
+  "generatedAt": "2026-06-04T01:32:15.235Z",
+  "articleCount": 46,
   "articles": [
     {
       "id": "1bb4a573-3e34-4014-9e87-aa3691f79673",
@@ -846,6 +846,24 @@
       "publishedAt": "2026-06-03T23:28:49.960Z",
       "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330870",
       "collectedAt": "2026-06-03T23:28:49.960Z"
+    },
+    {
+      "id": "2b6e168d-c6b1-4eb2-a186-dd2fca9c69e0",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“충전 20분, 주행 1000km” 전기차 '아킬레스건' 없앤다",
+      "titleOriginal": null,
+      "summary": "POSTECH과 서울대, LG에너지솔루션 공동 연구팀이 충전과 방전 시 부서지지 않는 고강도 실리콘 소재를 개발했다. 이를 통해 전기차의 고질적 한계인 주행거리와 충전 속도를 획기적으로 개선해 20분 충전으로 1,000km 주행이 가능한 기술 구현의 발판을 마련했다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-03T22:14:49.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368720",
+      "collectedAt": "2026-06-04T00:34:59.712Z"
     }
   ]
 }
