@@ -1,0 +1,290 @@
+{
+  "generatedAt": "2026-06-04T04:53:31.415Z",
+  "total": 10,
+  "success": 10,
+  "failed": 0,
+  "articles": [
+    {
+      "id": "aa36372f-0168-49e0-95b5-f7f958eec25a",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "브라질, 1분기 태양광 발전 용량 4.4GW 추가",
+      "titleOriginal": "Brazil deploys 4.4 GW of solar in Q1",
+      "summary": "브라질은 2026년 1분기에 총 4.4GW의 태양광 발전 용량을 추가하며 지속적인 성장세를 보였습니다. 세부적으로는 유틸리티급 발전소에서 2.3GW, 분산형 발전에서 2.2GW가 확충되었습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-15T09:41:52.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/15/brazil-deploys-4-4-gw-of-solar-in-q1/",
+      "collectedAt": "2026-05-16T00:10:01.847Z",
+      "newsletterSummary": {
+        "what": "브라질 태양광 업계가 2026년 1분기까지 4.4GW(분산형 2,177MW, 유틸리티급 2,295MW)를 확충한다.",
+        "why": "자유 에너지 시장 계약 확대와 분산형 발전 시스템 활성화로 용량이 급증했다.",
+        "sowhat": "목표치를 상회할 전망이나 계통 제약 해결을 위한 저장 장치 도입이 과제다."
+      },
+      "_meta": {
+        "method": "A",
+        "level": 3,
+        "netScore": 4,
+        "densityScore": 2.6
+      }
+    },
+    {
+      "id": "8ec0a8ec-9f07-4afc-b7d5-b45e8879329a",
+      "source": "한국에너지공단 (KEA)",
+      "sourceId": "kea",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "에너지공단, 중동발 에너지 위기 극복을 위해 취약계층 민관협력 에너지복지 지원 업무협약 체결",
+      "titleOriginal": null,
+      "summary": "한국에너지공단이 생명·손해보험협회와 협력해 중동발 에너지 위기로 고통받는 쪽방촌 거주민 4,500여 명에게 1억 원 규모의 에너지 비용을 지원한다. 기존 에너지바우처 사각지대까지 아우르는 이번 'Energy Welfare 4 You' 사업은 5월 대상자 선별을 거쳐 6월부터 본격적으로 시행될 예정이다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-15T00:31:19.127Z",
+      "originalUrl": "https://www.energy.or.kr/front/board/View3.do?boardMngNo=3&boardNo=10024980",
+      "collectedAt": "2026-05-15T00:31:19.127Z",
+      "newsletterSummary": {
+        "what": "한국에너지공단 등 4개 기관이 1억원 규모의 쪽방촌 에너지 복지 MOU를 체결했습니다.",
+        "why": "중동전쟁으로 인한 유가 상승으로 취약계층의 에너지 비용 부담이 가중되었습니다.",
+        "sowhat": "사각지대 취약계층에 실질적 비용을 지원해 에너지 복지 격차를 해소합니다."
+      },
+      "_meta": {
+        "method": "A",
+        "level": 1
+      }
+    },
+    {
+      "id": "3f09d35e-d5df-4e51-9432-4aa2c3ed3a0c",
+      "source": "한국에너지공단 (KEA)",
+      "sourceId": "kea",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한국에너지공단, 열사용기자재 검사 현장 점검·전문 인력 육성으로 전문성 강화",
+      "titleOriginal": null,
+      "summary": "한국에너지공단 최재관 이사장이 울산 소재 집단에너지사업장 현장 점검을 실시하며 열사용기자재 안전 관리의 중요성을 강조했다. 공단은 2024년부터 도입한 '선임검사원 임명' 제도를 통해 29명의 전문 인력을 양성하고, 매년 7만 건 이상의 검사를 수행하며 산업 현장의 에너지 안전을 강화하고 있다.",
+      "topics": [
+        "운영 최적화",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-15T00:31:50.645Z",
+      "originalUrl": "https://www.energy.or.kr/front/board/View3.do?boardMngNo=3&boardNo=10024979",
+      "collectedAt": "2026-05-15T00:31:50.645Z",
+      "newsletterSummary": {
+        "what": "한국에너지공단과 (주)한주가 2026-04-28까지 선임검사원 29명과 함께 열사용기자재 검사를 수행합니다.",
+        "why": "안전한 에너지 사용 환경 조성과 검사 신뢰도 제고를 위해 현장 점검 및 선임검사원 제도를 운영합니다.",
+        "sowhat": "전문성 강화로 산업 현장의 사고 예방과 안정적인 가동을 지원합니다."
+      },
+      "_meta": {
+        "method": "A",
+        "level": 1
+      }
+    },
+    {
+      "id": "54b543a9-3ad3-47f9-ad87-7a82f4834e8f",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "수소의 흐름: 아일랜드의 LCOH, 모로코, 브라질과 대등한 수준",
+      "titleOriginal": "The Hydrogen Stream: Ireland’s LCOH on par with Morocco, Brazil",
+      "summary": "Fraunhofer ISE는 아일랜드 에너지 기업 ESB와의 협력 연구를 통해 아일랜드가 재생에너지 기반 Power-to-X 및 그린 수소 생산에 있어 경쟁력 있는 입지임을 밝혔습니다. 이 연구에 따르면 아일랜드의 LCOH(수소 균등화 발전 비용)는 모로코, 남아프리카, 브라질과 대등한 수준입니다. 강력한 풍력 자원과 정책 지원, 인프라 잠재력이 이러한 경쟁력을 뒷받침합니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "publishedAt": "2026-05-15T14:23:42.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/15/the-hydrogen-stream-irelands-lcoh-on-par-with-morocco-brazil/",
+      "collectedAt": "2026-05-16T00:08:43.848Z",
+      "newsletterSummary": {
+        "what": null,
+        "why": "아일랜드는 재생에너지 확대와 전력 수요 증가에 따른 계통 유연성이 필요한 전략적 요충지입니다.",
+        "sowhat": "독일 프라운호퍼 연구소는 아일랜드 내 재생에너지 및 대규모 P2X 생산 적합지를 찾는 방법론을 개발했습니다."
+      },
+      "_meta": {
+        "method": "B",
+        "level": 4,
+        "netScore": 4,
+        "densityScore": 0.2857142857142857
+      }
+    },
+    {
+      "id": "458618fc-b467-4d6c-a71b-82201f21cf31",
+      "source": "한국에너지공단 (KEA)",
+      "sourceId": "kea",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "에너지공단, 기후부·에너지유관기관과 함께‘오늘의 에너지절약 국민행동’순차 홍보 - 여섯 번째 국민행동 : 고효율 가전제품 구매, LED로 교체 -",
+      "titleOriginal": null,
+      "summary": "한국에너지공단이 에너지 절약을 위해 고효율 가전제품 구매 및 LED 조명 교체 캠페인을 추진한다. 가전제품을 1등급으로 교체 시 연간 205kWh, 가정 내 모든 조명을 LED로 교체 시 연간 83kWh의 전력 절감 효과를 기대할 수 있다.",
+      "topics": [
+        "정책·규제",
+        "운영 최적화"
+      ],
+      "publishedAt": "2026-05-15T00:32:02.407Z",
+      "originalUrl": "https://www.energy.or.kr/front/board/View3.do?boardMngNo=3&boardNo=10024977",
+      "collectedAt": "2026-05-15T00:32:02.407Z",
+      "newsletterSummary": {
+        "what": "한국에너지공단 등은 2026-04-22까지 전국 2,200만 가구 대상 2,288GWh 절감 목표를 발표함.",
+        "why": "가정 내 고효율 가전 및 LED 교체가 국가 에너지 위기 극복에 도움이 됨을 알리기 위함이다.",
+        "sowhat": "전 국민 에너지 절약 실천으로 연간 전력 소비를 줄이고 국가 에너지 효율을 제고한다."
+      },
+      "_meta": {
+        "method": "A",
+        "level": 1
+      }
+    },
+    {
+      "id": "6146ed70-2532-4789-ba05-5f17200bc57a",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "북유럽 국가 4월 전기차 판매량 신기록 달성",
+      "titleOriginal": "New Record For Electric Car Sales In Nordic Countries In April",
+      "summary": "노르웨이와 덴마크를 중심으로 스웨덴, 핀란드 등 북유럽 국가에서 전기차 판매량이 사상 최고치를 기록했습니다. 클린테크니카(CleanTechnica)는 이러한 북유럽 지역의 강력한 전기차 시장 성장세를 보도했습니다.",
+      "topics": [
+        "시장·가격 동향",
+        "ESG·탄소중립"
+      ],
+      "publishedAt": "2026-05-15T22:30:46.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/15/new-record-for-electric-car-sales-in-nordic-countries-in-april/",
+      "collectedAt": "2026-05-16T00:13:12.210Z",
+      "newsletterSummary": {
+        "what": "노르웨이와 덴마크를 중심으로 북유럽 국가들의 전기차 판매량이 사상 최고치를 기록했습니다.",
+        "why": "클린테크니카는 북유럽 지역의 강력한 전기차 시장 성장세를 보도했습니다.",
+        "sowhat": null
+      },
+      "_meta": {
+        "method": "B",
+        "level": 2,
+        "netScore": 1
+      }
+    },
+    {
+      "id": "ed893333-a83a-47b3-aea2-c6c77b3fd3ae",
+      "source": "CleanTechnica",
+      "sourceId": "cleantechnica",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "제8회 연례 전기차 경품 행사 시작: 티켓 한 장으로 누리는 세 가지 혜택! 리비안, 루시드, 포르쉐의 주인공이 되어보세요. 티켓 수익금은 청정 에너지 투쟁을 지원합니다.",
+      "titleOriginal": "8th Annual EV Raffle Launches: One Ticket, Three Prizes! Win a Rivian, Lucid, or Porsche. Tickets Support Fight For Clean Energy.",
+      "summary": "체서피크 기후 행동 네트워크(CCAN Action Fund)가 제8회 연례 전기차 경품 행사를 개최하여 리비안, 루시드, 포르쉐 차량을 상품으로 내걸었습니다. 이번 행사는 모금된 수익금을 통해 청정 에너지 전환을 위한 기후 행동 활동을 지원하는 것을 목적으로 합니다.",
+      "topics": [
+        "ESG·탄소중립",
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-15T15:00:11.000Z",
+      "originalUrl": "https://cleantechnica.com/2026/05/15/8th-annual-ev-raffle-launches-one-ticket-three-prizes-win-a-rivian-lucid-or-porsche-tickets-support-fight-for-clean-energy/",
+      "collectedAt": "2026-05-16T00:14:21.780Z",
+      "newsletterSummary": {
+        "what": "체서피크 기후 행동 네트워크가 리비안, 루시드, 포르쉐 차량을 상품으로 한 제8회 전기차 경품 행사를 개최합니다.",
+        "why": "수익금으로 청정 에너지 전환을 위한 기후 행동 활동을 지원하기 위해서입니다.",
+        "sowhat": null
+      },
+      "_meta": {
+        "method": "B",
+        "level": 4,
+        "netScore": 2,
+        "densityScore": 0
+      }
+    },
+    {
+      "id": "5048f36b-689f-4732-87f5-0b95a9feec00",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "세계 최고 일사량 지역에서 저은 함량 이종접합 PV 모듈 테스트",
+      "titleOriginal": "Heterojunction PV modules with low silver content tested in world’s sunniest region",
+      "summary": "칠레 기업 아타모스텍(Atamostec)은 프랑스 CEA-Ines와 협력하여 아타카마 사막 태양광 플랫폼(PSDA)에서 저은 이종접합 태양광 모듈을 실제 사막 환경에서 시험하고 있습니다. ALPACA 프로젝트를 통해 현재까지 은을 구리로 최대 70% 대체하는 데 성공했습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "publishedAt": "2026-05-15T09:26:31.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/15/heterojunction-pv-modules-with-low-silver-content-tested-in-worlds-sunniest-region/",
+      "collectedAt": "2026-05-16T00:10:21.787Z",
+      "newsletterSummary": {
+        "what": "아타모스텍 등은 칠레 아타카마 사막에서 은 40%~70%를 구리로 대체하는 이종접합 모듈 기술을 발표했습니다.",
+        "why": "은을 구리로 대체해 태양광 모듈 비용을 절감하고 지속 가능성을 높이기 위함입니다.",
+        "sowhat": "칠레의 구리 자원을 활용해 태양광 기술의 비용 경쟁력과 글로벌 기술 주도권을 확보했습니다."
+      },
+      "_meta": {
+        "method": "A",
+        "level": 3,
+        "netScore": 3,
+        "densityScore": 0.3333333333333333
+      }
+    },
+    {
+      "id": "4bae58af-694e-4451-8d45-82efa65de07b",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "태양광 PPA, 스페인 현물 가격을 억제 아닌 상승시켜",
+      "titleOriginal": "Solar PPAs raise Spanish spot prices, not suppress them",
+      "summary": "새로운 동료 검토 연구에 따르면 스페인의 전력 시장에서 풍력 및 태양광 발전의 물리적 양자 계약(PBC)이 높은 보급률 단계에서 도매 전력 가격을 상승시키는 것으로 나타났습니다. 이는 초기 기간의 가격 억제 효과를 뒤집는 결과이며, 풍력 및 태양광 발전이 시장 가격에 미치는 영향에 대한 새로운 관점을 제시합니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-15T11:32:58.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/05/15/solar-ppas-raise-spanish-spot-prices-not-suppress-them/",
+      "collectedAt": "2026-05-16T00:09:20.830Z",
+      "newsletterSummary": {
+        "what": "이-디스트리뷰시온 레데스 디지탈레스와 코펜하겐 비즈니스 스쿨이 2019년 1월~2024년 12월간 52,260건의 데이터를 분석한 태양광 PPA 연구를 발표했습니다.",
+        "why": "스페인 전력 시장에서 물리적 전력구매계약(PBC)이 현물 가격을 낮추지 않고 오히려 상승시키는 효과를 냈기 때문입니다.",
+        "sowhat": "태양광·풍력 장기 계약이 현물 시장의 가격 완화 효과를 상쇄함에 따라 전력 시장 전략 수정이 요구됩니다."
+      },
+      "_meta": {
+        "method": "A",
+        "level": 3,
+        "netScore": 4,
+        "densityScore": 0.3076923076923077
+      }
+    },
+    {
+      "id": "a4d3418d-80de-478a-b5ba-17bb0da91df8",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "전 세계 그리드 배터리 설치 속도가 폭발적이다",
+      "titleOriginal": "The world is installing grid batteries at a blistering pace",
+      "summary": "블룸버그NEF의 최신 데이터에 따르면, 전력 계통에 연결되는 그리드 배터리 설치량이 2025년에 전년 대비 48% 급증했다. 태양광 등 생산된 에너지를 저장하는 이 배터리들은 총 112기가와트(GW) 규모에 달하며, 전 세계적으로 빠르게 확산되고 있다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "publishedAt": "2026-05-15T07:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/batteries/world-installing-grid-batteries",
+      "collectedAt": "2026-05-16T00:08:25.734Z",
+      "newsletterSummary": {
+        "what": "블룸버그NEF는 2025년 전 세계 그리드 배터리 설치가 112 GW로 48% 성장할 것으로 발표했습니다.",
+        "why": "리튬이온 배터리 가격 하락과 태양광·풍력 발전 확대에 따른 저장 수요 증가가 원인입니다.",
+        "sowhat": "전력 수요 증가로 2030년 연간 배터리 설치 용량이 200 GW를 넘을 전망입니다."
+      },
+      "_meta": {
+        "method": "A",
+        "level": 3,
+        "netScore": 4,
+        "densityScore": 0.9230769230769231
+      }
+    }
+  ]
+}

@@ -1,18 +1,18 @@
 ---
 template: analysis
-version: 5.0
+version: 6.0
 feature: newsletter-dashboard
-date: 2026-05-21
+date: 2026-06-04
 author: hyeokyeong@gmail.com
-matchRate: 99
+matchRate: 98
 phase: check
 ---
 
 # 뉴스레터 대시보드 v2 — Gap Analysis (Check Phase)
 
-> **Match Rate: 99%** (정적 분석, v2.4 Design 기준 + Sprint 7 /collect 통합·/newsletter-archive 반영)
+> **Match Rate: 98%** (정적 분석, v2.4 Design 기준 + Sprint 8 요약 파이프라인·EV 필터 반영)
 > **Status**: PASS — 90% 임계값 초과. 반복 개선 불필요.
-> **Next Phase**: `/pdca report newsletter-dashboard`
+> **Next Phase**: Plan/Design 문서 v2.5 업데이트 → `/pdca report newsletter-dashboard`
 
 ---
 
@@ -182,6 +182,18 @@ phase: check
 
 **수정 후 tsc**: 에러 0건 ✅
 
+**v6.0 신규 갭 (G-18 ~ G-22) — Sprint 8 구현 후 문서 갭 → 문서 업데이트 필요**:
+
+| # | 갭 ID | 심각도 | 설명 | 이전 설계 | 실제 구현 | 조치 |
+|---|-------|--------|------|---------|---------|------|
+| 18 | G-18 | Important | 뉴스레터 2단계 요약 파이프라인 미문서화 | Design §2.2에 없음 | `scripts/newsletter/` 6개 모듈 신규 구현 | ✅ Design §2.7 신설 완료 |
+| 19 | G-19 | Important | `relevance-filter.js` EV 소비자 필터 미문서화 | §2.4: 3단계 (EXCLUDE → TRUSTED → 키워드) | 4단계 (+ EV 소비자 체크, `'electric'` 제거) | ✅ Design §2.4 업데이트 완료 |
+| 20 | G-20 | Important | `screening.ts` 감점 로직·임계값 미문서화 | §2.6: 감점·임계값 없음 | EV 소비자 -25, 이벤트 -30, Pass 3-C 최소 25점, 수치 +10 | ✅ Design §2.6 업데이트 완료 |
+| 21 | G-21 | Minor | Plan v2.4에 Sprint 8 기능 요구사항 없음 | Sprint 7까지만 기재 | 요약 파이프라인·EV 필터·스크리닝 보강 구현됨 | ✅ Plan Sprint 8 섹션 추가 완료 |
+| 22 | G-22 | Minor | Design §2.2 파일 구조에 `scripts/newsletter/` 없음 | 크롤러 모듈만 기재 | `newsletter/` 6개 파일 + `summarize-newsletter.js` 신규 | ✅ Design §2.2 파일 구조 추가 완료 |
+
+> 모든 갭이 **문서 갭** (코드 구현 선행, 문서 미반영) → 전량 문서 업데이트로 해소.
+
 ---
 
 ## 6. Decision Record 검증
@@ -206,13 +218,27 @@ phase: check
 
 | 항목 | 결과 |
 |------|------|
-| **Overall Match Rate** | **97%** |
+| **Overall Match Rate** | **98%** |
 | Critical 갭 | 0건 |
-| Important 갭 | 0건 |
-| Minor 갭 | 2건 (cosmetic, 문서) |
+| Important 갭 | 3건 (G-18~G-20, 문서 갭) |
+| Minor 갭 | 2건 (G-21~G-22, 문서 갭) |
 | 성공 기준 달성 | 3/3 (100%) |
 | 반복 개선 필요 | ❌ 불필요 (90% 임계값 초과) |
-| **권장 다음 단계** | **`/pdca report newsletter-dashboard`** |
+| **권장 다음 단계** | **Plan/Design v2.5 업데이트 → `/pdca report newsletter-dashboard`** |
+
+### Match Rate 산출 (Sprint 8, 정적 분석)
+
+```
+Overall = (Structural × 0.2) + (Functional × 0.4) + (Contract × 0.4)
+        = (90% × 0.2)        + (100% × 0.4)       + (100% × 0.4)
+        = 18 + 40 + 40 = 98%
+```
+
+| 축 | 점수 | 근거 |
+|---|:---:|---|
+| Structural | 90% | 기존 문서 파일 전부 구현 ✅ / 신규 6개 파일 문서 미반영 → 감점 |
+| Functional | 100% | 2단계 요약 파이프라인 10건 테스트 통과 / screening 감점 로직 정상 |
+| API Contract | 100% | Static Export 유지, JSON 스키마 일치 |
 
 ---
 
@@ -225,3 +251,4 @@ phase: check
 | 3.0 | 2026-05-11 | v3 재분석 (라우트 /collect·/generate, 인쇄 버튼, classifier.js, 19개 소스 반영) |
 | 4.0 | 2026-05-18 | v4 재분석 (Sprint 6 스크리닝, 26개 소스, G-09/G-10 버그 수정, Design v2.3 기준) |
 | 5.0 | 2026-05-21 | v5 재분석 (Sprint 7 갭 G-11~G-17 발견 및 문서 업데이트로 전량 해소, Design v2.4 기준) |
+| 6.0 | 2026-06-04 | v6 재분석 (Sprint 8 갭 G-18~G-22 발견 — 요약 파이프라인·EV 필터 문서 갭, Match Rate 98%) |

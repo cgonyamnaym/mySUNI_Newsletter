@@ -1,8 +1,8 @@
 ---
 template: design
-version: 2.4
+version: 2.5
 feature: newsletter-dashboard
-date: 2026-05-21
+date: 2026-06-04
 author: hyeokyeong@gmail.com
 project: 에너지 뉴스레터 대시보드
 ---
@@ -119,16 +119,23 @@ scripts/
   run-crawl.js            ← 진입점: RSS/GNews → Scrape 순서 실행
   reclassify-articles.js  ← 기존 기사 토픽 재분류 마이그레이션
   biweekly-report.js      ← 격주 리포트 생성
+  summarize-newsletter.js ← 뉴스레터 요약 CLI 진입점 (Sprint 8, § 2.7)
   crawlers/
     sources.js            ← 26개 소스 설정 배열 (rss/scrape, 24개 활성)
     rss-crawler.js        ← crawlRss(): rss 타입 처리
     scraper.js            ← crawlScrape(): Cheerio 멀티셀렉터 지원
     classifier.js         ← 키워드 기반 토픽 분류 (6개 카테고리, 한/영)
     body-fetcher.js       ← fetchBodyText(url): 본문 전문 수집 + countSentences()
-    relevance-filter.js   ← isEnergyRelevant(title, summary, lang): 에너지 관련성 필터
+    relevance-filter.js   ← isEnergyRelevant(): 4단계 에너지 관련성 필터 (§ 2.4)
     summarizer.js         ← gemini-2.5-flash 번역·요약·분류 (rate limit/fallback)
     url-tracker.js        ← filterNew({force}) / markSeen({dryRun}) / isUrlAccessible()
     pdf-crawler.js        ← IRENA 등 기관 PDF 수집
+  newsletter/             ← 뉴스레터 전용 요약 파이프라인 (Sprint 8, § 2.7)
+    gemini-client.js      ← 공유 Gemini 클라이언트 (rate limit + fallback)
+    article-classifier.js ← Step 0: 기사 유형 판별 (Method A / B)
+    field-extractor.js    ← Step 1A: Method A 구조화 필드 추출 (LLM)
+    sentence-selector.js  ← Step 1B: Method B 문장 점수 선발 (rule-based)
+    summary-generator.js  ← Step 2: 3줄 요약 생성 + 왜곡 방지 검증 (LLM)
 ```
 
 **소스 타입 분류** (sources.js):
@@ -156,80 +163,50 @@ const selectors = cfg.titleSelector.split(',').map(s => s.trim())
 const href = $(el).attr('href') || $(el).closest('a').attr('href')
 ```
 
-### 2.4 에너지 관련성 필터 (키워드 기반)
+### 2.4 에너지 관련성 필터 (키워드 기반, v2.5 4단계)
 
-RSS·스크래핑 소스는 에너지 전문지라도 무관 기사를 포함한다 (에너지경제신문 선거·금융, Electrek 자동차 전반, 그린포스트코리아 일반 뉴스). 수집 단계에서 에너지 키워드가 하나도 없는 기사를 **제목 기준**으로 필터링한다.
+RSS·스크래핑 소스는 에너지 전문지라도 무관 기사를 포함한다. 수집 단계에서 **4단계 Cascade**로 필터링.
 
-**적용 위치**: `isUrlAccessible()` 이후, `isBodyLongEnough()` 이전 (불필요한 본문 fetch 방지)
+**적용 위치**: `isUrlAccessible()` 이후, `isBodyLongEnough()` 이전
 
 ```
-수집된 후보 URL 목록
-        │
-filterNew()                ← URL dedup
-        │
-isUrlAccessible()          ← 404·접속불가 제외
-        │
-isEnergyRelevant(title)    ← 에너지 키워드 1개 이상 포함?  ← § 2.4 (신규)
-  NO   → skip              (markSeen 호출 안 함)
-  YES  →
-        │
-isBodyLongEnough(url)      ← 본문 10문장 이상?            ← § 2.5
-  NO   → skip
-  YES  → summarize() → markSeen() → 저장
+isEnergyRelevant(title, summary, lang, sourceId)
+
+단계 1: EXCLUDE 키워드 체크 (모든 소스 적용)
+  → 선거 후보·부동산·주식지수·이벤트홍보(giveaway/경품 행사 등) 포함 시 false
+
+단계 2: TRUSTED 소스 면제
+  → TRUSTED_ENERGY_SOURCES에 포함 시 즉시 true (키워드 검사 생략)
+
+단계 3: EV 소비자 콘텐츠 필터 (Sprint 8 신규)
+  → 제목에 EV 소비자 키워드 포함 → 제목+요약에서 전력망 맥락 확인
+  → 전력망 맥락 없으면 false (EV 판매·리뷰·가정 충전·경품 등)
+  → V2G·충전 인프라·수요반응·전기버스 플리트 → 통과 허용
+
+단계 4: 에너지 키워드 매칭 (제목 기준)
+  → ENERGY_KW_KO / ENERGY_KW_EN 1개 이상 → true / 0개 → false
 ```
 
-**`relevance-filter.js` 명세**:
+**EV 필터링 정책** (Sprint 8):
 
-```js
-// 에너지 도메인 핵심 키워드 (한/영 공통)
-const ENERGY_KW_KO = [
-  '에너지', '전력', '전기', '발전', '재생에너지', '신재생', '태양광', '태양전지',
-  '풍력', '해상풍력', '원자력', '원전', 'smr', '수소', '그린수소', '연료전지',
-  '배터리', 'ess', '에너지저장', '전기차', '충전', 'ev충전', '계통', '송전', '배전',
-  '스마트그리드', '한전', '한국전력', '전기요금', '전기사업', '에너지전환',
-  '탄소중립', '탄소배출', '온실가스', '기후변화', '넷제로', 'cop', 're100',
-  'lng', 'lpg', 'cng', '석유', '유가', '원유', '가스', '도시가스', '연료', '화력',
-  '열에너지', '집단에너지', '지열', '조력', '수력', '바이오에너지',
-  '에너지정책', '전력시장', '발전소', '변전소', '전력망', '전력계통',
-  '국제에너지기구', 'iea', 'irena', '석탄', '탈탄소', '에너지효율',
-]
-const ENERGY_KW_EN = [
-  'energy', 'electricity', 'power', 'solar', 'wind', 'nuclear', 'hydrogen',
-  'battery', 'storage', 'ess', 'bess', 'grid', 'renewable', 'bioenergy',
-  'geothermal', 'fuel', 'gas', 'lng', 'lpg', 'oil', 'carbon', 'emission',
-  'climate', 'net zero', 'decarbonization', 're100', 'ev charging',
-  'photovoltaic', 'turbine', 'reactor', 'smr', 'electrolyzer',
-  'transmission', 'distribution', 'substation', 'microgrid',
-  'kilowatt', 'megawatt', 'gigawatt', 'kwh', 'mwh', 'gwh',
-]
+| 콘텐츠 유형 | 처리 |
+|---|---|
+| EV 판매량·보급률·구매·가격·리뷰 | ❌ 제외 |
+| 가정용 충전기·충전 방법·경품 | ❌ 제외 |
+| 전동킥보드·전기자전거 | ❌ 제외 |
+| V2G·스마트 충전·수요반응 | ✅ 허용 |
+| 충전 인프라(공공·산업 규모) | ✅ 허용 |
+| 전기버스·전기트럭 플리트 | ✅ 허용 |
 
-/**
- * 제목(+요약)에 에너지 관련 키워드가 1개 이상 포함되는지 확인.
- * @param {string} title
- * @param {string} summary   - 없으면 ''
- * @param {string} lang      - 'ko' | 'en'
- * @param {string} sourceId  - TRUSTED_ENERGY_SOURCES에 포함 시 제외 키워드 통과 후 무조건 pass
- * @returns {boolean}
- */
-function isEnergyRelevant(title, summary = '', lang = 'ko', sourceId = '') { ... }
-```
+> `'electric'` 키워드 ENERGY_KW_EN에서 제거 (오매칭 방지). `'electricity'`, `'electrif'` 유지.
 
-**판정 기준**:
-- 제목에서 먼저 검사 (필수)
-- 제목 미매칭 시 요약(summary)까지 추가 검사
-- 한국어 소스: `ENERGY_KW_KO` 우선, 영어 보완
-- 영어 소스: `ENERGY_KW_EN` 우선, 한국어 보완
-- 키워드 1개 이상 → 통과 / 0개 → skip
-
-**주요 필터링 대상 (사례)**:
+**주요 필터링 사례**:
 | 소스 | 제목 예시 | 판정 |
 |------|----------|------|
-| 에너지경제신문 | "BTS 귀환에 하이브 강세" | ❌ skip |
-| 에너지경제신문 | "전기요금 인상 논의 본격화" | ✅ 통과 |
-| 그린포스트코리아 | "게임 마케팅 크리에이터가 흥행 가른다" | ❌ skip |
-| 그린포스트코리아 | "탄소배출 감축 목표 상향" | ✅ 통과 |
-| Electrek | "BYD drop-top electric hypercar images" | ❌ skip |
-| Electrek | "EV charging infrastructure expands" | ✅ 통과 |
+| CleanTechnica | "북유럽 전기차 판매량 신기록" | ❌ (EV 소비자) |
+| CleanTechnica | "V2G 기술로 전력망 안정성 향상" | ✅ (EV + 전력망) |
+| CleanTechnica | "제8회 전기차 경품 행사 시작" | ❌ (이벤트) |
+| 에너지경제신문 | "전기요금 인상 논의 본격화" | ✅ |
 
 ### 2.5 기사 본문 길이 필터 (10문장 이상)
 
@@ -331,12 +308,14 @@ function screenArticles(
 | SK 그룹 사업 연관성 | +15 | SK_GROUP_KW 매칭 |
 | 사업 연관성 합계 | 최대 +20 | 소스신뢰도 + 국내 영향 + 글로벌 파급력 |
 | 소스 신뢰도 (Tier1) | +10 | IEA, IRENA, BNEF |
-| 소스 신뢰도 (Tier2) | +5 | 전문지 18개 |
+| 소스 신뢰도 (Tier2) | +5 | 전문지 19개 (Sprint 8: cleantechnica 추가) |
 | 국내 직접 영향 키워드 | +8 | 한전, 산업부 등 |
 | 글로벌 파급력 키워드 | +5 | G7, COP, EU 등 |
-| 정보 품질 합계 | 최대 +10 | 공식기관 + 수량 패턴 |
+| 정보 품질 합계 | 최대 +15 | 공식기관 + 수량 패턴 |
 | 공식 기관 언급 | +5 | 정부, DOE, FERC 등 |
-| 수량 패턴 (GW/억원/%) | +5 | QUANTITY_PATTERN regex |
+| 수량 패턴 (GW/억원/%) | **+10** | Sprint 8: 에너지 수치 핵심 신호 가산 강화 |
+| **EV 소비자 콘텐츠** | **-25** | Sprint 8 신규: ev sales·review·가정 충전 등 |
+| **이벤트·홍보 콘텐츠** | **-30** | Sprint 8 신규: giveaway·sweepstakes·경품 행사 등 |
 
 **패스 2: 중복 감점**:
 - 상위 200개 기사 대상 pairwise Jaccard 유사도 비교
@@ -347,8 +326,8 @@ function screenArticles(
 - 점수 순으로 순회하며 `LIMIT`개 선정
 - 3-A: categoryMax(primaryTopic 기준) + sourceMax 모두 적용
 - 3-B: 부족 시 categoryMax 무시, sourceMax만 유지
-- 3-C: 그래도 부족 시 모든 cap 무시, 점수순으로 채움
-- 목적: 동일 카테고리·동일 소스 과잉 집중 방지
+- 3-C: 그래도 부족 시 모든 cap 무시, 점수순으로 채움 **(Sprint 8: 25점 미만 기사 제외)**
+- 목적: 동일 카테고리·동일 소스 과잉 집중 방지 + 최소 관련성 보장
 
 **점수 레이블**:
 
@@ -357,6 +336,64 @@ function screenArticles(
 | ≥ 75 | 연관성 높음 | 녹색 |
 | ≥ 45 | 연관성 보통 | 주황색 |
 | < 45 | 연관성 낮음 | 회색 |
+
+### 2.7 뉴스레터 요약 파이프라인 (Sprint 8 신규)
+
+사용자가 기사 선택을 확정한 후 뉴스레터에 게재할 3줄 요약을 생성하는 오프라인 파이프라인.
+
+**실행 방법**:
+```bash
+node scripts/summarize-newsletter.js --ids=id1,id2,...
+node scripts/summarize-newsletter.js --input=selected-ids.json
+```
+→ 출력: `public/data/newsletter-draft.json`
+
+**3단계 파이프라인**:
+
+```
+[Step 0] 기사 유형 판별 (article-classifier.js)
+  Cascade 4단계:
+    Level 1: 출처 override (kea → A, iea/irena/bnef/carbon-brief → B)
+    Level 2: Net Score (A-Score - B-Score) ≥ 6 → A / ≤ 1 → B
+    Level 3: 밀도 점수 (수치밀도·완료동사밀도 vs 예측표현밀도·연결표현밀도) ≥ 0.30 → A / ≤ -0.10 → B
+    Level 4: LLM 단일 질문 (회색지대만, 제목+첫문단 입력)
+          ↓
+[Step 1A] Method A — 팩트형 기사 (계약·발표·정책·투자·착공준공 등)
+  field-extractor.js: Gemini LLM → JSON 구조화 추출
+  필드: article_type / who / metrics / location_target / tech_keywords / causal_core / business_impact
+          ↓
+[Step 1B] Method B — 분석형 기사 (동향·전망·인터뷰·칼럼 등)
+  sentence-selector.js: rule-based 문장 점수 선발 (LLM 없음)
+  선발 기준: 위치 가중치 + 수치 포함 + 에너지 키워드 밀도 + 인용 출처
+  What/Why/So what 역할별 최적 문장 3개 선정
+          ↓
+[Step 2] 3줄 요약 생성 (summary-generator.js)
+  Gemini LLM → { what, why, sowhat }
+  고정 템플릿: "핵심 요소만 활용, 추가 추정 금지"
+```
+
+**왜곡 방지 4단계 코드 검증** (`validateAndRepair`):
+
+| 순서 | 검증 | 실패 시 |
+|---|---|---|
+| 1 | what 근거 없음 | what/why/sowhat 전부 null |
+| 1b | LLM 실패로 what null + 근거 있음 | whatFallback 적용 |
+| 2 | 수치 보존 (primary metric 변형 감지) | fallback 텍스트 교체 |
+| 3 | 엔티티 보존 (Method A, 행위자명 변형) | fallback 텍스트 교체 |
+| 4 | why/sowhat 근거 없음 | null 강제 |
+
+**영어 기사 처리**:
+- `field-extractor.js`: 영어 기사라도 `main_actor` 등 모든 텍스트 필드를 한국어로 추출
+- `summary-generator.js`: `lang === 'en'` 시 번역 지시 추가, LLM 실패 fallback = null (영어 노출 방지)
+
+**LLM 호출 횟수 (기사당)**:
+
+| 경로 | Step 0 | Step 1 | Step 2 | 합계 |
+|---|:---:|:---:|:---:|:---:|
+| 명확한 A | 0 | 1 | 1 | 2회 |
+| 명확한 B | 0 | 0 | 1 | 1회 |
+| 회색지대 → A | 1 | 1 | 1 | 3회 |
+| 회색지대 → B | 1 | 0 | 1 | 2회 |
 
 ### 2.3 CSR 데이터 플로우
 
@@ -998,6 +1035,8 @@ c:/Users/mysuni_newsletter_pjt2/
 | Sprint 4 | 기사 본문 길이 필터: `body-fetcher.js` 신규, `rss-crawler.js` + `scraper.js` 연동 | ✅ 완료 |
 | Sprint 5 | 에너지 관련성 필터: `relevance-filter.js` 신규, 크롤러 연동, 기존 데이터 소급 제거 | ✅ 완료 |
 | Sprint 6 | 연관성 스크리닝: `screening.ts` (다차원 점수화, 중복 감점), `/screening` 페이지 | ✅ 완료 |
+| Sprint 7 | /collect 스크리닝 통합, /newsletter-archive 신규, Sidebar 재구성, ScreeningOptions + Pass 3 | ✅ 완료 |
+| Sprint 8 | 뉴스레터 2단계 요약 파이프라인(`scripts/newsletter/`), EV 소비자 필터(4단계), 스크리닝 보강(감점·임계값) | ✅ 완료 |
 
 ---
 
@@ -1013,3 +1052,4 @@ c:/Users/mysuni_newsletter_pjt2/
 | 2.2 | 2026-05-12 | §2.4 신규: 에너지 관련성 키워드 필터 (relevance-filter.js), 소급 제거 스크립트 |
 | 2.3 | 2026-05-18 | Sprint 5 완료 처리, Sprint 6 신규: screening.ts 다차원 점수화 + /screening 페이지, 소스 26개(24활성), google-news 타입 제거, 라우트명 /select→/collect, /newsletter→/generate |
 | 2.4 | 2026-05-21 | Sprint 7 반영: /collect 스크리닝 통합, /newsletter-archive 신규, Sidebar 구조 변경, screenArticles ScreeningOptions + Pass 3, Article.primaryTopic, isEnergyRelevant sourceId 파라미터, /screening LimitOption 30 추가 |
+| 2.5 | 2026-06-04 | Sprint 8 반영: §2.7 뉴스레터 요약 파이프라인 신설, §2.2 scripts/newsletter/ 파일 구조 추가, §2.4 EV 소비자 4단계 필터 업데이트, §2.6 감점 로직·Pass 3-C 임계값·cleantechnica SOURCE_TIER2 반영 |

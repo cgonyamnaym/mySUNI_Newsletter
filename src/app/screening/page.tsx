@@ -13,8 +13,6 @@ import type { Article, MetaIndex } from '@/lib/types'
 // /screening 전용 스토리지 키 (더 이상 /collect와 공유하지 않음)
 const STORAGE_KEY = 'newsletter-selection'
 
-type LimitOption = 30 | 50 | 100 | 'all'
-
 interface StoredSelection {
   reportId: string
   selectedIds: string[]
@@ -56,7 +54,6 @@ export default function ScreeningPage() {
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set())
   const [activeTopic, setActiveTopic] = useState<string>('전체')
   const [loading, setLoading] = useState(true)
-  const [limitOption, setLimitOption] = useState<LimitOption>(30)
 
   useEffect(() => {
     fetchJson<MetaIndex>('/data/index.json').then(setIndex)
@@ -93,17 +90,15 @@ export default function ScreeningPage() {
   }, [index])
 
   // 과거 아카이브에서 수요 키워드 추출 (마운트 시 1회)
-  const { demandKeywords, archiveArticleCount } = useMemo(() => {
+  const demandKeywords = useMemo(() => {
     const entries = getArchiveEntries()
     const articles = entries.flatMap((e) => e.articles)
-    return { demandKeywords: computeDemandKeywords(articles), archiveArticleCount: articles.length }
+    return computeDemandKeywords(articles)
   }, [])
 
-  const effectiveLimit = limitOption === 'all' ? undefined : limitOption
-
   const screened = useMemo(
-    () => screenArticles(allArticles, { limit: effectiveLimit, categoryMax: 8, sourceMax: 4 }, demandKeywords),
-    [allArticles, effectiveLimit, demandKeywords]
+    () => screenArticles(allArticles, { limit: 30, categoryMax: 8, sourceMax: 4 }, demandKeywords),
+    [allArticles, demandKeywords]
   )
 
   // 스크리닝된 ID 집합 — 여기 없는 ID는 선택에서 제거
@@ -155,13 +150,6 @@ export default function ScreeningPage() {
   const allFilteredSelected =
     filteredScreened.length > 0 && filteredScreened.every((a) => selectedIds.has(a.id))
 
-  const LIMIT_OPTIONS: { value: LimitOption; label: string }[] = [
-    { value: 30, label: '30개' },
-    { value: 50, label: '50개' },
-    { value: 100, label: '100개' },
-    { value: 'all', label: '전체' },
-  ]
-
   return (
     <div className="flex flex-col h-full bg-wds-gray-50 relative">
       <Header lastUpdated={index?.lastUpdated ?? ''} latestReportId={index?.availableReports[0]} />
@@ -180,39 +168,6 @@ export default function ScreeningPage() {
           <strong>안내:</strong> 최근 14일 수집 기사 중 에너지 키워드 연관성이 높고 카테고리 다양성을 고려해
           <strong> 상위 30개</strong>를 자동 선별했습니다.
           뉴스레터에 포함할 기사를 선택한 후 하단의 <strong>뉴스레터 생성하기</strong>를 누르세요.
-          {archiveArticleCount > 0 ? (
-            <span className="ml-2 inline-flex items-center gap-1 text-orange-500 font-semibold">
-              <span className="inline-block w-1.5 h-1.5 rounded-full bg-orange-400" />
-              수요 분석 활성 (아카이브 {archiveArticleCount}개 기사 기반)
-            </span>
-          ) : (
-            <span className="ml-2 text-wds-gray-400">
-              (뉴스레터 확정 후 수요 분석이 활성화됩니다)
-            </span>
-          )}
-        </div>
-
-        {/* 표시 개수 선택 */}
-        <div className="mb-4 flex items-center gap-2">
-          <span className="text-[12px] text-wds-gray-500 font-medium shrink-0">표시 개수</span>
-          {LIMIT_OPTIONS.map(({ value, label }) => (
-            <button
-              key={value}
-              onClick={() => setLimitOption(value)}
-              className={`px-3 py-1 text-[12px] font-semibold rounded-md border transition-colors ${
-                limitOption === value
-                  ? 'bg-wds-gray-900 text-white border-wds-gray-900 shadow-sm'
-                  : 'bg-white text-wds-gray-600 border-wds-gray-300 hover:border-wds-gray-500 hover:text-wds-gray-950'
-              }`}
-            >
-              {label}
-            </button>
-          ))}
-          {limitOption !== 'all' && (
-            <span className="text-[12px] text-wds-gray-400 ml-1">
-              / 전체 {allArticles.length}건
-            </span>
-          )}
         </div>
 
         {/* 토픽 필터 + 전체 선택/해제 */}
@@ -347,55 +302,14 @@ export default function ScreeningPage() {
                         </div>
                       )}
 
-                      {/* 수요 키워드 */}
-                      {article.matchedDemandKeywords.length > 0 && (
-                        <div className="flex flex-wrap gap-1.5 mb-2">
-                          <span className="text-[11px] text-orange-400 font-medium mt-0.5">수요:</span>
-                          {article.matchedDemandKeywords.slice(0, 5).map((kw) => (
-                            <span
-                              key={kw}
-                              className="inline-block px-2 py-0.5 rounded text-[11px] font-medium"
-                              style={{ background: 'rgba(251,146,60,0.12)', color: '#EA6C00' }}
-                            >
-                              {kw}
-                            </span>
-                          ))}
-                          {article.matchedDemandKeywords.length > 5 && (
-                            <span className="text-[11px] text-orange-300 mt-0.5">
-                              +{article.matchedDemandKeywords.length - 5}개
-                            </span>
-                          )}
-                        </div>
-                      )}
-
-                      {/* 전략 중요도 신호 + SK 연관성 */}
-                      {(article.strategicSignals.length > 0 || article.skRelevance || article.isDuplicate) && (
+                      {article.isDuplicate && (
                         <div className="flex flex-wrap gap-1.5 mb-3">
-                          {article.strategicSignals.map((sig) => (
-                            <span
-                              key={sig}
-                              className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-bold"
-                              style={{ background: 'rgba(99,102,241,0.12)', color: '#4F46E5' }}
-                            >
-                              ⚡ {sig}
-                            </span>
-                          ))}
-                          {article.skRelevance && (
-                            <span
-                              className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-bold"
-                              style={{ background: 'rgba(239,68,68,0.10)', color: '#DC2626' }}
-                            >
-                              SK 연관
-                            </span>
-                          )}
-                          {article.isDuplicate && (
-                            <span
-                              className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-bold"
-                              style={{ background: 'rgba(112,115,124,0.10)', color: '#70737C' }}
-                            >
-                              중복 감점
-                            </span>
-                          )}
+                          <span
+                            className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-bold"
+                            style={{ background: 'rgba(112,115,124,0.10)', color: '#70737C' }}
+                          >
+                            중복 감점
+                          </span>
                         </div>
                       )}
 

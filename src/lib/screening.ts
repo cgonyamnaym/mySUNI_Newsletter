@@ -55,7 +55,8 @@ const SOURCE_TIER1 = new Set(['iea', 'irena', 'bnef'])
 const SOURCE_TIER2 = new Set([
   'energy-storage', 'pv-magazine', 'windpower-monthly', 'world-nuclear-news',
   'carbon-brief', 'data-center-dynamics', 'utility-dive', 'power-magazine',
-  'canary-media', 'electimes', 'e2news', 'energydaily', 'todayenergy',
+  'canary-media', 'cleantechnica',
+  'electimes', 'e2news', 'energydaily', 'todayenergy',
   'energytimes', 'ekn', 'kea', 'igt', 'kaif',
 ])
 
@@ -252,11 +253,28 @@ export function screenArticles(
     if (GLOBAL_IMPACT_KW.some((kw) => text.includes(kw)))   bizBonus += 5
     score += Math.min(bizBonus, 20)
 
-    // 정보 품질 (최대 +10)
+    // 정보 품질 (최대 +15)
     let qualityBonus = 0
-    if (QUANTITY_PATTERN.test(text)) qualityBonus += 5
+    if (QUANTITY_PATTERN.test(text)) qualityBonus += 10  // 수치 포함 기사 가산 강화
     if (OFFICIAL_BODY_KW.some((kw) => text.includes(kw.toLowerCase()))) qualityBonus += 5
-    score += Math.min(qualityBonus, 10)
+    score += Math.min(qualityBonus, 15)
+
+    // EV 소비자 콘텐츠 감점 (크롤링 필터 통과한 경우 2차 방어)
+    const EV_CONSUMER_PENALTY_KW = [
+      'ev sales', 'electric vehicle sales', 'electric car sales',
+      'ev market share', 'ev adoption', 'ev range', 'ev review',
+      'home charging', 'best ev', 'ev comparison',
+      '전기차 판매량', '전기차 보급률', '전기차 가격', '전기차 리뷰',
+      '전기자전거', '전동킥보드',
+    ]
+    if (EV_CONSUMER_PENALTY_KW.some((kw) => text.includes(kw))) score -= 25
+
+    // 이벤트·홍보 콘텐츠 감점 (소비자 이벤트만, 산업 행사 제외)
+    const CONSUMER_EVENT_PENALTY_KW = [
+      'giveaway', 'sweepstakes', 'raffle', 'enter to win',
+      '경품 추첨', '경품 당첨', '경품 행사',
+    ]
+    if (CONSUMER_EVENT_PENALTY_KW.some((kw) => text.includes(kw))) score -= 30
 
     return { ...article, relevanceScore: score, matchedKeywords, matchedDemandKeywords, strategicSignals, skRelevance, isDuplicate: false }
   })
@@ -319,11 +337,14 @@ export function screenArticles(
   }
 
   // Pass 3-C: 그래도 부족하면 모든 cap 무시하고 점수순으로 채움
+  // 단, 최소 점수 임계값(25) 미만 기사는 제외 — 관련성 낮은 기사의 수량 채우기 방지
+  const MIN_SCORE_THRESHOLD = 25
   if (selected.length < LIMIT) {
     const selectedIds = new Set(selected.map(a => a.id))
     for (const article of scored) {
       if (selected.length >= LIMIT) break
       if (selectedIds.has(article.id)) continue
+      if (article.relevanceScore < MIN_SCORE_THRESHOLD) continue
       selected.push(article)
     }
   }

@@ -1,8 +1,8 @@
 ---
 template: plan
-version: 2.4
+version: 2.5
 feature: newsletter-dashboard
-date: 2026-05-21
+date: 2026-06-04
 author: hyeokyeong@gmail.com
 project: 에너지 뉴스레터 대시보드
 ---
@@ -35,7 +35,7 @@ project: 에너지 뉴스레터 대시보드
 | **WHO** | 뉴스레터 편집 담당자(1~2명) + 구독 임직원 전체 |
 | **RISK** | JS SPA 사이트 스크래핑 불가 → Google News site: 필터로 우회 / localStorage 용량 초과 |
 | **SUCCESS** | 26개 소스 중 20개+ 정상 수집 / /collect·/screening·/generate 정상 동작 / 복사 버튼 동작 / 스크리닝 점수화 정상 작동 |
-| **SCOPE** | Sprint 1~3: 크롤링·수집·생성 ✅ / Sprint 4~5: 품질 필터 ✅ / Sprint 6: 스크리닝 ✅ / Sprint 7: /collect 통합 + /newsletter-archive 신규 ✅ |
+| **SCOPE** | Sprint 1~3: 크롤링·수집·생성 ✅ / Sprint 4~5: 품질 필터 ✅ / Sprint 6: 스크리닝 ✅ / Sprint 7: /collect 통합 + /newsletter-archive ✅ / Sprint 8: 2단계 요약 파이프라인 + EV 필터 + 스크리닝 보강 ✅ |
 
 ---
 
@@ -94,16 +94,23 @@ project: 에너지 뉴스레터 대시보드
 ```
 scripts/
   run-crawl.js            ← 메인 진입점 (RSS → Scraping → PDF 순서)
+  summarize-newsletter.js ← 뉴스레터 요약 CLI 진입점 (Sprint 8 신규)
   crawlers/
     sources.js            ← 26개 소스 설정 (rss / scrape / pdf)
     rss-crawler.js        ← RSS 수집
     scraper.js            ← Cheerio HTML 스크래핑
     pdf-crawler.js        ← IRENA PDF 수집
     body-fetcher.js       ← 본문 전문 수집 + 문장 수 판정 (Sprint 4)
-    relevance-filter.js   ← 에너지 관련성 키워드 필터 (Sprint 5)
+    relevance-filter.js   ← 에너지 관련성 필터 (Sprint 5, Sprint 8 EV 필터 확장)
     classifier.js         ← 키워드 기반 토픽 분류 (6개 카테고리)
     summarizer.js         ← Gemini API 번역·요약·토픽 분류 + isEnergyMain 판별
     url-tracker.js        ← URL 중복 제거 (.crawled-urls.json)
+  newsletter/             ← 뉴스레터 전용 요약 파이프라인 (Sprint 8 신규)
+    gemini-client.js      ← 공유 Gemini 클라이언트 (rate limit + fallback)
+    article-classifier.js ← Step 0: 4단계 Cascade 기사 유형 판별 (Method A/B)
+    field-extractor.js    ← Step 1A: Method A 구조화 필드 추출 (LLM)
+    sentence-selector.js  ← Step 1B: Method B 문장 점수 선발 (rule-based)
+    summary-generator.js  ← Step 2: 3줄 요약 생성 + 왜곡 방지 검증 (LLM)
 ```
 
 **6단계 수집 파이프라인**:
@@ -164,6 +171,15 @@ public/data/            ← 브라우저 fetch 가능 (Next.js public/)
 | FR-35 | `/screening`: 표시 개수 선택 (30/50/100/전체, default 30) | Low | ✅ |
 | FR-36 | `/collect`: 스크리닝 통합 (screenArticles + 배지 표시) | High | ✅ 완료 |
 | FR-37 | `/newsletter-archive`: 확정 뉴스레터 아카이브 목록 | Medium | ✅ 완료 |
+
+### 2.3 Sprint 8 신규 기능
+
+| ID | 요구사항 | 우선순위 | 상태 |
+|----|---------|---------|------|
+| FR-38 | 뉴스레터 2단계 요약 파이프라인: Method A(팩트)/B(분석) 기사 유형 자동 판별 | High | ✅ 완료 |
+| FR-39 | 뉴스레터 3줄 요약 생성: What/Why/So what 구조 + 왜곡 방지 검증 (수치 보존, 엔티티 보존, null 강제) | High | ✅ 완료 |
+| FR-40 | EV 소비자 콘텐츠 필터링: 전력망 맥락 없는 EV 판매·리뷰·경품·가정용 충전 기사 수집 단계 제외 | High | ✅ 완료 |
+| FR-41 | 스크리닝 품질 보강: EV 소비자 감점(-25), 이벤트 홍보 감점(-30), Pass 3-C 최소 점수 임계값(25점), 수치 품질 가산 강화(+10) | Medium | ✅ 완료 |
 
 ---
 
@@ -410,6 +426,17 @@ interface Article {
 - [x] `Header` / `Footer` / `Sidebar` 네비게이션 링크
 - [x] WDS 디자인 시스템 통합 (Pretendard, #0066FF 등)
 
+### Sprint 8 — 요약 파이프라인 + EV 필터 + 스크리닝 보강 ✅
+
+- [x] `scripts/newsletter/` 6개 모듈 구현 (gemini-client, article-classifier, field-extractor, sentence-selector, summary-generator)
+- [x] `scripts/summarize-newsletter.js` CLI 진입점 구현
+- [x] 기사 유형 판별: 4단계 Cascade Early-Exit (출처 override → Net Score → 밀도 점수 → LLM)
+- [x] Method A (팩트형): Gemini 구조화 필드 추출 → 3줄 요약
+- [x] Method B (분석형): 문장 점수 선발(rule-based) → 3줄 요약
+- [x] 왜곡 방지 검증: 수치 보존, 엔티티 보존, null 강제 (4단계 코드 레벨 검증)
+- [x] `relevance-filter.js` EV 소비자 콘텐츠 필터 추가 (4단계 판별, `'electric'` 키워드 제거)
+- [x] `screening.ts` 스크리닝 보강: EV 감점, 이벤트 감점, Pass 3-C 임계값, 수치 품질 가산 강화, cleantechnica SOURCE_TIER2 추가
+
 ---
 
 ## Version History
@@ -421,3 +448,4 @@ interface Article {
 | 2.0 | 2026-04-30 | v2 전면 개정: 소스 수정 + /select·/newsletter 추가, data→public/data 이동 |
 | 2.3 | 2026-05-18 | 구현 현황 반영: 26개 소스, google-news 제거, /collect·/screening·/generate, Sprint 4~6, 6단계 파이프라인 |
 | 2.4 | 2026-05-21 | Sprint 7 반영: /collect 스크리닝 통합, /newsletter-archive 신규 라우트, FR-36·FR-37 추가, FR-35 옵션 30 추가, Sidebar 재구성, Sprint 7 체크리스트 |
+| 2.5 | 2026-06-04 | Sprint 8 반영: 2단계 요약 파이프라인(FR-38~FR-39), EV 소비자 필터(FR-40), 스크리닝 보강(FR-41), scripts/newsletter/ 모듈 구조 추가 |
