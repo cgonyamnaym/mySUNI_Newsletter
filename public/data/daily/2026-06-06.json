@@ -1,0 +1,26 @@
+{
+  "date": "2026-06-06",
+  "generatedAt": "2026-06-05T23:44:39.008Z",
+  "articleCount": 1,
+  "articles": [
+    {
+      "id": "456df7f3-3752-46cb-b9ee-f30711ccf1b9",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "지역별 요금제부터 소각장까지, 지방선거 이후 주목할 기후에너지 정책 [이원희의 기후兵法]",
+      "titleOriginal": null,
+      "summary": "정부가 지역별 전기요금제 도입, 발전 5사 통합, 재생에너지 이격거리 규제 완화 등 지방선거 이후 본격화될 기후에너지 정책 방향을 발표했다. 특히 전력 공급지와 소비지 간의 불균형을 해소하기 위한 산업용 차등 요금제 추진과 2030년까지 재생에너지 100GW 확대 및 탈석탄 정책이 핵심이다.",
+      "topics": [
+        "정책·규제",
+        "전력 인프라"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-06T06:56:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260605025300767",
+      "collectedAt": "2026-06-05T23:01:18.042Z"
+    }
+  ]
+}
