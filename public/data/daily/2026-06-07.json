@@ -1,0 +1,26 @@
+{
+  "date": "2026-06-07",
+  "generatedAt": "2026-06-06T22:13:48.506Z",
+  "articleCount": 1,
+  "articles": [
+    {
+      "id": "40bb789f-4ae9-42c7-a06f-153d737fe9eb",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[기자의 눈] 용인 반도체가 RE100을 하는 법",
+      "titleOriginal": null,
+      "summary": "이 기사는 용인 반도체 산업단지의 RE100(재생에너지 100% 사용) 달성 방안을 분석하며, 단순히 재생에너지가 많은 호남으로 이전하는 것이 아닌 현실적인 대안을 제시합니다. 호남 지역의 태양광 계약 문제와 인허가 지연을 지적하며, 수도권·충청권·강원권에 추진 중인 총 12GW 규모의 대규모 태양광 단지와 삼성·SK 등 기업 간 장기 PPA 체결을 통해 용인 산단의 RE100 전력 확보와 신규 재생에너지 투자를 동시에 달성할 수 있다고 제안합니다.",
+      "topics": [
+        "ESG·탄소중립",
+        "전력 인프라"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-07T06:53:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260605029190611",
+      "collectedAt": "2026-06-06T22:10:51.731Z"
+    }
+  ]
+}
