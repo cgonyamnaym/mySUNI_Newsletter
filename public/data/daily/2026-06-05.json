@@ -1,7 +1,7 @@
 {
   "date": "2026-06-05",
-  "generatedAt": "2026-06-05T23:44:39.007Z",
-  "articleCount": 102,
+  "generatedAt": "2026-06-06T01:24:31.768Z",
+  "articleCount": 103,
   "articles": [
     {
       "id": "5306f312-f019-4904-8dc8-563a763ca3b0",
@@ -1875,6 +1875,24 @@
       "publishedAt": "2026-06-05T23:15:18.516Z",
       "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330919",
       "collectedAt": "2026-06-05T23:15:18.516Z"
+    },
+    {
+      "id": "ffa6ba28-193e-41dc-a2bb-0b61e8af5c31",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "분석가들, Fervo Energy가 서부 지역의 송전 제약에 직면했다고 지적",
+      "titleOriginal": "Fervo Energy faces transmission constraints in the West, analysts say",
+      "summary": "제프리스(Jefferies)의 주식 분석가 줄리앙 뒤물랭-스미스는 Fervo Energy가 서부 지역의 송전망 제약 문제를 주요 위험 요소로 인식하고 있다고 밝혔습니다. 이에 대한 해결책으로 경영진은 전력망 외부에서 에너지를 공급하는 '비하인드 더 미터(behind-the-meter)' 방식을 검토 중입니다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-05T14:53:55.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/fervo-energy-geothermal-transmission-constraints/822141/",
+      "collectedAt": "2026-06-06T00:07:28.996Z"
     }
   ]
 }
