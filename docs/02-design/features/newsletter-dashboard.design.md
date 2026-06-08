@@ -12,10 +12,10 @@ project: 에너지 뉴스레터 대시보드
 > **Summary**: 26개 지정 소스(24개 활성, rss/scrape 2방식) 수집 파이프라인 + Next.js SSG/CSR 혼합 아키텍처. 기사 선택(/collect) → 스크리닝(/screening) → 뉴스레터 자동 생성(/generate) 워크플로 포함.
 >
 > **Project**: 에너지 뉴스레터 대시보드
-> **Version**: 2.3
+> **Version**: 2.5
 > **Author**: hyeokyeong@gmail.com
-> **Date**: 2026-05-18
-> **Status**: In Progress
+> **Date**: 2026-06-04
+> **Status**: Sprint 1~8 완료 (Gap Analysis 98%)
 > **Planning Doc**: [newsletter-dashboard.plan.md](../../01-plan/features/newsletter-dashboard.plan.md)
 
 ---
@@ -28,7 +28,7 @@ project: 에너지 뉴스레터 대시보드
 | **WHO** | 뉴스레터 편집 담당자(1~2명) + 구독 임직원 전체 |
 | **RISK** | JS SPA 스크래핑 불가 → Google News site: 우회 / localStorage 용량 초과 / CSS 셀렉터 변경 |
 | **SUCCESS** | 26개 소스 중 20개+ 정상 수집 / /collect·/screening·/generate 정상 동작 / 복사 버튼 동작 |
-| **SCOPE** | Sprint 1~5 ✅ 완료 / Sprint 6: /screening 스크리닝 ✅ 완료 / Sprint 7: /collect 스크리닝 통합 + /newsletter-archive 신규 ✅ |
+| **SCOPE** | Sprint 1~5 ✅ 완료 / Sprint 6: /screening ✅ / Sprint 7: /collect 통합 + /newsletter-archive ✅ / Sprint 8: 요약 파이프라인 + EV 필터 + 스크리닝 보강 ✅ |
 
 ---
 

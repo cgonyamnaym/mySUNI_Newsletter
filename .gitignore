@@ -29,3 +29,12 @@ tsconfig.tsbuildinfo
 .bkit/runtime/
 .bkit/snapshots/
 .bkit/audit/
+
+# Legacy v1 data (active: public/data/)
+data/daily/
+data/biweekly/
+data/export/
+data/index.json
+
+# Crawler artifacts
+crawl_results.txt

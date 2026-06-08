@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>뉴스레터 디자인 목업</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<style>
+  @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Pretendard', -apple-system, sans-serif;
+    background: #F0F2F5;
+    color: #1A1D23;
+  }
+
+  /* ── 카테고리 컬러 ── */
+  :root {
+    --c-infra:    #0066FF;
+    --c-source:   #D97706;
+    --c-ops:      #059669;
+    --c-policy:   #7C3AED;
+    --c-esg:      #0891B2;
+    --c-market:   #DC2626;
+  }
+
+  /* ── 상단 헤더 ── */
+  .nl-header {
+    background: linear-gradient(135deg, #0A1628 0%, #0D2347 60%, #0A2A4A 100%);
+    padding: 40px 0 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .nl-header::before {
+    content: '';
+    position: absolute;
+    top: -60px; right: -60px;
+    width: 300px; height: 300px;
+    background: radial-gradient(circle, rgba(0,102,255,0.18) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .nl-header::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #0066FF 0%, #00B4D8 40%, #06D6A0 100%);
+  }
+  .header-inner {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 24px 32px;
+  }
+  .header-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  .header-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .header-logo .dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: #0066FF;
+    box-shadow: 0 0 8px rgba(0,102,255,0.7);
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.6; transform: scale(1.3); }
+  }
+  .header-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.45);
+  }
+  .header-title {
+    font-size: 32px;
+    font-weight: 900;
+    color: #FFFFFF;
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+  .header-title span {
+    color: #4D9FFF;
+  }
+  .header-desc {
+    font-size: 13px;
+    color: rgba(255,255,255,0.45);
+    margin-bottom: 24px;
+  }
+  .header-date-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .header-date {
+    font-size: 13px;
+    color: rgba(255,255,255,0.6);
+    font-weight: 500;
+  }
+  .header-date strong { color: #fff; }
+  .header-stats {
+    display: flex;
+    gap: 16px;
+  }
+  .stat-item {
+    text-align: center;
+  }
+  .stat-value {
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+    line-height: 1;
+  }
+  .stat-label {
+    font-size: 10px;
+    color: rgba(255,255,255,0.4);
+    margin-top: 2px;
+    letter-spacing: 0.5px;
+  }
+  .stat-div {
+    width: 1px;
+    background: rgba(255,255,255,0.12);
+    align-self: stretch;
+  }
+
+  /* ── 카테고리 탭 ── */
+  .cat-nav {
+    background: rgba(0,0,0,0.3);
+    border-top: 1px solid rgba(255,255,255,0.07);
+  }
+  .cat-nav-inner {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    gap: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .cat-nav-inner::-webkit-scrollbar { display: none; }
+  .cat-tab {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 12px 16px;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgba(255,255,255,0.45);
+    white-space: nowrap;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
+  }
+  .cat-tab:hover { color: rgba(255,255,255,0.8); }
+  .cat-tab.active { color: #fff; border-bottom-color: #0066FF; }
+  .cat-tab .cat-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .cat-count {
+    font-size: 10px;
+    background: rgba(255,255,255,0.12);
+    color: rgba(255,255,255,0.5);
+    padding: 1px 5px;
+    border-radius: 10px;
+  }
+
+  /* ── 본문 래퍼 ── */
+  .nl-body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  /* ── 카테고리 섹션 ── */
+  .cat-section {}
+  .cat-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #E5E7EB;
+  }
+  .cat-icon { display: none; }        /* 아이콘 박스 제거 */
+  .cat-bar { display: none; }         /* 가로 구분선 제거 */
+  .cat-article-count { display: none; } /* 건수 제거 */
+  .cat-name {
+    font-size: 18px;
+    font-weight: 800;
+    color: #111827;
+    letter-spacing: -0.3px;
+  }
+
+  /* ── 기사 그리드 — 항상 2열, 카드 높이 균일 ── */
+  .articles-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    align-items: stretch;
+  }
+
+  /* ── 기사 카드 ── */
+  .article-card {
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid #E9ECEF;
+    overflow: hidden;
+    /* 우측 하단 강조 그림자 — 입체감 */
+    box-shadow: 4px 6px 16px rgba(0,0,0,0.10), 1px 2px 4px rgba(0,0,0,0.06);
+    transition: box-shadow 0.25s, background 0.25s;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  /* 호버 음영: 회색 배경 + 그림자 강화 */
+  .article-card:hover {
+    box-shadow: 6px 10px 28px rgba(0,0,0,0.16), 2px 4px 8px rgba(0,0,0,0.08);
+    background: #F3F4F6;
+  }
+  .card-accent {
+    height: 3px;
+    width: 100%;
+    flex-shrink: 0;
+  }
+  .card-body {
+    padding: 18px 20px 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-meta {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+  .card-source,
+  .card-source.domestic,
+  .card-source.global {
+    font-size: 11px;
+    font-weight: 700;
+    color: #111827;
+    background: #E9ECEF;
+    padding: 2px 7px;
+    border-radius: 4px;
+  }
+  .card-date {
+    font-size: 11px;
+    color: #9CA3AF;
+    margin-left: auto;
+  }
+  .card-title {
+    font-size: 16px;
+    font-weight: 800;
+    color: #111827;
+    line-height: 1.45;
+    letter-spacing: -0.3px;
+    margin-bottom: 8px;
+  }
+  /* 기존 단순 요약 (미사용) */
+  .card-summary { display: none; }
+
+  /* 3줄 구조 요약 — 레이블 없이 연결 문장 */
+  .card-summary-structured {
+    margin-bottom: 14px;
+    flex: 1;
+  }
+  .summary-label { display: none; }
+  .summary-line {
+    display: block;
+  }
+  .summary-text {
+    font-size: 13.5px;
+    color: #374151;
+    line-height: 1.72;
+  }
+  .card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 12px;
+    border-top: 1px solid #F3F4F6;
+    margin-top: auto;    /* 카드 높이가 달라도 footer 위치 통일 */
+  }
+  .card-topic {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 20px;
+  }
+  .card-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #0066FF;
+    text-decoration: none;
+  }
+  .card-link:hover { text-decoration: underline; }
+  .card-link svg {
+    width: 12px; height: 12px;
+  }
+
+  /* ── 푸터 ── */
+  .nl-footer {
+    background: #0A1628;
+    padding: 32px 24px;
+    text-align: center;
+  }
+  .nl-footer p {
+    font-size: 12px;
+    color: rgba(255,255,255,0.3);
+    line-height: 1.8;
+  }
+  .nl-footer a {
+    color: rgba(255,255,255,0.5);
+    text-decoration: none;
+  }
+
+  /* ── 카테고리별 색상 적용 ── */
+  .infra .cat-icon { background: rgba(0,102,255,0.1); }
+  .infra .cat-bar { background: #0066FF; }
+  .infra .card-accent { background: linear-gradient(90deg, #0066FF, #4D9FFF); }
+  .infra .card-topic { background: rgba(0,102,255,0.08); color: #0066FF; }
+
+  .source .cat-icon { background: rgba(217,119,6,0.1); }
+  .source .cat-bar { background: #D97706; }
+  .source .card-accent { background: linear-gradient(90deg, #D97706, #F59E0B); }
+  .source .card-topic { background: rgba(217,119,6,0.08); color: #D97706; }
+
+  .ops .cat-icon { background: rgba(5,150,105,0.1); }
+  .ops .cat-bar { background: #059669; }
+  .ops .card-accent { background: linear-gradient(90deg, #059669, #10B981); }
+  .ops .card-topic { background: rgba(5,150,105,0.08); color: #059669; }
+
+  .policy .cat-icon { background: rgba(124,58,237,0.1); }
+  .policy .cat-bar { background: #7C3AED; }
+  .policy .card-accent { background: linear-gradient(90deg, #7C3AED, #A78BFA); }
+  .policy .card-topic { background: rgba(124,58,237,0.08); color: #7C3AED; }
+
+  .esg .cat-icon { background: rgba(8,145,178,0.1); }
+  .esg .cat-bar { background: #0891B2; }
+  .esg .card-accent { background: linear-gradient(90deg, #0891B2, #22D3EE); }
+  .esg .card-topic { background: rgba(8,145,178,0.08); color: #0891B2; }
+
+  .market .cat-icon { background: rgba(220,38,38,0.1); }
+  .market .cat-bar { background: #DC2626; }
+  .market .card-accent { background: linear-gradient(90deg, #DC2626, #F87171); }
+  .market .card-topic { background: rgba(220,38,38,0.08); color: #DC2626; }
+</style>
+</head>
+<body>
+
+<!-- ── HEADER ── -->
+<header class="nl-header">
+  <div class="header-inner">
+    <div class="header-meta">
+      <div class="header-logo">
+        <span class="dot"></span>
+        <span class="header-label">Energy Insight</span>
+      </div>
+    </div>
+    <h1 class="header-title">전력·에너지 솔루션<br><span>최신 동향 큐레이션</span></h1>
+    <p class="header-desc">전력 산업 전문가를 위한 핵심 뉴스 선별 뉴스레터</p>
+    <div class="header-date-row">
+      <div class="header-date">
+        <strong>2026년 6월 4일</strong> 발행 &nbsp;·&nbsp; Vol. 2026-11
+      </div>
+      <div class="header-stats">
+        <div class="stat-item">
+          <div class="stat-value">30</div>
+          <div class="stat-label">ARTICLES</div>
+        </div>
+        <div class="stat-div"></div>
+        <div class="stat-item">
+          <div class="stat-value">6</div>
+          <div class="stat-label">TOPICS</div>
+        </div>
+        <div class="stat-div"></div>
+        <div class="stat-item">
+          <div class="stat-value">18</div>
+          <div class="stat-label">SOURCES</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="cat-nav">
+    <div class="cat-nav-inner">
+      <div class="cat-tab active">
+        <span class="cat-dot" style="background:#0066FF"></span> 전력 인프라
+        <span class="cat-count">7</span>
+      </div>
+      <div class="cat-tab">
+        <span class="cat-dot" style="background:#D97706"></span> 에너지원
+        <span class="cat-count">6</span>
+      </div>
+      <div class="cat-tab">
+        <span class="cat-dot" style="background:#059669"></span> 운영 최적화
+        <span class="cat-count">4</span>
+      </div>
+      <div class="cat-tab">
+        <span class="cat-dot" style="background:#7C3AED"></span> 정책·규제
+        <span class="cat-count">6</span>
+      </div>
+      <div class="cat-tab">
+        <span class="cat-dot" style="background:#0891B2"></span> ESG·탄소중립
+        <span class="cat-count">4</span>
+      </div>
+      <div class="cat-tab">
+        <span class="cat-dot" style="background:#DC2626"></span> 시장·가격 동향
+        <span class="cat-count">3</span>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- ── BODY ── -->
+<div class="nl-body">
+
+  <!-- 전력 인프라 -->
+  <section class="cat-section infra">
+    <div class="cat-header">
+      <div class="cat-icon">⚡</div>
+      <span class="cat-name">전력 인프라</span>
+      <div class="cat-bar"></div>
+      <span class="cat-article-count">7건</span>
+    </div>
+    <div class="articles-grid">
+      <!-- Featured -->
+      <div class="article-card">
+        <div class="card-accent"></div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-source domestic">전기신문</span>
+            <span class="card-date">2026-06-03</span>
+          </div>
+          <div class="card-title">한전, 사우디 자푸라 2단계 열병합 사업 단독 수주…2조원대 매출 기대</div>
+          <div class="card-summary-structured">
+            <div class="summary-line"><span class="summary-label what">What</span><span class="summary-text">한국전력이 사우디 아람코와 자푸라 2단계 열병합 발전소(331MW) 계약을 체결했다.</span></div>
+            <div class="summary-line"><span class="summary-label why">Why</span><span class="summary-text">중동 에너지 시장 입지 강화 및 17년 장기 운영 수익 확보 목적이다.</span></div>
+            <div class="summary-line"><span class="summary-label sowhat">So what</span><span class="summary-text">총 2조1,000억원 매출이 기대되며 한전의 해외 EPC 사업 모델 확장 사례다.</span></div>
+          </div>
+          <div class="card-footer">
+            <span class="card-topic">전력 인프라</span>
+            <a class="card-link" href="#">원문 보기 <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 6h8M6 2l4 4-4 4"/></svg></a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="article-card">
+        <div class="card-accent"></div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-source domestic">에너지데일리</span>
+            <span class="card-date">2026-06-01</span>
+          </div>
+          <div class="card-title">대한전선, 해남 태양광 초고압 전력망 수주</div>
+          <div class="card-summary-structured">
+            <span class="summary-text">대한전선이 해남 태양광 발전소의 154kV 초고압 전력망 구축 사업을 500억원 규모로 수주했다. 재생에너지 확대에 따른 송전망 연계 수요가 배경으로, 지역 전력 수요 대응과 재생에너지 보급 확대에 기여할 전망이다.</span>
+          </div>
+          <div class="card-footer">
+            <span class="card-topic">전력 인프라</span>
+            <a class="card-link" href="#">원문 보기 <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 6h8M6 2l4 4-4 4"/></svg></a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="article-card">
+        <div class="card-accent"></div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-source domestic">전기신문</span>
+            <span class="card-date">2026-06-02</span>
+          </div>
+          <div class="card-title">자영업자 전기료 선택권 확대…시간대별·단일 요금 병행</div>
+          <div class="card-summary-structured">
+            <span class="summary-text">소규모 자영업자를 위한 시간대별·단일 전기요금 선택제가 동시 시행된다. 요금 개편으로 일부 자영업자 부담이 불가피한 상황을 보완하기 위한 조치로, 사용 패턴에 따라 유리한 요금제를 선택해 비용을 줄일 수 있게 된다.</span>
+          </div>
+          <div class="card-footer">
+            <span class="card-topic">전력 인프라</span>
+            <a class="card-link" href="#">원문 보기 <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 6h8M6 2l4 4-4 4"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 에너지원 -->
+  <section class="cat-section source">
+    <div class="cat-header">
+      <div class="cat-icon">☀️</div>
+      <span class="cat-name">에너지원</span>
+      <div class="cat-bar"></div>
+      <span class="cat-article-count">6건</span>
+    </div>
+    <div class="articles-grid">
+      <div class="article-card">
+        <div class="card-accent"></div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-source global">PV Magazine</span>
+            <span class="card-date">2026-06-03</span>
+          </div>
+          <div class="card-title">전 세계 그리드 배터리 설치 속도가 폭발적이다 — 2025년 48% 급성장</div>
+          <div class="card-summary-structured">
+            <span class="summary-text">블룸버그NEF에 따르면 2025년 전 세계 그리드 배터리 설치량이 112GW로 48% 급증했다. 리튬이온 배터리 가격의 15년간 90% 하락이 저장 수요 폭발로 이어졌으며, 데이터센터·전기화 확산으로 2030년 연간 200GW 돌파가 전망된다.</span>
+          </div>
+          <div class="card-footer">
+            <span class="card-topic">에너지원</span>
+            <a class="card-link" href="#">원문 보기 <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 6h8M6 2l4 4-4 4"/></svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="article-card">
+        <div class="card-accent"></div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-source global">Energy Storage News</span>
+            <span class="card-date">2026-06-02</span>
+          </div>
+          <div class="card-title">한화솔루션, 미국 ESS 시장 공략 가속화…1GWh 규모 수주</div>
+          <div class="card-summary-structured">
+            <span class="summary-text">한화솔루션이 미국 텍사스에 1GWh 규모의 대형 ESS 공급 계약을 체결했다. 재생에너지 간헐성 보완을 위한 저장 장치 수요 급증이 배경으로, 북미 시장 레퍼런스를 발판 삼아 한화의 글로벌 ESS 공급망 입지가 한층 강화될 전망이다.</span>
+          </div>
+          <div class="card-footer">
+            <span class="card-topic">에너지원</span>
+            <a class="card-link" href="#">원문 보기 <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 6h8M6 2l4 4-4 4"/></svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="article-card">
+        <div class="card-accent"></div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-source global">World Nuclear News</span>
+            <span class="card-date">2026-06-01</span>
+          </div>
+          <div class="card-title">두산에너빌리티, SMR 핵심 부품 첫 납품 완료</div>
+          <div class="card-summary-structured">
+            <span class="summary-text">두산에너빌리티가 뉴스케일파워의 SMR 시범 프로젝트에 핵심 부품을 최초 납품했다. 국내 SMR 제조 역량을 글로벌 공급망에서 실증한 첫 사례로, 이를 계기로 원전 수출 경쟁력이 한층 높아질 것으로 기대된다.</span>
+          </div>
+          <div class="card-footer">
+            <span class="card-topic">에너지원</span>
+            <a class="card-link" href="#">원문 보기 <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 6h8M6 2l4 4-4 4"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 정책·규제 -->
+  <section class="cat-section policy">
+    <div class="cat-header">
+      <div class="cat-icon">📋</div>
+      <span class="cat-name">정책·규제</span>
+      <div class="cat-bar"></div>
+      <span class="cat-article-count">6건</span>
+    </div>
+    <div class="articles-grid">
+      <div class="article-card">
+        <div class="card-accent"></div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-source domestic">에너지경제신문</span>
+            <span class="card-date">2026-05-19</span>
+          </div>
+          <div class="card-title">"수도권·충청·강원에 GW급 태양광 벨트"…기후부, 2030년 재생에너지 100GW 승부수</div>
+          <div class="card-summary-structured">
+            <span class="summary-text">기후부가 2030년 재생에너지 100GW 달성을 목표로 제1차 기본계획을 발표했다. 수도권·충청·강원에 12GW 규모 태양광 단지를 조성해 계통 안정과 단가 경쟁력을 확보할 방침이며, 2035년까지 태양광 80원·해상풍력 150원 이하를 실현해 에너지 가격 전환점을 만든다는 목표다.</span>
+          </div>
+          <div class="card-footer">
+            <span class="card-topic">정책·규제</span>
+            <a class="card-link" href="#">원문 보기 <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 6h8M6 2l4 4-4 4"/></svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="article-card">
+        <div class="card-accent"></div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-source domestic">에너지경제신문</span>
+            <span class="card-date">2026-05-19</span>
+          </div>
+          <div class="card-title">정부, 재생에너지를 '제2의 반도체'로…태양광 10GW·풍력 3GW 확충</div>
+          <div class="card-summary-structured">
+            <span class="summary-text">정부가 2030년까지 태양광 모듈 10GW·풍력 터빈 3GW의 생산능력 확대 계획을 발표했다. 재생에너지를 반도체처럼 전략 수출 산업으로 육성한다는 구상으로, 2035년까지 수출 규모를 20조원으로 키운다는 목표다.</span>
+          </div>
+          <div class="card-footer">
+            <span class="card-topic">정책·규제</span>
+            <a class="card-link" href="#">원문 보기 <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 6h8M6 2l4 4-4 4"/></svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="article-card">
+        <div class="card-accent"></div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-source global">Carbon Brief</span>
+            <span class="card-date">2026-06-02</span>
+          </div>
+          <div class="card-title">EU, 2035년 신규 가스보일러 판매 금지 최종 확정</div>
+          <div class="card-summary-structured">
+            <span class="summary-text">EU가 2035년부터 신규 가스보일러 판매를 전면 금지하는 규정을 최종 승인했다. 히트펌프 전환을 통해 건물 부문 탈탄소 목표를 달성하기 위한 조치로, 국내 보일러·히트펌프 제조사들도 유럽 시장 전략 재편이 불가피해질 전망이다.</span>
+          </div>
+          <div class="card-footer">
+            <span class="card-topic">정책·규제</span>
+            <a class="card-link" href="#">원문 보기 <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 6h8M6 2l4 4-4 4"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 시장·가격 동향 -->
+  <section class="cat-section market">
+    <div class="cat-header">
+      <div class="cat-icon">📈</div>
+      <span class="cat-name">시장·가격 동향</span>
+      <div class="cat-bar"></div>
+      <span class="cat-article-count">3건</span>
+    </div>
+    <div class="articles-grid">
+      <div class="article-card">
+        <div class="card-accent"></div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-source domestic">에너지경제신문</span>
+            <span class="card-date">2026-05-14</span>
+          </div>
+          <div class="card-title">"수조원 혹자 어디로?"…전혀 줄지 않는 한전 부채, 올여름 위기 경고</div>
+          <div class="card-summary-structured">
+            <span class="summary-text">한전이 연 10조원대 흑자에도 연 4조원 이자비용·송배전망 투자·전기요금 동결이 맞물려 206조원 부채가 전혀 줄지 않고 있다. 올여름 전력 수요 급증과 중동 유가 불안이 겹칠 경우 2022년형 재무 위기가 재연될 수 있다는 우려가 제기됐다.</span>
+          </div>
+          <div class="card-footer">
+            <span class="card-topic">시장·가격 동향</span>
+            <a class="card-link" href="#">원문 보기 <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 6h8M6 2l4 4-4 4"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- ── FOOTER ── -->
+<footer class="nl-footer">
+  <p>
+    에너지 인사이트 뉴스레터 &nbsp;·&nbsp; 2026년 6월 4일<br>
+    전력·에너지 솔루션 전문가를 위한 큐레이션 뉴스
+  </p>
+</footer>
+
+</body>
+</html>
