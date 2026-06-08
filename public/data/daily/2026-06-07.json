@@ -1,7 +1,7 @@
 {
   "date": "2026-06-07",
-  "generatedAt": "2026-06-06T22:13:48.506Z",
-  "articleCount": 1,
+  "generatedAt": "2026-06-08T00:32:09.943Z",
+  "articleCount": 9,
   "articles": [
     {
       "id": "40bb789f-4ae9-42c7-a06f-153d737fe9eb",
@@ -21,6 +21,157 @@
       "publishedAt": "2026-06-07T06:53:00.000Z",
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260605029190611",
       "collectedAt": "2026-06-06T22:10:51.731Z"
+    },
+    {
+      "id": "d97da8c8-d3b8-4bb6-b264-6c3ce700e8b7",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전, 무안~신안 154kV 송전망 준공…전남 재생에너지 출력제어 완화 기대",
+      "titleOriginal": null,
+      "summary": "한국전력이 전남 무안과 신안을 잇는 154kV(총 연장 52km) 송전망을 준공했다. 이번 전력망 확충을 통해 전남 지역 재생에너지의 출력제어 현상이 완화되고 신규 발전사업의 계통연계가 원활해질 것으로 기대된다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-07T13:09:46.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368805",
+      "collectedAt": "2026-06-08T00:03:41.829Z"
+    },
+    {
+      "id": "f1b2a2cc-7696-4f0c-8c7d-a633c24e47fc",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "김정관 장관, 카자흐·중동·체코 방문……에너지·원전 등 협력 강화 논의",
+      "titleOriginal": null,
+      "summary": "김정관 산업통상부 장관이 18일까지 카자흐스탄, 중동, 체코를 방문해 에너지 및 원전 분야 협력을 논의한다. 특히 카자흐스탄과는 제11차 공동위원회를 개최하여 원유 수급 안정화와 핵심 광물 및 플랜트 협력 방안을 집중적으로 협의할 예정이다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-07T12:38:32.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368803",
+      "collectedAt": "2026-06-08T00:04:24.778Z"
+    },
+    {
+      "id": "8ff35acc-0edd-46eb-8693-7fc1e2441f9c",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "이호현 2차관, 원자력협정 70주년 맞아 방미…에너지 안보·투자 논의",
+      "titleOriginal": null,
+      "summary": "이호현 기후에너지환경부 2차관이 한·미 원자력협정 70주년을 맞아 미국을 방문해 원자력 동맹을 강화하고 에너지 안보 및 투자 방안을 논의한다. 이번 방문은 AI 확산으로 인한 전력 수요 급증 등 급변하는 글로벌 에너지 환경에 공동 대응하기 위해 마련되었다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-07T12:30:32.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368802",
+      "collectedAt": "2026-06-08T00:04:35.979Z"
+    },
+    {
+      "id": "7a1b26e1-e6d7-403e-9101-721bd89f5050",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전남 무안-신안 잇는 154kV 송전망 준공...\"재생E 출력제어 완화 기대\"",
+      "titleOriginal": null,
+      "summary": "전남 무안군과 신안군을 잇는 52km 길이의 154kV 송전망이 지난달 30일 최종 준공되었다. 이 송전망은 재생에너지 확대와 전력망 부족으로 증가하고 있는 전남 지역의 재생에너지 출력제어를 완화하고 접속 대기 해소에 기여할 것으로 기대된다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-07T12:25:41.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368801",
+      "collectedAt": "2026-06-08T00:04:55.800Z"
+    },
+    {
+      "id": "ffd3a082-120b-4777-907c-b6e6c1b992c4",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“공기열·수열 히트펌프 보급 확대”…기후부, 지자체 대상 설명회 개최",
+      "titleOriginal": null,
+      "summary": "기후에너지환경부가 공기열 및 수열 히트펌프 보급을 확대하기 위해 지자체 대상 설명회를 개최한다. 정부는 지난 3월 '에너지 및 재생에너지 개발·이용·보급 촉진법 시행령' 개정을 통해 공기열을 재생에너지로 인정하고, 수열에너지 범위 확대를 위한 제도 개선을 추진 중이다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-06-07T12:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368794",
+      "collectedAt": "2026-06-08T00:05:22.213Z"
+    },
+    {
+      "id": "6f459f10-3770-409f-bad5-3a553ecb1aa2",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "수소 생산 촉매 전극, 국수 가락처럼 뽑아낸다!",
+      "titleOriginal": null,
+      "summary": "UNIST와 KAUST 공동 연구팀이 루테늄 촉매를 탄소섬유 내부에 균일하게 삽입해 내구성과 반응성을 높인 섬유형 수소 생산 전극 제조 기술을 개발했다. 이 기술은 수전해 장치용 전극의 대량 생산을 가능하게 하여 효율적인 수소 생산을 촉진할 것으로 기대된다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-07T11:42:25.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368799",
+      "collectedAt": "2026-06-08T00:05:35.870Z"
+    },
+    {
+      "id": "9f5f5db5-5b8b-4dae-a760-adfede057be6",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[초점] EC 결정, K-원전 국제 신뢰도 회복 중요 분기점",
+      "titleOriginal": null,
+      "summary": "유럽집행위원회(EC)가 한국수력원자력의 두코바니 원전 사업에 제기된 역외보조금 의혹을 종결하며 K-원전의 국제적 신뢰도를 입증했다. 향후 한국은 기술력과 더불어 프로젝트 리스크 통합 관리 및 원전 수명주기 전반에 걸친 책임 이행을 통해 지속가능한 수출 모델을 구축해야 하는 과제를 안게 되었다.",
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-06-07T13:02:29.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298691",
+      "collectedAt": "2026-06-08T00:09:01.898Z"
+    },
+    {
+      "id": "34b24e80-a37e-4063-86dc-9d0a3fbe8650",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "EC, 체코 두코바니 원전 사업 심층조사 제외...'저가 수주' 의혹 벗어",
+      "titleOriginal": null,
+      "summary": "한국수력원자력이 수주한 24조 원 규모의 체코 두코바니 신규 원전 사업이 유럽연합(EU)의 역외보조금 규정(FSR)에 따른 심층조사 대상에서 제외되었습니다. 이번 결정으로 '저가 수주' 논란이 해소되었으며, 정부는 향후 사업이 차질 없이 진행되도록 관리할 계획입니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-07T13:01:19.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298690",
+      "collectedAt": "2026-06-08T00:09:12.969Z"
     }
   ]
 }

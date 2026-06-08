@@ -1,0 +1,269 @@
+{
+  "date": "2026-06-08",
+  "generatedAt": "2026-06-08T00:32:09.942Z",
+  "articleCount": 14,
+  "articles": [
+    {
+      "id": "4a116444-5306-4122-94d5-185c2703f4ab",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "지선 종료에 발전사 통합안 속도낼까",
+      "titleOriginal": null,
+      "summary": "지방선거 종료 후 국내 발전공기업 통합안 마련에 속도가 붙을 전망이다. 기후에너지환경부가 추진하는 ‘에너지전환기 전력 공기업의 새로운 역할 연구’ 용역의 중간 결과보고가 곧 진행될 예정이며, 당초 정부는 한수원을 제외한 현행 5개 발전공기업을 2개로 통합하고 재생에너지공사 1개를 설립하는 안을 고려했으나 노조는 1개 발전공기업으로의 통합을 요구하고 있다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-06-08T08:44:20.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368815",
+      "collectedAt": "2026-06-08T00:01:33.850Z"
+    },
+    {
+      "id": "4ad70fd4-d574-4a8a-b12b-e432936ee018",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(KECA 네트워크) 전기공사협회 전남도회, 장성군 취약계층 전기시설 무료 개보수",
+      "titleOriginal": null,
+      "summary": "한국전기공사협회 전남도회와 전기사랑봉사단이 장성군 내 취약계층 21세대를 대상으로 노후 전기시설 무료 개보수 봉사를 실시했다. 회원 25명이 참여하여 안전점검 및 등기구 교체 등을 진행하며 지역사회 전기안전망 확보에 기여했다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-08T01:15:38.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368813",
+      "collectedAt": "2026-06-08T00:02:04.504Z"
+    },
+    {
+      "id": "d2301311-6203-4c05-aefd-22ed9ac5ee4f",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "‘작은 원자로가 대형 화물선을 움직인다’",
+      "titleOriginal": null,
+      "summary": "한국원자력연구원과 현대중공업 등 4개사가 공동 개발한 용융염원자로(MSR) 적용 자동차운반선이 로이드선급(LR)으로부터 기본승인(AiP)을 획득했다. 이는 원자력 기술을 선박 추진 시스템에 접목하여 친환경 해상 운송을 실현하기 위한 핵심적인 기술적 진전으로 평가된다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T08:56:26.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200182",
+      "collectedAt": "2026-06-08T00:06:32.287Z"
+    },
+    {
+      "id": "2753f3c3-c092-4982-86db-c3a048fc4c06",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[초점]히트펌프 시대 열린다… 공기열·수열 재생에너지화로 건물부문 탄소중립 가속",
+      "titleOriginal": null,
+      "summary": "정부가 공기열과 수열을 재생에너지로 공식 인정 및 확대하며 건물 부문의 탄소중립 전환을 본격화하고 있다. 이를 위해 전국 지자체를 대상으로 히트펌프 보급사업 설명회를 개최하는 등 지원 제도와 정책 방향을 구체화하고 있다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-06-08T08:45:25.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200181",
+      "collectedAt": "2026-06-08T00:06:43.504Z"
+    },
+    {
+      "id": "b8b3fccd-cd33-4ce4-b774-65b4aeb6845c",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "LS ELECTRIC, 두바이 전력청 시험소 인증… 중동 시장 정조준",
+      "titleOriginal": null,
+      "summary": "LS ELECTRIC의 전력시험기술원이 UAE 두바이 전력청(DEWA)의 공인 인정시험소로 등록되었습니다. 이번 인증을 통해 LS ELECTRIC은 중동 지역 전력 시장 진출을 가속화하고 GCC 6개국을 대상으로 한 사업 영향력을 확대할 전망입니다.",
+      "topics": [
+        "운영 최적화"
+      ],
+      "primaryTopic": "운영 최적화",
+      "publishedAt": "2026-06-08T07:58:21.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200180",
+      "collectedAt": "2026-06-08T00:07:14.512Z"
+    },
+    {
+      "id": "3541ce0e-1b2b-47b4-a230-56c8e9e320f8",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[분석] “원전이냐 재생에너지냐는 끝났다”… AI 시대, 통합에너지 전략이 국가 경쟁력 좌우한다",
+      "titleOriginal": null,
+      "summary": "AI와 데이터센터로 인한 전력 수요 급증과 탄소중립 과제로 인해 원전과 재생에너지의 이분법적 논쟁을 넘어선 통합 에너지 전략의 필요성이 대두되고 있다. 한국과학기술단체총연합회를 비롯한 관련 학회들은 탄소중립 실현을 위한 포럼을 개최하며 국가 경쟁력 확보를 위한 통합 기술 전략을 모색했다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T06:00:00.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200177",
+      "collectedAt": "2026-06-08T00:08:05.649Z"
+    },
+    {
+      "id": "c51e1552-bb2c-4768-a8fd-61ecaf241c88",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "미국 원유수출량 사상 최고치 기록",
+      "titleOriginal": null,
+      "summary": "중동 위기로 인한 공급 불안과 미국산 원유의 가격 경쟁력에 힘입어 5월 미국 원유 수출량이 하루 평균 560만 배럴로 사상 최고치를 기록했습니다. 아시아와 유럽의 미국산 원유 수요가 급증했으나, 향후 가격 격차 축소와 전략비축유(SPR) 변수 등으로 인해 수출 증가세는 둔화될 것으로 전망됩니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-08T00:12:39.220Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331015",
+      "collectedAt": "2026-06-08T00:12:39.220Z"
+    },
+    {
+      "id": "82e8bf71-e840-45c9-a359-3da277bfa337",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "소비자공익네트워크, 환경의 날 맞아 시민참여 절전 캠페인",
+      "titleOriginal": null,
+      "summary": "소비자공익네트워크가 환경의 날을 맞아 전국 9개 지역에서 여름철 전력수요 급증에 대비한 시민참여 절전 캠페인을 진행했다. 에어컨 적정온도 유지 등 생활 속 절전 실천 방법과 함께, 전기요금 혜택을 제공하는 한국전력의 '주택용 에너지캐시백' 제도를 홍보하여 가계 부담 완화와 에너지 절약을 독려했다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-08T00:12:51.014Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331092",
+      "collectedAt": "2026-06-08T00:12:51.014Z"
+    },
+    {
+      "id": "91beef92-3c3a-46ed-bf1c-6133b58b1f51",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[사설] 서서히 개선되는 원유 수입선 다변화",
+      "titleOriginal": null,
+      "summary": "국제 정세 불안 속에서 한국의 중동산 원유 수입 비중이 작년 65.2%에서 53.1%로 감소하며 수입선 다변화가 진행되고 있다. 정부는 관세청의 특례 조치와 원산지 입증 절차 간소화 등 적극적인 정책을 통해 미국, 호주, 캐나다 등 공급망을 성공적으로 확대하고 있다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-08T00:13:20.122Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331093",
+      "collectedAt": "2026-06-08T00:13:20.122Z"
+    },
+    {
+      "id": "47a62d94-56c3-4660-8859-8696aaba42d6",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[칼럼] 에너지 안보와 AI 3대 강국의 열쇠, 전기화와 전력산업의 경쟁력 확보",
+      "titleOriginal": null,
+      "summary": "중동 전쟁으로 인한 에너지 안보 위기 속에서 AI 패권 확보를 위해 안정적인 전력 공급이 필수적인 과제로 대두되었다. 정부는 데이터센터의 비수도권 분산, 전력계통 영향평가 완화, 지역별 차등 전기요금제 도입 등 전력 인프라의 구조적 전환을 통해 2030년 AI 3대 강국 실현을 뒷받침해야 한다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-08T00:13:43.305Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331094",
+      "collectedAt": "2026-06-08T00:13:43.305Z"
+    },
+    {
+      "id": "55800a6a-a435-4a2b-b219-aa0fa7979bae",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "주민 10% 부담 없앤다...햇빛소득마을 ESS 전면 개편",
+      "titleOriginal": null,
+      "summary": "정부가 햇빛소득마을 사업의 주민 부담금을 전면 폐지하고, ESS 설치 방식을 마을별 설치에서 배전망 연계형으로 전환한다. 설치 비용은 중앙정부 50%, 지자체 20%, VPP 사업자 30%로 분담하며, 이를 통해 계통제약이 심한 호남·제주 지역의 전력계통 효율성을 제고할 계획이다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-08T00:14:14.490Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331040",
+      "collectedAt": "2026-06-08T00:14:14.490Z"
+    },
+    {
+      "id": "79e14727-ec86-4512-a844-453ea67a01d0",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "SDN, 화웨이와 강진군에 120MW급 AI 데이터센터 건립",
+      "titleOriginal": null,
+      "summary": "SDN이 화웨이, 강진군과 협력하여 강진산업단지에 120MW 규모의 AI 데이터센터를 건립한다. SDN은 전력망 연계와 ESS 구축 등 핵심 인프라를 담당하며, 강진군이 보유한 300MW급 전력계통 인프라와 향후 태양광 기반의 RE100 전력 조달 환경을 활용할 계획이다.",
+      "topics": [
+        "전력 인프라",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-08T00:14:34.320Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331023",
+      "collectedAt": "2026-06-08T00:14:34.320Z"
+    },
+    {
+      "id": "d8c00ba9-86d8-4572-af2d-6c4a0f012b6f",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "환경 공공기관도 에너지전환 동참…RE100 이행 선언",
+      "titleOriginal": null,
+      "summary": "한국환경공단이 2030년까지 사용 전력 100%를 재생에너지로 전환하는 'K-eco 2030 RE100' 발대식을 개최했다. 공단은 자가발전 태양광 설비 확충, 전력구매계약(PPA), 녹색프리미엄 등을 활용해 전사적 탄소중립 이행체계를 본격 가동할 계획이다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-08T00:14:46.487Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330956",
+      "collectedAt": "2026-06-08T00:14:46.487Z"
+    },
+    {
+      "id": "cb693efb-8be8-4e3e-8503-a64f271735aa",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "韓·中 녹색협력, 에너지·자원순환 분야로 확대한다",
+      "titleOriginal": null,
+      "summary": "기후에너지환경부는 국내 녹색기업의 중국 진출을 지원하기 위해 14개 기업과 민관합동파견단을 구성하여 베이징·톈진에서 수출박람회와 토론회를 운영한다. 기존 환경 중심의 협력을 수소, 폐배터리 재활용 등 에너지 및 자원순환 분야로 확대해 실질적인 수출 성과와 정책 교류를 모색한다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-08T00:15:22.082Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330957",
+      "collectedAt": "2026-06-08T00:15:22.082Z"
+    }
+  ]
+}
