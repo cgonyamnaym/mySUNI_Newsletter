@@ -1,10 +1,34 @@
 'use client'
 
 import { forwardRef } from 'react'
-import { TOPICS } from '@/lib/constants'
-import type { Article } from '@/lib/types'
+import type { Article, TopicId } from '@/lib/types'
 
-const HEADER_BG = '#1B1C1E'
+// 뉴스레터 전용 카테고리 색상 (목업 기준)
+type CatStyle = {
+  accent: string
+  accentEnd: string
+  chipBg: string
+  chipText: string
+  dot: string
+}
+
+const CAT: Record<TopicId, CatStyle> = {
+  '전력 인프라':    { accent: '#0066FF', accentEnd: '#4D9FFF', chipBg: 'rgba(0,102,255,0.08)',   chipText: '#0066FF', dot: '#0066FF' },
+  '에너지원':       { accent: '#D97706', accentEnd: '#F59E0B', chipBg: 'rgba(217,119,6,0.08)',    chipText: '#D97706', dot: '#D97706' },
+  '운영 최적화':    { accent: '#059669', accentEnd: '#10B981', chipBg: 'rgba(5,150,105,0.08)',    chipText: '#059669', dot: '#059669' },
+  '정책·규제':      { accent: '#7C3AED', accentEnd: '#A78BFA', chipBg: 'rgba(124,58,237,0.08)',   chipText: '#7C3AED', dot: '#7C3AED' },
+  'ESG·탄소중립':   { accent: '#0891B2', accentEnd: '#22D3EE', chipBg: 'rgba(8,145,178,0.08)',    chipText: '#0891B2', dot: '#0891B2' },
+  '시장·가격 동향': { accent: '#DC2626', accentEnd: '#F87171', chipBg: 'rgba(220,38,38,0.08)',    chipText: '#DC2626', dot: '#DC2626' },
+}
+
+const FALLBACK_CAT: CatStyle = {
+  accent: '#6B7280', accentEnd: '#9CA3AF',
+  chipBg: 'rgba(107,114,128,0.08)', chipText: '#6B7280', dot: '#6B7280',
+}
+
+const TOPIC_ORDER: TopicId[] = [
+  '전력 인프라', '에너지원', '운영 최적화', '정책·규제', 'ESG·탄소중립', '시장·가격 동향',
+]
 
 interface Props {
   articles: Article[]
@@ -13,117 +37,282 @@ interface Props {
 
 const NewsletterContent = forwardRef<HTMLDivElement, Props>(
   ({ articles, dateLabel }, ref) => {
-    const grouped = TOPICS.map((t) => ({
-      topic: t,
-      items: articles.filter((a) => a.topics.includes(t.id)),
-    })).filter((g) => g.items.length > 0)
+    // primaryTopic 우선, 없으면 첫 번째 topic, 없으면 uncategorized
+    const groupMap = new Map<TopicId, Article[]>()
+    const unclassified: Article[] = []
 
-    const unclassified = articles.filter((a) => !a.topics.length)
+    for (const article of articles) {
+      const topic = article.primaryTopic ?? article.topics[0] ?? null
+      if (topic) {
+        if (!groupMap.has(topic)) groupMap.set(topic, [])
+        groupMap.get(topic)!.push(article)
+      } else {
+        unclassified.push(article)
+      }
+    }
+
+    const groups = TOPIC_ORDER
+      .filter((t) => groupMap.has(t))
+      .map((t) => ({ topicId: t, items: groupMap.get(t)! }))
 
     const displayDate =
       dateLabel ??
       new Date().toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' })
+
+    const sourceCount = new Set(articles.map((a) => a.sourceId)).size
+    const topicCount = groups.length + (unclassified.length > 0 ? 1 : 0)
 
     return (
       <div
         ref={ref}
         style={{
           fontFamily: '"Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif',
-          maxWidth: '680px',
-          margin: '0 auto',
-          backgroundColor: '#F7F7F8',
-          padding: '0 0 32px 0',
+          backgroundColor: '#F0F2F5',
+          color: '#1A1D23',
         }}
       >
-        {/* 마스트헤드 */}
+        {/* ── HEADER ── */}
         <div style={{
-          backgroundColor: HEADER_BG,
-          padding: '32px 32px 28px 32px',
-          marginBottom: '24px',
-          borderRadius: '12px 12px 0 0',
+          background: 'linear-gradient(135deg, #0A1628 0%, #0D2347 60%, #0A2A4A 100%)',
+          position: 'relative',
         }}>
-          <span style={{ fontSize: '29px', fontWeight: '900', color: '#FFFFFF', letterSpacing: '-0.02em', display: 'block', marginBottom: '8px' }}>
-            Energy Insight Newsletter
-          </span>
-          <p style={{ margin: '0 0 24px 0', fontSize: '13px', color: 'rgba(255,255,255,0.72)', fontWeight: '500' }}>
-            전력·에너지 솔루션 최신 동향 큐레이션&nbsp;·&nbsp;{displayDate}
-          </p>
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-            {grouped.map(({ topic }) => (
-              <a key={topic.id} href={`#${topic.id}`} style={{
-                backgroundColor: '#FFFFFF', color: '#4B5563',
-                padding: '6px 16px', borderRadius: '20px',
-                fontSize: '13px', fontWeight: '700', textDecoration: 'none',
-                border: '1px solid #D1D5DB', display: 'inline-block',
-                boxShadow: '0 4px 6px rgba(0,0,0,0.3), 0 2px 4px rgba(0,0,0,0.4)',
+          {/* Header inner */}
+          <div style={{ maxWidth: '800px', margin: '0 auto', padding: '40px 24px 32px' }}>
+            {/* Logo + label */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '16px' }}>
+              <span style={{
+                width: '8px', height: '8px', borderRadius: '50%',
+                background: '#0066FF', boxShadow: '0 0 8px rgba(0,102,255,0.7)',
+                display: 'inline-block', flexShrink: 0,
+              }} />
+              <span style={{
+                fontSize: '11px', fontWeight: 700,
+                letterSpacing: '2px', textTransform: 'uppercase',
+                color: 'rgba(255,255,255,0.45)',
               }}>
-                {topic.label}
-              </a>
-            ))}
-            {unclassified.length > 0 && (
-              <a href="#기타" style={{
-                backgroundColor: '#FFFFFF', color: '#4B5563',
-                padding: '6px 16px', borderRadius: '20px',
-                fontSize: '13px', fontWeight: '700', textDecoration: 'none',
-                border: '1px solid #D1D5DB', display: 'inline-block',
-                boxShadow: '0 4px 6px rgba(0,0,0,0.3), 0 2px 4px rgba(0,0,0,0.4)',
-              }}>
-                기타
-              </a>
-            )}
+                Energy Insight
+              </span>
+            </div>
+
+            {/* Title */}
+            <div style={{
+              fontSize: '32px', fontWeight: 900,
+              color: '#FFFFFF', letterSpacing: '-0.5px',
+              lineHeight: 1.2, marginBottom: '8px',
+            }}>
+              전력·에너지 솔루션<br />
+              <span style={{ color: '#4D9FFF' }}>최신 동향 큐레이션</span>
+            </div>
+
+            <p style={{
+              fontSize: '13px', color: 'rgba(255,255,255,0.45)',
+              margin: '0 0 24px 0',
+            }}>
+              전력 산업 전문가를 위한 핵심 뉴스 선별 뉴스레터
+            </p>
+
+            {/* Date row + stats */}
+            <div style={{
+              display: 'flex', alignItems: 'center',
+              justifyContent: 'space-between', flexWrap: 'wrap', gap: '12px',
+            }}>
+              <div style={{ fontSize: '13px', color: 'rgba(255,255,255,0.6)', fontWeight: 500 }}>
+                <strong style={{ color: '#fff' }}>{displayDate}</strong> 발행
+              </div>
+              <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
+                <div style={{ textAlign: 'center' }}>
+                  <div style={{ fontSize: '18px', fontWeight: 800, color: '#fff', lineHeight: 1 }}>
+                    {articles.length}
+                  </div>
+                  <div style={{ fontSize: '10px', color: 'rgba(255,255,255,0.4)', marginTop: '2px', letterSpacing: '0.5px' }}>
+                    ARTICLES
+                  </div>
+                </div>
+                <div style={{ width: '1px', background: 'rgba(255,255,255,0.12)', alignSelf: 'stretch' }} />
+                <div style={{ textAlign: 'center' }}>
+                  <div style={{ fontSize: '18px', fontWeight: 800, color: '#fff', lineHeight: 1 }}>
+                    {topicCount}
+                  </div>
+                  <div style={{ fontSize: '10px', color: 'rgba(255,255,255,0.4)', marginTop: '2px', letterSpacing: '0.5px' }}>
+                    TOPICS
+                  </div>
+                </div>
+                <div style={{ width: '1px', background: 'rgba(255,255,255,0.12)', alignSelf: 'stretch' }} />
+                <div style={{ textAlign: 'center' }}>
+                  <div style={{ fontSize: '18px', fontWeight: 800, color: '#fff', lineHeight: 1 }}>
+                    {sourceCount}
+                  </div>
+                  <div style={{ fontSize: '10px', color: 'rgba(255,255,255,0.4)', marginTop: '2px', letterSpacing: '0.5px' }}>
+                    SOURCES
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+
+          {/* Category tab nav */}
+          <div style={{
+            background: 'rgba(0,0,0,0.3)',
+            borderTop: '1px solid rgba(255,255,255,0.07)',
+          }}>
+            <div style={{
+              maxWidth: '800px', margin: '0 auto', padding: '0 24px',
+              display: 'flex', overflowX: 'auto',
+            }}>
+              {groups.map(({ topicId }, idx) => {
+                const c = CAT[topicId] ?? FALLBACK_CAT
+                return (
+                  <a
+                    key={topicId}
+                    href={`#nl-${topicId}`}
+                    style={{
+                      display: 'inline-flex', alignItems: 'center', gap: '6px',
+                      padding: '12px 16px',
+                      fontSize: '12px', fontWeight: 700,
+                      color: idx === 0 ? '#fff' : 'rgba(255,255,255,0.45)',
+                      whiteSpace: 'nowrap',
+                      borderBottom: idx === 0 ? '2px solid #0066FF' : '2px solid transparent',
+                      textDecoration: 'none',
+                    }}
+                  >
+                    <span style={{
+                      width: '6px', height: '6px', borderRadius: '50%',
+                      background: c.dot, display: 'inline-block', flexShrink: 0,
+                    }} />
+                    {topicId}
+                    <span style={{
+                      fontSize: '10px',
+                      background: 'rgba(255,255,255,0.12)',
+                      color: 'rgba(255,255,255,0.5)',
+                      padding: '1px 5px', borderRadius: '10px',
+                    }}>
+                      {groupMap.get(topicId)!.length}
+                    </span>
+                  </a>
+                )
+              })}
+              {unclassified.length > 0 && (
+                <a
+                  href="#nl-기타"
+                  style={{
+                    display: 'inline-flex', alignItems: 'center', gap: '6px',
+                    padding: '12px 16px',
+                    fontSize: '12px', fontWeight: 700,
+                    color: 'rgba(255,255,255,0.45)',
+                    whiteSpace: 'nowrap',
+                    borderBottom: '2px solid transparent',
+                    textDecoration: 'none',
+                  }}
+                >
+                  <span style={{
+                    width: '6px', height: '6px', borderRadius: '50%',
+                    background: '#6B7280', display: 'inline-block', flexShrink: 0,
+                  }} />
+                  기타
+                  <span style={{
+                    fontSize: '10px',
+                    background: 'rgba(255,255,255,0.12)',
+                    color: 'rgba(255,255,255,0.5)',
+                    padding: '1px 5px', borderRadius: '10px',
+                  }}>
+                    {unclassified.length}
+                  </span>
+                </a>
+              )}
+            </div>
+          </div>
+
+          {/* Bottom accent gradient bar */}
+          <div style={{
+            height: '3px',
+            background: 'linear-gradient(90deg, #0066FF 0%, #00B4D8 40%, #06D6A0 100%)',
+          }} />
         </div>
 
-        {/* 토픽 섹션 */}
-        {grouped.map(({ topic, items }) => (
-          <div key={topic.id} id={topic.id} style={{ marginBottom: '32px', padding: '0 8px' }}>
-            <h2 style={{
-              fontSize: '28px', fontWeight: '900', color: '#000000',
-              marginBottom: '20px', letterSpacing: '-0.03em',
-              textTransform: 'uppercase', borderBottom: '2px solid #000000',
-              paddingBottom: '8px',
-            }}>
-              {topic.label}
-            </h2>
-            <div style={{ columnCount: 2, columnGap: '16px' }}>
-              {items.map((article) => (
-                <div key={article.id} style={{ breakInside: 'avoid', marginBottom: '16px' }}>
-                  <ArticleCard article={article} topicLabel={topic.label} />
-                </div>
-              ))}
-            </div>
-          </div>
-        ))}
-
-        {/* 미분류 */}
-        {unclassified.length > 0 && (
-          <div id="기타" style={{ marginBottom: '32px', padding: '0 8px' }}>
-            <h2 style={{
-              fontSize: '28px', fontWeight: '900', color: '#000000',
-              marginBottom: '20px', letterSpacing: '-0.03em',
-              textTransform: 'uppercase', borderBottom: '2px solid #000000',
-              paddingBottom: '8px',
-            }}>
-              기타
-            </h2>
-            <div style={{ columnCount: 2, columnGap: '16px' }}>
-              {unclassified.map((article) => (
-                <div key={article.id} style={{ breakInside: 'avoid', marginBottom: '16px' }}>
-                  <ArticleCard article={article} topicLabel="기타" />
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
-
-        {/* 푸터 */}
+        {/* ── BODY ── */}
         <div style={{
-          backgroundColor: '#FFFFFF', padding: '24px 32px',
-          marginTop: '24px', textAlign: 'center',
-          borderRadius: '0 0 12px 12px', boxShadow: '0 -2px 10px rgba(0,0,0,0.02)',
+          maxWidth: '800px', margin: '0 auto',
+          padding: '32px 24px',
+          display: 'flex', flexDirection: 'column', gap: '48px',
         }}>
-          <p style={{ margin: 0, fontSize: '12px', color: '#9CA3AF' }}>
-            본 뉴스레터는 에너지 인사이트 시스템에 의해 자동 생성되었습니다.
+          {groups.map(({ topicId, items }) => {
+            const c = CAT[topicId] ?? FALLBACK_CAT
+            return (
+              <section key={topicId} id={`nl-${topicId}`}>
+                {/* Section header */}
+                <div style={{
+                  display: 'flex', alignItems: 'center', gap: '10px',
+                  marginBottom: '16px', paddingBottom: '10px',
+                  borderBottom: '2px solid #E5E7EB',
+                }}>
+                  <span style={{
+                    fontSize: '18px', fontWeight: 800,
+                    color: '#111827', letterSpacing: '-0.3px',
+                  }}>
+                    {topicId}
+                  </span>
+                </div>
+
+                {/* 2-column card grid */}
+                <div style={{
+                  display: 'grid',
+                  gridTemplateColumns: '1fr 1fr',
+                  gap: '16px',
+                  alignItems: 'stretch',
+                }}>
+                  {items.map((article) => (
+                    <ArticleCard key={article.id} article={article} catStyle={c} topicLabel={topicId} />
+                  ))}
+                </div>
+              </section>
+            )
+          })}
+
+          {/* 미분류 */}
+          {unclassified.length > 0 && (
+            <section id="nl-기타">
+              <div style={{
+                display: 'flex', alignItems: 'center', gap: '10px',
+                marginBottom: '16px', paddingBottom: '10px',
+                borderBottom: '2px solid #E5E7EB',
+              }}>
+                <span style={{
+                  fontSize: '18px', fontWeight: 800,
+                  color: '#111827', letterSpacing: '-0.3px',
+                }}>
+                  기타
+                </span>
+              </div>
+              <div style={{
+                display: 'grid',
+                gridTemplateColumns: '1fr 1fr',
+                gap: '16px',
+                alignItems: 'stretch',
+              }}>
+                {unclassified.map((article) => (
+                  <ArticleCard
+                    key={article.id}
+                    article={article}
+                    catStyle={FALLBACK_CAT}
+                    topicLabel="기타"
+                  />
+                ))}
+              </div>
+            </section>
+          )}
+        </div>
+
+        {/* ── FOOTER ── */}
+        <div style={{
+          background: '#0A1628', padding: '32px 24px',
+          textAlign: 'center',
+        }}>
+          <p style={{
+            fontSize: '12px', color: 'rgba(255,255,255,0.3)',
+            lineHeight: 1.8, margin: 0,
+          }}>
+            에너지 인사이트 뉴스레터&nbsp;·&nbsp;{displayDate}<br />
+            전력·에너지 솔루션 전문가를 위한 큐레이션 뉴스
           </p>
         </div>
       </div>
@@ -134,42 +323,114 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
 NewsletterContent.displayName = 'NewsletterContent'
 export { NewsletterContent }
 
-// ── 기사 카드 ──────────────────────────────────────────────
-function ArticleCard({ article, topicLabel }: { article: Article; topicLabel: string }) {
+// ── 기사 카드 ──────────────────────────────────────────────────
+function ArticleCard({
+  article,
+  catStyle,
+  topicLabel,
+}: {
+  article: Article
+  catStyle: CatStyle
+  topicLabel: string
+}) {
+  const ns = article.newsletterSummary
+
   return (
     <a
       href={article.originalUrl || '#'}
       target="_blank"
       rel="noopener noreferrer"
       style={{
-        display: 'block', textDecoration: 'none',
+        display: 'flex', flexDirection: 'column',
+        textDecoration: 'none', color: 'inherit',
+        background: '#fff', borderRadius: '16px',
+        border: '1px solid #E9ECEF',
+        boxShadow: '4px 6px 16px rgba(0,0,0,0.10), 1px 2px 4px rgba(0,0,0,0.06)',
         cursor: article.originalUrl ? 'pointer' : 'default',
-        backgroundColor: '#FFFFFF', borderRadius: '12px',
-        boxShadow: '4px 4px 12px rgba(0,0,0,0.08)',
-        overflow: 'hidden', border: '1px solid #F3F4F6',
       }}
     >
-      <div style={{ backgroundColor: '#F4F4F5', padding: '16px 20px 14px 20px', borderBottom: '1px solid #E5E7EB' }}>
-        <p style={{ margin: '0 0 6px 0', fontSize: '11px', fontWeight: '800', color: '#6B7280', letterSpacing: '0.1em', textTransform: 'uppercase' }}>
-          {topicLabel}
-        </p>
-        <h3 style={{ margin: 0, fontSize: '16px', fontWeight: '900', color: '#000000', lineHeight: '1.45', letterSpacing: '-0.02em' }}>
+      {/* 카테고리 색상 accent bar */}
+      <div style={{
+        height: '3px', flexShrink: 0,
+        borderRadius: '16px 16px 0 0',
+        background: `linear-gradient(90deg, ${catStyle.accent}, ${catStyle.accentEnd})`,
+      }} />
+
+      {/* Card body */}
+      <div style={{
+        padding: '18px 20px 16px', flex: 1,
+        display: 'flex', flexDirection: 'column',
+      }}>
+        {/* Source badge + date */}
+        <div style={{
+          display: 'flex', alignItems: 'center', gap: '6px',
+          marginBottom: '10px', flexWrap: 'wrap',
+        }}>
+          <span style={{
+            fontSize: '11px', fontWeight: 700, color: '#111827',
+            background: '#E9ECEF', padding: '2px 7px', borderRadius: '4px',
+          }}>
+            {article.source}
+          </span>
+          <span style={{ fontSize: '11px', color: '#9CA3AF', marginLeft: 'auto' }}>
+            {article.publishedAt.slice(0, 10)}
+          </span>
+        </div>
+
+        {/* Title */}
+        <div style={{
+          fontSize: '15px', fontWeight: 800, color: '#111827',
+          lineHeight: 1.45, letterSpacing: '-0.3px', marginBottom: '10px',
+        }}>
           {article.title}
-        </h3>
-      </div>
-      <div style={{ padding: '16px 20px 18px 20px' }}>
-        {article.summary && (
-          <p style={{ margin: '0 0 16px 0', fontSize: '13px', color: '#374151', lineHeight: '1.7', wordBreak: 'keep-all' }}>
-            {article.summary}
-          </p>
-        )}
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '8px' }}>
-          <span style={{ fontSize: '12px', color: '#9CA3AF', fontWeight: '600' }}>
-            {article.source}&nbsp;·&nbsp;{article.publishedAt.slice(0, 10)}
+        </div>
+
+        {/* 3줄 구조 요약 or 일반 요약 */}
+        <div style={{ marginBottom: '14px' }}>
+          {ns?.what ? (
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+              <div style={{ fontSize: '13px', color: '#111827', lineHeight: 1.65, fontWeight: 500 }}>
+                {ns.what}
+              </div>
+              {ns.why && (
+                <div style={{ fontSize: '12px', color: '#6B7280', lineHeight: 1.65 }}>
+                  {ns.why}
+                </div>
+              )}
+              {ns.sowhat && (
+                <div style={{ fontSize: '12px', color: '#6B7280', lineHeight: 1.65 }}>
+                  {ns.sowhat}
+                </div>
+              )}
+            </div>
+          ) : article.summary ? (
+            <div style={{ fontSize: '13px', color: '#374151', lineHeight: 1.72 }}>
+              {article.summary}
+            </div>
+          ) : null}
+        </div>
+
+        {/* Footer: topic chip + 원문 링크 */}
+        <div style={{
+          display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+          paddingTop: '12px', borderTop: '1px solid #F3F4F6', marginTop: 'auto',
+        }}>
+          <span style={{
+            fontSize: '11px', fontWeight: 700,
+            padding: '3px 8px', borderRadius: '20px',
+            background: catStyle.chipBg, color: catStyle.chipText,
+          }}>
+            {topicLabel}
           </span>
           {article.originalUrl && (
-            <span style={{ fontSize: '12px', fontWeight: '800', color: '#000000', whiteSpace: 'nowrap' }}>
-              원문 보기 →
+            <span style={{
+              display: 'inline-flex', alignItems: 'center', gap: '4px',
+              fontSize: '12px', fontWeight: 700, color: '#0066FF',
+            }}>
+              원문 보기
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M2 6h8M6 2l4 4-4 4" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
             </span>
           )}
         </div>

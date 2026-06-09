@@ -6,6 +6,12 @@ export type TopicId =
   | 'ESG·탄소중립'
   | '시장·가격 동향'
 
+export interface NewsletterSummary {
+  what?: string
+  why?: string
+  sowhat?: string
+}
+
 export interface Article {
   id: string
   source: string
@@ -21,6 +27,7 @@ export interface Article {
   publishedAt: string
   originalUrl: string
   collectedAt: string
+  newsletterSummary?: NewsletterSummary | null  // summarize-newsletter.js 파이프라인 출력
 }
 
 export interface DailyData {

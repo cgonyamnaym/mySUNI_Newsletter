@@ -43,13 +43,16 @@ function DetailView({ id }: { id: string }) {
   <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { background: #F7F7F8; font-family: "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
-    .wrapper { max-width: 680px; margin: 40px auto; padding: 0 0 32px 0; }
+    body {
+      background: #F0F2F5;
+      font-family: "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
     a { color: inherit; }
   </style>
 </head>
 <body>
-  <div class="wrapper">${contentRef.current.innerHTML}</div>
+  ${contentRef.current.innerHTML}
 </body>
 </html>`
     const blob = new Blob([fullHtml], { type: 'text/html;charset=utf-8' })

@@ -66,7 +66,8 @@ async function callLLM(prompt) {
       }
 
       if (is429) {
-        process.stdout.write(`  → [${modelName}] rate limit, 다음 모델 시도...\n`)
+        process.stdout.write(`  → [${modelName}] rate limit, 15s 대기 후 다음 모델 시도...\n`)
+        await sleep(15000)
         continue
       }
 

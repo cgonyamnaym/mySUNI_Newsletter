@@ -57,6 +57,22 @@ export default function GeneratePage() {
         }
       }
       selected.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+
+      // newsletter-draft.json의 newsletterSummary를 기사에 병합
+      const draft = await fetchJson<{ articles: Article[] }>('/data/newsletter-draft.json')
+      if (draft?.articles) {
+        const summaryMap = new Map(
+          draft.articles
+            .filter((a) => a.newsletterSummary)
+            .map((a) => [a.id, a.newsletterSummary])
+        )
+        for (const article of selected) {
+          if (!article.newsletterSummary && summaryMap.has(article.id)) {
+            article.newsletterSummary = summaryMap.get(article.id)
+          }
+        }
+      }
+
       setArticles(selected)
       setLoading(false)
     }
@@ -77,19 +93,15 @@ export default function GeneratePage() {
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      background: #F7F7F8;
+      background: #F0F2F5;
       font-family: "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
       -webkit-font-smoothing: antialiased;
     }
-    .wrapper { max-width: 680px; margin: 40px auto; background: #F7F7F8; padding: 0 0 32px 0; }
     a { color: inherit; }
-    @media (max-width: 720px) { .wrapper { margin: 0; } }
   </style>
 </head>
 <body>
-  <div class="wrapper">
-    ${contentRef.current.innerHTML}
-  </div>
+  ${contentRef.current.innerHTML}
 </body>
 </html>`
     const blob = new Blob([fullHtml], { type: 'text/html;charset=utf-8' })
