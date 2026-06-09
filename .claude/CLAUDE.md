@@ -3,7 +3,7 @@
 ## 프로젝트 개요
 - **목적**: 26개 지정 에너지 소스(24개 활성) 자동 수집 → 스크리닝 → 격주 뉴스레터 생성
 - **사용자**: 뉴스레터 편집 담당자 1~2명 (hyeokyeong@gmail.com)
-- **현황**: Sprint 1~8 완료 / Gap Analysis 98% / 다음 작업 미정
+- **현황**: Sprint 1~8+ 완료 / Gap Analysis 97% / Design v2.6
 
 ## 아키텍처 (4계층)
 
@@ -26,7 +26,10 @@ npm run collect         # collect.js 단독 실행
 npm run biweekly        # 격주 리포트 생성
 npm run dev             # 개발 서버 (Next.js)
 npm run build           # 정적 빌드 → out/
-node scripts/summarize-newsletter.js --ids=id1,id2  # 뉴스레터 요약 생성
+npm run summarize:top   # 상위 30개 기사 자동 요약 (최근 14일)
+npm run summarize:top:dry  # 드라이런 (저장 없음)
+npm run newsletter:prep # 크롤링 + 자동 요약 연속 실행
+node scripts/summarize-newsletter.js --ids=id1,id2  # 선택 ID 지정 요약
 ```
 
 ## 페이지 구조

@@ -1,8 +1,8 @@
 ---
 template: design
-version: 2.5
+version: 2.6
 feature: newsletter-dashboard
-date: 2026-06-04
+date: 2026-06-09
 author: hyeokyeong@gmail.com
 project: 에너지 뉴스레터 대시보드
 ---
@@ -12,10 +12,10 @@ project: 에너지 뉴스레터 대시보드
 > **Summary**: 26개 지정 소스(24개 활성, rss/scrape 2방식) 수집 파이프라인 + Next.js SSG/CSR 혼합 아키텍처. 기사 선택(/collect) → 스크리닝(/screening) → 뉴스레터 자동 생성(/generate) 워크플로 포함.
 >
 > **Project**: 에너지 뉴스레터 대시보드
-> **Version**: 2.5
+> **Version**: 2.6
 > **Author**: hyeokyeong@gmail.com
-> **Date**: 2026-06-04
-> **Status**: Sprint 1~8 완료 (Gap Analysis 98%)
+> **Date**: 2026-06-09
+> **Status**: Sprint 1~8+ 완료 (Gap Analysis 97%)
 > **Planning Doc**: [newsletter-dashboard.plan.md](../../01-plan/features/newsletter-dashboard.plan.md)
 
 ---
@@ -119,7 +119,8 @@ scripts/
   run-crawl.js            ← 진입점: RSS/GNews → Scrape 순서 실행
   reclassify-articles.js  ← 기존 기사 토픽 재분류 마이그레이션
   biweekly-report.js      ← 격주 리포트 생성
-  summarize-newsletter.js ← 뉴스레터 요약 CLI 진입점 (Sprint 8, § 2.7)
+  summarize-newsletter.js  ← 뉴스레터 요약 CLI 진입점: 선택 ID 지정 방식 (Sprint 8, § 2.7)
+  summarize-top-articles.js ← 크롤링 후 자동 일괄 요약: 상위 N개 자동 선발·요약 (Sprint 8+, § 2.7)
   crawlers/
     sources.js            ← 26개 소스 설정 배열 (rss/scrape, 24개 활성)
     rss-crawler.js        ← crawlRss(): rss 타입 처리
@@ -131,11 +132,12 @@ scripts/
     url-tracker.js        ← filterNew({force}) / markSeen({dryRun}) / isUrlAccessible()
     pdf-crawler.js        ← IRENA 등 기관 PDF 수집
   newsletter/             ← 뉴스레터 전용 요약 파이프라인 (Sprint 8, § 2.7)
-    gemini-client.js      ← 공유 Gemini 클라이언트 (rate limit + fallback)
+    gemini-client.js      ← 공유 Gemini 클라이언트 (rate limit + fallback, 3모델 체인)
     article-classifier.js ← Step 0: 기사 유형 판별 (Method A / B)
     field-extractor.js    ← Step 1A: Method A 구조화 필드 추출 (LLM)
     sentence-selector.js  ← Step 1B: Method B 문장 점수 선발 (rule-based)
     summary-generator.js  ← Step 2: 3줄 요약 생성 + 왜곡 방지 검증 (LLM)
+    node-screener.js      ← screening.ts Node.js 포트: 서버사이드 스크리닝 (Sprint 8+)
 ```
 
 **소스 타입 분류** (sources.js):
@@ -342,11 +344,24 @@ function screenArticles(
 사용자가 기사 선택을 확정한 후 뉴스레터에 게재할 3줄 요약을 생성하는 오프라인 파이프라인.
 
 **실행 방법**:
+
+_방법 A — 선택 ID 지정 (수동):_
 ```bash
 node scripts/summarize-newsletter.js --ids=id1,id2,...
 node scripts/summarize-newsletter.js --input=selected-ids.json
 ```
+
+_방법 B — 자동 일괄 요약 (Sprint 8+):_
+```bash
+npm run summarize:top            # 최근 14일, 상위 30개 자동 선발·요약
+npm run summarize:top:dry        # dry-run (파일 저장 없음)
+npm run newsletter:prep          # 크롤링 + 자동 요약 연속 실행
+node scripts/summarize-top-articles.js --days=7 --limit=20
+```
+
 → 출력: `public/data/newsletter-draft.json`
+
+> **방법 B 내부 흐름**: `node-screener.js`(screening.ts 포트)로 상위 N개 선발 → 기존 요약 재사용(API 절약) → 신규 기사만 3줄 요약 생성
 
 **3단계 파이프라인**:
 
