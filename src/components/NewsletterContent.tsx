@@ -1,6 +1,6 @@
 'use client'
 
-import { forwardRef } from 'react'
+import { forwardRef, useState, useEffect } from 'react'
 import type { Article, TopicId } from '@/lib/types'
 
 // 뉴스레터 전용 카테고리 색상 (목업 기준)
@@ -300,6 +300,24 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
           )}
         </div>
 
+        {/* ── SUBSCRIBE ── */}
+        <div style={{
+          background: '#F0F6FF',
+          borderTop: '3px solid #2563EB',
+          padding: '40px 24px',
+        }}>
+          <div style={{ maxWidth: '800px', margin: '0 auto' }}>
+            <div style={{ fontSize: '20px', fontWeight: 800, color: '#111827', marginBottom: '10px' }}>
+              무료 구독 신청
+            </div>
+            <p style={{ fontSize: '14px', color: '#6B7280', lineHeight: 1.8, margin: '0 0 20px 0' }}>
+              대시보드에서는 더 많은 기사를 직접 선택하고, 뉴스레터를 생성할 수 있어요.<br />
+              아래 이메일 주소를 입력해주시면, 대시보드 권한 부여해드려요.
+            </p>
+            <SubscribeForm />
+          </div>
+        </div>
+
         {/* ── FOOTER ── */}
         <div style={{
           background: '#0A1628', padding: '32px 24px',
@@ -442,5 +460,78 @@ function ArticleCard({
         </div>
       </div>
     </a>
+  )
+}
+
+// ── 구독 신청 폼 ──────────────────────────────────────────────────
+function SubscribeForm() {
+  const [email, setEmail] = useState('')
+  const [submitted, setSubmitted] = useState(false)
+  const [count, setCount] = useState(0)
+
+  useEffect(() => {
+    const saved = JSON.parse(localStorage.getItem('nl_subscribed_emails') ?? '[]') as string[]
+    setCount(saved.length)
+  }, [])
+
+  const handleSubmit = () => {
+    const trimmed = email.trim()
+    if (!trimmed || !trimmed.includes('@')) return
+
+    const saved = JSON.parse(localStorage.getItem('nl_subscribed_emails') ?? '[]') as string[]
+    if (!saved.includes(trimmed)) {
+      saved.push(trimmed)
+      localStorage.setItem('nl_subscribed_emails', JSON.stringify(saved))
+    }
+    setCount(saved.length)
+
+    const subject = encodeURIComponent('AI 뉴스레터 대시보드 구독 신청')
+    const body = encodeURIComponent(`구독 신청 이메일: ${trimmed}`)
+    window.open(`mailto:haileycho@sk.com?subject=${subject}&body=${body}`)
+
+    setSubmitted(true)
+    setEmail('')
+  }
+
+  return (
+    <div>
+      {submitted ? (
+        <div style={{ fontSize: '14px', fontWeight: 600, color: '#059669', marginBottom: '12px' }}>
+          ✅ 신청이 완료되었습니다. 이메일 클라이언트에서 발송을 확인해주세요.
+        </div>
+      ) : (
+        <div style={{ display: 'flex', gap: '8px', maxWidth: '480px', marginBottom: '12px' }}>
+          <input
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            onKeyDown={(e) => e.key === 'Enter' && handleSubmit()}
+            placeholder="이메일 주소를 입력해주세요"
+            style={{
+              flex: 1, padding: '10px 14px',
+              border: '1.5px solid #D1D5DB', borderRadius: '8px',
+              fontSize: '14px', outline: 'none',
+              background: '#fff',
+            }}
+          />
+          <button
+            onClick={handleSubmit}
+            style={{
+              padding: '10px 20px',
+              background: '#2563EB', color: '#fff',
+              border: 'none', borderRadius: '8px',
+              fontSize: '14px', fontWeight: 700,
+              cursor: 'pointer', whiteSpace: 'nowrap',
+            }}
+          >
+            신청하기
+          </button>
+        </div>
+      )}
+      <div style={{ fontSize: '13px', color: '#9CA3AF' }}>
+        현재까지 누적 신청 인원 :{' '}
+        <strong style={{ color: '#2563EB' }}>{count}명</strong>
+      </div>
+    </div>
   )
 }
