@@ -213,4 +213,4 @@ function isEnergyRelevant(title = '', summary = '', lang = 'ko', sourceId = '') 
   return false
 }
 
-module.exports = { isEnergyRelevant }
+module.exports = { isEnergyRelevant, TRUSTED_ENERGY_SOURCES }

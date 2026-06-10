@@ -10,6 +10,25 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 const TIMEOUT_MS = parseInt(process.env.BODY_CHECK_TIMEOUT_MS ?? '8000')
 const DEFAULT_MIN_SENTENCES = 10
 
+// ── 보일러플레이트 절단 마커 (공백 정규화 후 텍스트에서 탐색) ─────────────────────
+const BOILERPLATE_CUTOFFS = [
+  '저작권자 ©',           // 저작권 고지 (©)
+  '저작권자 ⓒ',           // 저작권 고지 (ⓒ)
+  '무단전재 및 재배포 금지',
+  '키워드 #',              // 키워드 태그 섹션
+  '댓글 내용입력',          // 댓글 입력 영역
+  '내 댓글 모음',           // 내 댓글 섹션
+]
+
+/** 본문 텍스트에서 보일러플레이트 마커 이후 내용 제거 */
+function truncateAtBoilerplate(text) {
+  for (const marker of BOILERPLATE_CUTOFFS) {
+    const idx = text.indexOf(marker)
+    if (idx >= 100) return text.slice(0, idx).trim()
+  }
+  return text
+}
+
 // 본문 가능성 높은 셀렉터 (순서대로 시도)
 const BODY_SELECTORS = [
   'article',
@@ -45,14 +64,16 @@ async function fetchBodyText(url) {
     const html = await res.text()
     const $ = cheerio.load(html)
 
-    // 노이즈 제거
+    // 노이즈 제거: 공통 UI 요소
     $('script, style, nav, header, footer, aside, .ad, .advertisement, iframe, [class*="banner"], [class*="sidebar"]').remove()
+    // 노이즈 제거: 한국 뉴스 사이트 기자 정보·태그·관련기사·댓글 영역
+    $('[class*="reporter"], [class*="byline"], [class*="keyword"], [class*="relate"], [class*="comment"], [id*="comment"]').remove()
 
     // 지정 셀렉터 순서대로 시도
     for (const sel of BODY_SELECTORS) {
       const el = $(sel).first()
       if (el.length) {
-        const text = el.text().replace(/\s+/g, ' ').trim()
+        const text = truncateAtBoilerplate(el.text().replace(/\s+/g, ' ').trim())
         if (text.length >= 100) return text
       }
     }
@@ -63,7 +84,7 @@ async function fetchBodyText(url) {
       const t = $(el).text().trim()
       if (t.length >= 20) paragraphs.push(t)
     })
-    return paragraphs.join(' ')
+    return truncateAtBoilerplate(paragraphs.join(' '))
   } catch {
     return ''
   }

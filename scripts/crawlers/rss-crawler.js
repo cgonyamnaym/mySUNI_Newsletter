@@ -8,7 +8,7 @@ const { summarize }      = require('./summarizer')
 const { classifyTopics } = require('./classifier')
 const { filterNew, markSeen, isUrlAccessible } = require('./url-tracker')
 const { isBodyLongEnough } = require('./body-fetcher')
-const { isEnergyRelevant } = require('./relevance-filter')
+const { isEnergyRelevant, TRUSTED_ENERGY_SOURCES } = require('./relevance-filter')
 
 const parser = new RssParser({
   timeout: 10000,
@@ -96,10 +96,15 @@ async function crawlRss(sources, { daysBack = 1, noSummarize = false, startDate,
     }
 
     const newItems = recentItems.filter(i => newUrls.includes(i.link))
-    
-    // 원문 링크 접속 유효성 검사 (404 등 제외)
+    const isTrusted = TRUSTED_ENERGY_SOURCES.has(source.id)
+
+    // 원문 링크 접속 유효성 검사 (신뢰 소스는 면제 — 페이월/봇차단 오탐 방지)
     const validItems = []
     for (const item of newItems) {
+      if (isTrusted) {
+        validItems.push(item)
+        continue
+      }
       const finalUrl = (item.source && item.source.url) ? item.source.url : item.link
       const isValid = await isUrlAccessible(finalUrl)
       if (isValid) {
@@ -126,9 +131,13 @@ async function crawlRss(sources, { daysBack = 1, noSummarize = false, startDate,
       continue
     }
 
-    // 본문 10문장 이상 필터
+    // 본문 10문장 이상 필터 (신뢰 소스는 면제 — 페이월 기사도 RSS 콘텐츠로 요약)
     const bodyPassItems = []
     for (const item of relevantItems) {
+      if (isTrusted) {
+        bodyPassItems.push(item)
+        continue
+      }
       const url = (item.source && item.source.url) ? item.source.url : item.link
       const { passes, sentenceCount } = await isBodyLongEnough(url)
       if (passes) {
@@ -145,7 +154,8 @@ async function crawlRss(sources, { daysBack = 1, noSummarize = false, startDate,
 
     const irrelevantSkipped = validItems.length - relevantItems.length
     const shortSkipped = relevantItems.length - bodyPassItems.length
-    console.log(`  → ${bodyPassItems.length}건 신규 수집 (접속 불가 ${newItems.length - validItems.length}건, 무관 ${irrelevantSkipped}건, 본문 짧음 ${shortSkipped}건 제외)`)
+    const trustedNote = isTrusted ? ' [신뢰소스 면제]' : ''
+    console.log(`  → ${bodyPassItems.length}건 신규 수집 (접속 불가 ${newItems.length - validItems.length}건, 무관 ${irrelevantSkipped}건, 본문 짧음 ${shortSkipped}건 제외)${trustedNote}`)
 
     const passedUrls = []
     const aiRejectedUrls = []

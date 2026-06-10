@@ -34,6 +34,29 @@ const QUOTE_MARKERS = [
   'said', 'noted', 'stated', 'explained', 'according to',
 ]
 
+// ── 보일러플레이트 감지 ────────────────────────────────────────────────────────
+
+const BOILERPLATE_RE = [
+  /기자\s+\S+@\S+/,          // 기자 이메일 byline (장재진 기자 jjjang@...)
+  /저작권자/,                  // 저작권 고지
+  /무단전재/,                  // 재배포 금지 고지
+  /관련기사/,                  // 관련기사 섹션 헤딩
+  /댓글/,                      // 댓글 섹션
+  /^좋아요\d/,                 // 좋아요 버튼 카운트
+]
+
+/**
+ * 기자 정보, 저작권, 키워드 태그, 관련기사 등 보일러플레이트 문장 여부 판단
+ * @param {string} sentence
+ * @returns {boolean}
+ */
+function isBoilerplateSentence(sentence) {
+  if (BOILERPLATE_RE.some(re => re.test(sentence))) return true
+  if (sentence.includes('@')) return true
+  const hashtagCount = (sentence.match(/#\S+/g) ?? []).length
+  return hashtagCount >= 3
+}
+
 // ── 개별 문장 점수 계산 ────────────────────────────────────────────────────────
 
 /**
@@ -80,7 +103,7 @@ function scoreSentence(sentence, index, total) {
  * @returns {{ what: string, why: string|null, sowhat: string|null }}
  */
 function selectSentencesMethodB(title, text) {
-  const sentences = extractValidSentences(text)
+  const sentences = extractValidSentences(text).filter(s => !isBoilerplateSentence(s))
 
   if (sentences.length === 0) {
     return { what: title, why: null, sowhat: null }

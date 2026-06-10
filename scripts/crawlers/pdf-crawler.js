@@ -30,6 +30,22 @@ async function fetchWithTimeout(url, options = {}) {
 }
 
 /**
+ * directPdfUrls의 URL 경로에서 연도/월을 파싱해 가장 최신 날짜를 반환.
+ * URL 패턴 예: /2024/Nov/IRENA_...pdf → 2024-11
+ */
+function newestDirectPdfDate(urls) {
+  const MONTH_MAP = { Jan:1,Feb:2,Mar:3,Apr:4,May:5,Jun:6,Jul:7,Aug:8,Sep:9,Oct:10,Nov:11,Dec:12 }
+  let newest = null
+  for (const url of urls) {
+    const m = url.match(/\/(\d{4})\/(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\//i)
+    if (!m) continue
+    const d = new Date(parseInt(m[1]), MONTH_MAP[m[2].charAt(0).toUpperCase() + m[2].slice(1).toLowerCase()] - 1, 1)
+    if (!newest || d > newest) newest = d
+  }
+  return newest
+}
+
+/**
  * 기관 사이트 index 페이지에서 최근 PDF 링크 추출
  * directPdfUrls 가 설정된 경우 해당 목록을 즉시 반환 (indexUrl 접근 불필요)
  * @returns {string[]}  절대 URL 배열
@@ -37,6 +53,15 @@ async function fetchWithTimeout(url, options = {}) {
 async function extractPdfLinks(source) {
   // directPdfUrls: 인덱스 페이지가 차단된 기관의 알려진 PDF URL 목록
   if (source.directPdfUrls && source.directPdfUrls.length > 0) {
+    const newest = newestDirectPdfDate(source.directPdfUrls)
+    if (newest) {
+      const ageMonths = (Date.now() - newest.getTime()) / (1000 * 60 * 60 * 24 * 30)
+      if (ageMonths > 6) {
+        console.warn(`  ⚠ [${source.name}] directPdfUrls 최신 항목이 ${Math.round(ageMonths)}개월 전입니다.`)
+        console.warn(`    → sources.js의 directPdfUrls에 신규 보고서 URL을 추가하세요.`)
+        console.warn(`    → 참고: https://www.irena.org/Publications`)
+      }
+    }
     return source.directPdfUrls
   }
 
@@ -145,7 +170,7 @@ async function crawlPdf(sources, { noSummarize = false, dryRun = false, force = 
         topics:        [],
       }
 
-      if (!noSummarize && process.env.ANTHROPIC_API_KEY) {
+      if (!noSummarize && process.env.GEMINI_API_KEY) {
         try {
           const titleGuess = extracted.text.split('\n').find(l => l.trim().length > 10) ?? ''
           meta = await summarize({

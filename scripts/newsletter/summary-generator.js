@@ -16,6 +16,24 @@
  */
 const { callLLM } = require('./gemini-client')
 
+// ── 폴백 텍스트 정제 ──────────────────────────────────────────────────────────
+
+/**
+ * 폴백 문장을 정제: 줄바꿈 제거, 길이 제한, 보일러플레이트 감지
+ * @param {string|null} text
+ * @returns {string|null}
+ */
+function sanitizeFallbackText(text) {
+  if (!text) return null
+  const cleaned = text.replace(/[\r\n\t]+/g, ' ').replace(/\s{2,}/g, ' ').trim()
+  if (cleaned.length < 10 || cleaned.length > 150) return null
+  // 이메일, 해시태그 다수, 저작권 고지 포함 시 보일러플레이트로 판단
+  if (cleaned.includes('@')) return null
+  if ((cleaned.match(/#\S+/g) ?? []).length >= 3) return null
+  if (cleaned.includes('저작권자') || cleaned.includes('무단전재')) return null
+  return cleaned
+}
+
 // ── 수치 추출 및 검증 ─────────────────────────────────────────────────────────
 
 const METRIC_RE = /\d[\d,]*(?:\.\d+)?\s*(?:MW|GW|kW|TWh|MWh|GWh|kWh|억\s?원|조\s?원|만\s?원|%|만\s?톤|tCO2)/g
@@ -57,6 +75,12 @@ function buildMethodAWhatFallback(fields) {
 
   if (fields.location_target) parts.push(fields.location_target)
 
+  // 행위자·수치 없이 기사 유형만 있을 때(필드 추출 실패) → causal_core로 대체
+  const hasSubstance = !!(fields.who.main_actor || metricValues.length > 0)
+  if (!hasSubstance && fields.causal_core) {
+    return fields.causal_core.slice(0, 80)
+  }
+
   return parts.length > 0 ? parts.join(' — ') : null
 }
 
@@ -83,24 +107,24 @@ function validateAndRepair(parsed, constraints) {
     return { what: null, why: null, sowhat: null }
   }
 
-  // [검증 1b] LLM 실패로 what이 null이지만 근거는 있을 때 → fallback 적용
+  // [검증 1b] LLM 실패로 what이 null이지만 근거는 있을 때 → fallback 적용 (정제 후)
   if (!result.what && constraints.whatFallback) {
-    result.what = constraints.whatFallback
+    result.what = sanitizeFallbackText(constraints.whatFallback)
   }
 
-  // [검증 2] 수치 보존 — 소스 수치가 출력에 없으면 fallback으로 교체
+  // [검증 2] 수치 보존 — 소스 수치가 출력에 없으면 fallback으로 교체 (정제 후)
   if (result.what && !allMetricsPreserved(result.what, constraints.whatMetrics ?? [])) {
-    result.what = constraints.whatFallback ?? null
+    result.what = sanitizeFallbackText(constraints.whatFallback) ?? null
   }
 
-  // [검증 3] 핵심 엔티티 보존 (Method A only) — 행위자명이 출력에 없으면 fallback
+  // [검증 3] 핵심 엔티티 보존 (Method A only) — 행위자명이 출력에 없으면 fallback (정제 후)
   if (result.what && constraints.whatEntity) {
     const entityWords = constraints.whatEntity
       .split(/[\s·()]+/)
       .filter(w => w.length >= 2)
     const entityFound = entityWords.some(w => result.what.includes(w))
     if (!entityFound) {
-      result.what = constraints.whatFallback ?? null
+      result.what = sanitizeFallbackText(constraints.whatFallback) ?? null
     }
   }
 
@@ -117,8 +141,12 @@ async function callAndParse(prompt, constraints) {
   let parsed = { what: null, why: null, sowhat: null }
 
   try {
-    const raw  = await callLLM(prompt)
-    const json = JSON.parse(raw)
+    const raw = await callLLM(prompt)
+    // LLM이 preamble/postamble을 추가하는 경우 JSON 객체 부분만 추출
+    const start = raw.indexOf('{')
+    const end   = raw.lastIndexOf('}')
+    const jsonStr = (start !== -1 && end > start) ? raw.slice(start, end + 1) : raw
+    const json = JSON.parse(jsonStr)
     parsed = {
       what:   typeof json.what   === 'string' ? json.what.trim()   : null,
       why:    typeof json.why    === 'string' ? json.why.trim()    : null,
@@ -154,7 +182,8 @@ async function generateSummaryFromFields(fields) {
     ?? fields.metrics.other
 
   const constraints = {
-    whatAvailable: !!(fields.who.main_actor || metricsStr),
+    // causal_core·tech_keywords도 포함: 필드 추출 실패(fallbackFields) 시에도 what 생성 가능
+    whatAvailable: !!(fields.who.main_actor || metricsStr || fields.causal_core || fields.tech_keywords.length > 0),
     whatMetrics:   primaryMetric ? extractMetricValues(primaryMetric) : [],
     whatEntity:    fields.who.main_actor ?? null,
     whatFallback:  buildMethodAWhatFallback(fields),

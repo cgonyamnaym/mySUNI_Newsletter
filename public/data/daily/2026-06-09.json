@@ -1,0 +1,496 @@
+{
+  "date": "2026-06-09",
+  "generatedAt": "2026-06-09T08:45:44.518Z",
+  "articleCount": 26,
+  "articles": [
+    {
+      "id": "2df82f22-9e65-4e2e-9f61-284d71ab123c",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "CATL, 에디파이 에너지의 호주 하이브리드 프로젝트에 2,400MWh 규모 배터리 저장장치 공급",
+      "titleOriginal": "CATL to supply 2,400MWh of battery storage for Edify Energy’s Australian hybrid projects",
+      "summary": "중국의 배터리 제조사 CATL이 호주 퀸즐랜드주에 위치한 에디파이 에너지(Edify Energy)의 스모키 크릭 및 거스리스 갭 태양광 발전소에 2,400MWh 규모의 배터리 에너지 저장장치(BESS)를 공급합니다. 이번 공급 계약은 호주의 대규모 재생에너지 하이브리드 프로젝트를 지원하며 전력 저장 효율을 높이는 데 기여할 것으로 전망됩니다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-09T05:29:27.000Z",
+      "originalUrl": "https://www.energy-storage.news/catl-to-supply-2400mwh-of-battery-storage-for-edify-energys-australian-hybrid-projects/",
+      "collectedAt": "2026-06-09T07:55:59.357Z"
+    },
+    {
+      "id": "aef2b56f-6d3e-4fb2-8121-6b6078849086",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "뉴질랜드 메리디언 에너지, 545GWh 규모 비상 수력 저장고 접근 가승인 획득",
+      "titleOriginal": "New Zealand’s Meridian Energy wins draft approval to access 545GWh of contingent hydro storage",
+      "summary": "뉴질랜드 전력회사 메리디언 에너지(Meridian Energy)가 레이크 푸카키(Lake Pūkaki)의 비상 수력 저장고에 대한 접근 제한을 완화하는 가승인 결정을 받았습니다. 이 결정은 메리디언 에너지가 545GWh 규모의 비상 수력 저장 용량을 활용할 수 있도록 할 예정입니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-09T02:03:15.000Z",
+      "originalUrl": "https://www.energy-storage.news/new-zealands-meridian-energy-wins-draft-approval-to-access-545gwh-of-contingent-hydro-storage/",
+      "collectedAt": "2026-06-09T07:56:32.065Z"
+    },
+    {
+      "id": "784f000d-5815-4a9c-8c16-aac2b3d9d792",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "에쿠 에너지, 10시간 지속 그리피스 BESS를 호주 EPBC 법에 제출",
+      "titleOriginal": "Eku Energy submits 10-hour duration Griffith BESS to Australia’s EPBC Act",
+      "summary": "에쿠 에너지(Eku Energy)는 호주의 EPBC 법에 따라 그리피스 배터리 에너지 저장 시스템(BESS)에 대한 환경 평가를 신청했습니다. 이 시스템은 10시간 지속 가능한 1,000MWh 규모의 배터리 에너지 저장 시스템입니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-09T02:00:06.000Z",
+      "originalUrl": "https://www.energy-storage.news/eku-energy-submits-10-hour-duration-griffith-bess-to-australias-epbc-act/",
+      "collectedAt": "2026-06-09T07:56:46.756Z"
+    },
+    {
+      "id": "bde79bb2-fcf0-4139-bbc6-5146ffb92c34",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "호주 Ark Energy의 3.1GWh 태양광·에너지저장시설, AEMO 계통 연계 승인 획득",
+      "titleOriginal": "Ark Energy’s 3.1GWh solar-plus-storage site in Australia bags AEMO grid connection",
+      "summary": "Ark Energy가 호주 리치먼드 밸리에 건설 중인 3,148MWh 규모의 태양광 및 에너지저장장치(ESS) 프로젝트에 대해 AEMO와 Transgrid로부터 국가전력망(NEM) 연결 승인을 받았습니다. 이번 승인으로 해당 대규모 재생에너지 단지가 호주 전력망에 안정적으로 전력을 공급할 수 있는 기반이 마련되었습니다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-09T01:55:04.000Z",
+      "originalUrl": "https://www.energy-storage.news/ark-energys-3-1gwh-solar-plus-storage-site-in-australia-bags-aemo-grid-connection/",
+      "collectedAt": "2026-06-09T07:56:55.075Z"
+    },
+    {
+      "id": "f188bfd8-4ade-49e4-8e57-ad291dd63d59",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "에너지 저장의 다양한 옵션",
+      "titleOriginal": "The different options for energy storage",
+      "summary": "이 기사는 태양광 PV와 같은 간헐적인 재생에너지 수요 증가에 따라 전력망 안정성을 확보하는 데 필수적인 에너지 저장 기술을 다룹니다. 다양한 에너지 저장 옵션들이 국제 표준의 지원을 받으며 주목받고 있으며, 이에 대한 상세 내용은 pv magazine Global에 게재되었습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-09T07:51:29.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/09/the-different-options-for-energy-storage/",
+      "collectedAt": "2026-06-09T07:58:13.930Z"
+    },
+    {
+      "id": "1a1c4616-e75d-416d-92ad-14c0e1a6c2f7",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미국 법원, 풍력 및 대형 태양광 발전소 5% 세이프 하버 복원",
+      "titleOriginal": "U.S. court restores 5% safe harbor for wind and large solar",
+      "summary": "워싱턴 D.C.의 한 연방 법원은 IRS가 10년 이상의 선례에도 불구하고 풍력 및 태양광 발전 시설에만 '세이프 하버' 변경을 요구한 것은 '자의적이고 변덕스러운' 행위였다고 판결했습니다. 이 판결로 인해 풍력 및 대형 태양광 발전 시설에 대한 5% 세이프 하버가 복원되었습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-09T07:20:02.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/09/court-restores-5-safe-harbor-for-wind-and-large-solar/",
+      "collectedAt": "2026-06-09T07:58:39.205Z"
+    },
+    {
+      "id": "deb99919-afb0-4377-b920-6a3b07d5371d",
+      "source": "Power Magazine",
+      "sourceId": "power-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "꼬리 위험에서 설계 기준으로: 전력망은 어떻게 극한 폭염에 적응하고 있는가",
+      "titleOriginal": "From Tail Risk to Design Baseline: How the Grid Is Adapting to Extreme Heat",
+      "summary": "미국 전력망 운영사들은 가뭄과 수요 증가 등 복합적인 압박으로 인해 극한 폭염을 더 이상 예외적 위험이 아닌 상시 운영 조건으로 재정의하고 있습니다. NERC 등 관련 기관은 급변하는 기후 환경 속에서 전력망의 회복력을 높이기 위한 새로운 설계 기준 도입과 대비책을 마련하는 데 집중하고 있습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-09T03:43:07.000Z",
+      "originalUrl": "https://www.powermag.com/from-tail-risk-to-design-baseline-how-the-grid-is-adapting-to-extreme-heat/",
+      "collectedAt": "2026-06-09T08:16:04.077Z"
+    },
+    {
+      "id": "48878f2d-186a-4292-a9d3-06c723d54e4c",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "국내 최대 규모 낙월해상풍력, 공정률 83.6%로 연내 준공 순항",
+      "titleOriginal": null,
+      "summary": "국내 최대 규모인 364.8MW 낙월해상풍력 프로젝트가 공정률 83.6%를 달성하며 연내 준공을 목표로 순항 중이다. 전체 64기의 모노파일 설치가 완료 단계에 있으며, 터빈 설치 등 주요 해상 공사가 차질 없이 진행되고 있다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-09T07:09:18.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368884",
+      "collectedAt": "2026-06-09T08:18:27.997Z"
+    },
+    {
+      "id": "18e1d63a-c289-4569-8597-672a6f73f75a",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "달로 향하는 한화큐셀 ‘탠덤 셀’...세계 첫 국제 인증 이어 우주태양광 시장 도전",
+      "titleOriginal": null,
+      "summary": "한화큐셀이 차세대 태양전지인 '페로브스카이트 기반 탠덤 셀'의 우주 환경 적용 가능성을 검증하기 위해 미국 조지아공대 주관의 SSTEF-1 프로젝트에 참여한다. 지상용 탠덤 모듈의 세계 최초 국제 인증 획득에 이어, 우주태양광 시장까지 기술 개발 범위를 확대하며 차세대 에너지 시장 선점에 속도를 내고 있다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-09T06:19:46.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368883",
+      "collectedAt": "2026-06-09T08:19:19.901Z"
+    },
+    {
+      "id": "846effb9-d556-4c79-9504-b55450b8e9f2",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "'서해안 에너지고속도로, 1단계 사업에서만 최소 84조 경제 효과 기대'",
+      "titleOriginal": null,
+      "summary": "정부가 2038년까지 서해안에 8GW 규모의 송전망을 확충하는 '에너지 고속도로' 사업을 추진하는 가운데, 2030년까지 진행되는 1단계 사업(2GW)만으로 최소 84조 원의 생산유발효과가 발생할 것으로 전망된다. 이번 송전망 확충은 데이터센터와 반도체 산업 등 전력 수요가 높은 핵심 산업의 병목 현상을 해소하고 추가 투자를 유도하는 데 기여할 것으로 기대된다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-09T06:16:48.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368879",
+      "collectedAt": "2026-06-09T08:19:39.923Z"
+    },
+    {
+      "id": "1591b9f4-e2b3-4894-bf71-09a582d0704a",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "BEP, 재생에너지 1.3GW 확보...발전·저장·판매 잇는 통합 플랫폼 구축 박차",
+      "titleOriginal": null,
+      "summary": "브라이트에너지파트너스(BEP)가 사업 시작 5년 만에 태양광과 에너지저장장치(BESS)를 포함한 총 1.3GW 규모의 발전자산을 확보했습니다. 최근 2년 사이 자산 규모가 두 배 이상 급성장하며 발전, 저장, 판매를 아우르는 통합 에너지 플랫폼 구축에 속도를 내고 있습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-09T06:08:03.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368880",
+      "collectedAt": "2026-06-09T08:19:59.841Z"
+    },
+    {
+      "id": "b872f096-d6fd-4f4f-a8f9-bc97d5958be4",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "에너지고속도로, 'BT 방식'이 '206조 부채 부담' 해결 방안될까",
+      "titleOriginal": null,
+      "summary": "한국전력의 206조 원 누적 부채와 송전망 구축 지연 문제를 해결하기 위해 민간 자본을 활용한 '건설 후 이전(BT)' 방식 도입이 논의되고 있다. 이는 한전의 재무적 한계를 극복하고 2038년까지 필요한 72조 8,000억 원의 전력망 투자 재원을 확보하기 위한 전략적 대안으로 주목받고 있다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-09T06:07:47.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368877",
+      "collectedAt": "2026-06-09T08:20:21.957Z"
+    },
+    {
+      "id": "4bb1418c-68a4-413f-a5cc-47a1f9a3b9ec",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "지선 끝났지만…동서울 변전소 증설 사업 ‘산 넘어 산’",
+      "titleOriginal": null,
+      "summary": "동해안~수도권 초고압직류송전(HVDC)망의 핵심 거점인 동서울변전소 옥내화 및 증설 사업이 주민 수용성 문제로 난항을 겪고 있다. 기후에너지환경부는 지선 이후 지방정부와의 협의를 통해 민주적 절차를 보완하여 사업을 추진하겠다는 입장이지만, 지자체장의 반대 입장으로 인해 사업 진행은 여전히 불투명하다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-09T04:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368823",
+      "collectedAt": "2026-06-09T08:21:20.942Z"
+    },
+    {
+      "id": "7ef3d857-ebd2-460c-8034-b69b55c6af08",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전기공사협회, 올해 첫 자문위원회 열고 주요 현안 논의",
+      "titleOriginal": null,
+      "summary": "한국전기공사협회는 제1차 자문위원회를 열고 일반용 전기공사 실적증명 기준금액 상향, 대형공사 기준금액 조정 등 업계 주요 현안과 추진 사업을 논의했다. 또한 조달청 적격심사 대응 및 전기장터 플랫폼 구축 등 회원사 권익 보호와 시장 활성화를 위한 방안을 공유했다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-09T03:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368843",
+      "collectedAt": "2026-06-09T08:22:20.232Z"
+    },
+    {
+      "id": "454414ac-a778-4b10-a9c5-b0be6ce7aa25",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "문신학 산업차관 “철강업계 혁신, 실질 성과로 이어지도록 적극 지원”",
+      "titleOriginal": null,
+      "summary": "산업통상자원부는 17일 시행되는 '철강산업특별법'을 기반으로 철강업계의 수소환원제철 및 고부가가치 기술개발을 지원한다. 또한 저탄소 철강 인증제 도입과 철스크랩 산업 육성 등 철강 산업의 저탄소 전환을 위한 정책적 지원을 확대할 방침이다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-09T02:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368870",
+      "collectedAt": "2026-06-09T08:22:39.857Z"
+    },
+    {
+      "id": "468a0458-3f90-46f8-9d5c-57ea9107d3c5",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "‘반딧불이 철수’에 고환율 직격탄까지… 부유식 해상풍력 상반기 입찰 결과 ‘경고등’",
+      "titleOriginal": null,
+      "summary": "반딧불이 부유식 해상풍력 프로젝트의 철수와 고환율 악재로 인해 국내 해상풍력 산업의 불확실성이 커지고 있다. 올해 상반기 입찰에는 고정식 2158MW, 부유식 1467MW가 참여했으며, 6월 중 발표될 결과가 부유식 해상풍력 시장의 신뢰도 회복을 가를 분수령이 될 전망이다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-09T01:10:39.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368830",
+      "collectedAt": "2026-06-09T08:23:39.739Z"
+    },
+    {
+      "id": "d15fd7aa-8347-49d4-a6ba-f70b8e02bbfb",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가온전선, 美 생성형 AI 데이터센터에 버스덕트 첫 공급",
+      "titleOriginal": null,
+      "summary": "가온전선의 미국 자회사 LSCUS가 생성형 AI 기업 데이터센터에 약 600억 원 규모의 버스덕트를 공급하는 계약을 체결했습니다. LSCUS는 글로벌 빅테크 기업들과 총 5조 원 이상의 장기 공급 계약을 확보했으며, 올해 1분기 AI 데이터센터 관련 매출이 전년 대비 300% 이상 성장하며 전력 인프라 시장 입지를 강화하고 있습니다.",
+      "topics": [
+        "시장·가격 동향",
+        "전력 인프라"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-09T01:09:53.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368867",
+      "collectedAt": "2026-06-09T08:24:07.136Z"
+    },
+    {
+      "id": "2d90fd8d-103f-4c07-bb2f-3949829f110d",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "오세훈표 모아주택 확대…도심형 5세대 지역난방 탄력받나",
+      "titleOriginal": null,
+      "summary": "오세훈 서울시장의 모아주택 확대 정책에 따라 공동주택 제로에너지건축물(ZEB) 의무화가 맞물리며 도심형 5세대 지역난방 도입이 주목받고 있다. 서울시는 2031년까지 31만 가구 공급을 목표로 하며, ZEB 5등급 달성을 위한 에너지 자립률 20% 확보가 핵심 과제로 부상했다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-09T01:09:37.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368835",
+      "collectedAt": "2026-06-09T08:24:20.041Z"
+    },
+    {
+      "id": "789da10b-8d27-424c-9ce2-d3c387940604",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스안전공사 부사장에 조영원 전 울산자유무역지역관리원장",
+      "titleOriginal": null,
+      "summary": "한국가스안전공사는 신임 부사장 겸 기획관리이사에 조영원 전 울산자유무역지역관리원장을 임명했으며, 임기는 2년이다. 조 부사장은 취임사에서 반도체 전략사업 성장 및 수소산업 발전에 따른 가스 안전 관리와 미래 에너지 선도 기관으로서의 역할을 강조했다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-09T01:04:16.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368866",
+      "collectedAt": "2026-06-09T08:24:40.033Z"
+    },
+    {
+      "id": "524d71d2-59f4-4ee8-bab3-237335089767",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "지역별 전기요금제, 수도권 도시철도 운영기관 재정 부담 가중 전망",
+      "titleOriginal": null,
+      "summary": "정부가 발전소 입지 및 송전 비용 등을 고려한 지역별 차등 전기요금제 도입을 추진함에 따라, 수도권에 위치한 서울교통공사와 인천교통공사의 재정 부담 가중이 우려된다. 최근 산업용 전기요금 시간대별 개편으로 소폭의 비용 절감 효과를 거두었으나, 전기요금 상승 폭이 사용량 증가율을 크게 상회하고 있어 운영기관의 근본적인 재정난 해소에는 한계가 있는 상황이다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-06-09T00:39:58.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368824",
+      "collectedAt": "2026-06-09T08:25:20.865Z"
+    },
+    {
+      "id": "0931580e-dfd9-4cc3-91f3-2b760d4d660e",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "슈나이더 일렉, 에노바와 AI 데이터센터 구축 협력…프리팹 솔루션 적용",
+      "titleOriginal": null,
+      "summary": "슈나이더 일렉트릭 코리아가 에노바(ENOVA)와 협력하여 급증하는 AI 데이터센터 수요에 대응하기 위한 고효율 전력 및 냉각 인프라 구축에 나선다. 양사는 리퀴드 쿨링과 통합 관리 솔루션을 적용해 고집적 AI 서버 환경에 최적화된 안정적인 운영 인프라를 공동 개발할 계획이다.",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-09T00:36:02.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368864",
+      "collectedAt": "2026-06-09T08:25:40.412Z"
+    },
+    {
+      "id": "135cdd1d-b3d0-427e-9971-de095fab943f",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "KR, 부유식 해상풍력 안전기준 강화…SCADA·계류시스템 관리기준 구체화",
+      "titleOriginal": null,
+      "summary": "한국선급(KR)이 부유식 해상풍력 구조물의 안전성 확보를 위해 '2026 부유식 풍력발전 구조물 지침서' 개정안을 마련했다. 이번 개정안은 원격 감시·제어 시스템(SCADA)의 정의를 명확히 하고, 부유식 하부구조물과 계류시스템의 운영 단계별 검사 및 안전관리 기준을 대폭 강화한 것이 핵심이다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-09T00:33:42.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368806",
+      "collectedAt": "2026-06-09T08:26:01.403Z"
+    },
+    {
+      "id": "29b9a4f7-634f-46d7-9585-dc3b5cad00d2",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[EV플러그IN] 세계 시장서 낙오한 닛산(日産) 전기차, 신기술로 부활을 꿈꾼다",
+      "titleOriginal": null,
+      "summary": "닛산(日産)은 이름처럼 일본산업을 대표하는 기업이다. 2차대전 당시 일본제국이 군수업체로 육성했고, 전후에는 민간기업으로 재탄생해 결국 '기술의 닛산'이라는 별명까지 얻을 정도로 성장했다. 버블 경제 여파로 위기를 겪기도 했지만, 프랑스 르노그룹과 동맹을 맺으며 극적으로 회생하기도 했다.닛산은 지금도 일본 자동차 산업 현주소까지도 명확하게 보여주고 있다. ",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-09T00:28:24.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368845",
+      "collectedAt": "2026-06-09T08:26:40.432Z"
+    },
+    {
+      "id": "5a346bd0-828e-40bb-8be7-a81fc9e06b5a",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전, AI 활용해 여름철 전기요금 급증 미리 알려준다",
+      "titleOriginal": null,
+      "summary": "한국전력이 인공지능(AI)과 빅데이터를 활용해 여름철 전기요금 급증을 사전에 알려주는 서비스를 본격 도입하며 에너지 절약과 고객 편익 향상에 나선다.한국전력은 AI와 빅데이터 기술을 활용해 자체 개발한 ‘전기요금 AI 안심 알리미 서비스’를 시행한다고 9일 밝혔다. 이 서비스는 고객의 최근 2년간 전력 사용 데이터를 AI가 분석해 검침일 기준 10일이 지난",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-09T00:19:17.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368863",
+      "collectedAt": "2026-06-09T08:34:43.277Z"
+    },
+    {
+      "id": "238fb61d-644a-4704-b3d1-f195171e58c7",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[시승기] 캐딜락 에스컬레이드, 티맵 인포테인먼트로 한국 맞춤형 럭셔리 SUV로…슈퍼크루즈와 진정한 '핸즈프리' 구현",
+      "titleOriginal": null,
+      "summary": "GM 한국사업장은 최근 파격적인 결정을 내렸다. 추후 국내 판매 모델에 티맵 인포테인먼트 시스템을 이식하는 것. 내수 회복을 위해 자체 생태계를 강조해온 글로벌 GM과도 다른 전략을 선택했다.첫 번째 적용 모델로 캐딜락 에스컬레이드 2026년형을 선택한 것도 의미심장하다. 단순히 내비게이션을 더한 것만이 아닌 국내 생태계를 통합하는 것은 물론, 슈퍼크루즈와",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-09T00:16:29.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368829",
+      "collectedAt": "2026-06-09T08:35:13.295Z"
+    },
+    {
+      "id": "995c60b0-f4db-4713-aa24-106df0af11cd",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "GS차지비, AI 기반 운영 혁신 가속…글로벌 브랜드 협력 확대",
+      "titleOriginal": null,
+      "summary": "국내 1위의 전기차 충전 플랫폼 GS차지비가 인공지능(AI) 기반 운영 혁신과 글로벌 프리미엄 완성차 브랜드 협력 확대를 통해 미래형 충전 서비스 경쟁력 강화에 속도를 내고 있다.GS차지비는 2026년 5월 기준 전국 약 7만9000기의 충전 인프라와 약 61만명의 회원을 확보하며 국내 전기차 충전사업자(CPO) 시장 점유율 1위를 유지 중이다. 회사는 대",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-09T00:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368825",
+      "collectedAt": "2026-06-09T08:35:43.304Z"
+    }
+  ]
+}

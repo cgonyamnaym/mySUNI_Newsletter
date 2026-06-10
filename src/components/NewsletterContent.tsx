@@ -30,6 +30,23 @@ const TOPIC_ORDER: TopicId[] = [
   '전력 인프라', '에너지원', '운영 최적화', '정책·규제', 'ESG·탄소중립', '시장·가격 동향',
 ]
 
+type EmojiEntry = { type: 'text'; value: string } | { type: 'img'; src: string }
+const TOPIC_EMOJI: Partial<Record<TopicId, EmojiEntry>> = {
+  '전력 인프라':    { type: 'text', value: '⚡' },
+  '에너지원':       { type: 'img',  src: '/icons/energy-source.JPG' },
+  '운영 최적화':    { type: 'text', value: '⚙️' },
+  '정책·규제':      { type: 'text', value: '🏛️' },
+  'ESG·탄소중립':   { type: 'text', value: '🌿' },
+  '시장·가격 동향': { type: 'text', value: '📈' },
+}
+function TopicEmoji({ id, size }: { id: TopicId; size: number }) {
+  const e = TOPIC_EMOJI[id]
+  if (!e) return null
+  return e.type === 'text'
+    ? <span style={{ fontSize: size, lineHeight: 1 }}>{e.value}</span>
+    : <img src={e.src} alt="" style={{ width: size, height: size, objectFit: 'contain', verticalAlign: 'middle' }} />
+}
+
 interface Props {
   articles: Article[]
   dateLabel?: string
@@ -100,8 +117,8 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
               color: '#FFFFFF', letterSpacing: '-0.5px',
               lineHeight: 1.2, marginBottom: '8px',
             }}>
-              전력·에너지 솔루션<br />
-              <span style={{ color: '#4D9FFF' }}>최신 동향 큐레이션</span>
+              Electrification & Energy Solution<br />
+              <span style={{ color: '#4D9FFF' }}>Bi-Weekly AI Newsletter</span>
             </div>
 
             <p style={{
@@ -169,9 +186,9 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
                       display: 'inline-flex', alignItems: 'center', gap: '6px',
                       padding: '12px 16px',
                       fontSize: '12px', fontWeight: 700,
-                      color: idx === 0 ? '#fff' : 'rgba(255,255,255,0.45)',
+                      color: idx === 0 ? c.dot : `${c.dot}99`,
                       whiteSpace: 'nowrap',
-                      borderBottom: idx === 0 ? '2px solid #0066FF' : '2px solid transparent',
+                      borderBottom: idx === 0 ? `2px solid ${c.dot}` : '2px solid transparent',
                       textDecoration: 'none',
                     }}
                   >
@@ -179,6 +196,7 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
                       width: '6px', height: '6px', borderRadius: '50%',
                       background: c.dot, display: 'inline-block', flexShrink: 0,
                     }} />
+                    <TopicEmoji id={topicId} size={13} />
                     {topicId}
                     <span style={{
                       fontSize: '10px',
@@ -245,12 +263,15 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
                   marginBottom: '16px', paddingBottom: '10px',
                   borderBottom: '2px solid #E5E7EB',
                 }}>
-                  <span style={{
-                    fontSize: '18px', fontWeight: 800,
-                    color: '#111827', letterSpacing: '-0.3px',
-                  }}>
-                    {topicId}
-                  </span>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                    <TopicEmoji id={topicId} size={22} />
+                    <span style={{
+                      fontSize: '18px', fontWeight: 800,
+                      color: c.accent, letterSpacing: '-0.3px',
+                    }}>
+                      {topicId}
+                    </span>
+                  </div>
                 </div>
 
                 {/* 2-column card grid */}

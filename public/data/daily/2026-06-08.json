@@ -1,7 +1,7 @@
 {
   "date": "2026-06-08",
-  "generatedAt": "2026-06-08T00:32:09.942Z",
-  "articleCount": 14,
+  "generatedAt": "2026-06-09T08:45:44.536Z",
+  "articleCount": 72,
   "articles": [
     {
       "id": "4a116444-5306-4122-94d5-185c2703f4ab",
@@ -264,6 +264,1059 @@
       "publishedAt": "2026-06-08T00:15:22.082Z",
       "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330957",
       "collectedAt": "2026-06-08T00:15:22.082Z"
+    },
+    {
+      "id": "e8501b35-25fd-4c10-aa08-0de27ec3bbe9",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "에스볼타, 미국 BESS 포트폴리오 확장을 위해 4억 5천만 달러 규모의 확대된 신용 시설 확보",
+      "titleOriginal": "esVolta closes US$450 million expanded credit facility to expand US BESS portfolio",
+      "summary": "캘리포니아에 본사를 둔 개발사 에스볼타(esVolta)는 미국 내 신규 유틸리티 규모 에너지 저장 프로젝트 확장을 위해 최대 4억 5천만 달러 규모의 확대된 기업 신용 시설을 확보했습니다. 이 자금을 통해 에스볼타는 미국 시장에서 배터리 에너지 저장 시스템(BESS) 포트폴리오를 크게 확장할 계획입니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T11:34:49.000Z",
+      "originalUrl": "https://www.energy-storage.news/esvolta-closes-us450-million-expanded-credit-facility-to-expand-us-bess-portfolio/",
+      "collectedAt": "2026-06-09T07:57:42.448Z"
+    },
+    {
+      "id": "49f7361f-ba58-4ada-956a-333873e978fa",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "데이터센터 개발사 데이원, 말레이시아에서 TNB 자회사들과 태양광 및 BESS PPA 체결",
+      "titleOriginal": "Data centre developer DayOne signs solar and BESS PPAs in Malaysia with TNB subsidiaries",
+      "summary": "데이터센터 개발사 데이원이 말레이시아에서 TNB 자회사들과 태양광 및 BESS(배터리 에너지 저장 시스템) 전력구매계약(PPA)을 체결했습니다. 이 계약은 말레이시아 정부가 출범한 '기업 재생에너지 공급 제도(CRESS)'를 통해 이루어졌습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T10:46:38.000Z",
+      "originalUrl": "https://www.energy-storage.news/data-centre-developer-dayone-signs-solar-and-bess-ppas-in-malaysia-with-tnb-subsidiaries/",
+      "collectedAt": "2026-06-09T07:57:50.124Z"
+    },
+    {
+      "id": "190860f4-44ec-4d2f-af56-55aeaa1ee57e",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "계약, 감사 및 운영 통제: BESS 투자를 보호하는 방법",
+      "titleOriginal": "Contracting, audits and operational controls: How to protect your BESS investment",
+      "summary": "Intertek CEA의 Yilin Huang은 BESS(Battery Energy Storage System) 투자 실패를 방지하기 위해 개발자들이 잘 구조화된 계약을 체결해야 한다고 강조합니다. 성공적인 BESS 투자를 위해서는 계약 외에도 감사 및 운영 통제가 필수적이라고 제안하며, 이를 통해 잠재적인 위험을 피하고 투자를 보호할 수 있다고 설명합니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T09:16:19.000Z",
+      "originalUrl": "https://www.energy-storage.news/contracting-audits-and-operational-controls-how-to-protect-your-bess-investment/",
+      "collectedAt": "2026-06-09T07:58:02.900Z"
+    },
+    {
+      "id": "81d4e39e-0615-494d-841f-5085c6cd6ea3",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "TOYO, 휴스턴에 3억 5,700만 달러 규모 1.5GW HJT 태양광 셀 공장 설립",
+      "titleOriginal": "TOYO launches $357 Million, 1.5 GW HJT solar cell factory in Houston",
+      "summary": "TOYO가 미국 휴스턴에 3억 5,700만 달러를 투자하여 1.5GW 규모의 N형 이종접합(HJT) 태양광 셀 생산 시설을 구축합니다. 이번 투자는 섹션 45X 세액 공제 혜택을 확보하고 미국 내 완전한 통합형 공급망을 구축하기 위한 목적입니다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-08T14:09:15.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/08/toyo-launches-357-million-1-5-gw-hjt-solar-cell-factory-in-houston/",
+      "collectedAt": "2026-06-09T07:58:49.313Z"
+    },
+    {
+      "id": "917fdfd9-962e-4afe-9fc6-a1af69e318b4",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "상하이 SNEC 2026의 주요 시사점",
+      "titleOriginal": "Key takeaways from SNEC 2026 in Shanghai",
+      "summary": "SNEC 2026에서 태양광 업계는 단순한 기업 합병 대신 가치 사슬 확장과 에너지 저장 장치 도입을 통한 '소프트 통합' 전략을 보였습니다. 제조사들은 공급 과잉과 재무적 손실 상황 속에서도 물량 중심에서 벗어나 품질과 차별화된 솔루션 중심으로 경쟁 패러다임을 전환하고 있습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T12:59:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/08/key-takeaways-from-snec-2026-in-shanghai/",
+      "collectedAt": "2026-06-09T08:00:16.797Z"
+    },
+    {
+      "id": "739e73a6-315f-4edf-9c19-31cb6cbd1735",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "인도네시아의 전력망 붕괴, 재생에너지 확대에 위협",
+      "titleOriginal": "Grid collapse in Indonesia poses threat to renewables expansion",
+      "summary": "인도네시아 북서부에서 발생한 연쇄 정전 사태로 인해 기존 전력망 인프라가 향후 계획된 기가와트 규모의 태양광 프로젝트를 수용하기에 부족하다는 우려가 제기되었습니다. 에너지 싱크탱크인 IESR(Institute for Essential Services Reform)은 이러한 인프라 한계가 국가의 재생에너지 확장 계획에 중대한 걸림돌이 될 것이라고 경고했습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T12:50:44.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/08/grid-collapse-in-indonesia-poses-threat-to-renewables-expansion/",
+      "collectedAt": "2026-06-09T08:00:57.572Z"
+    },
+    {
+      "id": "d887c501-4696-4fbc-984f-91fdfec62116",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "태양광 셀 효율 현황 한눈에 보기 – 업데이트",
+      "titleOriginal": "All solar cell efficiencies at a glance – updated",
+      "summary": "마틴 그린 교수 연구팀이 태양광 셀 효율 테이블 버전 68을 발표했습니다. 이번 업데이트에는 총 21개의 새로운 연구 결과가 반영되었습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T12:17:57.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/08/all-solar-cell-efficiencies-at-a-glance-updated-7/",
+      "collectedAt": "2026-06-09T08:01:17.681Z"
+    },
+    {
+      "id": "13ab8061-83b7-4be7-ae56-d18395ea5da3",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "조류의 구조색 원리를 이용한 태양광 모듈 착색 기술",
+      "titleOriginal": "Using a bird’s structural-color trick to color solar modules",
+      "summary": "연구팀은 파란 깃털을 가진 새들의 구조색 원리를 모방한 준질서적 광자 안료를 사용하여 기존 염료 방식보다 효율이 50% 이상 향상된 태양광 모듈을 개발했습니다. 이 기술은 pv magazine Global을 통해 소개된 새로운 태양광 발전 모듈 착색 공정입니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T12:07:54.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/08/using-a-birds-structural-color-trick-to-color-solar-modules/",
+      "collectedAt": "2026-06-09T08:01:37.659Z"
+    },
+    {
+      "id": "8b06ff63-46fe-490e-8d9c-7f9fb6016c1c",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Astronergy, 825W급 TOPCon 태양광 모듈 출시",
+      "titleOriginal": "Astronergy launches 825 W TOPCon solar module",
+      "summary": "Astronergy가 SNEC 2026에서 최대 출력 825W, 효율 24.5%를 달성한 차세대 n-type TOPCon 모듈 'Astro N8 Pro' 시리즈를 공개했습니다. 이번 신제품은 태양광 모듈의 고효율화를 선도하며 시장 경쟁력을 강화하고 있습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T11:59:57.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/08/astronergy-launches-825-w-topcon-solar-module/",
+      "collectedAt": "2026-06-09T08:02:10.364Z"
+    },
+    {
+      "id": "fc4c34e8-2570-429f-9746-5e5890fdec1d",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "기후 변화에 따른 아프리카 태양광 전력망의 동기화 위험 증가",
+      "titleOriginal": "Africa’s solar power pools show rising synchronization risk under climate change",
+      "summary": "CMIP6 기후 전망을 활용한 연구 결과, 기후 변화로 인해 아프리카 전력망의 지리적 다변화 효과가 약화될 것으로 나타났습니다. 특히 서아프리카와 중앙아프리카는 금세기 말까지 연간 100일 이상 태양광 발전량이 급격히 동시 저하되는 위험을 겪을 것으로 예측됩니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T11:53:10.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/08/africas-solar-power-pools-show-rising-synchronization-risk-under-climate-change/",
+      "collectedAt": "2026-06-09T08:02:29.888Z"
+    },
+    {
+      "id": "5ad72fc6-038e-4a0d-ac17-8c6b6625770e",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "SVOLT, SNEC 2026에서 포괄적인 에너지 저장 솔루션 공개",
+      "titleOriginal": "SVOLT showcases comprehensive energy storage solutions at SNEC 2026",
+      "summary": "SVOLT가 SNEC 2026에서 자사의 122 Ah 적층형 전극 주거용 에너지 저장 셀을 기반으로 한 고속 충전 버전과 저온·장수명 버전을 새롭게 공개했습니다. 이번 발표를 통해 SVOLT는 단일 셀 제품군을 넘어 플랫폼 기반의 에너지 저장 솔루션 제공업체로 진화하고 있습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T09:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/08/svolt-showcases-comprehensive-energy-storage-solutions-at-snec-2026/",
+      "collectedAt": "2026-06-09T08:02:41.930Z"
+    },
+    {
+      "id": "eaee14b1-8d28-4fe3-b145-2b7cfd39f4eb",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "크라운 에스테이트, 영국 경매 실패로 취소된 해상풍력 부지 재경매 추진",
+      "titleOriginal": "Crown Estate to auction offshore wind site dropped after UK auction failure",
+      "summary": "영국 왕실 소유 부동산 관리 기구인 크라운 에스테이트(Crown Estate)가 지난 영국 정부 경매에서 낙찰에 실패해 사업이 중단되었던 해상풍력 부지에 대해 재경매를 추진합니다. 이번 결정은 영국 내 해상풍력 에너지 개발을 촉진하고 해당 부지의 활용도를 높이기 위한 목적입니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T13:43:35.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1960829/crown-estate-auction-offshore-wind-site-dropped-uk-auction-failure",
+      "collectedAt": "2026-06-09T08:03:21.389Z"
+    },
+    {
+      "id": "b305a6ce-ce60-4a61-acfa-358258ce066a",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "노르덱스(Nordex) 터빈, 낙뢰 피해 추정으로 손상",
+      "titleOriginal": "Nordex turbine damaged in possible lightning strike",
+      "summary": "노르덱스(Nordex)의 풍력 터빈이 낙뢰로 추정되는 사고로 인해 손상을 입었습니다. 이번 사고는 재생 에너지 발전 시설의 안전 관리 및 기상 피해 대응의 중요성을 시사합니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-08T10:20:52.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1960782/nordex-turbine-damaged-possible-lightning-strike",
+      "collectedAt": "2026-06-09T08:03:35.061Z"
+    },
+    {
+      "id": "75511426-fab1-46f5-a59f-aa6eea55f03b",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "부유식 해상풍력 대표: 차액결제계약(CfD)은 신기술에 '본질적으로 위험'",
+      "titleOriginal": "Floating wind chief: CfDs 'inherently risky’ for emerging technologies",
+      "summary": "한 해상풍력 개발사 CEO는 부유식 해상풍력과 같은 초기 단계의 기술에 현재의 차액결제계약(CfD) 제도를 적용하는 것이 적절한지에 대해 의문을 제기했습니다. 그는 CfD 구조가 신기술의 개발과 상업화 과정에서 발생하는 리스크를 감당하기에는 본질적으로 위험하다고 지적했습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T09:32:21.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1960759/floating-wind-chief-cfds-inherently-risky-emerging-technologies",
+      "collectedAt": "2026-06-09T08:03:52.687Z"
+    },
+    {
+      "id": "7eb3222a-4319-4e9c-ab36-9f2a7ab52562",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "테넷(Tennet), 셸(Shell) 출신 인사를 신임 CEO로 임명",
+      "titleOriginal": "Tennet appoints Shell veteran as new CEO",
+      "summary": "유럽의 송전 시스템 운영사인 테넷(Tennet)이 셸(Shell)의 네덜란드 법인 대표인 프란스 에버츠(Frans Everts)를 새로운 최고경영자(CEO) 겸 이사회 의장으로 임명했습니다. 이번 인사를 통해 테넷은 전력 인프라 운영 및 에너지 전환 전략에 새로운 리더십을 도입할 예정입니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T09:26:59.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1960755/tennet-appoints-shell-veteran-new-ceo",
+      "collectedAt": "2026-06-09T08:04:12.976Z"
+    },
+    {
+      "id": "e683398d-58b5-4ace-a6dd-6e554ab8882a",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Crane Clean Energy Center 프로젝트에 대한 NRC 및 FERC의 지원",
+      "titleOriginal": "NRC and FERC boosts for Crane Clean Energy Center project",
+      "summary": "미국 연방에너지규제위원회(FERC)는 콘스텔레이션(Constellation)이 2027년 가동을 재개할 스리마일섬 1호기로 760MW 규모의 전력망 연결권을 이전하는 계획을 승인했습니다. 또한 원자력규제위원회(NRC)는 해당 원전의 재가동이 환경에 중대한 영향을 미치지 않는다는 초안을 발표하며 절차를 진행 중입니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T13:35:32.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/ferc-waiver-clears-way-for-crane-clean-nuclear-interconnection",
+      "collectedAt": "2026-06-09T08:04:53.945Z"
+    },
+    {
+      "id": "83e3a626-051a-46cc-99f8-5275532e6440",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "IAEA, 체르노빌 인근 사용후핵연료 저장시설 드론 피격 후 경고",
+      "titleOriginal": "IAEA warning after drone hits used fuel facility near Chernobyl",
+      "summary": "국제원자력기구(IAEA)의 라파엘 마리아노 그로시 사무총장은 체르노빌 제외구역 내 신규 중앙 사용후핵연료 저장시설의 건물이 드론 공격으로 상당한 구조적 손상을 입었다고 발표했습니다. 이번 사건은 원자력 시설의 안전성과 보안에 대한 심각한 우려를 불러일으키고 있습니다.",
+      "topics": [
+        "정책·규제"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-06-08T11:58:06.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/iaea-warning-after-drone-hits-used-fuel-facility-near-chernobyl",
+      "collectedAt": "2026-06-09T08:05:10.776Z"
+    },
+    {
+      "id": "384c0adc-01aa-4835-b76a-719b734c0d16",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "오라노(Orano), 몽골 우라늄 프로젝트 건설 착수",
+      "titleOriginal": "Orano starts construction at Mongolia uranium project",
+      "summary": "프랑스 원자력 기업 오라노(Orano)가 몽골 주브치 오보(Zuuvch Ovoo) 현장에서 우라늄 프로젝트의 본격적인 건설 단계에 돌입했습니다. 이번 착공식은 해당 프로젝트의 공식적인 시행을 알리는 중요한 이정표가 될 것입니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-08T16:42:35.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/orano-starts-construction-at-mongolia-uranium-project",
+      "collectedAt": "2026-06-09T08:05:39.981Z"
+    },
+    {
+      "id": "32d7f87e-d5e2-4725-838a-07c93bfe1011",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "한국수력원자력, EC가 체코 원전 사업 관련 외국 보조금 조사 철회했다고 밝혀",
+      "titleOriginal": "KHNP says EC has dropped foreign subsidy probe into Czech project",
+      "summary": "유럽연합 집행위원회(EC)는 한국수력원자력의 체코 두코바니 원자력 발전소 건설 사업에 대해 EU 외국 보조금 규정에 따른 심층 조사를 실시하지 않기로 결정했습니다. 이번 결정으로 한수원의 체코 원전 프로젝트 추진에 걸림돌이 되었던 규제 리스크가 해소되었습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T13:49:35.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/eu-drops-probe-into-korean-subsidies-for-czech-project",
+      "collectedAt": "2026-06-09T08:05:57.489Z"
+    },
+    {
+      "id": "888bd7fc-e6a1-46e1-a425-3fe2981149f7",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "캐나다 해밀턴시 당국, 데이터 센터 건립 제안 거부",
+      "titleOriginal": "Officials in Hamilton, Canada, deny proposal for data center",
+      "summary": "캐나다 해밀턴시 당국은 8시간에 걸친 회의 끝에 지역 주민들의 강력한 반대에 부딪힌 데이터 센터 건립 제안을 거부했습니다. 이번 결정은 데이터 센터 운영에 필요한 대규모 전력 소비와 환경적 영향에 대한 지역사회의 우려가 반영된 결과입니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-08T16:50:27.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/officials-in-hamilton-canada-deny-proposal-for-data-center/",
+      "collectedAt": "2026-06-09T08:06:45.796Z"
+    },
+    {
+      "id": "1395bcde-7291-476a-bd22-999f07a0d130",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "사이러스원(CyrusOne), 텍사스에 380MW급 데이터 센터 착공",
+      "titleOriginal": "CyrusOne breaks ground on 380MW data center in Texas",
+      "summary": "데이터 센터 기업 사이러스원(CyrusOne)이 텍사스주에 380MW 규모의 데이터 센터 착공을 시작했습니다. 해당 캠퍼스는 칼파인(Calpine) 천연가스 발전소와 인접하여 전력을 공급받는 형태로 구축될 예정입니다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-08T16:20:25.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/cyrusone-breaks-ground-on-380mw-data-center-in-texas/",
+      "collectedAt": "2026-06-09T08:07:25.974Z"
+    },
+    {
+      "id": "407534e3-58e8-489f-8490-054a33d393bc",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Cipher, 텍사스 스팅레이 데이터 센터 구축을 위해 8억 1,000만 달러 규모의 선순위 담보 채권 발행 추진",
+      "titleOriginal": "Cipher seeks $810m in senior secured notes for Stingray data center in West Texas",
+      "summary": "Cipher가 텍사스 스팅레이(Stingray) 데이터 센터 개발 자금을 조달하기 위해 8억 1,000만 달러 규모의 선순위 담보 채권 발행을 추진하고 있습니다. 해당 기업은 이미 아마존(Amazon) 및 플루이드스택(Fluidstack)과 데이터 센터 부지 선임대 계약을 체결한 바 있습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T15:59:52.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/cipher-seeks-810m-in-senior-secured-notes-for-stingray-data-center-in-west-texas/",
+      "collectedAt": "2026-06-09T08:08:07.015Z"
+    },
+    {
+      "id": "8b43ee3a-b2fc-48c6-9f3e-681453bc68c4",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Stark Power, Sagebrush 인수를 통해 5.6GW 규모 데이터 센터 개발 포트폴리오 확보",
+      "titleOriginal": "Stark Power lands 5.6GW data center development portfolio in Sagebrush acquisition",
+      "summary": "Stark Power가 Sagebrush를 인수하며 5.6GW 규모의 데이터 센터 개발 포트폴리오를 확보했습니다. 이를 위해 약 1억 4천만 달러의 자금을 조달하며 데이터 센터 인프라 확장에 나섰습니다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-08T15:52:30.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/stark-power-lands-56gw-data-center-development-portfolio-in-sagebrush-acquisition/",
+      "collectedAt": "2026-06-09T08:08:52.507Z"
+    },
+    {
+      "id": "1fadedb4-2efe-4242-b18c-d6619e52b397",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "에너지 & 파워 위크 가이드",
+      "titleOriginal": "Energy & Power Week Guide",
+      "summary": "본 가이드는 데이터 센터가 현대 전력 및 에너지 생태계에서 차지하는 역할을 분석합니다. 데이터 센터 운영의 효율성을 제고하고 관련 에너지 인프라와의 통합 방안을 중점적으로 다룹니다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-08T15:18:09.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/dcd-downloads/energy-power-week-guide/",
+      "collectedAt": "2026-06-09T08:09:44.209Z"
+    },
+    {
+      "id": "c00602e3-934d-47c8-92c1-6078f169464e",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "영국 버킹엄셔의 자동차 벼룩시장 부지에 하이퍼스케일 데이터 센터 설립 제안",
+      "titleOriginal": "Hyperscale data center proposed for car boot sale site in Buckinghamshire, UK",
+      "summary": "영국 버킹엄셔 지역의 기존 자동차 벼룩시장 부지에 대규모 하이퍼스케일 데이터 센터를 건설하는 프로젝트가 제안되었습니다. 이 계획은 해당 부지에서 활동하던 상인들이 퇴거 위기에 처하게 되면서 데이터 센터 구축을 위한 전력 인프라 확보와 부지 활용을 둘러싼 논의를 촉발하고 있습니다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-08T14:20:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/hyperscale-data-center-proposed-for-car-boot-sale-site-in-buckinghamshire-uk/",
+      "collectedAt": "2026-06-09T08:11:36.952Z"
+    },
+    {
+      "id": "baea5530-7ccf-4ef0-942c-36f975b7b070",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "인디애나주 찰스타운에 1억 500만 달러 규모 데이터 센터 건설 추진",
+      "titleOriginal": "$105m data center could be built in Charlestown, Indiana",
+      "summary": "부동산 기업 QLevr가 인디애나주 찰스타운에 1억 500만 달러 규모의 데이터 센터 건립을 제안했습니다. 데이터 센터는 대규모 전력 소비가 필수적인 시설인 만큼, 이번 프로젝트는 지역 내 전력 인프라 수요에 중요한 영향을 미칠 것으로 예상됩니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T14:00:30.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/105m-data-center-could-be-built-in-charlestown-indiana/",
+      "collectedAt": "2026-06-09T08:11:56.593Z"
+    },
+    {
+      "id": "effda1be-b5d8-49b4-bb41-a0bc1d554812",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "네이버, 한국에 55MW 규모 엔비디아 하드웨어 구축",
+      "titleOriginal": "Naver to deploy 55MW of Nvidia hardware in South Korea",
+      "summary": "네이버가 향후 글로벌 시장에서 수백 메가와트 규모의 AI 인프라를 구축하겠다는 계획의 일환으로 한국에 55MW 규모의 엔비디아 하드웨어를 도입합니다. 이는 급증하는 AI 컴퓨팅 수요에 대응하기 위한 대규모 전력 인프라 확보 전략으로 풀이됩니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T14:00:28.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/naver-to-deploy-55mw-of-nvidia-hardware-in-south-korea/",
+      "collectedAt": "2026-06-09T08:12:16.887Z"
+    },
+    {
+      "id": "0fbafc66-1a9d-4b96-b690-13c490eb2abd",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "뉴욕주 의회, 데이터 센터 모라토리엄 법안 통과... 호철 주지사 승인 대기 중",
+      "titleOriginal": "New York state legislature passes data center moratorium, awaits governor Hochul's approval",
+      "summary": "뉴욕주 의회가 미국 내 최초로 데이터 센터 신규 건설에 대한 주 단위 모라토리엄을 시행하는 법안을 통과시켰으며, 현재 호철 주지사의 최종 승인을 기다리고 있습니다. 이번 조치는 급증하는 데이터 센터의 전력 소비와 환경적 영향을 관리하기 위한 규제 움직임으로 해석됩니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-08T13:50:26.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/new-york-state-legislature-passes-data-center-moratorium-awaits-governor-hochuls-approval/",
+      "collectedAt": "2026-06-09T08:12:36.724Z"
+    },
+    {
+      "id": "bdba0190-4307-4bf3-bb4d-8b8e654b1999",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "마이크로소프트, 데이터센터 비용으로부터 요금 납부자를 보호하기 위해 네바다주 요금제 모색",
+      "titleOriginal": "Microsoft seeks Nevada tariff to shield ratepayers from data center costs",
+      "summary": "마이크로소프트는 네바다주에서 데이터센터 건설로 인한 인프라 비용 부담으로부터 일반 요금 납부자를 보호하기 위한 새로운 요금제 도입을 제안했다. 이 제안은 데이터센터와 같은 대규모 전력 소비 고객이 자신들의 프로젝트에 필요한 특정 인프라 비용을 직접 부담하게 하고, 동시에 전체 전력망 서비스에 대한 일반적인 유틸리티 요금은 유지하도록 한다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-08T16:14:54.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/microsoft-seeks-nevada-tariff-to-shield-ratepayers-from-data-center-costs/822250/",
+      "collectedAt": "2026-06-09T08:13:29.702Z"
+    },
+    {
+      "id": "695529e7-6dbb-4cc1-8649-04e0a7e8bce1",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "대규모 전력 공급 준비된 시설이 산업용 부동산 시장을 견인하다",
+      "titleOriginal": "Big, power-ready facilities drive industrial real estate market",
+      "summary": "산업 전문가들의 보고서에 따르면, 기업들은 자동화 시스템 운영에 필요한 대규모 전력을 안정적으로 공급받을 수 있는 현대적 산업 시설을 선호하고 있습니다. 이러한 전력 수급 역량은 현재 산업용 부동산 시장의 수요를 결정짓는 핵심적인 요소로 부상하고 있습니다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-08T16:03:00.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/big-power-ready-facilities-key-as-occupiers-drive-industrial-market-improv/822244/",
+      "collectedAt": "2026-06-09T08:13:34.807Z"
+    },
+    {
+      "id": "98ef35b5-2994-4758-96d4-b63c2a42e046",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "FERC, SPP의 비확정적 대규모 부하 송전 서비스 승인",
+      "titleOriginal": "FERC approves SPP non-firm, large-load transmission service",
+      "summary": "연방에너지규제위원회(FERC)는 사우스웨스트 파워 풀(SPP)이 데이터 센터와 같은 대규모 부하 시설을 위해 제안한 비확정적(non-firm) 송전 서비스안을 승인했습니다. 이 서비스는 전력망 상황이 좋을 때 빠르게 전력을 공급받을 수 있게 하지만, 전력망 과부하 시 공급이 중단될 수 있는 조건을 포함하고 있습니다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-08T13:43:29.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/ferc-spp-chills-large-load-transmission-service/822211/",
+      "collectedAt": "2026-06-09T08:14:18.544Z"
+    },
+    {
+      "id": "5dfccff7-102d-484e-9c18-0a162a938356",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "데이터 센터의 계량기 후단 가스 발전소, 미국 에너지 요금 인상 유발",
+      "titleOriginal": "Behind-the-meter data center gas plants will raise US energy bills",
+      "summary": "에너지 이노베이션(Energy Innovation) 전문가들은 데이터 센터가 전력망에서 독립하여 자체적인 천연가스 발전소를 운영하는 것이 오히려 일반 가정과 기업의 에너지 요금 상승을 초래한다고 경고했습니다. 이러한 계량기 후단(Behind-the-meter) 발전 방식이 전력망 운영 및 시장 가격에 부정적인 영향을 미칠 수 있음을 지적했습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T13:13:20.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/data-centers-raise-energy-bills-not-for-reason-you-think/822205/",
+      "collectedAt": "2026-06-09T08:14:38.505Z"
+    },
+    {
+      "id": "fbbc04d8-652b-49c6-a810-543dc3acff4e",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "부하 증가가 협동조합의 포트폴리오와 전략을 재편하다",
+      "titleOriginal": "Rising load growth reshapes cooperative portfolios and strategy",
+      "summary": "전력 부하의 급격한 증가는 전력 협동조합에 운영상의 새로운 도전 과제를 제시하고 있습니다. 이에 따라 협동조합들은 안정적인 전력 공급과 효율적인 대응을 위해 전략적 계획 수립을 강화하고 있습니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-08T09:00:00.000Z",
+      "originalUrl": "https://www.utilitydive.com/spons/rising-load-growth-reshapes-cooperative-portfolios-and-strategy/821823/",
+      "collectedAt": "2026-06-09T08:15:00.595Z"
+    },
+    {
+      "id": "f459ab38-222f-45b6-814e-6c1d76ddf8c0",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "통합 청구, 결제 및 커뮤니케이션 플랫폼의 이점",
+      "titleOriginal": "The benefits of a unified billing, payment, communications platform",
+      "summary": "본 기사는 유틸리티 기업들이 단일 플랫폼을 통해 청구 및 결제 시스템을 통합함으로써 운영 효율성을 높이는 방안을 제시합니다. 데이터 사일로 현상을 제거하여 기업과 고객 모두에게 향상된 결제 경험을 제공하는 최적화 전략을 다룹니다.",
+      "topics": [
+        "정책·규제"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-06-08T09:00:00.000Z",
+      "originalUrl": "https://www.utilitydive.com/spons/the-benefits-of-a-unified-billing-payment-communications-platform/821320/",
+      "collectedAt": "2026-06-09T08:15:21.205Z"
+    },
+    {
+      "id": "2bb503ab-44b8-456b-b5d2-955f1d2f41c9",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "실시간 대화가 부하 유연성 인식과 등록 간의 격차를 줄이는 방법",
+      "titleOriginal": "How live conversations can close the gap between awareness and enrollment for load flexibility",
+      "summary": "본 기사는 아웃바운드 콜이 부하 유연성 프로그램의 등록률을 높이고 고객 만족도를 향상시키는 효과적인 수단임을 분석합니다. 실시간 대화 방식이 단순한 인식을 넘어 실질적인 프로그램 참여로 전환하는 데 있어 어떤 통찰력을 제공하는지 다룹니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T09:00:00.000Z",
+      "originalUrl": "https://www.utilitydive.com/spons/how-live-conversations-can-close-the-gap-between-awareness-and-enrollment-f/821648/",
+      "collectedAt": "2026-06-09T08:15:32.571Z"
+    },
+    {
+      "id": "68d20476-926a-4c30-8133-0e0a7e162b64",
+      "source": "Power Magazine",
+      "sourceId": "power-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "산불 위험이 증가하고 있다. 전기 협동조합은 행동하고 있으며, 의회도 나서야 한다",
+      "titleOriginal": "Wildfire Risk Is Rising. Electric Cooperatives Are Acting—Congress Must Too",
+      "summary": "전국 4,200만 명의 미국인에게 전력을 공급하는 전기 협동조합은 국가 전력망의 절반 이상을 담당하며 산불 위험에 크게 노출되어 있습니다. 이 기사는 산불로 인한 인프라 위협을 완화하기 위해 전기 협동조합의 선제적 대응과 더불어 미국 의회의 적극적인 정책 지원이 필요함을 강조합니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T20:06:30.000Z",
+      "originalUrl": "https://www.powermag.com/wildfire-risk-is-rising-electric-cooperatives-are-acting-congress-must-too/",
+      "collectedAt": "2026-06-09T08:16:28.136Z"
+    },
+    {
+      "id": "297f2250-b899-4bf5-8060-78fe4526f6e9",
+      "source": "Power Magazine",
+      "sourceId": "power-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "성장하는 그리드 전략: 기상 악화 대응을 위한 전력선 지중화",
+      "titleOriginal": "Growing Grid Strategy: Undergrounding Power Lines to Withstand Weather",
+      "summary": "전력 유틸리티 및 그리드 운영자들은 정전 피해를 완화하고 자산 위험을 줄이며 산불 발생 가능성을 낮추기 위해 전력 설비의 지중화 전략을 채택하고 있습니다. POWER Magazine은 이번 분석을 통해 기후 변화에 대응하여 전력망의 회복력을 높이는 핵심 기술로서 지중화의 가치를 조명하고 있습니다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-06-08T17:32:24.000Z",
+      "originalUrl": "https://www.powermag.com/growing-grid-strategy-undergrounding-power-lines-to-withstand-weather/",
+      "collectedAt": "2026-06-09T08:16:40.776Z"
+    },
+    {
+      "id": "688d3ac7-7415-4387-98b7-cc78b964e52a",
+      "source": "Power Magazine",
+      "sourceId": "power-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "전력망 강화를 위한 첨단 기술의 적용",
+      "titleOriginal": "Advanced Technologies Tackling Task of Grid Hardening",
+      "summary": "POWER Magazine은 악천후와 같은 위협으로부터 전력망의 안정성을 강화하기 위해 기업들이 다양한 첨단 기술 전략을 도입하고 있다고 보도했습니다. 이를 통해 전력 인프라의 복원력을 높여 잠재적인 장애를 예방하는 대응책들을 다루고 있습니다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-08T17:11:42.000Z",
+      "originalUrl": "https://www.powermag.com/advanced-technologies-tackling-task-of-grid-hardening/",
+      "collectedAt": "2026-06-09T08:17:00.593Z"
+    },
+    {
+      "id": "291511b6-c0a2-43a0-99e8-7e28a9fdf2c2",
+      "source": "Power Magazine",
+      "sourceId": "power-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "폭풍 대비 전력망 구축: 인프라만큼 운영이 중요한 이유",
+      "titleOriginal": "Building a Storm-Ready Grid: Why Operations Matter as Much as Infrastructure",
+      "summary": "본 기사는 POWER Magazine을 통해 기후 위기로 인한 극한 날씨 상황에서 전력망의 물리적 강화만으로는 안정적인 전력 공급이 부족하다고 지적합니다. 이를 해결하기 위해 인프라 투자와 병행하여 효율적인 전력망 운영 관리 체계를 구축하는 것이 필수적임을 강조하고 있습니다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-08T15:08:00.000Z",
+      "originalUrl": "https://www.powermag.com/building-a-storm-ready-grid-why-operations-matter-as-much-as-infrastructure/",
+      "collectedAt": "2026-06-09T08:17:19.786Z"
+    },
+    {
+      "id": "ce202087-fe47-49b8-a688-e569862d0d1e",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "김수훈 델타엑스 대표,“ ‘다품종 소량 생산’ 중심 글로벌 ESS 시장 빠른 선점 자신”",
+      "titleOriginal": null,
+      "summary": "인공지능(AI) 기반의 컴퓨터 비전 기술로 시작해 에너지저장장치(ESS) 산업에서 새로운 지평을 열고 있는 델타엑스의 사업 확장이 본격화되고 있다. 델타엑스는 배터리 팩 설계 역량과 AI 기술을 결합해 대기업도 쉽게 대응하기 어려운 ‘다품종 소량 생산’ 중심의 글로벌 ESS 시장을 빠르게 선점하고 있다. 최근 대규모 투자 유치와 미국, 일본, 한국 등 글로",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T23:58:53.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368837",
+      "collectedAt": "2026-06-09T08:36:13.335Z"
+    },
+    {
+      "id": "8464d15c-d801-4174-8f62-dc89e29a2a77",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[기자의눈] 전기차는 정말 캐즘을 벗어났을까",
+      "titleOriginal": null,
+      "summary": "자동차 업계가 2030년을 전기차 보급에 중요한 기점으로 두고 논의를 시작한지가 벌써 10여년을 훌쩍 넘었다. 기후 협약과 탄소 배출 등을 고려해 지구를 지키기 위한 최후의 보루다.당시만 해도 2030년까지 전기차 비중을 30% 이상 올리기 어렵다던 목소리는 철저하게 무시당했다. 일본 토요타와 프랑스 르노 등이 현실적인 문제를 거론했지만, 자동차 업계는 이",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T23:29:26.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368855",
+      "collectedAt": "2026-06-09T08:36:43.357Z"
+    },
+    {
+      "id": "f959821a-4be5-47d9-b9b6-596ec4ae0b61",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(KECA 네트워크) 전기공사협회 경기도회 경기산악회, 6월 정기산행 개최",
+      "titleOriginal": null,
+      "summary": "한국전기공사협회 경기도회(회장 김만석)는 지난 5일 경기도 광주시 남한산성 일대에서 6월 정기산행을 개최했다.이날 행사는 120여 명의 회원이 참석해 건강 증진과 화합을 도모했다.회원들은 함께 산행하며 친목과 소통의 시간을 갖고, 정보 교류와 결속력 강화에 힘쓰는 한편 안전한 산행 문화 정착을 위한 의견을 나누는 등 의미 있는 시간을 보냈다.행사를 주관한 ",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-08T23:05:36.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368861",
+      "collectedAt": "2026-06-09T08:37:13.378Z"
+    },
+    {
+      "id": "a0789ac7-1edb-4b68-947d-4543add3595b",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(수요광장)전기철도 유지보수의 질서를 바꾸는 더 빠른 조치가 필요하다",
+      "titleOriginal": null,
+      "summary": "인공지능(AI)이 보고서를 쓰고 일정을 관리하는 실행형 에이전트의 시대다. 그러나 전기철도에서 AI의 역할은 사무 자동화와 다르다. 전철변전소의 주변압기, 가스절연개폐장치(GIS), 차단기, 급전케이블, 전차선 가운데 하나가 흔들리면 그 영향은 부품 하나의 고장에 그치지 않는다. 급전 장애와 열차 지연, 안전사고로 번질 수 있다. 전기철도 AI의 본질은 사",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-08T23:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368817",
+      "collectedAt": "2026-06-09T08:37:43.403Z"
+    },
+    {
+      "id": "786a3ae0-18bf-4fbc-a45c-762a5912eae5",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "李 대통령 “부동산 투기 공화국 탈피, 균형 발전 대전환”",
+      "titleOriginal": null,
+      "summary": "“부동산 투기 공화국에서 벗어나, 모든 국민이 성장의 기회와 혜택을 고루 누리는 초격차 산업 강국으로 나아가겠다.”이재명 대통령은 8일 청와대 영빈관에서 열린 취임 1주년 기자회견에서 수도권 집중 해소, 부동산 투기 억제, 지방 균형 발전 등 국토교통 분야 주요 현안에 대한 정책 방향을 밝혔다.이 대통령은 “수도권으로 인구와 자원이 몰리면서 지방은 망가지고",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-08T14:57:58.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368859",
+      "collectedAt": "2026-06-09T08:38:13.427Z"
+    },
+    {
+      "id": "c73a1350-107b-4667-a1a8-01123d294549",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(KECA네트워크)전기공사협회 부산시회, 경성전자고와 산학협력 체결…윤리위원회도 본격 가동",
+      "titleOriginal": null,
+      "summary": "전기공사협회 부산시회가 지역 전기산업 인재 양성과 건전한 업계 문화 조성을 위한 행보에 나섰다.한국전기공사협회 부산광역시회(회장 추영호)는 지난 5일 부산시회 3층 회의실에서 경성전자고등학교와 산학협력 강화를 위한 업무협약(MOU)을 체결했다고 밝혔다.이날 협약식에는 추영호 부산시회 회장과 권주영 부회장, 이경원 경성전자고 교장, 손주희 특성화부장, 박창우",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-08T09:55:35.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368857",
+      "collectedAt": "2026-06-09T08:38:43.464Z"
+    },
+    {
+      "id": "493ca1f7-30b7-4bca-9712-1a75a3a7a687",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "청정수소발전시장 500GWh 규모 개설…암모니아 혼소는 제외",
+      "titleOriginal": null,
+      "summary": "올해 청정수소발전 입찰시장에 500GWh, 일반수소발전 입찰시장에 930GWh 규모가 새로 열린다. 특히 석탄-암모니아 혼소발전이 올해부터 청정수소발전 입찰시장 지원 대상에서 제외되면서 정부의 2040년 석탄발전 폐지 정책과 수소발전 정책 간 정합성이 한층 뚜렷해졌다.8일 기후에너지환경부(장관 김성환)는 수소발전 입찰시장 연도별 구매량 산정 등에 관한 고시",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-06-08T09:38:53.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368856",
+      "collectedAt": "2026-06-09T08:39:13.476Z"
+    },
+    {
+      "id": "fa9fe77f-c0a1-4bb9-8f44-a1e3de1f9a3f",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "남부발전, 부산 취약계층 여름철 밥상 지킨다",
+      "titleOriginal": null,
+      "summary": "남부발전이 여름철 먹거리 부담이 커진 취약계층의 결식 예방을 위해 부산푸드뱅크에 1200만원을 전달했다.8일 한국남부발전(사장 김준동)은 부산광역시사회복지협의회를 통해 부산광역시푸드뱅크에 후원금을 전달했다며 이같이 밝혔다.이번 후원은 여름철 채소가격 급등과 복지지원 공백으로 어려움을 겪는 독거노인 등 취약계층의 식생활 안정을 위해 기획됐다.남부발전은 사회복",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-08T06:59:10.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368852",
+      "collectedAt": "2026-06-09T08:39:43.505Z"
+    },
+    {
+      "id": "6e0d6ae1-7208-486d-be65-7bc6f5e5106c",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "韓-카자흐, 핵심 공급망·에너지 협력 강화⋯경제공동위 개최",
+      "titleOriginal": null,
+      "summary": "우리 정부가 카자흐스탄과 공급망, 에너지 분야에서의 경제협력 강화 방안을 모색했다.산업통상부는 8일 김정관 장관이 카자흐스탄 아스타나에서 예르사인 나가스파예프 카자흐스탄 산업건설부 장관과 '제11차 한·카자흐스탄 무역·경제 및 과학·기술 협력 공동위원회'를 열었다고 밝혔다. 이번 위원회에는 예르사인 나가스파예프 산업건설부 카자흐스탄 장관이 참석했다.한국과 ",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-08T06:49:51.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368848",
+      "collectedAt": "2026-06-09T08:40:13.527Z"
+    },
+    {
+      "id": "9465f2c9-e6b7-4d0d-9685-5d549fa26e59",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "햇빛소득마을 1차 공모에 전국 129개 마을 신청",
+      "titleOriginal": null,
+      "summary": "행정안전부는 지난 5월 31일 마감한 ‘2026년 1차 햇빛소득마을’ 공모에 전국 11개 시·도, 61개 시·군에서 총 129개 마을이 신청했다고 8일 밝혔다.지역별로는 전남이 30개 마을로 가장 많았으며 전북 24개, 충북 20개, 경북 14개, 경기 13개, 충남 11개, 경남 8개, 강원 4개, 대구 3개, 세종·제주 각 1개 마을이 참여했다.햇빛소득",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T06:36:43.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368847",
+      "collectedAt": "2026-06-09T08:40:43.562Z"
+    },
+    {
+      "id": "f0b0fcef-6c9e-455d-914f-deb309e8d662",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "이앤에이치, '전국 500개 현장 무사고가 증명'...정부가 인정한 ESS 기술력",
+      "titleOriginal": null,
+      "summary": "신재생에너지 전문기업인 이앤에이치(대표 박대전)가 28년간 축적한 태양광 발전 분야의 기술적 역량을 토대로 ‘화재안전형 ESS’ 중심 종합 에너지 솔루션 기업으로 빠르게 변모하고 있다.에너지의 생산부터 저장, 배전에 이르는 전 과정을 유기적으로 통합 제어하는 토털 엔지니어링 역량을 통해 특히 공공기관 ESS 시장에서 경쟁력을 발휘해 나간다는 복안이다. 이앤",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T06:10:35.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368828",
+      "collectedAt": "2026-06-09T08:41:13.576Z"
+    },
+    {
+      "id": "11ba2f15-27c5-4bce-a357-7c539442b417",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전기안전공사-전북대, 전기안전 연구개발·인재양성 협력으로 지역혁신 박차",
+      "titleOriginal": null,
+      "summary": "한국전기안전공사와 전북대학교가 전기안전 분야 연구개발과 미래 인재 양성을 위한 협력체계를 구축하며 지역 혁신성장 기반 마련에 나섰다.8일 전기안전공사(사장 남화영)에 따르면 최근 전북 전주시에 위치한 전북대학교에서 전북대학교(총장 양오봉)와 지역성장 기반 협력 및 미래 지역인재 양성을 위한 업무협약(MOU)을 체결했다.이번 협약은 정부의 거점국립대 육성 정",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-08T05:39:17.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368844",
+      "collectedAt": "2026-06-09T08:41:43.600Z"
+    },
+    {
+      "id": "b0d68409-907d-43f4-ac3c-47c6ac1e6409",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전기안전공사, 제1호 KESCO 기술명장 선정…문성환 과장 첫 영예",
+      "titleOriginal": null,
+      "summary": "한국전기안전공사가 공사 최초의 ‘KESCO 기술명장’을 선발하며 현장 기술인재 육성과 우수 기술 전수 체계 구축에 나섰다.한국전기안전공사는 최근 전북혁신도시 본사 새울림홀에서 ‘제1호 KESCO 기술명장’ 수여식을 개최하고 인천본부 문성환 과장을 첫 기술명장으로 선정했다고 8일 밝혔다.KESCO 기술명장은 공사가 보유한 최고 수준의 전기안전 기술역량을 갖춘",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T05:03:38.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368842",
+      "collectedAt": "2026-06-09T08:42:13.628Z"
+    },
+    {
+      "id": "b66d53de-d12d-4f8a-ad64-d9778ad8e8af",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "국회 법제실, ‘최근 헌재결정과 개정대상 법률 현황’ 발간",
+      "titleOriginal": null,
+      "summary": "국회사무처(사무총장 김민기) 법제실은 8일 ‘최근 헌재결정과 개정대상 법률 현황(제2026-4호)’을 발간했다고 밝혔다. 발간물은 지난 5월 21일 선고된 헌법재판소의 위헌·헌법불합치 결정을 소개하고, 위원회별 개정대상 법률의 심사경과 현황을 정리했다.헌법재판소는 아동･청소년대상 성범죄의 신고의무자가 자기의 보호·감독 또는 진료를 받는 13세 미만 미성년자",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-08T04:49:47.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368841",
+      "collectedAt": "2026-06-09T08:42:43.656Z"
+    },
+    {
+      "id": "0e230124-dcde-44dc-84bc-a43a95472652",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "김형섭 삼신 사장 “두코바니 원전 밸브 100% 공급이 목표”",
+      "titleOriginal": null,
+      "summary": "“웨스팅하우스가 왜 삼신을 선택했는지 알겠다.”지난해 11월 폴란드 원자력청 관계자들이 삼신의 천안 생산공장을 찾아 품질관리 체계를 둘러본 뒤 남긴 말이라고 한다. 웨스팅하우스의 AP1000 원전 3기 건설이 추진되는 폴란드에서, 원전용 밸브 공급 협력사인 삼신에 대한 현장 실사였다.김형섭 삼신 사장<사진>은 본지와 인터뷰에서 이 일화를 소개하며 “원전 기",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-08T04:25:33.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368745",
+      "collectedAt": "2026-06-09T08:43:13.672Z"
+    },
+    {
+      "id": "51ce7c2b-be32-401b-80e5-ea985ca360f5",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "SMP 상한제 시사한 정부 뒤엔…발전社로 날아든 가스값 청구서",
+      "titleOriginal": null,
+      "summary": "전력도매가격(SMP)은 아직 한전 손익분기점에 못 미친다. 그런데 정부는 벌써 SMP 상한제 재도입 카드를 꺼내 들었다. 왜 정부는 벌써부터 SMP 상한제 카드를 만지작거리는 것일까.업계가 주목하는 곳은 SMP가 아니라 발전용 LNG 가격이다. 중동발 고유가 충격이 반영되기 시작하면서 발전용 원료비는 최근 석 달 새 25% 넘게 뛰었다.8일 한국가스공사 요",
+      "topics": [
+        "시장·가격 동향",
+        "전력 인프라"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-08T04:24:56.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368836",
+      "collectedAt": "2026-06-09T08:43:43.708Z"
+    },
+    {
+      "id": "921a7334-248f-4028-9258-bbf7c82ef86b",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(인사) 기후에너지환경부",
+      "titleOriginal": null,
+      "summary": "◆고위공무원단 전보물관리정책실 물이용정책관 김호은",
+      "topics": [
+        "정책·규제"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-06-08T04:20:52.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368839",
+      "collectedAt": "2026-06-09T08:44:13.733Z"
+    },
+    {
+      "id": "74ea1853-1263-4a0d-8c62-6a8eef05016e",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "李 대통령 “중동 유가 불안 장기화 대비…원유 수급 87% 정상”",
+      "titleOriginal": null,
+      "summary": "“중동 사태에도 원유 수급이 87% 이상 정상적으로 이뤄지고 있다. 근본적 수급 부족은 충분히 대비 가능할 것.”이재명 대통령은 8일 열린 취임 1주년 기자회견에서 중동 사태가 단기간에 끝나기 어렵다고 진단, 유가 불안 장기화에 대비한 원유 수급·물가 안정 대책을 추진하고 있다며 이같이 말했다.이 대통령은 중동전쟁에 대해 “오늘내일 쉽게 끝날 것 같지 않다",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-08T04:03:57.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368838",
+      "collectedAt": "2026-06-09T08:44:43.764Z"
+    },
+    {
+      "id": "b1b35a35-bd44-432c-9774-b685ab4180a9",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "창립 30주년 시티이텍, 북미 진출로 글로벌 시장 확장 시동",
+      "titleOriginal": null,
+      "summary": "국내 계기용 변성기 분야 전문기업인 시티이텍(대표 이성하)이 올해로 창립 30주년을 맞아 새로운 도약을 천명했다.시티이텍은 지난 30년 간 국내외 주요 전력 현장에 핵심 기자재를 공급하며 연구소와 첨단 생산시설을 두루 갖춘 강소기업으로 성장했다. 특히 최근 인공지능(AI) 산업 확대와 데이터센터 투자 증가로 전 세계적인 전력망 현대화 수요가 급증하는 가운데",
+      "topics": [
+        "시장·가격 동향",
+        "전력 인프라"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-08T04:00:50.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368827",
+      "collectedAt": "2026-06-09T08:45:13.789Z"
     }
   ]
 }
