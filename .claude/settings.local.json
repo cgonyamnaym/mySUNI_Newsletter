@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Skill(bkit:pdca)",
-      "Skill(bkit:pdca:*)"
+      "Skill(bkit:pdca:*)",
+      "Bash(git push *)"
     ]
   }
 }

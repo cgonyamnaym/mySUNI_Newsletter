@@ -33,7 +33,7 @@ const TOPIC_ORDER: TopicId[] = [
 type EmojiEntry = { type: 'text'; value: string } | { type: 'img'; src: string }
 const TOPIC_EMOJI: Partial<Record<TopicId, EmojiEntry>> = {
   '전력 인프라':    { type: 'text', value: '⚡' },
-  '에너지원':       { type: 'img',  src: '/icons/energy-source.JPG' },
+  '에너지원':       { type: 'text', value: '🔋' },
   '운영 최적화':    { type: 'text', value: '⚙️' },
   '정책·규제':      { type: 'text', value: '🏛️' },
   'ESG·탄소중립':   { type: 'text', value: '🌿' },
@@ -76,6 +76,10 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
       dateLabel ??
       new Date().toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' })
 
+    const isoDate = dateLabel && /^\d{4}-\d{2}-\d{2}$/.test(dateLabel)
+      ? dateLabel
+      : new Date().toISOString().slice(0, 10)
+
     const sourceCount = new Set(articles.map((a) => a.sourceId)).size
     const topicCount = groups.length + (unclassified.length > 0 ? 1 : 0)
 
@@ -90,78 +94,55 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
       >
         {/* ── HEADER ── */}
         <div style={{
-          background: 'linear-gradient(135deg, #0A1628 0%, #0D2347 60%, #0A2A4A 100%)',
+          background: '#FFFFFF',
           position: 'relative',
         }}>
           {/* Header inner */}
-          <div style={{ maxWidth: '800px', margin: '0 auto', padding: '40px 24px 32px' }}>
-            {/* Logo + label */}
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '16px' }}>
-              <span style={{
-                width: '8px', height: '8px', borderRadius: '50%',
-                background: '#0066FF', boxShadow: '0 0 8px rgba(0,102,255,0.7)',
-                display: 'inline-block', flexShrink: 0,
-              }} />
-              <span style={{
-                fontSize: '11px', fontWeight: 700,
-                letterSpacing: '2px', textTransform: 'uppercase',
-                color: 'rgba(255,255,255,0.45)',
-              }}>
-                Energy Insight
-              </span>
+          <div style={{ maxWidth: '800px', margin: '0 auto', padding: '40px 24px 32px', position: 'relative' }}>
+            {/* Date at top right */}
+            <div style={{
+              position: 'absolute', top: '40px', right: '24px',
+              fontSize: '12px', color: '#9CA3AF', fontWeight: 500,
+            }}>
+              [발행일자 : {isoDate}]
             </div>
 
             {/* Title */}
             <div style={{
               fontSize: '32px', fontWeight: 900,
-              color: '#FFFFFF', letterSpacing: '-0.5px',
-              lineHeight: 1.2, marginBottom: '8px',
+              color: '#111827', letterSpacing: '-0.5px',
+              lineHeight: 1.2, marginBottom: '24px',
             }}>
               Electrification & Energy Solution<br />
               <span style={{ color: '#4D9FFF' }}>Bi-Weekly AI Newsletter</span>
             </div>
 
-            <p style={{
-              fontSize: '13px', color: 'rgba(255,255,255,0.45)',
-              margin: '0 0 24px 0',
-            }}>
-              전력 산업 전문가를 위한 핵심 뉴스 선별 뉴스레터
-            </p>
-
-            {/* Date row + stats */}
-            <div style={{
-              display: 'flex', alignItems: 'center',
-              justifyContent: 'space-between', flexWrap: 'wrap', gap: '12px',
-            }}>
-              <div style={{ fontSize: '13px', color: 'rgba(255,255,255,0.6)', fontWeight: 500 }}>
-                <strong style={{ color: '#fff' }}>{displayDate}</strong> 발행
+            {/* Stats row */}
+            <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
+              <div style={{ textAlign: 'center' }}>
+                <div style={{ fontSize: '18px', fontWeight: 800, color: '#111827', lineHeight: 1 }}>
+                  {articles.length}
+                </div>
+                <div style={{ fontSize: '10px', color: '#9CA3AF', marginTop: '2px', letterSpacing: '0.5px' }}>
+                  ARTICLES
+                </div>
               </div>
-              <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
-                <div style={{ textAlign: 'center' }}>
-                  <div style={{ fontSize: '18px', fontWeight: 800, color: '#fff', lineHeight: 1 }}>
-                    {articles.length}
-                  </div>
-                  <div style={{ fontSize: '10px', color: 'rgba(255,255,255,0.4)', marginTop: '2px', letterSpacing: '0.5px' }}>
-                    ARTICLES
-                  </div>
+              <div style={{ width: '1px', background: '#E5E7EB', alignSelf: 'stretch' }} />
+              <div style={{ textAlign: 'center' }}>
+                <div style={{ fontSize: '18px', fontWeight: 800, color: '#111827', lineHeight: 1 }}>
+                  {topicCount}
                 </div>
-                <div style={{ width: '1px', background: 'rgba(255,255,255,0.12)', alignSelf: 'stretch' }} />
-                <div style={{ textAlign: 'center' }}>
-                  <div style={{ fontSize: '18px', fontWeight: 800, color: '#fff', lineHeight: 1 }}>
-                    {topicCount}
-                  </div>
-                  <div style={{ fontSize: '10px', color: 'rgba(255,255,255,0.4)', marginTop: '2px', letterSpacing: '0.5px' }}>
-                    TOPICS
-                  </div>
+                <div style={{ fontSize: '10px', color: '#9CA3AF', marginTop: '2px', letterSpacing: '0.5px' }}>
+                  TOPICS
                 </div>
-                <div style={{ width: '1px', background: 'rgba(255,255,255,0.12)', alignSelf: 'stretch' }} />
-                <div style={{ textAlign: 'center' }}>
-                  <div style={{ fontSize: '18px', fontWeight: 800, color: '#fff', lineHeight: 1 }}>
-                    {sourceCount}
-                  </div>
-                  <div style={{ fontSize: '10px', color: 'rgba(255,255,255,0.4)', marginTop: '2px', letterSpacing: '0.5px' }}>
-                    SOURCES
-                  </div>
+              </div>
+              <div style={{ width: '1px', background: '#E5E7EB', alignSelf: 'stretch' }} />
+              <div style={{ textAlign: 'center' }}>
+                <div style={{ fontSize: '18px', fontWeight: 800, color: '#111827', lineHeight: 1 }}>
+                  {sourceCount}
+                </div>
+                <div style={{ fontSize: '10px', color: '#9CA3AF', marginTop: '2px', letterSpacing: '0.5px' }}>
+                  SOURCES
                 </div>
               </div>
             </div>
@@ -169,8 +150,8 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
 
           {/* Category tab nav */}
           <div style={{
-            background: 'rgba(0,0,0,0.3)',
-            borderTop: '1px solid rgba(255,255,255,0.07)',
+            background: '#EFF6FF',
+            borderTop: '1px solid #DBEAFE',
           }}>
             <div style={{
               maxWidth: '800px', margin: '0 auto', padding: '0 24px',
@@ -200,8 +181,8 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
                     {topicId}
                     <span style={{
                       fontSize: '10px',
-                      background: 'rgba(255,255,255,0.12)',
-                      color: 'rgba(255,255,255,0.5)',
+                      background: 'rgba(0,0,0,0.06)',
+                      color: '#6B7280',
                       padding: '1px 5px', borderRadius: '10px',
                     }}>
                       {groupMap.get(topicId)!.length}
@@ -216,7 +197,7 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
                     display: 'inline-flex', alignItems: 'center', gap: '6px',
                     padding: '12px 16px',
                     fontSize: '12px', fontWeight: 700,
-                    color: 'rgba(255,255,255,0.45)',
+                    color: '#9CA3AF',
                     whiteSpace: 'nowrap',
                     borderBottom: '2px solid transparent',
                     textDecoration: 'none',
@@ -229,8 +210,8 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
                   기타
                   <span style={{
                     fontSize: '10px',
-                    background: 'rgba(255,255,255,0.12)',
-                    color: 'rgba(255,255,255,0.5)',
+                    background: 'rgba(0,0,0,0.06)',
+                    color: '#6B7280',
                     padding: '1px 5px', borderRadius: '10px',
                   }}>
                     {unclassified.length}
