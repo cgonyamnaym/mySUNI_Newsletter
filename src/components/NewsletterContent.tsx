@@ -509,7 +509,7 @@ function SubscribeForm() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             onKeyDown={(e) => e.key === 'Enter' && handleSubmit()}
-            placeholder="📧 이메일 주소를 입력해주세요"
+            placeholder="✉ 이메일 주소를 입력해주세요"
             style={{
               flex: 1, padding: '10px 14px',
               border: '1.5px solid #D1D5DB', borderRadius: '8px',
@@ -532,7 +532,7 @@ function SubscribeForm() {
         </div>
       )}
       <div style={{ fontSize: '13px', color: '#9CA3AF' }}>
-        🙋 현재까지 누적 신청 인원 :{' '}
+        ☺ 현재까지 누적 신청 인원 :{' '}
         <strong style={{ color: '#2563EB' }}>{count}명</strong>
       </div>
     </div>
