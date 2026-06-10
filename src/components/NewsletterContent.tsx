@@ -306,7 +306,7 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
           textAlign: 'center',
         }}>
           <p style={{
-            fontSize: '12px', color: 'rgba(255,255,255,0.3)',
+            fontSize: '14px', color: 'rgba(255,255,255,0.9)',
             lineHeight: 1.8, margin: 0,
           }}>
             최근 2주간의 AI 뉴스 큐레이션 결과를 바탕으로 자동 생성된 뉴스레터 입니다.<br />
