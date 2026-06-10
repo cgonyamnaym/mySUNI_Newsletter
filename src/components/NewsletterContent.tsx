@@ -313,8 +313,8 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
             fontSize: '12px', color: 'rgba(255,255,255,0.3)',
             lineHeight: 1.8, margin: 0,
           }}>
-            에너지 인사이트 뉴스레터&nbsp;·&nbsp;{displayDate}<br />
-            전력·에너지 솔루션 전문가를 위한 큐레이션 뉴스
+            최근 2주간의 AI 뉴스 큐레이션 결과를 바탕으로 자동 생성된 뉴스레터 입니다.<br />
+            문의 : SKI mySUNI 경영관리역량 조혜경RF
           </p>
         </div>
       </div>
