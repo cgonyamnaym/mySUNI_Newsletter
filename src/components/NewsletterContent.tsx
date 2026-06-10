@@ -302,11 +302,15 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
 
         {/* ── SUBSCRIBE ── */}
         <div style={{
-          background: '#F0F6FF',
+          background: '#F0F2F5',
           borderTop: '3px solid #2563EB',
-          padding: '40px 24px',
+          padding: '48px 24px',
         }}>
-          <div style={{ maxWidth: '800px', margin: '0 auto' }}>
+          <div style={{
+            maxWidth: '800px', margin: '0 auto',
+            display: 'flex', flexDirection: 'column', alignItems: 'center',
+            textAlign: 'center',
+          }}>
             <div style={{ fontSize: '20px', fontWeight: 800, color: '#111827', marginBottom: '10px' }}>
               무료 구독 신청
             </div>
@@ -500,7 +504,7 @@ function SubscribeForm() {
           ✅ 신청이 완료되었습니다. 이메일 클라이언트에서 발송을 확인해주세요.
         </div>
       ) : (
-        <div style={{ display: 'flex', gap: '8px', maxWidth: '480px', marginBottom: '12px' }}>
+        <div style={{ display: 'flex', gap: '8px', maxWidth: '480px', marginBottom: '12px', margin: '0 auto 12px' }}>
           <input
             type="email"
             value={email}
