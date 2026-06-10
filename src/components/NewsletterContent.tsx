@@ -245,9 +245,9 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
                   borderBottom: '2px solid #E5E7EB',
                 }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                    <TopicEmoji id={topicId} size={22} />
+                    <TopicEmoji id={topicId} size={26} />
                     <span style={{
-                      fontSize: '18px', fontWeight: 800,
+                      fontSize: '22px', fontWeight: 800,
                       color: c.accent, letterSpacing: '-0.3px',
                     }}>
                       {topicId}
@@ -279,7 +279,7 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
                 borderBottom: '2px solid #E5E7EB',
               }}>
                 <span style={{
-                  fontSize: '18px', fontWeight: 800,
+                  fontSize: '22px', fontWeight: 800,
                   color: '#111827', letterSpacing: '-0.3px',
                 }}>
                   기타
@@ -381,7 +381,7 @@ function ArticleCard({
 
         {/* Title */}
         <div style={{
-          fontSize: '15px', fontWeight: 800, color: '#111827',
+          fontSize: '18px', fontWeight: 800, color: '#111827',
           lineHeight: 1.45, letterSpacing: '-0.3px', marginBottom: '10px',
         }}>
           {article.title}
@@ -391,22 +391,22 @@ function ArticleCard({
         <div style={{ marginBottom: '14px' }}>
           {ns?.what ? (
             <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
-              <div style={{ fontSize: '13px', color: '#111827', lineHeight: 1.65, fontWeight: 500 }}>
+              <div style={{ fontSize: '15px', color: '#111827', lineHeight: 1.65, fontWeight: 500 }}>
                 {ns.what}
               </div>
               {ns.why && (
-                <div style={{ fontSize: '12px', color: '#6B7280', lineHeight: 1.65 }}>
+                <div style={{ fontSize: '14px', color: '#6B7280', lineHeight: 1.65 }}>
                   {ns.why}
                 </div>
               )}
               {ns.sowhat && (
-                <div style={{ fontSize: '12px', color: '#6B7280', lineHeight: 1.65 }}>
+                <div style={{ fontSize: '14px', color: '#6B7280', lineHeight: 1.65 }}>
                   {ns.sowhat}
                 </div>
               )}
             </div>
           ) : article.summary ? (
-            <div style={{ fontSize: '13px', color: '#374151', lineHeight: 1.72 }}>
+            <div style={{ fontSize: '15px', color: '#374151', lineHeight: 1.72 }}>
               {article.summary}
             </div>
           ) : null}
