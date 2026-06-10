@@ -33,7 +33,10 @@ async function extractFieldsMethodA(title, text, lang = 'ko') {
 
   try {
     const raw = await callLLM(prompt)
-    const parsed = JSON.parse(raw)
+    const start = raw.indexOf('{')
+    const end   = raw.lastIndexOf('}')
+    const jsonStr = (start !== -1 && end > start) ? raw.slice(start, end + 1) : raw
+    const parsed = JSON.parse(jsonStr)
     return normalizeFields(parsed)
   } catch (err) {
     return fallbackFields(title, text)

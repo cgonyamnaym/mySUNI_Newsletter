@@ -63,7 +63,9 @@ function loadExistingSummaries() {
     const draft = JSON.parse(fs.readFileSync(OUTPUT_FILE, 'utf-8'))
     const map = new Map()
     for (const a of (draft.articles ?? [])) {
-      if (a.newsletterSummary?.what) {
+      const w = a.newsletterSummary?.what
+      // 줄바꿈 없고 120자 이내인 유효한 요약만 재사용 (불량 요약은 재생성)
+      if (w && !w.includes('\n') && w.trim().length <= 120) {
         map.set(a.id, a.newsletterSummary)
       }
     }

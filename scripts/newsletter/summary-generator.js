@@ -100,7 +100,19 @@ function buildMethodAWhatFallback(fields) {
  * }} constraints
  */
 function validateAndRepair(parsed, constraints) {
-  const result = { ...parsed }
+  // LLM 직접 출력 정제: 줄바꿈 제거 + 과도한 길이 null 처리
+  // (프롬프트 제한을 LLM이 무시할 수 있으므로 코드 레벨에서 강제)
+  function cleanLlm(text, maxLen) {
+    if (!text) return null
+    const s = text.replace(/[\r\n\t]+/g, ' ').replace(/\s{2,}/g, ' ').trim()
+    return s.length >= 4 && s.length <= maxLen ? s : null
+  }
+
+  const result = {
+    what:   cleanLlm(parsed.what,   120),
+    why:    cleanLlm(parsed.why,    100),
+    sowhat: cleanLlm(parsed.sowhat, 100),
+  }
 
   // [검증 1] what 근거 없음 → 전체 null 강제
   if (!constraints.whatAvailable) {

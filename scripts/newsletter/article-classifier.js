@@ -153,7 +153,10 @@ JSON만 응답 (마크다운 없이):
 
   try {
     const raw = await callLLM(prompt)
-    const parsed = JSON.parse(raw)
+    const start = raw.indexOf('{')
+    const end   = raw.lastIndexOf('}')
+    const jsonStr = (start !== -1 && end > start) ? raw.slice(start, end + 1) : raw
+    const parsed = JSON.parse(jsonStr)
     return parsed.all_three === true ? 'A' : 'B'
   } catch {
     return 'B' // 불확실하면 보수적으로 B

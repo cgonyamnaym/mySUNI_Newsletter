@@ -1,40 +1,9 @@
 {
-  "generatedAt": "2026-06-09T06:29:41.278Z",
+  "generatedAt": "2026-06-10T09:12:24.195Z",
   "total": 30,
   "success": 30,
   "failed": 0,
   "articles": [
-    {
-      "id": "53574feb-0df2-4989-8bb8-de3ff9f6d4ce",
-      "source": "에너지경제신문",
-      "sourceId": "ekn",
-      "sourceOrigin": "domestic",
-      "originalLang": "ko",
-      "isTranslated": false,
-      "title": "‘태양과 바람’ 전력 시장의 주인이 되다…2040년 재생에너지 성장 지도[창간 기획]",
-      "titleOriginal": null,
-      "summary": "지난 10년간 태양광 765%, 풍력 135% 보급 증가\n재생에너지, 원전·화석연료 넘어 주력 산업으로 부상\nRE100·탄소규제 강화…기업들 재생에너지 확보 경쟁 본격화\n호남 ‘태양광·풍력’, 울산·경남 ‘부유식 해상풍력·해양플랜트’\n“발전량보다 계통이 중요”…ESS·송전망·PPA 시장 급부상 2040년 재생에너지 시대…전력시장 주요 변화 재생에너지가 더 ",
-      "topics": [
-        "전력 인프라",
-        "에너지원"
-      ],
-      "primaryTopic": null,
-      "publishedAt": "2026-05-26T06:00:00.000Z",
-      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260522024474134",
-      "collectedAt": "2026-05-26T00:29:01.721Z",
-      "relevanceScore": 110,
-      "isDuplicate": false,
-      "newsletterSummary": {
-        "what": "지난 10년간 태양광 765%, 풍력 135% 보급 증가\n재생에너지, 원전·화석연료 넘어 주력 산업으로 부상\nRE100·탄소규제 강화…기업들 재생에너지 확보 경쟁 본격화\n호남 ‘태양광·풍력’, 울산·경남 ‘부유식 해상풍력·해양플랜트’\n“발전량보다 계통이 중요”…ESS·송전망·PPA 시장 급부상 2040년 재생에너지 시대…전력시장 주요 변화 재생에너지가 더 이상 '보조 전원'이 아닌 주력 산업으로 자리잡기 시작했다",
-        "why": null,
-        "sowhat": null
-      },
-      "_meta": {
-        "method": "B",
-        "level": 2,
-        "netScore": 0
-      }
-    },
     {
       "id": "d8c00ba9-86d8-4572-af2d-6c4a0f012b6f",
       "source": "이투뉴스 (E2News)",
@@ -56,15 +25,9 @@
       "relevanceScore": 96,
       "isDuplicate": false,
       "newsletterSummary": {
-        "what": null,
-        "why": null,
-        "sowhat": null
-      },
-      "_meta": {
-        "method": "A",
-        "level": 3,
-        "netScore": 1.5,
-        "densityScore": 0.7727272727272727
+        "what": "한국환경공단이 2030년까지 재생에너지 100% 전환을 발표했다.",
+        "why": "주요 기업의 RE100 이행에 발맞춰 탄소중립 목표 달성에 기여하기 위함이라고 밝혔다.",
+        "sowhat": "탄소중립 이행의 마중물 역할을 하고 선도적인 모범 사례를 제시했다."
       }
     },
     {
@@ -91,11 +54,32 @@
         "what": "변 소장은 “재생에너지 확대와 계통 안정은 반드시 함께 해결해야 하는 과제”라며 “융복합 기술을 통해 기존 전력망의 한계를 보완하고 새로운 시장 기회를 창출하는 것이 연구소의 핵심 목표”라고 밝혔다",
         "why": null,
         "sowhat": null
-      },
-      "_meta": {
-        "method": "B",
-        "level": 2,
-        "netScore": 0.5
+      }
+    },
+    {
+      "id": "bde79bb2-fcf0-4139-bbc6-5146ffb92c34",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "호주 Ark Energy의 3.1GWh 태양광·에너지저장시설, AEMO 계통 연계 승인 획득",
+      "titleOriginal": "Ark Energy’s 3.1GWh solar-plus-storage site in Australia bags AEMO grid connection",
+      "summary": "Ark Energy가 호주 리치먼드 밸리에 건설 중인 3,148MWh 규모의 태양광 및 에너지저장장치(ESS) 프로젝트에 대해 AEMO와 Transgrid로부터 국가전력망(NEM) 연결 승인을 받았습니다. 이번 승인으로 해당 대규모 재생에너지 단지가 호주 전력망에 안정적으로 전력을 공급할 수 있는 기반이 마련되었습니다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-09T01:55:04.000Z",
+      "originalUrl": "https://www.energy-storage.news/ark-energys-3-1gwh-solar-plus-storage-site-in-australia-bags-aemo-grid-connection/",
+      "collectedAt": "2026-06-09T07:56:55.075Z",
+      "relevanceScore": 91,
+      "isDuplicate": false,
+      "newsletterSummary": {
+        "what": "아크 에너지는 3.1GWh(3,148MWh) 규모 태양광·ESS 프로젝트 인증을 획득했다.",
+        "why": "아크 에너지의 태양광·ESS 프로젝트가 국가전력망 연결 승인을 획득했다.",
+        "sowhat": "호주 전력망에 안정적인 재생에너지를 공급할 수 있는 기반이 마련됐다."
       }
     },
     {
@@ -116,48 +100,12 @@
       "publishedAt": "2026-06-06T10:17:02.000Z",
       "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200174",
       "collectedAt": "2026-06-06T22:08:47.958Z",
-      "relevanceScore": 91,
+      "relevanceScore": 89,
       "isDuplicate": false,
       "newsletterSummary": {
-        "what": "제언서에 따르면 안정적인 기저전원 역할을 담당하는 원자력과 탄소중립 시대 필수 에너지원인 재생에너지가 함께 성장할 수 있는 에너지믹스를 구축해야 하며, 전원별 경제성과 계통 안정성, 공급 특성 등을 종합적으로 고려한 과학적 모델링에 기반한 계획 수립이 필요하다고 제안했다",
-        "why": null,
-        "sowhat": null
-      },
-      "_meta": {
-        "method": "B",
-        "level": 2,
-        "netScore": -2
-      }
-    },
-    {
-      "id": "ecf3df57-883d-4746-91b7-5ab32f3aa0ff",
-      "source": "에너지경제신문",
-      "sourceId": "ekn",
-      "sourceOrigin": "domestic",
-      "originalLang": "ko",
-      "isTranslated": false,
-      "title": "26조 체코 원전 수출 ‘순항’…EU 역외보조금 부담 없어졌다",
-      "titleOriginal": null,
-      "summary": "약 26조원 규모의 체코 두코바니 원전 건설 사업이 EU 역외보조금 규정(FSR)에 따른 유럽집행위원회(EC)의 심층 조사를 피하며 순항하게 됐다. 프랑스전력공사(EDF)의 신고로 시작된 1년 4개월간의 예비검토 끝에, EC는 한국수력원자력이 FSR 적용 대상이 아니라는 입장을 받아들여 사업 추진에 탄력을 주었다. 이는 대한민국 원전 산업의 기술력과 사업관리 역량을 입증하는 중요한 성과로 평가된다.",
-      "topics": [
-        "전력 인프라",
-        "정책·규제"
-      ],
-      "primaryTopic": null,
-      "publishedAt": "2026-06-06T19:29:00.000Z",
-      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260606024061124",
-      "collectedAt": "2026-06-06T22:11:02.285Z",
-      "relevanceScore": 88,
-      "isDuplicate": false,
-      "newsletterSummary": {
-        "what": "유럽집행위원회는 한수원의 두코바니 원전 사업에 대해 EU 역외보조금 규정에 따른 심층 조사를 하지 않겠다고 통보했다.",
-        "why": null,
-        "sowhat": "김 장관은 이번 결정이 사업 무효화 우려를 불식하고 유럽연합이 공식 판단을 내렸다는 점에서 의미가 크다고 밝혔다."
-      },
-      "_meta": {
-        "method": "B",
-        "level": 2,
-        "netScore": 1
+        "what": "제언서는 원자력·재생에너지 상생 에너지믹스 및 과학적 모델링 기반 계획 수립을 제안했다.",
+        "why": "2039~2040년 가동 목표 대형원전 2~4기, SMR 2~4기 건설을 제안했다.",
+        "sowhat": "원전·재생E 확대 등 패키지 제안이 12차 전기본에 영향을 미칠 것으로 전망됐다."
       }
     },
     {
@@ -181,15 +129,9 @@
       "relevanceScore": 87,
       "isDuplicate": false,
       "newsletterSummary": {
-        "what": "장재진 기자 jjjang@tenews.kr 키워드 #체코 두코바니 원전 #한국수력원자력(한수원) #팀코리아 #EU 역외보조금 규정(FSR) #유럽집행위원회(EC) #심층조사 면제 #저가 수주 의혹 #김정관 산업통상자원부 장관 #원전 수출 경쟁력 #국제 규범 준수 저작권자 © 투데이에너지 무단전재 및 재배포 금지 좋아요0훈훈해요0슬퍼요0화나요0후속기사 원해요0 공유 이메일 기사저장 관련기사 [초점] EC 결정, K-원전 국제 신뢰도 회복 중요 분기점 [기고] ‘두꺼비집’세대가 바라본 AI 시대의 에너지안전 [탐방] 삼천리그룹 - 지역 주민 필수, 열·전기 안정 공급 한전, 전남 무안-신안 154kV 송전망 준공 [포커스] ESS 78% 급성장…EV 둔화 속 K-배터리 새 격전지 용융염원자로 적용 자동차운반선 기술적 가능성 확인 기후부, 물관리 경험·기술 공유해 글로벌 물안보 협력 강화 위시빌더·리저브카본·사이클엑스, 가축분뇨 환경 문제 협력한다 [기고] ‘두꺼비집’세대가 바라본 AI 시대의 에너지안전 댓글 내용입력 더보기 비밀번호 닫기 본문 / 400 비밀번호 닫기 내 댓글 모음 닫기 ‘대왕고래 프로젝트’ 재가동 전망 에너지공단, 아태지역 ‘햇빛소득마을’ 모델 확산 제안 영산강환경청, 빗물받이 등 하수도시설 정비 총력 대응 비에이치아이·에너지연, 그린수소·카르노배터리 상용화 맞손 삼십칠점오, 폐열·응축수·CO₂ 회수해 재공급하는 특허 출원 부산환경공단, 전 사업장 안전점검으로 무재해 추진",
-        "why": null,
-        "sowhat": null
-      },
-      "_meta": {
-        "method": "B",
-        "level": 4,
-        "netScore": 2.5,
-        "densityScore": -0.041666666666666685
+        "what": "한수원은 5일 EC로부터 체코 두코바니 원전 심층조사 미개시 통보를 6일 받았다고 밝혔다.",
+        "why": "두코바니 사업은 예정된 일정대로 차질 없이 진행되고 있다고 밝혔다.",
+        "sowhat": "이번 결정으로 약 24조 원 두코바니 원전 사업은 관련 논란에서 벗어났다."
       }
     },
     {
@@ -216,11 +158,6 @@
         "what": "SK이터닉스 — 계약 — 100MW · 5023억원 · 향후 25년 · 누적 355MW, 1조 8000억원 규모 — 국내",
         "why": null,
         "sowhat": null
-      },
-      "_meta": {
-        "method": "A",
-        "level": 2,
-        "netScore": 8
       }
     },
     {
@@ -247,11 +184,32 @@
         "what": "연간 2000GWh 공급기반 구축...RE100 이행수요 대응 [이투뉴스] 브라이트에너지파트너스(BEP)와 현대건설이 국내 재생에너지 직접 PPA(전력구매계약) 시장 확대를 위해 협력한다",
         "why": null,
         "sowhat": null
-      },
-      "_meta": {
-        "method": "B",
-        "level": 2,
-        "netScore": 1
+      }
+    },
+    {
+      "id": "ecf3df57-883d-4746-91b7-5ab32f3aa0ff",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "26조 체코 원전 수출 ‘순항’…EU 역외보조금 부담 없어졌다",
+      "titleOriginal": null,
+      "summary": "약 26조원 규모의 체코 두코바니 원전 건설 사업이 EU 역외보조금 규정(FSR)에 따른 유럽집행위원회(EC)의 심층 조사를 피하며 순항하게 됐다. 프랑스전력공사(EDF)의 신고로 시작된 1년 4개월간의 예비검토 끝에, EC는 한국수력원자력이 FSR 적용 대상이 아니라는 입장을 받아들여 사업 추진에 탄력을 주었다. 이는 대한민국 원전 산업의 기술력과 사업관리 역량을 입증하는 중요한 성과로 평가된다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-06T19:29:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260606024061124",
+      "collectedAt": "2026-06-06T22:11:02.285Z",
+      "relevanceScore": 86,
+      "isDuplicate": false,
+      "newsletterSummary": {
+        "what": "유럽집행위원회는 한수원의 두코바니 원전 사업에 대해 EU 역외보조금 규정에 따른 심층 조사를 하지 않겠다고 통보했다.",
+        "why": null,
+        "sowhat": "김 장관은 이번 결정이 사업 무효화 우려를 불식하고 유럽연합이 공식 판단을 내렸다는 점에서 의미가 크다고 밝혔다."
       }
     },
     {
@@ -275,79 +233,9 @@
       "relevanceScore": 86,
       "isDuplicate": false,
       "newsletterSummary": {
-        "what": null,
-        "why": null,
-        "sowhat": null
-      },
-      "_meta": {
-        "method": "A",
-        "level": 3,
-        "netScore": 3.5,
-        "densityScore": 0.7916666666666666
-      }
-    },
-    {
-      "id": "81ffe95e-a4f7-4b54-a9b9-5a04f5eeb376",
-      "source": "에너지경제신문",
-      "sourceId": "ekn",
-      "sourceOrigin": "domestic",
-      "originalLang": "ko",
-      "isTranslated": false,
-      "title": "해줌, 재생에너지 준중앙급전 시장서 점유율 50% 선점",
-      "titleOriginal": null,
-      "summary": "준중앙제도 등록 자원 233MW 운영, kW당 9.42원 정산금 ▲해줌이 운영중인 태양광 발전소. 사진= 해줌 가상발전소(VPP) 및 태양광 발전소 운영·관리 전문 기업인 해줌이 호남에서 시행 중인 재생에너지 준중앙급전시장에서 점유율 50%를 달성해 운영 중이라고 26일 밝혔다. 준중앙급전이란 재생에너지 발전사업자가 전력거래소의 지시에 따라 발전량을 조절하",
-      "topics": [
-        "전력 인프라",
-        "에너지원"
-      ],
-      "primaryTopic": null,
-      "publishedAt": "2026-05-26T15:52:00.000Z",
-      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260526026357944",
-      "collectedAt": "2026-05-26T23:24:48.860Z",
-      "relevanceScore": 85,
-      "isDuplicate": false,
-      "newsletterSummary": {
-        "what": null,
-        "why": null,
-        "sowhat": null
-      },
-      "_meta": {
-        "method": "A",
-        "level": 3,
-        "netScore": 2,
-        "densityScore": 1.3076923076923077
-      }
-    },
-    {
-      "id": "24e64d13-cdde-48eb-a76f-cf5a8fc84270",
-      "source": "에너지경제신문",
-      "sourceId": "ekn",
-      "sourceOrigin": "domestic",
-      "originalLang": "ko",
-      "isTranslated": false,
-      "title": "태양광 늘어 날수록 LNG는 더 필요하다",
-      "titleOriginal": null,
-      "summary": "휴일 낮 태양광이 전력 절반 공급, 밤엔 ‘0MW’ 패턴 반복\n열대야·AI시대 야간 피크 확대…“유연성 전원 없인 계통 불안”\nLNG 퇴출 압박 속 되레 역할 커져…전기요금 부담 변수로 ▲24일 시간대별 전력수급 실적. 전력거래소 태양광 발전 비중이 늘어날 수록 천연가스 발전량도 늘어나고 있다. 태양광은 햇빛이 드는 낮 특정 시간대에 집중적으로 발전을 하기",
-      "topics": [
-        "전력 인프라",
-        "에너지원"
-      ],
-      "primaryTopic": null,
-      "publishedAt": "2026-05-26T15:49:00.000Z",
-      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260526023217716",
-      "collectedAt": "2026-05-26T23:25:18.857Z",
-      "relevanceScore": 85,
-      "isDuplicate": false,
-      "newsletterSummary": {
-        "what": null,
-        "why": null,
-        "sowhat": null
-      },
-      "_meta": {
-        "method": "A",
-        "level": 3,
-        "netScore": 1.5,
-        "densityScore": 0.8676470588235293
+        "what": "한국서부발전과 한국신재생에너지학회가 2040년 13.9GW 달성 목표로 인증을 받았다.",
+        "why": "한국서부발전은 신재생에너지 산업 발전에 기여해 산업진흥대상을 수상했다.",
+        "sowhat": "이번 수상으로 친환경 에너지 전환과 재생에너지 생태계 확대에 기여할 것이다."
       }
     },
     {
@@ -371,14 +259,9 @@
       "relevanceScore": 84,
       "isDuplicate": false,
       "newsletterSummary": {
-        "what": "한국환경공단 임원 및 각 지방조직 환경본부장 등은 ‘K-eco 2030 RE100 발대식’에 참석하여 결의문을 함께 낭독하고 재생에너지 전환 목표 달성 의지를 다졌다.[사진=한국환경공단] [에너지데일리 조남준 기자] 한국환경공단이 2030년까지 사용하는 전력의 100%를 재생에너지로 전환하는 ‘RE100’을 공식 선언하며 공공부문 탄소중립 이행에 속도를 내고 있다",
-        "why": null,
-        "sowhat": null
-      },
-      "_meta": {
-        "method": "B",
-        "level": 2,
-        "netScore": -1
+        "what": "한국환경공단이 ‘K-eco 2030 RE100 발대식’에서 2030년 전력 100% 재생에너지 전환을 공식 선언했다.",
+        "why": "이번 RE100 선언은 공공부문 탄소중립 실천의 새로운 기준을 제시한 사례로 평가됐다.",
+        "sowhat": "RE100 선언은 공공기관이 스스로 탄소감축 주체가 되겠다는 점에서 의미를 가졌다."
       }
     },
     {
@@ -405,11 +288,32 @@
         "what": "한국환경공단은 2030년까지 기관 사용 전력 100%를 재생에너지로 전환하겠다고 선언했다.",
         "why": null,
         "sowhat": null
-      },
-      "_meta": {
-        "method": "B",
-        "level": 2,
-        "netScore": 0.5
+      }
+    },
+    {
+      "id": "9dc266e9-c0a5-4998-9746-3624764439e6",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "SK가 정승일을 택한 이유…AI 시대 ‘전기’가 미래성장 됐다 [이슈분석]",
+      "titleOriginal": null,
+      "summary": "SK그룹이 산업부 차관 및 한전·가스공사 사장을 역임한 정승일 전 차관을 미래성장담당 사장으로 영입하며 AI·반도체 사업의 핵심인 전력 확보 전략을 강화한다. AI 데이터센터 운영을 위한 대규모 전력 수급과 LNG 발전 직접구매계약(PPA) 등 에너지 정책 대응이 그룹의 미래 경쟁력을 좌우할 핵심 과제로 부상했다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-01T11:17:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260601028359451",
+      "collectedAt": "2026-06-01T23:45:28.601Z",
+      "relevanceScore": 84,
+      "isDuplicate": false,
+      "newsletterSummary": {
+        "what": "SK그룹은 1일 또는 조만간 정 전 차관을 지주사인 SK㈜의 신설 미래성장담당 사장으로 선임할 예정이라고 밝혔다.",
+        "why": "SK그룹의 에너지 전문가 정승일 전 차관 영입은 전력 확보 중요성 속 상징적 메시지로 해석됐다.",
+        "sowhat": "SK의 정승일 영입은 AI 시대 전력 전략 중요성을 재계가 인지한 신호로 분석됐다."
       }
     },
     {
@@ -433,14 +337,9 @@
       "relevanceScore": 84,
       "isDuplicate": false,
       "newsletterSummary": {
-        "what": null,
-        "why": null,
-        "sowhat": null
-      },
-      "_meta": {
-        "method": "A",
-        "level": 2,
-        "netScore": 6
+        "what": "SK이터닉스는 국내 RE100 이행 기업들과 25년간 100MW 규모 5023억원 태양광 직접PPA 계약을 체결했다.",
+        "why": "SK이터닉스는 재생에너지 전력을 안정적으로 공급하는 사업에 주력했다.",
+        "sowhat": "SK이터닉스는 직접PPA 계약 확대로 RE100 시장 입지를 빠르게 확대했다."
       }
     },
     {
@@ -467,12 +366,32 @@
         "what": "SK이터닉스 — 계약 — 100MW · 5,023억원 · 25년간 · 누적 직접PPA 355MW — 국내 RE100 시장",
         "why": null,
         "sowhat": null
-      },
-      "_meta": {
-        "method": "A",
-        "level": 3,
-        "netScore": 5,
-        "densityScore": 1.222222222222222
+      }
+    },
+    {
+      "id": "b872f096-d6fd-4f4f-a8f9-bc97d5958be4",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "에너지고속도로, 'BT 방식'이 '206조 부채 부담' 해결 방안될까",
+      "titleOriginal": null,
+      "summary": "한국전력의 206조 원 누적 부채와 송전망 구축 지연 문제를 해결하기 위해 민간 자본을 활용한 '건설 후 이전(BT)' 방식 도입이 논의되고 있다. 이는 한전의 재무적 한계를 극복하고 2038년까지 필요한 72조 8,000억 원의 전력망 투자 재원을 확보하기 위한 전략적 대안으로 주목받고 있다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-09T06:07:47.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368877",
+      "collectedAt": "2026-06-09T08:20:21.957Z",
+      "relevanceScore": 83,
+      "isDuplicate": false,
+      "newsletterSummary": {
+        "what": "한전은 작년 말 누적 부채 206조원과 2038년까지 72조8000억원 재원 부족을 설명했다.",
+        "why": "BT 방식은 민간 역할을 건설로 한정해 민영화 우려를 불식시켰다.",
+        "sowhat": "민간 건설 후 한전에 넘겨 재무 부담과 민영화 해소에 관심이 모였다."
       }
     },
     {
@@ -496,14 +415,9 @@
       "relevanceScore": 82,
       "isDuplicate": false,
       "newsletterSummary": {
-        "what": null,
-        "why": null,
-        "sowhat": null
-      },
-      "_meta": {
-        "method": "A",
-        "level": 2,
-        "netScore": 6
+        "what": "한국전력 — 수주 — 331MW · 총 2조1000억원 · 2029년 6월 (건설 완료), 17년간 전력 및 증기 공급 계약 · 시간당 증기 생산량 약 465t — 사우디아라비아 자푸라",
+        "why": "자푸라 1단계 사업의 성공으로 발주처 신뢰를 확보해 단독 수주를 이뤄냈다.",
+        "sowhat": "중동 시장 입지 강화와 국내 기업의 해외 동반 진출 효과가 기대됐다."
       }
     },
     {
@@ -530,74 +444,6 @@
         "what": "정부에서는 2030년까지 재생에너지 설비용량을 100GW까지 확대시키겠다는 목표와 함께 농가소득증대로 지역소멸을 막고 에너지전환에 기여하기 위해 지역 주민이 태양광발전소의 주인이 되는 햇빛소득마을을 추진하고 있습니다",
         "why": null,
         "sowhat": null
-      },
-      "_meta": {
-        "method": "B",
-        "level": 2,
-        "netScore": 1
-      }
-    },
-    {
-      "id": "55800a6a-a435-4a2b-b219-aa0fa7979bae",
-      "source": "이투뉴스 (E2News)",
-      "sourceId": "e2news",
-      "sourceOrigin": "domestic",
-      "originalLang": "ko",
-      "isTranslated": false,
-      "title": "주민 10% 부담 없앤다...햇빛소득마을 ESS 전면 개편",
-      "titleOriginal": null,
-      "summary": "정부가 햇빛소득마을 사업의 주민 부담금을 전면 폐지하고, ESS 설치 방식을 마을별 설치에서 배전망 연계형으로 전환한다. 설치 비용은 중앙정부 50%, 지자체 20%, VPP 사업자 30%로 분담하며, 이를 통해 계통제약이 심한 호남·제주 지역의 전력계통 효율성을 제고할 계획이다.",
-      "topics": [
-        "전력 인프라",
-        "정책·규제"
-      ],
-      "primaryTopic": null,
-      "publishedAt": "2026-06-08T00:14:14.490Z",
-      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331040",
-      "collectedAt": "2026-06-08T00:14:14.490Z",
-      "relevanceScore": 81,
-      "isDuplicate": false,
-      "newsletterSummary": {
-        "what": null,
-        "why": null,
-        "sowhat": null
-      },
-      "_meta": {
-        "method": "A",
-        "level": 3,
-        "netScore": 2.5,
-        "densityScore": 1.2916666666666667
-      }
-    },
-    {
-      "id": "cb450db5-7ccc-49de-978f-5af3ad66a08d",
-      "source": "전기신문",
-      "sourceId": "electimes",
-      "sourceOrigin": "domestic",
-      "originalLang": "ko",
-      "isTranslated": false,
-      "title": "대한전선, 해남 태양광 전력망 수주… 재생에너지 사업 경쟁력 입증",
-      "titleOriginal": null,
-      "summary": "대한전선이 전남 해남 태양광 발전소와 변전소를 잇는 154kV급 초고압 전력망 구축 사업을 약 500억 원 규모로 수주했다. 설계부터 시공까지 전 과정을 아우르는 풀 턴키 방식으로 진행되며, 지역 내 재생에너지 확대와 전력 수요 대응에 기여할 전망이다.",
-      "topics": [
-        "전력 인프라",
-        "에너지원"
-      ],
-      "primaryTopic": "전력 인프라",
-      "publishedAt": "2026-06-01T09:28:12.000Z",
-      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368649",
-      "collectedAt": "2026-06-01T23:12:52.731Z",
-      "relevanceScore": 80,
-      "isDuplicate": false,
-      "newsletterSummary": {
-        "what": null,
-        "why": null,
-        "sowhat": null
-      },
-      "_meta": {
-        "method": "A",
-        "level": 2,
-        "netScore": 8
       }
     },
     {
@@ -621,14 +467,61 @@
       "relevanceScore": 80,
       "isDuplicate": false,
       "newsletterSummary": {
-        "what": "사진은 국내 최초 20kW급 블루수소 생산시스템 [사진=한국전력 제공] [에너지데일리 송병훈 기자] 한국전력(사장 김동철)이 발전5사 및 민간기업과 공동 개발한 ‘차세대 블루수소 기반 청정수소 생산기술’을 수소 분야 국제표준(ISO 19870)에 등록하며 글로벌 청정수소 표준화 선도에 나섰다",
-        "why": null,
-        "sowhat": null
-      },
-      "_meta": {
-        "method": "B",
-        "level": 2,
-        "netScore": -0.5
+        "what": "한국전력이 국내 최초 20kW급 블루수소 생산기술을 국제표준으로 등록했다.",
+        "why": "한전 전력연구원은 2020년부터 차세대 청정수소 생산기술 개발에 착수했다.",
+        "sowhat": "차세대 청정수소 기술이 미래 에너지 산업의 성장축으로 부상할지 주목된다."
+      }
+    },
+    {
+      "id": "40bb789f-4ae9-42c7-a06f-153d737fe9eb",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[기자의 눈] 용인 반도체가 RE100을 하는 법",
+      "titleOriginal": null,
+      "summary": "이 기사는 용인 반도체 산업단지의 RE100(재생에너지 100% 사용) 달성 방안을 분석하며, 단순히 재생에너지가 많은 호남으로 이전하는 것이 아닌 현실적인 대안을 제시합니다. 호남 지역의 태양광 계약 문제와 인허가 지연을 지적하며, 수도권·충청권·강원권에 추진 중인 총 12GW 규모의 대규모 태양광 단지와 삼성·SK 등 기업 간 장기 PPA 체결을 통해 용인 산단의 RE100 전력 확보와 신규 재생에너지 투자를 동시에 달성할 수 있다고 제안합니다.",
+      "topics": [
+        "ESG·탄소중립",
+        "전력 인프라"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-07T06:53:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260605029190611",
+      "collectedAt": "2026-06-06T22:10:51.731Z",
+      "relevanceScore": 79,
+      "isDuplicate": false,
+      "newsletterSummary": {
+        "what": "그동안 용인 반도체 산단 이전 논란은 RE100(사용전력의 100%를 재생에너지로 조달) 제도에 대한 정확한 이해보다는 재생에너지가 많은 지역으로 가면 RE100을 달성할 수 있다는 단순한 논리에 기대어 확산됐다",
+        "why": "기후에너지환경부는 수도권·충청권·강원권에 12GW 규모 태양광 단지를 추진했다.",
+        "sowhat": "호남에 산단을 건설해도 안정적 전력 공급을 위해 추가 송전망과 LNG 설비가 필요하다."
+      }
+    },
+    {
+      "id": "407d247f-7baf-48f2-bbba-fe6a17ec5917",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "재생에너지 시대 ‘숨은 전력저장고’…중부발전, 양수발전 확대 나선다",
+      "titleOriginal": null,
+      "summary": "구례·봉화 양수발전 예타 추진…무탄소 전원 전환 속도\n재생에너지 변동성 대응 핵심 인프라 부상\n기존 댐 활용해 환경 훼손·주민 반발 최소화 추진 국내 재생에너지 비중이 빠르게 확대되면서 전력 계통 안정성을 유지하기 위한 '유연성 자원' 확보 필요성이 커지고 있다. 특히 태양광·풍력 발전량이 급증하는 낮 시간대 남는 전력을 저장했다가 저녁 피크 시간대에 공급",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-05-27T16:10:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260527022068375",
+      "collectedAt": "2026-05-27T23:55:30.923Z",
+      "relevanceScore": 77,
+      "isDuplicate": false,
+      "newsletterSummary": {
+        "what": "구례와 봉화에 양수발전 예비타당성 조사를 추진하며 무탄소 전원 전환을 가속화했다.",
+        "why": "태양광과 풍력은 기상 조건에 따라 출력 변동성이 크기 때문이다.",
+        "sowhat": "양수발전 사업은 지역경제 활성화 측면에서도 의미가 있다는 평가를 받았다."
       }
     },
     {
@@ -652,14 +545,9 @@
       "relevanceScore": 71,
       "isDuplicate": false,
       "newsletterSummary": {
-        "what": null,
-        "why": null,
-        "sowhat": null
-      },
-      "_meta": {
-        "method": "A",
-        "level": 2,
-        "netScore": 6
+        "what": "삼성전자 베트남 타이응웬이 TTC 덕후-롱안 파워와 49MW 태양광 DPPA 계약을 맺고 2025년 3월부터 연간 70GWh를 공급받기로 했다.",
+        "why": "베트남 정부의 직접 전력 구매 계약 제도 정비에 따라 삼성전자와 태양광 발전사 간 첫 거래가 성사됐다.",
+        "sowhat": "이번 계약은 다국적 기업의 RE100 이행 경로를 제공하며 베트남 내 녹색 외국인 투자를 가속화할 것으로 기대됐다."
       }
     },
     {
@@ -683,15 +571,35 @@
       "relevanceScore": 70,
       "isDuplicate": false,
       "newsletterSummary": {
-        "what": null,
-        "why": null,
-        "sowhat": null
-      },
-      "_meta": {
-        "method": "A",
-        "level": 3,
-        "netScore": 4,
-        "densityScore": 0.5833333333333333
+        "what": "원자력·에너지 노조 및 과학기술단체는 9000억 원 규모의 핵융합 예산 확대 정책에 대한 입장을 밝혔다.",
+        "why": "정부에 9000억 원 핵융합 예산 확대 재원 출처 및 정보 공개를 촉구했다.",
+        "sowhat": "기금 전용 시 전력망 및 원자력 산업 투자가 위축될 위험이 있다고 지적했다."
+      }
+    },
+    {
+      "id": "b06ed94c-cac0-40bc-a69e-c4fd2d1c4c29",
+      "source": "그린포스트코리아",
+      "sourceId": "greenpost",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“AI반도체는 계속 날았는데”… 따로 노는 전력 대장주에 무슨 일이",
+      "titleOriginal": null,
+      "summary": "북미 AI 데이터센터 수요와 노후 전력망 교체로 사상 최대 수주잔고를 기록한 국내 전력기기 대장주들이 최근 단기 급등에 따른 피로감과 수급 이동으로 20% 안팎의 조정을 겪은 뒤 반등하고 있다. HD현대일렉트릭, LS일렉트릭, 효성중공업 등 주요 종목이 다시 상승세를 보이며 시장의 주목을 받고 있다.",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-06-01T15:05:40.000Z",
+      "originalUrl": "https://www.greenpostkorea.co.kr/news/articleView.html?idxno=306811",
+      "collectedAt": "2026-06-01T23:41:18.319Z",
+      "relevanceScore": 68,
+      "isDuplicate": false,
+      "newsletterSummary": {
+        "what": "HD현대일렉트릭, LS일렉트릭, 효성중공업은 5월 중순~6월 초 주가가 20% 안팎 조정됐다.",
+        "why": "AI 데이터센터 및 노후 전력망 교체 수요로 급등했던 전력기기주가 수급 이동으로 조정을 겪었다.",
+        "sowhat": "전력기기 업황은 여전히 견조하며, 단기 주가 조정 이후 다시 반등세를 보이고 있다."
       }
     },
     {
@@ -715,15 +623,145 @@
       "relevanceScore": 66,
       "isDuplicate": false,
       "newsletterSummary": {
-        "what": null,
-        "why": null,
+        "what": "펙사파크(Pexapark) — 발표 — 966MW · €44.40/MWh (평균 PPA 가격) · 4월 · -3% (PPA 가격 월간 변동률) · BESS 관련 계약 9건(800MW/2.8GWh) — 유럽",
+        "why": "유럽 내 재생에너지 PPA와 하이브리드 저장장치 연계 프로젝트가 지속됐다.",
+        "sowhat": "PPA 가격 하락세 속 BESS 관련 9건의 계약이 시장의 주목을 받았다."
+      }
+    },
+    {
+      "id": "8b43ee3a-b2fc-48c6-9f3e-681453bc68c4",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Stark Power, Sagebrush 인수를 통해 5.6GW 규모 데이터 센터 개발 포트폴리오 확보",
+      "titleOriginal": "Stark Power lands 5.6GW data center development portfolio in Sagebrush acquisition",
+      "summary": "Stark Power가 Sagebrush를 인수하며 5.6GW 규모의 데이터 센터 개발 포트폴리오를 확보했습니다. 이를 위해 약 1억 4천만 달러의 자금을 조달하며 데이터 센터 인프라 확장에 나섰습니다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-08T15:52:30.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/stark-power-lands-56gw-data-center-development-portfolio-in-sagebrush-acquisition/",
+      "collectedAt": "2026-06-09T08:08:52.507Z",
+      "relevanceScore": 62,
+      "isDuplicate": false,
+      "newsletterSummary": {
+        "what": "Stark Power가 1억 4천만 달러에 5.6GW 규모의 Sagebrush를 인수했다.",
+        "why": "Stark Power가 데이터 센터 개발 포트폴리오를 확보하고 인프라 자금을 조달했다.",
+        "sowhat": "5.6GW 규모의 인프라 확보로 시장 경쟁력 강화와 확장이 가속화됐다."
+      }
+    },
+    {
+      "id": "417139a2-3ebe-4ac1-be18-22ef8c3caefd",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미국 육상 풍력 파이프라인 정체, 해상 풍력 잠재력 급락",
+      "titleOriginal": "US onshore wind pipeline stagnates while offshore potential plummets",
+      "summary": "미국 청정에너지협회(ACP)의 최신 분기별 시장 보고서에 따르면, 미국의 육상 풍력 발전 프로젝트 파이프라인이 지속적인 연방 정부의 지연으로 인해 \"정체\"된 것으로 나타났습니다. 동시에 해상 풍력의 잠재력 또한 급락한 것으로 보고되었습니다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-06-05T10:57:02.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1960625/us-onshore-wind-pipeline-stagnates-offshore-potential-plummets",
+      "collectedAt": "2026-06-05T22:20:37.771Z",
+      "relevanceScore": 61,
+      "isDuplicate": false,
+      "newsletterSummary": {
+        "what": "로그인 페이지에서 이메일 주소와 비밀번호를 입력해 접속을 시도했다.",
+        "why": "구독자는 계정을 활성화하거나 기업용 도메인 등록을 통해 접근했다.",
         "sowhat": null
+      }
+    },
+    {
+      "id": "e3ea2eb9-46a5-4dee-82b7-81bfc68bb9a7",
+      "source": "BloombergNEF",
+      "sourceId": "bnef",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "관세와 지정학적 혼란에도 불구하고 2025년 글로벌 청정 에너지 무역 4,790억 달러로 반등: 블룸버그NEF",
+      "titleOriginal": "Global Clean-Energy Trade Rebounds to $479 Billion in 2025 Despite Tariffs and Geopolitical Turmoil: BloombergNEF",
+      "summary": "블룸버그NEF에 따르면, 관세와 지정학적 혼란에도 불구하고 2025년 글로벌 청정 에너지 무역이 4,790억 달러로 반등할 것으로 예상됩니다. 또한, 2025년 글로벌 풍력 발전 용량은 사상 최고치를 기록하며 3년 연속 기록적인 설치량을 달성했습니다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-05-27T04:00:30.000Z",
+      "originalUrl": "https://about.bnef.com/insights/clean-energy/global-clean-energy-trade-rebounds-to-479-billion-in-2025-despite-tariffs-and-geopolitical-turmoil-bloombergnef/",
+      "collectedAt": "2026-05-27T22:46:53.337Z",
+      "relevanceScore": 61,
+      "isDuplicate": false,
+      "newsletterSummary": {
+        "what": "2025년 청정 에너지 제품의 글로벌 출하액은 청정 기술, 배터리 금속, 전력망 장비를 포함해 전년 대비 1% 증가한 4790억 달러를 기록했다.",
+        "why": "배터리 금속 가격 상승의 영향으로 배터리 팩 가격은 2024년 118달러에서 108달러로 하락 폭이 둔화됐다.",
+        "sowhat": "BNEF 데이터에 따르면 연료 수입 의존도가 높은 국가일수록 태양광 장비, 배터리, 전기차 수입 증가세가 뚜렷했다."
+      }
+    },
+    {
+      "id": "81d4e39e-0615-494d-841f-5085c6cd6ea3",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "TOYO, 휴스턴에 3억 5,700만 달러 규모 1.5GW HJT 태양광 셀 공장 설립",
+      "titleOriginal": "TOYO launches $357 Million, 1.5 GW HJT solar cell factory in Houston",
+      "summary": "TOYO가 미국 휴스턴에 3억 5,700만 달러를 투자하여 1.5GW 규모의 N형 이종접합(HJT) 태양광 셀 생산 시설을 구축합니다. 이번 투자는 섹션 45X 세액 공제 혜택을 확보하고 미국 내 완전한 통합형 공급망을 구축하기 위한 목적입니다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-08T14:09:15.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/08/toyo-launches-357-million-1-5-gw-hjt-solar-cell-factory-in-houston/",
+      "collectedAt": "2026-06-09T07:58:49.313Z",
+      "relevanceScore": 60,
+      "isDuplicate": false,
+      "newsletterSummary": {
+        "what": "TOYO가 미국 텍사스주 휴스턴에 1.5GW 규모의 N형 이종접합 태양광 셀 공장을 3억 5,700만 달러 규모로 20개월 이내 구축하기로 했다.",
+        "why": "미국 IRA 세액 공제 확보와 공급망 내재화를 위해 모듈 공장 부지에 셀 생산 시설을 통합하기로 했다.",
+        "sowhat": "미국 내 셀 생산으로 경쟁력을 확보하고 무역 장벽 및 공급망 리스크로부터 독립적인 생산 체계를 구축하게 됐다."
+      }
+    },
+    {
+      "id": "55800a6a-a435-4a2b-b219-aa0fa7979bae",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "주민 10% 부담 없앤다...햇빛소득마을 ESS 전면 개편",
+      "titleOriginal": null,
+      "summary": "정부가 햇빛소득마을 사업의 주민 부담금을 전면 폐지하고, ESS 설치 방식을 마을별 설치에서 배전망 연계형으로 전환한다. 설치 비용은 중앙정부 50%, 지자체 20%, VPP 사업자 30%로 분담하며, 이를 통해 계통제약이 심한 호남·제주 지역의 전력계통 효율성을 제고할 계획이다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-08T00:14:14.490Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331040",
+      "collectedAt": "2026-06-08T00:14:14.490Z",
+      "relevanceScore": 81,
+      "isDuplicate": false,
+      "newsletterSummary": {
+        "what": "한국에너지공단과 VPP 사업자가 호남·제주에 4MW·5시간(20MWh) 규모의 배전망 연계형 ESS를 도입하는 정책을 추진했다.",
+        "why": "햇빛소득마을의 주민 설치비 부담 및 운영관리 한계를 해소하고자 마을별 설치에서 배전망 연계형으로 사업 구조를 전면 개편했다.",
+        "sowhat": "주민 부담금 폐지와 ESS 도입으로 사업 문턱을 낮춰 분산에너지 체계 구축과 계통 수용성을 확보했다."
       },
       "_meta": {
         "method": "A",
         "level": 3,
-        "netScore": 4,
-        "densityScore": 2.5
+        "netScore": 3.5,
+        "densityScore": 0.875
       }
     },
     {
@@ -748,202 +786,13 @@
       "isDuplicate": false,
       "newsletterSummary": {
         "what": null,
-        "why": null,
-        "sowhat": null
+        "why": "드랙스는 재생에너지 자산 확장을 위해 BSIF 인수를 추진했다.",
+        "sowhat": "드랙스는 영국 내 태양광 및 에너지 저장 포트폴리오를 강화했다."
       },
       "_meta": {
         "method": "A",
         "level": 2,
         "netScore": 6
-      }
-    },
-    {
-      "id": "417139a2-3ebe-4ac1-be18-22ef8c3caefd",
-      "source": "WindPower Monthly",
-      "sourceId": "windpower-monthly",
-      "sourceOrigin": "global",
-      "originalLang": "en",
-      "isTranslated": true,
-      "title": "미국 육상 풍력 파이프라인 정체, 해상 풍력 잠재력 급락",
-      "titleOriginal": "US onshore wind pipeline stagnates while offshore potential plummets",
-      "summary": "미국 청정에너지협회(ACP)의 최신 분기별 시장 보고서에 따르면, 미국의 육상 풍력 발전 프로젝트 파이프라인이 지속적인 연방 정부의 지연으로 인해 \"정체\"된 것으로 나타났습니다. 동시에 해상 풍력의 잠재력 또한 급락한 것으로 보고되었습니다.",
-      "topics": [
-        "정책·규제",
-        "에너지원"
-      ],
-      "primaryTopic": "정책·규제",
-      "publishedAt": "2026-06-05T10:57:02.000Z",
-      "originalUrl": "https://www.windpowermonthly.com/article/1960625/us-onshore-wind-pipeline-stagnates-offshore-potential-plummets",
-      "collectedAt": "2026-06-05T22:20:37.771Z",
-      "relevanceScore": 61,
-      "isDuplicate": false,
-      "newsletterSummary": {
-        "what": null,
-        "why": null,
-        "sowhat": null
-      },
-      "_meta": {
-        "method": "B",
-        "level": 2,
-        "netScore": 1
-      }
-    },
-    {
-      "id": "e3ea2eb9-46a5-4dee-82b7-81bfc68bb9a7",
-      "source": "BloombergNEF",
-      "sourceId": "bnef",
-      "sourceOrigin": "global",
-      "originalLang": "en",
-      "isTranslated": true,
-      "title": "관세와 지정학적 혼란에도 불구하고 2025년 글로벌 청정 에너지 무역 4,790억 달러로 반등: 블룸버그NEF",
-      "titleOriginal": "Global Clean-Energy Trade Rebounds to $479 Billion in 2025 Despite Tariffs and Geopolitical Turmoil: BloombergNEF",
-      "summary": "블룸버그NEF에 따르면, 관세와 지정학적 혼란에도 불구하고 2025년 글로벌 청정 에너지 무역이 4,790억 달러로 반등할 것으로 예상됩니다. 또한, 2025년 글로벌 풍력 발전 용량은 사상 최고치를 기록하며 3년 연속 기록적인 설치량을 달성했습니다.",
-      "topics": [
-        "시장·가격 동향",
-        "에너지원"
-      ],
-      "primaryTopic": "시장·가격 동향",
-      "publishedAt": "2026-05-27T04:00:30.000Z",
-      "originalUrl": "https://about.bnef.com/insights/clean-energy/global-clean-energy-trade-rebounds-to-479-billion-in-2025-despite-tariffs-and-geopolitical-turmoil-bloombergnef/",
-      "collectedAt": "2026-05-27T22:46:53.337Z",
-      "relevanceScore": 61,
-      "isDuplicate": false,
-      "newsletterSummary": {
-        "what": null,
-        "why": null,
-        "sowhat": null
-      },
-      "_meta": {
-        "method": "B",
-        "level": 1
-      }
-    },
-    {
-      "id": "732047cd-a9ce-4323-89bf-41dfc4378499",
-      "source": "그린포스트코리아",
-      "sourceId": "greenpost",
-      "sourceOrigin": "domestic",
-      "originalLang": "ko",
-      "isTranslated": false,
-      "title": "공급과잉·전력망· 해외규제··· 추락하는 중국 태양광",
-      "titleOriginal": null,
-      "summary": "세계 태양광 패널의 80% 이상을 공급하는 중국 태양광 산업이 무한 확장에 따른 공급과잉으로 수익성 악화와 연쇄 파산 위기를 겪고 있다. 전력망 부족 및 해외 규제와 맞물려 글로벌 청정에너지 시장의 생태계가 요동치고 있다.",
-      "topics": [
-        "시장·가격 동향",
-        "에너지원"
-      ],
-      "primaryTopic": "시장·가격 동향",
-      "publishedAt": "2026-06-03T11:26:17.000Z",
-      "originalUrl": "https://www.greenpostkorea.co.kr/news/articleView.html?idxno=306827",
-      "collectedAt": "2026-06-03T23:15:07.388Z",
-      "relevanceScore": 59,
-      "isDuplicate": false,
-      "newsletterSummary": {
-        "what": null,
-        "why": null,
-        "sowhat": null
-      },
-      "_meta": {
-        "method": "A",
-        "level": 3,
-        "netScore": 2,
-        "densityScore": 0.4307692307692308
-      }
-    },
-    {
-      "id": "5e1765e4-1707-4811-b912-bedab8f16715",
-      "source": "그린포스트코리아",
-      "sourceId": "greenpost",
-      "sourceOrigin": "domestic",
-      "originalLang": "ko",
-      "isTranslated": false,
-      "title": "수소경제 막은 법령 공백··· 규제샌드박스로 뚫는다",
-      "titleOriginal": null,
-      "summary": "국내 수소산업이 기술력을 갖추고도 상용화로 나아가지 못하는 핵심 원인으로 법·제도의 구조적 공백이 지목되는 가운데, 정부가 규제샌드박스를 통해 시장 진입의 물꼬를 트기 시작했다.산업통상자원부와 대한상공회의소 샌드박스 지원센터는 26일 '산업융합 규제샌드박스 심의위원회'를 열고 고체산화물 수전해(SOEC) 시스템, 기체수소 기반시설 지하화 등 총 12건의 실",
-      "topics": [
-        "정책·규제",
-        "에너지원"
-      ],
-      "primaryTopic": "정책·규제",
-      "publishedAt": "2026-05-27T09:15:42.000Z",
-      "originalUrl": "https://www.greenpostkorea.co.kr/news/articleView.html?idxno=306750",
-      "collectedAt": "2026-05-27T23:52:56.182Z",
-      "relevanceScore": 56,
-      "isDuplicate": false,
-      "newsletterSummary": {
-        "what": null,
-        "why": null,
-        "sowhat": null
-      },
-      "_meta": {
-        "method": "A",
-        "level": 3,
-        "netScore": 5,
-        "densityScore": 0.640625
-      }
-    },
-    {
-      "id": "4cb86467-9b0a-411b-897c-93ac9cc7d8f4",
-      "source": "에너지타임즈",
-      "sourceId": "energytimes",
-      "sourceOrigin": "domestic",
-      "originalLang": "ko",
-      "isTranslated": false,
-      "title": "자영업자 전기료 선택권 확대…시간대별·단일요금 병행",
-      "titleOriginal": null,
-      "summary": "시간대별 전기요금이 개편되면서 일부 자영업자 부담이 불가피한 가운데 소규모 자영업자를 위한 전기요금 선택권이 확대된다. 시간대별 전기요금과 함께 단일요금제가 도입되기 때문이다. 기후에너지환경부(장관 김성환)는 한전과 시간대별 전기요금 개편에 따른 소규모 자영업자 부담을 줄이기 위해 전기요금 선택권을 확대하기로 하고 전기위원회 서면 심의를 거쳐 오는 1일부터",
-      "topics": [
-        "정책·규제",
-        "전력 인프라"
-      ],
-      "primaryTopic": "정책·규제",
-      "publishedAt": "2026-05-27T10:05:58.000Z",
-      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70027",
-      "collectedAt": "2026-05-27T23:51:36.916Z",
-      "relevanceScore": 53,
-      "isDuplicate": false,
-      "newsletterSummary": {
-        "what": "기후에너지환경부(장관 김성환)는 한전과 시간대별 전기요금 개편에 따른 소규모 자영업자 부담을 줄이기 위해 전기요금 선택권을 확대하기로 하고 전기위원회 서면 심의를 거쳐 오는 1일부터 소규모 자영업자를 대상으로 전기요금 선택제도를 확대해 시행한다고 밝혔다",
-        "why": null,
-        "sowhat": null
-      },
-      "_meta": {
-        "method": "B",
-        "level": 4,
-        "netScore": 2.5,
-        "densityScore": -0.04545454545454544
-      }
-    },
-    {
-      "id": "5ca835b9-a2e4-464f-a0f8-3541dccd8ca8",
-      "source": "전자신문 (Energy)",
-      "sourceId": "etnews",
-      "sourceOrigin": "domestic",
-      "originalLang": "ko",
-      "isTranslated": false,
-      "title": "에너지 인프라, 생산적 금융 새 축으로",
-      "titleOriginal": null,
-      "summary": "에너지 인프라가 금융권 생산적 금융의 새 축으로 부상하고 있다. 인공지능(AI) 데이터센터 확산에 따른 전력 수요 급증, 탄소중립 전환, 에너지 안보 문제가 맞물리면서 장기 자본 공급 필요성이 커졌다. 정부는 금융회사별 생산적 금융 실적을 공개·검증하는 체계 구축도 주문했다. 금융위원회는 지난 26일 정부서울청사에서 제4차 금융업권 생산적 금융협의체를 열고",
-      "topics": [
-        "운영 최적화",
-        "ESG·탄소중립"
-      ],
-      "primaryTopic": "운영 최적화",
-      "publishedAt": "2026-05-26T21:00:00.000Z",
-      "originalUrl": "https://www.etnews.com/20260526000325",
-      "collectedAt": "2026-05-26T22:47:23.291Z",
-      "relevanceScore": 51,
-      "isDuplicate": false,
-      "newsletterSummary": {
-        "what": null,
-        "why": null,
-        "sowhat": null
-      },
-      "_meta": {
-        "method": "A",
-        "level": 3,
-        "netScore": 3.5,
-        "densityScore": 0.7083333333333334
       }
     }
   ]
