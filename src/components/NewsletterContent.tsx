@@ -394,7 +394,7 @@ function ArticleCard({
               fontSize: '11px', fontWeight: 700, color: '#0891B2',
               letterSpacing: '0.5px', marginBottom: '6px',
             }}>
-              요약
+              📝 요약
             </div>
           )}
           {ns?.what ? (
