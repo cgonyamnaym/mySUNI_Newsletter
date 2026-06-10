@@ -389,6 +389,14 @@ function ArticleCard({
 
         {/* 3줄 구조 요약 or 일반 요약 */}
         <div style={{ marginBottom: '14px' }}>
+          {(ns?.what || article.summary) && (
+            <div style={{
+              fontSize: '11px', fontWeight: 700, color: '#0891B2',
+              letterSpacing: '0.5px', marginBottom: '6px',
+            }}>
+              요약
+            </div>
+          )}
           {ns?.what ? (
             <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
               <div style={{ fontSize: '15px', color: '#111827', lineHeight: 1.65, fontWeight: 500 }}>
@@ -429,7 +437,7 @@ function ArticleCard({
               display: 'inline-flex', alignItems: 'center', gap: '4px',
               fontSize: '12px', fontWeight: 700, color: '#0066FF',
             }}>
-              원문 보기
+              기사 보기
               <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M2 6h8M6 2l4 4-4 4" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
