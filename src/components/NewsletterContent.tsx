@@ -72,10 +72,6 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
       .filter((t) => groupMap.has(t))
       .map((t) => ({ topicId: t, items: groupMap.get(t)! }))
 
-    const displayDate =
-      dateLabel ??
-      new Date().toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' })
-
     const isoDate = dateLabel && /^\d{4}-\d{2}-\d{2}$/.test(dateLabel)
       ? dateLabel
       : new Date().toISOString().slice(0, 10)
@@ -391,7 +387,7 @@ function ArticleCard({
         <div style={{ marginBottom: '14px' }}>
           {(ns?.what || article.summary) && (
             <div style={{
-              fontSize: '11px', fontWeight: 700, color: '#0891B2',
+              fontSize: '14px', fontWeight: 700, color: '#0891B2',
               letterSpacing: '0.5px', marginBottom: '6px',
             }}>
               📝 요약
