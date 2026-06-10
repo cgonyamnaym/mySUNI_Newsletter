@@ -110,7 +110,7 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
               lineHeight: 1.2, marginBottom: '24px',
             }}>
               Electrification & Energy Solution<br />
-              <span style={{ color: '#4D9FFF' }}>Bi-Weekly AI Newsletter</span>
+              <span style={{ color: '#2563EB' }}>Bi-Weekly AI Newsletter</span>
             </div>
 
             {/* Stats row */}
