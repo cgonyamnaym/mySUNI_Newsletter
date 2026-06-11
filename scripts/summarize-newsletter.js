@@ -15,7 +15,7 @@ require('dotenv').config({ path: '.env.local' })
 const fs   = require('fs')
 const path = require('path')
 
-const { fetchBodyText }          = require('./crawlers/body-fetcher')
+const { fetchBodyText, countSentences } = require('./crawlers/body-fetcher')
 const { classifyArticle }        = require('./newsletter/article-classifier')
 const { extractFieldsMethodA }   = require('./newsletter/field-extractor')
 const { selectSentencesMethodB } = require('./newsletter/sentence-selector')
@@ -73,17 +73,22 @@ function findArticles(ids) {
 // ── 단일 기사 처리 파이프라인 ─────────────────────────────────────────────────
 
 async function processArticle(article) {
-  const { title, summary: rawSummary, originalUrl, sourceId, originalLang } = article
+  const { title, summary: rawSummary, bodySnippet, originalUrl, sourceId, originalLang } = article
   process.stdout.write(`\n[${sourceId}] ${title.slice(0, 60)}...\n`)
 
-  // 본문 fetch (없으면 기존 요약으로 fallback)
+  // 본문 fetch → bodySnippet → rawSummary 순으로 fallback (원문 grounding 우선)
   let body = ''
   try {
     body = await fetchBodyText(originalUrl)
   } catch { /* ignore */ }
-  if (!body || body.length < 50) {
-    process.stdout.write('  ↳ 본문 없음, 기존 요약 사용\n')
-    body = rawSummary ?? title
+  if (!body || countSentences(body) < 3) {
+    if (bodySnippet) {
+      process.stdout.write('  ↳ 본문 재fetch 실패, bodySnippet 사용\n')
+      body = bodySnippet
+    } else {
+      process.stdout.write('  ↳ 본문 부족(페이월·짧은 본문), rawSummary 사용\n')
+      body = rawSummary ?? title
+    }
   }
 
   // Step 0: 유형 판별

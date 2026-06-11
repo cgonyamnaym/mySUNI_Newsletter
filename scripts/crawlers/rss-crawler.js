@@ -220,6 +220,7 @@ async function crawlRss(sources, { daysBack = 1, noSummarize = false, startDate,
         publishedAt:   new Date(pubDate).toISOString(),
         originalUrl:   finalUrl,
         collectedAt,
+        bodySnippet:   rawContent.slice(0, 3000),
       })
       passedUrls.push(finalUrl)
     }

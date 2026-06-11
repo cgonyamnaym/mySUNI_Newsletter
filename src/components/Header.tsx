@@ -6,9 +6,10 @@ import { ko } from 'date-fns/locale'
 interface HeaderProps {
   lastUpdated: string
   latestReportId?: string
+  hideSearch?: boolean
 }
 
-export function Header({ lastUpdated, latestReportId }: HeaderProps) {
+export function Header({ lastUpdated, latestReportId, hideSearch }: HeaderProps) {
   const updated = new Date(lastUpdated)
   const hasDate = lastUpdated && isValid(updated)
 
@@ -29,7 +30,7 @@ export function Header({ lastUpdated, latestReportId }: HeaderProps) {
               마지막 업데이트: {format(updated, 'MM. dd. HH:mm', { locale: ko })}
             </time>
           )}
-          <SearchBar />
+          {!hideSearch && <SearchBar />}
         </div>
       </div>
     </header>

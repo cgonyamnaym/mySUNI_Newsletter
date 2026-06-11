@@ -16,7 +16,7 @@ const fs   = require('fs')
 const path = require('path')
 
 const { screenArticles }            = require('./newsletter/node-screener')
-const { fetchBodyText }             = require('./crawlers/body-fetcher')
+const { fetchBodyText, countSentences } = require('./crawlers/body-fetcher')
 const { classifyArticle }           = require('./newsletter/article-classifier')
 const { extractFieldsMethodA }      = require('./newsletter/field-extractor')
 const { selectSentencesMethodB }    = require('./newsletter/sentence-selector')
@@ -64,8 +64,10 @@ function loadExistingSummaries() {
     const map = new Map()
     for (const a of (draft.articles ?? [])) {
       const w = a.newsletterSummary?.what
-      // 줄바꿈 없고 120자 이내인 유효한 요약만 재사용 (불량 요약은 재생성)
-      if (w && !w.includes('\n') && w.trim().length <= 120) {
+      // 유효한 요약 조건: 줄바꿈 없음, 120자 이내, fallback 덤프 패턴 없음
+      // " — " 패턴은 이전 buildMethodAWhatFallback의 구조화 덤프 시그니처
+      const isFallbackDump = w?.includes(' — ')
+      if (w && !w.includes('\n') && w.trim().length <= 120 && !isFallbackDump) {
         map.set(a.id, a.newsletterSummary)
       }
     }
@@ -77,16 +79,21 @@ function loadExistingSummaries() {
 
 // ── 단일 기사 처리 ────────────────────────────────────────────────────────────
 async function processArticle(article) {
-  const { title, summary: rawSummary, originalUrl, sourceId, originalLang } = article
+  const { title, summary: rawSummary, bodySnippet, originalUrl, sourceId, originalLang } = article
   process.stdout.write(`\n[${sourceId}] ${title.slice(0, 60)}...\n`)
 
   let body = ''
   try {
     body = await fetchBodyText(originalUrl)
   } catch { /* ignore */ }
-  if (!body || body.length < 50) {
-    process.stdout.write('  ↳ 본문 없음, 기존 요약 사용\n')
-    body = rawSummary ?? title
+  if (!body || countSentences(body) < 3) {
+    if (bodySnippet) {
+      process.stdout.write('  ↳ 본문 재fetch 실패, bodySnippet 사용\n')
+      body = bodySnippet
+    } else {
+      process.stdout.write('  ↳ 본문 부족(페이월·짧은 본문), rawSummary 사용\n')
+      body = rawSummary ?? title
+    }
   }
 
   const classification = await classifyArticle(title, body, sourceId ?? '')

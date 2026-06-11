@@ -61,27 +61,53 @@ function allMetricsPreserved(outputText, sourceMetrics) {
 
 // ── Method A fallback 템플릿 (LLM 없이 직접 조합) ────────────────────────────
 
+// 기사 유형별 종결 표현
+const TYPE_ENDING = {
+  '계약':    '계약을 체결했다',
+  'MOU':     'MOU를 체결했다',
+  '수주':    '사업을 수주했다',
+  '발표':    '계획을 발표했다',
+  '정책':    '정책을 발표했다',
+  '기술발표':'기술을 공개했다',
+  '투자':    '투자를 결정했다',
+  '착공준공':'공사에 착수했다',
+  '실적':    '실적을 발표했다',
+  '인증':    '인증을 취득했다',
+  '인수합병':'인수합병을 발표했다',
+}
+
 /**
- * 검증 실패 시 LLM을 우회하여 필드값을 직접 조합한 what 텍스트 생성
- * 가독성보다 팩트 정확성을 우선
+ * 검증 실패 시 LLM을 우회하여 자연어 문장을 직접 조합
+ * "행위자가 수치 규모 TYPE_ENDING" 형식
  */
 function buildMethodAWhatFallback(fields) {
-  const parts = []
-  if (fields.who.main_actor) parts.push(fields.who.main_actor)
-  if (fields.article_type)   parts.push(fields.article_type)
-
+  const actor = fields.who.main_actor
   const metricValues = Object.values(fields.metrics).filter(Boolean)
-  if (metricValues.length > 0) parts.push(metricValues.join(' · '))
+  const hasSubstance = !!(actor || metricValues.length > 0)
 
-  if (fields.location_target) parts.push(fields.location_target)
-
-  // 행위자·수치 없이 기사 유형만 있을 때(필드 추출 실패) → causal_core로 대체
-  const hasSubstance = !!(fields.who.main_actor || metricValues.length > 0)
   if (!hasSubstance && fields.causal_core) {
     return fields.causal_core.slice(0, 80)
   }
+  if (!hasSubstance) return null
 
-  return parts.length > 0 ? parts.join(' — ') : null
+  const parts = []
+
+  if (actor) {
+    // 받침 유무에 따라 이/가 선택 (한글 마지막 글자 기준)
+    const last = actor[actor.length - 1]
+    const code = last.charCodeAt(0)
+    const isHangul = code >= 0xAC00 && code <= 0xD7A3
+    const hasBatchim = isHangul && (code - 0xAC00) % 28 !== 0
+    parts.push(actor + (hasBatchim ? '이' : '가'))
+  }
+
+  if (metricValues.length > 0) {
+    parts.push(metricValues.join('·') + ' 규모')
+  }
+
+  parts.push(TYPE_ENDING[fields.article_type] ?? '발표했다')
+
+  return parts.join(' ')
 }
 
 // ── 출력 검증 및 복구 ─────────────────────────────────────────────────────────
@@ -91,12 +117,16 @@ function buildMethodAWhatFallback(fields) {
  *
  * @param {{ what: string|null, why: string|null, sowhat: string|null }} parsed  LLM 출력
  * @param {{
- *   whatAvailable:  boolean,       // what 근거 존재 여부
- *   whatMetrics:    string[],      // 소스에서 추출된 수치 목록
- *   whatEntity:     string|null,   // 검증할 핵심 엔티티명 (Method A)
- *   whatFallback:   string|null,   // 검증 실패 시 대체 텍스트
- *   whySource:      boolean,       // why 근거 존재 여부
- *   sowhatSource:   boolean,       // sowhat 근거 존재 여부
+ *   whatAvailable:   boolean,       // what 근거 존재 여부
+ *   whatMetrics:     string[],      // 소스에서 추출된 수치 목록
+ *   whatEntity:      string|null,   // 검증할 핵심 엔티티명 (Method A)
+ *   whatFallback:    string|null,   // 검증 실패 시 대체 텍스트
+ *   whySource:       boolean,       // why 근거 존재 여부
+ *   whyMetrics:      string[],      // why 소스 문장의 수치 목록
+ *   whyFallback:     string|null,   // why 검증 실패 시 소스 문장 원문
+ *   sowhatSource:    boolean,       // sowhat 근거 존재 여부
+ *   sowhatMetrics:   string[],      // sowhat 소스 문장의 수치 목록
+ *   sowhatFallback:  string|null,   // sowhat 검증 실패 시 소스 문장 원문
  * }} constraints
  */
 function validateAndRepair(parsed, constraints) {
@@ -143,6 +173,20 @@ function validateAndRepair(parsed, constraints) {
   // [검증 4] why/sowhat 근거 없음 → null 강제 (LLM 생성 내용 무효화)
   if (!constraints.whySource)    result.why    = null
   if (!constraints.sowhatSource) result.sowhat = null
+
+  // [검증 5] why 수치 보존 — source 수치가 LLM 출력에 없으면 source 문장 원문 사용
+  if (result.why && (constraints.whyMetrics ?? []).length > 0) {
+    if (!allMetricsPreserved(result.why, constraints.whyMetrics)) {
+      result.why = sanitizeFallbackText(constraints.whyFallback ?? null) ?? null
+    }
+  }
+
+  // [검증 6] sowhat 수치 보존
+  if (result.sowhat && (constraints.sowhatMetrics ?? []).length > 0) {
+    if (!allMetricsPreserved(result.sowhat, constraints.sowhatMetrics)) {
+      result.sowhat = sanitizeFallbackText(constraints.sowhatFallback ?? null) ?? null
+    }
+  }
 
   return result
 }
@@ -195,12 +239,16 @@ async function generateSummaryFromFields(fields) {
 
   const constraints = {
     // causal_core·tech_keywords도 포함: 필드 추출 실패(fallbackFields) 시에도 what 생성 가능
-    whatAvailable: !!(fields.who.main_actor || metricsStr || fields.causal_core || fields.tech_keywords.length > 0),
-    whatMetrics:   primaryMetric ? extractMetricValues(primaryMetric) : [],
-    whatEntity:    fields.who.main_actor ?? null,
-    whatFallback:  buildMethodAWhatFallback(fields),
-    whySource:     !!fields.causal_core,
-    sowhatSource:  !!fields.business_impact,
+    whatAvailable:  !!(fields.who.main_actor || metricsStr || fields.causal_core || fields.tech_keywords.length > 0),
+    whatMetrics:    primaryMetric ? extractMetricValues(primaryMetric) : [],
+    whatEntity:     fields.who.main_actor ?? null,
+    whatFallback:   buildMethodAWhatFallback(fields),
+    whySource:      !!fields.causal_core,
+    whyMetrics:     extractMetricValues(fields.causal_core ?? ''),
+    whyFallback:    fields.causal_core ?? null,
+    sowhatSource:   !!fields.business_impact,
+    sowhatMetrics:  extractMetricValues(fields.business_impact ?? ''),
+    sowhatFallback: fields.business_impact ?? null,
   }
 
   const prompt = `아래 정보는 기사에서 직접 추출된 내용입니다.
@@ -245,9 +293,13 @@ async function generateSummaryFromSentences(sentences, lang = 'ko') {
     whatEntity:    null,  // Method B는 엔티티 특정 없음
     // 영어 기사는 LLM 실패 시 영어 원문 노출 방지를 위해 null 처리
     // (한국어 뉴스레터에 영어 문장 노출보다 빈 값이 적절)
-    whatFallback:  lang === 'en' ? null : (sentences.what ?? null),
-    whySource:     !!sentences.why,
-    sowhatSource:  !!sentences.sowhat,
+    whatFallback:   lang === 'en' ? null : (sentences.what ?? null),
+    whySource:      !!sentences.why,
+    whyMetrics:     extractMetricValues(sentences.why ?? ''),
+    whyFallback:    lang === 'en' ? null : (sentences.why ?? null),
+    sowhatSource:   !!sentences.sowhat,
+    sowhatMetrics:  extractMetricValues(sentences.sowhat ?? ''),
+    sowhatFallback: lang === 'en' ? null : (sentences.sowhat ?? null),
   }
 
   const translateNote = lang === 'en'

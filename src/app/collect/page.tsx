@@ -1,7 +1,8 @@
 'use client'
 
-import { useEffect, useState, useMemo } from 'react'
+import { useEffect, useState, useMemo, useRef } from 'react'
 import Link from 'next/link'
+import { ChevronDown } from 'lucide-react'
 import { Header } from '@/components/Header'
 import { TranslationBadge } from '@/components/TranslationBadge'
 import { TOPICS } from '@/lib/constants'
@@ -10,8 +11,6 @@ import { getArchiveEntries } from '@/lib/newsletter-archive'
 import type { Article, MetaIndex } from '@/lib/types'
 
 const STORAGE_KEY = 'newsletter-selection'
-
-type LimitOption = 50 | 100 | 'all'
 
 interface StoredSelection {
   reportId: string
@@ -43,13 +42,19 @@ async function fetchJson<T>(path: string): Promise<T | null> {
   }
 }
 
+const TOP30_FILTER_OPTIONS = ['전체', ...TOPICS.map((t) => t.id)]
+
 export default function CollectPage() {
   const [index, setIndex] = useState<MetaIndex | null>(null)
   const [allArticles, setAllArticles] = useState<Article[]>([])
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set())
+  // 중간 토픽 필터: 14일치 전체 기사를 토픽별로 표시
   const [activeTopic, setActiveTopic] = useState<string>('전체')
+  // 상단 바 필터: 해당 카테고리 상위 30개 선별
+  const [activeFilter, setActiveFilter] = useState<string | null>(null)
+  const [isFilterOpen, setIsFilterOpen] = useState(false)
+  const filterRef = useRef<HTMLDivElement>(null)
   const [loading, setLoading] = useState(true)
-  const [limitOption, setLimitOption] = useState<LimitOption>(50)
 
   useEffect(() => {
     fetchJson<MetaIndex>('/data/index.json').then(setIndex)
@@ -83,6 +88,17 @@ export default function CollectPage() {
     load()
   }, [index])
 
+  // 필터 외부 클릭 시 드롭다운 닫기
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (filterRef.current && !filterRef.current.contains(e.target as Node)) {
+        setIsFilterOpen(false)
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside)
+    return () => document.removeEventListener('mousedown', handleClickOutside)
+  }, [])
+
   // 아카이브 기반 수요 키워드
   const { demandKeywords, archiveArticleCount } = useMemo(() => {
     const entries = getArchiveEntries()
@@ -90,29 +106,44 @@ export default function CollectPage() {
     return { demandKeywords: computeDemandKeywords(articles), archiveArticleCount: articles.length }
   }, [])
 
-  const effectiveLimit = limitOption === 'all' ? undefined : limitOption
-
-  // 연관성 점수 순 정렬 (screenArticles 적용)
-  const screened = useMemo(
-    () => screenArticles(allArticles, effectiveLimit, demandKeywords),
-    [allArticles, effectiveLimit, demandKeywords]
-  )
+  // 표시 기사 계산
+  // 상단 바 필터(activeFilter)가 활성이면 우선 적용 → 전체 기사에서 해당 카테고리 상위 30
+  // 바 필터 없으면 중간 토픽 필터(activeTopic)로 전체 기사 필터링
+  const screened = useMemo(() => {
+    if (activeFilter !== null) {
+      if (activeFilter === '전체') {
+        return screenArticles(allArticles, 30, demandKeywords)
+      }
+      const topicArticles = allArticles.filter((a) =>
+        a.topics.includes(activeFilter as Article['topics'][0])
+      )
+      return screenArticles(
+        topicArticles,
+        { limit: 30, categoryMax: 999, sourceMax: 999 },
+        demandKeywords
+      )
+    }
+    const base =
+      activeTopic === '전체'
+        ? allArticles
+        : allArticles.filter((a) => a.topics.includes(activeTopic as Article['topics'][0]))
+    return screenArticles(
+      base,
+      { limit: 9999, categoryMax: 999, sourceMax: 999 },
+      demandKeywords
+    )
+  }, [allArticles, activeTopic, activeFilter, demandKeywords])
 
   const rankMap = useMemo(
     () => new Map(screened.map((a, i) => [a.id, i + 1])),
     [screened]
   )
 
-  const filtered = useMemo(() => {
-    if (activeTopic === '전체') return screened
-    return screened.filter((a) => a.topics.includes(activeTopic as Article['topics'][0]))
-  }, [screened, activeTopic])
+  const allScreenedSelected = screened.length > 0 && screened.every((a) => selectedIds.has(a.id))
 
-  const LIMIT_OPTIONS: { value: LimitOption; label: string }[] = [
-    { value: 50, label: '50개' },
-    { value: 100, label: '100개' },
-    { value: 'all', label: '전체' },
-  ]
+  function handleBarFilterClick(filter: string) {
+    setActiveFilter((prev) => (prev === filter ? null : filter))
+  }
 
   function toggleArticle(id: string) {
     setSelectedIds((prev) => {
@@ -130,32 +161,82 @@ export default function CollectPage() {
   }
 
   function toggleAll() {
-    const allFilteredIds = new Set(filtered.map((a) => a.id))
-    const allSelected = filtered.length > 0 && filtered.every((a) => selectedIds.has(a.id))
+    const allIds = new Set(screened.map((a) => a.id))
+    const allSelected = screened.length > 0 && screened.every((a) => selectedIds.has(a.id))
     setSelectedIds((prev) => {
       const next = new Set(prev)
-      if (allSelected) allFilteredIds.forEach((id) => next.delete(id))
-      else allFilteredIds.forEach((id) => next.add(id))
+      if (allSelected) allIds.forEach((id) => next.delete(id))
+      else allIds.forEach((id) => next.add(id))
       saveSelection(Array.from(next))
       return next
     })
   }
 
-  const allFilteredSelected = filtered.length > 0 && filtered.every((a) => selectedIds.has(a.id))
-
   return (
     <div className="flex flex-col h-full bg-wds-gray-50 relative">
-      <Header lastUpdated={index?.lastUpdated ?? ''} latestReportId={index?.availableReports[0]} />
+      <Header lastUpdated={index?.lastUpdated ?? ''} latestReportId={index?.availableReports[0]} hideSearch />
 
       <main className="flex-1 max-w-5xl mx-auto w-full px-4 py-6 pb-24">
-        <div className="flex items-center justify-between mb-5">
-          <h1 className="text-2xl font-bold text-wds-gray-950">기사 선택</h1>
+        {/* 제목 + 상단 폴딩 필터 (상위 30 선별) */}
+        <div className="flex items-center justify-between mb-5 gap-4">
+          <h1 className="text-2xl font-bold text-wds-gray-950 shrink-0">기사 선택</h1>
+          <div ref={filterRef} className="relative">
+            <button
+              onClick={() => setIsFilterOpen((prev) => !prev)}
+              className={`flex items-center gap-2 px-4 py-2 border text-[13px] font-semibold transition-colors shadow-sm ${
+                activeFilter !== null
+                  ? 'bg-wds-gray-900 text-white border-wds-gray-900'
+                  : 'bg-white text-wds-gray-600 border-wds-gray-300 hover:border-wds-gray-500 hover:text-wds-gray-900'
+              }`}
+            >
+              {activeFilter !== null ? `🔍 ${activeFilter}` : '🔍 필터링'}
+              <ChevronDown
+                size={14}
+                className={`transition-transform duration-200 ${isFilterOpen ? 'rotate-180' : ''}`}
+              />
+            </button>
+
+            {isFilterOpen && (
+              <div className="absolute right-0 top-full mt-1.5 z-20 bg-white border border-wds-gray-200 shadow-lg p-1.5 min-w-[160px]">
+                {TOP30_FILTER_OPTIONS.map((filter) => (
+                  <button
+                    key={filter}
+                    onClick={() => {
+                      handleBarFilterClick(filter)
+                      setIsFilterOpen(false)
+                    }}
+                    className={`w-full text-left px-3 py-2 text-[13px] font-semibold transition-colors ${
+                      activeFilter === filter
+                        ? 'bg-wds-gray-900 text-white'
+                        : 'text-wds-gray-700 hover:bg-wds-gray-100 hover:text-wds-gray-950'
+                    }`}
+                  >
+                    {filter}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
         </div>
 
         {/* 안내 배너 */}
         <div className="mb-4 text-sm text-wds-gray-600 bg-white p-4 rounded-xl border border-wds-gray-200 shadow-wds-xs">
-          <strong>안내:</strong> 최근 14일 수집 기사 중 토픽 키워드와의 연관성이 높은 순으로 표시됩니다.
-          뉴스레터에 포함할 기사를 선택한 후 하단의 <strong>뉴스레터 생성하기</strong>를 누르세요.
+          {activeFilter !== null ? (
+            <span>
+              <strong>
+                {activeFilter === '전체' ? '전체 상위 30' : `${activeFilter} 상위 30`}
+              </strong>{' '}
+              —{' '}
+              {activeFilter === '전체'
+                ? '에너지 키워드 연관성이 높고 카테고리 다양성을 고려한 상위 30개 기사입니다.'
+                : '해당 토픽 키워드 연관성 기준 상위 30개 기사입니다.'}
+            </span>
+          ) : (
+            <span>
+              <strong>최근 14일 수집 기사</strong> 중 토픽 키워드와의 연관성이 높은 순으로 표시됩니다.
+              뉴스레터에 포함할 기사를 선택한 후 하단의 <strong>뉴스레터 생성하기</strong>를 누르세요.
+            </span>
+          )}
           {archiveArticleCount > 0 ? (
             <span className="ml-2 inline-flex items-center gap-1 text-orange-500 font-semibold">
               <span className="inline-block w-1.5 h-1.5 rounded-full bg-orange-400" />
@@ -166,28 +247,7 @@ export default function CollectPage() {
           )}
         </div>
 
-        {/* 표시 개수 선택 */}
-        <div className="mb-4 flex items-center gap-2">
-          <span className="text-[12px] text-wds-gray-500 font-medium shrink-0">표시 개수</span>
-          {LIMIT_OPTIONS.map(({ value, label }) => (
-            <button
-              key={value}
-              onClick={() => setLimitOption(value)}
-              className={`px-3 py-1 text-[12px] font-semibold rounded-md border transition-colors ${
-                limitOption === value
-                  ? 'bg-wds-gray-900 text-white border-wds-gray-900 shadow-sm'
-                  : 'bg-white text-wds-gray-600 border-wds-gray-300 hover:border-wds-gray-500 hover:text-wds-gray-950'
-              }`}
-            >
-              {label}
-            </button>
-          ))}
-          {limitOption !== 'all' && (
-            <span className="text-[12px] text-wds-gray-400 ml-1">/ 전체 {allArticles.length}건</span>
-          )}
-        </div>
-
-        {/* 토픽 필터 + 전체 선택/해제 */}
+        {/* 중간 토픽 필터 + 뉴스 총 개수 + 전체 선택/해제 */}
         <div className="mb-5 flex items-center justify-between gap-3 flex-wrap">
           <div className="flex gap-2 flex-wrap">
             {['전체', ...TOPICS.map((t) => t.id)].map((topic) => (
@@ -206,13 +266,13 @@ export default function CollectPage() {
           </div>
           <div className="flex items-center gap-3 ml-auto">
             <div className="px-4 py-1.5 rounded-full border border-wds-gray-300 bg-white text-[13px] font-bold text-wds-gray-800 shadow-sm flex items-center gap-1">
-              뉴스 총 개수: <span className="text-wds-blue-600">{filtered.length}</span>
+              뉴스 총 개수: <span className="text-wds-blue-600">{screened.length}</span>
             </div>
             <button
               onClick={toggleAll}
               className="shrink-0 text-[13px] font-semibold px-4 py-1.5 rounded-md border border-wds-gray-300 bg-white text-wds-gray-700 hover:bg-wds-gray-50 hover:text-wds-gray-950 transition-colors shadow-sm"
             >
-              {allFilteredSelected ? '현재 토픽 전체 해제' : '현재 토픽 전체 선택'}
+              {allScreenedSelected ? '현재 표시 전체 해제' : '현재 표시 전체 선택'}
             </button>
           </div>
         </div>
@@ -220,13 +280,13 @@ export default function CollectPage() {
         {/* 기사 목록 */}
         {loading ? (
           <div className="py-20 text-center text-[14px] text-wds-gray-500 font-medium">연관성 분석 중입니다...</div>
-        ) : filtered.length === 0 ? (
+        ) : screened.length === 0 ? (
           <div className="py-20 text-center text-[14px] text-wds-gray-500 bg-white rounded-xl border border-wds-gray-200 shadow-sm">
             {allArticles.length === 0 ? '수집된 기사가 없습니다.' : '해당 토픽의 기사가 없습니다.'}
           </div>
         ) : (
           <ul className="flex flex-col gap-3">
-            {filtered.map((article) => {
+            {screened.map((article) => {
               const rank = rankMap.get(article.id) ?? 0
               const checked = selectedIds.has(article.id)
               const scoreInfo = getScoreLabel(article.relevanceScore)

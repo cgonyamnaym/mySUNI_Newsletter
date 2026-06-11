@@ -10,6 +10,28 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 const TIMEOUT_MS = parseInt(process.env.BODY_CHECK_TIMEOUT_MS ?? '8000')
 const DEFAULT_MIN_SENTENCES = 10
 
+// ── 페이월 / 로그인 감지 ────────────────────────────────────────────────────────
+
+/**
+ * HTML에 로그인 폼이 있으면 true (비밀번호 입력 필드 기준)
+ * @param {import('cheerio').CheerioAPI} $
+ */
+function isPaywallHtml($) {
+  return $('input[type="password"]').length > 0
+}
+
+// 추출된 텍스트에서 페이월 신호 감지
+const PAYWALL_TEXT_SIGNALS = [
+  'sign in to read', 'log in to read', 'subscribe to continue',
+  'to access this article', 'register to read', 'subscribe now to',
+  '이메일 주소와 비밀번호를 입력', '로그인이 필요합니다', '구독 후 이용',
+]
+
+function isPaywallText(text) {
+  const lower = text.toLowerCase()
+  return PAYWALL_TEXT_SIGNALS.some(s => lower.includes(s.toLowerCase()))
+}
+
 // ── 보일러플레이트 절단 마커 (공백 정규화 후 텍스트에서 탐색) ─────────────────────
 const BOILERPLATE_CUTOFFS = [
   '저작권자 ©',           // 저작권 고지 (©)
@@ -64,6 +86,9 @@ async function fetchBodyText(url) {
     const html = await res.text()
     const $ = cheerio.load(html)
 
+    // 페이월 / 로그인 페이지 조기 감지 (HTML 구조 기반)
+    if (isPaywallHtml($)) return ''
+
     // 노이즈 제거: 공통 UI 요소
     $('script, style, nav, header, footer, aside, .ad, .advertisement, iframe, [class*="banner"], [class*="sidebar"]').remove()
     // 노이즈 제거: 한국 뉴스 사이트 기자 정보·태그·관련기사·댓글 영역
@@ -74,7 +99,10 @@ async function fetchBodyText(url) {
       const el = $(sel).first()
       if (el.length) {
         const text = truncateAtBoilerplate(el.text().replace(/\s+/g, ' ').trim())
-        if (text.length >= 100) return text
+        if (text.length >= 100) {
+          if (isPaywallText(text)) return ''
+          return text
+        }
       }
     }
 
@@ -84,7 +112,9 @@ async function fetchBodyText(url) {
       const t = $(el).text().trim()
       if (t.length >= 20) paragraphs.push(t)
     })
-    return truncateAtBoilerplate(paragraphs.join(' '))
+    const fallbackText = truncateAtBoilerplate(paragraphs.join(' '))
+    if (isPaywallText(fallbackText)) return ''
+    return fallbackText
   } catch {
     return ''
   }

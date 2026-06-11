@@ -37,7 +37,7 @@ async function extractFieldsMethodA(title, text, lang = 'ko') {
     const end   = raw.lastIndexOf('}')
     const jsonStr = (start !== -1 && end > start) ? raw.slice(start, end + 1) : raw
     const parsed = JSON.parse(jsonStr)
-    return normalizeFields(parsed)
+    return normalizeFields(parsed, body)
   } catch (err) {
     return fallbackFields(title, text)
   }
@@ -100,8 +100,41 @@ Respond ONLY in JSON, no markdown code blocks:
 }`
 }
 
-function normalizeFields(parsed) {
-  return {
+// ── Source Grounding 검증 ─────────────────────────────────────────────────────
+
+// 원문에 이 마커가 없으면 causal_core는 LLM 추론(hallucination)으로 판단
+const CAUSAL_MARKERS = [
+  '때문에', '위해', '위한', '로 인해', '배경에는', '원인은', '이유는',
+  '에 따라', '기인', '여파로', '영향으로', '목적으로', '차원에서',
+  'due to', 'because', 'as a result of', 'in order to', 'driven by', 'motivated by',
+]
+
+// 원문에 이 마커가 없으면 business_impact는 LLM 추론으로 판단
+const IMPACT_MARKERS = [
+  '전망', '기대', '예상', '의미', '시사', '효과', '영향', '기여', '가능',
+  '확대', '강화', '개선', '확보', '성장', '주목', '중요',
+  'expected', 'anticipated', 'significant', 'impact', 'benefit', 'poised',
+]
+
+function hasMarkerInSource(text, markers) {
+  const lower = text.toLowerCase()
+  return markers.some(m => lower.includes(m))
+}
+
+/**
+ * 수치 필드(예: "100MW", "5,023억원")의 핵심 숫자가 source body에 실제로 존재하는지 검증.
+ * LLM이 훈련 데이터에서 수치를 "기억"해 삽입하는 hallucination을 방지.
+ */
+function isMetricGrounded(fieldText, normalizedSource) {
+  if (!fieldText) return true
+  const nums = fieldText.match(/\d[\d,]*(?:\.\d+)?/g) ?? []
+  if (nums.length === 0) return true  // 숫자 없는 필드는 검증 불가 → 통과
+  const primary = nums[0].replace(/,/g, '')
+  return normalizedSource.includes(primary)
+}
+
+function normalizeFields(parsed, sourceBody = '') {
+  const fields = {
     article_type:    parsed.article_type    ?? '발표',
     who: {
       main_actor: parsed.who?.main_actor  ?? null,
@@ -120,16 +153,41 @@ function normalizeFields(parsed) {
     causal_core:     parsed.causal_core     ?? null,
     business_impact: parsed.business_impact ?? null,
   }
+
+  if (sourceBody) {
+    const normalizedSource = sourceBody.replace(/,/g, '')
+
+    // [수치 grounding] 각 metrics 필드: source에 없는 수치는 LLM hallucination → null 강제
+    for (const key of Object.keys(fields.metrics)) {
+      if (!isMetricGrounded(fields.metrics[key], normalizedSource)) {
+        fields.metrics[key] = null
+      }
+    }
+
+    // [인과 grounding] 원문에 인과 표현이 없으면 LLM이 추론한 causal_core 무효화
+    if (fields.causal_core && !hasMarkerInSource(sourceBody, CAUSAL_MARKERS)) {
+      fields.causal_core = null
+    }
+
+    // [임팩트 grounding] 원문에 임팩트/전망 표현이 없으면 LLM이 추론한 business_impact 무효화
+    if (fields.business_impact && !hasMarkerInSource(sourceBody, IMPACT_MARKERS)) {
+      fields.business_impact = null
+    }
+  }
+
+  return fields
 }
 
-function fallbackFields(title, text) {
+function fallbackFields(title, _text) {
+  // causal_core를 원문 슬라이스로 채우지 않음:
+  // LLM 파싱 실패 시 첫 문장은 팩트(what)이며, why 라인으로 노출되면 중복 출력됨
   return {
     article_type:    '발표',
     who:             { main_actor: null, partner: null, authority: null },
     metrics:         { capacity: null, amount: null, timeline: null, ratio: null, other: null },
     location_target: null,
     tech_keywords:   [],
-    causal_core:     (text || title).slice(0, 100) || null,
+    causal_core:     null,
     business_impact: null,
   }
 }

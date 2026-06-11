@@ -3,7 +3,9 @@
     "allow": [
       "Skill(bkit:pdca)",
       "Skill(bkit:pdca:*)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }

@@ -385,6 +385,7 @@ async function crawlScrape(sources, { daysBack = 1, noSummarize = false, startDa
         publishedAt:   pubDate,
         originalUrl:   item.url,
         collectedAt,
+        bodySnippet:   bodyText.slice(0, 3000),
       })
       passedUrls.push(item.url)
     }
