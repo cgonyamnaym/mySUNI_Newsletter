@@ -1,0 +1,492 @@
+{
+  "date": "2026-06-11",
+  "generatedAt": "2026-06-11T01:10:04.645Z",
+  "articleCount": 26,
+  "articles": [
+    {
+      "id": "a444f8d2-cbb3-4084-a05b-679e23581d86",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "기후부·세계은행그룹, 10년 협력 확대",
+      "titleOriginal": null,
+      "summary": "기후에너지환경부가 세계은행그룹(WBG)과 양해각서(MOU)를 개정해 기존 기후·환경 협력을 에너지 전환 및 통합 물관리 분야로 확대했습니다. 이를 통해 개도국의 2035년 국가 온실가스 감축목표(NDC) 달성을 지원하고, 국내 정책 역량과 세계은행의 재원을 연계한 녹색전환 수출 모델을 구축할 계획입니다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-06-11T08:32:40.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298886",
+      "collectedAt": "2026-06-10T23:48:20.165Z"
+    },
+    {
+      "id": "5023588e-aa82-4a29-b315-6b0dd7389d7a",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[진단] 한일 양국, LPG 수입 가격 폭등",
+      "titleOriginal": null,
+      "summary": "중동 전쟁으로 인한 호르무즈 해협 봉쇄와 해상 운임 급등으로 한국과 일본의 LPG 수입 가격이 사상 최고치 수준으로 폭등했다. 이에 대응하여 한국 정부는 부탄 유류세 인하 폭을 25%로 확대하고, 일본 정부는 1,000억 엔 규모의 LPG 요금 지원 보조금을 편성하는 등 긴급 대책을 시행 중이다.",
+      "topics": [
+        "시장·가격 동향",
+        "정책·규제"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-11T07:22:47.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298885",
+      "collectedAt": "2026-06-10T23:48:36.667Z"
+    },
+    {
+      "id": "6b76179c-ae80-480d-8c7f-51b11b65f81d",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[진단] 정부 \"석유제품 최고 가격제 종료 시기 미정\" 입장",
+      "titleOriginal": null,
+      "summary": "산업통상자원부는 호르무즈 해협의 긴장 지속과 국제유가의 높은 변동성을 이유로 '석유제품 최고 가격제' 종료 시기를 미정이라고 밝혔다. 정부는 향후 국제유가가 배럴당 90달러 이하로 안정화될 경우 종료를 검토할 예정이며, 이에 앞서 정유사 손실 보전을 위한 재정 지원 체계를 마련할 계획이다.",
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-06-11T05:58:08.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298884",
+      "collectedAt": "2026-06-10T23:48:56.657Z"
+    },
+    {
+      "id": "f4d5812f-5b8b-4a7d-854e-1a9d6c6cee23",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스안전공사 대구광역본부-가스업계 '청렴 윤리 실천 결의식' 진행",
+      "titleOriginal": null,
+      "summary": "한국가스안전공사 대구광역본부가 대성에너지, 영남에너지서비스 등 유관 기관과 함께 청렴 윤리 실천 결의식을 개최했다. 이번 행사는 공공기관과 민간 업계 간의 신뢰를 바탕으로 가스 사고 예방 및 투명하고 공정한 안전관리 문화를 조성하기 위해 마련되었다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-11T04:14:55.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298883",
+      "collectedAt": "2026-06-10T23:49:16.679Z"
+    },
+    {
+      "id": "c00de9c5-df11-4be1-b113-bf3ac0222677",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "동서발전 스페셜 오더 성료…44억 구매성과 창출",
+      "titleOriginal": null,
+      "summary": "한국동서발전이 중소기업 판로 지원을 위한 맞춤형 구매상담회 '스페셜 오더'를 개최해 44억 원의 구매 성과를 달성했다. 이번 행사는 기업과 중소기업 간 상생 협력을 도모하고 우수 제품의 전국 사업소 도입을 촉진하기 위해 마련되었다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-11T08:40:36.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70152",
+      "collectedAt": "2026-06-11T00:05:08.266Z"
+    },
+    {
+      "id": "15c90001-ccc5-4075-a2e3-38969c542d9b",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "현대건설 제로금리로 5000억원 자금조달…글로벌 원전 기대감 고조",
+      "titleOriginal": null,
+      "summary": "현대건설이 원전 및 SMR 등 뉴에너지 사업 운영자금 확보를 위해 5000억원 규모의 사모 전환사채를 제로금리로 발행했다. 하반기 미국 프로젝트 마타도르의 보조금 확정과 불가리아 원전 EPC 본계약 체결 등 글로벌 원전 사업의 구체적 성과가 기대된다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-11T09:08:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260611027212249",
+      "collectedAt": "2026-06-11T00:16:32.643Z"
+    },
+    {
+      "id": "01c03c96-0555-4dfd-8685-be7f40e51801",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[논단] 제주 출력제어, '운영'으로 풀어야 한다",
+      "titleOriginal": null,
+      "summary": "제주의 재생에너지 출력제어 문제를 해결하기 위해 설비 증설 같은 하드웨어적 접근보다 운영 효율화를 통한 '자체 소비' 확대가 필요하다고 강조한다. 특히 제주에서 실시간 시장 도입 후 출력제어가 1/4 수준으로 감소한 사례를 근거로, 열에너지 활용 및 분산에너지 활성화 등 제도적 뒷받침을 제언한다.",
+      "topics": [
+        "운영 최적화",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-11T00:26:16.763Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331228",
+      "collectedAt": "2026-06-11T00:26:16.763Z"
+    },
+    {
+      "id": "742fc859-08ea-4308-aae7-81ea41e6795b",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한화큐셀, 美 솔라 허브 완성...내달 카터스빌 셀 양산 돌입",
+      "titleOriginal": null,
+      "summary": "한화큐셀이 미국 조지아주 카터스빌 공장 완공으로 잉곳부터 모듈까지 이어지는 태양광 수직계열화 '솔라 허브'를 완성했다. 이번 통합 생산 체계 구축을 통해 미국 인플레이션감축법(IRA)에 따른 첨단제조생산세액공제(AMPC) 수혜를 극대화하며, 올해 약 1조 원의 수익 개선 효과가 전망된다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-11T00:28:16.786Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331188",
+      "collectedAt": "2026-06-11T00:28:16.786Z"
+    },
+    {
+      "id": "a2b489a4-8b14-40ca-9d4e-a38576681810",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "삼성重, 4.3조원 '델핀 FLNG' 본계약…북미 FLNG 시장 확대 신호탄",
+      "titleOriginal": null,
+      "summary": "삼성중공업이 29억 달러(약 4.3조 원) 규모의 미국 '델핀 FLNG 1호기' 본계약을 체결하며 북미 해상 LNG 시장 진출을 본격화했다. 이번 프로젝트를 시작으로 향후 2·3호기 추가 수주가 유력해지면서 삼성중공업은 미국 내 LNG 밸류체인 구축의 핵심 파트너로 입지를 강화하게 되었다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-11T00:28:36.790Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331210",
+      "collectedAt": "2026-06-11T00:28:36.790Z"
+    },
+    {
+      "id": "a8ed7f78-cd98-442a-b178-228883bb1128",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "남부권 도시가스 7개사, 고객서비스 향상 ‘한목소리’",
+      "titleOriginal": null,
+      "summary": "남부권 7개 도시가스사 CS 관계자들이 ‘2026 도시가스 남부권 CS협의회 1차 정기회의’를 열고 고객 서비스 품질 향상 및 운영 효율화 방안을 논의했다. 이들은 개정 노동조합법 대응, VOC 관리 등 공통 현안에 대한 정기적인 소통체계를 구축해 소비자 중심의 서비스 기반을 강화하기로 합의했다.",
+      "topics": [
+        "운영 최적화",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-11T00:28:56.725Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331209",
+      "collectedAt": "2026-06-11T00:28:56.725Z"
+    },
+    {
+      "id": "c6fe6b39-1c64-4d6d-8797-12b637f32943",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "BS한양, 박유신 대표이사 선임…총괄대표 역할 수행",
+      "titleOriginal": null,
+      "summary": "BS한양이 박유신 신임 대표를 선임하며 건설 부문의 안정적 실적을 바탕으로 태양광 및 LNG 등 에너지 사업을 본격화합니다. 현재 8조원대의 수주잔고와 솔라시도 5.4GW 규모 재생에너지 사업 등을 통해 미래 성장 동력을 확보하고 이익 실현 단계에 집중하고 있습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-11T00:29:16.784Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331208",
+      "collectedAt": "2026-06-11T00:29:16.784Z"
+    },
+    {
+      "id": "e4bc1591-ddd1-41e0-aa9c-2f54d4043bc3",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "남부발전, 남제주火電·재생에너지 발전시설 현장 안전점검",
+      "titleOriginal": null,
+      "summary": "한국남부발전 박영철 경영기획부사장이 하계 전력수급 대책기간을 앞두고 남제주빛드림본부와 재생에너지 설비 현장을 방문해 안전 및 운영 실태를 점검했다. 혹서기 전력 수요 급증에 대비해 발전소 고장 방지와 안정적인 전력 공급, 그리고 안전한 정비 공사 관리에 만전을 기할 것을 강조했다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-11T00:30:19.493Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331204",
+      "collectedAt": "2026-06-11T00:30:19.493Z"
+    },
+    {
+      "id": "eefd6ade-2a6a-4b61-95a4-0d1c1315a615",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "AI 전력수요 급증에…日미쓰비시, 발전용 가스터빈 생산 2배로",
+      "titleOriginal": null,
+      "summary": "AI 확산에 따른 데이터센터 전력 수요 급증으로 미쓰비시중공업이 2030년까지 화력 발전용 가스터빈 생산 능력을 2024년 대비 2배로 확대한다. 현재 수주 잔고가 전년 대비 50% 급증한 74대에 달함에 따라, 공정 효율화 및 핵심 부품 증설을 통해 생산 체제를 강화하기로 했다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-11T00:30:36.772Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331203",
+      "collectedAt": "2026-06-11T00:30:36.772Z"
+    },
+    {
+      "id": "abf70735-2252-466a-b377-956d50ddda68",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "7\n\t\t\t\t삼성重, FLNG 이어 LNG운반선까지 수주 순풍",
+      "titleOriginal": null,
+      "summary": "삼성중공업이 최근 FLNG와 LNG운반선을 잇따라 수주하며 올해 누적 수주액 85억 달러를 기록, 연간 목표의 61%를 달성했다. LNG 밸류체인 전반에서 경쟁력을 입증한 삼성중공업은 고부가 선종 중심의 선별 수주 전략을 통해 상반기 내 상선 부문 수주 목표 조기 달성을 기대하고 있다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-11T00:31:16.724Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331114",
+      "collectedAt": "2026-06-11T00:31:16.724Z"
+    },
+    {
+      "id": "228237c6-ca09-497c-b536-db767394b0e2",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "2026 엔지니어링의 날 기념식, 유공자 40명 포상",
+      "titleOriginal": null,
+      "summary": "[이투뉴스] 산업통상부는 10일 서울 용산구 드래곤시티에서 '2026 엔지니어링의 날 기념식'을 열었다. 23회째를 맞는 올해 기념식에서는 국가 산업 발전과 엔지니어링 산업 경쟁력 강화에 기여한 유공자 40명에게 정부포상과 표창이 수여됐다. 금탑산업훈장은 ㈜다산컨설턴트 김정호 대표이사에게 돌아갔다. 김 대표이사는 국내 기술로 세계적 수준의 도로·교량 인프라",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-11T00:52:57.442Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331202",
+      "collectedAt": "2026-06-11T00:52:57.442Z"
+    },
+    {
+      "id": "00dd9780-b71e-44c8-9377-8f6975a7d3f6",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "삼천리 스포츠단 서교림 프로와 ‘지도표 성경김’이 마련한 푸드트럭 '눈길'",
+      "titleOriginal": null,
+      "summary": "생애 첫 우승까지 성원해준 동료·관계자에게 감사한 마음 전해 삼천리 스포츠단의 서교림 프로가 성경식품과 함께 마련한 푸드트럭에서 박예지 프로에게 먹거리를 선물하고 있다. [이투뉴스] 삼천리 스포츠단 서교림 프로와 ‘지도표 성경김’ 성경식품이 마련한 푸드트럭이 10일 경기도 양주시 레이크우드 CC에 도착했다. 서교림 프로는 ‘메르세데스-벤츠 제40회 한국여자",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-11T00:54:07.356Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331229",
+      "collectedAt": "2026-06-11T00:54:07.356Z"
+    },
+    {
+      "id": "4e213e38-b8af-41dc-8498-8c978a8279f5",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "삼천리EV 김태석 대표이사 취임…삼천리 모터스 전략본부장 겸임",
+      "titleOriginal": null,
+      "summary": "미래 모빌리티 시장 변화 대응 및 전기차 사업 경쟁력 강화 김태석 삼천리EV 대표이사가 취임사를 하고 있다 [이투뉴스] 삼천리그룹은 미래 모빌리티 시장 변화에 선제적으로 대응하고 전기차 사업의 지속 성장을 추진하기 위해 ㈜삼천리EV 대표이사로 김태석 부사장을 선임했다. 김태석 대표이사는 2001년 삼천리그룹에 합류한 후 2015년 삼천리 미래전략본부 전략담",
+      "topics": [
+        "ESG·탄소중립",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-11T00:56:57.584Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331225",
+      "collectedAt": "2026-06-11T00:56:57.584Z"
+    },
+    {
+      "id": "a892526d-13d0-447a-ae58-923f8f57fa23",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "해양조사원, 11일 기후위기 대응 연안재해 정보 활용 설명회",
+      "titleOriginal": null,
+      "summary": "[이투뉴스] 국립해양조사원은 오는 11일 부산항 국제전시컨벤션센터(BPEX)에서 연안지역 기초지자체 등을 대상으로 '2026년 연안재해 정보 활용 설명회'를 개최한다고 10일 밝혔다. 이번 설명회는 연안재해 정보에 대한 이해를 높이고, 안전한 연안관리를 위해 정보 활용을 확대함으로써 지자체의 연안재해 적응 및 대응 역량을 강화하기 위해 마련됐다. 올해부터는",
+      "topics": [
+        "운영 최적화",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-11T00:57:26.732Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331223",
+      "collectedAt": "2026-06-11T00:57:26.732Z"
+    },
+    {
+      "id": "838892c1-363f-4e36-856b-3d1d69a91c24",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "스마트 물관리 기술기업 10곳 혁신형 물기업 선정",
+      "titleOriginal": null,
+      "summary": "AI 기반 관망관리·막여과 수처리 등 유망 물기술 보유 기업 발굴 기후부, 연구개발·사업화·해외진출 등 5년간 연 최대 1억원 지원 [이투뉴스] 정부가 10일 유망 중소 물기업 10곳을 제7기 ‘혁신형 물기업’으로 지정했다. 선정된 물기업은 혁신기술 개발부터 사업화, 추후 해외시장 진출 등에서 5년간 지원받게 됐다. 혁신형 물기업 지정 및 지원’은 우수한 ",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-11T00:57:56.727Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331216",
+      "collectedAt": "2026-06-11T00:57:56.727Z"
+    },
+    {
+      "id": "1da6013c-a0d9-41f8-8579-09ba4f95789f",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "하이멕, 창립 60주년 기념행사 개최… 기념 조형물 공개",
+      "titleOriginal": null,
+      "summary": "창립 60주년 기념행사서 조형물 제막식 진행 미래 비전 공유 및 임직원 특별 시상 마련 하이멕 창립60주년 기념행사 단체사진 (사진=하이멕 제공) 하이멕은 창립 60주년을 맞아 본사에서 기념행사를 개최하고, 기업의 미래 비전과 철학을 담은 기념 조형물을 공개했다고 밝혔다. 이번 행사는 창립 60주년을 기념해 마련됐으며, 100년 미래 비전 공유, 기념 조형",
+      "topics": [
+        "운영 최적화",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-11T00:58:26.776Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331221",
+      "collectedAt": "2026-06-11T00:58:26.776Z"
+    },
+    {
+      "id": "13318815-4d67-4c2f-9c19-26b4dedaf3c2",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "노루페인트-환경단체, ‘기후위기 대응 사회공헌’ 공동행보",
+      "titleOriginal": null,
+      "summary": "종합사회복지관 옥상에 ‘차열 수성 방수페인트’ 시공 노루페인트 차열 수성 방수페인트 담당자가 반포종합사회복지관 옥상에서 시공 방법을 설명하고 있다. [이투뉴스] 노루페인트와 환경단체 ‘환경을 생각하는 사람들’이 함께 10일 서울 반포종합사회복지관 옥상에 ‘차열 수성 방수페인트’를 시공하는 기후위기 대응 사회공헌 활동을 진행했다. 이번 활동은 여름철 높은 온",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-11T01:00:56.850Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331207",
+      "collectedAt": "2026-06-11T01:00:56.850Z"
+    },
+    {
+      "id": "b53c3db6-faed-4901-8e47-4c8aa2df5b71",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "BMW 공식 딜러사 삼천리 모터스 청주 전시장 리뉴얼",
+      "titleOriginal": null,
+      "summary": "고객 중심 공간으로 재탄생하며 충청권 고객 접점 확대 새롭게 단장한 삼천리 모터스의 BMW 청주 전시장 내부 모습. [이투뉴스] BMW 공식 딜러사 삼천리 모터스가 BMW 청주 전시장을 새롭게 단장해 고객 중심의 공간으로 새로운 모습을 보이며 충청권 고객 접점 확대에 나선다. BMW 청주 전시장은 BMW그룹의 최신 전시 공간 콘셉트인 ‘리테일 넥스트(Ret",
+      "topics": [
+        "운영 최적화",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-11T01:01:26.864Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331206",
+      "collectedAt": "2026-06-11T01:01:26.864Z"
+    },
+    {
+      "id": "5b94b0fa-97e0-4399-9545-d39204a201a1",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스公 노사, 대구 굿윌스토어에서 '상생 ESG' 한마음",
+      "titleOriginal": null,
+      "summary": "창고 내 적재품 정리 등 취약계층 고용안정 지원 동참 가스공사 노사가 대구 굿윌스토어에서 봉사활동을 펼치며 사회공헌 의지를 다지고 있다. [이투뉴스] 한국가스공사 노사가 합동으로 대구 굿윌스토어에서 창고 내 적재품 정리 등 사회공헌 활동에 나서며 나눔으로 하나가 됐다. 한국가스공사 임직원들은 노사가 함께 지난 9일 대구시 북구에 위치한 장애인 자립 지원 비",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-11T01:03:56.936Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331230",
+      "collectedAt": "2026-06-11T01:03:56.936Z"
+    },
+    {
+      "id": "fc99a939-c4df-4bc2-8b2f-22a46e3042fc",
+      "source": "이투뉴스 (E2News)",
+      "sourceId": "e2news",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "울산시-SK이노베이션, 울산지역 제조업 인공지능 전환(AX) 선도",
+      "titleOriginal": null,
+      "summary": "제조 및 AI 솔루션 20여개 중소기업과 성장전략 및 상생방안 논의 울산 남구 CK아트홀에서 열린 ‘울산 AI 강소기업 정책 토론회’에서 지역 내 제조 및 AI 솔루션 분야 20여개 중소기업 관계자들이 현안을 논의하고 있다. [이투뉴스] 울산시와 SK이노베이션 울산Complex가 울산상공회의소, 중소기업융합울산연합회와 함께 지역 제조업 인공지능 전환(AX)",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-11T01:05:26.999Z",
+      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331227",
+      "collectedAt": "2026-06-11T01:05:26.999Z"
+    },
+    {
+      "id": "4fa377da-f084-45e3-864f-74cc74f82309",
+      "source": "한국에너지공단 (KEA)",
+      "sourceId": "kea",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한국에너지공단, 제21차 아시아클린에너지포럼에서 '햇빛소득마을' 모델 아시아.태평양 지역 확산 제안",
+      "titleOriginal": null,
+      "summary": "보도자료 한국에너지공단, 제21차 아시아클린에너지포럼에서 '햇빛소득마을' 모델 아시아.태평양 지역 확산 제안 작성일 :2026-06-09 한국에너지공단,제21차 아시아클린에너지포럼에서'햇빛소득마을'모델 아시아.태평양 지역 확산 제안 -최재관 이사장,아시아개발은행 회원국 등 대상으로 햇빛소득마을 개도국 적용방안 제시- 한국에너지공단(이사장 최재관,이하 공단)",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-11T01:06:38.420Z",
+      "originalUrl": "https://www.energy.or.kr/front/board/View3.do?boardMngNo=3&boardNo=10024982",
+      "collectedAt": "2026-06-11T01:06:38.420Z"
+    },
+    {
+      "id": "22e5fdf8-88f4-4b49-9ec9-9f40a50d9d03",
+      "source": "한국원자력산업협회",
+      "sourceId": "kaif",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“수천억 시장 전초전인데”... 고리 원전 해체 수주전 ‘진통’",
+      "titleOriginal": null,
+      "summary": "6월 11일 목요일 원자력 투데이뉴스 2026 원전산업 공급망 진입 전략 과정 교육생 모집(선착순) 2026. 6. 19. (금) 10:00 ~ 17:30 / 스페이스쉐어 서울역센터 2026 한수원 일본 기후테크 시장개척단(~6. 11.) 신청방법 : 한수원 상생누리를 통한 신청 2026년 제2차 원전기업 인증 신청기업 모집 공고 (~ 6. 12.) 인증교",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-11T00:00:00.000Z",
+      "originalUrl": "https://www.kaif.or.kr/ko/?c=251&s=250&gp=1&gbn=view&ix=29907",
+      "collectedAt": "2026-06-11T01:09:43.724Z"
+    }
+  ]
+}
