@@ -60,6 +60,28 @@ export default async function HomePage() {
     .map(([name, count]) => ({ name, count }))
     .sort((a, b) => b.count - a.count)
     .slice(0, 5)
+  // 기간 표기를 위한 날짜 계산
+  const earliestDate = index.availableDates[index.availableDates.length - 1] || ''
+  const formatDateStr = (dateStr: string) => dateStr.replace(/-/g, '.')
+  
+  const todayStr = latestDate ? formatDateStr(latestDate) : ''
+  const cumulativePeriod = earliestDate && latestDate
+    ? `${formatDateStr(earliestDate)} ~ ${formatDateStr(latestDate)}`
+    : ''
+  
+  let weeklyPeriod = ''
+  if (latestDate) {
+    const endDate = new Date(latestDate)
+    const startDate = new Date(endDate)
+    startDate.setDate(startDate.getDate() - 6)
+    
+    const format = (d: Date) => {
+      const offset = d.getTimezoneOffset() * 60000
+      const local = new Date(d.getTime() - offset)
+      return local.toISOString().split('T')[0].replace(/-/g, '.')
+    }
+    weeklyPeriod = `${format(startDate)} ~ ${format(endDate)}`
+  }
 
   return (
     <div className="min-h-screen flex flex-col bg-wds-gray-50">
@@ -86,56 +108,76 @@ export default async function HomePage() {
 
         {/* KPI Row */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
-          <div className="bg-white rounded-2xl p-5 border border-wds-gray-200 shadow-wds-xs">
-            <div className="flex items-center justify-between mb-3">
-              <h3 className="text-[13px] font-bold text-wds-gray-500">오늘 수집된 기사</h3>
-              <div className="w-8 h-8 rounded-full bg-wds-blue-50 flex items-center justify-center text-wds-blue-500">
-                <BookOpen size={16} />
+          <div className="bg-white rounded-2xl p-5 border border-wds-gray-200 shadow-wds-xs flex flex-col justify-between">
+            <div>
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-[13px] font-bold text-wds-gray-500">오늘 수집된 기사</h3>
+                <div className="w-8 h-8 rounded-full bg-wds-blue-50 flex items-center justify-center text-wds-blue-500">
+                  <BookOpen size={16} />
+                </div>
+              </div>
+              <div className="flex items-baseline gap-1.5">
+                <span className="text-3xl font-black text-wds-gray-950">{daily?.articleCount || 0}</span>
+                <span className="text-[13px] font-semibold text-wds-gray-400">건</span>
               </div>
             </div>
-            <div className="flex items-baseline gap-1.5">
-              <span className="text-3xl font-black text-wds-gray-950">{daily?.articleCount || 0}</span>
-              <span className="text-[13px] font-semibold text-wds-gray-400">건</span>
-            </div>
+            {todayStr && (
+              <div className="text-[11px] text-wds-gray-400 mt-2 font-medium">{todayStr}</div>
+            )}
           </div>
           
-          <div className="bg-white rounded-2xl p-5 border border-wds-gray-200 shadow-wds-xs">
-            <div className="flex items-center justify-between mb-3">
-              <h3 className="text-[13px] font-bold text-wds-gray-500">최근 7일 수집량</h3>
-              <div className="w-8 h-8 rounded-full bg-[#F0ECFE] flex items-center justify-center text-[#9747FF]">
-                <Activity size={16} />
+          <div className="bg-white rounded-2xl p-5 border border-wds-gray-200 shadow-wds-xs flex flex-col justify-between">
+            <div>
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-[13px] font-bold text-wds-gray-500">최근 7일 수집량</h3>
+                <div className="w-8 h-8 rounded-full bg-[#F0ECFE] flex items-center justify-center text-[#9747FF]">
+                  <Activity size={16} />
+                </div>
+              </div>
+              <div className="flex items-baseline gap-1.5">
+                <span className="text-3xl font-black text-wds-gray-950">{thisWeekTotal}</span>
+                <span className="text-[13px] font-semibold text-wds-gray-400">건</span>
               </div>
             </div>
-            <div className="flex items-baseline gap-1.5">
-              <span className="text-3xl font-black text-wds-gray-950">{thisWeekTotal}</span>
-              <span className="text-[13px] font-semibold text-wds-gray-400">건</span>
-            </div>
+            {weeklyPeriod && (
+              <div className="text-[11px] text-wds-gray-400 mt-2 font-medium">{weeklyPeriod}</div>
+            )}
           </div>
 
-          <div className="bg-white rounded-2xl p-5 border border-wds-gray-200 shadow-wds-xs">
-            <div className="flex items-center justify-between mb-3">
-              <h3 className="text-[13px] font-bold text-wds-gray-500">누적 수집 기사</h3>
-              <div className="w-8 h-8 rounded-full bg-[#E5F7EB] flex items-center justify-center text-[#00BF40]">
-                <Layers size={16} />
+          <div className="bg-white rounded-2xl p-5 border border-wds-gray-200 shadow-wds-xs flex flex-col justify-between">
+            <div>
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-[13px] font-bold text-wds-gray-500">누적 수집 기사</h3>
+                <div className="w-8 h-8 rounded-full bg-[#E5F7EB] flex items-center justify-center text-[#00BF40]">
+                  <Layers size={16} />
+                </div>
+              </div>
+              <div className="flex items-baseline gap-1.5">
+                <span className="text-3xl font-black text-wds-gray-950">{index.totalArticles.toLocaleString()}</span>
+                <span className="text-[13px] font-semibold text-wds-gray-400">건</span>
               </div>
             </div>
-            <div className="flex items-baseline gap-1.5">
-              <span className="text-3xl font-black text-wds-gray-950">{index.totalArticles.toLocaleString()}</span>
-              <span className="text-[13px] font-semibold text-wds-gray-400">건</span>
-            </div>
+            {cumulativePeriod && (
+              <div className="text-[11px] text-wds-gray-400 mt-2 font-medium">{cumulativePeriod}</div>
+            )}
           </div>
 
-          <div className="bg-white rounded-2xl p-5 border border-wds-gray-200 shadow-wds-xs">
-            <div className="flex items-center justify-between mb-3">
-              <h3 className="text-[13px] font-bold text-wds-gray-500">모니터링 출처</h3>
-              <div className="w-8 h-8 rounded-full bg-[#E6F5F8] flex items-center justify-center text-[#0098B2]">
-                <Rss size={16} />
+          <div className="bg-white rounded-2xl p-5 border border-wds-gray-200 shadow-wds-xs flex flex-col justify-between">
+            <div>
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-[13px] font-bold text-wds-gray-500">모니터링 출처</h3>
+                <div className="w-8 h-8 rounded-full bg-[#E6F5F8] flex items-center justify-center text-[#0098B2]">
+                  <Rss size={16} />
+                </div>
+              </div>
+              <div className="flex items-baseline gap-1.5">
+                <span className="text-3xl font-black text-wds-gray-950">{Object.keys(sourceCount).length}</span>
+                <span className="text-[13px] font-semibold text-wds-gray-400">개 매체</span>
               </div>
             </div>
-            <div className="flex items-baseline gap-1.5">
-              <span className="text-3xl font-black text-wds-gray-950">{Object.keys(sourceCount).length}</span>
-              <span className="text-[13px] font-semibold text-wds-gray-400">개 매체</span>
-            </div>
+            {weeklyPeriod && (
+              <div className="text-[11px] text-wds-gray-400 mt-2 font-medium">{weeklyPeriod}</div>
+            )}
           </div>
         </div>
 
