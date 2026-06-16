@@ -72,7 +72,7 @@ export default function SearchPage() {
 
   const [query, setQuery] = useState('')
   const [debouncedQuery, setDebouncedQuery] = useState('')
-  const [activeTopic, setActiveTopic] = useState<string>('전체')
+  const [activeTopics, setActiveTopics] = useState<Set<string>>(new Set())
   const [activeDays, setActiveDays] = useState(0)
   const [activeOrigin, setActiveOrigin] = useState<'전체' | 'domestic' | 'global'>('전체')
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
@@ -141,9 +141,9 @@ export default function SearchPage() {
       items = items.filter((a) => a.sourceOrigin === activeOrigin)
     }
 
-    // 토픽 필터
-    if (activeTopic !== '전체') {
-      items = items.filter((a) => a.topics.includes(activeTopic as TopicId))
+    // 토픽 필터 (선택된 토픽 중 하나라도 포함하면 통과)
+    if (activeTopics.size > 0) {
+      items = items.filter((a) => a.topics.some((t) => activeTopics.has(t)))
     }
 
     // 키워드 검색 (AND)
@@ -155,17 +155,17 @@ export default function SearchPage() {
     }
 
     return items
-  }, [searchIndex, tokens, activeTopic, cutoffDate, activeOrigin])
+  }, [searchIndex, tokens, activeTopics, cutoffDate, activeOrigin])
 
   const visible = results.slice(0, visibleCount)
   const hasMore = visibleCount < results.length
 
-  const isSearching = debouncedQuery.trim().length > 0 || activeTopic !== '전체' || activeDays !== 0 || activeOrigin !== '전체'
+  const isSearching = debouncedQuery.trim().length > 0 || activeTopics.size > 0 || activeDays !== 0 || activeOrigin !== '전체'
 
   function clearAll() {
     setQuery('')
     setDebouncedQuery('')
-    setActiveTopic('전체')
+    setActiveTopics(new Set())
     setActiveDays(0)
     setActiveOrigin('전체')
     setVisibleCount(PAGE_SIZE)
@@ -217,15 +217,34 @@ export default function SearchPage() {
 
         {/* 필터 영역 */}
         <div className="mb-5">
-          {/* 카테고리 chips */}
+          {/* 카테고리 chips (다중 선택) */}
           <div className="flex gap-1.5 flex-wrap mb-3">
-            {['전체', ...TOPICS.map((t) => t.id)].map((topic) => {
-              const cfg = TOPICS.find((t) => t.id === topic)
-              const active = activeTopic === topic
+            {/* 전체: 아무것도 선택 안 됐을 때 활성 / 클릭 시 전체 해제 */}
+            <button
+              onClick={() => { setActiveTopics(new Set()); setVisibleCount(PAGE_SIZE) }}
+              className="px-3 py-1 text-[12px] font-semibold rounded-full border transition-all"
+              style={
+                activeTopics.size === 0
+                  ? { background: '#4A4B52', color: '#fff', borderColor: '#4A4B52' }
+                  : { background: '#fff', color: '#70737C', borderColor: 'rgba(112,115,124,0.24)' }
+              }
+            >
+              전체
+            </button>
+            {TOPICS.map((t) => {
+              const active = activeTopics.has(t.id)
               return (
                 <button
-                  key={topic}
-                  onClick={() => { setActiveTopic(topic); setVisibleCount(PAGE_SIZE) }}
+                  key={t.id}
+                  onClick={() => {
+                    setActiveTopics((prev) => {
+                      const next = new Set(prev)
+                      if (next.has(t.id)) next.delete(t.id)
+                      else next.add(t.id)
+                      return next
+                    })
+                    setVisibleCount(PAGE_SIZE)
+                  }}
                   className="px-3 py-1 text-[12px] font-semibold rounded-full border transition-all"
                   style={
                     active
@@ -233,7 +252,7 @@ export default function SearchPage() {
                       : { background: '#fff', color: '#70737C', borderColor: 'rgba(112,115,124,0.24)' }
                   }
                 >
-                  {topic}
+                  {t.id}
                 </button>
               )
             })}
