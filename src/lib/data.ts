@@ -46,6 +46,11 @@ export function getLatestDate(index: MetaIndex): string {
   return index.availableDates[0] ?? ''
 }
 
+export function getSearchIndexTotal(): number {
+  const data = readJson<{ totalCount: number }>(path.join(DATA_DIR, 'search-index.json'))
+  return data?.totalCount ?? 0
+}
+
 export function getLatestReportId(index: MetaIndex): string {
   return index.availableReports[0] ?? ''
 }

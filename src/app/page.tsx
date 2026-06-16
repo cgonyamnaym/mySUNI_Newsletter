@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { getMetaIndex, getLatestDate, getDailyData } from '@/lib/data'
+import { getMetaIndex, getLatestDate, getDailyData, getSearchIndexTotal } from '@/lib/data'
 import { Header } from '@/components/Header'
 import { CategoryPieChart, DailyTrendChart } from '@/components/DashboardCharts'
 import { DailyArticlesFeed } from '@/components/DailyArticlesFeed'
@@ -11,6 +11,7 @@ export const revalidate = false
 
 export default async function HomePage() {
   const index = await getMetaIndex()
+  const totalArticles = getSearchIndexTotal()
   const latestDate = getLatestDate(index)
   const daily = latestDate ? await getDailyData(latestDate) : null
 
@@ -85,7 +86,7 @@ export default async function HomePage() {
 
   return (
     <div className="min-h-screen flex flex-col bg-wds-gray-50">
-      <Header lastUpdated={daily?.generatedAt ?? index.lastUpdated} latestReportId={index.availableReports[0]} />
+      <Header lastUpdated={daily?.generatedAt ?? index.lastUpdated} latestReportId={index.availableReports[0]} hideSearch />
       
       <main className="flex-1 max-w-6xl mx-auto w-full px-6 py-8">
         
@@ -153,7 +154,7 @@ export default async function HomePage() {
                 </div>
               </div>
               <div className="flex items-baseline gap-1.5">
-                <span className="text-3xl font-black text-wds-gray-950">{index.totalArticles.toLocaleString()}</span>
+                <span className="text-3xl font-black text-wds-gray-950">{totalArticles.toLocaleString()}</span>
                 <span className="text-[13px] font-semibold text-wds-gray-400">건</span>
               </div>
             </div>

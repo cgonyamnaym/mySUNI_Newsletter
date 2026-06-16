@@ -8,6 +8,7 @@ export function Sidebar() {
 
   const links = [
     { href: '/', label: '홈' },
+    { href: '/search', label: '뉴스 검색' },
     { href: '/collect', label: '기사 수집' },
     { href: '/screening', label: '기사 선택' },
     { href: '/generate', label: '뉴스레터 생성' },

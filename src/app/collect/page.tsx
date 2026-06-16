@@ -1,6 +1,7 @@
 'use client'
 
-import { useEffect, useState, useMemo } from 'react'
+import { useEffect, useState, useMemo, Suspense } from 'react'
+import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { Header } from '@/components/Header'
 import { TranslationBadge } from '@/components/TranslationBadge'
@@ -41,12 +42,15 @@ async function fetchJson<T>(path: string): Promise<T | null> {
   }
 }
 
-export default function CollectPage() {
+function CollectPageInner() {
   const [index, setIndex] = useState<MetaIndex | null>(null)
   const [allArticles, setAllArticles] = useState<Article[]>([])
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set())
   const [activeTopic, setActiveTopic] = useState<string>('전체')
   const [loading, setLoading] = useState(true)
+
+  const searchParams = useSearchParams()
+  const searchQuery = searchParams.get('q') ?? ''
 
   useEffect(() => {
     fetchJson<MetaIndex>('/data/index.json').then(setIndex)
@@ -88,12 +92,22 @@ export default function CollectPage() {
   }, [])
 
   const screened = useMemo(() => {
-    const base =
+    let base =
       activeTopic === '전체'
         ? allArticles
         : allArticles.filter((a) => a.topics.includes(activeTopic as Article['topics'][0]))
+
+    if (searchQuery.trim()) {
+      const q = searchQuery.toLowerCase()
+      base = base.filter((a) =>
+        a.title.toLowerCase().includes(q) ||
+        (a.titleOriginal && a.titleOriginal.toLowerCase().includes(q)) ||
+        (a.summary && a.summary.toLowerCase().includes(q))
+      )
+    }
+
     return screenArticles(base, { limit: 9999, categoryMax: 999, sourceMax: 999 }, demandKeywords)
-  }, [allArticles, activeTopic, demandKeywords])
+  }, [allArticles, activeTopic, demandKeywords, searchQuery])
 
   const rankMap = useMemo(
     () => new Map(screened.map((a, i) => [a.id, i + 1])),
@@ -131,7 +145,7 @@ export default function CollectPage() {
 
   return (
     <div className="flex flex-col h-full bg-wds-gray-50 relative">
-      <Header lastUpdated={index?.lastUpdated ?? ''} latestReportId={index?.availableReports[0]} hideSearch />
+      <Header lastUpdated={index?.lastUpdated ?? ''} latestReportId={index?.availableReports[0]} />
 
       <main className="flex-1 max-w-5xl mx-auto w-full px-4 py-6 pb-24">
         {/* 페이지 제목 */}
@@ -396,5 +410,17 @@ export default function CollectPage() {
         </Link>
       </div>
     </div>
+  )
+}
+
+export default function CollectPage() {
+  return (
+    <Suspense fallback={
+      <div className="h-full flex items-center justify-center text-[14px] text-wds-gray-500 py-20">
+        불러오는 중...
+      </div>
+    }>
+      <CollectPageInner />
+    </Suspense>
   )
 }
