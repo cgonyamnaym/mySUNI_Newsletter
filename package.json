@@ -21,7 +21,13 @@
     "scheduler:setup": "powershell -ExecutionPolicy Bypass -File scripts/setup-scheduler.ps1",
     "scheduler:run": "powershell -Command \"Start-ScheduledTask -TaskName 'EnergyInsight-DailyCrawl'\"",
     "scheduler:status": "powershell -Command \"Get-ScheduledTask -TaskName 'EnergyInsight-DailyCrawl' | Select-Object TaskName,State\"",
-    "log": "powershell -Command \"Get-Content logs/crawl.log -Tail 50\""
+    "log": "powershell -Command \"Get-Content logs/crawl.log -Tail 50\"",
+    "pm2:start": "pm2 start ecosystem.config.js",
+    "pm2:stop": "pm2 stop newsletter-dashboard",
+    "pm2:restart": "pm2 restart newsletter-dashboard",
+    "pm2:logs": "pm2 logs newsletter-dashboard",
+    "pm2:status": "pm2 status",
+    "firewall:allow": "powershell -Command \"New-NetFirewallRule -DisplayName 'Newsletter Dashboard' -Direction Inbound -Protocol TCP -LocalPort 3000 -Action Allow\""
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
