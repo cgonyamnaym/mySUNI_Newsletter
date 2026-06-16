@@ -86,7 +86,7 @@ export default async function HomePage() {
 
   return (
     <div className="min-h-screen flex flex-col bg-wds-gray-50">
-      <Header lastUpdated={daily?.generatedAt ?? index.lastUpdated} latestReportId={index.availableReports[0]} hideSearch />
+      <Header lastUpdated={daily?.generatedAt ?? index.lastUpdated} latestReportId={index.availableReports[0]} />
       
       <main className="flex-1 max-w-6xl mx-auto w-full px-6 py-8">
         
