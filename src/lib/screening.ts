@@ -119,17 +119,29 @@ export interface ScoredArticle extends Article {
   strategicSignals: string[]
   skRelevance: boolean
   isDuplicate: boolean
+  resolvedCategory: string  // Pass 3 카테고리 버킷 키 (primaryTopic 없으면 키워드 최다 매칭 토픽)
 }
 
 /**
  * 과거 확정 뉴스레터 기사들에서 자주 등장한 키워드를 추출한다.
  * 2회 이상 등장한 토큰만 포함, 빈도 내림차순 상위 50개 반환.
  */
-function uniqueTokens(title: string): string[] {
+// Pass 2 전용 — 에너지 도메인 공통어 (사건 고유성 없음, Jaccard 분자 오염 방지)
+const JACCARD_DOMAIN_STOP = new Set([
+  '추진', '발표', '계획', '시행', '예정', '검토', '확대', '강화', '지원', '마련',
+  '에너지', '전력', '발전',
+  '정부', '정책', '사업',
+  'energy', 'power', 'government', 'policy', 'plan', 'project',
+])
+
+function uniqueTokensForDedupe(title: string): string[] {
   const seen: Record<string, boolean> = {}
   const result: string[] = []
   for (const t of tokenize(title)) {
-    if (!seen[t]) { seen[t] = true; result.push(t) }
+    if (!seen[t] && !JACCARD_DOMAIN_STOP.has(t)) {
+      seen[t] = true
+      result.push(t)
+    }
   }
   return result
 }
@@ -160,6 +172,15 @@ export function computeDemandKeywords(articles: Article[]): Map<string, number> 
   )
 }
 
+// 토픽 키워드 비율 기반 보너스 (키워드 수 확장에 무관하게 일정한 스케일 유지)
+function getTopicKeywordBonus(matchedCount: number, totalKeywords: number): number {
+  if (totalKeywords === 0 || matchedCount === 0) return 0
+  const ratio = matchedCount / totalKeywords
+  if (ratio >= 0.30) return 15
+  if (ratio >= 0.15) return 10
+  return 5
+}
+
 export interface ScreeningOptions {
   limit?: number        // 총 선정 개수 (기본값 30)
   categoryMax?: number  // 카테고리(primaryTopic)당 최대 선정 수 (기본값 8)
@@ -176,11 +197,10 @@ export function screenArticles(
     ? { limit: options }
     : (options ?? {})
 
-  const LIMIT        = opts.limit       ?? 30
-  const CATEGORY_MAX = opts.categoryMax ?? 8
-  const SOURCE_MAX   = opts.sourceMax   ?? 4
-
-  const now = Date.now()
+  const LIMIT               = opts.limit       ?? 30
+  const CATEGORY_MAX        = opts.categoryMax ?? 5
+  const RELAXED_CATEGORY_MAX = Math.ceil(CATEGORY_MAX * 1.6)  // 5→8, 999→1599(사실상 무제한)
+  const SOURCE_MAX          = opts.sourceMax   ?? 4
 
   const scored = articles.map((article): ScoredArticle => {
     const text = `${article.title} ${article.titleOriginal ?? ''} ${article.summary ?? ''}`.toLowerCase()
@@ -191,13 +211,19 @@ export function screenArticles(
     // AI 분류 토픽 (가장 강한 신호)
     score += article.topics.length * 15
 
-    // 토픽 키워드 매칭
+    // 토픽 키워드 매칭 (비율 기반) + resolvedCategory 계산
+    // primaryTopic이 없는 기사는 이 루프에서 키워드 최다 매칭 토픽을 카테고리 버킷으로 결정
+    let resolvedCategory: string = article.primaryTopic ?? '__uncategorized__'
+    let bestCategoryCount = 0
     for (const topic of TOPICS) {
-      for (const kw of topic.keywords) {
-        if (text.includes(kw.toLowerCase())) {
-          score += 5
-          if (!matchedKeywords.includes(kw)) matchedKeywords.push(kw)
-        }
+      const matched = topic.keywords.filter((kw) => text.includes(kw.toLowerCase()))
+      score += getTopicKeywordBonus(matched.length, topic.keywords.length)
+      for (const kw of matched.slice(0, 3)) {
+        if (!matchedKeywords.includes(kw)) matchedKeywords.push(kw)
+      }
+      if (!article.primaryTopic && matched.length > bestCategoryCount) {
+        bestCategoryCount = matched.length
+        resolvedCategory = topic.id
       }
     }
 
@@ -208,11 +234,6 @@ export function screenArticles(
 
     // 요약 품질 가산
     if (article.summary && article.summary.length > 100) score += 3
-
-    // 최신성 가산
-    const days = (now - new Date(article.publishedAt).getTime()) / 86_400_000
-    if (days <= 3) score += 5
-    else if (days <= 7) score += 3
 
     // 수요 키워드 보너스 (최대 +15)
     if (demandKeywords && demandKeywords.size > 0) {
@@ -276,7 +297,7 @@ export function screenArticles(
     ]
     if (CONSUMER_EVENT_PENALTY_KW.some((kw) => text.includes(kw))) score -= 30
 
-    return { ...article, relevanceScore: score, matchedKeywords, matchedDemandKeywords, strategicSignals, skRelevance, isDuplicate: false }
+    return { ...article, relevanceScore: score, matchedKeywords, matchedDemandKeywords, strategicSignals, skRelevance, isDuplicate: false, resolvedCategory }
   })
 
   // ── Pass 1 정렬 ──────────────────────────────────────────────────────────
@@ -284,7 +305,7 @@ export function screenArticles(
 
   // ── Pass 2: 중복 패널티 (상위 200개 대상, Jaccard ≥ 0.4 → 후순위 -15) ──
   const compareRange = Math.min(scored.length, 200)
-  const tokenSets = scored.slice(0, compareRange).map((a) => uniqueTokens(a.title))
+  const tokenSets = scored.slice(0, compareRange).map((a) => uniqueTokensForDedupe(a.title))
   for (let i = 0; i < compareRange; i++) {
     for (let j = i + 1; j < compareRange; j++) {
       if (scored[j].isDuplicate) continue
@@ -298,54 +319,59 @@ export function screenArticles(
   // ── Pass 2 후 재정렬 ──────────────────────────────────────────────────────
   scored.sort((a, b) => b.relevanceScore - a.relevanceScore)
 
-  // ── Pass 3: Greedy Diversity Selection ───────────────────────────────────
-  // primaryTopic 기준 카테고리 cap + sourceId 기준 소스 cap 적용
+  // ── Pass 3: Greedy Diversity Selection (4단계 점진 완화) ────────────────
   const categoryCount: Record<string, number> = {}
   const sourceCount:   Record<string, number> = {}
-  const selected: ScoredArticle[] = []
+  const selected:      ScoredArticle[]        = []
 
-  function tryAdd(article: ScoredArticle, ignoreCategoryCap: boolean, ignoreSourceCap: boolean): boolean {
-    const cat = article.primaryTopic ?? article.topics[0] ?? '__uncategorized__'
-    const src = article.sourceId
-
-    const catOk = ignoreCategoryCap || (categoryCount[cat] ?? 0) < CATEGORY_MAX
-    const srcOk = ignoreSourceCap   || (sourceCount[src]   ?? 0) < SOURCE_MAX
-
-    if (catOk && srcOk) {
-      selected.push(article)
-      categoryCount[cat] = (categoryCount[cat] ?? 0) + 1
-      sourceCount[src]   = (sourceCount[src]   ?? 0) + 1
-      return true
-    }
-    return false
+  // 판단 — 순수 함수 (외부 상태 읽기만)
+  function canAdd(article: ScoredArticle, catLimit: number, srcLimit: number): boolean {
+    return (categoryCount[article.resolvedCategory] ?? 0) < catLimit
+        && (sourceCount[article.sourceId]            ?? 0) < srcLimit
   }
 
-  // Pass 3-A: 카테고리 cap + 소스 cap 모두 적용
-  for (const article of scored) {
+  // 실행 — 외부 상태 변경 전담
+  function doAdd(article: ScoredArticle): void {
+    selected.push(article)
+    categoryCount[article.resolvedCategory] = (categoryCount[article.resolvedCategory] ?? 0) + 1
+    sourceCount[article.sourceId]           = (sourceCount[article.sourceId]           ?? 0) + 1
+  }
+
+  // 3-A: catMax(5), srcMax(4) — 핵심 다양성 (5×6카테고리=30=LIMIT)
+  const rejectA: ScoredArticle[] = []
+  for (const a of scored) {
     if (selected.length >= LIMIT) break
-    tryAdd(article, false, false)
+    if (canAdd(a, CATEGORY_MAX, SOURCE_MAX)) doAdd(a)
+    else rejectA.push(a)
   }
 
-  // Pass 3-B: 부족하면 카테고리 cap 무시, 소스 cap만 유지
+  // 3-B: catMax(8), srcMax(4) — 카테고리 cap 1.6배 완화
+  const rejectB: ScoredArticle[] = []
   if (selected.length < LIMIT) {
-    const selectedIds = new Set(selected.map(a => a.id))
-    for (const article of scored) {
+    for (const a of rejectA) {
       if (selected.length >= LIMIT) break
-      if (selectedIds.has(article.id)) continue
-      tryAdd(article, true, false)
+      if (canAdd(a, RELAXED_CATEGORY_MAX, SOURCE_MAX)) doAdd(a)
+      else rejectB.push(a)
     }
   }
 
-  // Pass 3-C: 그래도 부족하면 모든 cap 무시하고 점수순으로 채움
-  // 단, 최소 점수 임계값(25) 미만 기사는 제외 — 관련성 낮은 기사의 수량 채우기 방지
-  const MIN_SCORE_THRESHOLD = 25
+  // 3-C: catMax 무시, srcMax(4) — 소스 다양성만 유지
+  const rejectC: ScoredArticle[] = []
   if (selected.length < LIMIT) {
-    const selectedIds = new Set(selected.map(a => a.id))
-    for (const article of scored) {
+    for (const a of rejectB) {
       if (selected.length >= LIMIT) break
-      if (selectedIds.has(article.id)) continue
-      if (article.relevanceScore < MIN_SCORE_THRESHOLD) continue
-      selected.push(article)
+      if (canAdd(a, Infinity, SOURCE_MAX)) doAdd(a)
+      else rejectC.push(a)
+    }
+  }
+
+  // 3-D: 모든 cap 무시, MIN_SCORE 이상 — 기사 수 자체가 부족한 비상 상황
+  // 20 = AI 분류 1 토픽(+15) + 키워드 존재(+5) — 최신성 제거 이후 조정된 최소 기준
+  const MIN_SCORE_THRESHOLD = 20
+  if (selected.length < LIMIT) {
+    for (const a of rejectC) {
+      if (selected.length >= LIMIT) break
+      if (a.relevanceScore >= MIN_SCORE_THRESHOLD) doAdd(a)
     }
   }
 

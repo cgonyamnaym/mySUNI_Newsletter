@@ -1,14 +1,16 @@
 'use client'
 
-import { useEffect, useState, useMemo } from 'react'
+import { useEffect, useState, useMemo, useRef } from 'react'
 import Link from 'next/link'
-import { Sparkles } from 'lucide-react'
+import { Sparkles, ChevronDown } from 'lucide-react'
 import { Header } from '@/components/Header'
 import { TranslationBadge } from '@/components/TranslationBadge'
 import { TOPICS } from '@/lib/constants'
 import { screenArticles, computeDemandKeywords, getScoreLabel } from '@/lib/screening'
 import { getArchiveEntries } from '@/lib/newsletter-archive'
 import type { Article, MetaIndex } from '@/lib/types'
+
+const FILTER_OPTIONS = ['전체', ...TOPICS.map((t) => t.id)]
 
 // /screening 전용 스토리지 키 (더 이상 /collect와 공유하지 않음)
 const STORAGE_KEY = 'newsletter-selection'
@@ -50,9 +52,10 @@ async function fetchJson<T>(path: string): Promise<T | null> {
 export default function ScreeningPage() {
   const [index, setIndex] = useState<MetaIndex | null>(null)
   const [allArticles, setAllArticles] = useState<Article[]>([])
-  // 스크리닝 결과 30개 안에서만 선택 ID를 관리
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set())
-  const [activeTopic, setActiveTopic] = useState<string>('전체')
+  const [activeFilter, setActiveFilter] = useState<string>('전체')
+  const [isFilterOpen, setIsFilterOpen] = useState(false)
+  const filterRef = useRef<HTMLDivElement>(null)
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
@@ -89,6 +92,17 @@ export default function ScreeningPage() {
     load()
   }, [index])
 
+  // 드롭다운 외부 클릭 시 닫기
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (filterRef.current && !filterRef.current.contains(e.target as Node)) {
+        setIsFilterOpen(false)
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside)
+    return () => document.removeEventListener('mousedown', handleClickOutside)
+  }, [])
+
   // 과거 아카이브에서 수요 키워드 추출 (마운트 시 1회)
   const demandKeywords = useMemo(() => {
     const entries = getArchiveEntries()
@@ -96,15 +110,23 @@ export default function ScreeningPage() {
     return computeDemandKeywords(articles)
   }, [])
 
-  const screened = useMemo(
-    () => screenArticles(allArticles, { limit: 30, categoryMax: 8, sourceMax: 4 }, demandKeywords),
-    [allArticles, demandKeywords]
-  )
-
-  // 스크리닝된 ID 집합 — 여기 없는 ID는 선택에서 제거
-  const screenedIdSet = useMemo(() => new Set(screened.map((a) => a.id)), [screened])
+  // activeFilter에 따라 스크리닝 pool과 옵션을 달리 적용
+  const screened = useMemo(() => {
+    if (activeFilter === '전체') {
+      return screenArticles(allArticles, { limit: 30, categoryMax: 999, sourceMax: 4 }, demandKeywords)
+    }
+    const topicArticles = allArticles.filter((a) =>
+      a.topics.includes(activeFilter as Article['topics'][0])
+    )
+    return screenArticles(
+      topicArticles,
+      { limit: 30, categoryMax: 999, sourceMax: 999 },
+      demandKeywords
+    )
+  }, [allArticles, activeFilter, demandKeywords])
 
   // screened 목록이 바뀔 때 selectedIds를 screened 안으로 정리
+  const screenedIdSet = useMemo(() => new Set(screened.map((a) => a.id)), [screened])
   useEffect(() => {
     if (screenedIdSet.size === 0) return
     setSelectedIds((prev) => {
@@ -114,16 +136,11 @@ export default function ScreeningPage() {
     })
   }, [screenedIdSet])
 
-  // id → 전체 순위(1-based) 맵
+  // id → 순위(1-based) 맵
   const rankMap = useMemo(
     () => new Map(screened.map((a, i) => [a.id, i + 1])),
     [screened]
   )
-
-  const filteredScreened = useMemo(() => {
-    if (activeTopic === '전체') return screened
-    return screened.filter((a) => a.topics.includes(activeTopic as Article['topics'][0]))
-  }, [screened, activeTopic])
 
   function toggleArticle(id: string) {
     setSelectedIds((prev) => {
@@ -136,19 +153,18 @@ export default function ScreeningPage() {
   }
 
   function toggleAll() {
-    const allFilteredIds = new Set(filteredScreened.map((a) => a.id))
-    const allSelected = filteredScreened.length > 0 && filteredScreened.every((a) => selectedIds.has(a.id))
+    const allIds = new Set(screened.map((a) => a.id))
+    const allSelected = screened.length > 0 && screened.every((a) => selectedIds.has(a.id))
     setSelectedIds((prev) => {
       const next = new Set(prev)
-      if (allSelected) allFilteredIds.forEach((id) => next.delete(id))
-      else allFilteredIds.forEach((id) => next.add(id))
+      if (allSelected) allIds.forEach((id) => next.delete(id))
+      else allIds.forEach((id) => next.add(id))
       saveSelection(Array.from(next))
       return next
     })
   }
 
-  const allFilteredSelected =
-    filteredScreened.length > 0 && filteredScreened.every((a) => selectedIds.has(a.id))
+  const allSelected = screened.length > 0 && screened.every((a) => selectedIds.has(a.id))
 
   return (
     <div className="flex flex-col h-full bg-wds-gray-50 relative">
@@ -156,61 +172,92 @@ export default function ScreeningPage() {
 
       <main className="flex-1 max-w-5xl mx-auto w-full px-4 py-6 pb-24">
         {/* 페이지 헤더 */}
-        <div className="flex items-center justify-between mb-5">
-          <div className="flex items-center gap-2.5">
+        <div className="flex items-center justify-between mb-5 gap-4">
+          <div className="flex items-center gap-2.5 shrink-0">
             <Sparkles size={20} className="text-wds-blue-500" />
             <h1 className="text-2xl font-bold text-wds-gray-950">기사 선택</h1>
+          </div>
+
+          {/* 카테고리 스크리닝 드롭다운 */}
+          <div ref={filterRef} className="relative">
+            <button
+              onClick={() => setIsFilterOpen((prev) => !prev)}
+              className={`flex items-center gap-2 px-4 py-2 border text-[13px] font-semibold transition-colors shadow-sm ${
+                activeFilter !== '전체'
+                  ? 'bg-wds-gray-900 text-white border-wds-gray-900'
+                  : 'bg-white text-wds-gray-600 border-wds-gray-300 hover:border-wds-gray-500 hover:text-wds-gray-900'
+              }`}
+            >
+              {activeFilter !== '전체' ? `🔍 ${activeFilter}` : '🔍 카테고리 선별'}
+              <ChevronDown
+                size={14}
+                className={`transition-transform duration-200 ${isFilterOpen ? 'rotate-180' : ''}`}
+              />
+            </button>
+
+            {isFilterOpen && (
+              <div className="absolute right-0 top-full mt-1.5 z-20 bg-white border border-wds-gray-200 shadow-lg p-1.5 min-w-[180px]">
+                {FILTER_OPTIONS.map((filter) => (
+                  <button
+                    key={filter}
+                    onClick={() => {
+                      setActiveFilter(filter)
+                      setIsFilterOpen(false)
+                    }}
+                    className={`w-full text-left px-3 py-2 text-[13px] font-semibold transition-colors ${
+                      activeFilter === filter
+                        ? 'bg-wds-gray-900 text-white'
+                        : 'text-wds-gray-700 hover:bg-wds-gray-100 hover:text-wds-gray-950'
+                    }`}
+                  >
+                    {filter === '전체' ? '전체 (다양성 균형)' : filter}
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
         </div>
 
         {/* 안내 배너 */}
         <div className="mb-5 text-sm text-wds-gray-600 bg-white p-4 rounded-xl border border-wds-gray-200 shadow-wds-xs">
-          <strong>안내:</strong> 최근 14일 수집 기사 중 에너지 키워드 연관성이 높고 카테고리 다양성을 고려해
-          <strong> 상위 30개</strong>를 자동 선별했습니다.
-          뉴스레터에 포함할 기사를 선택한 후 하단의 <strong>뉴스레터 생성하기</strong>를 누르세요.
+          {activeFilter === '전체' ? (
+            <span>
+              최근 14일 수집 기사 중 에너지 키워드 연관성이 높고 카테고리 다양성을 고려해
+              <strong> 상위 30개</strong>를 자동 선별했습니다.
+            </span>
+          ) : (
+            <span>
+              <strong>{activeFilter}</strong> 카테고리와 연관성 높은 기사 중
+              <strong> 상위 30개</strong>를 선별했습니다.
+            </span>
+          )}
+          {' '}뉴스레터에 포함할 기사를 선택한 후 하단의 <strong>뉴스레터 생성하기</strong>를 누르세요.
         </div>
 
-        {/* 토픽 필터 + 전체 선택/해제 */}
-        <div className="mb-5 flex items-center justify-between gap-3 flex-wrap">
-          <div className="flex gap-2 flex-wrap">
-            {['전체', ...TOPICS.map((t) => t.id)].map((topic) => (
-              <button
-                key={topic}
-                onClick={() => setActiveTopic(topic)}
-                className={`px-4 py-1.5 text-[13px] font-semibold rounded-full border transition-all duration-200 hover:-translate-y-0.5 ${
-                  activeTopic === topic
-                    ? 'bg-wds-gray-900 text-white border-wds-gray-900 shadow-md'
-                    : 'bg-white text-wds-gray-600 border-wds-gray-300 hover:border-wds-gray-500 hover:text-wds-gray-950 shadow-sm hover:shadow-md'
-                }`}
-              >
-                {topic}
-              </button>
-            ))}
+        {/* 전체 선택/해제 + 기사 수 */}
+        <div className="mb-5 flex items-center justify-end gap-3">
+          <div className="px-4 py-1.5 rounded-full border border-wds-gray-300 bg-white text-[13px] font-bold text-wds-gray-800 shadow-sm flex items-center gap-1">
+            선별 기사: <span className="text-wds-blue-600">{screened.length}</span>
           </div>
-          <div className="flex items-center gap-3 ml-auto">
-            <div className="px-4 py-1.5 rounded-full border border-wds-gray-300 bg-white text-[13px] font-bold text-wds-gray-800 shadow-sm flex items-center gap-1">
-              뉴스 총 개수: <span className="text-wds-blue-600">{filteredScreened.length}</span>
-            </div>
-            <button
-              onClick={toggleAll}
-              className="shrink-0 text-[13px] font-semibold px-4 py-1.5 rounded-md border border-wds-gray-300 bg-white text-wds-gray-700 hover:bg-wds-gray-50 hover:text-wds-gray-950 transition-colors shadow-sm"
-            >
-              {allFilteredSelected ? '현재 토픽 전체 해제' : '현재 토픽 전체 선택'}
-            </button>
-          </div>
+          <button
+            onClick={toggleAll}
+            className="shrink-0 text-[13px] font-semibold px-4 py-1.5 rounded-md border border-wds-gray-300 bg-white text-wds-gray-700 hover:bg-wds-gray-50 hover:text-wds-gray-950 transition-colors shadow-sm"
+          >
+            {allSelected ? '전체 해제' : '전체 선택'}
+          </button>
         </div>
 
         {loading ? (
           <div className="py-20 text-center text-[14px] text-wds-gray-500 font-medium">
             연관성 분석 중입니다...
           </div>
-        ) : filteredScreened.length === 0 ? (
+        ) : screened.length === 0 ? (
           <div className="py-20 text-center text-[14px] text-wds-gray-500 bg-white rounded-xl border border-wds-gray-200 shadow-sm">
             해당 토픽의 기사가 없습니다.
           </div>
         ) : (
           <ul className="flex flex-col gap-3">
-            {filteredScreened.map((article) => {
+            {screened.map((article) => {
               const rank = rankMap.get(article.id) ?? 0
               const checked = selectedIds.has(article.id)
               const scoreInfo = getScoreLabel(article.relevanceScore)
