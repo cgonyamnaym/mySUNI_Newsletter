@@ -158,12 +158,23 @@ async function main() {
     }
   }
 
+  // 기존 newsletter-draft.json의 요약을 보존하며 병합 (덮어쓰지 않음)
+  let allArticles = results
+  if (!dryRun) {
+    try {
+      const existing = JSON.parse(fs.readFileSync(OUTPUT_FILE, 'utf-8'))
+      const byId = new Map((existing.articles ?? []).map(a => [a.id, a]))
+      for (const r of results) { byId.set(r.id, r) }  // 새 결과가 기존을 덮음
+      allArticles = Array.from(byId.values())
+    } catch { /* 기존 파일 없으면 results만 사용 */ }
+  }
+
   const output = {
     generatedAt: new Date().toISOString(),
-    total:       results.length,
-    success:     successCount,
+    total:       allArticles.length,
+    success:     allArticles.filter(a => a.newsletterSummary).length,
     failed:      failCount,
-    articles:    results,
+    articles:    allArticles,
   }
 
   if (!dryRun) {

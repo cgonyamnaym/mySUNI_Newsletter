@@ -58,7 +58,7 @@ export default function GeneratePage() {
       }
       selected.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
 
-      // newsletter-draft.json의 newsletterSummary를 기사에 병합
+      // newsletter-draft.json에 캐시된 요약 병합
       const draft = await fetchJson<{ articles: Article[] }>('/data/newsletter-draft.json')
       if (draft?.articles) {
         const summaryMap = new Map(

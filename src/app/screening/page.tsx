@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState, useMemo, useRef } from 'react'
-import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 import { Sparkles, ChevronDown } from 'lucide-react'
 import { Header } from '@/components/Header'
 import { TranslationBadge } from '@/components/TranslationBadge'
@@ -50,6 +50,7 @@ async function fetchJson<T>(path: string): Promise<T | null> {
 }
 
 export default function ScreeningPage() {
+  const router = useRouter()
   const [index, setIndex] = useState<MetaIndex | null>(null)
   const [allArticles, setAllArticles] = useState<Article[]>([])
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set())
@@ -57,6 +58,8 @@ export default function ScreeningPage() {
   const [isFilterOpen, setIsFilterOpen] = useState(false)
   const filterRef = useRef<HTMLDivElement>(null)
   const [loading, setLoading] = useState(true)
+  const [generating, setGenerating] = useState(false)
+  const [generatingCount, setGeneratingCount] = useState(0)
 
   useEffect(() => {
     fetchJson<MetaIndex>('/data/index.json').then(setIndex)
@@ -165,6 +168,23 @@ export default function ScreeningPage() {
   }
 
   const allSelected = screened.length > 0 && screened.every((a) => selectedIds.has(a.id))
+
+  async function handleGenerate() {
+    if (selectedIds.size === 0 || generating) return
+    const ids = Array.from(selectedIds)
+    setGenerating(true)
+    setGeneratingCount(ids.length)
+    try {
+      await fetch('/api/summarize', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ids }),
+      })
+    } catch {
+      // 정적 빌드 환경 등 API 없는 경우 캐시 fallback으로 진행
+    }
+    router.push('/generate')
+  }
 
   return (
     <div className="flex flex-col h-full bg-wds-gray-50 relative">
@@ -397,16 +417,19 @@ export default function ScreeningPage() {
         <span className="text-[14px] text-wds-gray-950 font-semibold">
           <span className="text-wds-blue-500 font-bold text-[16px]">{selectedIds.size}개</span> 기사 선택됨
         </span>
-        <Link
-          href="/generate"
+        <button
+          onClick={handleGenerate}
+          disabled={selectedIds.size === 0 || generating}
           className={`px-6 py-2.5 rounded-xl text-[14px] font-bold transition-all ${
-            selectedIds.size > 0
+            generating
+              ? 'bg-wds-blue-300 text-white cursor-wait'
+              : selectedIds.size > 0
               ? 'bg-wds-blue-500 text-white hover:bg-wds-blue-600 shadow-md hover:shadow-lg'
-              : 'bg-wds-gray-100 text-wds-gray-400 pointer-events-none'
+              : 'bg-wds-gray-100 text-wds-gray-400 cursor-not-allowed'
           }`}
         >
-          뉴스레터 생성하기 →
-        </Link>
+          {generating ? `요약 생성 중... (${generatingCount}개)` : '뉴스레터 생성하기 →'}
+        </button>
       </div>
     </div>
   )
