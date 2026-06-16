@@ -60,6 +60,7 @@ export default function ScreeningPage() {
   const [loading, setLoading] = useState(true)
   const [generating, setGenerating] = useState(false)
   const [generatingCount, setGeneratingCount] = useState(0)
+  const [generatingProgress, setGeneratingProgress] = useState(0)
 
   useEffect(() => {
     fetchJson<MetaIndex>('/data/index.json').then(setIndex)
@@ -174,14 +175,17 @@ export default function ScreeningPage() {
     const ids = Array.from(selectedIds)
     setGenerating(true)
     setGeneratingCount(ids.length)
-    try {
-      await fetch('/api/summarize', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ids }),
-      })
-    } catch {
-      // 정적 빌드 환경 등 API 없는 경우 캐시 fallback으로 진행
+    setGeneratingProgress(0)
+    // Vercel 60초 제한 대응: 기사 1개씩 순차 요약
+    for (let i = 0; i < ids.length; i++) {
+      try {
+        await fetch('/api/summarize', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ ids: [ids[i]] }),
+        })
+      } catch { /* API 없는 환경에서는 /generate에서 캐시 fallback */ }
+      setGeneratingProgress(i + 1)
     }
     router.push('/generate')
   }
@@ -428,7 +432,9 @@ export default function ScreeningPage() {
               : 'bg-wds-gray-100 text-wds-gray-400 cursor-not-allowed'
           }`}
         >
-          {generating ? `요약 생성 중... (${generatingCount}개)` : '뉴스레터 생성하기 →'}
+          {generating
+            ? `요약 생성 중... (${generatingProgress}/${generatingCount})`
+            : '뉴스레터 생성하기 →'}
         </button>
       </div>
     </div>

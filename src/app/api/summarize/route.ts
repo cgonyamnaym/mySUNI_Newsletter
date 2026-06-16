@@ -1,62 +1,120 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { execFile } from 'child_process'
 import path from 'path'
 import fs from 'fs'
+import { getCachedSummary, setCachedSummary } from '@/lib/redis'
+import type { Article, NewsletterSummary } from '@/lib/types'
 
 export const dynamic = 'force-dynamic'
+// Vercel Pro 최대 실행 시간 (기사 1개 요약 ~ 20초 이내)
+export const maxDuration = 60
 
-interface DraftArticle {
-  id: string
-  newsletterSummary?: { what?: string } | null
+// ── 파이프라인 모듈 동적 로드 (webpack 번들링 제외, 런타임 require) ──────────
+/* eslint-disable @typescript-eslint/no-require-imports */
+function loadPipeline() {
+  const base = process.cwd()
+  const { fetchBodyText, countSentences } = require(
+    path.join(base, 'scripts/crawlers/body-fetcher.js')
+  ) as { fetchBodyText: (url: string) => Promise<string>; countSentences: (text: string) => number }
+  const { classifyArticle } = require(
+    path.join(base, 'scripts/newsletter/article-classifier.js')
+  ) as { classifyArticle: (title: string, body: string, sourceId: string) => Promise<{ method: 'A' | 'B' }> }
+  const { extractFieldsMethodA } = require(
+    path.join(base, 'scripts/newsletter/field-extractor.js')
+  ) as { extractFieldsMethodA: (title: string, body: string, lang: string) => Promise<unknown> }
+  const { selectSentencesMethodB } = require(
+    path.join(base, 'scripts/newsletter/sentence-selector.js')
+  ) as { selectSentencesMethodB: (title: string, body: string) => unknown }
+  const { generateNewsletterSummary } = require(
+    path.join(base, 'scripts/newsletter/summary-generator.js')
+  ) as { generateNewsletterSummary: (method: string, elements: unknown, lang: string) => Promise<NewsletterSummary> }
+  return { fetchBodyText, countSentences, classifyArticle, extractFieldsMethodA, selectSentencesMethodB, generateNewsletterSummary }
 }
+/* eslint-enable @typescript-eslint/no-require-imports */
 
-function getAlreadySummarized(draftPath: string): Set<string> {
+// ── 기사 탐색 ────────────────────────────────────────────────────────────────
+function findArticle(id: string): Article | null {
+  const dailyDir = path.join(process.cwd(), 'public/data/daily')
   try {
-    const raw = fs.readFileSync(draftPath, 'utf-8')
-    const draft: { articles?: DraftArticle[] } = JSON.parse(raw)
-    return new Set(
-      draft.articles?.filter((a) => a.newsletterSummary?.what).map((a) => a.id) ?? []
-    )
-  } catch {
-    return new Set()
-  }
+    const files = fs.readdirSync(dailyDir).filter(f => f.endsWith('.json')).sort().reverse()
+    for (const file of files) {
+      try {
+        const data: { articles: Article[] } = JSON.parse(
+          fs.readFileSync(path.join(dailyDir, file), 'utf-8')
+        )
+        const found = data.articles?.find(a => a.id === id)
+        if (found) return found
+      } catch { /* skip */ }
+    }
+  } catch { /* daily dir not found */ }
+  return null
 }
 
+// ── 단일 기사 요약 파이프라인 ─────────────────────────────────────────────────
+async function summarizeArticle(article: Article): Promise<NewsletterSummary | null> {
+  const { title, summary: rawSummary, originalUrl, sourceId, originalLang } = article
+  const p = loadPipeline()
+
+  let body = ''
+  try { body = await p.fetchBodyText(originalUrl) } catch { /* ignore */ }
+  if (!body || p.countSentences(body) < 3) {
+    body = rawSummary || title
+  }
+
+  const { method } = await p.classifyArticle(title, body, sourceId ?? '')
+  const elements = method === 'A'
+    ? await p.extractFieldsMethodA(title, body, originalLang ?? 'ko')
+    : p.selectSentencesMethodB(title, body)
+
+  return await p.generateNewsletterSummary(method, elements, originalLang ?? 'ko')
+}
+
+// ── 파일 캐시 병합 저장 (로컬 서버 전용, Vercel에서는 조용히 실패) ────────────
+function trySaveToFile(id: string, summary: NewsletterSummary, article: Article) {
+  try {
+    const filePath = path.join(process.cwd(), 'public/data/newsletter-draft.json')
+    let draft: { articles: (Article & { newsletterSummary?: NewsletterSummary })[] } = { articles: [] }
+    try { draft = JSON.parse(fs.readFileSync(filePath, 'utf-8')) } catch { /* new file */ }
+    const byId = new Map(draft.articles.map(a => [a.id, a]))
+    byId.set(id, { ...article, newsletterSummary: summary })
+    draft.articles = Array.from(byId.values())
+    fs.writeFileSync(filePath, JSON.stringify(draft, null, 2), 'utf-8')
+  } catch { /* read-only filesystem (Vercel) */ }
+}
+
+// ── POST /api/summarize ───────────────────────────────────────────────────────
 export async function POST(req: NextRequest) {
   try {
     const { ids } = (await req.json()) as { ids: string[] }
-    if (!ids?.length) {
-      return NextResponse.json({ error: 'No IDs provided' }, { status: 400 })
-    }
+    if (!ids?.length) return NextResponse.json({ error: 'No IDs' }, { status: 400 })
 
-    const draftPath = path.join(process.cwd(), 'public', 'data', 'newsletter-draft.json')
-    const alreadySummarized = getAlreadySummarized(draftPath)
-    const missingIds = ids.filter((id) => !alreadySummarized.has(id))
+    const result: Record<string, NewsletterSummary> = {}
 
-    if (missingIds.length === 0) {
-      const draft = JSON.parse(fs.readFileSync(draftPath, 'utf-8'))
-      return NextResponse.json(draft)
-    }
+    for (const id of ids) {
+      // 1. Redis 캐시 확인
+      const cached = await getCachedSummary(id)
+      if (cached?.what) {
+        result[id] = cached
+        continue
+      }
 
-    const scriptPath = path.join(process.cwd(), 'scripts', 'summarize-newsletter.js')
+      // 2. 기사 탐색 + 파이프라인 실행
+      const article = findArticle(id)
+      if (!article) continue
 
-    await new Promise<void>((resolve, reject) => {
-      execFile(
-        process.execPath,
-        [scriptPath, `--ids=${missingIds.join(',')}`],
-        { cwd: process.cwd(), timeout: 600_000 },
-        (error) => {
-          if (error) reject(error)
-          else resolve()
+      try {
+        const summary = await summarizeArticle(article)
+        if (summary?.what) {
+          result[id] = summary
+          await setCachedSummary(id, summary)    // Redis 저장
+          trySaveToFile(id, summary, article)     // 로컬 파일 저장 (Vercel 무시)
         }
-      )
-    })
+      } catch (err) {
+        console.error(`[summarize] ${id}:`, err)
+      }
+    }
 
-    const draft = JSON.parse(fs.readFileSync(draftPath, 'utf-8'))
-    return NextResponse.json(draft)
+    return NextResponse.json(result)
   } catch (err) {
-    const message = err instanceof Error ? err.message : String(err)
-    console.error('[/api/summarize]', message)
-    return NextResponse.json({ error: message }, { status: 500 })
+    return NextResponse.json({ error: String(err) }, { status: 500 })
   }
 }
