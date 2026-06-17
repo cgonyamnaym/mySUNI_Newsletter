@@ -8,28 +8,32 @@ export const dynamic = 'force-dynamic'
 // Vercel Pro 최대 실행 시간 (기사 1개 요약 ~ 20초 이내)
 export const maxDuration = 60
 
-// ── 파이프라인 모듈 동적 로드 (webpack 번들링 제외, 런타임 require) ──────────
-/* eslint-disable @typescript-eslint/no-require-imports */
+// ── 파이프라인 모듈 동적 로드 (webpack 번들링 우회 — eval require 사용) ────────
+// eval('require') 를 사용해 webpack의 정적 분석을 피하고 런타임 Node require 호출
+/* eslint-disable @typescript-eslint/no-implied-eval */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const nativeRequire = eval('require') as (id: string) => any
+/* eslint-enable @typescript-eslint/no-implied-eval */
+
 function loadPipeline() {
   const base = process.cwd()
-  const { fetchBodyText, countSentences } = require(
+  const { fetchBodyText, countSentences } = nativeRequire(
     path.join(base, 'scripts/crawlers/body-fetcher.js')
   ) as { fetchBodyText: (url: string) => Promise<string>; countSentences: (text: string) => number }
-  const { classifyArticle } = require(
+  const { classifyArticle } = nativeRequire(
     path.join(base, 'scripts/newsletter/article-classifier.js')
   ) as { classifyArticle: (title: string, body: string, sourceId: string) => Promise<{ method: 'A' | 'B' }> }
-  const { extractFieldsMethodA } = require(
+  const { extractFieldsMethodA } = nativeRequire(
     path.join(base, 'scripts/newsletter/field-extractor.js')
   ) as { extractFieldsMethodA: (title: string, body: string, lang: string) => Promise<unknown> }
-  const { selectSentencesMethodB } = require(
+  const { selectSentencesMethodB } = nativeRequire(
     path.join(base, 'scripts/newsletter/sentence-selector.js')
   ) as { selectSentencesMethodB: (title: string, body: string) => unknown }
-  const { generateNewsletterSummary } = require(
+  const { generateNewsletterSummary } = nativeRequire(
     path.join(base, 'scripts/newsletter/summary-generator.js')
   ) as { generateNewsletterSummary: (method: string, elements: unknown, lang: string) => Promise<NewsletterSummary> }
   return { fetchBodyText, countSentences, classifyArticle, extractFieldsMethodA, selectSentencesMethodB, generateNewsletterSummary }
 }
-/* eslint-enable @typescript-eslint/no-require-imports */
 
 // ── 기사 탐색 ────────────────────────────────────────────────────────────────
 function findArticle(id: string): Article | null {
