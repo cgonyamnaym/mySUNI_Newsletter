@@ -39,13 +39,12 @@ function DetailView({ id }: { id: string }) {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Energy Insight Newsletter · ${dateStr}</title>
-  <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet" />
+  <title>에너지 인사이트 뉴스레터 · ${dateStr}</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       background: #F0F2F5;
-      font-family: "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+      font-family: "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", "Noto Sans KR", "나눔고딕", sans-serif;
       -webkit-font-smoothing: antialiased;
     }
     a { color: inherit; }
