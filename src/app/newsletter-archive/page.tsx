@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState, Suspense } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
 import Link from 'next/link'
-import { Archive, ArrowLeft, Eye, Trash2 } from 'lucide-react'
+import { Archive, ArrowLeft, CheckCircle, Eye, Trash2 } from 'lucide-react'
 import { Header } from '@/components/Header'
 import { NewsletterContent } from '@/components/NewsletterContent'
 import { getArchiveEntries, getArchiveEntry, deleteArchiveEntry } from '@/lib/newsletter-archive'
@@ -21,6 +21,9 @@ function DetailView({ id }: { id: string }) {
   const router = useRouter()
   const [entry, setEntry] = useState<NewsletterArchiveEntry | null>(null)
   const contentRef = useRef<HTMLDivElement>(null)
+  const [publishedUrl, setPublishedUrl] = useState('')
+  const [publishing, setPublishing] = useState(false)
+  const [copied, setCopied] = useState(false)
 
   useEffect(() => {
     const found = getArchiveEntry(id)
@@ -30,6 +33,38 @@ function DetailView({ id }: { id: string }) {
     }
     setEntry(found)
   }, [id, router])
+
+  async function handlePublish() {
+    if (publishing || !entry) return
+    if (publishedUrl) {
+      await navigator.clipboard.writeText(publishedUrl)
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
+      return
+    }
+    setPublishing(true)
+    try {
+      const res = await fetch('/api/newsletter/publish', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ articles: entry.articles }),
+      })
+      if (!res.ok) throw new Error('failed')
+      const { url } = await res.json() as { url: string }
+      setPublishedUrl(`${window.location.origin}${url}`)
+    } catch {
+      alert('URL 생성에 실패했습니다. Redis 설정을 확인하세요.')
+    } finally {
+      setPublishing(false)
+    }
+  }
+
+  async function handleCopyUrl() {
+    if (!publishedUrl) return
+    await navigator.clipboard.writeText(publishedUrl)
+    setCopied(true)
+    setTimeout(() => setCopied(false), 2000)
+  }
 
   function handleDownloadHtml() {
     if (!contentRef.current || !entry) return
@@ -93,19 +128,57 @@ function DetailView({ id }: { id: string }) {
               <p className="text-[11px] text-wds-gray-400">{time} 확정 · {entry.articleCount}건</p>
             </div>
           </div>
-          <button
-            onClick={handleDownloadHtml}
-            className="flex items-center gap-2 px-4 py-2 rounded-xl text-[13px] font-bold bg-wds-gray-800 text-white hover:bg-wds-gray-950 transition-all shrink-0"
-          >
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-              <polyline points="7 10 12 15 17 10" />
-              <line x1="12" y1="15" x2="12" y2="3" />
-            </svg>
-            HTML 저장
-          </button>
+          <div className="flex items-center gap-2 shrink-0">
+            <button
+              onClick={handlePublish}
+              disabled={publishing}
+              className={`flex items-center gap-2 px-4 py-2 rounded-xl text-[13px] font-bold transition-all ${
+                publishedUrl
+                  ? 'bg-green-500 text-white'
+                  : publishing
+                  ? 'bg-wds-gray-200 text-wds-gray-500 cursor-wait'
+                  : 'bg-wds-gray-100 text-wds-gray-700 hover:bg-wds-gray-200'
+              }`}
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+              </svg>
+              {publishedUrl ? 'URL 생성됨' : publishing ? '생성 중...' : 'URL 공유'}
+            </button>
+            <button
+              onClick={handleDownloadHtml}
+              className="flex items-center gap-2 px-4 py-2 rounded-xl text-[13px] font-bold bg-wds-gray-800 text-white hover:bg-wds-gray-950 transition-all"
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+              HTML 저장
+            </button>
+          </div>
         </div>
       </div>
+
+      {/* 공유 URL 배너 */}
+      {publishedUrl && (
+        <div className="bg-green-50 border-b border-green-200 px-6 py-3">
+          <div className="max-w-3xl mx-auto flex items-center gap-3">
+            <CheckCircle size={14} className="text-green-600 shrink-0" />
+            <span className="text-[12px] font-semibold text-green-700 shrink-0">공유 URL:</span>
+            <span className="text-[12px] font-mono text-green-800 bg-green-100 px-2 py-0.5 rounded flex-1 truncate">
+              {publishedUrl}
+            </span>
+            <button
+              onClick={handleCopyUrl}
+              className="text-[12px] font-bold text-green-700 hover:text-green-900 shrink-0 transition-colors"
+            >
+              {copied ? '복사됨!' : 'URL 복사'}
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* 뉴스레터 본문 */}
       <main className="flex-1 py-8 px-4">

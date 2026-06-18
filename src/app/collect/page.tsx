@@ -85,7 +85,7 @@ function CollectPageInner() {
   }, [index])
 
   // 아카이브 기반 수요 키워드
-  const { demandKeywords, archiveArticleCount } = useMemo(() => {
+  const { demandKeywords } = useMemo(() => {
     const entries = getArchiveEntries()
     const articles = entries.flatMap((e) => e.articles)
     return { demandKeywords: computeDemandKeywords(articles), archiveArticleCount: articles.length }
@@ -159,14 +159,6 @@ function CollectPageInner() {
             <strong>최근 14일 수집 기사</strong>를 토픽별로 확인합니다.
             기사 선별 및 스크리닝은 <strong>스크리닝</strong> 메뉴를 이용하세요.
           </span>
-          {archiveArticleCount > 0 ? (
-            <span className="ml-2 inline-flex items-center gap-1 text-orange-500 font-semibold">
-              <span className="inline-block w-1.5 h-1.5 rounded-full bg-orange-400" />
-              수요 분석 활성 (아카이브 {archiveArticleCount}개 기사 기반)
-            </span>
-          ) : (
-            <span className="ml-2 text-wds-gray-400">(뉴스레터 확정 후 수요 분석이 활성화됩니다)</span>
-          )}
         </div>
 
         {/* 중간 토픽 필터 + 뉴스 총 개수 + 전체 선택/해제 */}
