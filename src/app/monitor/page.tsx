@@ -46,6 +46,7 @@ function StatCard({
 }
 
 export default function MonitorPage() {
+  const [mounted, setMounted] = useState(false)
   const [concurrent, setConcurrent] = useState<number | null>(null)
   const [stats, setStats] = useState<Stats | null>(null)
   const [lastUpdated, setLastUpdated] = useState<Date | null>(null)
@@ -68,6 +69,7 @@ export default function MonitorPage() {
   }, [])
 
   useEffect(() => {
+    setMounted(true)
     fetchConcurrent()
     fetchStats()
 
@@ -130,41 +132,53 @@ export default function MonitorPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <div className="bg-white rounded-xl border border-[rgba(112,115,124,0.16)] p-5">
             <p className="text-[14px] font-semibold text-[#171719] mb-4">오늘 시간대별 페이지뷰</p>
-            <ResponsiveContainer width="100%" height={200}>
-              <BarChart data={stats?.hourly ?? []} margin={{ top: 4, right: 4, left: -16, bottom: 0 }}>
-                <CartesianGrid strokeDasharray="3 3" stroke="rgba(112,115,124,0.1)" />
-                <XAxis
-                  dataKey="hour"
-                  tick={{ fontSize: 11, fill: 'rgba(55,56,60,0.4)' }}
-                  tickLine={false}
-                  interval={3}
-                />
-                <YAxis tick={{ fontSize: 11, fill: 'rgba(55,56,60,0.4)' }} tickLine={false} allowDecimals={false} />
-                <Tooltip
-                  contentStyle={{ fontSize: 12, borderRadius: 8, border: '1px solid rgba(112,115,124,0.2)' }}
-                />
-                <Bar dataKey="views" name="페이지뷰" fill="#0066FF" radius={[3, 3, 0, 0]} />
-              </BarChart>
-            </ResponsiveContainer>
+            {mounted ? (
+              <ResponsiveContainer width="100%" height={200}>
+                <BarChart data={stats?.hourly ?? []} margin={{ top: 4, right: 4, left: -16, bottom: 0 }}>
+                  <CartesianGrid strokeDasharray="3 3" stroke="rgba(112,115,124,0.1)" />
+                  <XAxis
+                    dataKey="hour"
+                    tick={{ fontSize: 11, fill: 'rgba(55,56,60,0.4)' }}
+                    tickLine={false}
+                    interval={3}
+                  />
+                  <YAxis tick={{ fontSize: 11, fill: 'rgba(55,56,60,0.4)' }} tickLine={false} allowDecimals={false} />
+                  <Tooltip
+                    contentStyle={{ fontSize: 12, borderRadius: 8, border: '1px solid rgba(112,115,124,0.2)' }}
+                  />
+                  <Bar dataKey="views" name="페이지뷰" fill="#0066FF" radius={[3, 3, 0, 0]} />
+                </BarChart>
+              </ResponsiveContainer>
+            ) : (
+              <div className="h-[200px] flex items-center justify-center">
+                <span className="text-[13px] text-[rgba(55,56,60,0.3)]">로딩 중...</span>
+              </div>
+            )}
           </div>
 
           <div className="bg-white rounded-xl border border-[rgba(112,115,124,0.16)] p-5">
             <p className="text-[14px] font-semibold text-[#171719] mb-4">최근 7일 페이지뷰</p>
-            <ResponsiveContainer width="100%" height={200}>
-              <BarChart data={stats?.daily ?? []} margin={{ top: 4, right: 4, left: -16, bottom: 0 }}>
-                <CartesianGrid strokeDasharray="3 3" stroke="rgba(112,115,124,0.1)" />
-                <XAxis
-                  dataKey="date"
-                  tick={{ fontSize: 11, fill: 'rgba(55,56,60,0.4)' }}
-                  tickLine={false}
-                />
-                <YAxis tick={{ fontSize: 11, fill: 'rgba(55,56,60,0.4)' }} tickLine={false} allowDecimals={false} />
-                <Tooltip
-                  contentStyle={{ fontSize: 12, borderRadius: 8, border: '1px solid rgba(112,115,124,0.2)' }}
-                />
-                <Bar dataKey="views" name="페이지뷰" fill="#3385FF" radius={[3, 3, 0, 0]} />
-              </BarChart>
-            </ResponsiveContainer>
+            {mounted ? (
+              <ResponsiveContainer width="100%" height={200}>
+                <BarChart data={stats?.daily ?? []} margin={{ top: 4, right: 4, left: -16, bottom: 0 }}>
+                  <CartesianGrid strokeDasharray="3 3" stroke="rgba(112,115,124,0.1)" />
+                  <XAxis
+                    dataKey="date"
+                    tick={{ fontSize: 11, fill: 'rgba(55,56,60,0.4)' }}
+                    tickLine={false}
+                  />
+                  <YAxis tick={{ fontSize: 11, fill: 'rgba(55,56,60,0.4)' }} tickLine={false} allowDecimals={false} />
+                  <Tooltip
+                    contentStyle={{ fontSize: 12, borderRadius: 8, border: '1px solid rgba(112,115,124,0.2)' }}
+                  />
+                  <Bar dataKey="views" name="페이지뷰" fill="#3385FF" radius={[3, 3, 0, 0]} />
+                </BarChart>
+              </ResponsiveContainer>
+            ) : (
+              <div className="h-[200px] flex items-center justify-center">
+                <span className="text-[13px] text-[rgba(55,56,60,0.3)]">로딩 중...</span>
+              </div>
+            )}
           </div>
         </div>
 
