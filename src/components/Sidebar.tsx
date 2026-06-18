@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { signOut } from 'next-auth/react'
 
 export function Sidebar() {
   const pathname = usePathname()
@@ -49,7 +50,13 @@ export function Sidebar() {
           )
         })}
       </nav>
-      <div className="p-4 border-t border-[rgba(112,115,124,0.16)]">
+      <div className="p-4 border-t border-[rgba(112,115,124,0.16)] flex flex-col gap-2">
+        <button
+          onClick={() => signOut({ callbackUrl: '/login' })}
+          className="w-full px-3 py-2 rounded-lg text-[13px] font-semibold text-[rgba(55,56,60,0.5)] hover:bg-[rgba(112,115,124,0.05)] hover:text-[#171719] transition-colors text-left"
+        >
+          로그아웃
+        </button>
         <p className="text-[12px] text-[rgba(55,56,60,0.40)]">© 2026 Energy Insight</p>
       </div>
     </aside>
