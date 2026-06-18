@@ -176,17 +176,31 @@ export default function ScreeningPage() {
     setGenerating(true)
     setGeneratingCount(ids.length)
     setGeneratingProgress(0)
+
+    // 생성된 요약을 응답에서 직접 수집 → localStorage 경유로 /generate에 전달
+    const collected: Record<string, unknown> = {}
+
     // Vercel 60초 제한 대응: 기사 1개씩 순차 요약
     for (let i = 0; i < ids.length; i++) {
       try {
-        await fetch('/api/summarize', {
+        const res = await fetch('/api/summarize', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ ids: [ids[i]] }),
         })
+        if (res.ok) {
+          const data = await res.json()
+          Object.assign(collected, data)
+        }
       } catch { /* API 없는 환경에서는 /generate에서 캐시 fallback */ }
       setGeneratingProgress(i + 1)
     }
+
+    // 생성 결과 저장 (저장 실패해도 /generate에서 Redis/파일로 재조회)
+    try {
+      localStorage.setItem('nl-generated-summaries', JSON.stringify(collected))
+    } catch { /* localStorage 용량 초과 등 무시 */ }
+
     router.push('/generate')
   }
 

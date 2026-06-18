@@ -104,6 +104,8 @@ async function processArticle(article) {
   if (method === 'A') {
     process.stdout.write('  ↳ Step 1A: 필드 추출 (LLM)...\n')
     elements = await extractFieldsMethodA(title, body, originalLang ?? 'ko')
+    // LLM 파싱 실패(fallbackFields) 시 rawSummary를 최후 안전망으로 제공
+    elements.rawSummaryFallback = rawSummary ?? null
   } else {
     process.stdout.write('  ↳ Step 1B: 문장 선발 (rule-based)...\n')
     elements = selectSentencesMethodB(title, body)

@@ -58,18 +58,34 @@ export default function GeneratePage() {
       }
       selected.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
 
-      // 1. /api/summaries (Redis 캐시 → 로컬 draft 병합)
+      // 0. screening에서 직접 전달된 요약 우선 적용 (저장 경로 무관하게 신뢰도 최고)
       try {
-        const summaryRes = await fetch(`/api/summaries?ids=${selectedIds.join(',')}`)
-        if (summaryRes.ok) {
-          const summaryMap: Record<string, Article['newsletterSummary']> = await summaryRes.json()
-          for (const article of selected) {
-            if (!article.newsletterSummary && summaryMap[article.id]) {
-              article.newsletterSummary = summaryMap[article.id]
-            }
+        const generated = JSON.parse(
+          localStorage.getItem('nl-generated-summaries') ?? '{}'
+        ) as Record<string, Article['newsletterSummary']>
+        for (const article of selected) {
+          if (!article.newsletterSummary && generated[article.id]) {
+            article.newsletterSummary = generated[article.id]
           }
         }
-      } catch { /* API 없는 환경 */ }
+        localStorage.removeItem('nl-generated-summaries')
+      } catch { /* 무시 */ }
+
+      // 1. /api/summaries (Redis 캐시 → 로컬 draft 병합) — Step 0 미적용 항목만
+      const afterStep0Missing = selected.some((a) => !a.newsletterSummary)
+      if (afterStep0Missing) {
+        try {
+          const summaryRes = await fetch(`/api/summaries?ids=${selectedIds.join(',')}`)
+          if (summaryRes.ok) {
+            const summaryMap: Record<string, Article['newsletterSummary']> = await summaryRes.json()
+            for (const article of selected) {
+              if (!article.newsletterSummary && summaryMap[article.id]) {
+                article.newsletterSummary = summaryMap[article.id]
+              }
+            }
+          }
+        } catch { /* API 없는 환경 */ }
+      }
 
       // 2. 여전히 미채워진 항목 → newsletter-draft.json fallback (로컬 서버)
       const stillMissing = selected.some((a) => !a.newsletterSummary)

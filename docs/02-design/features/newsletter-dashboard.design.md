@@ -1,8 +1,8 @@
 ---
 template: design
-version: 2.6
+version: 2.7
 feature: newsletter-dashboard
-date: 2026-06-09
+date: 2026-06-18
 author: hyeokyeong@gmail.com
 project: 에너지 뉴스레터 대시보드
 ---
@@ -12,10 +12,10 @@ project: 에너지 뉴스레터 대시보드
 > **Summary**: 26개 지정 소스(24개 활성, rss/scrape 2방식) 수집 파이프라인 + Next.js SSG/CSR 혼합 아키텍처. 기사 선택(/collect) → 스크리닝(/screening) → 뉴스레터 자동 생성(/generate) 워크플로 포함.
 >
 > **Project**: 에너지 뉴스레터 대시보드
-> **Version**: 2.6
+> **Version**: 2.7
 > **Author**: hyeokyeong@gmail.com
-> **Date**: 2026-06-09
-> **Status**: Sprint 1~8+ 완료 (Gap Analysis 97%)
+> **Date**: 2026-06-18
+> **Status**: Sprint 1~8+ 완료 (Gap Analysis 91.6%)
 > **Planning Doc**: [newsletter-dashboard.plan.md](../../01-plan/features/newsletter-dashboard.plan.md)
 
 ---
@@ -38,7 +38,7 @@ project: 에너지 뉴스레터 대시보드
 
 - **소스 정확도**: `sources.js` 26개 지정 소스(24개 활성). rss/scrape 2방식 (google-news 방식 제거)
 - **뉴스레터 워크플로**: 브라우저에서 기사 선택 → 6개 카테고리 뉴스레터 즉시 생성·복사
-- **Zero Server**: 런타임 서버 없음. 크롤링 JSON → `public/data/` → CSR fetch
+- **하이브리드 아키텍처**: 정적 페이지(SSG/CSR) + 런타임 요약 API. 크롤링 JSON → `public/data/` → CSR fetch. 요약 생성은 `/api/summarize`(POST) + Redis 캐시 경유
 - **WDS 컴플라이언스**: `design_base/` Wanted Design System 토큰 100% 준수 (Pretendard, `#0066FF`, `rgba(112,115,124,0.16)` 보더 등)
 
 ### 1.2 Design Principles
@@ -94,7 +94,7 @@ project: 에너지 뉴스레터 대시보드
                              │ Vercel 배포
                              ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│                   Next.js 14 (output: export)                    │
+│              Next.js 14 (하이브리드: SSG + 런타임 API)              │
 │                                                                  │
 │  SSG 페이지 (빌드 타임 fs.readFileSync):                          │
 │    /                  → app/page.tsx                            │
@@ -107,8 +107,13 @@ project: 에너지 뉴스레터 대시보드
 │    /screening         → app/screening/page.tsx (Sprint 6)       │
 │    /generate          → app/generate/page.tsx                   │
 │    /newsletter-archive → app/newsletter-archive/page.tsx (신규) │
+│                                                                  │
+│  런타임 API 라우트 (서버리스, Sprint 8+):                          │
+│    POST /api/summarize → app/api/summarize/route.ts             │
+│    GET  /api/summaries → app/api/summaries/route.ts             │
 │                              │                                   │
-│                    localStorage (선택 상태)                       │
+│              ┌───────────────┴────────────────┐                 │
+│    localStorage (선택 상태)      Upstash Redis (요약 캐시)        │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -387,15 +392,20 @@ node scripts/summarize-top-articles.js --days=7 --limit=20
   고정 템플릿: "핵심 요소만 활용, 추가 추정 금지"
 ```
 
-**왜곡 방지 4단계 코드 검증** (`validateAndRepair`):
+**왜곡 방지 6단계 코드 검증** (`validateAndRepair` + `normalizeEnding`):
 
-| 순서 | 검증 | 실패 시 |
+| 순서 | 검증 | 실패/처리 |
 |---|---|---|
-| 1 | what 근거 없음 | what/why/sowhat 전부 null |
-| 1b | LLM 실패로 what null + 근거 있음 | whatFallback 적용 |
+| 0 | 합쇼체 어미 변환 (`normalizeEnding`) | `습니다/합니다/됩니다` → `했다/한다/된다` 전역 치환 (LLM 출력·fallback 모두 적용) |
+| 1 | what 근거 없음 (`whatAvailable=false`) | what/why/sowhat 전부 null |
+| 1b | LLM 실패로 what null + 근거 있음 | `whatFallback` 적용. `rawSummaryFallback`(크롤러 원문 요약)을 최후 안전망으로 사용 |
 | 2 | 수치 보존 (primary metric 변형 감지) | fallback 텍스트 교체 |
 | 3 | 엔티티 보존 (Method A, 행위자명 변형) | fallback 텍스트 교체 |
 | 4 | why/sowhat 근거 없음 | null 강제 |
+
+**`cleanLlm` 기준**:
+- 최소 15자 미만 → null (의미 없는 짧은 출력 차단)
+- 최대 150자(what) / 120자(why·sowhat) 초과 → `다`/`됐다` 종결 위치에서 스마트 자르기
 
 **영어 기사 처리**:
 - `field-extractor.js`: 영어 기사라도 `main_actor` 등 모든 텍스트 필드를 한국어로 추출
@@ -431,10 +441,12 @@ node scripts/summarize-top-articles.js --days=7 --limit=20
         → fetch /data/daily/{date}.json × 14
         → screenArticles(allArticles, {limit:30, categoryMax:8, sourceMax:4}, demandKeywords) 점수화·정렬
         → getArchiveEntries() → computeDemandKeywords() (수요 키워드)
-  표시 개수 변경 (30/50/100/전체) → effectiveLimit 재계산
-  토픽 필터 → filteredScreened 재계산
+  카테고리 필터 드롭다운 (전체/6개 토픽) → screenArticles 재실행 (카테고리별 상위 30개)
   기사 클릭 → localStorage 선택 저장
-  [뉴스레터 생성하기] 버튼 → Link href="/generate"
+  [뉴스레터 생성하기] 버튼 →
+    POST /api/summarize × N건 (1건씩 순차, Vercel 60s 대응)
+    → 응답 수집 → localStorage['nl-generated-summaries'] 저장
+    → router.push('/generate')
 
 /newsletter-archive  (뉴스레터 아카이브 — Sprint 7 신규)
   mount → getArchiveEntries() (localStorage 또는 파일 기반)
@@ -445,9 +457,14 @@ node scripts/summarize-top-articles.js --days=7 --limit=20
         → fetch /data/index.json
         → fetch /data/daily/{date}.json × 14
         → selectedIds로 필터링
+        → [Step 0] localStorage['nl-generated-summaries'] 우선 적용 (screening 직통)
+        → [Step 1] GET /api/summaries?ids=... (Redis → newsletter-draft.json 병합, Step 0 미적용 항목만)
+        → [Step 2] /data/newsletter-draft.json fallback (여전히 미채워진 항목)
         → TOPICS 순서대로 그룹핑·렌더링 (미분류 → '기타' 섹션)
-  [복사] → navigator.clipboard.writeText(plainText)
+        → ns.what 있으면 3줄 구조 요약, 없으면 article.summary fallback
+  [HTML 저장] → Blob 다운로드 (CDN 없는 인라인 HTML)
   [인쇄] → window.print()
+  [확정] → saveArchiveEntry() → localStorage 선택 초기화 → /newsletter-archive
   [← 기사 선택으로] → Link href="/collect"
 ```
 
@@ -468,6 +485,13 @@ export type TopicId =
   | 'ESG·탄소중립'
   | '시장·가격 동향'
 
+// Sprint 8+: 뉴스레터 3줄 요약 (summarize-newsletter.js 파이프라인 출력)
+export interface NewsletterSummary {
+  what?: string    // 팩트: 누가·무엇을·얼마나 (최대 150자)
+  why?: string     // 배경·원인 (최대 120자)
+  sowhat?: string  // 의미·전망 (최대 120자)
+}
+
 export interface Article {
   id: string                          // crypto.randomUUID()
   source: string                      // 소스 이름 (예: "에너지경제신문")
@@ -477,12 +501,13 @@ export interface Article {
   isTranslated: boolean
   title: string                       // 한국어 제목
   titleOriginal: string | null        // 원문 제목 (번역 시)
-  summary: string                     // AI 한국어 요약 (3문장)
+  summary: string                     // AI 한국어 요약 (3문장, 크롤링 시 생성)
   topics: TopicId[]                   // 분류 토픽 (최대 3개)
   primaryTopic?: TopicId              // 핵심 카테고리 1개 (스크리닝 cap 계산 + 뉴스레터 섹션 배치용)
   publishedAt: string                 // ISO8601
   originalUrl: string                 // 원문 URL
   collectedAt: string                 // 수집 시각 ISO8601
+  newsletterSummary?: NewsletterSummary | null  // Sprint 8+: 뉴스레터 전용 3줄 요약
 }
 ```
 
@@ -497,10 +522,26 @@ public/data/                          ← Next.js static serving (/data/...)
   biweekly/
     2026-BW08.json                    ← BiweeklyData
     ...
+  newsletter-draft.json               ← 뉴스레터 3줄 요약 캐시 (Sprint 8+)
   .crawled-urls.json                  ← URL dedup (scraping 제외)
 ```
 
 > **v1 → v2 변경**: `data/` → `public/data/` (CSR fetch 지원, Next.js static serving 활용)
+
+**newsletter-draft.json 스키마**:
+```json
+{
+  "generatedAt": "ISO8601",
+  "total": 31,
+  "success": 30,
+  "articles": [
+    {
+      "id": "uuid",
+      "newsletterSummary": { "what": "...", "why": "...", "sowhat": "..." }
+    }
+  ]
+}
+```
 
 ### 3.3 localStorage 스키마
 
@@ -544,7 +585,8 @@ interface Source {
 
 ## 4. API Specification
 
-> 런타임 서버 API 없음. SSG는 빌드 타임 fs.readFileSync, CSR은 브라우저 fetch.
+> **아키텍처**: 정적 JSON(빌드·크롤링) + 런타임 요약 API(Sprint 8+) 혼합.
+> SSG는 빌드 타임 `fs.readFileSync`, CSR은 브라우저 fetch `/data/...`, 요약은 런타임 API 경유.
 
 ### 4.1 정적 JSON Endpoints
 
@@ -553,8 +595,49 @@ interface Source {
 | GET | `/data/index.json` | SSG generateStaticParams + CSR /collect,/screening,/generate | MetaIndex |
 | GET | `/data/daily/YYYY-MM-DD.json` | SSG 페이지 + CSR /collect,/screening,/generate | DailyData |
 | GET | `/data/biweekly/YYYY-BWnn.json` | SSG 격주 리포트 | BiweeklyData |
+| GET | `/data/newsletter-draft.json` | /generate fallback (Step 2) | 요약 캐시 파일 |
 
-### 4.2 SSG Data Fetcher (`src/lib/data.ts`)
+### 4.2 런타임 요약 API (Sprint 8+)
+
+#### POST `/api/summarize`
+기사 ID 목록을 받아 3줄 요약을 생성하고 Redis에 캐시한다.
+
+```typescript
+// Request
+{ ids: string[] }  // 기사 ID 배열 (Vercel 60초 제한으로 1건씩 호출 권장)
+
+// Response
+Record<string, NewsletterSummary>
+// 예: { "uuid-1": { what: "...", why: "...", sowhat: "..." } }
+// 요약 실패(what=null)인 기사는 응답에서 제외됨
+```
+
+**내부 파이프라인**: Redis 캐시 확인 → Miss 시 기사 탐색(`public/data/daily/`) → 본문 fetch → 분류(Method A/B) → 필드 추출/문장 선발 → 3줄 요약 생성 → Redis 저장 + `newsletter-draft.json` 병합 저장
+
+**서버리스 번들링**: `next.config.js` `outputFileTracingIncludes`로 `scripts/` 디렉터리 포함
+
+#### GET `/api/summaries`
+여러 기사의 캐시된 요약을 일괄 조회한다.
+
+```typescript
+// Query
+?ids=uuid-1,uuid-2,...
+
+// Response
+Record<string, NewsletterSummary>
+// Redis 히트 우선, 미스 시 newsletter-draft.json fallback
+```
+
+### 4.3 Redis 캐시 계층 (Upstash)
+
+| 항목 | 내용 |
+|------|------|
+| 구현 | `src/lib/redis.ts` |
+| 환경변수 | `UPSTASH_REDIS_REST_URL`, `UPSTASH_REDIS_REST_TOKEN` |
+| 함수 | `getCachedSummary(id)`, `setCachedSummary(id, summary)`, `getManycached(ids)` |
+| 용도 | 요약 결과 캐싱 — LLM 재호출 방지, `/api/summaries` 빠른 응답 |
+
+### 4.4 SSG Data Fetcher (`src/lib/data.ts`)
 
 ```typescript
 // fs.readFileSync 기반 — next build 타임에만 실행
@@ -567,15 +650,10 @@ function getLatestDate(index: MetaIndex): string
 function getLatestReportId(index: MetaIndex): string | undefined
 ```
 
-### 4.3 CSR Fetch 패턴 (`/collect`, `/screening`, `/generate`)
+### 4.5 CSR Fetch 패턴 (`/collect`, `/screening`, `/generate`)
 
 ```typescript
-// /collect, /screening, /generate 공통 패턴
-const res = await fetch(`/data/biweekly/${reportId}.json`)
-if (!res.ok) return null
-const data: BiweeklyData = await res.json()
-
-// 날짜 범위 병렬 fetch
+// /collect, /screening 공통 — 정적 JSON fetch
 const dailyResults = await Promise.all(
   dates.map(date =>
     fetch(`/data/daily/${date}.json`)
@@ -583,18 +661,24 @@ const dailyResults = await Promise.all(
       .catch(() => null)
   )
 )
+
+// /screening → /generate 요약 전달 (Sprint 8+)
+// screening: POST /api/summarize 순차 호출 → localStorage['nl-generated-summaries'] 저장
+// generate Step 0: localStorage 우선 읽기 → Step 1: GET /api/summaries → Step 2: newsletter-draft.json
 ```
 
-### 4.4 Gemini API Integration
+### 4.6 Gemini API Integration
 
 | 함수 | 모델 | 입력 | 출력 |
 |------|------|------|------|
 | `summarize(ko)` | gemini-2.5-flash | title + content(1500자) | `{titleKo, summary, topics}` |
 | `summarize(en)` | gemini-2.5-flash | title + content(1500자) | `{titleKo, titleOriginal, summary, topics}` |
 | `generateReport` | gemini-2.5-flash | 최대 80개 기사 요약 | `TrendReport` JSON |
+| `extractFieldsMethodA` | gemini-2.5-flash | title + body | 구조화 필드 JSON |
+| `generateNewsletterSummary` | gemini-2.5-flash | method + elements | `{what, why, sowhat}` |
 
-**Rate Limit**: 6500ms min, 429 → Retry-After 헤더, 503 → 8s fixed
-**Fallback Chain**: `gemini-2.5-flash` → `gemini-1.5-flash-latest` → keyword 분류
+**Rate Limit**: 6500ms min, 429 → 15s 대기 후 다음 모델
+**Fallback Chain**: `gemini-2.5-flash` → `gemini-3.1-flash-lite-preview` → `gemma-3-4b-it` → `rawSummaryFallback`
 
 ---
 
@@ -787,26 +871,30 @@ const dailyResults = await Promise.all(
 
 #### 연관성 스크리닝 (`/screening`)
 
-- [x] 연관성 점수 순 정렬 (screenArticles)
+- [x] 연관성 점수 순 정렬 (screenArticles, 고정 30개)
 - [x] 점수 레이블 배지 (높음/보통/낮음)
-- [x] 전략 중요도 신호 배지 (⚡ 보라색)
-- [x] SK 연관 배지 (빨간색)
 - [x] 중복 감점 배지 (회색)
-- [x] 수요 키워드 배지 (주황색, 아카이브 기반)
-- [x] 토픽 필터 버튼 (전체 + 6개)
-- [x] 표시 개수 선택 (50 / 100 / 전체)
+- [x] 매칭 키워드 표시 (최대 6개)
+- [x] 카테고리 필터 드롭다운 (전체 + 6개 토픽, 선택 시 해당 카테고리 상위 30개)
+- [x] 선별 기사 수 표시
+- [x] 전체 선택 / 전체 해제 버튼
 - [x] 체크박스 선택 → localStorage 저장
-- [x] "뉴스레터 생성하기" CTA 버튼 → /generate
+- [x] "뉴스레터 생성하기" CTA 버튼 → POST /api/summarize 순차 실행 → localStorage 저장 → /generate
+- [x] 요약 생성 진행률 표시 (`요약 생성 중... N/M`)
 
 #### 뉴스레터 생성 (`/generate`)
 
-- [x] sticky 상단: 뒤로 가기, 복사, 인쇄 버튼
-- [x] 기간 표시 (startDate ~ endDate)
-- [x] 6개 카테고리 섹션 (이모지 + 토픽명)
-- [x] 각 섹션: 기사 제목, 출처, 요약, 원문 URL
+- [x] sticky 상단: 뒤로 가기, HTML 저장, 인쇄, 확정 버튼
+- [x] 발행일자 표시
+- [x] 기사 수 · 토픽 수 · 소스 수 통계
+- [x] 카테고리 탭 네비게이션 (색상 accent bar)
+- [x] 6개 카테고리 섹션 (이모지 + 토픽명, 2열 카드 그리드)
+- [x] 각 카드: 소스 배지, 날짜, 기사 제목, 3줄 요약(what/why/sowhat) 또는 article.summary fallback, 카테고리 칩, 원문 링크
 - [x] 선택 기사 없는 카테고리는 표시 안 함
-- [x] 복사: plain text 형식 (navigator.clipboard.writeText)
-- [x] 인쇄: window.print() + `@media print` CSS
+- [x] 미분류 기사 → '기타' 섹션
+- [x] HTML 저장: CDN 없는 인라인 HTML Blob 다운로드
+- [x] 인쇄: window.print()
+- [x] 확정: saveArchiveEntry() → /newsletter-archive 이동
 
 #### 날짜별 아카이브 (`/archive/[date]`)
 
@@ -859,11 +947,12 @@ const dailyResults = await Promise.all(
 
 ## 7. Security
 
-- [x] `GEMINI_API_KEY` — `.env` 로컬 / 서버 환경변수만. 브라우저 노출 없음
+- [x] `GEMINI_API_KEY` — `.env.local` / 서버 환경변수만. 브라우저 노출 없음 (API 라우트·크롤링 스크립트에서만 사용)
+- [x] `UPSTASH_REDIS_REST_URL`, `UPSTASH_REDIS_REST_TOKEN` — 서버 환경변수만. 브라우저 노출 없음
 - [x] 외부 링크 `target="_blank" rel="noopener noreferrer"`
 - [x] 검색: 클라이언트 사이드 Fuse.js — 서버 쿼리 없음
-- [x] localStorage: 기사 ID만 저장 (개인정보 없음)
-- [x] CSR fetch: 같은 도메인 `/data/` 경로만 — CORS 이슈 없음
+- [x] localStorage: 기사 ID·요약 캐시만 저장 (개인정보 없음)
+- [x] CSR fetch: 같은 도메인 `/data/`, `/api/` 경로만 — CORS 이슈 없음
 
 ---
 
@@ -968,7 +1057,10 @@ return Array.from(next)
 
 | 변수 | 용도 | 범위 |
 |------|------|------|
-| `GEMINI_API_KEY` | Gemini AI 인증 | 크롤링 스크립트 전용 (.env / 서버 환경변수) |
+| `GEMINI_API_KEY` | Gemini AI 인증 (크롤링·요약 LLM) | `.env.local` / 서버 환경변수만 |
+| `UPSTASH_REDIS_REST_URL` | Upstash Redis REST 엔드포인트 | 서버 환경변수만 (`/api/summarize`, `/api/summaries`) |
+| `UPSTASH_REDIS_REST_TOKEN` | Upstash Redis 인증 토큰 | 서버 환경변수만 |
+| `ENABLE_PROMPT_CACHING_1H` | Claude Code 프롬프트 캐싱 활성화 | 개발 환경 선택사항 (30~40% 토큰 절약) |
 
 ---
 
@@ -1014,8 +1106,13 @@ c:/Users/mysuni_newsletter_pjt2/
 │   │   │   └── page.tsx               ✅ 스크리닝 독립 뷰 (CSR) — Sprint 6, Sidebar 진입점
 │   │   ├── generate/
 │   │   │   └── page.tsx               ✅ 뉴스레터 생성 (CSR) — v2 신규 (구 /newsletter)
-│   │   └── newsletter-archive/
-│   │       └── page.tsx               ✅ 뉴스레터 아카이브 (CSR) — Sprint 7 신규
+│   │   ├── newsletter-archive/
+│   │   │   └── page.tsx               ✅ 뉴스레터 아카이브 (CSR) — Sprint 7 신규
+│   │   └── api/                       ← 런타임 요약 API (Sprint 8+)
+│   │       ├── summarize/
+│   │       │   └── route.ts           ✅ POST — 요약 생성 + Redis 저장 + 파일 병합
+│   │       └── summaries/
+│   │           └── route.ts           ✅ GET  — Redis 조회 + newsletter-draft.json fallback
 │   ├── components/
 │   │   ├── Header.tsx                 ✅ + 뉴스레터 버튼 (v2 수정)
 │   │   ├── Footer.tsx                 ✅ + 뉴스레터 링크 (v2 수정)
@@ -1027,14 +1124,15 @@ c:/Users/mysuni_newsletter_pjt2/
 │   │   ├── BiweeklyReport.tsx         ✅
 │   │   └── ArchiveList.tsx            ✅
 │   └── lib/
-│       ├── types.ts                   ✅ + sourceOrigin (v2 수정)
+│       ├── types.ts                   ✅ + sourceOrigin, NewsletterSummary, Article.newsletterSummary
 │       ├── constants.ts               ✅ TOPICS, TOPIC_MAP
 │       ├── data.ts                    ✅ public/data/ 경로 (v2 수정)
 │       ├── screening.ts               ✅ screenArticles(), computeDemandKeywords() — Sprint 6 신규
 │       ├── newsletter-archive.ts      ✅ getArchiveEntries() — 수요 키워드 분석용
+│       ├── redis.ts                   ✅ Upstash Redis 캐시 (getCachedSummary, setCachedSummary, getManycached)
 │       └── search.ts                  ✅ Fuse.js singleton
 ├── design_base/                       ✅ Wanted Design System 참조
-├── next.config.js                     ✅ output: 'export'
+├── next.config.js                     ✅ outputFileTracingIncludes: scripts/ (서버리스 번들)
 ├── tailwind.config.ts                 ✅ WDS 토큰 Tailwind 통합
 └── tsconfig.json                      ✅
 ```
@@ -1052,6 +1150,7 @@ c:/Users/mysuni_newsletter_pjt2/
 | Sprint 6 | 연관성 스크리닝: `screening.ts` (다차원 점수화, 중복 감점), `/screening` 페이지 | ✅ 완료 |
 | Sprint 7 | /collect 스크리닝 통합, /newsletter-archive 신규, Sidebar 재구성, ScreeningOptions + Pass 3 | ✅ 완료 |
 | Sprint 8 | 뉴스레터 2단계 요약 파이프라인(`scripts/newsletter/`), EV 소비자 필터(4단계), 스크리닝 보강(감점·임계값) | ✅ 완료 |
+| Sprint 8+ | 런타임 요약 API(`/api/summarize`, `/api/summaries`), Redis 캐시, `/screening`→localStorage→`/generate` 직통 전달, 합쇼체 정규화(`normalizeEnding`), `rawSummaryFallback` 안전망, HTML 저장·확정 플로우 | ✅ 완료 |
 
 ---
 
@@ -1068,3 +1167,5 @@ c:/Users/mysuni_newsletter_pjt2/
 | 2.3 | 2026-05-18 | Sprint 5 완료 처리, Sprint 6 신규: screening.ts 다차원 점수화 + /screening 페이지, 소스 26개(24활성), google-news 타입 제거, 라우트명 /select→/collect, /newsletter→/generate |
 | 2.4 | 2026-05-21 | Sprint 7 반영: /collect 스크리닝 통합, /newsletter-archive 신규, Sidebar 구조 변경, screenArticles ScreeningOptions + Pass 3, Article.primaryTopic, isEnergyRelevant sourceId 파라미터, /screening LimitOption 30 추가 |
 | 2.5 | 2026-06-04 | Sprint 8 반영: §2.7 뉴스레터 요약 파이프라인 신설, §2.2 scripts/newsletter/ 파일 구조 추가, §2.4 EV 소비자 4단계 필터 업데이트, §2.6 감점 로직·Pass 3-C 임계값·cleantechnica SOURCE_TIER2 반영 |
+| 2.6 | 2026-06-09 | Upstash Redis 캐시 계층 추가, HTML 저장·확정 플로우 추가, NewsletterContent 컴포넌트 추가 |
+| 2.7 | 2026-06-18 | Gap 분석 반영: §1.1 하이브리드 아키텍처로 갱신, §2.1 다이어그램 API 계층 추가, §2.7 왜곡 방지 4→6단계, §3.1 NewsletterSummary·Article.newsletterSummary 추가, §3.2 newsletter-draft.json 추가, §4 런타임 API 전면 신설, §5.5 /screening·/generate 체크리스트 현행화, §7·§10.4 환경변수 갱신, §11.1 api/·redis.ts 추가 |

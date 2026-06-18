@@ -16,17 +16,40 @@
  */
 const { callLLM } = require('./gemini-client')
 
+// ── 합쇼체 → 신문 기사체 어미 변환 ──────────────────────────────────────────
+
+const HAMNIDA_MAP = {
+  '했습니다': '했다', '됐습니다': '됐다', '받았습니다': '받았다',
+  '했습니다만': '했지만', '됩니다': '된다', '합니다': '한다',
+  '입니다': '이다', '있습니다': '있다', '없습니다': '없다',
+  '겠습니다': '겠다', '습니다': '다',
+}
+// 길이 내림차순 정렬로 긴 어미 우선 매칭
+const HAMNIDA_RE = new RegExp(
+  `(${Object.keys(HAMNIDA_MAP).sort((a, b) => b.length - a.length).join('|')})([\\.!?,]?)`,
+  'g'  // 문장 중간 합쇼체도 전부 변환
+)
+
+function normalizeEnding(text) {
+  if (!text) return text
+  return text.replace(HAMNIDA_RE, (_, ending, punct) =>
+    (HAMNIDA_MAP[ending] ?? '다') + punct
+  )
+}
+
 // ── 폴백 텍스트 정제 ──────────────────────────────────────────────────────────
 
 /**
- * 폴백 문장을 정제: 줄바꿈 제거, 길이 제한, 보일러플레이트 감지
+ * 폴백 문장을 정제: 줄바꿈 제거, 어미 변환, 길이 제한, 보일러플레이트 감지
  * @param {string|null} text
  * @returns {string|null}
  */
 function sanitizeFallbackText(text) {
   if (!text) return null
-  const cleaned = text.replace(/[\r\n\t]+/g, ' ').replace(/\s{2,}/g, ' ').trim()
-  if (cleaned.length < 10 || cleaned.length > 150) return null
+  const cleaned = normalizeEnding(
+    text.replace(/[\r\n\t]+/g, ' ').replace(/\s{2,}/g, ' ').trim()
+  )
+  if (cleaned.length < 10 || cleaned.length > 200) return null
   // 이메일, 해시태그 다수, 저작권 고지 포함 시 보일러플레이트로 판단
   if (cleaned.includes('@')) return null
   if ((cleaned.match(/#\S+/g) ?? []).length >= 3) return null
@@ -130,18 +153,32 @@ function buildMethodAWhatFallback(fields) {
  * }} constraints
  */
 function validateAndRepair(parsed, constraints) {
-  // LLM 직접 출력 정제: 줄바꿈 제거 + 과도한 길이 null 처리
-  // (프롬프트 제한을 LLM이 무시할 수 있으므로 코드 레벨에서 강제)
+  // LLM 직접 출력 정제: 줄바꿈 제거 + 어미 변환 + 길이 초과 시 자르기
   function cleanLlm(text, maxLen) {
     if (!text) return null
-    const s = text.replace(/[\r\n\t]+/g, ' ').replace(/\s{2,}/g, ' ').trim()
-    return s.length >= 4 && s.length <= maxLen ? s : null
+    let s = normalizeEnding(
+      text.replace(/[\r\n\t]+/g, ' ').replace(/\s{2,}/g, ' ').trim()
+    )
+    if (s.length > maxLen) {
+      // 최대 길이 내에서 '다' 종결 위치를 역방향 탐색 (최소 65% 지점 이후)
+      const window = s.slice(0, maxLen)
+      const minPos = Math.floor(maxLen * 0.65)
+      let cut = -1
+      for (let i = window.length - 1; i >= minPos; i--) {
+        if (window[i] === '다') {
+          const next = window[i + 1]
+          if (!next || /[.。!?,\s]/.test(next)) { cut = i + 1; break }
+        }
+      }
+      s = cut > 0 ? window.slice(0, cut).trim() : window.trim()
+    }
+    return s.length >= 15 ? s : null
   }
 
   const result = {
-    what:   cleanLlm(parsed.what,   120),
-    why:    cleanLlm(parsed.why,    100),
-    sowhat: cleanLlm(parsed.sowhat, 100),
+    what:   cleanLlm(parsed.what,   150),
+    why:    cleanLlm(parsed.why,    120),
+    sowhat: cleanLlm(parsed.sowhat, 120),
   }
 
   // [검증 1] what 근거 없음 → 전체 null 강제
@@ -238,11 +275,12 @@ async function generateSummaryFromFields(fields) {
     ?? fields.metrics.other
 
   const constraints = {
-    // causal_core·tech_keywords도 포함: 필드 추출 실패(fallbackFields) 시에도 what 생성 가능
-    whatAvailable:  !!(fields.who.main_actor || metricsStr || fields.causal_core || fields.tech_keywords.length > 0),
+    // causal_core·tech_keywords·rawSummaryFallback 포함: 필드 추출 실패 시에도 what 생성 가능
+    whatAvailable:  !!(fields.who.main_actor || metricsStr || fields.causal_core || fields.tech_keywords.length > 0 || fields.rawSummaryFallback),
     whatMetrics:    primaryMetric ? extractMetricValues(primaryMetric) : [],
     whatEntity:     fields.who.main_actor ?? null,
-    whatFallback:   buildMethodAWhatFallback(fields),
+    // 조합 fallback 우선, 실패 시 rawSummary 사용
+    whatFallback:   buildMethodAWhatFallback(fields) ?? (fields.rawSummaryFallback ? sanitizeFallbackText(fields.rawSummaryFallback) : null),
     whySource:      !!fields.causal_core,
     whyMetrics:     extractMetricValues(fields.causal_core ?? ''),
     whyFallback:    fields.causal_core ?? null,

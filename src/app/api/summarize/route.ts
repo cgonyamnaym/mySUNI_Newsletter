@@ -65,9 +65,15 @@ async function summarizeArticle(article: Article): Promise<NewsletterSummary | n
   }
 
   const { method } = await p.classifyArticle(title, body, sourceId ?? '')
-  const elements = method === 'A'
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const elements: any = method === 'A'
     ? await p.extractFieldsMethodA(title, body, originalLang ?? 'ko')
     : p.selectSentencesMethodB(title, body)
+
+  // Method A LLM 파싱 실패(fallbackFields) 시 rawSummary를 최후 안전망으로 제공
+  if (method === 'A') {
+    elements.rawSummaryFallback = rawSummary || null
+  }
 
   return await p.generateNewsletterSummary(method, elements, originalLang ?? 'ko')
 }
