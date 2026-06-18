@@ -114,7 +114,7 @@ function CollectPageInner() {
     [screened]
   )
 
-  const allScreenedSelected = screened.length > 0 && screened.every((a) => selectedIds.has(a.id))
+  const anyScreenedSelected = screened.some((a) => selectedIds.has(a.id))
 
   function toggleArticle(id: string) {
     setSelectedIds((prev) => {
@@ -131,13 +131,19 @@ function CollectPageInner() {
     saveSelection([])
   }
 
-  function toggleAll() {
-    const allIds = new Set(screened.map((a) => a.id))
-    const allSelected = screened.length > 0 && screened.every((a) => selectedIds.has(a.id))
+  function selectAllVisible() {
     setSelectedIds((prev) => {
       const next = new Set(prev)
-      if (allSelected) allIds.forEach((id) => next.delete(id))
-      else allIds.forEach((id) => next.add(id))
+      screened.forEach((a) => next.add(a.id))
+      saveSelection(Array.from(next))
+      return next
+    })
+  }
+
+  function deselectAllVisible() {
+    setSelectedIds((prev) => {
+      const next = new Set(prev)
+      screened.forEach((a) => next.delete(a.id))
       saveSelection(Array.from(next))
       return next
     })
@@ -183,10 +189,17 @@ function CollectPageInner() {
               뉴스 총 개수: <span className="text-wds-blue-600">{screened.length}</span>
             </div>
             <button
-              onClick={toggleAll}
+              onClick={selectAllVisible}
               className="shrink-0 text-[13px] font-semibold px-4 py-1.5 rounded-md border border-wds-gray-300 bg-white text-wds-gray-700 hover:bg-wds-gray-50 hover:text-wds-gray-950 transition-colors shadow-sm"
             >
-              {allScreenedSelected ? '현재 표시 전체 해제' : '현재 표시 전체 선택'}
+              현재 표시 전체 선택
+            </button>
+            <button
+              onClick={deselectAllVisible}
+              disabled={!anyScreenedSelected}
+              className="shrink-0 text-[13px] font-semibold px-4 py-1.5 rounded-md border border-wds-gray-300 bg-white text-wds-gray-700 hover:bg-wds-gray-50 hover:text-wds-gray-950 transition-colors shadow-sm disabled:opacity-40 disabled:cursor-not-allowed"
+            >
+              현재 표시 전체 해제
             </button>
           </div>
         </div>
@@ -269,47 +282,6 @@ function CollectPageInner() {
                         <p className="text-[14px] text-wds-gray-700 leading-relaxed line-clamp-2 mb-2">
                           {article.summary}
                         </p>
-                      )}
-
-                      {/* 매칭 키워드 */}
-                      {article.matchedKeywords.length > 0 && (
-                        <div className="flex flex-wrap gap-1.5 mb-2">
-                          <span className="text-[11px] text-wds-gray-400 font-medium mt-0.5">매칭:</span>
-                          {article.matchedKeywords.slice(0, 6).map((kw) => (
-                            <span
-                              key={kw}
-                              className="inline-block px-2 py-0.5 bg-wds-gray-100 text-wds-gray-600 rounded text-[11px] font-medium"
-                            >
-                              {kw}
-                            </span>
-                          ))}
-                          {article.matchedKeywords.length > 6 && (
-                            <span className="text-[11px] text-wds-gray-400 mt-0.5">
-                              +{article.matchedKeywords.length - 6}개
-                            </span>
-                          )}
-                        </div>
-                      )}
-
-                      {/* 수요 키워드 */}
-                      {article.matchedDemandKeywords.length > 0 && (
-                        <div className="flex flex-wrap gap-1.5 mb-2">
-                          <span className="text-[11px] text-orange-400 font-medium mt-0.5">수요:</span>
-                          {article.matchedDemandKeywords.slice(0, 5).map((kw) => (
-                            <span
-                              key={kw}
-                              className="inline-block px-2 py-0.5 rounded text-[11px] font-medium"
-                              style={{ background: 'rgba(251,146,60,0.12)', color: '#EA6C00' }}
-                            >
-                              {kw}
-                            </span>
-                          ))}
-                          {article.matchedDemandKeywords.length > 5 && (
-                            <span className="text-[11px] text-orange-300 mt-0.5">
-                              +{article.matchedDemandKeywords.length - 5}개
-                            </span>
-                          )}
-                        </div>
                       )}
 
                       {/* 전략 중요도 신호 + SK 연관성 + 중복 감점 */}

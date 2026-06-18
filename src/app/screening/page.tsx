@@ -156,19 +156,25 @@ export default function ScreeningPage() {
     })
   }
 
-  function toggleAll() {
-    const allIds = new Set(screened.map((a) => a.id))
-    const allSelected = screened.length > 0 && screened.every((a) => selectedIds.has(a.id))
+  function selectAllVisible() {
     setSelectedIds((prev) => {
       const next = new Set(prev)
-      if (allSelected) allIds.forEach((id) => next.delete(id))
-      else allIds.forEach((id) => next.add(id))
+      screened.forEach((a) => next.add(a.id))
       saveSelection(Array.from(next))
       return next
     })
   }
 
-  const allSelected = screened.length > 0 && screened.every((a) => selectedIds.has(a.id))
+  function deselectAllVisible() {
+    setSelectedIds((prev) => {
+      const next = new Set(prev)
+      screened.forEach((a) => next.delete(a.id))
+      saveSelection(Array.from(next))
+      return next
+    })
+  }
+
+  const anyScreenedSelected = screened.some((a) => selectedIds.has(a.id))
 
   async function handleGenerate() {
     if (selectedIds.size === 0 || generating) return
@@ -278,10 +284,17 @@ export default function ScreeningPage() {
             선별 기사: <span className="text-wds-blue-600">{screened.length}</span>
           </div>
           <button
-            onClick={toggleAll}
+            onClick={selectAllVisible}
             className="shrink-0 text-[13px] font-semibold px-4 py-1.5 rounded-md border border-wds-gray-300 bg-white text-wds-gray-700 hover:bg-wds-gray-50 hover:text-wds-gray-950 transition-colors shadow-sm"
           >
-            {allSelected ? '전체 해제' : '전체 선택'}
+            전체 선택
+          </button>
+          <button
+            onClick={deselectAllVisible}
+            disabled={!anyScreenedSelected}
+            className="shrink-0 text-[13px] font-semibold px-4 py-1.5 rounded-md border border-wds-gray-300 bg-white text-wds-gray-700 hover:bg-wds-gray-50 hover:text-wds-gray-950 transition-colors shadow-sm disabled:opacity-40 disabled:cursor-not-allowed"
+          >
+            전체 해제
           </button>
         </div>
 
