@@ -15,6 +15,7 @@ export function Sidebar() {
     { href: '/generate', label: '뉴스레터 생성' },
     { href: '/newsletter-archive', label: '뉴스레터 아카이브' },
     { href: '/archive', label: '과거 아카이브' },
+    { href: '/monitor', label: '트래픽 모니터' },
   ]
 
   return (
