@@ -47,6 +47,8 @@ function sleep(ms) {
 }
 
 
+const GEMINI_CALL_TIMEOUT_MS = parseInt(process.env.GEMINI_CALL_TIMEOUT_MS ?? '45000')
+
 async function callWithRetry(modelName, prompt) {
   const model = getGenAI().getGenerativeModel({ model: modelName })
 
@@ -60,7 +62,10 @@ async function callWithRetry(modelName, prompt) {
   for (let attempt = 0; attempt < 3; attempt++) {
     try {
       _lastRequestAt = Date.now()
-      return await model.generateContent(prompt)
+      const timeoutPromise = new Promise((_, reject) =>
+        setTimeout(() => reject(new Error(`Gemini timeout (${GEMINI_CALL_TIMEOUT_MS}ms)`)), GEMINI_CALL_TIMEOUT_MS)
+      )
+      return await Promise.race([model.generateContent(prompt), timeoutPromise])
     } catch (err) {
       const is429 = err.message && err.message.includes('429')
       const is503 = err.message && err.message.includes('503')
