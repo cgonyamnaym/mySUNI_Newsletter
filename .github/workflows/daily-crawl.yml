@@ -35,6 +35,8 @@ jobs:
       - name: 크롤러 실행
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_INTERVAL_MS: '4000'
+          GEMINI_CALL_TIMEOUT_MS: '20000'
         run: npm run crawl
 
       - name: 변경사항 커밋 및 푸시

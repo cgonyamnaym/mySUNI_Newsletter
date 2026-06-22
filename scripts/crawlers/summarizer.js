@@ -6,8 +6,9 @@
  * 환경변수 GEMINI_API_KEY 필요
  * 발급: https://aistudio.google.com/app/apikey
  *
- * 모델 우선순위: gemini-2.5-flash → gemini-3.1-flash-lite-preview → gemma-3-4b-it
+ * 모델 우선순위: gemini-2.5-flash → gemini-2.0-flash-lite → gemini-1.5-flash
  * 429(rate limit) / 503(일시 과부하) 시 자동 재시도 + 모델 fallback
+ * 연속 3회 실패 시 서킷 브레이커 오픈 → 이후 기사는 키워드 기반 폴백으로 즉시 처리
  */
 const { GoogleGenerativeAI } = require('@google/generative-ai')
 
@@ -23,13 +24,20 @@ const TOPICS = [
 // 모델 우선순위 (앞에서부터 시도)
 const MODEL_CHAIN = [
   'gemini-2.5-flash',
-  'gemini-3.1-flash-lite-preview',
-  'gemma-3-4b-it',
+  'gemini-2.0-flash-lite',
+  'gemini-1.5-flash',
 ]
 
-// 요청 간 최소 간격 (ms) — 분당 6건 기준 10초 (free tier 안정성)
-const MIN_INTERVAL_MS = parseInt(process.env.GEMINI_INTERVAL_MS ?? '10000')
+// 요청 간 최소 간격 (ms) — free tier 분당 15건 기준, 4초면 충분
+const MIN_INTERVAL_MS = parseInt(process.env.GEMINI_INTERVAL_MS ?? '4000')
+// 단일 Gemini 호출 타임아웃 (ms) — 응답 없이 멈추는 경우 빠르게 다음 모델로
+const GEMINI_CALL_TIMEOUT_MS = parseInt(process.env.GEMINI_CALL_TIMEOUT_MS ?? '20000')
+// 연속 실패 N회 시 서킷 브레이커 오픈
+const CIRCUIT_BREAKER_THRESHOLD = 3
+
 let _lastRequestAt = 0
+let _consecutiveFailures = 0
+let _circuitOpen = false
 
 let _genAI = null
 function getGenAI() {
@@ -46,13 +54,9 @@ function sleep(ms) {
   return new Promise(r => setTimeout(r, ms))
 }
 
-
-const GEMINI_CALL_TIMEOUT_MS = parseInt(process.env.GEMINI_CALL_TIMEOUT_MS ?? '45000')
-
 async function callWithRetry(modelName, prompt) {
   const model = getGenAI().getGenerativeModel({ model: modelName })
 
-  // 분당 10건 제한 — 요청 전 최소 간격 대기
   const now = Date.now()
   const elapsed = now - _lastRequestAt
   if (elapsed < MIN_INTERVAL_MS) {
@@ -73,8 +77,8 @@ async function callWithRetry(modelName, prompt) {
         throw err  // 429는 재시도 없이 즉시 다음 모델로
       }
       if (is503 && attempt < 2) {
-        process.stdout.write(`    ↻ [${modelName}] 503 — 8s 후 재시도 (${attempt + 1}/2)...\n`)
-        await sleep(8000)
+        process.stdout.write(`    ↻ [${modelName}] 503 — 5s 후 재시도 (${attempt + 1}/2)...\n`)
+        await sleep(5000)
         _lastRequestAt = Date.now()
       } else {
         throw err
@@ -83,11 +87,46 @@ async function callWithRetry(modelName, prompt) {
   }
 }
 
+function computeFallback(title, content, lang) {
+  const fallbackTopics = []
+  const lowerText = `${title || ''} ${content || ''}`.toLowerCase()
+  const KEYWORD_MAP = {
+    '전력 인프라': ['계통', '송배전', '스마트그리드', '전력망', '분산자원', 'vpp', '인프라', 'grid'],
+    '에너지원': ['ess', '에너지저장', '원자력', '연료전지', '원전', 'smr', '태양광', '풍력', '수소', '바이오에너지', '재생에너지', '신재생', '그린수소', '데이터센터', '배터리', 'solar', 'wind'],
+    '운영 최적화': ['derms', '수요 예측', '최적화', 'ai', '예측'],
+    '정책·규제': ['정책', '법령', '규제', '제도', 'ppa', '정부', '산업부', '법안', 'ferc'],
+    'ESG·탄소중립': ['탄소중립', 're100', '탄소시장', 'esg', 'ndc', '탄소', '기후', 'carbon'],
+    '시장·가격 동향': ['가격', '수급', '투자', 'smp', '요금', '도매가격', 'lcoe', '시장']
+  }
+  for (const [topic, keywords] of Object.entries(KEYWORD_MAP)) {
+    for (const kw of keywords) {
+      if (lowerText.includes(kw)) {
+        fallbackTopics.push(topic)
+        break
+      }
+    }
+  }
+  if (fallbackTopics.length === 0) fallbackTopics.push('시장·가격 동향')
+
+  return {
+    isEnergyMain:  true,
+    titleKo:       title,
+    titleOriginal: lang === 'en' ? title : null,
+    summary:       content.slice(0, 200),
+    topics:        fallbackTopics.slice(0, 2),
+  }
+}
+
 /**
  * @param {{ title: string, content: string, lang: 'ko'|'en' }} article
  * @returns {{ titleKo: string, titleOriginal: string|null, summary: string, topics: string[] }}
  */
 async function summarize({ title, content, lang }) {
+  // 서킷 브레이커: 연속 실패 임계값 초과 시 즉시 폴백
+  if (_circuitOpen) {
+    return computeFallback(title, content, lang)
+  }
+
   const topicList = TOPICS.map((t, i) => `${i + 1}. ${t}`).join('\n')
 
   const prompt = lang === 'ko'
@@ -133,48 +172,28 @@ ${topicList}`
       const result = await callWithRetry(modelName, prompt)
       const text = result.response.text().trim()
       const clean = text.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '').trim()
-      return JSON.parse(clean)
+      const parsed = JSON.parse(clean)
+      _consecutiveFailures = 0  // 성공 시 리셋
+      return parsed
     } catch (err) {
       const is429DailyExhausted = err.message && err.message.includes('429') && err.message.includes('limit: 0')
       const is429 = err.message && err.message.includes('429')
       if (is429DailyExhausted || !is429) {
-        // 일일 쿼터 소진이거나 다른 오류 → 다음 모델 시도
-        process.stdout.write(`    → [${modelName}] 실패, 다음 모델 시도...\n`)
+        process.stdout.write(`    → [${modelName}] 실패 (${err.message?.slice(0, 60)}), 다음 모델 시도...\n`)
         continue
       }
-      // 일반 429(분당 한도) — 이미 재시도했으므로 다음 모델
       process.stdout.write(`    → [${modelName}] 분당 한도 초과, 다음 모델 시도...\n`)
     }
   }
 
-  // 모든 모델 실패 시 fallback: 키워드 기반 토픽 분류
-  const fallbackTopics = []
-  const lowerText = `${title || ''} ${content || ''}`.toLowerCase()
-  const KEYWORD_MAP = {
-    '전력 인프라': ['계통', '송배전', '스마트그리드', '전력망', '분산자원', 'vpp', '인프라', 'grid'],
-    '에너지원': ['ess', '에너지저장', '원자력', '연료전지', '원전', 'smr', '태양광', '풍력', '수소', '바이오에너지', '재생에너지', '신재생', '그린수소', '데이터센터', '배터리', 'solar', 'wind'],
-    '운영 최적화': ['derms', '수요 예측', '최적화', 'ai', '예측'],
-    '정책·규제': ['정책', '법령', '규제', '제도', 'ppa', '정부', '산업부', '법안', 'ferc'],
-    'ESG·탄소중립': ['탄소중립', 're100', '탄소시장', 'esg', 'ndc', '탄소', '기후', 'carbon'],
-    '시장·가격 동향': ['가격', '수급', '투자', 'smp', '요금', '도매가격', 'lcoe', '시장']
+  // 모든 모델 실패
+  _consecutiveFailures++
+  if (_consecutiveFailures >= CIRCUIT_BREAKER_THRESHOLD) {
+    _circuitOpen = true
+    process.stdout.write(`\n⚡ Gemini 서킷 브레이커 오픈: ${CIRCUIT_BREAKER_THRESHOLD}회 연속 실패 → 이번 실행은 키워드 기반 분류로 진행합니다.\n\n`)
   }
-  for (const [topic, keywords] of Object.entries(KEYWORD_MAP)) {
-    for (const kw of keywords) {
-      if (lowerText.includes(kw)) {
-        fallbackTopics.push(topic)
-        break
-      }
-    }
-  }
-  if (fallbackTopics.length === 0) fallbackTopics.push('시장·가격 동향')
 
-  return {
-    isEnergyMain:  true,
-    titleKo:       title,
-    titleOriginal: lang === 'en' ? title : null,
-    summary:       content.slice(0, 200),
-    topics:        fallbackTopics.slice(0, 2),
-  }
+  return computeFallback(title, content, lang)
 }
 
 module.exports = { summarize }
