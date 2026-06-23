@@ -1,6 +1,60 @@
 {
   "date": "2026-06-21",
-  "generatedAt": "2026-06-23T02:00:51.799Z",
-  "articleCount": 0,
-  "articles": []
+  "generatedAt": "2026-06-23T06:18:09.283Z",
+  "articleCount": 3,
+  "articles": [
+    {
+      "id": "65ce1c61-8e35-4188-8c8a-7a3f5f9bc955",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "中企 기술사업화 지원 강화…중부발전, 연구개발 포럼 개최",
+      "titleOriginal": null,
+      "summary": "한국중부발전(주)(사장 이영조)이 연구개발 성과 현장 적용과 중소기업 기술사업화 지원을 위해 지난 17일 2026년 연구개발 포럼을 개최했다. 이날 포럼은 연구개발 역량 강화와 중소기업 지원 방안을 공유하는 장으로 꾸며졌다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-21T14:02:50.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70250",
+      "collectedAt": "2026-06-23T06:11:35.038Z",
+      "bodySnippet": "한국중부발전(주)(사장 이영조)이 연구개발 성과 현장 적용과 중소기업 기술사업화 지원을 위해 지난 17일 2026년 연구개발 포럼을 개최했다. 이날 포럼은 연구개발 역량 강화와 중소기업 지원 방안을 공유하는 장으로 꾸며졌다."
+    },
+    {
+      "id": "9f378a1e-63ef-446b-b9f3-cde673edf288",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "에너지공단, 에너지 수요통계 전문가 협의체 출범",
+      "titleOriginal": null,
+      "summary": "한국에너지공단(이사장 최재관)이 국가 에너지정책 수립 기초자료가 되는 에너지 수요통계 신뢰성과 활용성을 높이는 역할을 하게 될 2026년도 에너지 수요통계 전문가 협의체를 출범시키는 발대식을 지난 18일 엘타워(서울 서초구 소재)에서 개최했다. 이 협의체는 에너지 수요통계 신뢰성과 활용도를 높이고 통계사업 모든 과정을 체계적으로 관리하기 위해 꾸려졌다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-21T13:48:39.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70249",
+      "collectedAt": "2026-06-23T06:11:35.436Z",
+      "bodySnippet": "한국에너지공단(이사장 최재관)이 국가 에너지정책 수립 기초자료가 되는 에너지 수요통계 신뢰성과 활용성을 높이는 역할을 하게 될 2026년도 에너지 수요통계 전문가 협의체를 출범시키는 발대식을 지난 18일 엘타워(서울 서초구 소재)에서 개최했다. 이 협의체는 에너지 수요통계 신뢰성과 활용도를 높이고 통계사업 모든 과정을 체계적으로 관리하기 위해 꾸려졌다."
+    },
+    {
+      "id": "5643284f-bcca-4414-84e1-ac5e79ac9878",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "석탄발전 인프라 활용 SMR 전환 검토 (#남동발전 #현대건설)",
+      "titleOriginal": null,
+      "summary": "",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-21T08:49:06.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70247",
+      "collectedAt": "2026-06-23T06:11:39.180Z",
+      "bodySnippet": ""
+    }
+  ]
 }
