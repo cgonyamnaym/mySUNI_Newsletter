@@ -278,16 +278,15 @@ async function crawlScrape(sources, { daysBack = 1, noSummarize = false, startDa
 
     const newItems = allItems.filter(i => newUrls.includes(i.url))
     
-    // 원문 링크 접속 유효성 검사 (404 등 제외)
-    const validItems = []
-    for (const item of newItems) {
+    // 원문 링크 접속 유효성 병렬 검사 (404 등 제외)
+    const urlCheckResults = await Promise.all(newItems.map(async item => {
       const isValid = await isUrlAccessible(item.url)
-      if (isValid) {
-        validItems.push(item)
-      } else {
-        console.log(`    ⚠ 접속 불가 (404 등) 제외: ${item.url}`)
-      }
-    }
+      if (!isValid) console.log(`    ⚠ 접속 불가 (404 등) 제외: ${item.url}`)
+      return { item, valid: isValid }
+    }))
+    const validItems = urlCheckResults.filter(r => r.valid).map(r => r.item)
+    // 접속 불가 URL은 seen에 등록 → 다음 실행에서 재검사 방지
+    const inaccessibleUrls = urlCheckResults.filter(r => !r.valid).map(r => r.item.url)
 
     if (validItems.length === 0) {
       console.log(`  → 신규 기사 중 유효한 링크 없음`)
@@ -306,16 +305,15 @@ async function crawlScrape(sources, { daysBack = 1, noSummarize = false, startDa
       continue
     }
 
-    // 본문 10문장 이상 필터 (bodyText도 함께 보존 → 요약 fallback 및 Gemini content 활용)
-    const bodyPassItems = []
-    for (const item of relevantItems) {
+    // 본문 10문장 이상 필터 병렬 실행 (bodyText도 함께 보존 → 요약 fallback 및 Gemini content 활용)
+    const bodyCheckResults = await Promise.all(relevantItems.map(async item => {
       const { passes, sentenceCount, bodyText } = await isBodyLongEnough(item.url)
-      if (passes) {
-        bodyPassItems.push({ ...item, bodyText })
-      } else {
-        console.log(`    ⚠ 본문 ${sentenceCount}문장 (10 미만) 제외: ${item.url}`)
-      }
-    }
+      if (!passes) console.log(`    ⚠ 본문 ${sentenceCount}문장 (10 미만) 제외: ${item.url}`)
+      return { item: { ...item, bodyText }, passes, url: item.url }
+    }))
+    const bodyPassItems = bodyCheckResults.filter(r => r.passes).map(r => r.item)
+    // 본문 부족 URL도 seen에 등록 → 다음 실행에서 재검사 방지
+    const shortBodyUrls = bodyCheckResults.filter(r => !r.passes).map(r => r.url)
 
     if (bodyPassItems.length === 0) {
       console.log(`  → 본문 길이 필터 후 기사 없음`)
@@ -390,7 +388,7 @@ async function crawlScrape(sources, { daysBack = 1, noSummarize = false, startDa
       passedUrls.push(item.url)
     }
 
-    markSeen([...passedUrls, ...aiRejectedUrls], seen, { dryRun })
+    markSeen([...passedUrls, ...aiRejectedUrls, ...inaccessibleUrls, ...shortBodyUrls], seen, { dryRun })
     await new Promise(r => setTimeout(r, 800))
   }
 

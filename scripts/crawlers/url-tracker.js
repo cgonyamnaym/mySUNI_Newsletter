@@ -53,13 +53,15 @@ function markSeen(urls, existingSeen, { dryRun = false } = {}) {
  * @param {string} url
  * @returns {Promise<boolean>}
  */
+const URL_CHECK_TIMEOUT_MS = parseInt(process.env.URL_CHECK_TIMEOUT_MS ?? '5000')
+
 async function isUrlAccessible(url) {
   try {
-    const res = await fetch(url, { method: 'HEAD', headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' }, signal: AbortSignal.timeout(10000) })
+    const res = await fetch(url, { method: 'HEAD', headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' }, signal: AbortSignal.timeout(URL_CHECK_TIMEOUT_MS) })
     if (res.ok) return true
     // 405(HEAD 미지원), 403(봇 차단), 404(HEAD에서 오탐 — e2news 등) 모두 GET으로 재확인
     if (res.status === 405 || res.status === 403 || res.status === 404) {
-      const getRes = await fetch(url, { method: 'GET', headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' }, signal: AbortSignal.timeout(10000) })
+      const getRes = await fetch(url, { method: 'GET', headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' }, signal: AbortSignal.timeout(URL_CHECK_TIMEOUT_MS) })
       return getRes.ok
     }
     return false

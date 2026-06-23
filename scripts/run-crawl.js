@@ -144,6 +144,9 @@ function alreadyCollectedToday() {
 }
 
 // ── 누락 날짜 감지 + daysBack 자동 확장 ─────────────
+// MAX_CRAWL_DAYS: Actions에서 2로 고정해 타임아웃 방지, 로컬은 제한 없음
+const MAX_CRAWL_DAYS = parseInt(process.env.MAX_CRAWL_DAYS ?? '999')
+
 function calcEffectiveDaysBack() {
   if (startDate || endDate) return daysBack
   // 최근 3일 중 파일이 없거나 비어있는 날이 있으면 daysBack을 늘려서 백필
@@ -164,8 +167,9 @@ function calcEffectiveDaysBack() {
     }
   }
   if (maxMissing > daysBack) {
-    console.log(`ℹ 최근 ${maxMissing}일 전 파일 누락 감지 → daysBack ${daysBack} → ${maxMissing + 1}로 자동 확장`)
-    return maxMissing + 1
+    const expanded = Math.min(maxMissing + 1, MAX_CRAWL_DAYS)
+    console.log(`ℹ 최근 ${maxMissing}일 전 파일 누락 감지 → daysBack ${daysBack} → ${expanded}로 자동 확장`)
+    return expanded
   }
   return daysBack
 }

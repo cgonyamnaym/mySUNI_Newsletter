@@ -98,21 +98,17 @@ async function crawlRss(sources, { daysBack = 1, noSummarize = false, startDate,
     const newItems = recentItems.filter(i => newUrls.includes(i.link))
     const isTrusted = TRUSTED_ENERGY_SOURCES.has(source.id)
 
-    // 원문 링크 접속 유효성 검사 (신뢰 소스는 면제 — 페이월/봇차단 오탐 방지)
-    const validItems = []
-    for (const item of newItems) {
-      if (isTrusted) {
-        validItems.push(item)
-        continue
-      }
+    // 원문 링크 접속 유효성 검사 병렬 실행 (신뢰 소스는 면제 — 페이월/봇차단 오탐 방지)
+    const urlCheckResults = await Promise.all(newItems.map(async item => {
+      if (isTrusted) return { item, valid: true }
       const finalUrl = (item.source && item.source.url) ? item.source.url : item.link
       const isValid = await isUrlAccessible(finalUrl)
-      if (isValid) {
-        validItems.push(item)
-      } else {
-        console.log(`    ⚠ 접속 불가 (404 등) 제외: ${finalUrl}`)
-      }
-    }
+      if (!isValid) console.log(`    ⚠ 접속 불가 (404 등) 제외: ${finalUrl}`)
+      return { item, valid: isValid, finalUrl }
+    }))
+    const validItems = urlCheckResults.filter(r => r.valid).map(r => r.item)
+    // 접속 불가 URL은 seen에 등록 → 다음 실행에서 재검사 방지
+    const inaccessibleUrls = urlCheckResults.filter(r => !r.valid && !isTrusted).map(r => r.finalUrl)
 
     if (validItems.length === 0) {
       console.log(`  → 신규 기사 중 유효한 링크 없음`)
@@ -131,21 +127,17 @@ async function crawlRss(sources, { daysBack = 1, noSummarize = false, startDate,
       continue
     }
 
-    // 본문 10문장 이상 필터 (신뢰 소스는 면제 — 페이월 기사도 RSS 콘텐츠로 요약)
-    const bodyPassItems = []
-    for (const item of relevantItems) {
-      if (isTrusted) {
-        bodyPassItems.push(item)
-        continue
-      }
+    // 본문 10문장 이상 필터 병렬 실행 (신뢰 소스는 면제 — 페이월 기사도 RSS 콘텐츠로 요약)
+    const bodyCheckResults = await Promise.all(relevantItems.map(async item => {
+      if (isTrusted) return { item, passes: true }
       const url = (item.source && item.source.url) ? item.source.url : item.link
       const { passes, sentenceCount } = await isBodyLongEnough(url)
-      if (passes) {
-        bodyPassItems.push(item)
-      } else {
-        console.log(`    ⚠ 본문 ${sentenceCount}문장 (10 미만) 제외: ${url}`)
-      }
-    }
+      if (!passes) console.log(`    ⚠ 본문 ${sentenceCount}문장 (10 미만) 제외: ${url}`)
+      return { item, passes, url }
+    }))
+    const bodyPassItems = bodyCheckResults.filter(r => r.passes).map(r => r.item)
+    // 본문 부족 URL도 seen에 등록 → 다음 실행에서 재검사 방지
+    const shortBodyUrls = bodyCheckResults.filter(r => !r.passes && !isTrusted).map(r => r.url)
 
     if (bodyPassItems.length === 0) {
       console.log(`  → 본문 길이 필터 후 기사 없음`)
@@ -225,7 +217,7 @@ async function crawlRss(sources, { daysBack = 1, noSummarize = false, startDate,
       passedUrls.push(finalUrl)
     }
 
-    markSeen([...passedUrls, ...aiRejectedUrls], seen, { dryRun })
+    markSeen([...passedUrls, ...aiRejectedUrls, ...inaccessibleUrls, ...shortBodyUrls], seen, { dryRun })
 
     // 소스 간 요청 간격 (서버 부하 방지)
     await new Promise(r => setTimeout(r, 500))

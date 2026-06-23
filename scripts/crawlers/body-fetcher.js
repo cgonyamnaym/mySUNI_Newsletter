@@ -7,7 +7,7 @@
 const cheerio = require('cheerio')
 
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-const TIMEOUT_MS = parseInt(process.env.BODY_CHECK_TIMEOUT_MS ?? '8000')
+const TIMEOUT_MS = parseInt(process.env.BODY_CHECK_TIMEOUT_MS ?? '5000')
 const DEFAULT_MIN_SENTENCES = 10
 
 // ── 페이월 / 로그인 감지 ────────────────────────────────────────────────────────
