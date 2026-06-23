@@ -1,7 +1,7 @@
 {
   "date": "2026-06-22",
-  "generatedAt": "2026-06-23T06:00:31.399Z",
-  "articleCount": 144,
+  "generatedAt": "2026-06-23T22:35:14.003Z",
+  "articleCount": 147,
   "articles": [
     {
       "id": "1d78d99e-4ce3-4bd9-851d-d39af0f2943e",
@@ -2733,6 +2733,66 @@
       "originalUrl": "https://www.kaif.or.kr/ko/?c=251&s=250&gp=1&gbn=view&ix=29931",
       "collectedAt": "2026-06-23T06:00:26.633Z",
       "bodySnippet": "6월 22일 월요일 원자력 투데이뉴스 제41회 원자력관리자를 위한 하계강좌 교육생 모집 (~ 6. 24.) 일시/장소 : 2026. 7. 1. (수) ~ 7. 3. (금) / 서울대 43-2동 B101강의실 제225회 원자력계 조찬강연회 (참가자 모집 : ~ 6. 25. 목) 2026. 7. 3. (금) / 웨스틴조선 서울 2층 오키드룸 2026년 제2차 원자력 품질보증 및 안전문화 제고 과정 교육생 모집 (~ 7. 10.) 일시/장소 : 2026. 7. 15. (수) ~ 7. 16. (목) / 스페이스쉐어 서울역센터 루비홀(3층) 제3기 원전산업 최고경영자 과정 교육생 모집 (~ 7. 31.) 일시/장소 : 2026. 8. 21. (금) ~ 2027. 1. 15. (금) / 노보텔 앰배서더 서울 강남 2026년 원전산업 일반 과정 시행 (연중) 일시/장소 : 연중상시 / 온라인 (원자력 교육 시스템 NES)"
+    },
+    {
+      "id": "526c065d-bb3e-49e2-8ecc-7305bf4d32bf",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "New podcast: Floating wind giants | US merger | Wake effect | Chinese OEMs",
+      "titleOriginal": "New podcast: Floating wind giants | US merger | Wake effect | Chinese OEMs",
+      "summary": "Welcome to the Wind Power News Review – hosted by Windpower Monthly's senior reporter, Robyn White, and Windpower Monthly's reporter, Orlando Jenkinson – along with our regular panellist, Sorcha Verst",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-22T08:18:00.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1962178/new-podcast-floating-wind-giants-us-merger-wake-effect-chinese-oems",
+      "collectedAt": "2026-06-23T22:19:42.837Z",
+      "bodySnippet": "Welcome to the Wind Power News Review – hosted by Windpower Monthly's senior reporter, Robyn White, and Windpower Monthly's reporter, Orlando Jenkinson – along with our regular panellist, Sorcha Versteeg. "
+    },
+    {
+      "id": "54b90850-654b-4583-99d7-947062f53a9f",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Major critical infrastructure disruptions are inevitable, acting CISA chief says",
+      "titleOriginal": "Major critical infrastructure disruptions are inevitable, acting CISA chief says",
+      "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/VnCCflMt_DiptbTZu9wqZlTq7YwIxmlQXxe9e9XM4YI/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9uaWNrLWFuZGVyc2VuLWl0aV9abXJZSlFTLmpw",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-22T15:00:00.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/cybersecurity-resilience-critical-infrastructure-cisa-nick-andersen/823391/",
+      "collectedAt": "2026-06-23T22:22:46.901Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/VnCCflMt_DiptbTZu9wqZlTq7YwIxmlQXxe9e9XM4YI/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9uaWNrLWFuZGVyc2VuLWl0aV9abXJZSlFTLmpwZw==.webp\"/></div></figure><p>In recent years, the U.S. government has reoriented its cybersecurity strategy away from prevention and toward resilience.</p>"
+    },
+    {
+      "id": "0c76afd1-cf28-4fd9-a17e-3be420eaa770",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Texas, facing 438 GW queue, approves initial large-load interconnection process",
+      "titleOriginal": "Texas, facing 438 GW queue, approves initial large-load interconnection process",
+      "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/JiAjfvuxN14Af8YsqD8XO1yqNUtJvrHaZq038gT1jRg/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9QVUNUXzYuMjIucG5n.webp\"/></div></figu",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-22T12:26:44.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/texas-facing-438-gw-queue-approves-initial-large-load-interconnection-pro/823367/",
+      "collectedAt": "2026-06-23T22:22:54.871Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/JiAjfvuxN14Af8YsqD8XO1yqNUtJvrHaZq038gT1jRg/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9QVUNUXzYuMjIucG5n.webp\"/></div></figure><p>The first projects to navigate the process will be called &ldquo;Batch Zero.&quot; The Electric Reliability Council of Texas says its large-load queue is almost 90% data centers.</p>"
     }
   ]
 }
