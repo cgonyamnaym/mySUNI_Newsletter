@@ -378,8 +378,16 @@ export function screenArticles(
   return selected
 }
 
-export function getScoreLabel(score: number): { label: string; bg: string; text: string } {
-  if (score >= 75) return { label: '연관성 높음', bg: 'rgba(0,191,64,0.12)', text: '#00BF40' }
-  if (score >= 45) return { label: '연관성 보통', bg: 'rgba(255,107,0,0.10)', text: '#FF6B00' }
-  return { label: '연관성 낮음', bg: 'rgba(112,115,124,0.10)', text: '#70737C' }
+export function getScoreLabel(
+  score: number,
+  min: number,
+  max: number,
+): { label: string; bg: string; text: string } {
+  const range = max - min
+  const pct = range === 0 ? 50 : ((score - min) / range) * 100
+  if (pct >= 80) return { label: '매우 높음', bg: 'rgba(0,191,64,0.15)',   text: '#00A832' }
+  if (pct >= 60) return { label: '높음',     bg: 'rgba(0,191,64,0.08)',   text: '#00BF40' }
+  if (pct >= 40) return { label: '보통',     bg: 'rgba(255,193,7,0.12)',  text: '#B38600' }
+  if (pct >= 20) return { label: '낮음',     bg: 'rgba(255,107,0,0.10)', text: '#FF6B00' }
+  return              { label: '매우 낮음', bg: 'rgba(112,115,124,0.10)', text: '#70737C' }
 }

@@ -146,6 +146,13 @@ export default function ScreeningPage() {
     [screened]
   )
 
+  // 동적 백분위 계산용 min/max
+  const [scoreMin, scoreMax] = useMemo(() => {
+    if (screened.length === 0) return [0, 0]
+    const scores = screened.map((a) => a.relevanceScore)
+    return [Math.min(...scores), Math.max(...scores)]
+  }, [screened])
+
   function toggleArticle(id: string) {
     setSelectedIds((prev) => {
       const next = new Set(prev)
@@ -311,7 +318,7 @@ export default function ScreeningPage() {
             {screened.map((article) => {
               const rank = rankMap.get(article.id) ?? 0
               const checked = selectedIds.has(article.id)
-              const scoreInfo = getScoreLabel(article.relevanceScore)
+              const scoreInfo = getScoreLabel(article.relevanceScore, scoreMin, scoreMax)
               return (
                 <li
                   key={article.id}

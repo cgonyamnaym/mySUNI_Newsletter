@@ -114,6 +114,12 @@ function CollectPageInner() {
     [screened]
   )
 
+  const [scoreMin, scoreMax] = useMemo(() => {
+    if (screened.length === 0) return [0, 0]
+    const scores = screened.map((a) => a.relevanceScore)
+    return [Math.min(...scores), Math.max(...scores)]
+  }, [screened])
+
   const anyScreenedSelected = screened.some((a) => selectedIds.has(a.id))
 
   function toggleArticle(id: string) {
@@ -216,7 +222,7 @@ function CollectPageInner() {
             {screened.map((article) => {
               const rank = rankMap.get(article.id) ?? 0
               const checked = selectedIds.has(article.id)
-              const scoreInfo = getScoreLabel(article.relevanceScore)
+              const scoreInfo = getScoreLabel(article.relevanceScore, scoreMin, scoreMax)
               return (
                 <li
                   key={article.id}
