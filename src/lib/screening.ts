@@ -385,9 +385,9 @@ export function getScoreLabel(
 ): { label: string; bg: string; text: string } {
   const range = max - min
   const pct = range === 0 ? 50 : ((score - min) / range) * 100
-  if (pct >= 80) return { label: '매우 높음', bg: 'rgba(0,191,64,0.15)',   text: '#00A832' }
-  if (pct >= 60) return { label: '높음',     bg: 'rgba(0,191,64,0.08)',   text: '#00BF40' }
-  if (pct >= 40) return { label: '보통',     bg: 'rgba(255,193,7,0.12)',  text: '#B38600' }
-  if (pct >= 20) return { label: '낮음',     bg: 'rgba(255,107,0,0.10)', text: '#FF6B00' }
+  if (pct >= 80) return { label: '매우 높음', bg: 'rgba(0,168,50,0.12)',   text: '#00A832' }
+  if (pct >= 60) return { label: '높음',     bg: 'rgba(72,187,120,0.15)', text: '#276749' }
+  if (pct >= 40) return { label: '보통',     bg: 'rgba(217,119,6,0.12)',  text: '#D97706' }
+  if (pct >= 20) return { label: '낮음',     bg: 'rgba(229,62,62,0.10)',  text: '#E53E3E' }
   return              { label: '매우 낮음', bg: 'rgba(112,115,124,0.10)', text: '#70737C' }
 }

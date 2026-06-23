@@ -348,7 +348,7 @@ export default function ScreeningPage() {
                           className="inline-flex items-center px-2.5 py-0.5 rounded-full text-[11px] font-bold"
                           style={{ background: scoreInfo.bg, color: scoreInfo.text }}
                         >
-                          {scoreInfo.label} {article.relevanceScore}점
+                          {scoreInfo.label}
                         </span>
                         <span className="text-wds-gray-300 text-[10px]">|</span>
                         <span className="text-[12px] font-semibold text-wds-gray-600">{article.source}</span>
