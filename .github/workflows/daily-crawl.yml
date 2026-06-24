@@ -48,3 +48,14 @@ jobs:
 
           # 변경된 사항이 있을 때만 커밋
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: 🤖 매일 뉴스 자동 업데이트" && git push)
+
+      - name: Vercel 재배포 트리거
+        env:
+          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -n "$VERCEL_DEPLOY_HOOK" ]; then
+            curl -s -X POST "$VERCEL_DEPLOY_HOOK"
+            echo "Vercel 재배포 요청 완료"
+          else
+            echo "VERCEL_DEPLOY_HOOK 미설정 — 스킵"
+          fi
