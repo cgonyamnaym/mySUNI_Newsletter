@@ -1,7 +1,7 @@
 {
   "date": "2026-06-27",
-  "generatedAt": "2026-06-26T22:31:23.241Z",
-  "articleCount": 1,
+  "generatedAt": "2026-06-27T22:08:46.446Z",
+  "articleCount": 12,
   "articles": [
     {
       "id": "19ca4b2a-cf24-4cf7-b010-08199515c994",
@@ -19,6 +19,214 @@
       "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200872",
       "collectedAt": "2026-06-26T22:24:12.898Z",
       "bodySnippet": "[에너지데일리 변국영 기자 ] 한국산업안전보건공단이 외국인 노동자의 산업재해 예방과 안전문화 확산을 위해 캄보디아 출신 프로당구 선수 스롱 피아비를 '명예 외국인 안전리더'로 위촉했다. 외국인 근로자가 꾸준히 증가하는 산업현장에서 언어와 문화의 장벽을 낮추고 안전보건 정책의 현장 체감도를 높이기 위한 소통 전략의 일환으로 풀이된다.특히 외국인 노동자의 산업재해가 여전히 사회적 과제로 남아 있는 가운데 공단이 대중적 인지도가 높은 스포츠 스타를 안전홍보대사로 위촉한 것은 안전수칙 전달의 친숙성과 접근성을 높여 예방 중심의 안전문화 정"
+    },
+    {
+      "id": "1b8a124a-0859-4fd7-ae57-e97a07c84bae",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "낮은 온도, 높은 히트펌프 효율",
+      "titleOriginal": "Lower temperatures, higher heat pump efficiency",
+      "summary": "영국 히트펌프 설치에 대한 대규모 연구에서 가상 성능과 실제 데이터 간의 큰 격차가 드러났습니다. 옥스퍼드 대학의 Jan Rosenow와 Heat Pump Monitor의 Trystan Lea는 설치업체가 커미셔닝 변경을 통해 고객을 위해 더 높은 SPF(계절 성능 계수) 등급을 달성할 수 있다고 설명했습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-27T04:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/06/27/lower-temperatures-higher-heat-pump-efficiency/",
+      "collectedAt": "2026-06-27T22:06:20.768Z",
+      "bodySnippet": "<p>A large-scale study of UK heat pump installations has revealed a major gap between hypothetical performance and real-world data. Changes to commissioning could make all the difference. pv magazine caught up with Oxford University’s Jan Rosenow and Heat Pump Monitor’s Trystan Lea to hear how installers can achieve higher seasonal performance factor (SPF) ratings for their customers.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/06/27/lower-temperatures-higher-heat-pump-efficiency/\">Lower temperatures, higher heat pump efficiency</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "45fb0a9f-9c6d-4f8b-b842-1e96f0b9245d",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "KOMERI, 한-스페인 공동개발 25MW급 부유식 해상풍력 플랫폼 AIP 획득",
+      "titleOriginal": null,
+      "summary": "한국조선해양기자재연구원(KOMERI)이 한-스페인 국제공동연구를 통해 개발한 25MW급 부유식 해상풍력터빈용 강-콘크리트 하이브리드 SPAR 플랫폼이 한국선급(KR)으로부터 원칙승인(AIP)을 획득했다. 이는 기후에너지환경부와 한국에너지기술평가원이 지원하는 에너지국제공동연구사업의 성과이다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-27T13:53:55.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=369632",
+      "collectedAt": "2026-06-27T22:06:54.379Z",
+      "bodySnippet": "한국조선해양기자재연구원(KOMERI)이 한-스페인 국제공동연구를 통해 개발한 25MW급 부유식 해상풍력터빈용 강-콘크리트 하이브리드 SPAR 플랫폼의 기술력을 공식 인정받았다.KOMERI(원장 배정철)는 한-스페인 국제공동연구 컨소시엄이 개발한 25MW급 부유식 해상풍력터빈용 강-콘크리트 하이브리드 SPAR 플랫폼이 한국선급(KR)으로부터 원칙승인(AIP, Approval in Principle)을 획득했다고 밝혔다.이번 성과는 기후에너지환경부와 한국에너지기술평가원이 지원하는 에너지국제공동연구사업인 '한-스페인 25MW급 레퍼런스"
+    },
+    {
+      "id": "83ee3d1e-5ce6-4189-8f14-098f744156b0",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "비올라 린 대만풍력산업협회장 “해상풍력 세계 5위 대만, CPPA 활성화로 RE100 대비”",
+      "titleOriginal": null,
+      "summary": "대만은 지난해 5GW가 넘는 해상풍력 설치로 세계 5위 강국으로 부상했으며, 정부 보조금 없이 기업이 재생에너지를 직접 구매하는 CPPA 제도로 전환하여 RE100 수요에 대비하고 있다. 대만은 전력 다소비 기업에 재생에너지 의무 구매를 법제화하고 100여 개 기업이 RE100에 가입하며 재생에너지 수요를 확대하고 있으며, 이는 국내 재생에너지 산업이 나아가야 할 방향으로 제시된다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-27T10:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=369505",
+      "collectedAt": "2026-06-27T22:06:59.464Z",
+      "bodySnippet": "지난해 5GW가 넘는 해상풍력을 설치한 대만은 명실상부한 글로벌 해상풍력 강국으로 떠올랐다. 대만은 지난 2018년부터 1단계 입찰(Round1)을 실시하면서 정부 고정가격계약을 중심으로 해상풍력을 육성했으나 지난 2022년 Round3가 시작되면서 정부 보조금 없이 기업이 재생에너지를 직접 구매하는 CPPA 제도로 전환했다.대만은 재생에너지개발법 제12조에 따라 전력 다소비 기업에 재생에너지 의무 구매를 법제화하고 있고 RE100에 가입한 기업은 100여 개가 넘어 재생에너지 수요는 점차 확대될 것으로 전망된다. 이런 구조는 국내 재생에너지 산업이 정부 보조금 없이 사업을 진행할 수 있도록 나아가야 할 방향이기도 하다. 비올라 린 대만풍력산업협회장을 만나 대만의 전력 시장과 해상풍력의 역할에 대해 물었다.▶대만의 해상풍력 현황에 대해 소개해 달라“얼마 전 대만해협에서 500번째 터빈을 설치한 후 축하하는 행사가 있었다. 지난 2025년 기준 해상풍력 설치용량은 5GW가 넘은 것으로 추정되며 이는 설치용량 기준으로는 세계 5위에 해당하는 규모로 볼 수 있다. 지금까지 설치된 해상풍력은 Round2 입찰에서 할당된 단지들이 완공된 것이며 오는 9월 Round3"
+    },
+    {
+      "id": "421ddb5f-53c0-463f-898f-07d25b769414",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "집단E 공급대상지역 변경 공고…용량시장 재개 기대감↑",
+      "titleOriginal": null,
+      "summary": "장기간 무소식이던 집단에너지 공급대상지역 공고가 발표되면서 LNG 용량시장 역시 조만간 본격화될 것이라는 기대감이 커지고 있다.기후에너지환경부는 최근 집단에너지 공급대상지역 변경을 공고했다. 이번 공고는 지난해 9월 산업부가 예비공고한 내용을 최종 확정한 것으로, 약 9개월 만에 후속 절차가 마무리 된 것이다.집단에너지 공급대상지역은 예비공고 이후 이해관계",
+      "topics": [
+        "정책·규제"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-06-27T07:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=369552",
+      "collectedAt": "2026-06-27T22:07:06.990Z",
+      "bodySnippet": "장기간 무소식이던 집단에너지 공급대상지역 공고가 발표되면서 LNG 용량시장 역시 조만간 본격화될 것이라는 기대감이 커지고 있다.기후에너지환경부는 최근 집단에너지 공급대상지역 변경을 공고했다. 이번 공고는 지난해 9월 산업부가 예비공고한 내용을 최종 확정한 것으로, 약 9개월 만에 후속 절차가 마무리 된 것이다.집단에너지 공급대상지역은 예비공고 이후 이해관계자 의견 수렴과 자문위원회 심의를 거쳐 최종 지정된다. 기후부는 지난 4월 자문위원회를 개최해 최종안을 확정했으며 변경 대상 지역만 우선 공고했다고 밝혔다.업계가 이번 공고에 주목하는 이유는 LNG 용량시장 재개의 신호로 해석하고 있기 때문이다.집단에너지사업은 공급대상지역이 확정돼야 사업자가 사업 참여 여부를 결정하고 사업허가를 신청할 수 있다. 과거에는 전기위원회의 발전사업 허가를 거쳐 사업을 추진했지만, LNG 용량시장 도입 이후에는 용량시장을 통해 사업자를 선정하는 구조로 바뀌었다.이에 따라 공급대상지역 지정과 사업허가, LNG 용량시장 일정은 사실상 하나의 절차로 연계돼 추진된다고 볼 수 있다. 지난해 예비공고 이후 최종 공고가 늦어진 것도 용량시장 일정이 불확실했기 때문이라는 관측이 적지 않았다.L"
+    },
+    {
+      "id": "6f4bf074-22c4-4e33-8ec3-2176aa456e6f",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[베일에 싸인 정부인증] (下·끝) “공개 강제할 법적 근거 없다”...정부도 인정한 제도 공백",
+      "titleOriginal": null,
+      "summary": "인증규격서 미공개가 가져오는 가장 큰 문제는 ‘인증 적용 기술의 실제 반영 여부를 확인할 수 없다’는 점이다. 성능인증을 비롯한 기술개발제품은 인증 당시 심사위원들에게 적합성을 인정받은 특허나 신기술, 핵심 부품이 완제품에 그대로 반영되어 생산·납품돼야 한다.그러나 최종 규격서가 비공개 상태라면 납품을 받는 공공기관의 검수 담당자나 시장의 이해관계자가 실제",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-06-27T07:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=369477",
+      "collectedAt": "2026-06-27T22:07:07.261Z",
+      "bodySnippet": "인증규격서 미공개가 가져오는 가장 큰 문제는 ‘인증 적용 기술의 실제 반영 여부를 확인할 수 없다’는 점이다. 성능인증을 비롯한 기술개발제품은 인증 당시 심사위원들에게 적합성을 인정받은 특허나 신기술, 핵심 부품이 완제품에 그대로 반영되어 생산·납품돼야 한다.그러나 최종 규격서가 비공개 상태라면 납품을 받는 공공기관의 검수 담당자나 시장의 이해관계자가 실제 납품된 제품에 핵심 기술이 빠짐없이 적용됐는지 물리적으로 확인할 방법이 없게 된다. ◆적발할 길 없는 ‘깡통 납품’이로 인해 조달업계 일각에서는 인증 심사 통과용 특허만 걸어두고, 실제 양산·납품 시에는 원가 절감 등을 이유로 핵심 부품을 빼돌리는 이른바 ‘서류용 기술제품’이나 ‘깡통 납품’ 꼼수가 횡행해도 적발하기 어려운 구조라고 입을 모은다.발주청이 특정 업체의 성능인증 제품을 염두에 두고 수의계약 입찰공고를 낼 때 ‘발주 규격’과 실제 ‘인증 규격’이 일치하는지도 외부에서 전혀 검증할 수 없기 때문이다. 특정 업체에 특혜를 주기 위해 발주 규격을 과도하게 왜곡하더라도 경쟁업체나 공익 제보자가 이를 잡아낼 길이 막혀 있어, 사실상 ‘밀실 조달’이라는 게 조달업계의 주장이다.이런 문제의식은 정부에도 여러"
+    },
+    {
+      "id": "5a01f099-41ea-4e61-9ae9-5d0950cd85cd",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "김도원 기계전기전자시험연구원 AI·SW융합센터장, “TrustAI, ISO/IEC 국제표준･근거 기반 전주기 통합 평가체계”",
+      "titleOriginal": null,
+      "summary": "한국기계전기전자시험연구원(KTC)은 국내 기업들이 개발한 AI 제품 및 서비스의 신뢰성 확보를 지원하고자 ‘TrustAI 인증 서비스’를 최근 론칭했다.TrustAI 인증은 단편적 기능 평가가 아닌 산업 현장에서 요구되는 AI 시스템의 안전성, 품질, 신뢰성, 위험관리 요소 등을 통합적으로 검증해 AI 기술의 전주기 평가 체계를 제공한다는 점에서 기존 인증",
+      "topics": [
+        "정책·규제"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-06-27T07:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=369469",
+      "collectedAt": "2026-06-27T22:07:11.265Z",
+      "bodySnippet": "한국기계전기전자시험연구원(KTC)은 국내 기업들이 개발한 AI 제품 및 서비스의 신뢰성 확보를 지원하고자 ‘TrustAI 인증 서비스’를 최근 론칭했다.TrustAI 인증은 단편적 기능 평가가 아닌 산업 현장에서 요구되는 AI 시스템의 안전성, 품질, 신뢰성, 위험관리 요소 등을 통합적으로 검증해 AI 기술의 전주기 평가 체계를 제공한다는 점에서 기존 인증들과 차별성을 가진다.TrustAI 인증을 주도하고 있는 김도원 KTC AI·SW융합센터 센터장은 “TrustAI 인증을 고도화하고, 국제 인증기관과의 상호인정협정(MRA)을 강화하는 등 인증의 글로벌 통용성을 높여가겠다”고 강조했다.피지컬 AI(Physical AI)에 특화된 평가 체계를 강화함으로써 로봇·자율주행·산업용 제어시스템 등 현실 물리세계와 직접 상호작용하는 AI 소프트웨어에 적합한 신뢰성 평가 기준을 구체화해 나가겠다는 뜻도 내비쳤다.AI 기술의 확산 속도가 규제와 인증체계로 따라가기 어려울 정도로 빨라진 상황에서 TrustAI 인증이 안전한 AI 사회로 나아가기 위한 필수요소로 자리매김할 수 있도록 노력하겠다는 말도 전했다. ▶KTC AI·SW융합센터와 최근 론칭한 TrustAI 인증 서비스"
+    },
+    {
+      "id": "70a119d4-b00b-4938-bedd-2f515645742c",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "발전공기업 통합 실행모두 전환…통합준비반 곧 가동",
+      "titleOriginal": null,
+      "summary": "발전공기업 통합을 위한 전담조직인 통합준비반이 조만간 가동에 들어가는 등 발전공기업 통합 작업이 본격화될 것으로 전망된다. 최근 열린 연구용역 중간보고회에서 발전공기업을 하나로 통합하는 것이 최적 대안이란 결과가 나왔고, 양대노총 노조가 찬성의 입장을 밝히면서 발전공기업 통합 작업이 속도를 내는 모습이다. 최근 업계에 따르면 지난 23일 발전공기업 통합과 ",
+      "topics": [
+        "정책·규제"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-06-27T18:47:34.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70280",
+      "collectedAt": "2026-06-27T22:07:32.208Z",
+      "bodySnippet": "발전공기업 통합을 위한 전담조직인 통합준비반이 조만간 가동에 들어가는 등 발전공기업 통합 작업이 본격화될 것으로 전망된다. 최근 열린 연구용역 중간보고회에서 발전공기업을 하나로 통합하는 것이 최적 대안이란 결과가 나왔고, 양대노총 노조가 찬성의 입장을 밝히면서 발전공기업 통합 작업이 속도를 내는 모습이다. 최근 업계에 따르면 지난 23일 발전공기업 통합과 관련해 기후에너지부 전력산업정책과장과 발전공기업 기획처장이 참석한 관련 회의가 열렸다."
+    },
+    {
+      "id": "410cb583-4701-433f-b74b-83009a801eb6",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "수력‧양수발전! 전략 재편 불가피 (#수력산업협회 #황태규)",
+      "titleOriginal": null,
+      "summary": "",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-27T15:45:44.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70279",
+      "collectedAt": "2026-06-27T22:07:34.196Z",
+      "bodySnippet": ""
+    },
+    {
+      "id": "cd1ec9f8-bf2f-4500-8848-a82f3af90012",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한난 노사 2030년 중대재해 ZERO 선언",
+      "titleOriginal": null,
+      "summary": "지역난방공사 노사가 앞으로 5년간 중대재해 제로에 도전장을 던졌다. 한국지역난방공사(사장 하동근)는 2030년까지 중대재해 제로 달성을 목표로 한 ‘2026~2030년 중장기 안전경영전략’을 수립하고 지난 25일 본사(경기 성남시 소재)에서 안전경영전략 선포식을 개최했다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-27T09:34:54.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70278",
+      "collectedAt": "2026-06-27T22:07:38.196Z",
+      "bodySnippet": "지역난방공사 노사가 앞으로 5년간 중대재해 제로에 도전장을 던졌다. 한국지역난방공사(사장 하동근)는 2030년까지 중대재해 제로 달성을 목표로 한 ‘2026~2030년 중장기 안전경영전략’을 수립하고 지난 25일 본사(경기 성남시 소재)에서 안전경영전략 선포식을 개최했다."
+    },
+    {
+      "id": "2ae9c168-eb7c-4d90-bf54-9ff8ac26a1c3",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한울원전, 울진 소상공인 역량강화 지원",
+      "titleOriginal": null,
+      "summary": "한국수력원자력(주) 한울원자력본부(본부장 이세용)가 울진군소상공인연합회와 울진 소상공인 경쟁력 강화를 지원하기로 하고 지난 25일 소상공인 역량강화 교육지원 협약을 체결했다. 이 협약이 체결됨에 따라 한수원은 사업비 2000만 원을 지원하며, 이 지원금은 소상공인 경영에 필요한 물품 지원과 역량강화 교육 등에 활용될 예정이다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-06-27T09:18:45.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70277",
+      "collectedAt": "2026-06-27T22:07:42.196Z",
+      "bodySnippet": "한국수력원자력(주) 한울원자력본부(본부장 이세용)가 울진군소상공인연합회와 울진 소상공인 경쟁력 강화를 지원하기로 하고 지난 25일 소상공인 역량강화 교육지원 협약을 체결했다. 이 협약이 체결됨에 따라 한수원은 사업비 2000만 원을 지원하며, 이 지원금은 소상공인 경영에 필요한 물품 지원과 역량강화 교육 등에 활용될 예정이다."
+    },
+    {
+      "id": "4980a23c-c837-41d1-9d13-330b7ba93246",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "석유 최고가격 인하…기름값 리터당 1800원대 기대",
+      "titleOriginal": null,
+      "summary": "산업통상부(장관 김정관)가 27일부터 적용될 7차 석유 최고가격을 6차 대비 리터당 150원 인하한다고 발표했다. 이번 리터당 150원 인하는 휘발유·경유·등유 모두에 적용되며, 정유사 공급가격 상한은 휘발유의 경우 1784원, 경유의 경우 1773원, 등유의 경우 1380원으로 설정됐다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-27T09:10:15.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70276",
+      "collectedAt": "2026-06-27T22:07:46.221Z",
+      "bodySnippet": "산업통상부(장관 김정관)가 27일부터 적용될 7차 석유 최고가격을 6차 대비 리터당 150원 인하한다고 발표했다. 이번 리터당 150원 인하는 휘발유·경유·등유 모두에 적용되며, 정유사 공급가격 상한은 휘발유의 경우 1784원, 경유의 경우 1773원, 등유의 경우 1380원으로 설정됐다."
     }
   ]
 }
