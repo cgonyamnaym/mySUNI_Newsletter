@@ -1,7 +1,7 @@
 {
   "date": "2026-06-29",
-  "generatedAt": "2026-06-29T22:26:51.628Z",
-  "articleCount": 199,
+  "generatedAt": "2026-06-30T22:34:00.017Z",
+  "articleCount": 202,
   "articles": [
     {
       "id": "f0f8b9a7-bbbf-4749-b13e-4d7d6cb93cd7",
@@ -3833,6 +3833,57 @@
       "originalUrl": "https://www.kaif.or.kr/ko/?c=251&s=250&gp=1&gbn=view&ix=29947",
       "collectedAt": "2026-06-29T22:26:50.691Z",
       "bodySnippet": "6월 29일 월요일 원자력 투데이뉴스 대한민국 SMR 경쟁력 확보를 위한 국회 토론회 참석 안내(6. 30.) 2026. 6. 30. (화) / 국회의원회관 제2소회의실 2026년 2차 중소기업 품질시스템 구축 지원사업 시행공고(~6.30. 15:00) 2026년 제2차 원자력 품질보증 및 안전문화 제고 과정 교육생 모집 (~ 7. 10.) 일시/장소 : 2026. 7. 15. (수) ~ 7. 16. (목) / 스페이스쉐어 서울역센터 루비홀(3층) 제3기 원전산업 최고경영자 과정 교육생 모집 (~ 7. 31.) 일시/장소 : 2026. 8. 21. (금) ~ 2027. 1. 15. (금) / 노보텔 앰배서더 서울 강남 2026년 원전산업 일반 과정 시행 (연중) 일시/장소 : 연중상시 / 온라인 (원자력 교육 시스템 NES)"
+    },
+    {
+      "id": "d39a1a3e-dead-41d2-8b9c-79765a1e9477",
+      "source": "Carbon Brief",
+      "sourceId": "carbon-brief",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Six charts show how clean power was world’s largest source of new energy in 2025",
+      "titleOriginal": "Six charts show how clean power was world’s largest source of new energy in 2025",
+      "summary": "<p>Clean power added more to global energy supplies than any other source in 2025, according...</p>\n<p>The post <a href=\"https://www.carbonbrief.org/six-charts-show-how-clean-power-was-worlds-largest-",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-29T23:01:00.000Z",
+      "originalUrl": "https://www.carbonbrief.org/six-charts-show-how-clean-power-was-worlds-largest-source-of-new-energy-in-2025/",
+      "collectedAt": "2026-06-30T22:19:55.986Z",
+      "bodySnippet": "<p>Clean power added more to global energy supplies than any other source in 2025, according...</p>\n<p>The post <a href=\"https://www.carbonbrief.org/six-charts-show-how-clean-power-was-worlds-largest-source-of-new-energy-in-2025/\">Six charts show how clean power was world’s largest source of new energy in 2025</a> appeared first on <a href=\"https://www.carbonbrief.org\">Carbon Brief</a>.</p>\n"
+    },
+    {
+      "id": "804348e8-676d-49aa-85e5-3b88652ab4e6",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[브리핑ON] 대한민국 AI 대도약, 3대 메가프로젝트 시동",
+      "titleOriginal": null,
+      "summary": "",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-29T19:03:41.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=369709",
+      "collectedAt": "2026-06-30T22:24:35.290Z",
+      "bodySnippet": ""
+    },
+    {
+      "id": "bd96b001-cda0-43a8-93da-513803db017b",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "AI 시대 선도 전기국가 비전 선포",
+      "titleOriginal": null,
+      "summary": "",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-06-29T21:12:19.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70294",
+      "collectedAt": "2026-06-30T22:32:37.578Z",
+      "bodySnippet": ""
     }
   ]
 }
