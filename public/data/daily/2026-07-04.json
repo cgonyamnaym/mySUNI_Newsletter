@@ -1,7 +1,7 @@
 {
   "date": "2026-07-04",
-  "generatedAt": "2026-07-04T22:05:17.233Z",
-  "articleCount": 7,
+  "generatedAt": "2026-07-05T22:06:51.417Z",
+  "articleCount": 8,
   "articles": [
     {
       "id": "adfbedbd-bb6b-4aa2-9185-302e8a4b0844",
@@ -132,6 +132,25 @@
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70341",
       "collectedAt": "2026-07-04T22:03:53.411Z",
       "bodySnippet": "한국광해광업공단(사장 황영식)이 인공지능(AI)을 활용한 광산안전관리 시스템을 도입해 광산 안전관리 분야 디지털 전환을 위해 AI 안전관리 솔루션 전문기업인 유플리트와 지난 3일 AI 기반 광산안전관리 솔루션 도입을 위한 업무협약을 체결했다. 이 협약은 광산 현장 특성을 반영한 AI 기술을 안전관리 시스템에 접목해 광산 안전관리 업무 부담을 줄이고 체계적인 사고 예방 시스템을 구축한다는 내용"
+    },
+    {
+      "id": "1b513549-90e5-42b7-8367-b0d36fe89076",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "KR, 유럽서 해운 탈탄소 전략 논의...AI·IMO 대응 협력 확대",
+      "titleOriginal": null,
+      "summary": "한국선급(KR)은 지난 6월 29일 영국 런던에서 '제21차 KR 유럽위원회'를 개최하고 유럽 해사업계와의 협력을 강화했다. 이번 회의에서는 AI 기반 탈탄소 기술과 국제 해사환경 규제 대응 방안이 주요 의제로 논의되었다. 이는 글로벌 해운 분야의 탄소중립 목표 달성과 관련 정책 대응을 위한 것이다.",
+      "topics": [
+        "정책·규제"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-07-04T21:01:43.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=369918",
+      "collectedAt": "2026-07-05T22:05:42.444Z",
+      "bodySnippet": "영국 런던에서 열린 한국선급(KR) 유럽위원회가 AI 기반 탈탄소 기술과 국제 해사환경 규제 대응 방안을 논의하며 유럽 해사업계와의 협력 강화에 나섰다.KR은 지난 6월 29일 영국 런던에서 '제21차 KR 유럽위원회(KREC)'를 개최했다고 밝혔다.KR 유럽위원회는 유럽 해사업계를 대표하는 주요 인사들로 구성된 협의체로, KR의 국제 활동과 최신 기술 동향을 공유하고 글로벌 협력 네트워크를 강화하기 위해 2004년부터 매년 열리고 있다.이번 회의에서는 KR의 사업 추진 현황과 국제선급연합회(IACS) 활동을 비롯해 AI 기반 탈탄"
     }
   ]
 }
