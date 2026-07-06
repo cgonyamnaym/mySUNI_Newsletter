@@ -1,7 +1,7 @@
 {
   "date": "2026-07-05",
-  "generatedAt": "2026-07-05T22:06:51.416Z",
-  "articleCount": 8,
+  "generatedAt": "2026-07-06T22:29:16.007Z",
+  "articleCount": 10,
   "articles": [
     {
       "id": "26909089-2433-4f31-8945-97ffc733d495",
@@ -156,6 +156,42 @@
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70345",
       "collectedAt": "2026-07-05T22:06:10.175Z",
       "bodySnippet": "남동발전이 금산양수발전 건설사업 주민수용성을 높이는 한편 지역사회와 소통을 강화하기 위한 행보를 이어가고 있다. 한국남동발전(주)(사장직무대행 조영혁)은 금수양수발전소 예정지인 충남 금산군 부리면 이장협의회를 대상으로 지난 3일 양수발전 일원화 이전 운영했던 무주양수발전소를 견학하고 본사(경남 진주시 소재)를 초청해 금산양수발전(발전설비용량 250MW×2기) 사업 추진 현황과 지역상생 방안을 공유하는 소통의 시간을 가졌다."
+    },
+    {
+      "id": "bd8a19f1-487e-4fde-aaf1-da49a272f6e4",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[인사] 산업통상부 국장급",
+      "titleOriginal": null,
+      "summary": "[투데이에너지]\r\n\r\n■ 국장급 승진\r\n\r\n▲ KOTRA 외국인투자지원센터 외투&middot;국내복귀&middot;인재유치 종합행정지원센터장(일반직 고위공무원) 김종주\r\n\r\n(7월 6일자)",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-07-05T16:25:20.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=299952",
+      "collectedAt": "2026-07-06T22:27:38.527Z",
+      "bodySnippet": "[투데이에너지]\r\n\r\n■ 국장급 승진\r\n\r\n▲ KOTRA 외국인투자지원센터 외투&middot;국내복귀&middot;인재유치 종합행정지원센터장(일반직 고위공무원) 김종주\r\n\r\n(7월 6일자)"
+    },
+    {
+      "id": "f1d01601-e537-4a14-8fd2-a9cef4c9ca60",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "통합 발전공기업 본사를 진주로 ‘대동단결’ (#이재명 #남동발전)",
+      "titleOriginal": null,
+      "summary": "",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-07-05T18:21:55.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70348",
+      "collectedAt": "2026-07-06T22:27:54.535Z",
+      "bodySnippet": ""
     }
   ]
 }
