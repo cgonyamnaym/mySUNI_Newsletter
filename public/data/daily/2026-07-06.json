@@ -1,7 +1,7 @@
 {
   "date": "2026-07-06",
-  "generatedAt": "2026-07-06T22:29:16.004Z",
-  "articleCount": 172,
+  "generatedAt": "2026-07-07T22:28:34.388Z",
+  "articleCount": 180,
   "articles": [
     {
       "id": "3773addf-bd3c-44ef-b6eb-103e2c83fd36",
@@ -3259,6 +3259,158 @@
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260706025199515",
       "collectedAt": "2026-07-06T22:28:36.877Z",
       "bodySnippet": "젤레스트라 에너지와 태양광 모듈 공급·EPC 계약\n‘메타와 PPA’ 200㎿ 발전소에 모듈 32만장 공급\nAI 전력 수요↑…한화큐셀 솔라허브 준공하기도 ▲미국 조지아주 카터스빌에 위치한 한화큐셀 태양광 모듈 공장 '솔라허브' 전경. 사진=한화솔루션 한화솔루션이 글로벌 빅테크에 전력을 공급할 태양광 발전시설의 태양광 발전 모듈 공급과 설계·조달·시공(EPC) 사업을 수주했다. 한화솔루션 큐셀부문은 미국 재생에너지 개발사 젤레스트라 에너지(Zelestra Energy)와 인디애나주 깁슨(Gibson) 카운티에 들어설 태양광 발전소에 모듈 약 32만 장을 공급하고 EPC를 수행하는 계약을 체결했다고 6일 밝혔다. 이 발전소는 200메가와트(㎿) 규모로 2027년 말 완공될 예정이다. 젤레스트라 에너지와 메타가 맺은 전력공급계약(PPA)에 따라 완공 후 발전소에서 생산되는 전력은 메타가 사용한다. 발전소 부지는 과거 석탄 채굴장으로 쓰였다. 한화큐셀은 북미 태양광 시장에서 태양광 기자재 생산 능력을 토대로 태양광 발전 프로젝트 EPC와 금융 조달까지 포괄하는 사업을 하고 있다. 특히 지난달 미국 조지아주 카터스빌에 북미 최대 규모의 태양광 통합 제조기지 '솔라 허브'를 완공했다. 솔라 허브에서 태양광 모듈 생산을 시작하면 한화큐셀은 잉곳(원기둥 모양의 폴리실리콘)부터 웨이퍼(얇은 판), 셀(전지), 모듈까지 생산하는 체계를 갖추게 된다. 이 같은 한화큐셀의 북미 현지 전략은 미국 빅테크들의 인공지능(AI) 사업에 필요한 전력 솔루션을 겨냥한 것으로도 풀이된다. 미국 빅테크들이 AI 데이터센터처럼 다량의 전력을 안정적으로 공급할 자체 발전원을 확보하려는 움직임에 미국 신재생에너지 시장에서 태양광 기업들의 기회가 확대되고 있기 때문이다. 블룸버그NEF에 따르면 메타와 아마존, 구글, 마이크로소프트 등 미 빅테크 4곳은 지난해 기준 세계 기업이 구매한 재생에너지의 약 49%를 차지한 것으로 알려졌다. 미국 정부가 태양광 발전을 에너지 안보를 위한 기간 산업으로 보는 점도 북미 현지 생산 전략에 힘을 싣는다. 미국산 제품에 세제혜택을 주는 첨단제조세액공제(AMPC) 대상에 태양광 발전과 관련한 제품이 포함돼 미국산 태양광 제품 생산 기업에 와트(W)당 7센트의 보조금을 지급하고 있다. 한화큐셀은 지난해 AMPC 보조금으로 3억7370만달러(한화 약 5800억원)을 받았고, 올해는 신규 공장 완공 등으로 6억7500만달러(약 1조원)를 받을 것으로 예상된다. 한화큐셀은 에너지 시장의 새로운 수요자로 부상하고 있는 하이퍼스케일러 등 재생에너지 수요기업과 협력 기회를 적극적으로 모색하고 추진할 계획이다. 크리스 호드릭(Chris Hodrick) 한화큐셀 EPC사업부문장은 “한화큐셀은 미국 내 제조 역량과 검증된 EPC 수행 능력을 바탕으로 안정적이고 경제적으로 전력을 공급받고자 하는 글로벌 빅테크 기업들의 청정에너지 목표 달성을 지원할 것\"이라고 말했다. <"
+    },
+    {
+      "id": "a0c14f23-ba30-41ec-a853-6e376ed74c20",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "FERC denies waiver for $2B gas-fired plant in PJM’s fast-track review",
+      "titleOriginal": "FERC denies waiver for $2B gas-fired plant in PJM’s fast-track review",
+      "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/bgN5jB-DUP9sh-VT22YrAhSaPiCJewDiZ3MMNGioJL8/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNTQ4OTQ0NjYuanBn.web",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-07-06T14:00:45.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/ferc-pjm-fast-track-review-advanced-power-chestnut-run/824456/",
+      "collectedAt": "2026-07-07T22:17:10.189Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/bgN5jB-DUP9sh-VT22YrAhSaPiCJewDiZ3MMNGioJL8/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNTQ4OTQ0NjYuanBn.webp\"/></div></figure><p>Giving Advanced Power Services a waiver from the PJM Interconnection&rsquo;s rules could harm other project developers, the agency said.</p>"
+    },
+    {
+      "id": "728aedae-72a4-4560-a692-605df158e424",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Southwestern Public Service wins $113M reliability grant from Texas",
+      "titleOriginal": "Southwestern Public Service wins $113M reliability grant from Texas",
+      "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/Z5nV05zIHgUViXl_VeRfPj5PkcO1-rOAmzBDh6VKKNM/g:nowe:3:128/c:4168:2354/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0x",
+      "topics": [
+        "ESG·탄소중립",
+        "전력 인프라"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-07-06T13:52:47.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/southwestern-public-service-reliability-grant-texas-puc/824464/",
+      "collectedAt": "2026-07-07T22:17:14.192Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/Z5nV05zIHgUViXl_VeRfPj5PkcO1-rOAmzBDh6VKKNM/g:nowe:3:128/c:4168:2354/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMzAzMzk3NDcyLmpwZw==.webp\"/></div></figure><p>The Texas Energy Fund has allocated more than $4 billion as part of the state&rsquo;s effort to boost grid reliability. The award to SPS covers&nbsp;a drone-based pole inspection program and live monitoring.</p>"
+    },
+    {
+      "id": "74920b0b-0345-48af-9f61-25e69f073918",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "현대차, DMZ 영화제에서 수소 모빌리티 후원…평화와 생태 함께 외친다",
+      "titleOriginal": null,
+      "summary": "현대자동차가 비무장지대(DMZ)에서 수소 모빌리티로 평화와 생태를 함께 선보인다.현대차는 ‘제18회 DMZ 국제다큐멘터리영화제’를 공식 후원한다고 6일 밝혔다.DMZ 국제다큐멘터리영화제는 DMZ를 배경으로 평화와 생태 등 주제를 다루는 행사다. 환경과 문화예술도 겸해 친환경 미래를 주제로 다루고 있다.올해 행사는 9월 10일부터 16일까지 고양특례시와 파주",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-07-06T19:00:27.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=369975",
+      "collectedAt": "2026-07-07T22:20:26.225Z",
+      "bodySnippet": "현대자동차가 비무장지대(DMZ)에서 수소 모빌리티로 평화와 생태를 함께 선보인다.현대차는 ‘제18회 DMZ 국제다큐멘터리영화제’를 공식 후원한다고 6일 밝혔다.DMZ 국제다큐멘터리영화제는 DMZ를 배경으로 평화와 생태 등 주제를 다루는 행사다. 환경과 문화예술도 겸해 친환경 미래를 주제로 다루고 있다.올해 행사는 9월 10일부터 16일까지 고양특례시와 파주시 일원에서 개최할 예정이다.현대차는 행사 기간 수소전기차 넥쏘 5대와 유니버스 FCEV를 3대 제공한다. VIP는 물론 참가자들이 이동하면서 직접 친환경 모빌리티를 경험할 수 있"
+    },
+    {
+      "id": "5a5012e4-bea9-4d74-92da-09fb1e38c4a0",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[인사] 한국전자통신연구원",
+      "titleOriginal": null,
+      "summary": "◆ 직할부서장 ▲ 피지컬AI연구소장 유원필 ▲ 입체통신연구소장 이문식 ▲ ADX융합연구소장 박준희 ▲ 수도권연구본부장 이규성 ▲ 감사부장 서태철 ▲ 대외협력부장 민문홍◆ 부장·단장 ▲ 경영전략부장 신현웅 ▲ 전략연구기획단장 연승준 ▲ 기술사업화부장 박웅 ▲ 기업성장지원부장 김서균 ▲ 운영관리부장 김학수 ▲ 인적자원부장 변성윤 ▲ 재무관리부장 김경석◆ 센터장",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-07-06T18:02:26.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=369976",
+      "collectedAt": "2026-07-07T22:20:30.211Z",
+      "bodySnippet": "◆ 직할부서장 ▲ 피지컬AI연구소장 유원필 ▲ 입체통신연구소장 이문식 ▲ ADX융합연구소장 박준희 ▲ 수도권연구본부장 이규성 ▲ 감사부장 서태철 ▲ 대외협력부장 민문홍◆ 부장·단장 ▲ 경영전략부장 신현웅 ▲ 전략연구기획단장 연승준 ▲ 기술사업화부장 박웅 ▲ 기업성장지원부장 김서균 ▲ 운영관리부장 김학수 ▲ 인적자원부장 변성윤 ▲ 재무관리부장 김경석◆ 센터장 ▲ 전략기획1센터장 김성민 ▲ 전략기획2센터장 최윤호"
+    },
+    {
+      "id": "f1a1454e-6976-4c97-bd72-a5573e3254ab",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전원자력연료 ‘상호존중 소통 10대 가이드라인’ 선포",
+      "titleOriginal": null,
+      "summary": "\r\n<img alt=\"한전원자력연료는 6일 ‘상호존중 소통 10대 가이드라인’ 선포식을 개최했다. /한전원자력연료 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202607/300005_171958_211.jpg\" />\r\n한전원자력연료는 6일&nbsp;&lsquo;상호존중 소통 10대 가이드라인&rsquo; 선포식을 개",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-07-06T18:05:03.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=300005",
+      "collectedAt": "2026-07-07T22:26:05.033Z",
+      "bodySnippet": "\r\n<img alt=\"한전원자력연료는 6일 ‘상호존중 소통 10대 가이드라인’ 선포식을 개최했다. /한전원자력연료 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202607/300005_171958_211.jpg\" />\r\n한전원자력연료는 6일&nbsp;&lsquo;상호존중 소통 10대 가이드라인&rsquo; 선포식을 개최했다. /한전원자력연료 제공\r\n\r\n\r\n\r\n[투데이에너지 이종수 기자]&nbsp;한전원자력연료(사장 정창진)는 노동조합(위원장 안희종)과 공동으로 수평적 조직문화 조성과 상호존중 실천 의지를 담은 &lsquo;상호존중 소통 10대 가이드라인&rsquo;을 선포했다고 6일 밝혔다.\r\n\r\n한전원자력연료는 지난 5월 직원 대표로 구성된 청렴에이전트 워크숍에서 수평적 소통을 핵심과제로 선정한 데 이어, 6월 전 직원 아이디어 공모를 시행해&nbsp;업무 현장에서 실천할 수 있는 행동 중심의 소통 원칙들을 10대 가이드라인으로 정립했다.\r\n\r\n가이드라인에는 △존칭 사용 △경청 △직급보다 의견 존중 △다름의 수용 △질문하는 문화 △배려 있는 협업 요청 △성실한 협업 △비난보다 해결 △효율적인 회의 △공유와 실천 등 임직원이 앞으로 지켜나갈 소통 원칙을 담았으며, 향후 월별 실천 캠페인 개최, 우수사례 발굴 및 성과 공유 등 지속적인 실천 노력을 전개해 나갈 계획이다.\r\n\r\n정창진 사장은 &ldquo;이번에 마련된 가이드라인이 선언에 그치지 않고 일상 속 행동으로 이어져 상호 존중의 문화가 정착될 수 있도록 노력하겠다&rdquo;고 밝혔다.\r\n\r\n노동조합 안희종 위원장은 &ldquo;직원들의 의견을 담아 만든 10대 가이드라인이 현장에서 자연스럽게 실천될 수 있도록 노동조합도 적극 동참하겠다&rdquo;고 말했다."
+    },
+    {
+      "id": "3b563521-d485-418d-b282-2754053f8714",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "남부발전 ‘미래내일 일경험 프로젝트’ 시행",
+      "titleOriginal": null,
+      "summary": "\r\n<img alt=\"한국남부발전 CI /한국남부발전 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202607/300004_171957_5231.jpg\" />\r\n한국남부발전 CI /한국남부발전 제공\r\n\r\n\r\n\r\n[투데이에너지 이종수 기자]&nbsp;한국남부발전(사장 김준동, 이하 &lsquo;남부발전&rsquo;)은 ",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-07-06T17:52:43.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=300004",
+      "collectedAt": "2026-07-07T22:26:09.044Z",
+      "bodySnippet": "\r\n<img alt=\"한국남부발전 CI /한국남부발전 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202607/300004_171957_5231.jpg\" />\r\n한국남부발전 CI /한국남부발전 제공\r\n\r\n\r\n\r\n[투데이에너지 이종수 기자]&nbsp;한국남부발전(사장 김준동, 이하 &lsquo;남부발전&rsquo;)은 청년층의 직무역량을 높이고 지역사회와의 상생 협력을 강화하기 위해 고용노동부 주관 &lsquo;2026 미래내일 일경험(프로젝트형) 프로그램&rsquo;을 시행한다고 6일 밝혔다.\r\n\r\n미래내일 일경험 지원사업은 청년들에게 실무 경험을 제공해 고용시장 진입을 돕는 고용노동부의 대표적인 청년 일자리 사업이다. 남부발전은 2023년부터 청년 일경험 지원규모를 점진적으로 확대해 왔다. 지난해에는 취업취약계층 대상 &lsquo;인턴형&rsquo; 프로그램과 구직단념 청년 대상 &lsquo;기업탐방형&rsquo; 프로그램 등을 통해 총 80여 명의 청년들에게 맞춤형 일경험을 제공한 바 있다.\r\n\r\n올해는 청년들이 직접 기업의 실제 과제를 해결하고 결과물을 도출하는 &lsquo;프로젝트형&rsquo; 프로그램을 최초로 도입해 운영 체계를 한층 더 고도화할 예정이다. 이번 프로젝트는 오는 8월 말까지 총 8주간 진행되며&nbsp;△발전소 주변 지역의 정주여건 개선을 위한 KOSPO 로컬업(도시재생) △청년들의 시선으로 뉴미디어 콘텐츠를 제작하는 KOSPO 피드(광고&middot;마케팅) 등 총 2개 분야로 운영된다.\r\n\r\n남부발전은 프로젝트의 완성도를 높이고 청년들의 실무 역량을 다지기 위해 사내 직무 경험이 풍부한 직원을 전담 멘토로 배치했으며, 지정된 멘토는 월 1회 이상 밀착 지도와 의견 조율을 수행할 예정이다.\r\n\r\n김기홍 남부발전 인사처장은 &ldquo;그동안 청년 일경험 지원 범위를 지속적으로 넓혀온 만큼, 올해 새롭게 시도하는 프로젝트형 과정 역시 내실있게 운영할 것&rdquo;이라며&nbsp;&ldquo;이번 프로그램이 청년들에게는 공공기관의 직무프로세스를 경험하는 기회가 되고, 남부발전에는 지역상생과 채용 브랜딩을 강화하는 계기가 되길 바란다&rdquo;고 말했다."
+    },
+    {
+      "id": "759005d2-672a-45a2-833e-c039567c15b9",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한수원 ‘2026 국제안전보건전시회’ 참가",
+      "titleOriginal": null,
+      "summary": "\r\n<img alt=\"(앞줄 오른쪽 첫번째부터) 한정애 더불어민주당 의원, 김영훈 고용노동부 장관, 김현중 안전보건공단 이사장, 김지형 경제사회노동위원회 위원장이 한수원의 원격 조종 로봇을 살펴보고 있다. /한수원 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202607/300003_171956_4320.jpg\" />",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-07-06T17:45:31.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=300003",
+      "collectedAt": "2026-07-07T22:26:13.038Z",
+      "bodySnippet": "\r\n<img alt=\"(앞줄 오른쪽 첫번째부터) 한정애 더불어민주당 의원, 김영훈 고용노동부 장관, 김현중 안전보건공단 이사장, 김지형 경제사회노동위원회 위원장이 한수원의 원격 조종 로봇을 살펴보고 있다. /한수원 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202607/300003_171956_4320.jpg\" />\r\n(앞줄 오른쪽 첫번째부터) 한정애 더불어민주당 의원, 김영훈 고용노동부 장관, 김현중 안전보건공단 이사장, 김지형 경제사회노동위원회 위원장이&nbsp;한수원의 원격 조종 로봇을 살펴보고 있다. /한수원 제공\r\n\r\n\r\n\r\n[투데이에너지 이종수 기자]&nbsp;한국수력원자력(사장 김회천, 이하 한수원)이 6일부터 9일까지 고양 킨텍스(KINTEX)에서 개최되는 &lsquo;2026 국제안전보건전시회(KISS 2026)&rsquo;에 참가해 미래 원전 기술과 한수원만의 선진 안전경영 체계를 선보인다.\r\n\r\n국내 최대 규모의 산업안전보건 전문 전시회인 이번 행사에서 한수원은 &lsquo;기술 혁신과 사람 중심의 안전&rsquo;을 주제로 홍보 부스를 운영한다. 한수원의 차세대 주력 기술인 혁신형 소형모듈원자로(iSMR) 모형을 전면에 내세워 한층 강화된 안전설계 기술과 다목적 활용성에 대한 청사진을 제시할 예정이다.\r\n\r\n아울러 &lsquo;안전 스마트화&rsquo;를 키워드로&nbsp;관리 구역이나 고위험 작업 현장에 사람 대신 투입되는 원격 조종 로봇과 자동화 장비를 공개한다. 현장 작업자의 안전을 극대화하는 최신 기술을 관람객들이 직접 보고 체감할 수 있도록 생생한 영상과 시연을 함께 진행할 예정이다.\r\n\r\n이 밖에도 △한수원 고유의 안전 경영 체계 △체험형 산업안전 교육장 운영 현황 △지역사회와 함께하는 대국민 안전문화 확산 활동 등을 상세히 소개한다.&nbsp;\r\n\r\n김상우 한수원 안전경영단장은 &ldquo;이번 전시회는 한수원이 추구하는 &lsquo;신기술 기반의 안전한 작업장&rsquo;을 국민에게 투명하게 알리는 중요한 계기가 될 것&rdquo;이라며&nbsp;&ldquo;앞으로도 첨단 기술을 적극 도입하고 실효성 있는 안전관리를 실천해&nbsp;국민이 신뢰할 수 있는 에너지 안전 문화를 선도해 나가겠다&rdquo;고 밝혔다."
+    },
+    {
+      "id": "622e4596-d3a9-43b2-b46f-310730e686bb",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "이재명 특명! 기다리지 말고 확보하라!!!!",
+      "titleOriginal": null,
+      "summary": "",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-07-06T15:45:19.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70356",
+      "collectedAt": "2026-07-07T22:27:05.046Z",
+      "bodySnippet": ""
     }
   ]
 }
