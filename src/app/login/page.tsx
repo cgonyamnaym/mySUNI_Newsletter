@@ -34,12 +34,12 @@ function LoginForm() {
   return (
     <form onSubmit={handleSubmit} className="flex flex-col gap-4 mt-6">
       <div className="flex flex-col gap-1.5">
-        <label className="text-[13px] font-semibold text-[#37383c]">이메일</label>
+        <label className="text-[13px] font-semibold text-[#37383c]">아이디</label>
         <input
-          type="email"
+          type="text"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          placeholder="editor@example.com"
+          placeholder="아이디를 입력하세요"
           required
           className="px-4 py-2.5 rounded-xl border border-[rgba(112,115,124,0.3)] bg-[#F8F9FA] text-[14px] text-[#171719] placeholder-[rgba(55,56,60,0.4)] focus:outline-none focus:border-[#0066FF] focus:bg-white transition-colors"
         />
