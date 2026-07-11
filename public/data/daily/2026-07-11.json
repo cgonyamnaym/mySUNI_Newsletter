@@ -1,7 +1,7 @@
 {
   "date": "2026-07-11",
-  "generatedAt": "2026-07-10T22:23:24.521Z",
-  "articleCount": 1,
+  "generatedAt": "2026-07-11T21:57:23.378Z",
+  "articleCount": 16,
   "articles": [
     {
       "id": "319aaf0f-3dc3-475c-9e6b-9e9f17b65bc5",
@@ -19,6 +19,296 @@
       "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=201336",
       "collectedAt": "2026-07-10T22:15:37.406Z",
       "bodySnippet": "[에너지데일리 조남준 기자] 한국가스안전공사 인천본부가 암모니아 가스 누출사고를 가정한 합동훈련을 실시하며 유관기관과의 비상대응 협력체계와 현장 대응 역량을 점검했다.한국가스안전공사 인천본부(본부장 김은정)는 10일 인천시 중구 영종도에 위치한 인천공항에너지에서 암모니아 가스 누출사고 대응 합동훈련을 실시했다고 밝혔다.이번 훈련에는 한국가스안전공사와 인천공항에너지 자위소방대 등 관계자 40여 명이 참여했으며, 암모니아 시설에서 발생할 수 있는 가스사고를 가정해 초기 상황 전파와 긴급 복구, 관계기관 간 공조체계를 집중 점검했다.훈련"
+    },
+    {
+      "id": "e60ac151-276e-44b4-ba22-5ee4dfd4979d",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미국 싱크탱크: 중국, 2030년까지 전 세계 수요보다 많은 배터리 생산 가능성",
+      "titleOriginal": "China could produce more batteries than global demand by 2030, says US think tank",
+      "summary": "미국 싱크탱크인 카네기 국제평화재단(Carnegie Endowment)의 새로운 보고서에 따르면, 중국의 배터리 셀 제조 역량이 2030년까지 예상되는 전 세계 수요를 초과할 수 있다고 밝혔다. 이 보고서는 공급망 위험을 줄이기 위해 중국 기업들과 선별적 협력을 권고하고 있다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-07-11T09:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/07/11/china-could-produce-more-batteries-than-global-demand-by-2030-says-us-think-tank/",
+      "collectedAt": "2026-07-11T21:54:29.178Z",
+      "bodySnippet": "<p>China’s battery cell manufacturing capacity could exceed projected global demand by 2030, according to a new Carnegie Endowment report, which recommends selective cooperation with Chinese companies to reduce supply chain risks. </p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/07/11/china-could-produce-more-batteries-than-global-demand-by-2030-says-us-think-tank/\">China could produce more batteries than global demand by 2030, says US think tank</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "b6e8cbb8-f5dc-4f23-ad11-5d3ad4688ce1",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "이베리아반도 태양광 발전소, 폭염으로 시간당 최대 90% 손실 발생 연구 결과",
+      "titleOriginal": "Study finds heatwaves cause hourly losses of up to 90% in PV plants in Iberian peninsula",
+      "summary": "포르투갈 연구진에 따르면, 이베리아반도 내 태양광 발전소는 폭염 시 모듈 과열 및 인버터 성능 저하로 인해 시간당 최대 90%에 달하는 발전량 손실을 겪을 수 있다고 한다. 이러한 급격한 발전량 손실은 주로 최고 기온 시간대에 단기적으로 발생하는 것으로 나타났다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-07-11T08:30:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/07/11/study-finds-heatwaves-cause-hourly-losses-of-up-to-90-in-pv-plants-in-iberian-peninsula/",
+      "collectedAt": "2026-07-11T21:54:34.803Z",
+      "bodySnippet": "<p>Researchers in Portugal found that Iberian heatwaves can cause sharp but short-lived PV yield losses, mainly during peak temperature hours due to module heating and inverter derating.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/07/11/study-finds-heatwaves-cause-hourly-losses-of-up-to-90-in-pv-plants-in-iberian-peninsula/\">Study finds heatwaves cause hourly losses of up to 90% in PV plants in Iberian peninsula</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "4b2e5804-52b9-4f80-95e2-34920da3b7c6",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "재료 다양성 고려하지 않으면 수명이 다한 태양광 모듈 재활용은 비현실적",
+      "titleOriginal": "End-of-life solar module recycling unviable if material diversity is not considered",
+      "summary": "호주와 폴란드의 연구진이 수명이 다한 태양광 패널에서 알루미늄, 유리, 태양전지 등 핵심 재료를 업사이클링하는 연구를 수행했습니다. 이들은 재료를 정제하여 태양광 패널 제조에 재사용하는 것을 목표로 했으며, 재료 다양성을 고려하지 않으면 재활용이 비현실적이라는 결론을 내렸습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-07-11T08:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/07/11/end-of-life-module-recycling-unviable-if-material-diversity-is-not-considered/",
+      "collectedAt": "2026-07-11T21:54:38.672Z",
+      "bodySnippet": "<p>Researchers from Australia and Poland have collaborated on a study to determine the value of upcycling key materials from end-of-life panels such as aluminium, glass and solar cells with the express purpose of purifying the components for reuse in solar panel manufacturing.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/07/11/end-of-life-module-recycling-unviable-if-material-diversity-is-not-considered/\">End-of-life solar module recycling unviable if material diversity is not considered</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "61657bf4-423c-47ca-ab32-fe4b158a7f4e",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "하이즈에너지, C&I 애플리케이션용 PCS 공개",
+      "titleOriginal": "HIZEnergy presents PCS for C&I applications",
+      "summary": "중국 기업 하이즈에너지가 C&I(상업 및 산업) 애플리케이션용 PCS(전력 변환 시스템)를 공개했다. 이 PCS-460K 모델은 1,120~1,500V의 DC측 전압 범위를 가지며, 액체 냉각 시스템을 사용한다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-07-11T07:30:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/07/11/hizenergy-presents-pcs-for-ci-applications/",
+      "collectedAt": "2026-07-11T21:54:43.770Z",
+      "bodySnippet": "<p>The Chinese company stated that the PCS-460K features a DC-side voltage range of 1,120–1,500 V and uses a liquid-cooling system.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/07/11/hizenergy-presents-pcs-for-ci-applications/\">HIZEnergy presents PCS for C&amp;I applications</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "76c35d4d-ae61-4da4-b014-822e6f7bbc44",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미국 조립 태양광 모듈 가격, 와트당 0.30달러로 안정세 유지",
+      "titleOriginal": "U.S. assembled solar module prices steady at $0.30/W",
+      "summary": "2026년 2분기 미국 조립 태양광 모듈 가격은 와트당 0.30달러로 안정세를 유지했습니다. 연방 무역 규칙에 따른 기업 매각과 한국산 수입품에 대한 새로운 관세 청원이 산업에 영향을 미쳤습니다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-07-11T07:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/07/11/u-s-assembled-module-prices-steady-at-0-30-w/",
+      "collectedAt": "2026-07-11T21:54:51.080Z",
+      "bodySnippet": "<p>U.S. solar module prices held steady at $0.30 per watt in the second quarter of 2026. The market saw a wave of corporate divestitures driven by federal trade rules. A new tariff petition against South Korean imports also impacted the industry.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/07/11/u-s-assembled-module-prices-steady-at-0-30-w/\">U.S. assembled solar module prices steady at $0.30/W</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "3dc1a26a-3171-46b2-9391-a60bdd534d89",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "수소 동향: 아이슬란드 시험 프로젝트, 지열 기반 수소의 LCOH $1.75/kg 달성 가능성 시사",
+      "titleOriginal": "The Hydrogen Stream: Pilot project in Iceland shows geothermal-driven H2 could achieve LCOH of $1.75/kg",
+      "summary": "아이슬란드에서 진행 중인 Syntholene의 지열 통합 SOEC 수소 플랫폼 시험 프로젝트는 수소 생산 비용을 kg당 1.75~2.10달러로 추정하고 있으며, 이는 유럽 내 유사한 무보조 녹색 수소 비용의 약 3분의 1 수준이다. 이 프로젝트는 저탄소 수소 생산을 검증하고 향후 상업적 규모 배치를 지원하며, 전기료, 전해조 내구성, 자본 지출 등의 위험 요소를 해결하는 것을 목표로 한다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-07-11T06:30:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/07/11/the-hydrogen-stream-pilot-project-in-iceland-shows-geothermal-driven-h2-could-achieve-lcoh-of-1-75-kg/",
+      "collectedAt": "2026-07-11T21:54:55.269Z",
+      "bodySnippet": "<p>Syntholene’s geothermal-integrated SOEC hydrogen platform could produce hydrogen at an estimated $1.75–$2.10/kg, about one-third the cost of comparable unsubsidized green hydrogen in Europe. Its Iceland demonstration facility aims to validate low-emission hydrogen production and support future commercial-scale deployment, while addressing risks such as electricity costs, electrolyzer durability, and capital expenses.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/07/11/the-hydrogen-stream-pilot-project-in-iceland-shows-geothermal-driven-h2-could-achieve-lcoh-of-1-75-kg/\">The Hydrogen Stream: Pilot project in Iceland shows geothermal-driven H2 could achieve LCOH of $1.75/kg</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "5bc24432-984d-4f62-80a1-0d01ab916240",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "OpenAI's Sam Altman accuses Musk of selling public market investors \"on short-term space data centers\"",
+      "titleOriginal": "OpenAI's Sam Altman accuses Musk of selling public market investors \"on short-term space data centers\"",
+      "summary": "<p data-block-key=\"awcnr\">Generative AI business unlikely to make use of proposed SpaceX Orbital Data Center System</p>",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-07-11T20:21:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/openais-sam-altman-accuses-musk-of-selling-public-market-investors-on-short-term-space-data-centers/",
+      "collectedAt": "2026-07-11T21:55:05.277Z",
+      "bodySnippet": "<p data-block-key=\"awcnr\">Generative AI business unlikely to make use of proposed SpaceX Orbital Data Center System</p>"
+    },
+    {
+      "id": "8afe689d-c3f3-429f-8680-50091c1297cd",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Sponsored: A new definition of speed to power",
+      "titleOriginal": "Sponsored: A new definition of speed to power",
+      "summary": "<p data-block-key=\"ftbym\">In today's environment, speed to power becomes less about overcoming external constraints and more about internal alignment</p>",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-07-11T15:00:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/opinions/a-new-definition-of-speed-to-power/",
+      "collectedAt": "2026-07-11T21:55:05.666Z",
+      "bodySnippet": "<p data-block-key=\"ftbym\">In today's environment, speed to power becomes less about overcoming external constraints and more about internal alignment</p>"
+    },
+    {
+      "id": "f0382c5a-ecd3-45c5-9815-9d7d896e289d",
+      "source": "전자신문 (Energy)",
+      "sourceId": "etnews",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "하호경 인하대 교수, 해양과학 발전 공로 국무총리 표창",
+      "titleOriginal": null,
+      "summary": "인하대학교는 하호경 해양과학과 교수가 '제31회 바다의 날'을 맞아 해양과학 발전에 기여한 공로로 국무총리 표창을 받았다고 11일 밝혔다. 하 교수는 연안과 갯벌, 극지, 심해를 대상으로 해양 관측 연구를 수행하며 과학기술논문인용색인(SCI)급 논문 100여 편을 발표했다. 현장 관측 자료를 토대로 해양환경 정책과 해양 개발사업의 평가 기준을 마련한 점도 ",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-07-11T15:05:40.000Z",
+      "originalUrl": "https://www.etnews.com/20260712000001",
+      "collectedAt": "2026-07-11T21:55:15.638Z",
+      "bodySnippet": "인하대학교는 하호경 해양과학과 교수가 '제31회 바다의 날'을 맞아 해양과학 발전에 기여한 공로로 국무총리 표창을 받았다고 11일 밝혔다. 하 교수는 연안과 갯벌, 극지, 심해를 대상으로 해양 관측 연구를 수행하며 과학기술논문인용색인(SCI)급 논문 100여 편을 발표했다. 현장 관측 자료를 토대로 해양환경 정책과 해양 개발사업의 평가 기준을 마련한 점도 인정받았다. 그는 국내 전역의 갯벌을 장기간 관측해 침식·퇴적 특성을 규명하고, 갯벌이 연"
+    },
+    {
+      "id": "1ba80059-cfba-42e8-8ac1-be2b09025994",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전기차 '배터리 소유권 분리' 시대 열린다… 배터리 대여사업 법제화 추진",
+      "titleOriginal": null,
+      "summary": "[에너지데일리 조남준 기자] 전기자동차와 배터리의 소유권을 분리해 등록하고 배터리를 빌려 사용하는 '배터리 구독(Battery-as-a-Service·BaaS)' 제도를 도입하는 법안이 국회에 제출됐다. 전기차 초기 구매 부담을 낮추는 동시에 사용후 배터리 재사용·재활용 시장을 육성해 미래 모빌리티와 순환경제 기반을 마련하려는 취지다.국회 정무위원회 손명수",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-07-11T19:34:22.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=201338",
+      "collectedAt": "2026-07-11T21:55:17.300Z",
+      "bodySnippet": "[에너지데일리 조남준 기자] 전기자동차와 배터리의 소유권을 분리해 등록하고 배터리를 빌려 사용하는 '배터리 구독(Battery-as-a-Service·BaaS)' 제도를 도입하는 법안이 국회에 제출됐다. 전기차 초기 구매 부담을 낮추는 동시에 사용후 배터리 재사용·재활용 시장을 육성해 미래 모빌리티와 순환경제 기반을 마련하려는 취지다.국회 정무위원회 손명수 의원(더불어민주당, 경기 용인시을)은 10일 이 같은 내용을 담은 '자동차관리법 일부개정법률안'을 대표 발의했다.개정안은 전기자동차와 구동축전지(배터리)의 소유권을 분리해 각각"
+    },
+    {
+      "id": "b12fa5dd-a659-40b5-9042-5c80504b8f01",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "탄소중립 지원 '대기업 중심' 탈피… 중소기업 녹색전환 우선 지원법 발의",
+      "titleOriginal": null,
+      "summary": "[에너지데일리 양미애 기자] 정부의 탄소중립 지원 대상을 대기업 중심에서 중소기업으로 확대하는 법안이 국회에 제출됐다. 온실가스 감축 효과가 큰 중소기업을 우선 지원하고 대·중소기업 간 녹색경영 협력체계를 구축해 글로벌 공급망 탄소규제에 대응할 수 있는 산업 생태계를 조성하겠다는 취지다.국회 기후위기 특별위원회 김용태 의원(국민의힘·경기 포천시가평군)은 1",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-07-11T19:27:06.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=201337",
+      "collectedAt": "2026-07-11T21:55:19.725Z",
+      "bodySnippet": "[에너지데일리 양미애 기자] 정부의 탄소중립 지원 대상을 대기업 중심에서 중소기업으로 확대하는 법안이 국회에 제출됐다. 온실가스 감축 효과가 큰 중소기업을 우선 지원하고 대·중소기업 간 녹색경영 협력체계를 구축해 글로벌 공급망 탄소규제에 대응할 수 있는 산업 생태계를 조성하겠다는 취지다.국회 기후위기 특별위원회 김용태 의원(국민의힘·경기 포천시가평군)은 10일 이 같은 내용을 담은 '기후위기 대응을 위한 탄소중립·녹색성장 기본법 일부개정법률안'을 대표 발의했다.개정안은 정부가 온실가스 배출량과 사업전환에 따른 감축 효과 등을 종합적"
+    },
+    {
+      "id": "c91a8a38-8501-40ac-a5f5-6c4fe8f9b26c",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "\"현 추세로는 2035 NDC 달성 어렵다\"… 전력·산업·수송 '추가 감축' 경고",
+      "titleOriginal": null,
+      "summary": "[에너지데일리 조남준 기자 ] 정부가 제시한 2035 국가온실가스감축목표(NDC)를 현재 정책과 산업 구조만으로는 달성하기 어렵다는 국회 분석이 나왔다.전력과 산업, 수송 부문의 감축 속도를 획기적으로 높이는 것은 물론, 수소와 청정전력 등 차세대 감축기술을 조기에 상용화하지 않으면 2050 탄소중립 달성도 쉽지 않을 것이라는 진단이다. 특히 단기 감축목표",
+      "topics": [
+        "ESG·탄소중립",
+        "에너지원"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-07-11T19:15:06.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=201335",
+      "collectedAt": "2026-07-11T21:55:23.743Z",
+      "bodySnippet": "[에너지데일리 조남준 기자 ] 정부가 제시한 2035 국가온실가스감축목표(NDC)를 현재 정책과 산업 구조만으로는 달성하기 어렵다는 국회 분석이 나왔다.전력과 산업, 수송 부문의 감축 속도를 획기적으로 높이는 것은 물론, 수소와 청정전력 등 차세대 감축기술을 조기에 상용화하지 않으면 2050 탄소중립 달성도 쉽지 않을 것이라는 진단이다. 특히 단기 감축목표 달성보다 '연속적인 감축경로'를 확보하는 정책 전환이 시급하다는 점을 강조했다.국회예산정책처는 10일 경제현안분석 제108호인 '2035 NDC 주요 부문 감축경로 점검'보고서를"
+    },
+    {
+      "id": "b8c0c1ee-d932-4dcd-87aa-cb6d39812a0a",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "IAEA, 세계은행과 협력...개도국 원자력 에너지 사용 지원",
+      "titleOriginal": null,
+      "summary": "\r\n<img alt=\"체코에서 운영 중인 두코바니 1∼4호기 원전 / 한수원 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202607/300274_172235_4416.jpg\" />\r\n체코에서 운영 중인 두코바니 1&sim;4호기 원전 / 한수원 제공\r\n\r\n\r\n\r\n[투데이에너지 장재진 기자] 국제원자력기구(IAEA)는",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-07-11T13:46:25.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=300274",
+      "collectedAt": "2026-07-11T21:55:30.236Z",
+      "bodySnippet": "\r\n<img alt=\"체코에서 운영 중인 두코바니 1∼4호기 원전 / 한수원 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202607/300274_172235_4416.jpg\" />\r\n체코에서 운영 중인 두코바니 1&sim;4호기 원전 / 한수원 제공\r\n\r\n\r\n\r\n[투데이에너지 장재진 기자] 국제원자력기구(IAEA)는 세계은행그룹(WBG)과&nbsp;지난 2025년 7월에 체결한 파트너십 협정을 통해 개발도상국의 안전하고 책임감 있는 원자력 에너지 사용 지원에 나섰다고 10일(현지 시간) 밝혔다.\r\n\r\n이번 협정은 세계은행그룹이 오랜 중단 끝에 원자력 발전에 공식적으로 재관여하기 시작했다는 점에서 국제 금융계 내 원자력 발전에 대한 인식 변화와 지지를 상징한다.\r\n\r\n이들 기관은 ▲세계은행그룹 내 원자력 관련 지식 강화로 금융 의사결정 지원 ▲기존 원전의 장기 운영 지원 ▲소형 모듈형 원자로(SMR) 개발 가속화라는 3대 핵심 협력 분야를 중심으로 협력을 진행하고 있다.\r\n\r\n특히 전력 접근성 부재로 어려움을 겪는 10억 명 이상의 인구를 위해 원자력 발전이 기저부하를 안정적으로 공급해 인프라, 농업, 의료, 제조업 등 경제 성장과 고용 창출에 기여할 수 있도록 하는 데 초점을 맞추고 있다.\r\n\r\n세계은행그룹은 2035년까지 신흥 경제국이 전 세계 전력 수요의 약 2/3를 차지할 것으로 예측하며, 이를 충족하려면 발전 부문 투자 규모를 연 2800억 달러에서 6300억 달러 이상으로 확대해야 한다고 강조한다.\r\n\r\nIAEA는 2026년 6월 1일 기준으로 전 세계에서 415기의 원자로가 가동 중이며, 총 379.0GW(e) 용량을 제공해 수많은 인구에게 전력을 공급하고 있다고 밝혔다. 향후 2050년까지 원자력 발전 용량이 두 배 이상 증가할 것으로 예상하며, 특히 SMR이 미래 원자력 발전의 핵심 동력이 될 것으로 전망된다.\r\n\r\n그러나 많은 국가에서 원자력 발전의 자금 조달이 큰 과제로 남아 있어, IAEA와 세계은행그룹은 지난 1년간 실질적 협력을 통해 원자력 금융 역량 강화 및 정책 지원, 기술 워크숍 개최, 국제 금융 기관과의 협업 확대 등에 주력해왔다. 이 과정에서 소형 모듈형 원자로 타당성 연구, 초기 인프라 개발, 방사성 폐기물 처리, 이해관계자 소통 등 원자력 투자의 초기 단계에 필요한 지원 방안도 활발히 논의됐다고 IAEA는 설명했다.\r\n\r\nIAEA는 앞으로도 세계은행그룹, 유럽재건개발은행(EBRD), 아시아개발은행(ADB), OPEC 국제개발기금(OFD) 등 다자개발은행이 국제 안전 기준을 준수하며 원자력 에너지 프로젝트를 지원할 수 있도록 협력을 확대할 계획이다. 또한 원자력 안전&middot;보안 및 비확산 조치를 국내법에 반영하는 정책 기반 재정 지원도 강화해 글로벌 원자력 발전 확대에 기여할 방침이다.\r\n\r\n■ 용어 설명&nbsp;\r\n\r\nㆍ국제원자력기구(IAEA)= 원자력의 평화적 활용 촉진과 안전, 보안, 비확산을 담당하는 국제기구.\r\n\r\nㆍ세계은행그룹(WBG)= 개발도상국의 빈곤 퇴치 및 경제 개발 지원을 목표로 하는 국제 금융 기관 그룹.\r\n\r\nㆍ소형 모듈형 원자로(SMR)=기존 대형 원자로보다 규모가 작고 모듈화된 설계로, 신속한 건설과 안전성이 특징인 차세대 원자로 기술.\r\n\r\nㆍ기저부하 전력=전력 수요의 기본적인 부분을 안정적으로 공급하는 연속 전력.\r\n\r\nㆍ원자력 발전소 정보시스템(PRIS)= IAEA가 운영하는 원자력 발전소 관련 통계 및 운영 현황 데이터베이스.\r\n\r\n&nbsp;"
+    },
+    {
+      "id": "59267061-0a69-4ef8-96ab-3089a6d4ca7e",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "브로코 에너지, 보스턴시 공식 난방유 공급업체로 선정",
+      "titleOriginal": null,
+      "summary": "[투데이에너지 장재진 기자]&nbsp;미국 뉴잉글랜드의 중견 연료업체 브로코 에너지가 보스턴시의 공식 난방유 공급업체로 선정됐다고 10일(현지 시간) 밝혔다.\r\n\r\n브로코 에너지는&nbsp;지난&nbsp;7월 1일부로 보스턴시와 3년 계약을 체결하고 시 운영을 지원하는 난방유 공급을 본격화했다.\r\n\r\n이번 계약은 브로코 에너지의 신뢰성, 운영 우수성, 고객",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-07-11T13:20:22.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=300273",
+      "collectedAt": "2026-07-11T21:55:31.736Z",
+      "bodySnippet": "[투데이에너지 장재진 기자]&nbsp;미국 뉴잉글랜드의 중견 연료업체 브로코 에너지가 보스턴시의 공식 난방유 공급업체로 선정됐다고 10일(현지 시간) 밝혔다.\r\n\r\n브로코 에너지는&nbsp;지난&nbsp;7월 1일부로 보스턴시와 3년 계약을 체결하고 시 운영을 지원하는 난방유 공급을 본격화했다.\r\n\r\n이번 계약은 브로코 에너지의 신뢰성, 운영 우수성, 고객 서비스 역량을 인정한 결과로 해석된다. 보스턴시는 연중 공공시설의 운영이 중단되지 않도록 안정적이고 신속한 연료 조달이 가능한 사업자를 필요로 했으며, 브로코는 이러한 요건을 충족하는 파트너로 선정됐다.\r\n\r\n브로코 에너지 측은 회사가 지방자치단체와 주요 시설에 지속적으로 신뢰할 수 있는 연료 서비스를 제공하겠다는 의지를 밝혔다.\r\n\r\n로버트 브라운 브로코 에너지 대표는&nbsp;&ldquo;보스턴시의 난방유 공급을 맡게 되어 영광이며, 일관된 성과와 신뢰를 바탕으로 시를 위해 봉사하겠다&rdquo;고 말했다.\r\n\r\n브로코는 매사추세츠에 본사를 둔 재향군인 소유의 소규모 기업으로, 석유 제품과 윤활유, 프로판의 유통을 전문으로 해왔다. 최근에는 매스포트의 주요 시설에서 재생 가능 디젤 공급을 담당하며 청정 연료 전환을 지원한 바 있다. 또한 북동부 지역에서 대규모 철도 기반 바이오디젤 터미널을 운영하며 저장 용량과 공급 탄력성을 확대해 온 점도 평가를 받았다.\r\n\r\n회사 측은 이번 계약 기간 안전과 신뢰를 최우선으로 하고, 공공기관&middot;상업시설&middot;중요 인프라에 대한 장기적 파트너십을 계속 구축해 나가겠다고 밝혔다. 브로코가 운영하는 긴급 대응팀은 재난 발생 시 24시간 긴급 연료 공급을 제공하여 공공 안전과 비상운영 대응 능력을 보완한다.\r\n\r\n이번 협약은 지역 차원의 연료 공급 안정성과 재생 가능 연료로의 전환 노력을 동시에 촉진하는 계기가 될 전망이다. 보스턴시 운영 관계자는 계약을 통해 공공시설의 연료 수급 안정성이 높아질 것으로 기대하며, 향후 재생 가능 연료 도입 확대 가능성도 열어두었다고 전했다.\r\n\r\n■ 용어 설명\r\n\r\n\r\n\t난방유=주로 건물 난방에 사용되는 액체 연료(중유 계열). 난방 설비에서 열을 발생시키는 데 쓰인다.\r\n\t재생 가능 디젤(Renewable Diesel)=식물성 기름이나 동물성 지방 등 바이오매스를 원료로 생산한 디젤 계열 연료로, 기존 디젤과 호환되면서 탄소배출 저감 효과가 있다.\r\n\t바이오디젤 터미널=바이오디젤 등 재생 가능 연료를 저장&middot;유통하기 위한 대형 저장&middot;환적 시설. 철도 기반 터미널은 대량 수송과 공급 안정성에 유리하다.\r\n\tHVAC=난방(Heating), 환기(Ventilation), 공기 조화(Air Conditioning)를 통칭하는 설비&middot;서비스. 건물의 온도&middot;공기질 관리에 사용된다.\r\n"
+    },
+    {
+      "id": "2e943216-a511-4646-9d6b-4f07081ac3a4",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“해상풍력 키우려면 통합 발전사 자금 조달 규제 풀어야”",
+      "titleOriginal": null,
+      "summary": "8회 해상에너지산업체포럼·55회 전력포럼 개최\n발전 공기업 통합해 해상풍력 조직 확대 필요\n개발-운영의무 혼합 등 사업방식 유연성 확보해야\n기자재 국산화·O&M 키워야 일자리 ‘정의 전환’\n석탄발전 노동자들 위한 해상풍력 교육 지원 필요 ▲해상에너지산업체포럼과 미래에너지정책연구원, 전국전력산업노동조합연맹이 10일 서울시 중구 코리아나호텔에서 개최한 제8회 ",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-07-11T06:37:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260710021101255",
+      "collectedAt": "2026-07-11T21:55:58.674Z",
+      "bodySnippet": "8회 해상에너지산업체포럼·55회 전력포럼 개최\n발전 공기업 통합해 해상풍력 조직 확대 필요\n개발-운영의무 혼합 등 사업방식 유연성 확보해야\n기자재 국산화·O&M 키워야 일자리 ‘정의 전환’\n석탄발전 노동자들 위한 해상풍력 교육 지원 필요 ▲해상에너지산업체포럼과 미래에너지정책연구원, 전국전력산업노동조합연맹이 10일 서울시 중구 코리아나호텔에서 개최한 제8회 해상에너지산업체포럼·제55회 전력포럼에서 참석자들이 기념 사진을 촬영하고 있다. 사진=정승현 기자 국내 발전 공기업 5사의 통합을 해상풍력 발전 경쟁력을 키우는 전환점으로 삼으려면, 프로젝트 자금 조달 구조 개선, 민관 협력 체계 구축, 인력 재교육 및 재배치 등의 법적 장치를 선제적으로 마련해야 한다는 주장이 제기됐다. 해상에너지산업체포럼과 미래에너지정책연구원, 전국전력산업노동조합연맹은 10일 서울 중구 코리아나호텔에서 '한국 해상풍력의 대전환, 발전공기업의 역할은 무엇인가'를 주제로 '제8회 해상에너지산업체포럼·제55회 전력포럼'을 공동 개최했다. ◇5사 통합, 해상풍력 컨트롤타워 구축의 기회로 이날 발표자로 나선 김윤성 해상에너지산업체포럼 공동대표는 발전 공기업이 해상풍력의 안정적인 전력 공급이라는 공적 역할을 수행하기 위한 제반 조건을 제안했다. 특히 한국남부발전, 서부발전, 남동발전, 중부발전, 동서발전 등 국내 발전 공기업 5곳을 하나로 합치는 '1사 통합 체제'가 해상풍력 사업을 효율적으로 전개하는 데 훨씬 유리하다고 강조했다. 현재 발전 5사가 각각 해상풍력 전담 조직을 두고 있지만, 대부분 처(處) 아래의 실·부 단위에 불과해 대규모 해상풍력 단지를 개발하기에는 조직 규모와 권한이 작다는 지적이다. 최근 정부는 에너지 전환에 필요한 투자 여력을 극대화하기 위해 발전 5사 통합을 추진해 왔다. 기후에너지환경부는 지난달 연구용역 중간 결과를 통해 '1사 통합안'을 최적의 대안으로 제시한 바 있다. 김 대표는 이러한 지배구조 개편 과정에서 해상풍력 사업 역량을 비약적으로 끌어올려야 한다고 보았다. 김 대표는 “1사 통합 발전사가 출범하면 해상풍력 조직을 '부'가 아닌 '처' 단위 이상으로 격상하고, 책임자 직급도 부사장급으로 높여야 개발과 운영을 아우르는 체계적인 구조가 가능할 것\"이라고 설명했다. ◇자본금 규제 완화… “해상풍력 대형 프로젝트 동시 수행 가능해야\" 통합 발전 공기업이 해상풍력 사업을 차질 없이 수행하기 위해서는 자금 조달 비용을 대폭 낮출 수 있는 길을 열어주어야 한다. 현재 구조상 발전 공기업의 자금 조달 규모는 모기업인 한국전력공사(한전)와 연동되어 있다. 하지만 한전법에 따라 한전은 공사 자본금을 6조 원까지만 설정할 수 있고, 사채 발행 역시 자본금과 적립금을 합한 금액의 2배로 제한되어 있어 자금 조달에 한계가 명확하다. 김 대표는 “현재 발전 5사의 평균 자본총계와 자본금은 각각 12조 원과 6조 원 수준이며, 논의 중인 발전공기업 통합 법안에서는 통합공기업의 자본금을 32조 원으로 규정하고 있다\"며 “여러 해상풍력 프로젝트를 동시에 원활하게 수행하기 위해서는 통합 발전공사가 32조 원 이상의 자본금을 확보할 수 있도록 규제를 과감히 풀어야 한다\"고 주장했다. 가령 400메가와트(MW) 규모의 해상풍력 프로젝트 하나를 추진하는 데 약 3조 원의 자본이 필요하다. 업계 관행상 SPC가 자기자본 비율을 최소 20%로 두고, 해당 SPC가 공기업으로 인정받기 위해 발전 공기업 지분을 50% 이상 확보한다고 가정하면, 발전 공기업이 사업 하나당 발행해야 하는 회사채만 최소 3000억 원에 달한다. 여기에 국내 해상풍력 사업은 준비부터 완공까지 10년 이상 소요되어 수익 다각화까지 오랜 시간이 걸린다. 석탄화력발전 폐지, LNG 전환, 원전 및 태양광 인프라 구축을 동시에 진행해야 하는 만큼, 통합 공기업의 자본금 상한선을 한층 여유롭게 설계해야 한다는 분석이다. 사업 방식 측면에서는 공기업이 개발에는 참여하되, 발전 운영은 프로젝트별 특성에 따라 공공과 민간이 적절히 분담하는 '개발-운영 의무 혼합 형태'를 제안했다. 통상 대규모 자금이 투입되는 해상풍력 사업은 외부 투자자를 모집해 특수목적법인(SPC)을 설립해 진행된다. SPC는 상법상 주식회사여서 기존 발전 공기업 노동자를 고용 승계할 의무가 없기 때문에 노동 시장의 '정의로운 전환'에 배치된다. 반대로 모든 운영 책임을 통합 공기업이 짊어지면 개발 과정의 부채 부담을 고스란히 떠안게 되는 딜레마가 있다. 김 대표는 “발전 공기업에 모든 프로젝트의 운영 책임까지 요구하기는 어렵다\"며 “의무 운영 비율을 제도화하되, 자체 개발 시 유연성을 확보할 수 있는 조항이 필요하다\"고 말했다. 아울러 “이러한 프로젝트들이 기존 석탄발전 등의 유휴 인력을 흡수할 수 있는 구조가 되어야 진정한 정의로운 전환이 이루어질 것\"이라고 덧붙였다. ◇기자재 국산화와 O&M 육성으로 석탄발전 노동자 품어야 해상풍력 프로젝트가 기존 노동자들의 고용 안정을 보장하는 '정의로운 전환'의 무대가 되기 위해서는 부품과 기자재의 국산화율을 높여야 한다는 제언도 이어졌다. 남태섭 전국전력산업노동조합연맹 수석부위원장은 “통합 발전사의 역할은 대규모 초기 투자 리스크를 감당하는 마중물이 되는 것\"이라며 “공공 주도로 국내 해상풍력 생태계를 국산화하고, 공급 실적(Track Record)을 쌓음으로써 전력 계통 연계와 수급 안정에 기여해야 한다\"고 제안했다. 시드니 공과대학교(UTS) 제이 로터비츠(J. Rutovitz) 교수의 2025년 논문에 따르면, 석탄발전은 건설·설치 단계의 고용 효과(11.08년/MW)가 큰 반면, 해상풍력은 기자재 제조(13.68년/MW)와 유지보수(O&M, 0.28개/MW) 부문에서 고용 창출 효과가 월등히 높은 것으로 나타났다. 전체 사업비 측면에서도 해상풍력은 기자재 제조가 약 60%, O&M이 35% 안팎을 차지한다. 따라서 국산화 정책을 강화하고 통합 공기업이 O&M 사업을 직접 주도해 덩치를 키워야 고용 흡수력을 높일 수 있다는 뜻이다. 남 수석부위원장은 “석탄화력발전을 LNG로 전환하더라도 유휴 인력을 전원 흡수하는 것은 불가능하다\"며"
     }
   ]
 }
