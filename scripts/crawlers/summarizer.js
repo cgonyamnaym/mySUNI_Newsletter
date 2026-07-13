@@ -5,7 +5,8 @@
  *
  * 환경변수 GEMINI_API_KEY 필요
  *
- * 모델 우선순위: gemini-2.5-flash → gemini-2.0-flash-lite → gemini-1.5-flash
+ * 모델 우선순위: gemini-2.5-flash → gemini-2.0-flash-lite → gemini-3.1-flash-lite-preview
+ * (gemini-1.5-flash는 Google이 폐기(404 Not Found)하여 gemini-3.1-flash-lite-preview로 교체, 2026-07-13)
  * - 429 수신 시 해당 모델은 GEMINI_COOLDOWN_MS(기본 60s) 동안만 차단 (영구 아님)
  * - 전 모델 쿨다운 중이면 그 기사만 키워드 기반 폴백 처리 (translated: false로 표시)
  */
@@ -23,7 +24,7 @@ const TOPICS = [
 const MODEL_CHAIN = [
   'gemini-2.5-flash',
   'gemini-2.0-flash-lite',
-  'gemini-1.5-flash',
+  'gemini-3.1-flash-lite-preview',
 ]
 
 // 모델별 독립 인터벌 추적 (ms)
