@@ -13,6 +13,7 @@ const ARTICLE_TYPES = [
  * @param {string} title
  * @param {string} text   기사 본문 (최대 3000자 사용)
  * @param {'ko'|'en'} lang
+ * @param {{ deadlineMs?: number }} [opts]
  * @returns {Promise<{
  *   article_type: string,
  *   who: { main_actor: string|null, partner: string|null, authority: string|null },
@@ -23,7 +24,7 @@ const ARTICLE_TYPES = [
  *   business_impact: string|null
  * }>}
  */
-async function extractFieldsMethodA(title, text, lang = 'ko') {
+async function extractFieldsMethodA(title, text, lang = 'ko', opts = {}) {
   const body = text.slice(0, 3000)
   const typeList = ARTICLE_TYPES.join('|')
 
@@ -32,7 +33,7 @@ async function extractFieldsMethodA(title, text, lang = 'ko') {
     : buildPromptKo(title, body, typeList)
 
   try {
-    const raw = await callLLM(prompt)
+    const raw = await callLLM(prompt, opts)
     const start = raw.indexOf('{')
     const end   = raw.lastIndexOf('}')
     const jsonStr = (start !== -1 && end > start) ? raw.slice(start, end + 1) : raw

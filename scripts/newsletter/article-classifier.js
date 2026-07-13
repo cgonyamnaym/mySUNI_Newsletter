@@ -136,7 +136,7 @@ function computeDensityScore(text) {
 
 // ── Level 4: LLM 판별 (회색지대만) ───────────────────────────────────────────
 
-async function classifyWithLLM(title, text) {
+async function classifyWithLLM(title, text, opts = {}) {
   const sentences = extractValidSentences(text)
   const lead = sentences.slice(0, 3).join(' ')
 
@@ -152,7 +152,7 @@ JSON만 응답 (마크다운 없이):
 { "all_three": true }  또는  { "all_three": false }`
 
   try {
-    const raw = await callLLM(prompt)
+    const raw = await callLLM(prompt, opts)
     const start = raw.indexOf('{')
     const end   = raw.lastIndexOf('}')
     const jsonStr = (start !== -1 && end > start) ? raw.slice(start, end + 1) : raw
@@ -170,9 +170,10 @@ JSON만 응답 (마크다운 없이):
  * @param {string} title
  * @param {string} text   기사 본문
  * @param {string} sourceId   sources.js의 id 값
+ * @param {{ deadlineMs?: number }} [opts]
  * @returns {Promise<{ method: 'A'|'B', level: number, netScore?: number, densityScore?: number }>}
  */
-async function classifyArticle(title, text, sourceId = '') {
+async function classifyArticle(title, text, sourceId = '', opts = {}) {
   // Level 1: 출처 override
   if (SOURCE_OVERRIDE_A.includes(sourceId)) return { method: 'A', level: 1 }
   if (SOURCE_OVERRIDE_B.includes(sourceId)) return { method: 'B', level: 1 }
@@ -188,7 +189,7 @@ async function classifyArticle(title, text, sourceId = '') {
   if (densityScore <= -0.10) return { method: 'B', level: 3, netScore, densityScore }
 
   // Level 4: LLM (회색지대)
-  const method = await classifyWithLLM(title, text)
+  const method = await classifyWithLLM(title, text, opts)
   return { method, level: 4, netScore, densityScore }
 }
 

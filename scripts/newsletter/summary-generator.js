@@ -230,11 +230,11 @@ function validateAndRepair(parsed, constraints) {
 
 // ── LLM 호출 + 파싱 + 검증 ───────────────────────────────────────────────────
 
-async function callAndParse(prompt, constraints) {
+async function callAndParse(prompt, constraints, opts = {}) {
   let parsed = { what: null, why: null, sowhat: null }
 
   try {
-    const raw = await callLLM(prompt)
+    const raw = await callLLM(prompt, opts)
     // LLM이 preamble/postamble을 추가하는 경우 JSON 객체 부분만 추출
     const start = raw.indexOf('{')
     const end   = raw.lastIndexOf('}')
@@ -254,7 +254,7 @@ async function callAndParse(prompt, constraints) {
 
 // ── Method A: 구조화 필드 → 3줄 요약 ─────────────────────────────────────────
 
-async function generateSummaryFromFields(fields) {
+async function generateSummaryFromFields(fields, opts = {}) {
   const metricsStr = Object.entries(fields.metrics)
     .filter(([, v]) => v)
     .map(([k, v]) => `${k}: ${v}`)
@@ -315,7 +315,7 @@ JSON만 응답 (마크다운 없이):
   "sowhat": "사업 임팩트 근거로만, ~했다/~됐다 체로 (1문장, 50자 이내) — 사업 임팩트가 없음이면 반드시 null"
 }`
 
-  return await callAndParse(prompt, constraints)
+  return await callAndParse(prompt, constraints, opts)
 }
 
 // ── Method B: 선발 문장 → 3줄 요약 ──────────────────────────────────────────
@@ -323,8 +323,9 @@ JSON만 응답 (마크다운 없이):
 /**
  * @param {{ what: string, why: string|null, sowhat: string|null }} sentences
  * @param {'ko'|'en'} lang   원문 언어 — 'en'이면 한국어 번역 지시 추가
+ * @param {{ deadlineMs?: number }} [opts]
  */
-async function generateSummaryFromSentences(sentences, lang = 'ko') {
+async function generateSummaryFromSentences(sentences, lang = 'ko', opts = {}) {
   const constraints = {
     whatAvailable: !!sentences.what,
     whatMetrics:   extractMetricValues(sentences.what ?? ''),
@@ -367,7 +368,7 @@ JSON만 응답 (마크다운 없이):
   "sowhat": "So what 근거를 한국어 신문 기사체(~했다/~됐다)로 정제 (1문장, 50자 이내) — 근거가 없음이면 반드시 null"
 }`
 
-  return await callAndParse(prompt, constraints)
+  return await callAndParse(prompt, constraints, opts)
 }
 
 // ── 통합 인터페이스 ───────────────────────────────────────────────────────────
@@ -376,10 +377,12 @@ JSON만 응답 (마크다운 없이):
  * @param {'A'|'B'} method
  * @param {object} elements
  * @param {'ko'|'en'} lang   원문 언어 (Method B 번역 지시에 사용)
+ * @param {{ deadlineMs?: number }} [opts]  절대 시각(ms) 기준 시간 예산 — /api/summarize 등
+ *   호출 시간이 제한된 환경에서 재시도 대기를 건너뛰어 빠르게 실패하도록 전달
  */
-async function generateNewsletterSummary(method, elements, lang = 'ko') {
-  if (method === 'A') return generateSummaryFromFields(elements)
-  return generateSummaryFromSentences(elements, lang)
+async function generateNewsletterSummary(method, elements, lang = 'ko', opts = {}) {
+  if (method === 'A') return generateSummaryFromFields(elements, opts)
+  return generateSummaryFromSentences(elements, lang, opts)
 }
 
 module.exports = { generateNewsletterSummary, generateSummaryFromFields, generateSummaryFromSentences }

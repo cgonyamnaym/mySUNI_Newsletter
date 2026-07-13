@@ -192,6 +192,7 @@ export default function ScreeningPage() {
 
     // 생성된 요약을 응답에서 직접 수집 → localStorage 경유로 /generate에 전달
     const collected: Record<string, unknown> = {}
+    const failedIds: string[] = []
 
     // Vercel 60초 제한 대응: 기사 1개씩 순차 요약
     for (let i = 0; i < ids.length; i++) {
@@ -204,8 +205,14 @@ export default function ScreeningPage() {
         if (res.ok) {
           const data = await res.json()
           Object.assign(collected, data)
+          if (!data[ids[i]]) failedIds.push(ids[i])
+        } else {
+          failedIds.push(ids[i])
         }
-      } catch { /* API 없는 환경에서는 /generate에서 캐시 fallback */ }
+      } catch {
+        // API 없는 환경에서는 /generate에서 캐시 fallback을 시도하므로 즉시 실패 처리하지 않음
+        failedIds.push(ids[i])
+      }
       setGeneratingProgress(i + 1)
     }
 
@@ -213,6 +220,13 @@ export default function ScreeningPage() {
     try {
       localStorage.setItem('nl-generated-summaries', JSON.stringify(collected))
     } catch { /* localStorage 용량 초과 등 무시 */ }
+
+    if (failedIds.length > 0) {
+      alert(
+        `${failedIds.length}건의 기사는 AI 요약 생성에 실패했습니다.\n` +
+        `뉴스레터 생성 화면에서 해당 카드의 "재시도" 버튼으로 다시 시도할 수 있습니다.`
+      )
+    }
 
     router.push('/generate')
   }

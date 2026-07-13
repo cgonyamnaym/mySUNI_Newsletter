@@ -1,6 +1,6 @@
 'use client'
 
-import { forwardRef, useState, useEffect } from 'react'
+import { forwardRef, useState, useEffect, type MouseEvent } from 'react'
 import type { Article, TopicId } from '@/lib/types'
 
 // 뉴스레터 전용 카테고리 색상 (목업 기준)
@@ -50,10 +50,12 @@ function TopicEmoji({ id, size }: { id: TopicId; size: number }) {
 interface Props {
   articles: Article[]
   dateLabel?: string
+  /** 요약 생성 실패한 기사의 재시도 요청. 성공 시 true, 실패 시 false를 반환해야 함 */
+  onRetrySummary?: (articleId: string) => Promise<boolean>
 }
 
 const NewsletterContent = forwardRef<HTMLDivElement, Props>(
-  ({ articles, dateLabel }, ref) => {
+  ({ articles, dateLabel, onRetrySummary }, ref) => {
     // primaryTopic 우선, 없으면 첫 번째 topic, 없으면 uncategorized
     const groupMap = new Map<TopicId, Article[]>()
     const unclassified: Article[] = []
@@ -256,10 +258,10 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
                   display: 'grid',
                   gridTemplateColumns: '1fr 1fr',
                   gap: '16px',
-                  alignItems: 'stretch',
+                  alignItems: 'start',
                 }}>
                   {items.map((article) => (
-                    <ArticleCard key={article.id} article={article} catStyle={c} topicLabel={topicId} />
+                    <ArticleCard key={article.id} article={article} catStyle={c} topicLabel={topicId} onRetrySummary={onRetrySummary} />
                   ))}
                 </div>
               </section>
@@ -285,7 +287,7 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
                 display: 'grid',
                 gridTemplateColumns: '1fr 1fr',
                 gap: '16px',
-                alignItems: 'stretch',
+                alignItems: 'start',
               }}>
                 {unclassified.map((article) => (
                   <ArticleCard
@@ -293,6 +295,7 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
                     article={article}
                     catStyle={FALLBACK_CAT}
                     topicLabel="기타"
+                    onRetrySummary={onRetrySummary}
                   />
                 ))}
               </div>
@@ -347,12 +350,32 @@ function ArticleCard({
   article,
   catStyle,
   topicLabel,
+  onRetrySummary,
 }: {
   article: Article
   catStyle: CatStyle
   topicLabel: string
+  onRetrySummary?: (articleId: string) => Promise<boolean>
 }) {
   const ns = article.newsletterSummary
+  const [retrying, setRetrying] = useState(false)
+  const [retryFailed, setRetryFailed] = useState(false)
+
+  async function handleRetryClick(e: MouseEvent) {
+    e.preventDefault()
+    e.stopPropagation()
+    if (!onRetrySummary || retrying) return
+    setRetrying(true)
+    setRetryFailed(false)
+    try {
+      const ok = await onRetrySummary(article.id)
+      if (!ok) setRetryFailed(true)
+    } catch {
+      setRetryFailed(true)
+    } finally {
+      setRetrying(false)
+    }
+  }
 
   return (
     <a
@@ -404,37 +427,59 @@ function ArticleCard({
           {article.title}
         </div>
 
-        {/* 3줄 구조 요약 or 일반 요약 */}
+        {/* 3줄 구조 요약 or 요약 준비중 상태 */}
         <div style={{ marginBottom: '14px' }}>
-          {(ns?.what || article.summary) && (
+          {ns?.what ? (
+            <>
+              <div style={{
+                fontSize: '14px', fontWeight: 700, color: '#0891B2',
+                letterSpacing: '0.5px', marginBottom: '6px',
+              }}>
+                📝 요약
+              </div>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                <div style={{ fontSize: '15px', color: '#111827', lineHeight: 1.65, fontWeight: 500 }}>
+                  {ns.what}
+                </div>
+                {ns.why && (
+                  <div style={{ fontSize: '14px', color: '#6B7280', lineHeight: 1.65 }}>
+                    {ns.why}
+                  </div>
+                )}
+                {ns.sowhat && (
+                  <div style={{ fontSize: '14px', color: '#6B7280', lineHeight: 1.65 }}>
+                    {ns.sowhat}
+                  </div>
+                )}
+              </div>
+            </>
+          ) : (
             <div style={{
-              fontSize: '14px', fontWeight: 700, color: '#0891B2',
-              letterSpacing: '0.5px', marginBottom: '6px',
+              display: 'flex', alignItems: 'center', gap: '8px',
+              padding: '10px 12px', borderRadius: '8px',
+              background: '#F9FAFB', border: '1px dashed #E5E7EB',
             }}>
-              📝 요약
+              <span style={{ fontSize: '13px', color: '#9CA3AF', flex: 1 }}>
+                {retrying ? '⏳ 요약 생성 중...' : retryFailed ? '⚠️ 요약 생성에 실패했습니다.' : '⚠️ AI 요약이 아직 생성되지 않았습니다.'}
+              </span>
+              {onRetrySummary && (
+                <span
+                  role="button"
+                  tabIndex={0}
+                  onClick={handleRetryClick}
+                  onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') handleRetryClick(e as unknown as MouseEvent) }}
+                  style={{
+                    fontSize: '12px', fontWeight: 700,
+                    color: retrying ? '#D1D5DB' : '#0066FF',
+                    cursor: retrying ? 'default' : 'pointer',
+                    whiteSpace: 'nowrap',
+                  }}
+                >
+                  {retrying ? '처리중...' : '재시도'}
+                </span>
+              )}
             </div>
           )}
-          {ns?.what ? (
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
-              <div style={{ fontSize: '15px', color: '#111827', lineHeight: 1.65, fontWeight: 500 }}>
-                {ns.what}
-              </div>
-              {ns.why && (
-                <div style={{ fontSize: '14px', color: '#6B7280', lineHeight: 1.65 }}>
-                  {ns.why}
-                </div>
-              )}
-              {ns.sowhat && (
-                <div style={{ fontSize: '14px', color: '#6B7280', lineHeight: 1.65 }}>
-                  {ns.sowhat}
-                </div>
-              )}
-            </div>
-          ) : article.summary ? (
-            <div style={{ fontSize: '15px', color: '#374151', lineHeight: 1.72 }}>
-              {article.summary}
-            </div>
-          ) : null}
         </div>
 
         {/* Footer: topic chip + 원문 링크 */}

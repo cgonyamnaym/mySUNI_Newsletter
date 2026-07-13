@@ -114,6 +114,24 @@ export default function GeneratePage() {
     load()
   }, [])
 
+  async function handleRetrySummary(articleId: string): Promise<boolean> {
+    try {
+      const res = await fetch('/api/summarize', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ids: [articleId] }),
+      })
+      if (!res.ok) return false
+      const data = await res.json() as Record<string, Article['newsletterSummary']>
+      const summary = data[articleId]
+      if (!summary?.what) return false
+      setArticles((prev) => prev.map((a) => (a.id === articleId ? { ...a, newsletterSummary: summary } : a)))
+      return true
+    } catch {
+      return false
+    }
+  }
+
   function handleDownloadHtml() {
     if (!contentRef.current) return
     const dateStr = new Date().toISOString().slice(0, 10)
@@ -317,7 +335,7 @@ export default function GeneratePage() {
 
       {/* 뉴스레터 본문 */}
       <main className="flex-1 py-8 px-4">
-        <NewsletterContent ref={contentRef} articles={articles} />
+        <NewsletterContent ref={contentRef} articles={articles} onRetrySummary={handleRetrySummary} />
       </main>
     </div>
   )
