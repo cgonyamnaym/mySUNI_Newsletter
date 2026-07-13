@@ -615,6 +615,9 @@ Record<string, NewsletterSummary>
 **내부 파이프라인**: Redis 캐시 확인 → Miss 시 기사 탐색(`public/data/daily/`) → 본문 fetch → 분류(Method A/B) → 필드 추출/문장 선발 → 3줄 요약 생성 → Redis 저장 + `newsletter-draft.json` 병합 저장
 
 **서버리스 번들링**: `next.config.js` `outputFileTracingIncludes`로 `scripts/` 디렉터리 포함
++ `scripts/`가 `eval('require')`로 로드되어 Next.js 파일 트레이서(@vercel/nft)를 우회하므로,
+`scripts/`가 require()하는 npm 패키지(cheerio·@google/generative-ai)의 전이 의존성도
+동일 설정에 명시적으로 포함해야 함 (미포함 시 배포본에서 `Cannot find module` 런타임 오류)
 
 #### GET `/api/summaries`
 여러 기사의 캐시된 요약을 일괄 조회한다.
@@ -677,7 +680,7 @@ const dailyResults = await Promise.all(
 | `extractFieldsMethodA` | gemini-2.5-flash | title + body | 구조화 필드 JSON |
 | `generateNewsletterSummary` | gemini-2.5-flash | method + elements | `{what, why, sowhat}` |
 
-**Rate Limit**: 6500ms min, 429 → 15s 대기 후 다음 모델
+**Rate Limit**: 4000ms min(`GEMINI_INTERVAL_MS`, daily-crawl.yml과 동일 값으로 검증됨), 429 → 15s 대기 후 다음 모델, 503 → 8s 후 1회 재시도
 **Fallback Chain**: `gemini-2.5-flash` → `gemini-3.1-flash-lite-preview` → `gemma-3-4b-it` → `rawSummaryFallback`
 
 ---
