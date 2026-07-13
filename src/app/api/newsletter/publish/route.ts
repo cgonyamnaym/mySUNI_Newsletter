@@ -53,5 +53,11 @@ export async function POST(req: NextRequest) {
   index.unshift({ id, confirmedAt, articleCount: articles.length, title: entry.title })
   await redis.set('newsletter:index', index.slice(0, 200))
 
-  return NextResponse.json({ id, url: `/n/${id}` })
+  return NextResponse.json({
+    id,
+    url: `/n/${id}`,
+    confirmedAt,
+    articleCount: articles.length,
+    title: entry.title,
+  })
 }

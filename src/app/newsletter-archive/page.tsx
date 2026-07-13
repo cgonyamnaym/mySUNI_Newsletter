@@ -8,6 +8,7 @@ import { Header } from '@/components/Header'
 import { NewsletterContent } from '@/components/NewsletterContent'
 import { getArchiveEntries, getArchiveEntry, deleteArchiveEntry } from '@/lib/newsletter-archive'
 import type { NewsletterArchiveEntry } from '@/lib/newsletter-archive'
+import type { NewsletterMeta } from '@/app/api/newsletter/publish/route'
 
 function formatDate(iso: string) {
   const d = new Date(iso)
@@ -22,41 +23,32 @@ function DetailView({ id }: { id: string }) {
   const [entry, setEntry] = useState<NewsletterArchiveEntry | null>(null)
   const contentRef = useRef<HTMLDivElement>(null)
   const [publishedUrl, setPublishedUrl] = useState('')
-  const [publishing, setPublishing] = useState(false)
   const [copied, setCopied] = useState(false)
 
   useEffect(() => {
-    const found = getArchiveEntry(id)
-    if (!found) {
-      router.replace('/newsletter-archive')
-      return
-    }
-    setEntry(found)
+    let cancelled = false
+    getArchiveEntry(id).then((found) => {
+      if (cancelled) return
+      if (!found) {
+        router.replace('/newsletter-archive')
+        return
+      }
+      setEntry(found)
+    })
+    return () => { cancelled = true }
   }, [id, router])
 
   async function handlePublish() {
-    if (publishing || !entry) return
+    if (!entry) return
+    const url = `${window.location.origin}/n/${entry.id}`
     if (publishedUrl) {
       await navigator.clipboard.writeText(publishedUrl)
       setCopied(true)
       setTimeout(() => setCopied(false), 2000)
       return
     }
-    setPublishing(true)
-    try {
-      const res = await fetch('/api/newsletter/publish', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ articles: entry.articles }),
-      })
-      if (!res.ok) throw new Error('failed')
-      const { url } = await res.json() as { url: string }
-      setPublishedUrl(`${window.location.origin}${url}`)
-    } catch {
-      alert('URL 생성에 실패했습니다. Redis 설정을 확인하세요.')
-    } finally {
-      setPublishing(false)
-    }
+    // 아카이브 항목은 확정 시점에 이미 공유 가능한 상태로 저장되어 있으므로 재요청 없이 URL만 조립
+    setPublishedUrl(url)
   }
 
   async function handleCopyUrl() {
@@ -131,12 +123,9 @@ function DetailView({ id }: { id: string }) {
           <div className="flex items-center gap-2 shrink-0">
             <button
               onClick={handlePublish}
-              disabled={publishing}
               className={`flex items-center gap-2 px-4 py-2 rounded-xl text-[13px] font-bold transition-all ${
                 publishedUrl
                   ? 'bg-green-500 text-white'
-                  : publishing
-                  ? 'bg-wds-gray-200 text-wds-gray-500 cursor-wait'
                   : 'bg-wds-gray-100 text-wds-gray-700 hover:bg-wds-gray-200'
               }`}
             >
@@ -144,7 +133,7 @@ function DetailView({ id }: { id: string }) {
                 <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
                 <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
               </svg>
-              {publishedUrl ? 'URL 생성됨' : publishing ? '생성 중...' : 'URL 공유'}
+              {publishedUrl ? 'URL 생성됨' : 'URL 공유'}
             </button>
             <button
               onClick={handleDownloadHtml}
@@ -190,18 +179,23 @@ function DetailView({ id }: { id: string }) {
 
 // ── 목록 뷰 ──────────────────────────────────────────────────
 function ListView() {
-  const [entries, setEntries] = useState<NewsletterArchiveEntry[]>([])
+  const [entries, setEntries] = useState<NewsletterMeta[]>([])
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
-    setEntries(getArchiveEntries())
-    setMounted(true)
+    let cancelled = false
+    getArchiveEntries().then((data) => {
+      if (cancelled) return
+      setEntries(data)
+      setMounted(true)
+    })
+    return () => { cancelled = true }
   }, [])
 
-  function handleDelete(id: string) {
+  async function handleDelete(id: string) {
     if (!confirm('이 뉴스레터를 아카이브에서 삭제할까요?')) return
-    deleteArchiveEntry(id)
-    setEntries(getArchiveEntries())
+    await deleteArchiveEntry(id)
+    setEntries(await getArchiveEntries())
   }
 
   if (!mounted) return null

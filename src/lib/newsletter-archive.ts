@@ -1,58 +1,50 @@
 import type { Article } from './types'
+import type { NewsletterMeta, PublishedNewsletter } from '@/app/api/newsletter/publish/route'
 
-const ARCHIVE_KEY = 'newsletter-archive'
+export type NewsletterArchiveEntry = PublishedNewsletter
 
-export interface NewsletterArchiveEntry {
+export interface SavedNewsletterMeta {
   id: string
+  url: string
   confirmedAt: string
   articleCount: number
-  articles: Article[]
+  title: string
 }
 
-export function getArchiveEntries(): NewsletterArchiveEntry[] {
-  if (typeof window === 'undefined') return []
+async function fetchJson<T>(path: string, init?: RequestInit): Promise<T | null> {
   try {
-    const raw = localStorage.getItem(ARCHIVE_KEY)
-    if (!raw) return []
-    const entries = JSON.parse(raw) as NewsletterArchiveEntry[]
-    return entries.sort((a, b) => new Date(b.confirmedAt).getTime() - new Date(a.confirmedAt).getTime())
+    const res = await fetch(path, init)
+    if (!res.ok) return null
+    return await res.json() as T
   } catch {
-    return []
+    return null
   }
 }
 
-export function saveArchiveEntry(articles: Article[]): NewsletterArchiveEntry {
-  const entry: NewsletterArchiveEntry = {
-    id: Date.now().toString(),
-    confirmedAt: new Date().toISOString(),
-    articleCount: articles.length,
-    articles,
-  }
-  const entries = getArchiveEntries()
-  entries.unshift(entry)
-  try {
-    localStorage.setItem(ARCHIVE_KEY, JSON.stringify(entries))
-  } catch (e) {
-    if (e instanceof DOMException && e.name === 'QuotaExceededError') {
-      // 가장 오래된 항목 1개 제거 후 재시도
-      const trimmed = entries.slice(0, entries.length - 1)
-      localStorage.setItem(ARCHIVE_KEY, JSON.stringify(trimmed))
-    } else {
-      throw e
-    }
-  }
-  return entry
+// 확정된 뉴스레터 목록 (메타데이터만, Redis newsletter:index 기반)
+export async function getArchiveEntries(): Promise<NewsletterMeta[]> {
+  const data = await fetchJson<{ entries: NewsletterMeta[] }>('/api/newsletter/archive')
+  return data?.entries ?? []
 }
 
-export function deleteArchiveEntry(id: string): void {
-  const entries = getArchiveEntries().filter((e) => e.id !== id)
-  try {
-    localStorage.setItem(ARCHIVE_KEY, JSON.stringify(entries))
-  } catch {
-    // 삭제 중 오류는 무시 (용량 문제 아님)
-  }
+// 최근 아카이브 기사 전체 (수요 키워드 분석용)
+export async function getArchiveArticles(): Promise<Article[]> {
+  const data = await fetchJson<{ articles: Article[] }>('/api/newsletter/archive?articles=1')
+  return data?.articles ?? []
 }
 
-export function getArchiveEntry(id: string): NewsletterArchiveEntry | null {
-  return getArchiveEntries().find((e) => e.id === id) ?? null
+export async function saveArchiveEntry(articles: Article[]): Promise<SavedNewsletterMeta | null> {
+  return fetchJson<SavedNewsletterMeta>('/api/newsletter/publish', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ articles }),
+  })
+}
+
+export async function deleteArchiveEntry(id: string): Promise<void> {
+  await fetch(`/api/newsletter/archive/${id}`, { method: 'DELETE' })
+}
+
+export async function getArchiveEntry(id: string): Promise<NewsletterArchiveEntry | null> {
+  return fetchJson<NewsletterArchiveEntry>(`/api/newsletter/archive/${id}`)
 }

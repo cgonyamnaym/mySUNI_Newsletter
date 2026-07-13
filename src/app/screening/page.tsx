@@ -7,7 +7,7 @@ import { Header } from '@/components/Header'
 import { TranslationBadge } from '@/components/TranslationBadge'
 import { TOPICS } from '@/lib/constants'
 import { screenArticles, computeDemandKeywords, getScoreLabel } from '@/lib/screening'
-import { getArchiveEntries } from '@/lib/newsletter-archive'
+import { getArchiveArticles } from '@/lib/newsletter-archive'
 import type { Article, MetaIndex } from '@/lib/types'
 
 const FILTER_OPTIONS = ['전체', ...TOPICS.map((t) => t.id)]
@@ -108,10 +108,9 @@ export default function ScreeningPage() {
   }, [])
 
   // 과거 아카이브에서 수요 키워드 추출 (마운트 시 1회)
-  const demandKeywords = useMemo(() => {
-    const entries = getArchiveEntries()
-    const articles = entries.flatMap((e) => e.articles)
-    return computeDemandKeywords(articles)
+  const [demandKeywords, setDemandKeywords] = useState<Map<string, number>>(new Map())
+  useEffect(() => {
+    getArchiveArticles().then((articles) => setDemandKeywords(computeDemandKeywords(articles)))
   }, [])
 
   // activeFilter에 따라 스크리닝 pool과 옵션을 달리 적용

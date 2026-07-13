@@ -7,7 +7,7 @@ import { Header } from '@/components/Header'
 import { TranslationBadge } from '@/components/TranslationBadge'
 import { TOPICS } from '@/lib/constants'
 import { screenArticles, computeDemandKeywords, getScoreLabel } from '@/lib/screening'
-import { getArchiveEntries } from '@/lib/newsletter-archive'
+import { getArchiveArticles } from '@/lib/newsletter-archive'
 import type { Article, MetaIndex } from '@/lib/types'
 
 const STORAGE_KEY = 'newsletter-selection'
@@ -85,10 +85,9 @@ function CollectPageInner() {
   }, [index])
 
   // 아카이브 기반 수요 키워드
-  const { demandKeywords } = useMemo(() => {
-    const entries = getArchiveEntries()
-    const articles = entries.flatMap((e) => e.articles)
-    return { demandKeywords: computeDemandKeywords(articles), archiveArticleCount: articles.length }
+  const [demandKeywords, setDemandKeywords] = useState<Map<string, number>>(new Map())
+  useEffect(() => {
+    getArchiveArticles().then((articles) => setDemandKeywords(computeDemandKeywords(articles)))
   }, [])
 
   const screened = useMemo(() => {

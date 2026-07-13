@@ -194,14 +194,15 @@ export default function GeneratePage() {
     if (confirming || confirmed) return
     setConfirming(true)
     try {
-      saveArchiveEntry(articles)
+      const saved = await saveArchiveEntry(articles)
+      if (!saved) throw new Error('failed')
       localStorage.removeItem(STORAGE_KEY)  // 확정 후 선택 항목 초기화
       setConfirmed(true)
       setTimeout(() => {
-        router.push('/newsletter-archive')
+        router.push(`/newsletter-archive?view=${saved.id}`)
       }, 1000)
     } catch {
-      alert('아카이브 저장에 실패했습니다.')
+      alert('아카이브 저장에 실패했습니다. Redis 설정을 확인하세요.')
       setConfirming(false)
     }
   }
