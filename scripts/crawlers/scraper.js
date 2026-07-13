@@ -339,6 +339,7 @@ async function crawlScrape(sources, { daysBack = 1, noSummarize = false, startDa
         titleKo:       item.title,
         titleOriginal: source.lang === 'en' ? item.title : null,
         summary:       bodyText.slice(0, 300),  // 본문 앞부분을 fallback 요약으로 사용
+        translated:    false,  // GEMINI_API_KEY 없거나 noSummarize면 요약 호출 자체를 안 함
         topics:        classifyTopics(item.title, bodyText, source.lang).topics,
         primaryTopic:  classifyTopics(item.title, bodyText, source.lang).primaryTopic,
       }
@@ -374,7 +375,7 @@ async function crawlScrape(sources, { daysBack = 1, noSummarize = false, startDa
         sourceId:      source.id,
         sourceOrigin:  source.origin,
         originalLang:  source.lang,
-        isTranslated:  source.lang !== 'ko',
+        isTranslated:  source.lang !== 'ko' && meta.translated === true,
         title:         meta.titleKo,
         titleOriginal: meta.titleOriginal,
         summary:       meta.summary,

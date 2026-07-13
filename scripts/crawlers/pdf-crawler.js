@@ -168,6 +168,7 @@ async function crawlPdf(sources, { noSummarize = false, dryRun = false, force = 
         titleOriginal: null,
         summary:       extracted.text.slice(0, 200),
         topics:        [],
+        translated:    false,  // GEMINI_API_KEY 없거나 noSummarize면 요약 호출 자체를 안 함
       }
 
       if (!noSummarize && process.env.GEMINI_API_KEY) {
@@ -189,7 +190,7 @@ async function crawlPdf(sources, { noSummarize = false, dryRun = false, force = 
         source:        source.name,
         sourceId:      source.id,
         originalLang:  source.lang,
-        isTranslated:  source.lang !== 'ko',
+        isTranslated:  source.lang !== 'ko' && meta.translated === true,
         title:         meta.titleKo,
         titleOriginal: meta.titleOriginal,
         summary:       meta.summary,

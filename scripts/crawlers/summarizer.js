@@ -6,8 +6,8 @@
  * 환경변수 GEMINI_API_KEY 필요
  *
  * 모델 우선순위: gemini-2.5-flash → gemini-2.0-flash-lite → gemini-1.5-flash
- * - 429 수신 즉시 해당 모델은 이번 실행에서 차단(skip)
- * - 모든 모델 차단 시 키워드 기반 폴백으로 즉시 처리 (서킷 브레이커)
+ * - 429 수신 시 해당 모델은 GEMINI_COOLDOWN_MS(기본 60s) 동안만 차단 (영구 아님)
+ * - 전 모델 쿨다운 중이면 그 기사만 키워드 기반 폴백 처리 (translated: false로 표시)
  */
 const { GoogleGenerativeAI } = require('@google/generative-ai')
 
@@ -31,8 +31,13 @@ const MIN_INTERVAL_MS = parseInt(process.env.GEMINI_INTERVAL_MS ?? '4000')
 // 단일 호출 타임아웃 (ms)
 const GEMINI_CALL_TIMEOUT_MS = parseInt(process.env.GEMINI_CALL_TIMEOUT_MS ?? '20000')
 
+// 429 수신 시 모델을 영구 차단하지 않고 일정 시간만 쉬게 한다.
+// 영구 차단 시 크롤링 중반에 트립되면 이후 수백 건이 전부 번역 없이
+// computeFallback으로 처리되는 문제가 있었다 (isTranslated 오표기와 결합해 침묵 실패).
+const RATE_LIMIT_COOLDOWN_MS = parseInt(process.env.GEMINI_COOLDOWN_MS ?? '60000')
+
 const _lastRequestAtByModel = {}
-const _blockedModels = new Set()  // 이번 실행에서 429 받은 모델
+const _blockedUntilByModel = {}  // modelName → 재시도 가능 시각(ms epoch)
 
 let _genAI = null
 function getGenAI() {
@@ -95,6 +100,7 @@ function computeFallback(title, content, lang) {
     titleOriginal: lang === 'en' ? title : null,
     summary:       content.slice(0, 200),
     topics,
+    translated:    false,  // 키워드 폴백 — 실제 LLM 번역/요약이 아님
   }
 }
 
@@ -103,10 +109,11 @@ function computeFallback(title, content, lang) {
  * @returns {{ titleKo, titleOriginal, summary, topics, isEnergyMain }}
  */
 async function summarize({ title, content, lang }) {
-  // 사용 가능한 모델만 필터
-  const available = MODEL_CHAIN.filter(m => !_blockedModels.has(m))
+  // 쿨다운이 지난 모델만 필터 (영구 차단 아님 — 60초 후 자동 복구)
+  const now = Date.now()
+  const available = MODEL_CHAIN.filter(m => (_blockedUntilByModel[m] ?? 0) <= now)
 
-  // 모든 모델 차단 → 즉시 폴백 (서킷 브레이커)
+  // 전 모델이 쿨다운 중 → 이번 기사만 폴백 (다음 기사에서 재시도)
   if (available.length === 0) {
     return computeFallback(title, content, lang)
   }
@@ -121,16 +128,16 @@ async function summarize({ title, content, lang }) {
       const result = await callModel(modelName, prompt)
       const text = result.response.text().trim()
       const clean = text.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '').trim()
-      return JSON.parse(clean)
+      return { ...JSON.parse(clean), translated: true }
     } catch (err) {
       const is429 = err.message?.includes('429')
       if (is429) {
-        _blockedModels.add(modelName)
-        const remaining = MODEL_CHAIN.filter(m => !_blockedModels.has(m))
+        _blockedUntilByModel[modelName] = Date.now() + RATE_LIMIT_COOLDOWN_MS
+        const remaining = MODEL_CHAIN.filter(m => (_blockedUntilByModel[m] ?? 0) <= Date.now())
         if (remaining.length === 0) {
-          process.stdout.write(`\n⚡ 서킷 브레이커: 모든 Gemini 모델 429 차단 → 이번 실행은 키워드 분류로 진행\n\n`)
+          process.stdout.write(`\n⚡ 서킷 브레이커: 모든 Gemini 모델 429 — ${RATE_LIMIT_COOLDOWN_MS / 1000}s 쿨다운, 이번 기사는 키워드 분류로 진행\n\n`)
         } else {
-          process.stdout.write(`    → [${modelName}] 429 차단, 남은 모델: ${remaining.join(', ')}\n`)
+          process.stdout.write(`    → [${modelName}] 429, ${RATE_LIMIT_COOLDOWN_MS / 1000}s 쿨다운. 남은 모델: ${remaining.join(', ')}\n`)
         }
       } else {
         process.stdout.write(`    → [${modelName}] 실패 (${err.message?.slice(0, 50)})\n`)
