@@ -12,7 +12,10 @@ const MODEL_CHAIN = [
   'gemma-3-4b-it',
 ]
 
-const MIN_INTERVAL_MS = parseInt(process.env.GEMINI_INTERVAL_MS ?? '10000')
+// daily-crawl.yml에서 동일 API 키로 4000ms가 이미 안전하게 검증됨 (GEMINI_INTERVAL_MS)
+// → /api/summarize도 동일 기본값 사용 (기존 10000ms는 과도하게 보수적이어서
+//    기사 1건당 요약 생성이 불필요하게 느려지는 원인이었다)
+const MIN_INTERVAL_MS = parseInt(process.env.GEMINI_INTERVAL_MS ?? '4000')
 let _genAI = null
 let _lastRequestAt = 0
 
