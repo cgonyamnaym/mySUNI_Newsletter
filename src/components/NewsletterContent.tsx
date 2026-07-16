@@ -53,10 +53,12 @@ interface Props {
   dateLabel?: string
   /** 요약 생성 실패한 기사의 재시도 요청. 성공 시 true, 실패 시 false를 반환해야 함 */
   onRetrySummary?: (articleId: string) => Promise<boolean>
+  /** true면 반응형 폭(min 820 / max 1200px, 모바일 1열)을 적용. 기본값은 고정 800px(내부 페이지용) */
+  responsive?: boolean
 }
 
 const NewsletterContent = forwardRef<HTMLDivElement, Props>(
-  ({ articles, dateLabel, onRetrySummary }, ref) => {
+  ({ articles, dateLabel, onRetrySummary, responsive }, ref) => {
     // primaryTopic 우선, 없으면 첫 번째 topic, 없으면 uncategorized
     const groupMap = new Map<TopicId, Article[]>()
     const unclassified: Article[] = []
@@ -82,6 +84,8 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
     const sourceCount = new Set(articles.map((a) => a.sourceId)).size
     const topicCount = groups.length + (unclassified.length > 0 ? 1 : 0)
 
+    const rc = (base: string) => responsive ? `${base} ${styles.responsive}` : base
+
     return (
       <div
         ref={ref}
@@ -97,14 +101,14 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
           position: 'relative',
         }}>
           {/* Header inner */}
-          <div className={`${styles.container} ${styles.headerInner}`}>
+          <div className={`${rc(styles.container)} ${rc(styles.headerInner)}`}>
             {/* Date at top right */}
-            <div className={styles.dateBadge}>
+            <div className={rc(styles.dateBadge)}>
               [발행일자 : {isoDate}]
             </div>
 
             {/* Title */}
-            <div className={styles.title}>
+            <div className={rc(styles.title)}>
               Electrification & Energy Solution<br />
               <span style={{ color: '#2563EB' }}>Bi-Weekly AI Newsletter</span>
             </div>
@@ -145,7 +149,7 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
             background: '#EFF6FF',
             borderTop: '1px solid #DBEAFE',
           }}>
-            <div className={`${styles.container} ${styles.navInner}`}>
+            <div className={`${rc(styles.container)} ${rc(styles.navInner)}`}>
               {groups.map(({ topicId }, idx) => {
                 const c = CAT[topicId] ?? FALLBACK_CAT
                 return (
@@ -218,7 +222,7 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
         </div>
 
         {/* ── BODY ── */}
-        <div className={`${styles.container} ${styles.body}`}>
+        <div className={`${rc(styles.container)} ${rc(styles.body)}`}>
           {groups.map(({ topicId, items }) => {
             const c = CAT[topicId] ?? FALLBACK_CAT
             return (
@@ -231,14 +235,14 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
                 }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                     <TopicEmoji id={topicId} size={26} />
-                    <span className={styles.sectionTitle} style={{ color: c.accent }}>
+                    <span className={rc(styles.sectionTitle)} style={{ color: c.accent }}>
                       {topicId}
                     </span>
                   </div>
                 </div>
 
                 {/* 2-column card grid (모바일 1열) */}
-                <div className={styles.grid}>
+                <div className={rc(styles.grid)}>
                   {items.map((article) => (
                     <ArticleCard key={article.id} article={article} catStyle={c} topicLabel={topicId} onRetrySummary={onRetrySummary} />
                   ))}
@@ -255,11 +259,11 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
                 marginBottom: '16px', paddingBottom: '10px',
                 borderBottom: '2px solid #E5E7EB',
               }}>
-                <span className={styles.sectionTitle} style={{ color: '#111827' }}>
+                <span className={rc(styles.sectionTitle)} style={{ color: '#111827' }}>
                   기타
                 </span>
               </div>
-              <div className={styles.grid}>
+              <div className={rc(styles.grid)}>
                 {unclassified.map((article) => (
                   <ArticleCard
                     key={article.id}
@@ -275,8 +279,8 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
         </div>
 
         {/* ── SUBSCRIBE ── */}
-        <div className={styles.subscribeWrap} style={{ background: '#F0F2F5' }}>
-          <div className={`${styles.container} ${styles.subscribeInner}`}>
+        <div className={rc(styles.subscribeWrap)} style={{ background: '#F0F2F5' }}>
+          <div className={`${rc(styles.container)} ${styles.subscribeInner}`}>
             <div style={{ fontSize: '20px', fontWeight: 800, color: '#111827', marginBottom: '10px' }}>
               무료 구독 신청
             </div>
@@ -289,7 +293,7 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
         </div>
 
         {/* ── FOOTER ── */}
-        <div className={styles.footer} style={{ background: '#0A1628', textAlign: 'center' }}>
+        <div className={rc(styles.footer)} style={{ background: '#0A1628', textAlign: 'center' }}>
           <p style={{
             fontSize: '14px', color: 'rgba(255,255,255,0.9)',
             lineHeight: 1.8, margin: 0,

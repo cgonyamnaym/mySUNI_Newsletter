@@ -1,12 +1,17 @@
-/* 개별 뉴스레터 엔드포인트(/n/[id]) 콘텐츠 폭 규격: min 820px, max 1200px (데스크톱) */
+/* 기본(내부용) 콘텐츠 폭: 고정 800px. 공개 공유 링크(/n/[id])에서는
+   .responsive 모디파이어를 통해 반응형 폭(min 820 / max 1200px, 모바일 축소)을 적용한다. */
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
+.container.responsive {
+  max-width: 1200px;
+}
+
 @media (min-width: 900px) {
-  .container {
+  .container.responsive {
     min-width: 820px;
   }
 }
@@ -82,47 +87,47 @@
   padding: 32px 24px;
 }
 
-/* 모바일 반응형 */
+/* 모바일 반응형 — .responsive 모디파이어가 있는 경우에만 (공개 공유 링크 전용) */
 @media (max-width: 767px) {
-  .headerInner {
+  .headerInner.responsive {
     padding: 28px 16px 24px;
   }
 
-  .dateBadge {
+  .dateBadge.responsive {
     position: static;
     display: block;
     text-align: right;
     margin-bottom: 12px;
   }
 
-  .title {
+  .title.responsive {
     font-size: 22px;
     margin-bottom: 16px;
   }
 
-  .navInner {
+  .navInner.responsive {
     padding: 0 16px;
   }
 
-  .body {
+  .body.responsive {
     padding: 24px 16px;
     gap: 32px;
   }
 
-  .sectionTitle {
+  .sectionTitle.responsive {
     font-size: 18px;
   }
 
-  .grid {
+  .grid.responsive {
     grid-template-columns: 1fr;
     gap: 12px;
   }
 
-  .subscribeWrap {
+  .subscribeWrap.responsive {
     padding: 32px 16px;
   }
 
-  .footer {
+  .footer.responsive {
     padding: 24px 16px;
   }
 }

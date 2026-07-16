@@ -49,7 +49,7 @@ export default async function PublicNewsletterPage({ params }: Props) {
   return (
     <div className="flex flex-col min-h-full" style={{ background: '#F0F2F5' }}>
       <div className="bg-white border-b shadow-sm" style={{ borderColor: 'rgba(112,115,124,0.16)' }}>
-        <div className={`${styles.container} px-4 sm:px-6 py-4 flex items-center justify-between`}>
+        <div className={`${styles.container} ${styles.responsive} px-4 sm:px-6 py-4 flex items-center justify-between`}>
           <div>
             <h1 className="text-[14px] sm:text-[15px] font-bold" style={{ color: '#171719' }}>{newsletter.title}</h1>
             <p className="text-[12px] mt-0.5" style={{ color: 'rgba(55,56,60,0.5)' }}>
@@ -65,7 +65,7 @@ export default async function PublicNewsletterPage({ params }: Props) {
         </div>
       </div>
       <main className="flex-1 py-4 sm:py-8 px-0">
-        <NewsletterContent articles={newsletter.articles} dateLabel={dateLabel} />
+        <NewsletterContent articles={newsletter.articles} dateLabel={dateLabel} responsive />
       </main>
     </div>
   )
