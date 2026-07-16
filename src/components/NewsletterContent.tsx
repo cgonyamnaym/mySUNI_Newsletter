@@ -271,7 +271,7 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
                 {/* 2-column card grid (모바일 1열) */}
                 <div className={rc(styles.grid)}>
                   {items.map((article) => (
-                    <ArticleCard key={article.id} article={article} catStyle={c} topicLabel={topicId} onRetrySummary={onRetrySummary} />
+                    <ArticleCard key={article.id} article={article} catStyle={c} topicLabel={topicId} onRetrySummary={onRetrySummary} responsive={responsive} />
                   ))}
                 </div>
               </section>
@@ -298,6 +298,7 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
                     catStyle={FALLBACK_CAT}
                     topicLabel="기타"
                     onRetrySummary={onRetrySummary}
+                    responsive={responsive}
                   />
                 ))}
               </div>
@@ -343,11 +344,13 @@ function ArticleCard({
   catStyle,
   topicLabel,
   onRetrySummary,
+  responsive,
 }: {
   article: Article
   catStyle: CatStyle
   topicLabel: string
   onRetrySummary?: (articleId: string) => Promise<boolean>
+  responsive?: boolean
 }) {
   const ns = article.newsletterSummary
   const [retrying, setRetrying] = useState(false)
@@ -392,13 +395,13 @@ function ArticleCard({
 
       {/* Card body */}
       <div style={{
-        padding: '18px 20px 16px', flex: 1,
+        padding: responsive ? '22px 24px 20px' : '18px 20px 16px', flex: 1,
         display: 'flex', flexDirection: 'column',
       }}>
         {/* Source badge + date */}
         <div style={{
           display: 'flex', alignItems: 'center', gap: '6px',
-          marginBottom: '10px', flexWrap: 'wrap',
+          marginBottom: responsive ? '12px' : '10px', flexWrap: 'wrap',
         }}>
           <span style={{
             fontSize: '11px', fontWeight: 700, color: '#111827',
@@ -414,7 +417,7 @@ function ArticleCard({
         {/* Title */}
         <div style={{
           fontSize: '18px', fontWeight: 800, color: '#111827',
-          lineHeight: 1.45, letterSpacing: '-0.3px', marginBottom: '10px',
+          lineHeight: 1.45, letterSpacing: '-0.3px', marginBottom: responsive ? '14px' : '10px',
         }}>
           {article.title}
         </div>
@@ -422,29 +425,52 @@ function ArticleCard({
         {/* 3줄 구조 요약 or 요약 준비중 상태 */}
         <div style={{ marginBottom: '14px' }}>
           {ns?.what ? (
-            <>
-              <div style={{
-                fontSize: '14px', fontWeight: 700, color: '#0891B2',
-                letterSpacing: '0.5px', marginBottom: '6px',
-              }}>
-                📝 요약
-              </div>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                <div style={{ fontSize: '15px', color: '#111827', lineHeight: 1.65, fontWeight: 500 }}>
+            responsive ? (
+              <>
+                {/* 핵심 요약: 토픽 색상 틴트 박스로 강조 */}
+                <div style={{
+                  padding: '12px 14px', marginBottom: '10px',
+                  background: catStyle.chipBg, borderRadius: '10px',
+                  fontSize: '15px', fontWeight: 600, color: '#111827', lineHeight: 1.6,
+                }}>
                   {ns.what}
                 </div>
-                {ns.why && (
-                  <div style={{ fontSize: '14px', color: '#6B7280', lineHeight: 1.65 }}>
-                    {ns.why}
+                {(ns.why || ns.sowhat) && (
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', paddingLeft: '4px' }}>
+                    {ns.why && (
+                      <div style={{ fontSize: '13px', color: '#6B7280', lineHeight: 1.6 }}>{ns.why}</div>
+                    )}
+                    {ns.sowhat && (
+                      <div style={{ fontSize: '13px', color: '#6B7280', lineHeight: 1.6 }}>{ns.sowhat}</div>
+                    )}
                   </div>
                 )}
-                {ns.sowhat && (
-                  <div style={{ fontSize: '14px', color: '#6B7280', lineHeight: 1.65 }}>
-                    {ns.sowhat}
+              </>
+            ) : (
+              <>
+                <div style={{
+                  fontSize: '14px', fontWeight: 700, color: '#0891B2',
+                  letterSpacing: '0.5px', marginBottom: '6px',
+                }}>
+                  📝 요약
+                </div>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                  <div style={{ fontSize: '15px', color: '#111827', lineHeight: 1.65, fontWeight: 500 }}>
+                    {ns.what}
                   </div>
-                )}
-              </div>
-            </>
+                  {ns.why && (
+                    <div style={{ fontSize: '14px', color: '#6B7280', lineHeight: 1.65 }}>
+                      {ns.why}
+                    </div>
+                  )}
+                  {ns.sowhat && (
+                    <div style={{ fontSize: '14px', color: '#6B7280', lineHeight: 1.65 }}>
+                      {ns.sowhat}
+                    </div>
+                  )}
+                </div>
+              </>
+            )
           ) : (
             <div style={{
               display: 'flex', alignItems: 'center', gap: '8px',
