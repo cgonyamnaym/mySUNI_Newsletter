@@ -21,6 +21,18 @@
   position: relative;
 }
 
+/* 공개 링크(responsive) 헤더: 큰 타이틀·통계행 대신 한 줄 요약이므로 여백 최소화 */
+.headerInner.responsive {
+  padding: 16px 24px;
+}
+
+.compactTitle {
+  font-size: 18px;
+  font-weight: 800;
+  color: #111827;
+  letter-spacing: -0.3px;
+}
+
 .dateBadge {
   position: absolute;
   top: 40px;
@@ -90,19 +102,7 @@
 /* 모바일 반응형 — .responsive 모디파이어가 있는 경우에만 (공개 공유 링크 전용) */
 @media (max-width: 767px) {
   .headerInner.responsive {
-    padding: 28px 16px 24px;
-  }
-
-  .dateBadge.responsive {
-    position: static;
-    display: block;
-    text-align: right;
-    margin-bottom: 12px;
-  }
-
-  .title.responsive {
-    font-size: 22px;
-    margin-bottom: 16px;
+    padding: 12px 16px;
   }
 
   .navInner.responsive {

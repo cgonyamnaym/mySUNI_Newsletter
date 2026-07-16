@@ -86,6 +86,27 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
 
     const rc = (base: string) => responsive ? `${base} ${styles.responsive}` : base
 
+    // 발행 기사들의 publishedAt 최소~최대값으로 격주 발행 기간(주차 범위)을 표시
+    const publishedDates = articles
+      .map((a) => new Date(a.publishedAt))
+      .filter((d) => !isNaN(d.getTime()))
+    const now = new Date()
+    const minDate = publishedDates.length ? new Date(Math.min(...publishedDates.map((d) => d.getTime()))) : now
+    const maxDate = publishedDates.length ? new Date(Math.max(...publishedDates.map((d) => d.getTime()))) : now
+
+    const weekOf = (d: Date) => Math.ceil(d.getDate() / 7)
+    const sameMonth = minDate.getFullYear() === maxDate.getFullYear() && minDate.getMonth() === maxDate.getMonth()
+    const sameWeek = sameMonth && weekOf(minDate) === weekOf(maxDate)
+    const sameYear = minDate.getFullYear() === maxDate.getFullYear()
+
+    const rangeLabel = sameWeek
+      ? `${maxDate.getFullYear()}년 ${maxDate.getMonth() + 1}월 ${weekOf(maxDate)}주차`
+      : sameMonth
+        ? `${minDate.getFullYear()}년 ${minDate.getMonth() + 1}월 ${weekOf(minDate)}주차~${weekOf(maxDate)}주차`
+        : `${minDate.getFullYear()}년 ${minDate.getMonth() + 1}월 ${weekOf(minDate)}주차~${sameYear ? '' : `${maxDate.getFullYear()}년 `}${maxDate.getMonth() + 1}월 ${weekOf(maxDate)}주차`
+
+    const compactLabel = `${rangeLabel} Energy Newsletter`
+
     return (
       <div
         ref={ref}
@@ -102,46 +123,52 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
         }}>
           {/* Header inner */}
           <div className={`${rc(styles.container)} ${rc(styles.headerInner)}`}>
-            {/* Date at top right */}
-            <div className={rc(styles.dateBadge)}>
-              [발행일자 : {isoDate}]
-            </div>
+            {responsive ? (
+              <div className={rc(styles.compactTitle)}>{compactLabel}</div>
+            ) : (
+              <>
+                {/* Date at top right */}
+                <div className={rc(styles.dateBadge)}>
+                  [발행일자 : {isoDate}]
+                </div>
 
-            {/* Title */}
-            <div className={rc(styles.title)}>
-              Electrification & Energy Solution<br />
-              <span style={{ color: '#2563EB' }}>Bi-Weekly AI Newsletter</span>
-            </div>
+                {/* Title */}
+                <div className={rc(styles.title)}>
+                  Electrification & Energy Solution<br />
+                  <span style={{ color: '#2563EB' }}>Bi-Weekly AI Newsletter</span>
+                </div>
 
-            {/* Stats row */}
-            <div className={styles.statsRow}>
-              <div style={{ textAlign: 'center' }}>
-                <div style={{ fontSize: '18px', fontWeight: 800, color: '#111827', lineHeight: 1 }}>
-                  {articles.length}
+                {/* Stats row */}
+                <div className={styles.statsRow}>
+                  <div style={{ textAlign: 'center' }}>
+                    <div style={{ fontSize: '18px', fontWeight: 800, color: '#111827', lineHeight: 1 }}>
+                      {articles.length}
+                    </div>
+                    <div style={{ fontSize: '10px', color: '#9CA3AF', marginTop: '2px', letterSpacing: '0.5px' }}>
+                      ARTICLES
+                    </div>
+                  </div>
+                  <div style={{ width: '1px', background: '#E5E7EB', alignSelf: 'stretch' }} />
+                  <div style={{ textAlign: 'center' }}>
+                    <div style={{ fontSize: '18px', fontWeight: 800, color: '#111827', lineHeight: 1 }}>
+                      {topicCount}
+                    </div>
+                    <div style={{ fontSize: '10px', color: '#9CA3AF', marginTop: '2px', letterSpacing: '0.5px' }}>
+                      TOPICS
+                    </div>
+                  </div>
+                  <div style={{ width: '1px', background: '#E5E7EB', alignSelf: 'stretch' }} />
+                  <div style={{ textAlign: 'center' }}>
+                    <div style={{ fontSize: '18px', fontWeight: 800, color: '#111827', lineHeight: 1 }}>
+                      {sourceCount}
+                    </div>
+                    <div style={{ fontSize: '10px', color: '#9CA3AF', marginTop: '2px', letterSpacing: '0.5px' }}>
+                      SOURCES
+                    </div>
+                  </div>
                 </div>
-                <div style={{ fontSize: '10px', color: '#9CA3AF', marginTop: '2px', letterSpacing: '0.5px' }}>
-                  ARTICLES
-                </div>
-              </div>
-              <div style={{ width: '1px', background: '#E5E7EB', alignSelf: 'stretch' }} />
-              <div style={{ textAlign: 'center' }}>
-                <div style={{ fontSize: '18px', fontWeight: 800, color: '#111827', lineHeight: 1 }}>
-                  {topicCount}
-                </div>
-                <div style={{ fontSize: '10px', color: '#9CA3AF', marginTop: '2px', letterSpacing: '0.5px' }}>
-                  TOPICS
-                </div>
-              </div>
-              <div style={{ width: '1px', background: '#E5E7EB', alignSelf: 'stretch' }} />
-              <div style={{ textAlign: 'center' }}>
-                <div style={{ fontSize: '18px', fontWeight: 800, color: '#111827', lineHeight: 1 }}>
-                  {sourceCount}
-                </div>
-                <div style={{ fontSize: '10px', color: '#9CA3AF', marginTop: '2px', letterSpacing: '0.5px' }}>
-                  SOURCES
-                </div>
-              </div>
-            </div>
+              </>
+            )}
           </div>
 
           {/* Category tab nav */}
