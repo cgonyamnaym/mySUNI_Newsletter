@@ -1,16 +1,37 @@
 import { NextRequest, NextResponse } from 'next/server'
 import nodemailer from 'nodemailer'
+import { getRedis } from '@/lib/redis'
 
 export const dynamic = 'force-dynamic'
 
 const EMAIL_RE = /^[^\s@<>]+@[^\s@<>]+\.[^\s@<>]{2,}$/
 const NOTIFY_TO = 'haileycho@sk.com'
+const SUBSCRIBE_INDEX_KEY = 'subscribe:index'
+const SUBSCRIBE_INDEX_MAX = 500
+
+export interface SubscriptionRecord {
+  email: string
+  appliedAt: string
+}
 
 function escapeHtml(s: string) {
   return s
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
+}
+
+async function recordSubscription(email: string): Promise<void> {
+  const redis = getRedis()
+  if (!redis) return
+  try {
+    const existing = await redis.get<SubscriptionRecord[]>(SUBSCRIBE_INDEX_KEY)
+    const list = Array.isArray(existing) ? existing : []
+    list.unshift({ email, appliedAt: new Date().toISOString() })
+    await redis.set(SUBSCRIBE_INDEX_KEY, list.slice(0, SUBSCRIBE_INDEX_MAX))
+  } catch (err) {
+    console.error('Failed to record subscription in Redis:', err)
+  }
 }
 
 export async function POST(req: NextRequest) {
@@ -20,6 +41,8 @@ export async function POST(req: NextRequest) {
   if (!email || email.length > 254 || !EMAIL_RE.test(email)) {
     return NextResponse.json({ error: 'Invalid email' }, { status: 400 })
   }
+
+  await recordSubscription(email)
 
   const gmailUser = process.env.GMAIL_USER
   const gmailPass = process.env.GMAIL_APP_PASSWORD
