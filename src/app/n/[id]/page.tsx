@@ -2,6 +2,7 @@ import { getRedis } from '@/lib/redis'
 import { NewsletterContent } from '@/components/NewsletterContent'
 import type { PublishedNewsletter } from '@/app/api/newsletter/publish/route'
 import type { Metadata } from 'next'
+import styles from '@/components/NewsletterContent.module.css'
 
 export const dynamic = 'force-dynamic'
 
@@ -48,9 +49,9 @@ export default async function PublicNewsletterPage({ params }: Props) {
   return (
     <div className="flex flex-col min-h-full" style={{ background: '#F0F2F5' }}>
       <div className="bg-white border-b shadow-sm" style={{ borderColor: 'rgba(112,115,124,0.16)' }}>
-        <div className="max-w-3xl mx-auto px-6 py-4 flex items-center justify-between">
+        <div className={`${styles.container} px-4 sm:px-6 py-4 flex items-center justify-between`}>
           <div>
-            <h1 className="text-[15px] font-bold" style={{ color: '#171719' }}>{newsletter.title}</h1>
+            <h1 className="text-[14px] sm:text-[15px] font-bold" style={{ color: '#171719' }}>{newsletter.title}</h1>
             <p className="text-[12px] mt-0.5" style={{ color: 'rgba(55,56,60,0.5)' }}>
               {dateLabel} · {newsletter.articleCount}건
             </p>
@@ -63,7 +64,7 @@ export default async function PublicNewsletterPage({ params }: Props) {
           </span>
         </div>
       </div>
-      <main className="flex-1 py-8 px-4">
+      <main className="flex-1 py-4 sm:py-8 px-0">
         <NewsletterContent articles={newsletter.articles} dateLabel={dateLabel} />
       </main>
     </div>

@@ -2,6 +2,7 @@
 
 import { forwardRef, useState, useEffect, type MouseEvent } from 'react'
 import type { Article, TopicId } from '@/lib/types'
+import styles from './NewsletterContent.module.css'
 
 // 뉴스레터 전용 카테고리 색상 (목업 기준)
 type CatStyle = {
@@ -96,27 +97,20 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
           position: 'relative',
         }}>
           {/* Header inner */}
-          <div style={{ maxWidth: '800px', margin: '0 auto', padding: '40px 24px 32px', position: 'relative' }}>
+          <div className={`${styles.container} ${styles.headerInner}`}>
             {/* Date at top right */}
-            <div style={{
-              position: 'absolute', top: '40px', right: '24px',
-              fontSize: '12px', color: '#9CA3AF', fontWeight: 500,
-            }}>
+            <div className={styles.dateBadge}>
               [발행일자 : {isoDate}]
             </div>
 
             {/* Title */}
-            <div style={{
-              fontSize: '32px', fontWeight: 900,
-              color: '#111827', letterSpacing: '-0.5px',
-              lineHeight: 1.2, marginBottom: '24px',
-            }}>
+            <div className={styles.title}>
               Electrification & Energy Solution<br />
               <span style={{ color: '#2563EB' }}>Bi-Weekly AI Newsletter</span>
             </div>
 
             {/* Stats row */}
-            <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
+            <div className={styles.statsRow}>
               <div style={{ textAlign: 'center' }}>
                 <div style={{ fontSize: '18px', fontWeight: 800, color: '#111827', lineHeight: 1 }}>
                   {articles.length}
@@ -151,10 +145,7 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
             background: '#EFF6FF',
             borderTop: '1px solid #DBEAFE',
           }}>
-            <div style={{
-              maxWidth: '800px', margin: '0 auto', padding: '0 24px',
-              display: 'flex', overflowX: 'auto',
-            }}>
+            <div className={`${styles.container} ${styles.navInner}`}>
               {groups.map(({ topicId }, idx) => {
                 const c = CAT[topicId] ?? FALLBACK_CAT
                 return (
@@ -227,11 +218,7 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
         </div>
 
         {/* ── BODY ── */}
-        <div style={{
-          maxWidth: '800px', margin: '0 auto',
-          padding: '32px 24px',
-          display: 'flex', flexDirection: 'column', gap: '48px',
-        }}>
+        <div className={`${styles.container} ${styles.body}`}>
           {groups.map(({ topicId, items }) => {
             const c = CAT[topicId] ?? FALLBACK_CAT
             return (
@@ -244,22 +231,14 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
                 }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                     <TopicEmoji id={topicId} size={26} />
-                    <span style={{
-                      fontSize: '22px', fontWeight: 800,
-                      color: c.accent, letterSpacing: '-0.3px',
-                    }}>
+                    <span className={styles.sectionTitle} style={{ color: c.accent }}>
                       {topicId}
                     </span>
                   </div>
                 </div>
 
-                {/* 2-column card grid */}
-                <div style={{
-                  display: 'grid',
-                  gridTemplateColumns: '1fr 1fr',
-                  gap: '16px',
-                  alignItems: 'start',
-                }}>
+                {/* 2-column card grid (모바일 1열) */}
+                <div className={styles.grid}>
                   {items.map((article) => (
                     <ArticleCard key={article.id} article={article} catStyle={c} topicLabel={topicId} onRetrySummary={onRetrySummary} />
                   ))}
@@ -276,19 +255,11 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
                 marginBottom: '16px', paddingBottom: '10px',
                 borderBottom: '2px solid #E5E7EB',
               }}>
-                <span style={{
-                  fontSize: '22px', fontWeight: 800,
-                  color: '#111827', letterSpacing: '-0.3px',
-                }}>
+                <span className={styles.sectionTitle} style={{ color: '#111827' }}>
                   기타
                 </span>
               </div>
-              <div style={{
-                display: 'grid',
-                gridTemplateColumns: '1fr 1fr',
-                gap: '16px',
-                alignItems: 'start',
-              }}>
+              <div className={styles.grid}>
                 {unclassified.map((article) => (
                   <ArticleCard
                     key={article.id}
@@ -304,15 +275,8 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
         </div>
 
         {/* ── SUBSCRIBE ── */}
-        <div style={{
-          background: '#F0F2F5',
-          padding: '48px 24px',
-        }}>
-          <div style={{
-            maxWidth: '800px', margin: '0 auto',
-            display: 'flex', flexDirection: 'column', alignItems: 'center',
-            textAlign: 'center',
-          }}>
+        <div className={styles.subscribeWrap} style={{ background: '#F0F2F5' }}>
+          <div className={`${styles.container} ${styles.subscribeInner}`}>
             <div style={{ fontSize: '20px', fontWeight: 800, color: '#111827', marginBottom: '10px' }}>
               무료 구독 신청
             </div>
@@ -325,10 +289,7 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
         </div>
 
         {/* ── FOOTER ── */}
-        <div style={{
-          background: '#0A1628', padding: '32px 24px',
-          textAlign: 'center',
-        }}>
+        <div className={styles.footer} style={{ background: '#0A1628', textAlign: 'center' }}>
           <p style={{
             fontSize: '14px', color: 'rgba(255,255,255,0.9)',
             lineHeight: 1.8, margin: 0,
@@ -515,6 +476,8 @@ function ArticleCard({
 function SubscribeForm() {
   const [email, setEmail] = useState('')
   const [submitted, setSubmitted] = useState(false)
+  const [submitting, setSubmitting] = useState(false)
+  const [error, setError] = useState(false)
   const [count, setCount] = useState(0)
 
   useEffect(() => {
@@ -522,58 +485,86 @@ function SubscribeForm() {
     setCount(saved.length)
   }, [])
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     const trimmed = email.trim()
-    if (!trimmed || !trimmed.includes('@')) return
+    if (!trimmed || !trimmed.includes('@') || submitting) return
 
-    const saved = JSON.parse(localStorage.getItem('nl_subscribed_emails') ?? '[]') as string[]
-    if (!saved.includes(trimmed)) {
-      saved.push(trimmed)
-      localStorage.setItem('nl_subscribed_emails', JSON.stringify(saved))
+    setSubmitting(true)
+    setError(false)
+    try {
+      const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY
+      if (!accessKey) throw new Error('not configured')
+
+      const res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({
+          access_key: accessKey,
+          subject: 'AI 뉴스레터 대시보드 구독 신청',
+          from_name: '에너지 인사이트 뉴스레터',
+          email: trimmed, // Web3Forms가 회신용(reply-to)으로 사용
+          message: `신청자 이메일: ${trimmed}`,
+        }),
+      })
+      const data = await res.json().catch(() => null) as { success?: boolean } | null
+      if (!res.ok || !data?.success) throw new Error('failed')
+
+      const saved = JSON.parse(localStorage.getItem('nl_subscribed_emails') ?? '[]') as string[]
+      if (!saved.includes(trimmed)) {
+        saved.push(trimmed)
+        localStorage.setItem('nl_subscribed_emails', JSON.stringify(saved))
+      }
+      setCount(saved.length)
+      setSubmitted(true)
+      setEmail('')
+    } catch {
+      setError(true)
+    } finally {
+      setSubmitting(false)
     }
-    setCount(saved.length)
-
-    const subject = encodeURIComponent('AI 뉴스레터 대시보드 구독 신청')
-    const body = encodeURIComponent(`구독 신청 이메일: ${trimmed}`)
-    window.open(`mailto:haileycho@sk.com?subject=${subject}&body=${body}`)
-
-    setSubmitted(true)
-    setEmail('')
   }
 
   return (
     <div>
       {submitted ? (
         <div style={{ fontSize: '14px', fontWeight: 600, color: '#059669', marginBottom: '12px' }}>
-          ✅ 신청이 완료되었습니다. 이메일 클라이언트에서 발송을 확인해주세요.
+          ✅ 신청이 완료되었습니다.
         </div>
       ) : (
-        <div style={{ display: 'flex', gap: '8px', maxWidth: '480px', marginBottom: '12px', margin: '0 auto 12px' }}>
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            onKeyDown={(e) => e.key === 'Enter' && handleSubmit()}
-            placeholder="✉ 이메일 주소를 입력해주세요"
-            style={{
-              flex: 1, padding: '10px 14px',
-              border: '1.5px solid #D1D5DB', borderRadius: '8px',
-              fontSize: '14px', outline: 'none',
-              background: '#fff',
-            }}
-          />
-          <button
-            onClick={handleSubmit}
-            style={{
-              padding: '10px 20px',
-              background: '#2563EB', color: '#fff',
-              border: 'none', borderRadius: '8px',
-              fontSize: '14px', fontWeight: 700,
-              cursor: 'pointer', whiteSpace: 'nowrap',
-            }}
-          >
-            신청하기
-          </button>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', maxWidth: '480px', marginBottom: '12px', margin: '0 auto 12px' }}>
+          <div style={{ display: 'flex', gap: '8px' }}>
+            <input
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              onKeyDown={(e) => e.key === 'Enter' && handleSubmit()}
+              placeholder="✉ 이메일 주소를 입력해주세요"
+              style={{
+                flex: 1, padding: '10px 14px',
+                border: '1.5px solid #D1D5DB', borderRadius: '8px',
+                fontSize: '14px', outline: 'none',
+                background: '#fff',
+              }}
+            />
+            <button
+              onClick={handleSubmit}
+              disabled={submitting}
+              style={{
+                padding: '10px 20px',
+                background: submitting ? '#93B4EE' : '#2563EB', color: '#fff',
+                border: 'none', borderRadius: '8px',
+                fontSize: '14px', fontWeight: 700,
+                cursor: submitting ? 'default' : 'pointer', whiteSpace: 'nowrap',
+              }}
+            >
+              {submitting ? '전송 중...' : '신청하기'}
+            </button>
+          </div>
+          {error && (
+            <div style={{ fontSize: '12px', color: '#DC2626', textAlign: 'left' }}>
+              전송에 실패했습니다. 잠시 후 다시 시도해주세요.
+            </div>
+          )}
         </div>
       )}
       <div style={{ fontSize: '13px', color: '#9CA3AF' }}>
