@@ -492,22 +492,12 @@ function SubscribeForm() {
     setSubmitting(true)
     setError(false)
     try {
-      const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY
-      if (!accessKey) throw new Error('not configured')
-
-      const res = await fetch('https://api.web3forms.com/submit', {
+      const res = await fetch('/api/subscribe', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify({
-          access_key: accessKey,
-          subject: 'AI 뉴스레터 대시보드 구독 신청',
-          from_name: '에너지 인사이트 뉴스레터',
-          email: trimmed, // Web3Forms가 회신용(reply-to)으로 사용
-          message: `신청자 이메일: ${trimmed}`,
-        }),
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: trimmed }),
       })
-      const data = await res.json().catch(() => null) as { success?: boolean } | null
-      if (!res.ok || !data?.success) throw new Error('failed')
+      if (!res.ok) throw new Error('failed')
 
       const saved = JSON.parse(localStorage.getItem('nl_subscribed_emails') ?? '[]') as string[]
       if (!saved.includes(trimmed)) {

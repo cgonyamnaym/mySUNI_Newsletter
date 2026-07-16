@@ -42,6 +42,7 @@
     "lucide-react": "^1.14.0",
     "next": "^14.2.5",
     "next-auth": "^4.24.14",
+    "nodemailer": "^7.0.13",
     "pdf-parse": "^2.4.5",
     "react": "^18",
     "react-dom": "^18",
@@ -50,6 +51,7 @@
   },
   "devDependencies": {
     "@types/node": "^20",
+    "@types/nodemailer": "^8.0.1",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
