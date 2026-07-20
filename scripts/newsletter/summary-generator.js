@@ -102,11 +102,19 @@ const TYPE_ENDING = {
 /**
  * 검증 실패 시 LLM을 우회하여 자연어 문장을 직접 조합
  * "행위자가 수치 규모 TYPE_ENDING" 형식
+ *
+ * metrics 필드는 field-extractor.js에서 이미 원자화(값 1개)됐지만, 방어적으로
+ * 여기서도 숫자+단위 토큰 1개만 재추출해 사용한다 — 5개 필드를 전부 이어붙이면
+ * 비문이 되므로, 가장 중요한 수치 하나만 "행위자가 N 규모 ~했다" 형태로 조합한다.
  */
 function buildMethodAWhatFallback(fields) {
   const actor = fields.who.main_actor
-  const metricValues = Object.values(fields.metrics).filter(Boolean)
-  const hasSubstance = !!(actor || metricValues.length > 0)
+  const primaryMetricRaw = fields.metrics.capacity
+    ?? fields.metrics.amount
+    ?? fields.metrics.ratio
+    ?? fields.metrics.timeline
+    ?? fields.metrics.other
+  const hasSubstance = !!(actor || primaryMetricRaw)
 
   if (!hasSubstance && fields.causal_core) {
     return fields.causal_core.slice(0, 80)
@@ -124,8 +132,9 @@ function buildMethodAWhatFallback(fields) {
     parts.push(actor + (hasBatchim ? '이' : '가'))
   }
 
-  if (metricValues.length > 0) {
-    parts.push(metricValues.join('·') + ' 규모')
+  const primaryValue = primaryMetricRaw ? extractMetricValues(primaryMetricRaw)[0] : null
+  if (primaryValue) {
+    parts.push(primaryValue + ' 규모')
   }
 
   parts.push(TYPE_ENDING[fields.article_type] ?? '발표했다')

@@ -135,32 +135,6 @@
       }
     },
     {
-      "id": "9a484a3b-922b-49bb-829e-8136d0db6142",
-      "source": "이투뉴스 (E2News)",
-      "sourceId": "e2news",
-      "sourceOrigin": "domestic",
-      "originalLang": "ko",
-      "isTranslated": false,
-      "title": "SK이터닉스, 100MW 태양광 직접전력거래계약 체결",
-      "titleOriginal": null,
-      "summary": "SK이터닉스가 국내 RE100 이행기업과 100MW 규모의 태양광 직접전력거래계약(PPA)을 체결하며, 향후 25년간 5,023억 원 규모의 전력을 공급하게 되었다. 이번 계약을 포함해 SK이터닉스는 누적 355MW, 약 1조 8,000억 원 규모의 PPA 실적을 확보하며 재생에너지 공급자로서의 입지를 강화하고 있다.",
-      "topics": [
-        "에너지원",
-        "ESG·탄소중립"
-      ],
-      "primaryTopic": null,
-      "publishedAt": "2026-06-06T00:54:03.207Z",
-      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=330916",
-      "collectedAt": "2026-06-06T00:54:03.207Z",
-      "relevanceScore": 87,
-      "isDuplicate": false,
-      "newsletterSummary": {
-        "what": "SK이터닉스 — 계약 — 100MW · 5023억원 · 향후 25년 · 누적 355MW, 1조 8000억원 규모 — 국내",
-        "why": null,
-        "sowhat": null
-      }
-    },
-    {
       "id": "9f3e6583-d01c-4b18-81d9-fe8f144680f4",
       "source": "이투뉴스 (E2News)",
       "sourceId": "e2news",
@@ -343,32 +317,6 @@
       }
     },
     {
-      "id": "d7d03ebd-0564-49a1-8799-9379e7062039",
-      "source": "투데이에너지",
-      "sourceId": "todayenergy",
-      "sourceOrigin": "domestic",
-      "originalLang": "ko",
-      "isTranslated": false,
-      "title": "SK이터닉스, RE100 기업 대상 100MW 재생에너지 공급",
-      "titleOriginal": null,
-      "summary": "SK이터닉스가 국내 RE100 이행 기업과 25년간 5,023억 원 규모의 100MW 태양광 직접전력거래계약(PPA)을 체결했다. 이번 계약을 포함해 현재까지 누적 355MW, 약 1조 8,000억 원 규모의 직접PPA 실적을 달성하며 재생에너지 공급 사업을 확대하고 있다.",
-      "topics": [
-        "에너지원",
-        "ESG·탄소중립"
-      ],
-      "primaryTopic": "에너지원",
-      "publishedAt": "2026-05-29T14:17:09.000Z",
-      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=298437",
-      "collectedAt": "2026-05-29T23:16:39.062Z",
-      "relevanceScore": 84,
-      "isDuplicate": false,
-      "newsletterSummary": {
-        "what": "SK이터닉스 — 계약 — 100MW · 5,023억원 · 25년간 · 누적 직접PPA 355MW — 국내 RE100 시장",
-        "why": null,
-        "sowhat": null
-      }
-    },
-    {
       "id": "b872f096-d6fd-4f4f-a8f9-bc97d5958be4",
       "source": "전기신문",
       "sourceId": "electimes",
@@ -392,32 +340,6 @@
         "what": "한전은 작년 말 누적 부채 206조원과 2038년까지 72조8000억원 재원 부족을 설명했다.",
         "why": "BT 방식은 민간 역할을 건설로 한정해 민영화 우려를 불식시켰다.",
         "sowhat": "민간 건설 후 한전에 넘겨 재무 부담과 민영화 해소에 관심이 모였다."
-      }
-    },
-    {
-      "id": "5eb70f1f-edb4-4327-b1f9-654261e1bc85",
-      "source": "전기신문",
-      "sourceId": "electimes",
-      "sourceOrigin": "domestic",
-      "originalLang": "ko",
-      "isTranslated": false,
-      "title": "한전, 사우디 자푸라 2단계 열병합 사업 단독 수주…2조원대 매출 기대",
-      "titleOriginal": null,
-      "summary": "한국전력이 사우디 아람코와 자푸라 2단계 열병합 발전소 건설·운영 사업 계약을 체결하며 중동 에너지 시장 입지를 강화했다. 이 사업은 331MW 발전 설비와 시간당 약 465t 증기 생산 규모로, 2029년 6월까지 발전소를 건설한 뒤 17년간 운영하며 총 2조1000억원의 매출이 기대된다.",
-      "topics": [
-        "시장·가격 동향",
-        "전력 인프라"
-      ],
-      "primaryTopic": "시장·가격 동향",
-      "publishedAt": "2026-06-03T13:14:46.000Z",
-      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=368714",
-      "collectedAt": "2026-06-03T23:12:12.929Z",
-      "relevanceScore": 82,
-      "isDuplicate": false,
-      "newsletterSummary": {
-        "what": "한국전력 — 수주 — 331MW · 총 2조1000억원 · 2029년 6월 (건설 완료), 17년간 전력 및 증기 공급 계약 · 시간당 증기 생산량 약 465t — 사우디아라비아 자푸라",
-        "why": "자푸라 1단계 사업의 성공으로 발주처 신뢰를 확보해 단독 수주를 이뤄냈다.",
-        "sowhat": "중동 시장 입지 강화와 국내 기업의 해외 동반 진출 효과가 기대됐다."
       }
     },
     {
@@ -603,32 +525,6 @@
       }
     },
     {
-      "id": "26bb88df-cdb4-4390-8b64-26f047056562",
-      "source": "PV Magazine",
-      "sourceId": "pv-magazine",
-      "sourceOrigin": "global",
-      "originalLang": "en",
-      "isTranslated": true,
-      "title": "펙사파크, 4월 유럽 PPA 17건(966MW) 기록",
-      "titleOriginal": "Pexapark records 17 European PPAs for 966 MW in April",
-      "summary": "스위스 분석 기업 펙사파크는 지난 4월 유럽에서 총 966MW 규모의 전력구매계약(PPA) 17건이 체결되었다고 발표했다. 이 17건의 계약 중 2건은 태양광과 배터리 에너지 저장장치가 결합된 하이브리드 PPA였다.",
-      "topics": [
-        "정책·규제",
-        "에너지원"
-      ],
-      "primaryTopic": "정책·규제",
-      "publishedAt": "2026-05-27T05:30:54.000Z",
-      "originalUrl": "https://www.pv-magazine.com/2026/05/27/pexapark-records-17-european-ppas-for-966-mw-in-april/",
-      "collectedAt": "2026-05-27T22:45:36.036Z",
-      "relevanceScore": 66,
-      "isDuplicate": false,
-      "newsletterSummary": {
-        "what": "펙사파크(Pexapark) — 발표 — 966MW · €44.40/MWh (평균 PPA 가격) · 4월 · -3% (PPA 가격 월간 변동률) · BESS 관련 계약 9건(800MW/2.8GWh) — 유럽",
-        "why": "유럽 내 재생에너지 PPA와 하이브리드 저장장치 연계 프로젝트가 지속됐다.",
-        "sowhat": "PPA 가격 하락세 속 BESS 관련 9건의 계약이 시장의 주목을 받았다."
-      }
-    },
-    {
       "id": "8b43ee3a-b2fc-48c6-9f3e-681453bc68c4",
       "source": "Data Center Dynamics",
       "sourceId": "data-center-dynamics",
@@ -733,38 +629,6 @@
       }
     },
     {
-      "id": "55800a6a-a435-4a2b-b219-aa0fa7979bae",
-      "source": "이투뉴스 (E2News)",
-      "sourceId": "e2news",
-      "sourceOrigin": "domestic",
-      "originalLang": "ko",
-      "isTranslated": false,
-      "title": "주민 10% 부담 없앤다...햇빛소득마을 ESS 전면 개편",
-      "titleOriginal": null,
-      "summary": "정부가 햇빛소득마을 사업의 주민 부담금을 전면 폐지하고, ESS 설치 방식을 마을별 설치에서 배전망 연계형으로 전환한다. 설치 비용은 중앙정부 50%, 지자체 20%, VPP 사업자 30%로 분담하며, 이를 통해 계통제약이 심한 호남·제주 지역의 전력계통 효율성을 제고할 계획이다.",
-      "topics": [
-        "전력 인프라",
-        "정책·규제"
-      ],
-      "primaryTopic": null,
-      "publishedAt": "2026-06-08T00:14:14.490Z",
-      "originalUrl": "https://www.e2news.com/news/articleView.html?idxno=331040",
-      "collectedAt": "2026-06-08T00:14:14.490Z",
-      "relevanceScore": 81,
-      "isDuplicate": false,
-      "newsletterSummary": {
-        "what": "한국에너지공단과 VPP 사업자가 호남·제주에 4MW·5시간(20MWh) 규모의 배전망 연계형 ESS를 도입하는 정책을 추진했다.",
-        "why": "햇빛소득마을의 주민 설치비 부담 및 운영관리 한계를 해소하고자 마을별 설치에서 배전망 연계형으로 사업 구조를 전면 개편했다.",
-        "sowhat": "주민 부담금 폐지와 ESS 도입으로 사업 문턱을 낮춰 분산에너지 체계 구축과 계통 수용성을 확보했다."
-      },
-      "_meta": {
-        "method": "A",
-        "level": 3,
-        "netScore": 3.5,
-        "densityScore": 0.875
-      }
-    },
-    {
       "id": "ed6bbc00-d666-49b4-bc43-1f0679e83853",
       "source": "PV Magazine",
       "sourceId": "pv-magazine",
@@ -818,36 +682,6 @@
       }
     },
     {
-      "id": "33134057-aff8-47b7-ac4f-63adb8f6aa0d",
-      "source": "에너지데일리",
-      "sourceId": "energydaily",
-      "sourceOrigin": "domestic",
-      "originalLang": "ko",
-      "isTranslated": false,
-      "title": "LS ELECTRIC, 북미 빅테크 AI 데이터센터 대규모 배전 사업 수주",
-      "titleOriginal": null,
-      "summary": "LS ELECTRIC이 북미 빅테크 AI 데이터센터에 1,064억 원 규모의 38kV급 고압 배전 시스템을 공급하는 계약을 체결했다. 이번 수주를 포함해 LS일렉트릭의 북미 데이터센터 누적 수주액은 1조 2,000억 원에 육박하며 현지 전력 인프라 시장에서의 입지를 강화하고 있다.",
-      "topics": [
-        "시장·가격 동향",
-        "전력 인프라"
-      ],
-      "primaryTopic": "시장·가격 동향",
-      "publishedAt": "2026-06-17T07:51:01.000Z",
-      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=200486",
-      "collectedAt": "2026-06-16T23:34:11.104Z",
-      "bodySnippet": "[에너지데일리 송병훈 기자] LS ELECTRIC(일렉트릭)이 북미 빅테크 기업 초대형 데이터센터 프로젝트 배전 솔루션을 수주하며 현지 데이터센터 시장에서 강력한 경쟁력과 고성장 모멘텀을 다시 한번 확인했다.LS일렉트릭은 최근 북미 AI 데이터센터 건설 사업에 1064억원(미화 약 7043만달러) 규모 38kV급 고압 배전 시스템 공급 계약을 체결했다고 17일 밝혔다. 공급 기간은 오는 8월부터 11월까지다.현재까지 LS일렉트릭 북미 빅테크 데이터센터 사업 수주 금액은 1조2000억원에 육박한다. 지난해 연간 북미 데이터센터 수주",
-      "newsletterSummary": {
-        "what": "LS ELECTRIC이 북미 빅테크 AI 데이터센터에 1,064억 원 규모의 38kV급 고압 배전 시스템을 공급하는 계약을 체결했다. 이번 수주를 포함해 LS일렉트릭의 북미 데이터센터 누적 수주액은 1조 2,000억 원에 육박하며 현지 전력 인프라 시장에서의 입지를 강화하고 있다.",
-        "why": null,
-        "sowhat": null
-      },
-      "_meta": {
-        "method": "A",
-        "level": 2,
-        "netScore": 9
-      }
-    },
-    {
       "id": "261a50c6-d31b-4d69-8c30-509b736df022",
       "source": "에너지타임즈",
       "sourceId": "energytimes",
@@ -875,35 +709,6 @@
         "method": "A",
         "level": 2,
         "netScore": 7
-      }
-    },
-    {
-      "id": "177cacdc-8e29-4c28-9b29-dfbed3d2dbc4",
-      "source": "한국에너지공단 (KEA)",
-      "sourceId": "kea",
-      "sourceOrigin": "domestic",
-      "originalLang": "ko",
-      "isTranslated": false,
-      "title": "韓 태양광 발전원가 관련 보도(6.16., 매일경제)에 대한 설명자료",
-      "titleOriginal": null,
-      "summary": "한국의 2024년 태양광 균등화발전원가(LCOE)가 국제 평균 대비 2배 높다는 보도에 대해, 에너지공단은 중국의 압도적 시장 점유율로 인한 통계적 왜곡을 지적했습니다. 공단은 '제1차 재생에너지 기본계획'에 발맞춰 비용 효율화와 단가 절감을 위해 노력하겠다는 입장을 밝혔습니다.",
-      "topics": [
-        "에너지원",
-        "시장·가격 동향"
-      ],
-      "primaryTopic": null,
-      "publishedAt": "2026-06-17T00:30:23.883Z",
-      "originalUrl": "https://www.energy.or.kr/front/board/View3.do?boardMngNo=3&boardNo=10024985",
-      "collectedAt": "2026-06-17T00:30:23.883Z",
-      "bodySnippet": "보도자료 韓 태양광 발전원가 관련 보도(6.16., 매일경제)에 대한 설명자료 작성일 :2026-06-16 □ 2026년 6월 16일자 매일경제 <“韓 태양광 발전원가, 국제 평균의 2배”>기사에 대해 다음과 같이 설명 자료를 배포합니다. <보도내용> ㅇ 2024년 국내 태양광 균등화발전원가(LCOE)는 115~136 원/kWh로 국제 평균수준(약 45 USD/MWh)의 2배 이상 높은 수준이라는 지적 - 비용 격차는 토지비용, 인허가 절차, 주민 수용성, 계통 연계, 금융 조달 여건 등 국내 제도적？환경적 요인이 복합적으로 작용한 결과 - 국산 태양광 보급 및 단가하락, 금융 비용 저감, 주민 수용성 확보 등을 위해 다양한 비용 효율화？절감 방안 및 지원방안 필요 <동 보도내용에 대한 공단 입장> □ 태양광 발전단가 절감 필요성에 적극 공감하며, 비용효율화를 위해 공단은 정부와 함께 적극 노력하겠음 ㅇ 다만, ’국제 평균 대비 2배‘ 수치는 전 세계 태양광 시장을 독점하고 있는 중국이 포함된 가중평균 기준으로, 주요국 상당수도 이를 상회 * 국제평균 LCOE는 초저가 공급망, 대규모 내수시장이 있는 중국의 수치가 강하게 반영 (‘24년 세계 태양광 신규 설치량 451.9GW 중 278GW(61.5%)가 중국에 설치) □ 공단은 최근 정부에서 발표한 「제1차 재생에너지 기본계획」에 따라 재생에너지 확대와 연계한 발전단가 절감 등을 위해 노력하겠음 URL 복사하기 첨부파일 파일 아이콘260616[보도설명자료]韓태양광발전원가보도(6.16매일경제)관련설명자료.hwp 이전글 이전 게시글이 존재하지 않습니다. 다음글 한국에너지공단-한국무역협회, 산업체 글로벌 환경규제 대응 및 수출경쟁력 강화 업무 협약 체결 목록으로",
-      "newsletterSummary": {
-        "what": "한국의 2024년 태양광 균등화발전원가(LCOE)가 국제 평균 대비 2배 높다는 보도에 대해, 에너지공단은 중국의 압도적 시장 점유율로 인한 통계적 왜곡을 지적했다. 공단은 '제1차 재생에너지 기본계획'에 발맞춰 비용 효율화와 단가 절감을 위해 노력하겠다는 입장을 밝혔다.",
-        "why": null,
-        "sowhat": null
-      },
-      "_meta": {
-        "method": "A",
-        "level": 1
       }
     }
   ]

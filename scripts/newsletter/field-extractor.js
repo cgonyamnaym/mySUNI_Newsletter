@@ -122,6 +122,22 @@ function hasMarkerInSource(text, markers) {
   return markers.some(m => lower.includes(m))
 }
 
+// ── 수치 필드 원자화 ─────────────────────────────────────────────────────────
+
+/**
+ * metrics.* 필드는 추출 프롬프트에 개수 제한이 없어 LLM이 값을 여러 개 압축해
+ * 담는 경우가 있다("연간 55GWh, 약 900MW ... 및 1GW 이상 ..."). 이후 단계
+ * (2단계 요약 프롬프트·수치 보존 검증·fallback 조합)는 모두 "필드 = 값 1개"를
+ * 전제로 동작하므로, 이 전제가 깨지면 60자 제한을 넘는 요구/비문 조합 등으로
+ * 이어진다. 여기서 첫 절(clause)만 남겨 전제를 파이프라인 진입점에서 보장한다.
+ * 숫자 내부 콤마(예: "6,100만")는 구분자로 취급하지 않도록 ", "(콤마+공백)만 사용.
+ */
+function atomizeMetricField(text) {
+  if (!text) return text
+  const firstClause = text.split(/,\s|\s및\s|;\s?|\s\(/)[0].trim()
+  return firstClause || text
+}
+
 /**
  * 수치 필드(예: "100MW", "5,023억원")의 핵심 숫자가 source body에 실제로 존재하는지 검증.
  * LLM이 훈련 데이터에서 수치를 "기억"해 삽입하는 hallucination을 방지.
@@ -143,11 +159,11 @@ function normalizeFields(parsed, sourceBody = '') {
       authority:  parsed.who?.authority   ?? null,
     },
     metrics: {
-      capacity: parsed.metrics?.capacity  ?? null,
-      amount:   parsed.metrics?.amount    ?? null,
-      timeline: parsed.metrics?.timeline  ?? null,
-      ratio:    parsed.metrics?.ratio     ?? null,
-      other:    parsed.metrics?.other     ?? null,
+      capacity: atomizeMetricField(parsed.metrics?.capacity  ?? null),
+      amount:   atomizeMetricField(parsed.metrics?.amount    ?? null),
+      timeline: atomizeMetricField(parsed.metrics?.timeline  ?? null),
+      ratio:    atomizeMetricField(parsed.metrics?.ratio     ?? null),
+      other:    atomizeMetricField(parsed.metrics?.other     ?? null),
     },
     location_target: parsed.location_target ?? null,
     tech_keywords:   Array.isArray(parsed.tech_keywords) ? parsed.tech_keywords.slice(0, 3) : [],
