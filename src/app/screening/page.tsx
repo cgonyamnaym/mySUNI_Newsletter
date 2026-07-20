@@ -189,31 +189,47 @@ export default function ScreeningPage() {
     setGeneratingCount(ids.length)
     setGeneratingProgress(0)
 
+    // 서버가 다시 파일에서 찾지 않도록 원본 기사 객체를 함께 전달
+    const articleById = new Map(screened.map((a) => [a.id, a]))
+
     // 생성된 요약을 응답에서 직접 수집 → localStorage 경유로 /generate에 전달
     const collected: Record<string, unknown> = {}
     const failedIds: string[] = []
+    let completed = 0
 
-    // Vercel 60초 제한 대응: 기사 1개씩 순차 요약
-    for (let i = 0; i < ids.length; i++) {
-      try {
-        const res = await fetch('/api/summarize', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ ids: [ids[i]] }),
-        })
-        if (res.ok) {
-          const data = await res.json()
-          Object.assign(collected, data)
-          if (!data[ids[i]]) failedIds.push(ids[i])
-        } else {
-          failedIds.push(ids[i])
+    // Vercel 60초 제한 대응: 기사별 요청은 1건씩 유지하되, 동시 CONCURRENCY건을 병렬 처리.
+    // 값을 더 올리면 gemini-client의 MIN_INTERVAL_MS 페이싱이 함수 인스턴스별로만
+    // 유효해 429가 오히려 늘어날 수 있어 안전 마진을 두고 3으로 제한.
+    const CONCURRENCY = 3
+    let cursor = 0
+
+    async function worker() {
+      while (cursor < ids.length) {
+        const id = ids[cursor++]
+        try {
+          const article = articleById.get(id)
+          const res = await fetch('/api/summarize', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ ids: [id], articles: article ? { [id]: article } : undefined }),
+          })
+          if (res.ok) {
+            const data = await res.json()
+            Object.assign(collected, data)
+            if (!data[id]) failedIds.push(id)
+          } else {
+            failedIds.push(id)
+          }
+        } catch {
+          // API 없는 환경에서는 /generate에서 캐시 fallback을 시도하므로 즉시 실패 처리하지 않음
+          failedIds.push(id)
         }
-      } catch {
-        // API 없는 환경에서는 /generate에서 캐시 fallback을 시도하므로 즉시 실패 처리하지 않음
-        failedIds.push(ids[i])
+        completed += 1
+        setGeneratingProgress(completed)
       }
-      setGeneratingProgress(i + 1)
     }
+
+    await Promise.all(Array.from({ length: Math.min(CONCURRENCY, ids.length) }, worker))
 
     // 생성 결과 저장 (저장 실패해도 /generate에서 Redis/파일로 재조회)
     try {

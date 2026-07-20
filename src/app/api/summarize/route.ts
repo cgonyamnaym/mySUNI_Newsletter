@@ -99,7 +99,13 @@ function trySaveToFile(id: string, summary: NewsletterSummary, article: Article)
 // ── POST /api/summarize ───────────────────────────────────────────────────────
 export async function POST(req: NextRequest) {
   try {
-    const { ids } = (await req.json()) as { ids: string[] }
+    const { ids, articles: providedArticles } = (await req.json()) as {
+      ids: string[]
+      // 클라이언트가 이미 들고 있는 기사 원본(id → Article). 넘어오면
+      // public/data/daily/*.json 재탐색(findArticle)을 생략해 요청당
+      // 최대 14개 파일 동기 read+parse 오버헤드를 없앤다.
+      articles?: Record<string, Article>
+    }
     if (!ids?.length) return NextResponse.json({ error: 'No IDs' }, { status: 400 })
 
     // maxDuration(60s) 내 응답을 보장하기 위한 요청 전체 시간 예산.
@@ -117,8 +123,8 @@ export async function POST(req: NextRequest) {
         continue
       }
 
-      // 2. 기사 탐색 + 파이프라인 실행
-      const article = findArticle(id)
+      // 2. 기사 탐색 (클라이언트 제공분 우선) + 파이프라인 실행
+      const article = providedArticles?.[id] ?? findArticle(id)
       if (!article) {
         console.error(`[summarize] ${id}: 기사를 찾을 수 없음`)
         failed.push(id)

@@ -116,10 +116,11 @@ export default function GeneratePage() {
 
   async function handleRetrySummary(articleId: string): Promise<boolean> {
     try {
+      const article = articles.find((a) => a.id === articleId)
       const res = await fetch('/api/summarize', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ids: [articleId] }),
+        body: JSON.stringify({ ids: [articleId], articles: article ? { [articleId]: article } : undefined }),
       })
       if (!res.ok) return false
       const data = await res.json() as Record<string, Article['newsletterSummary']>
