@@ -220,6 +220,16 @@ function validateAndRepair(parsed, constraints) {
   if (!constraints.whySource)    result.why    = null
   if (!constraints.sowhatSource) result.sowhat = null
 
+  // [검증 4b] LLM이 why/sowhat을 아예 못 만들었지만 근거는 있을 때 → fallback 적용 (정제 후)
+  // what의 [검증 1b]와 동일한 패턴: whyFallback/sowhatFallback은 이미 1단계 추출 시
+  // grounding 검증을 통과한 causal_core/business_impact 원문이라 새 리스크가 없다.
+  if (!result.why && constraints.whySource && constraints.whyFallback) {
+    result.why = sanitizeFallbackText(constraints.whyFallback)
+  }
+  if (!result.sowhat && constraints.sowhatSource && constraints.sowhatFallback) {
+    result.sowhat = sanitizeFallbackText(constraints.sowhatFallback)
+  }
+
   // [검증 5] why 수치 보존 — source 수치가 LLM 출력에 없으면 source 문장 원문 사용
   if (result.why && (constraints.whyMetrics ?? []).length > 0) {
     if (!allMetricsPreserved(result.why, constraints.whyMetrics)) {

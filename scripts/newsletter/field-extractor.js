@@ -185,9 +185,19 @@ function normalizeFields(parsed, sourceBody = '') {
     if (fields.causal_core && !hasMarkerInSource(sourceBody, CAUSAL_MARKERS)) {
       fields.causal_core = null
     }
+    // [인과 수치 grounding] causal_core 안의 숫자가 원문에 없으면 hallucination으로 판단
+    // (metrics.* 필드와 동일한 검증을 causal_core/business_impact에도 적용 — why/sowhat이
+    // 이 필드를 그대로 fallback으로 노출하는 경로가 있어 동일 수준의 grounding이 필요하다)
+    if (fields.causal_core && !isMetricGrounded(fields.causal_core, normalizedSource)) {
+      fields.causal_core = null
+    }
 
     // [임팩트 grounding] 원문에 임팩트/전망 표현이 없으면 LLM이 추론한 business_impact 무효화
     if (fields.business_impact && !hasMarkerInSource(sourceBody, IMPACT_MARKERS)) {
+      fields.business_impact = null
+    }
+    // [임팩트 수치 grounding] business_impact 안의 숫자가 원문에 없으면 hallucination으로 판단
+    if (fields.business_impact && !isMetricGrounded(fields.business_impact, normalizedSource)) {
       fields.business_impact = null
     }
   }
