@@ -1,0 +1,27 @@
+{
+  "date": "2026-07-26",
+  "generatedAt": "2026-07-25T22:02:30.869Z",
+  "articleCount": 1,
+  "articles": [
+    {
+      "id": "d1eb4b41-d725-49fb-9135-82f795af3664",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "탄소 데이터도 '검증'이 경쟁력…하나루프, 국제표준 기반 탄소관리 플랫폼 신뢰성 확보",
+      "titleOriginal": null,
+      "summary": "유럽연합(EU)의 탄소국경조정제도(CBAM) 시행, 국제 지속가능성 공시기준(ISSB) 등으로 인해 탄소 데이터의 정확성과 신뢰성이 기업 경쟁력의 핵심 요소가 되고 있다. 국내 기후테크 기업 하나루프는 '하나에코(Hana.eco)' 플랫폼을 통해 국제표준 기반의 탄소관리 데이터 신뢰성을 확보하며, 탄소 데이터를 핵심 경영자산으로 활용할 수 있도록 지원한다.",
+      "topics": [
+        "시장·가격 동향",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-07-26T06:45:05.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=201735",
+      "collectedAt": "2026-07-25T22:00:39.934Z",
+      "bodySnippet": "[에너지데일리 조남준 기자] \"얼마나 탄소를 줄였는가\"보다 \"탄소를 얼마나 정확하고 신뢰성 있게 산정했는가\"가 기업 경쟁력을 결정하는 시대가 본격화되고 있다.유럽연합(EU)의 탄소국경조정제도(CBAM) 시행과 국제 지속가능성 공시기준(ISSB), 글로벌 공급망의 제품 탄소발자국(PCF) 요구가 확대되면서 탄소 데이터는 환경보고서를 위한 참고자료가 아닌 수출과 투자, 공급망 진입을 좌우하는 핵심 경영자산으로 자리 잡고 있다.이러한 가운데 국내 기후테크 기업 하나루프(HanaLoop)의 탄소관리 플랫폼 '하나에코(Hana.eco)'가"
+    }
+  ]
+}
