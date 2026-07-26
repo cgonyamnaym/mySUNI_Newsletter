@@ -1,7 +1,7 @@
 {
   "date": "2026-07-26",
-  "generatedAt": "2026-07-25T22:02:30.869Z",
-  "articleCount": 1,
+  "generatedAt": "2026-07-26T22:05:21.897Z",
+  "articleCount": 13,
   "articles": [
     {
       "id": "d1eb4b41-d725-49fb-9135-82f795af3664",
@@ -22,6 +22,236 @@
       "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=201735",
       "collectedAt": "2026-07-25T22:00:39.934Z",
       "bodySnippet": "[에너지데일리 조남준 기자] \"얼마나 탄소를 줄였는가\"보다 \"탄소를 얼마나 정확하고 신뢰성 있게 산정했는가\"가 기업 경쟁력을 결정하는 시대가 본격화되고 있다.유럽연합(EU)의 탄소국경조정제도(CBAM) 시행과 국제 지속가능성 공시기준(ISSB), 글로벌 공급망의 제품 탄소발자국(PCF) 요구가 확대되면서 탄소 데이터는 환경보고서를 위한 참고자료가 아닌 수출과 투자, 공급망 진입을 좌우하는 핵심 경영자산으로 자리 잡고 있다.이러한 가운데 국내 기후테크 기업 하나루프(HanaLoop)의 탄소관리 플랫폼 '하나에코(Hana.eco)'가"
+    },
+    {
+      "id": "f7f8981c-bbf7-4731-ab6d-cbb769fde89f",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "AI 기반 데이터 센터를 위한 중복성 재고: 더 스마트한 전략",
+      "titleOriginal": "Rethinking redundancy: smarter strategies for the AI-driven data center",
+      "summary": "이 글은 AI 기반 데이터 센터의 냉각, 전력 및 서버 수준의 중복성에 대해 더 심도 깊게 고려할 필요성을 강조합니다. 이는 효율적이고 안정적인 데이터 센터 운영을 위한 전략적 접근 방식을 제안합니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-07-26T13:00:28.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/opinions/rethinking-redundancy-smarter-strategies-for-the-ai-driven-data-center/",
+      "collectedAt": "2026-07-26T22:02:36.735Z",
+      "bodySnippet": "<p data-block-key=\"t9tzr\">Thinking harder about cooling, power, and server-level redundancy</p>"
+    },
+    {
+      "id": "1650a8ad-360c-4a7c-a4c2-b4e04f924c32",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "햇빛도 충전도 필요 없다…KERI, 50년 이상 전기 만드는 SiC 베타전지 국내 첫 실증",
+      "titleOriginal": null,
+      "summary": "한국전기연구원(KERI)이 햇빛이나 충전 없이 50년 이상 전기를 생산할 수 있는 SiC 베타전지 국내 첫 실증에 성공했다. 이 차세대 전원은 탄화규소(SiC) 반도체와 p-i-n 다이오드 구조를 적용하여 독자적인 원천 소자를 개발했으며, 우주 및 심해 등 극한 환경에서 활용될 핵심 기술로 평가받는다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-07-26T12:10:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=370576",
+      "collectedAt": "2026-07-26T22:03:02.708Z",
+      "bodySnippet": "한국전기연구원(KERI)이 충전이나 교체 없이 수십 년 동안 전기를 생산할 수 있는 차세대 초장수명 전원의 국내 실증에 성공했다.우주와 심해, 극지, 원전 감시 등 사람의 접근이 어려운 극한 환경에서 활용될 핵심 기술로 평가된다.한국전기연구원(KERI)은 차세대반도체연구센터 서재화 박사 연구팀이 국립경국대학교 윤영준 교수 연구팀과 공동으로 탄화규소(SiC) 반도체 기반 베타전지를 국내 최초로 실증했다고 밝혔다.연구 결과는 에너지 분야 국제학술지 International Journal of Energy Research(JCR 상위 3.6%, 해당 분야 2위)에 게재됐다.◆SiC 반도체 적용...국내 최고 출력 성능 구현베타전지는 방사성 물질에서 자연적으로 방출되는 베타선을 반도체가 흡수해 전기로 변환하는 차세대 전원이다.태양광이 없어도 안정적으로 전력을 생산할 수 있어 우주 탐사선, 심해 장비, 국방 감시 센서, 원전 모니터링 장치 등에 적합하다.연구팀은 기존 실리콘보다 열과 방사선에 강한 탄화규소(SiC)를 적용하고, 전력 변환 효율을 높이는 p-i-n 다이오드 구조를 설계해 독자적인 원천 소자를 개발했다.이후 실제 베타선 원료인 니켈-63(Ni-63)을 확"
+    },
+    {
+      "id": "6e664f43-41d2-4fad-9872-c7b437979104",
+      "source": "전자신문 (Energy)",
+      "sourceId": "etnews",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "'어린이가 그려낸 원자력' 30점 시상... 원자력연, 어린이 그림 공모전 시상식 개최",
+      "titleOriginal": null,
+      "summary": "한국원자력연구원이 '탄소중립·AI 시대, 원자력의 역할'을 주제로 전국 초등학생 대상 그림 공모전 시상식을 개최했다. 지난 2월부터 6월까지 진행된 이번 공모전에는 총 171점의 작품이 접수되었으며, 기후변화 대응을 위한 원자력의 중요성을 알리기 위해 마련되었다.",
+      "topics": [
+        "ESG·탄소중립",
+        "에너지원"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-07-26T08:36:51.000Z",
+      "originalUrl": "https://www.etnews.com/20260726000125",
+      "collectedAt": "2026-07-26T22:03:29.635Z",
+      "bodySnippet": "한국원자력연구원은 '교사·부모와 함께 생각하는 지구와 미래를 위한 원자력 이야기 어린이 그림 공모전' 수상작 시상식을 25일 연구원 본원에서 개최했다. 이번 공모전은 '탄소중립·AI 시대, 원자력의 역할'이라는 주제로 전국 초등학생들이 교사·부모와 함께 기후변화와 에너지 문제를 생각하고, 탄소중립과 인공지능 시대에 필요한 원자력의 역할을 창의적인 그림으로 표현하도록 진행됐다. 지난 2월부터 6월 말까지 진행된 공모에는 전국에서 총 171점의 작"
+    },
+    {
+      "id": "0e3bf451-4687-46ff-8f5d-eed00bf9e204",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[분석] 기후가 무역을 바꾼다…GEPA 참여, 한국 통상전략의 새 전환점 될까",
+      "titleOriginal": null,
+      "summary": "세계 무역질서가 관세 중심에서 탄소배출과 환경기준 등 기후 중심으로 변화함에 따라 한국 정부가 복수국간 그린경제협정(GEPA) 참여를 추진하고 있다. 이는 EU의 탄소국경조정제도(CBAM) 등 강화되는 글로벌 통상 규제에 대응해 우리 산업의 경쟁력을 확보하기 위한 전략적 전환점으로 평가된다.",
+      "topics": [
+        "ESG·탄소중립",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-07-26T20:01:42.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=201740",
+      "collectedAt": "2026-07-26T22:03:32.792Z",
+      "bodySnippet": "[에너지데일리 송병훈 기자] 세계 무역질서의 중심축이 관세에서 기후로 빠르게 이동하고 있다. 자유무역협정(FTA)이 시장 개방과 관세 철폐를 중심으로 발전해 왔다면 이제는 탄소배출과 공급망, 환경기준, 지속가능성이 국가 경쟁력과 시장 접근을 결정하는 새로운 통상 기준으로 자리 잡고 있다.유럽연합(EU)의 탄소국경조정제도(CBAM)를 비롯해 주요국들이 환경과 공급망을 연계한 무역규범을 강화하는 가운데 정부가 복수국간 그린경제협정(GEPA) 참여를 추진하는 것은 변화하는 국제 통상질서 속에서 우리 산업의 경쟁력을 확보하고 새로운 규범"
+    },
+    {
+      "id": "020b7fc7-db24-4eec-9420-7300c91e2068",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[초점] 정부, 8차 석유 최고가격 동결…휘발유 1,784원·경유 1,773원 유지",
+      "titleOriginal": null,
+      "summary": "정부가 국제유가 급등과 원유 공급 불안에도 불구하고 서민경제 부담을 고려해 국내 석유 최고가격을 휘발유 1,784원, 경유 1,773원으로 8차 동결했다. 다만 향후 지정학적 리스크 장기화 시 국제유가 및 수급 상황을 반영해 가격을 탄력적으로 조정할 방침이다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-07-26T19:47:45.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=201738",
+      "collectedAt": "2026-07-26T22:03:38.529Z",
+      "bodySnippet": "[에너지데일리 변국영 기자 ]정부가 브렌트유가 배럴당 100달러를 다시 돌파하는 등 국제유가가 급등하는 상황에서도 국내 석유 최고가격을 현행 수준으로 유지하기로 했다.미국과 이란 간 군사적 긴장 고조와 호르무즈 해협 통항 감소 등으로 글로벌 원유 공급 불안이 커지고 있지만, 물가 상승과 고금리로 어려움을 겪는 서민경제 부담을 우선 고려해 가격 안정을 선택한 것이다. 다만 지정학적 리스크가 장기화될 경우 국제유가와 국내 수급 상황을 종합적으로 반영해 최고가격을 탄력적으로 조정할 수 있다는 여지도 남겼다.산업통상부(장관 김정관)는 25"
+    },
+    {
+      "id": "846493cb-3335-4e9e-b019-4120ce67df09",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전기연구원, 충전 없이 50년 이상 쓰는 '베타전지' 국내 최초 실증했다",
+      "titleOriginal": null,
+      "summary": "한국전기연구원이 충전이나 교체 없이 50년 이상 사용 가능한 '탄화규소(SiC) 반도체 기반 베타전지'를 국내 최초로 실증했다. 방사성 물질을 활용해 LED 구동에 성공함으로써 우주, 국방, 원전 등 극한 환경용 초장수명 전원 기술 국산화의 발판을 마련했다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-07-26T12:00:00.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=201713",
+      "collectedAt": "2026-07-26T22:03:42.607Z",
+      "bodySnippet": "[에너지데일리 송병훈 기자] 한국전기연구원(KERI)이 충전이나 배터리 교체 없이 수십 년 동안 전력을 공급할 수 있는 차세대 전원 기술인 '탄화규소(SiC) 반도체 기반 베타전지'를 국내 최초로 실증했다. 방사성 물질을 이용해 실제 전력을 생산하고 LED를 구동하는 데 성공하면서 국내 베타전지 기술이 기초 연구를 넘어 실증 단계에 진입했다는 평가다. 특히 우주·국방·원전·심해 등 사람이 접근하기 어려운 극한 환경에서 장기간 활용 가능한 초장수명 전원 기술의 국산화 기반을 마련했다는 점에서 의미가 크다.한국전기연구원은 차세대반도체연"
+    },
+    {
+      "id": "0e82d6b0-0b50-4217-b4f8-d6ab246d3c7d",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "정부 '유류세 인하 조치' 2개월 연장",
+      "titleOriginal": null,
+      "summary": "정부가 중동 정세 불안에 따른 국제 유가 변동성에 대응하기 위해 휘발유 15%, 경유 및 LPG 부탄 25%의 유류세 인하 조치를 9월 30일까지 2개월 연장한다. 이번 조치로 휘발유 리터당 122원, 경유 145원, LPG 부탄 51원의 세금 인하 혜택이 유지된다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-07-26T02:42:09.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=300831",
+      "collectedAt": "2026-07-26T22:03:48.900Z",
+      "bodySnippet": "\r\n<img alt=\"고속도로 휴게소에서 영업 중인 LPG 충전소와 주유소/신영균 기자\" src=\"https://cdn.todayenergy.kr/news/photo/202607/300831_172856_3125.jpg\" />\r\n고속도로 휴게소에서 영업 중인 LPG 충전소와 주유소/신영균 기자\r\n\r\n\r\n\r\n[투데이에너지 신영균 기자]&nbsp;정부가 유류세 인하 조치를 9월 30일까지 2개월 연장한다고 밝혔다. 재정경제부는 24일 &#39;민생 물가 특별관리 관계장관 TF 13차 회의&#39;를 개최하고 &#39;8월 이후 유류세 운용 방안&#39;을 발표했다. 핵심 내용은&nbsp;현행 휘발유 15%, 경유와 LPG 부탄 25%인 &#39;유류세 인하 조치&#39; 유지다. 경유와 LPG 부탄이 휘발유 대비 인하 폭이 더 큰 이유는 산업&middot;물류 등에 필수 연료라는 점과 택시를 비롯한 소형 화물차 등 서민 연료로 사용되는 현실이 각각 반영된 결과다.\r\n\r\n앞서 정부는 지난 2월 28일 미국-이스라엘과 이란 간 중동 전쟁 발발로 국제유가가 폭등하자 3월 27일 휘발유는 7%에서 15%, 경유는 10%에서 25%로 유류세 인하 폭을 확대했다. 다만 당시 LPG 부탄은 휘발유와 경유 대비 가격 상승 폭이 크지 않아 10%가 유지됐다. 이후 5월 1일부터 25%로 확대 적용됐다. 이에 따라 휘발유는 리터당 122원, 경유 145원, LPG 부탄 51원이 인하 중이다. 그 결과 정부가 실제 부과하는 세금인 유류세는 휘발유가 리터당 698원, 경유 436원, 부탄 152원이다.\r\n\r\n&nbsp;\r\n\r\n\r\n<img alt=\"유류세 인하 기간과 인하율 도표. 단위는 리터당 원/재정경제부 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202607/300831_172857_3339.jpg\" />\r\n유류세 인하 기간과 인하율 도표. 단위는 리터당 원/재정경제부 제공\r\n\r\n\r\n\r\n재정경제부는 &quot;중동 정세 불안이 해소되지 않은 상황에서 향후 유가 변동성 확대 등에 대응하기 위해 유류세 조정 여력을 남겨둘 필요가 있다&quot;며 이번에 유류세 인하 조치를 연장하게 된 배경을 설명했다. 이번 유류세 운용 방안은 국무회의 상정 등을 거쳐 5월 1일부터 시행된다.&nbsp;한편 재정경제부는 중동 전쟁 발발 이후 물가&middot;공급망 위기 극복을 위해 3월 25일부로 &#39;범정부 비상 대응 체계&#39;를 가동해 나프타, 요소 등 주요 원자재 수급 여건이 개선되고 물가 상승률도 3~6월 평균 2.8%로 주요국 대비 상대적으로 낮은 수준을 기록 중이라고 밝혔다. 이 기간 미국은 3.7%이며 3~5월 간 경제협력개발기구 OECD 회원 국가 평균은 4.3%다."
+    },
+    {
+      "id": "e117b9c9-966a-425b-9b9b-dbaf49c7cf07",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스안전공사, 흥미 · 공감 '디지털 콘텐츠' 제작 호평",
+      "titleOriginal": null,
+      "summary": "한국가스안전공사가 참신한 기획과 소통 중심의 디지털 콘텐츠를 통해 '소셜아이어워드 2026'에서 공공분야 유튜브 대상을 수상했다. 공사는 '환승공사', '흑백 안전 요리사' 등 트렌디한 예능형 콘텐츠로 국민 공감대를 형성하며 가스 안전 메시지를 효과적으로 전달하고 있다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-07-26T00:38:28.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=300830",
+      "collectedAt": "2026-07-26T22:03:50.477Z",
+      "bodySnippet": "\r\n<img alt=\"조영원 가스안전공사 부사장(가운데)이 '소셜아이어워드 2026'에서 공공분야 '유튜브 대상'을 수상 후 임상균 홍보소통실장 직무대리(오른쪽) 등과 상장 및 상패를 들고 기념 촬영하고 있다./한국가스안전공사 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202607/300830_172855_2834.jpg\" />\r\n조영원 가스안전공사 부사장(가운데)이 &#39;소셜아이어워드 2026&#39;에서 공공분야 &#39;유튜브 대상&#39;을 수상 후 임상균 홍보소통실장 직무대리(오른쪽) 등과 상장 및 상패를 들고 기념 촬영하고 있다./한국가스안전공사 제공\r\n\r\n\r\n\r\n[투데이에너지 신영균 기자]&nbsp;한국가스안전공사가 참신한 기획과 수준 높은 영상으로 디지털 콘텐츠를 제작해 호평받고 있다. 특히 &#39;가스 안전&#39; 메시지를 흥미롭고 공감되도록 전달하며 공공기관 디지털 소통에서 새로운 방향을 제시하고 있다. 이를 통해 국민 소통을 강화하고 있다. 이에 가스안전공사는 대한민국 최대 규모 소셜미디어 시상식인 &lsquo;소셜아이어워드 2026&rsquo;에서 공공분야 &lsquo;유튜브 대상&rsquo;을 수상했다.\r\n\r\n&lsquo;소셜아이어워드 2026&rsquo;은 과학기술정보통신부 산하 (사)한국인터넷전문가협회가 주최하고 한국인터넷진흥원(KISA) 등이 후원하는 국내 대표 소셜미디어 시상식이다. 블로그, 인스타그램, 유튜브 등 다양한 SNS 플랫폼을 대상으로 인터넷 브랜딩, 정보서비스, 디지털 콘텐츠 분야에서 우수 사례를 선정해 시상한다.\r\n\r\n이번 수상은 가스안전공사가 운영하는 공식 유튜브 채널이 국민에게 관심받고 공감대를 형성한 결과다. 실제로 가스안전공사 유튜브 채널은 콘텐츠 기획이 참신하고 영상 제작 역량이 우수하다는 호평을 받고 있다. 그 결과 공공기관 디지털 소통에서 새로운 방향을 제시했다는 평가를 받고 있다. 특히 그간 대다수 공공기관이 정형화된 콘텐츠를 공개했으나 가스안전공사는 올해 유튜브 채널을 통해 이와 차별화된 영상을 선보였다.\r\n\r\n대표적인 콘텐츠는 직원들이 진솔한 내면을 드러낸 패러디 예능 형식 &lsquo;환승공사&rsquo;, 한국전기안전공사와 협업해 안전 정보를 흥미롭게 전달하는 &lsquo;흑백 안전 요리사&rsquo; 등이다. 이는 트렌드에 맞춘 콘텐츠로 시청자들에게 호응을 얻고 있다. 무엇보다 쉽고 재미있는 방식으로 가스안전 메시지를 전달해 국민 공감대를 확대했다. 또한 숏폼 콘텐츠와 예능형 기획 영상, 현장 체험형 콘텐츠 등을 통해 가스안전에 대한 관심을 자연스럽게 유도하며 공공기관 유튜브 채널의 새로운 가능성을 보여주고 있다.\r\n\r\n조영원 가스안전공사 부사장은 &ldquo;국민이 가스안전공사 콘텐츠에 보내주신 관심과 성원 덕분에 뜻깊은 성과를 거둘 수 있었다&rdquo;며 &ldquo;앞으로도 유익한 가스안전 정보를 더욱 쉽고 재미있게 전달할 수 있도록 다양한 디지털 콘텐츠를 지속 발굴하며 국민 소통을 더욱 강화해 나가겠다&rdquo;고 밝혔다."
+    },
+    {
+      "id": "3473e92c-55bf-4e23-9ba9-6a3fbc3ffbc5",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전KDN, 노사 공동 안전문화 확산 나서",
+      "titleOriginal": null,
+      "summary": "한전KDN이 산업안전보건의 달을 맞아 노사 합동으로 안전 캠페인과 체험존을 운영하며 안전한 일터 조성 및 지역사회 안전문화 확산 활동을 전개했다. 이번 행사는 산업 현장의 안전관리 역량을 강화하고 공공기관으로서 안전 경영을 실천하기 위해 마련되었다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-07-26T09:21:22.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70499",
+      "collectedAt": "2026-07-26T22:04:04.143Z",
+      "bodySnippet": "한전KDN이 산업안전보건의 달을 맞아 노사 공동으로 안전문화 확산에 나섰다. 한전KDN(주)(사장 박상형)은 안전한 일터 조성과 지역사회 안전문화 확산을 위해 지난 23일 노사 합동 안전캠페인과 안전 체험존을 운영하는 등 산업현장과 지역사회 안전문화 확산활동을 펼쳤다."
+    },
+    {
+      "id": "6fb4ef41-e947-45df-8e14-010551ad1a9b",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한울원전, 협력사와 ESG 사회공헌 확대",
+      "titleOriginal": null,
+      "summary": "한울원자력본부가 ESG 경영 실천과 지역상생을 위해 협력사 13곳과 '한울어울림봉사단' 결연식을 가졌다. 이번 활동은 원전 산업계가 지역사회와 동반 성장하는 협력 체계를 강화하기 위한 목적이다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-07-26T09:11:26.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70498",
+      "collectedAt": "2026-07-26T22:04:06.556Z",
+      "bodySnippet": "한울원자력본부가 협력사와 함께 사회공헌활동을 확대하며 지역상생 강화에 나섰다. 한국수력원자력(주) 한울원자력본부(본부장 이용희)는 ESG 경영을 바탕으로 원전산업과 지역사회가 함께 성장하는 상생협력체계를 구축하기 위해 지난 22일 한울에너지팜(경북 울진군 소재)에서 협력사 13곳과 한울어울림봉사단 결연식을 개최했다."
+    },
+    {
+      "id": "7546a4bf-aae9-46a2-a67c-56a5373758be",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전, 탄소중립 실행체계 강화 방점",
+      "titleOriginal": null,
+      "summary": "한국전력공사가 2035년 국가 온실가스 감축목표(NDC) 달성을 위한 구체적인 온실가스 감축계획을 수립했다. 이를 통해 한전은 ESG 경영을 강화하고 탄소중립 실행체계를 본격적으로 추진할 방침이다.",
+      "topics": [
+        "ESG·탄소중립",
+        "전력 인프라"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-07-26T09:00:33.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70497",
+      "collectedAt": "2026-07-26T22:04:10.619Z",
+      "bodySnippet": "한전이 2035년 국가 온실가스 감축목표(NDC)에 부합하는 온실가스 감축계획을 마련하고 탄소중립 실행체계를 강화한다. 한국전력공사(사장 김동철)는 지난 24일 한전아트센터(서울 서초구 소재)에서 2026년 제2차 ESG위원회를 열고 ‘2035 한전 온실가스 감축계획’을 비롯한 주요 ESG 경영 현"
+    },
+    {
+      "id": "79bbd8ea-2bb1-477b-8271-86094fe39658",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "중동 다시 위기…석유공사, 국가석유안보 점검",
+      "titleOriginal": null,
+      "summary": "한국석유공사가 중동발 지정학적 위기에 따른 국가 석유수급 불안에 대응하기 위해 현장점검회의를 개최했다. 손주석 사장은 충남 서산 석유비축기지를 방문하여 석유수급 선제 대응 체계를 강화하고 국가 석유안보 태세를 점검했다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-07-26T08:35:51.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70496",
+      "collectedAt": "2026-07-26T22:04:14.389Z",
+      "bodySnippet": "석유공사가 중동지역 지정학적 리스크가 다시 고조되는 가운데 국가 석유수급 위기에 선제적으로 대응하기 위한 점검체계를 강화한다. 한국석유공사(사장 손주석)는 지난 24일 석유비축기지(충남 서산시 소재)에서 손주석 사장이 주재하는 ‘석유수급 선제 대응을 위한 현장점검회의’를 개최했다."
     }
   ]
 }
