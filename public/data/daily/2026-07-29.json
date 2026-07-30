@@ -1,7 +1,7 @@
 {
   "date": "2026-07-29",
-  "generatedAt": "2026-07-29T22:18:13.614Z",
-  "articleCount": 124,
+  "generatedAt": "2026-07-30T22:24:22.628Z",
+  "articleCount": 127,
   "articles": [
     {
       "id": "880111d7-25f6-4203-8ba9-5abded2c740c",
@@ -2405,6 +2405,64 @@
       "originalUrl": "https://www.kaif.or.kr/ko/?c=251&s=250&gp=1&gbn=view&ix=29997",
       "collectedAt": "2026-07-29T22:18:05.927Z",
       "bodySnippet": "7월 29일 수요일 원자력 투데이뉴스 [2026 원전 생태계 고도화 원전 핵심기업 육성 지원사업 참여기업 모집 (~ 7. 31.) 제3기 원전산업 최고경영자 과정 교육생 모집 (~ 7. 31.) 일시/장소 : 2026. 8. 21. (금) ~ 2027. 1. 15. (금) / 노보텔 앰배서더 서울 강남 2026년 원전 경험인력 리프레시 교육 (2차) 교육생 모집 (~8. 3.) 일시/장소 : 8. 5. (수) - 8. 7. (금) / 코트야드 메리어트 명동 한양 3, 4홀 2026 원전기업 계약·조달 A to Z (2차) 교육생 모집(~8. 12. / 선착순) 일시/장소 : 8. 14. (금) 10:00 ~ 17:30 / 부산 벡스코 제1전시장 213호 2026 원전산업 전문인력 맞춤형 취업지원 컨설팅 시행 및 참여자 모집 (상시) 신입/경력 포스터 별도 QR 스캔 후 폼 작성 및 제출 2026년 원전산업 일반 과정 시행 (연중) 일시/장소 : 연중상시 / 온라인 (원자력 교육 시스템 NES)"
+    },
+    {
+      "id": "7571b271-308e-49e1-913c-86c7034c2fb3",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "V2G, 일방향 관리형 EV 충전보다 15배 더 많은 가치 제공 가능: 보고서",
+      "titleOriginal": "V2G could deliver 15 times more value than one-way managed EV charging: report",
+      "summary": "E3 분석에 따르면 V2G 기술은 일방향 관리형 전기차(EV) 충전 방식보다 15배 더 많은 가치를 창출할 수 있습니다. 미국 내 양방향 EV 차량 증가와 규제 개혁을 통해 유틸리티는 잠재적으로 70억 달러의 가치를 확보할 수 있을 것으로 전망됩니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-07-29T13:51:19.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/v2g-could-deliver-15-times-more-value-than-one-way-managed-ev-charging-rep/826458/",
+      "collectedAt": "2026-07-30T22:14:02.391Z",
+      "bodySnippet": "<p>The U.S. fleet of bidirectional-capable electric vehicles is growing, and regulatory reforms could help utilities unlock $7 billion in potential value, according to an E3 analysis.</p>"
+    },
+    {
+      "id": "ae4757e2-091b-4706-becf-d30bc643388c",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "배터리 구독 전기자전거 ‘그라인드’, 이용자 391%·매출 407% 껑충",
+      "titleOriginal": null,
+      "summary": "지바이크의 배터리 구독형 전기자전거 '그라인드'가 배터리 충전 안전성 및 편의성 수요를 바탕으로 26년 상반기 이용자 수 391%, 매출 407%라는 급격한 성장세를 기록했다. 이는 가정 내 배터리 충전 화재 우려가 커지면서 외부 배터리 교환 스테이션 기반의 구독 모델이 대안으로 부상했기 때문이다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-07-29T23:02:37.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=370796",
+      "collectedAt": "2026-07-30T22:16:15.766Z",
+      "bodySnippet": "여름철 실내 배터리 충전에 대한 화재 우려가 커지는 가운데, 배터리 구독형 전기자전거 수요가 빠르게 늘고 있다.국내 최대 공유 모빌리티 플랫폼 ‘지쿠’ 운영사 지바이크의 배터리 구독형 전기자전거 ‘그라인드’가 가파른 성장세를 보이고 있다. 배터리 충전과 보관의 안전성, 이용 편의성을 중시하는 수요가 확대되면서 26년 상반기 그라인드 이용자 수는 25년 하반기보다 391% 증가했다. 같은 기간 판매 매출은 407%늘었다.그라인드는 이용자가 가정에서 직접 배터리를 충전, 관리하는 기존 방식과 달리, 외부에 설치된 배터리 교환 스테이션("
+    },
+    {
+      "id": "0ebb9be0-6368-4b06-baf8-0f403dd1f191",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[인사] 한국가스공사",
+      "titleOriginal": null,
+      "summary": "한국가스공사 신임 사장으로 제19·20대 국회의원과 대구광역시 경제부시장을 역임한 홍의락 전 의원이 취임했다. 홍 사장은 과거 국회 산업통상자원중소벤처기업위원회 위원으로서 에너지 정책 및 산업 분야의 전문성을 쌓아온 인물이다.",
+      "topics": [
+        "정책·규제"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-07-29T18:08:13.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=301000",
+      "collectedAt": "2026-07-30T22:21:56.256Z",
+      "bodySnippet": "[투데이에너지]\r\n\r\n■ 한국가스공사\r\n\r\n▲ 홍의락 사장&nbsp;&nbsp;\r\n\r\n홍의락 사장은 고려대학교 농업경제학과를 졸업하고, 제19&middot;20대 국회의원과 대구광역시 경제부시장을 역임했다.\r\n\r\n국회 산업통상자원중소벤처기업위원회 위원&nbsp;활동&nbsp;등 에너지 정책과 산업 분야에서 폭넓은 경험을 쌓아왔다.\r\n\r\n\r\n\r\n<img alt=\"홍의락 사장이 취임식에서 인사말을  하고 있다./가스공사 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202607/301000_173045_83.jpg\" />\r\n홍의락 사장이 취임식에서 인사말을 하고 있다./가스공사 제공\r\n\r\n\r\n\r\n&nbsp;\r\n"
     }
   ]
 }
