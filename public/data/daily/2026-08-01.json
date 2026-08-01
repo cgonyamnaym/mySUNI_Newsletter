@@ -1,0 +1,27 @@
+{
+  "date": "2026-08-01",
+  "generatedAt": "2026-08-01T22:01:24.873Z",
+  "articleCount": 1,
+  "articles": [
+    {
+      "id": "1480d53d-fb99-4ac7-8bc1-10dfa5abeba4",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "스폰서 광고: AI 데이터센터의 복잡성 해결: 완전 통합 솔루션 활용",
+      "titleOriginal": "Sponsored: Tackling complexity in AI data centers: leveraging fully integrated solutions",
+      "summary": "AI 데이터센터는 증가하는 밀도, 다양한 장비 및 서비스로 인해 복잡성 문제에 직면해 있습니다. 시장은 이러한 AI 물결의 모든 단계를 지원할 수 있는 완전 통합 솔루션을 제공하는 공급업체를 필요로 합니다. (이 기사는 제공된 내용에 특정 숫자나 조직 이름을 포함하고 있지 않습니다.)",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-08-01T15:00:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/opinions/tackling-complexity-in-ai-data-centers-leveraging-fully-integrated-solutions/",
+      "collectedAt": "2026-08-01T22:00:03.754Z",
+      "bodySnippet": "<p data-block-key=\"iawq9\">Increasing densities, equipment varieties, and services have led to complexity challenges. What the market needs is integrated solutions from a provider that can support the AI wave at every step</p>"
+    }
+  ]
+}
