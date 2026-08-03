@@ -1,6 +1,6 @@
 'use client'
 
-import { forwardRef, useState, useEffect, type MouseEvent } from 'react'
+import { forwardRef, useState, type MouseEvent } from 'react'
 import type { Article, TopicId } from '@/lib/types'
 import styles from './NewsletterContent.module.css'
 
@@ -327,7 +327,7 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
             lineHeight: 1.8, margin: 0,
           }}>
             최근 2주간의 AI 뉴스 큐레이션 결과를 바탕으로 자동 생성된 뉴스레터 입니다.<br />
-            문의 : SKI mySUNI 경영관리역량 조혜경RF
+            문의 : SKI mySUNI 경영관리역량 조혜경RF (haileycho@sk.com)
           </p>
         </div>
       </div>
@@ -535,12 +535,6 @@ function SubscribeForm() {
   const [submitted, setSubmitted] = useState(false)
   const [submitting, setSubmitting] = useState(false)
   const [error, setError] = useState(false)
-  const [count, setCount] = useState(0)
-
-  useEffect(() => {
-    const saved = JSON.parse(localStorage.getItem('nl_subscribed_emails') ?? '[]') as string[]
-    setCount(saved.length)
-  }, [])
 
   const handleSubmit = async () => {
     const trimmed = email.trim()
@@ -561,7 +555,6 @@ function SubscribeForm() {
         saved.push(trimmed)
         localStorage.setItem('nl_subscribed_emails', JSON.stringify(saved))
       }
-      setCount(saved.length)
       setSubmitted(true)
       setEmail('')
     } catch {
@@ -614,10 +607,6 @@ function SubscribeForm() {
           )}
         </div>
       )}
-      <div style={{ fontSize: '13px', color: '#9CA3AF' }}>
-        ☺ 현재까지 누적 신청 인원 :{' '}
-        <strong style={{ color: '#2563EB' }}>{count}명</strong>
-      </div>
     </div>
   )
 }
