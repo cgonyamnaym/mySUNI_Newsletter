@@ -1,0 +1,24 @@
+{
+  "date": "2026-08-05",
+  "generatedAt": "2026-08-04T22:29:54.701Z",
+  "articleCount": 1,
+  "articles": [
+    {
+      "id": "9e059de1-acb4-471b-94a1-a9cd1a22573b",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "이재명 대통령, 해외자원개발 해야될 것 같은데?",
+      "titleOriginal": null,
+      "summary": "이재명 더불어민주당 대표가 과거 정부의 해외자원개발 사업을 비판했던 입장에서 벗어나, 에너지 안보와 경제성 제고를 위해 해외자원개발의 필요성을 언급함. 에너지 자급률이 낮은 한국의 현실을 고려하여 실용적인 자원 확보 전략이 재조명되어야 한다는 취지임.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-08-05T00:19:52.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70572",
+      "collectedAt": "2026-08-04T22:27:48.912Z",
+      "bodySnippet": ""
+    }
+  ]
+}
