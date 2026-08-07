@@ -1,7 +1,7 @@
 {
   "date": "2026-08-06",
-  "generatedAt": "2026-08-07T01:17:41.187Z",
-  "articleCount": 132,
+  "generatedAt": "2026-08-07T21:52:06.652Z",
+  "articleCount": 134,
   "articles": [
     {
       "id": "62d6da4d-9e2a-444f-94bf-eb7de0769a5c",
@@ -2555,6 +2555,45 @@
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260806027139851",
       "collectedAt": "2026-08-07T01:16:32.709Z",
       "bodySnippet": "김나영 우드맥킨지 이사 “AI 시대 전력이 산업 경쟁력”\n효성·LS·두산·한화·SK 등 전력 인프라 기업 수혜 기대\n“결국 송전망 문제…LNG·원전·재생·SMR 모두 필요”\n“장비 넘어 통합 전력 솔루션으로 가야 AI 시대 승자” ▲김나영 우드맥킨지 이사. 사진=우드맥킨지 “AI 시대 최대 수혜는 반도체만이 아닙니다. 과거 미국 골드러시에서 가장 안정적으로 돈을 번 사람은 금을 캔 사람이 아니라 곡괭이와 삽을 판 사람이었습니다.\" 김나영 우드맥킨지(Wood Mackenzie) 전력·신재생에너지 컨설팅 디렉터는 AI 시대에도 같은 일이 벌어지고 있다고 진단했다. 생성형 AI 경쟁이 본격화되면서 시장의 관심은 엔비디아 GPU와 메모리 반도체에 집중되고 있지만, 실제 산업 현장에서는 전력기기와 발전설비, 송전망, 배터리 등 AI 인프라를 뒷받침하는 기업들이 새로운 수혜 산업으로 떠오르고 있다는 설명이다. 그는 본지와의 인터뷰에서 “최종적으로 어떤 AI 플랫폼이 승자가 될지는 아직 알 수 없지만 그 경쟁을 가능하게 하는 전력 공급망 기업들은 분명한 기회를 맞게 될 것\"이라고 말했다. ◇ “효성·LS·두산·배터리…한국 기업에 큰 기회\" 김 이사는 AI 시대 가장 유망한 분야로 전력기기, 발전설비, 배터리, 통합 에너지 솔루션을 꼽았다. 효성중공업과 LS일렉트릭은 미국의 변압기와 송배전 설비 공급 부족으로 이미 수혜를 보고 있으며, 두산에너빌리티 역시 글로벌 가스터빈 공급 부족 속에서 새로운 기회를 맞고 있다는 평가다. 배터리 산업도 새로운 성장축으로 제시했다. 그는 “데이터센터용 배터리는 단순한 UPS를 넘어 브리지 전원과 전력품질 관리, 피크 절감, 계통 안정화까지 역할이 확대되고 있다\"며 “전기차 시장 둔화와 별개로 데이터센터용 ESS 시장은 꾸준히 성장할 가능성이 높다\"고 전망했다. 한화는 태양광과 ESS, 발전사업 역량을 결합해 데이터센터 전력 솔루션 사업자로 성장할 가능성이 있고, SK 역시 반도체와 통신, LNG, 데이터센터 등 그룹 내 사업을 연결하면 새로운 AI 인프라 생태계를 구축할 수 있다는 분석이다. 다만 그는 “앞으로는 장비를 잘 만드는 기업보다 고객이 원하는 시점에 안정적으로 전력을 확보하도록 도와주는 기업이 더 높은 가치를 인정받을 것\"이라며 “AI 시대 승자는 최고의 제품을 만드는 기업이 아니라 고객의 'Deliverability'를 가장 높여주는 기업\"이라고 강조했다. ◇ “AI 승부는 GPU가 아니라 전력\" 김 이사는 AI 시대를 한 문장으로 이렇게 정의했다. “경쟁의 병목이 비트(Bits)에서 와트(Watts)로 넘어가고 있습니다.\" 그는 “반도체가 덜 중요해졌다는 의미는 아니다. GPU와 메모리는 여전히 AI의 두뇌\"라면서도 “지금은 AI 데이터센터를 추가로 지을 수 있느냐를 결정하는 가장 부족한 자원이 전력이 됐다\"고 설명했다. 실제로 AI 데이터센터의 전력 수요는 과거 수십 MW에서 최근 수백 MW, 일부는 GW급까지 확대되고 있다. 그는 “AI 경쟁은 디지털 기술 경쟁에서 물리적 인프라 경쟁으로 확장되고 있다\"며 “전력 확보가 곧 산업 경쟁력이 되는 시대\"라고 말했다. ◇ “미국도 가장 큰 병목은 송전망\" 미국 현장에서 체감하는 가장 큰 문제는 발전원이 아니라 송전망이다. 김 이사는 “발전설비와 변압기 공급 부족은 시간이 지나면 생산을 늘릴 수 있지만 송전망은 인허가와 주민 수용성, 비용 분담 등을 함께 해결해야 해 가장 오래 걸리는 병목\"이라고 말했다. 최근 미국 연방에너지규제위원회(FERC)가 대형 데이터센터 계통연계 제도 전면 재검토에 나선 것도 같은 이유다. 그는 “기존 제도만으로는 앞으로 AI 데이터센터의 폭발적인 전력 수요를 감당하기 어렵다는 공감대가 미국에서도 형성되고 있다\"고 설명했다. ◇ “'All of the Above'…속도가 가장 중요\" AI 시대 전원 구성에 대해서는 “정답은 'All of the Above'\"라고 말했다. 그는 “특정 발전원이 정답인 시대가 아니라 가장 빠르고 안정적으로 전력을 공급할 수 있는 조합이 중요하다\"고 설명했다. 단기적으로는 태양광과 ESS, LNG 발전이 가장 빠르게 확대될 것으로 전망했다. 태양광과 ESS는 건설 기간이 짧고, LNG는 데이터센터가 요구하는 24시간 안정적인 전력을 공급하는 브리지 역할을 맡게 된다는 설명이다. 기존 원전의 수명 연장과 출력 증강도 중요한 선택지로 꼽았다. 반면 SMR은 전략적으로 중요하지만 향후 5~10년은 상업성을 입증하는 단계가 될 가능성이 높다고 내다봤다. ◇ “한국은 '전력이 통하는 땅'부터 만들어야\" 김 이사는 미국 사례가 한국에 주는 가장 큰 교훈으로 'Powered Land'를 꼽았다. “이제 데이터센터에 필요한 것은 단순한 부지가 아니라 전력이 공급되는 부지입니다.\" 그는 한국이 가장 먼저 추진해야 할 과제로 △전력망 선제 투자 △대형 부하를 위한 계통연계 제도 정비 △비수도권 데이터센터 유인책 마련을 제시했다. 특히 “전력망을 단순한 비용이 아니라 AI 시대 핵심 산업 인프라로 보고 투자해야 한다\"며 “한국은 중앙정부와 전력회사가 장기 계획을 일관되게 추진할 수 있는 장점이 있는 만큼 이를 적극 활용해야 한다\"고 했다. <"
+    },
+    {
+      "id": "165fd46d-71fe-4052-b312-07d8bf1c1ff0",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "새로운 팟캐스트: 미국 풍력 전망 | 스웨덴의 국방 우려 | TPI 컴포지트 | 해상풍력 안전",
+      "titleOriginal": "New podcast: US wind outlook | Sweden's defence concerns | TPI Composites | Offshore wind safety",
+      "summary": "Windpower Monthly의 기자 Robyn White와 Orlando Jenkinson, 그리고 Shashi Barla가 출연하여 미국 풍력 시장 전망과 해상풍력 안전 이슈를 다룹니다. 또한 TPI 컴포지트 관련 소식과 함께 풍력 발전 인프라와 관련된 스웨덴의 국방 분야 우려 사항을 심층 분석합니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-08-06T15:43:33.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1966771/new-podcast-us-wind-outlook-swedens-defence-concerns-tpi-composites-offshore-wind-safety",
+      "collectedAt": "2026-08-07T21:43:28.358Z",
+      "bodySnippet": "Welcome to the Wind Power News Review – hosted by Windpower Monthly senior reporter Robyn White and reporter Orlando Jenkinson – along with our regular panellist, Shashi Barla. "
+    },
+    {
+      "id": "50c65cf2-0b0a-4dd2-8d55-3b850a37fb07",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "데이터 센터 전력 판매, TVA 순이익 2억 2천만 달러 견인",
+      "titleOriginal": "Data center power sales drive $220M increase in TVA’s net income",
+      "summary": "TVA(테네시강유역개발공사)는 데이터 센터향 전력 판매 증가에 힘입어 회계연도 첫 9개월 동안 9억 6,500만 달러의 순이익을 기록했습니다. 이는 전년 대비 총 운영 수익이 3% 증가한 100억 달러를 달성하며 얻은 성과입니다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-08-06T20:54:49.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/data-center-tva-income-earnings-cumberland/827282/",
+      "collectedAt": "2026-08-07T21:45:34.999Z",
+      "bodySnippet": "<p>The federal utility&rsquo;s total operating revenue was $10 billion over the first nine months of the fiscal year, up 3% year-over-year, with a net income of $965 million.</p>"
     }
   ]
 }
