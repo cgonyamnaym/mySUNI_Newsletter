@@ -1,7 +1,7 @@
 {
   "date": "2026-08-10",
-  "generatedAt": "2026-08-10T21:57:43.142Z",
-  "articleCount": 109,
+  "generatedAt": "2026-08-11T22:16:25.244Z",
+  "articleCount": 111,
   "articles": [
     {
       "id": "91cef10b-56fb-431c-bee6-3f661a07b0ff",
@@ -2115,6 +2115,46 @@
       "originalUrl": "https://www.energy.or.kr/front/board/View3.do?boardMngNo=3&boardNo=10025004",
       "collectedAt": "2026-08-10T21:57:08.163Z",
       "bodySnippet": "보도자료 한국에너지공단, 무료 안전진단으로 열공급시설 안전관리 강화 작성일 :2026-08-10 한국에너지공단,무료 안전진단으로 열공급시설 안전관리 강화 -중소·중견 사업자의 기술·재정적 부담 완화 및 노후 열수송관 잠재 위험요소 조기 발굴- 한국에너지공단(이사장 최재관,이하 공단)은8월10일(월)부터9월까지전남광주통합특별시 서구에 위치한 한국씨이에스(주)가 운영하는 열수송관을대상으로 무료 안전진단을 추진한다고 밝혔다. 열수송관은 사고 예방을 위해 주기적인 안전진단이 법적으로 의무화되어있다.공단은 관련 고시에 따라2022년부터 중소·중견 집단에너지 사업자를대상으로20년 이상 사용된 열수송관에 대해 무료 안전진단을 지속적으로 제공하고 있으며,올해 하반기에는 한국씨이에스(주)가 그 대상이 되었다. 이번 진단 대상인 한국씨이에스(주)는1999년부터 광주 상무지구 내 약820세대에 지역난방을 공급해오고 있으며,총연장12.2km(2열 기준)의 열수송관을 운영 중이다. 공단은 이번 진단을 위해 전문인력과 진단 장비를 현장에 투입해 열수송관의결함 여부와 배관 상태,안전성 등을 다각도로 정밀진단하고,진단 완료 후에는 맞춤형 유지관리와 안전성 확보를 위한 개선방안을 사업자에게 제시할계획이다. 공단 관계자는“안전은 기업 규모와 관계없이 동일한 수준으로 확보되어야하는 공공의 가치”라며“기업 규모로 인해 안전관리의 사각지대가 발생하지않도록 중소·중견 사업자에 대한 지원을 지속해 나가겠다”고 밝혔다. URL 복사하기 첨부파일 파일 아이콘[보도자료]한국에너지공단무상안전진단으로열공급시설안전관리강화_최종.hwp 이전글 이전 게시글이 존재하지 않습니다. 다음글 에너지진단, AI 데이터 기반 진단체계로 전환 나선다 목록으로"
+    },
+    {
+      "id": "f19aed4e-d5f4-4180-9f12-d42a5711f8b5",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "경쟁적 송전망 구축은 AI 경제와 고객에게 이익을 제공한다",
+      "titleOriginal": "Competitive transmission delivers benefits for the AI economy and customers",
+      "summary": "미국 연방에너지규제위원회(FERC)에 일부 송전 프로젝트의 경쟁 입찰 중단을 요청한 기존 유틸리티 기업들의 주장에 대해 짐 로시 밴더빌트 법대 교수는 이를 정면으로 반박했습니다. 해당 보고서는 송전망 구축의 경쟁 입찰이 AI 경제 성장과 소비자 효용 증대에 필수적임을 강조하고 있습니다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-08-10T17:25:53.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/competitive-transmission-delivers-benefits-for-the-ai-economy-and-customers/826056/",
+      "collectedAt": "2026-08-11T21:58:53.008Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/jkcI96EdHkmymR9p4YAMoRj3al063X9LARPYnfx-2AI/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS90cmFuc21pc3Npb25fbW9vZHkuanBn.webp\"/></div></figure><p>A group of incumbent utilities asked FERC to suspend competitive bidding for some transmission projects.&nbsp;The responsive filings are in, and the record does more than rebut the complaint &mdash; it dismantles it, writes&nbsp;Jim Rossi of Vanderbilt Law School.</p>"
+    },
+    {
+      "id": "68f5da15-6d51-4356-b826-73b3acaf0acc",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "호남‧용인 메가프로젝트 전력망 구축 속도",
+      "titleOriginal": null,
+      "summary": "정부가 용인 반도체 클러스터에 2041년까지 14.7GW 규모의 전력을 공급하고, 호남권 메가프로젝트는 2028년 말부터 전력을 공급하기 위한 전력망 구축에 나선다. 이를 위해 민관합동 점검회의를 개최하여 국가 전략 산업 지원을 위한 전력 인프라 적기 확충 방안을 논의했다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-08-10T21:45:00.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70619",
+      "collectedAt": "2026-08-11T22:15:15.260Z",
+      "bodySnippet": "정부가 용인 반도체 클러스터에 필요한 14.7GW 규모 전력을 2041년까지 차질 없이 공급하는 한편 호남권 메가프로젝트엔 2028년 말부터 전력을 공급한다. 강훈식 청와대 비서실장은 지난 10일 청와대(서울 종로구 소재)에서 이재명 대통령 주재로 열린 메가프로젝트 민관합동 점검회의 결과 브리핑을 통해 이 같은 내용을 밝혔다."
     }
   ]
 }
