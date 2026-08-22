@@ -1,0 +1,351 @@
+{
+  "date": "2026-08-22",
+  "generatedAt": "2026-08-22T21:28:55.907Z",
+  "articleCount": 18,
+  "articles": [
+    {
+      "id": "c50fb625-acbc-4d31-8da7-4b49dc7183f1",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "AC 결합 방식 vs. DC 결합 방식",
+      "titleOriginal": "AC-Coupled vs. DC-Coupled",
+      "summary": "이 기사는 배터리 저장 시스템(BESS) 설계에서 AC 결합 방식과 DC 결합 방식의 비교를 다룹니다. Storlytics Energy Storage의 Jakir Hossain과 Mujtaba Abdelwahab은 현실적인 운영 모델링이 BESS 규모, 균등화발전비용(LCOE) 및 아키텍처 선택에 미치는 근본적인 영향을 시뮬레이션 기반으로 제시합니다. 본 내용은 pv-magazine.com에 2026년 8월 22일 게시되었습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-08-22T04:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/08/22/ac-coupled-vs-dc-coupled/",
+      "collectedAt": "2026-08-22T21:25:31.252Z",
+      "bodySnippet": "<p>Growing applications for battery storage mean the optimal system design may not be the most obvious. Jakir Hossain and Mujtaba Abdelwahab of Storlytics Energy Storage present a simulation-based comparison of AC vs. DC coupling showing how realistic dispatch modeling rather than generic assumptions fundamentally changes BESS sizing, levelized cost of electricity (LCOE) outcomes and architecture selection.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/08/22/ac-coupled-vs-dc-coupled/\">AC-Coupled vs. DC-Coupled</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "1538e9ae-f36a-4b9b-8cc6-4b2510c1db20",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "스폰서: 데이터센터 액체 냉각에 어떤 냉각수를 사용해야 할까요?",
+      "titleOriginal": "Sponsored: What coolant should you use for data center liquid cooling?",
+      "summary": "이 기사는 데이터센터 액체 냉각 시스템에 사용되는 냉각수 선택에 대해 다룹니다. 특히 PG25, 유전체 유체(dielectric fluids)와 같은 다양한 냉각수 옵션을 탐구하며, ASHRAE 권장 사항을 고려하여 적절한 냉각수를 선택하는 것의 중요성을 강조합니다.",
+      "topics": [
+        "정책·규제"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-08-22T15:00:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/opinions/what-coolant-should-you-use-for-data-center-liquid-cooling/",
+      "collectedAt": "2026-08-22T21:25:39.412Z",
+      "bodySnippet": "<p data-block-key=\"wz1i7\">Exploring PG25, dielectric fluids, and ASHRAE recommendations</p>"
+    },
+    {
+      "id": "dd61cb04-9a2d-434c-9f99-332d65edc887",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Ignis와 Acciona, 스페인 세고비아에 데이터센터 건설 추진",
+      "titleOriginal": "Ignis and Acciona look to build a data center in Segovia, Spain",
+      "summary": "Ignis와 Acciona는 스페인 세고비아에 데이터센터를 건설하는 공동 프로젝트를 추진합니다. 이 프로젝트에는 데이터센터와 함께 태양광 발전소 개발이 포함되어 있습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-08-22T14:00:33.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/ignis-and-acciona-join-forces-to-build-a-data-center-in-segovia/",
+      "collectedAt": "2026-08-22T21:25:45.747Z",
+      "bodySnippet": "<p data-block-key=\"2thwb\">The joint project also includes the development of a photovoltaic plant</p>"
+    },
+    {
+      "id": "42ac5633-39ff-4a69-9d25-c0a464d54df0",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "데이터 센터 건설은 쉬워지지만, 신뢰 구축은 그렇지 않다",
+      "titleOriginal": "Building data centers is getting easier. Building trust is not",
+      "summary": "데이터 센터는 지역사회를 부차적으로 여기는 태도를 지양해야 한다. 이는 기술적인 구축 용이성과는 별개로, 지역 주민과의 신뢰를 쌓는 것이 매우 중요하고 어려운 과제임을 시사한다. 장기적인 관점에서 지역사회를 고려하지 않으면 데이터 센터 운영에 난항을 겪을 수 있다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-08-22T14:00:31.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/opinions/building-data-centers-is-getting-easier-building-trust-is-not/",
+      "collectedAt": "2026-08-22T21:25:51.746Z",
+      "bodySnippet": "<p data-block-key=\"nwkap\">Data centers cannot afford to treat communities as an afterthought</p>"
+    },
+    {
+      "id": "a3be1ddf-9217-42fa-9d25-9b0a222aa8b6",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "테라노바, 브라질 상파울루 외곽에 300MW 데이터센터 캠퍼스 착공",
+      "titleOriginal": "Terronova starts work on 300MW data center campus outside São Paulo, Brazil",
+      "summary": "테라노바는 브라질 상파울루 외곽에 300MW 규모의 데이터센터 캠퍼스 건설을 시작했습니다. 이 부지는 향후 1GW를 초과하는 규모로 확장될 잠재력을 가지고 있습니다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-08-22T11:00:30.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/terranova-boosts-technology-infrastructure-with-the-construction-of-one-of-latin-americas-first-ai-data-centers/",
+      "collectedAt": "2026-08-22T21:25:59.015Z",
+      "bodySnippet": "<p data-block-key=\"q2alt\">Site could eventually exceed 1GW</p>"
+    },
+    {
+      "id": "db151e36-7228-4d21-b81a-0b1a6fa7b754",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "스폰서: 데이터 센터 전력 공급은 더 이상 단순한 수급 문제가 아니다",
+      "titleOriginal": "Sponsored: Powering data centers is no longer a simple matter of supply and demand",
+      "summary": "람볼(Ramboll)의 마이클 베르그스트롬(Michael Bergstrom)은 데이터 센터에 전력을 공급하는 것이 더 이상 단순한 수요와 공급의 문제가 아니라고 설명합니다. 그는 전례 없는 부하 증가, 변화하는 그리드 표준, 그리고 유틸리티 요구사항의 변화가 데이터 센터의 수명 주기를 근본적으로 바꾸고 있다고 강조합니다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-08-22T07:00:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/marketwatch/powering-data-centers-is-no-longer-a-simple-matter-of-supply-and-demand/",
+      "collectedAt": "2026-08-22T21:26:04.154Z",
+      "bodySnippet": "<p data-block-key=\"zqemi\">Ramboll’s Michael Bergstrom unpacks how unprecedented load growth, changing grid standards, and shifting utility requirements are transforming the data center lifecycle</p>"
+    },
+    {
+      "id": "902c15c3-dc62-41ef-a700-ea9663f74e37",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(FAPECA 2026) 태국, 건물 E 효율·전력망 현대화 추진…넷제로 이행 로드맵 제시",
+      "titleOriginal": null,
+      "summary": "태국이 2050년 넷제로 달성을 위해 빌딩에너지기준(BEC)에서 제로에너지빌딩(ZEB)으로 전환하는 건물 에너지 로드맵을 발표했다. 이와 함께 2026~2030년 동안 AI와 데이터 기반 기술을 활용해 전력망을 현대화하는 전략을 통해 국가 에너지 전환을 본격화한다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-08-22T20:40:53.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=371525",
+      "collectedAt": "2026-08-22T21:26:11.616Z",
+      "bodySnippet": "태국이 아시아·태평양 전기공사업계 앞에서 건물과 전력망을 아우르는 에너지 전환 청사진을 제시했다. 건물 부문에서는 빌딩에너지기준(BEC)를 출발점으로 제로에너지빌딩(ZEB)을 거쳐 2050년 넷제로로 나아가는 로드맵을, 전력망 부문에서는 디지털 기술과 인공지능(AI), 데이터 기반 운영을 축으로 한 2026~2030년 그리드 현대화 전략을 내놓으며 탈탄소 이행 의지를 구체화했다.22일 태국 파타야 NICE(Nong Nooch Pattaya International Convention & Exhibition Center)에서 열린 파페카 컨퍼런스 2026 기조발표에서 태국은 건물과 전력망을 아우르는 에너지 전환 전략을 제시했다.태국이 내놓은 전략은 에너지 효율과 재생에너지 확대, 전력망의 유연성과 신뢰성 확보, 제도와 기술의 동시 개선을 통해 넷제로 목표를 실현하겠다는 것. 수요 측면에서는 건물의 에너지 소비를 줄이고, 공급·계통 측면에서는 재생에너지 확대를 뒷받침할 전력 인프라를 고도화해 국가 전체의 에너지 전환을 완성하겠다는 구상이다.◆BEC에서 ZEB로…태국, 2050 넷제로 건물 로드맵 구체화첫 번째 발표에서는 찰럼룩 지트럼풍(Chalermluk Jit"
+    },
+    {
+      "id": "218079cd-6b9a-416d-9c14-1c3bfef8b827",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(FAPECA 2026) AI·데이터센터發 전력 인프라 변화…아태 전기공사업계 협력 확대",
+      "titleOriginal": null,
+      "summary": "아시아·태평양 전기공사업계가 태국 파타야에서 'FAPECA 2026'을 열고 AI 확산과 데이터센터 증가에 따른 전력 인프라 대응 방안을 논의했다. 이번 컨퍼런스는 탄소중립과 탈탄소 정책 등 에너지 전환을 위한 친환경 엔지니어링 기술 협력을 핵심 의제로 다뤘다.",
+      "topics": [
+        "ESG·탄소중립",
+        "전력 인프라"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-08-22T19:31:08.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=371524",
+      "collectedAt": "2026-08-22T21:26:16.847Z",
+      "bodySnippet": "아시아·태평양 전기공사업계가 인공지능(AI)과 데이터센터, 에너지 전환을 핵심 의제로 미래 협력 방안을 논의했다.아시아·태평양전기공사협회연합회(파페카;FAPECA;Federation of Asian and Pacific Electrical Contractors Associations)는 지난 21일부터 23일까지 태국 파타야에서 파페카 컨퍼런스 2026을 개최했다. 한국전기공사협회는 이형주 중앙회장을 단장으로 임원, 시·도회장 및 부회장, 협회 직원 등 40여 명의 대표단을 파견해 아시아·태평양 전기공사업계와 교류를 이어갔다. ◆AI·데이터센터·에너지 전환…미래 전력 인프라 협력 모색=이번 행사는 태국전기·기계공사협회(TEMCA)가 주관했다. 올해 컨퍼런스는 ‘THE ONEXT : M&E Engineering Transforms the Next Future(차세대 기계·전기공학의 미래 혁신)’를 주제로, AI 확산에 따른 전력 인프라 변화와 데이터센터, 에너지 전환, 친환경 엔지니어링 등을 중점적으로 다뤘다. 세부적으로는 AI 기반 엔지니어링 업무 전환, 데이터센터의 전력·냉각·신뢰성 문제, 탄소중립과 탈탄소 정책, 탄소경제 등이 주요 의제로 논의됐다.특히"
+    },
+    {
+      "id": "9dd7819f-417c-42c5-ab17-32a6fa5608fe",
+      "source": "전자신문 (Energy)",
+      "sourceId": "etnews",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[반도체 라이징 스타]<3>오피뉴로, 초저전력 뉴로모픽 AI 칩 개발",
+      "titleOriginal": null,
+      "summary": "AI 반도체 스타트업 오피뉴로가 데이터 변화 시에만 연산하여 효율성을 극대화한 스파이킹 뉴럴 네트워크(SNN) 기반 뉴로모픽 AI 프로세서 'N260' 시리즈를 개발 중이다. 메모리 병목 현상을 해결하고 전력 소모를 획기적으로 낮춘 차세대 AI 반도체 기술을 통해 글로벌 시장 경쟁력을 확보하고 있다.",
+      "topics": [
+        "운영 최적화"
+      ],
+      "primaryTopic": "운영 최적화",
+      "publishedAt": "2026-08-22T03:00:00.000Z",
+      "originalUrl": "https://www.etnews.com/20260821000149",
+      "collectedAt": "2026-08-22T21:26:49.332Z",
+      "bodySnippet": "인공지능(AI) 반도체 스타트업 오피뉴로는 AI 프로세서의 메모리 병목과 높은 전력 소모 문제를 해결하는 차세대 AI 반도체를 개발하고 있다. 데이터 변화 시에만 연산을 진행해 효율성을 극대화한 스파이킹 뉴럴 네트워크(SNN) 기반 뉴로모픽 컴퓨팅 기술을 적용했다. 회사는 초저전력 뉴로모픽 AI 프로세서 'N260' 시리즈를 개발 중이다. 나아가 기존 M램 한계를 넘어선 DX-M램(DX-TR기반 M램) 기반 차세대 AI 반도체를 앞세워 글로벌"
+    },
+    {
+      "id": "f8f15f9b-f8ff-4482-b52d-709fdf4de002",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[분석] AI·반도체 시대, '전력'이 국가경쟁력 좌우…12차 전기본, 에너지정책 대전환 예고",
+      "titleOriginal": null,
+      "summary": "AI와 반도체 산업의 급성장에 따른 전력 수요 급증을 반영해 정부가 제12차 전력수급기본계획에서 2040년 전력수요 전망치를 기존 대비 약 30% 상향 조정했다. 이는 단순한 수치 조정을 넘어 발전설비 확충과 에너지 정책 전반의 구조적 대전환을 예고하는 것이다.",
+      "topics": [
+        "정책·규제"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-08-22T06:59:42.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=202426",
+      "collectedAt": "2026-08-22T21:26:54.295Z",
+      "bodySnippet": "[에너지데일리 송병훈 기자 ]정부가 제12차 전력수급기본계획(전기본)에서 2040년 전력수요 전망치를 기존보다 30% 가까이 상향 조정하면서 우리나라 에너지정책이 새로운 국면을 맞고 있다.AI 데이터센터와 반도체 메가클러스터, 첨단산업 집적단지, 산업 전기화가 동시에 현실화되면서 앞으로는 발전설비 확충만으로는 대응이 어려운 구조적 전력 부족 시대가 시작될 수 있다는 경고가 나오고 있다. 기후에너지환경부(장관 김성환)가 20일 국회 의원회관에서 개최한 '제12차 전기본'토론회에 제시된 수정안은 단순한 수요 재산정이 아니다. 그동안 경"
+    },
+    {
+      "id": "4209662f-4a9e-4ab2-aa08-6ff7ceffeb62",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[에너지 인사이트]  ‘기후에너지환경 7개 법’ 제도적 대개편 예고",
+      "titleOriginal": null,
+      "summary": "기후에너지환경부가 재생에너지 보급 확대와 전력망 확충을 위해 전기사업법 등 7개 법안을 개정·제정하여 제도적 기틀을 마련했다. 주요 내용으로 재생에너지 공급의무화(RPS) 제도를 '정부 경쟁입찰 계약시장'으로 개편하고, 전력망 건설에 민간 참여를 허용하며, 석탄화력 폐지 지역 지원 및 자원안보를 위한 폐기물 수출 제한 등을 담고 있다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-08-22T12:37:32.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=301841",
+      "collectedAt": "2026-08-22T21:27:01.188Z",
+      "bodySnippet": "\r\n<img alt=\"국회의사당 전경. /대한민국 국회\" src=\"https://cdn.todayenergy.kr/news/photo/202608/301841_174018_3412.jpg\" />\r\n국회의사당 전경. /대한민국 국회\r\n\r\n\r\n\r\n&nbsp;\r\n\r\n[투데이에너지 장재진 주필] 인공지능(AI) 시대 전력 급증과 기후위기 대응을 위한 재생에너지 대전환의 법적 기틀이 마련됐다.&nbsp;기후에너지환경부는 지난 20일 국회 본회의를 통과한 7개 주요 법 개정안을 통해 제도적 대개편을 예고했다.&nbsp;\r\n\r\n기후부가 밝힌 이번 국회 통과안은 전기사업법&middot;재생에너지법 등 7개 법률 개정&middot;제정으로, 공익적 주민참여형 재생에너지 사업의 전력계통 우선 접속 허용, 재생에너지 공급의무화(RPS) 제도 개편, 전력망 확충을 위한 민간 참여 근거 마련, 석탄화력 폐지에 따른 노동자&middot;지역 지원 특별법 제정, 폐자원(폐기물) 수입 유효기간 연장 및 수출 제한 근거 마련 등 재생에너지 보급과 전력망 확충, 자원안보&middot;지역전환 지원을 동시에 담고 있다.&nbsp;&nbsp;\r\n\r\n이번 법안&nbsp;통과의 정책적 의미는&nbsp;국가 차원의 재생에너지 확산 의지를 법제도로 뒷받침한 점이 핵심이다.&nbsp;동시에 전력수급 계획에 환경영향을 포함시키는 등 계획 수립의 기준을 녹색전환 쪽으로 명확히 전환했다.&nbsp;\r\n\r\n공익형 재생에너지, 전력망 우선 접속\r\n\r\n그동안 일부 지역에서는 재생에너지 발전 설비를 지어도 전력계통(송배전망)이 부족해 연결하지 못하는 문제가 있었다. 앞으로는 국가기간 전력망 주변지역 등에서 추진하는 1MW 이하 소규모 주민참여형 공익 사업의 경우, 다른 전기사업보다 전력망에 우선 접속할 수 있는 예외 근거가 마련됐다. 이로써 지역 주민들이 소득을 올리는 공익형 재생에너지 사업이 한층 빨라질 전망이다. 다만&nbsp;우선 접속 허용으로 접속 수요가 급증할 경우 계통 안전&middot;주파수 관리&middot;전력품질 문제가 발생할 수 있다. 따라서 계통운영 규정 정비, 유연성 자원(ESS&middot;수요관리 등) 보강, 계통운영자의 실시간 운영능력 강화가 병행돼야 한다.&nbsp;\r\n\r\n15년 만의 RPS 개편&hellip; &#39;정부 경쟁입찰 계약시장&#39; 도입\r\n\r\n2012년부터 이어져 온 기존의 재생에너지 공급의무화 제도(RPS)가 역사의 뒤안길로 사라진다. 대형 발전사들에게 의무를 지우던 기존 방식은 발전단가 하락이나 국내 산업 육성에 한계가 있었. 이에 따라 정부는 주요 선진국들이 도입한 &lsquo;정부 경쟁입찰 계약시장 제도&rsquo;로 전면 개편한다.\r\n\r\n내년부터 신규 설비에는 재생에너지 공급인증서(REC)를 발급하지 않으며, 경쟁입찰을 통해 낙찰된 설비는 한국전력공사와 장기 고정가격 계약을 맺게 된다. 이는 사업자의 금융 비용을 낮추고 안정적인 수익을 보장하는 효과를 낸다. 기존 사업자의 신뢰 보호를 위해 REC 현물시장은 법 시행 후 3년간 유예 기간을 거쳐 2029년 말 완전히 폐지된다.\r\n\r\n전력망 부족 해소 위해 &lsquo;민간 대기업&rsquo;도 전력망 건설 참여\r\n\r\n최근 해상풍력 등 대규모 재생에너지 증가로 전력망 건설 물량이 급증했으나, 기존 송전사업자인 한국전력공사의 인력과 재원만으로는 적기 건설이 불가능했다. 이를 해결하기 위해 법 개정을 통해 한전 외의 민간사업자도 국가기간 전력망 개발사업에 참여할 수 있는 길을 열었다. 다만, 제도의 안정적 운영을 위해 완공된 설비는 즉시 한전에 양도해야 하며, 민간 참여 근거 조항은 2029년 12월까지만 유효한 한시법으로 운영된다. 또한 여러 발전설비를 공동 연결하는 &lsquo;공동접속설비&rsquo; 제도를 신설해 국토 난개발을 방지한다.\r\n\r\n민간의 송전망 개발 참여는 속도 면에서 유리하지만, 개발완료 후 즉시 한전에 양도하는 등 공공성 확보 조치가 필요하다. 민간사업자 인센티브 설계와 사업 이행&middot;안전 기준, 분쟁해결 메커니즘을 명확히 해야 한다.&nbsp;\r\n\r\n정의로운 전환과 자원안보 강화\r\n\r\n노후 석탄화력발전소의 단계적 폐지에 따라 고용 불안을 겪는 노동자의 전직 지원 및 대체산업 육성을 골자로 하는 특별법이 제정됐다. 충남, 경남, 강원 등 폐지 지역의 경제 충격을 완화하기 위한 종합 지원 기반이다.&nbsp;석탄화력 폐지지역 특별법은 제도적 기반을 마련했지만, 실제 고용 전환&middot;대체산업 육성은 재정&middot;기술&middot;인력 투입이 요구된다. 맞춤형 직업훈련&middot;산업유치 인센티브&middot;기반시설 투자가 병행돼야 한다.&nbsp;\r\n\r\n이와 함께&nbsp;희토류 등 핵심 광물을 추출할 수 있는 유용 폐자원의 수급 안정을 위해, 필요한 경우 폐기물 수출을 제한할 수 있는 근거를 신설하여 국가 자원안보를 강화했다.&nbsp;폐기물 수입 유효기간 연장과 수출 제한 근거는 핵심광물 공급망 보강에 기여하나, 재활용 인프라 확충&middot;환경안전 기준 강화&middot;국내 재처리 역량 강화를 위한 R&amp;D&middot;설비투자가 필요하다.&nbsp;\r\n\r\n하위법령 정비, 담당 조직의 역량 강화와 예산 확보&nbsp;필수적\r\n\r\n개정&middot;제정 법안이 현장에 신속히 적용되려면 하위법령 정비, 전산시스템 구축, 담당 조직의 역량 강화와 예산 확보가 필수적이다. 특히 신고제&middot;허가제 전환에 따른 운영 매뉴얼과 디지털 플랫폼 안정화가 우선 과제다.&nbsp;\r\n\r\n이번 7개 법안의 국회 통과는 재생에너지 대전환을 위한 제도적 토대를 크게 확충한 의미 있는 전진이다. 법적 기반이 마련된 지금이야말로 현장 이행력과 실행 계획을 촘촘히 설계할 시점이다."
+    },
+    {
+      "id": "cd2e38d4-6b1e-4ca2-bf7a-0f4616c36b24",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "두산에너빌리티, 오만 미스파 가스복합발전 수주",
+      "titleOriginal": null,
+      "summary": "두산에너빌리티가 셉코-3와 컨소시엄을 구성해 9,300억 원 규모의 오만 미스파 가스복합발전소 건설 프로젝트를 수주했다. 이번 계약을 통해 두산에너빌리티는 중동 지역 내 발전 설비 시장에서의 입지를 더욱 강화하게 되었다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-08-22T17:02:27.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70711",
+      "collectedAt": "2026-08-22T21:27:10.530Z",
+      "bodySnippet": "두산에너빌리티가 오만에서 9300억 원 가스복합발전 프로젝트를 수주하는 등 중동 영토를 넓히고 있다. 두산에너빌리티는 발전소 건설 전문기업인 셉코-3(SEPCO-3)와 컨소시엄을 구성해 카타르 네브라스파워(Nebras Power)와 아랍에미리트 EUDC, 오만 바흐완인프라서비스(BIS·Bahwan Infrastructure Services) 등 글로벌 디벨로퍼로 구성된 컨소시엄이 발주한 계약액 9300억 원 규모 오만 미스파(Misfah) 가스복합발전소 건설공사계약을 체결했다고 21일 밝혔다."
+    },
+    {
+      "id": "c1daef1e-d7c9-433e-bd37-2699172c752d",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "김위상 의원이 청송양수 직접 찾은 이유?",
+      "titleOriginal": null,
+      "summary": "본 기사는 김위상 의원이 청송양수발전소를 직접 방문한 배경과 목적을 다룰 것으로 예상됩니다. 본문 내용이 없어 구체적인 방문 사유나 관련 정책명, 발전 용량 등의 정보는 파악할 수 없습니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-08-22T13:15:30.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70709",
+      "collectedAt": "2026-08-22T21:27:14.727Z",
+      "bodySnippet": ""
+    },
+    {
+      "id": "77e50db3-5028-4ea1-b49a-e447ec246a33",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "김위상 의원, 청송양수 시찰…양수발전 현안과 노동환경 점검",
+      "titleOriginal": null,
+      "summary": "국회 기후에너지환경노동위원회 김위상 의원(국민의힘)이 청송양수발전소를 방문하여 양수발전 운영현황 및 주설비 교체 현장을 점검했다. 특히 그는 노동자 출신으로서 발전소 현장 노동자들의 근무환경과 애로사항을 꼼꼼히 살피는 데 중점을 두며 현장 목소리를 경청했다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-08-22T11:22:57.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70708",
+      "collectedAt": "2026-08-22T21:27:23.129Z",
+      "bodySnippet": "국회 기후에너지환경노동위원회 상임위원인 김위상 의원이 청송양수발전을 방문해 양수발전 현안을 살피는 한편 청송양수발전 주설비 교체 현장을 점검했다. 특히 노동자 출신인 그는 발전소 현장 노동자 근무환경과 애로사항을 꼼꼼하게 살피는 등 현장 목소리 경청에 상당한 시간을 할애했다. 김위상 의원(국민의힘)은 지난 21일 청송양수발전소(경북 청송군 소재)를 방문해 양수발전 운영현황과 함께 주요 현안을 점검하는 현장시찰에 나섰다."
+    },
+    {
+      "id": "bef1f874-142b-4072-8723-64acd1ac17d9",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전KDN, 취약계층 여름나기 물품 지원",
+      "titleOriginal": null,
+      "summary": "한전KDN은 에너지 효율 증대와 안전한 생활 환경 조성을 목표로, 사회공헌 브랜드 '따밝동행'과 연계하여 취약계층에 여름나기 물품을 지원했다. 이 지원은 '2026년도 기후변화위기 취약계층 대상 고효율 조명기기 교체사업'의 일환으로 추진되었다.",
+      "topics": [
+        "전력 인프라",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-08-22T11:03:21.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70707",
+      "collectedAt": "2026-08-22T21:27:30.220Z",
+      "bodySnippet": "한전KDN(주)(사장 박상형)이 취약계층 에너지 효율을 높이고 안전한 생활 환경을 조성하기 위한 에너지복지 사회공헌 브랜드인 ‘따밝동행(따뜻하고 밝은 미래를 향한 동행)’과 연계해 지난 20일 취약주민을 대상으로 여름나기 물품을 지원했다. 앞서 한전KDN은 현재 추진하는 ‘2026년도 기후변화위기 취약계층 대상 고효율 조명기기 교체사업’과 연계해 나주시 도움을"
+    },
+    {
+      "id": "f64fa8fd-6ee5-4e12-9a72-841f9c5cb79d",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "에너지의 날…한난, EERS 지원사업 집중 홍보",
+      "titleOriginal": null,
+      "summary": "한국지역난방공사는 제23회 에너지의 날을 맞아 8월 21일 정자역 일대에서 거리 캠페인을 펼쳤다. 이는 중동 사태 장기화에 따른 자원 안보 위기 상황에 대응하고, 시민들에게 에너지 절약 실천을 독려하며 난방비 부담을 줄이는 에너지효율향상사업(EERS)을 홍보하기 위함이다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-08-22T10:40:27.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70706",
+      "collectedAt": "2026-08-22T21:27:34.806Z",
+      "bodySnippet": "한국지역난방공사(사장 하동근)가 제23회 에너지의 날을 앞두고 시민들에게 생활 속 에너지 절약 실천을 독려하는 한편 난방비 부담을 줄이고 에너지 이용 효율을 높이기 위한 에너지효율향상사업(EERS)를 알리기 위한 거리 캠페인을 21일 정자역(경기 성남시 소재) 일대에서 펼쳤다. 이날 캠페인은 중동사태 장기화에 따른 자원안보 위기 상황에 대응해 에너지 절약 필요성을 알리기 위해 지난 4월 취임한 신동인 지역난방공사 GX본부"
+    },
+    {
+      "id": "662feeeb-a9af-4586-9410-7633a684307d",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "유가 다시 90달러대…정부, 석유 최고가격 ‘동결’",
+      "titleOriginal": null,
+      "summary": "중동 정세 불안으로 국제유가가 배럴당 90달러대로 상승함에 따라, 정부는 민생 부담 경감을 위해 석유 최고가격을 동결하기로 했다. 산업통상부는 22일부터 4주간 적용되는 제9차 석유 최고가격을 이전 제8차와 같은 수준으로 유지한다고 발표했다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-08-22T10:31:36.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70705",
+      "collectedAt": "2026-08-22T21:27:40.285Z",
+      "bodySnippet": "중동 정세 불확실성이 다시 커지면서 국제유가가 배럴당 90달러대로 올라선 가운데 정부가 민생 부담 등을 고려해 석유 최고가격을 동결하기로 했다. 산업통상부는 22일부터 4주간 적용되는 제9차 석유 최고가격을 기존 제8차 최고가격과 같은 수준으로 동결한다고 밝혔다."
+    },
+    {
+      "id": "ae05cbdd-9c38-4e3f-a824-f79f5519fe8c",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "서울에너지공사, 시민 400명과 에너지 절약 실천 다짐",
+      "titleOriginal": null,
+      "summary": "서울에너지공사가 제23회 에너지의 날을 앞두고 시민 400명과 에너지 절약 실천을 다짐하며, 양천‧강서‧노원구 등 열공급권역에서 가두 캠페인을 펼쳤다. 공사 임직원 10여명은 캠페인에서 시민들에게 생활 속 에너지 절약 방법을 알리고 손선풍기 및 홍보물을 전달하며 지속가능한 에너지 전환에 동참을 독려했다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-08-22T10:22:54.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70704",
+      "collectedAt": "2026-08-22T21:27:45.866Z",
+      "bodySnippet": "서울에너지공사(사장 황보연)가 제23회 에너지의 날을 앞두고 양천‧강서‧노원구 등 열공급권역에서 시민과 함께 지속가능한 에너지전환을 만들어가기 위한 에너지 절약 가두 캠페인을 펼쳤다고 21일 밝혔다. 이날 캠페인에서 참석한 서울에너지공사 임직원 10여명은 시민들에게 생활 속에서 실천할 수 있는 에너지 절약 방법을 알리는 한편 손선풍기와 홍보물을 전달하며 동참을 독려했다."
+    }
+  ]
+}
