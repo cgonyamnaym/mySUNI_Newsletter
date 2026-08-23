@@ -1,0 +1,202 @@
+{
+  "date": "2026-08-23",
+  "generatedAt": "2026-08-23T21:27:35.134Z",
+  "articleCount": 10,
+  "articles": [
+    {
+      "id": "e297c471-c926-404a-a89a-319b3ed811b3",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "리튬 이온 배터리가 데이터 센터를 재편하며, 화재 안전도 보조를 맞춰야 한다",
+      "titleOriginal": "Lithium-ion batteries are reshaping data centers, fire safety must keep pace",
+      "summary": "리튬 이온 배터리가 데이터 센터의 전력 인프라를 변화시키면서 화재 안전의 중요성이 부각되고 있습니다. AI 시대에 접어들며 증가하는 데이터 센터의 화재 위험에 대응하기 위한 새로운 관리 및 안전 규정 마련이 시급합니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-08-23T10:00:26.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/opinions/lithium-ion-batteries-are-reshaping-data-centers-fire-safety-must-keep-pace/",
+      "collectedAt": "2026-08-23T21:25:36.067Z",
+      "bodySnippet": "<p data-block-key=\"wsgfg\">Managing fire in the AI age</p>"
+    },
+    {
+      "id": "5c95e15a-d79d-4e91-b1cd-8fba6d103a3b",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "스폰서드: 왜 전력 공급 속도는 그리드 이전에 시작되는가",
+      "titleOriginal": "Sponsored: Why speed to power starts before the grid",
+      "summary": "Rowan Digital Infrastructure의 Patrick Dillow는 스마트한 부지 선정, 유연한 계획, 초기 유틸리티 파트너십이 하이퍼스케일 프로젝트 일정의 위험을 줄이는 핵심 요소라고 설명한다. 그는 전력 공급 속도를 높이기 위한 노력이 전력망 연결 이전에 시작되어야 한다고 강조하며, 이를 통해 대규모 디지털 인프라 구축의 효율성과 안정성을 확보할 수 있다고 언급한다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-08-23T07:00:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/marketwatch/why-speed-to-power-starts-before-the-grid/",
+      "collectedAt": "2026-08-23T21:25:40.489Z",
+      "bodySnippet": "<p data-block-key=\"89bpb\">Rowan Digital Infrastructure's Patrick Dillow explains how smart site selection, flexible planning, and early utility partnerships pave the way to de-risking hyperscale project timelines</p>"
+    },
+    {
+      "id": "4996bd6f-aa88-4663-b1cb-736ee9b2eda9",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "HVDC·AI 데이터센터 시장 공들이는 전력인프라 3사…차세대 블루오션 향해 달리다",
+      "titleOriginal": null,
+      "summary": "HD현대일렉트릭, LS일렉트릭, 효성중공업 등 국내 전력인프라 3사가 HVDC와 AI 데이터센터 시장을 차세대 성장 동력으로 주목하고 있다. 글로벌 HVDC 시장은 2030년 약 200억 달러, AI 데이터센터 시장은 2034년 약 1,335억 달러 규모로 급성장할 것으로 전망되며, 이들 기업은 글로벌 경쟁력 강화를 위해 주력 기술을 고도화하고 있다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-08-23T23:51:16.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=371466",
+      "collectedAt": "2026-08-23T21:25:48.900Z",
+      "bodySnippet": "HD현대일렉트릭과 LS일렉트릭, 효성중공업 등 국내 전력인프라 업계를 대표하는 3사의 최근 관심사는 HVDC와 AI 데이터센터다. 이들은 초고압변압기와 배전설비 등을 중심으로 시작된 전력인프라 3사의 호황을 더욱 폭발시킬 수 있는 차세대 블루오션으로 여겨지고 있다. 글로벌 HVDC 시장 규모는 가파른 상승세를 보일 것으로 기대된다. 포춘 비즈니스 인사이트, 퓨처 마켓 인사이트 등 복수의 시장조사기관에 따르면 글로벌 HVDC 시장은 2025년부터 2030년까지 연평균 5~10% 성장할 것으로 전망돼 2030년에는 약 200억 달러(27조원) 수준에 이를 것으로 예상되고 있다. 글로벌 AI 데이터센터 시장 역시 포천 비즈니스 인사이트에 따르면 2026년 시장 규모는 약 212억 7000만 달러(한화 약 29조원대)로 추정되며, 2034년까지 연평균 25.80%의 성장률(CAGR)을 기록, 1335억 1000만 달러(약 185조 원) 규모로 확대될 전망이다.이와 같은 기대감 속에서 국내 전력인프라 3사는 글로벌 톱티어 기업과의 한판 승부를 위해 강점을 갖고 있는 주력분야 기술을 더욱 갈고 닦으며, 경쟁력을 높여가고 있다.◆HD현대일렉트릭, 데이터센터 전력솔루션 ‘"
+    },
+    {
+      "id": "98737355-1a97-4423-b83e-175e991b0112",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(FAPECA 2026) AI 데이터센터 시대, 亞 전기공사업계 “시공 넘어 통합 역량으로 가야”",
+      "titleOriginal": null,
+      "summary": "FAPECA 컨퍼런스 2026에서 아시아 전기공사업계는 AI 데이터센터 확산으로 인한 초대형 전력 수요에 대응하기 위해 단순 시공을 넘어 전력 인프라 설계, 통합 엔지니어링 및 운영 역량을 갖춰야 한다고 강조했다. 패널들은 전력망 수용 능력과 노후화된 인프라를 주요 과제로 지목했으며, 특히 홍콩은 1960~1970년대부터의 설비 노후화와 공간 부족으로 배터리 에너지저장장치(BESS) 구축조차 어려운 상황이라고 밝혔다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-08-23T15:21:47.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=371539",
+      "collectedAt": "2026-08-23T21:26:01.232Z",
+      "bodySnippet": "AI 데이터센터 확산으로 초대형 전력 수요가 현실화되면서 아시아 전기공사업계도 단순 시공을 넘어 전력 인프라 설계와 통합 엔지니어링, 운영 역량까지 사업의 무게중심을 옮겨야 한다는 지적이 나왔다. H.M. 리(H.M. Lee) 홍콩전기공사협회(HKECA) 부회장, 문원식 숭실대 교수, 에드워드 크웨이(Edward Kway) 싱가포르전기공사협회(SECA) 사무총장은 지난 22일 태국 파타야 NICE(Nong Nooch Pattaya International Convention & Exhibition Center)에서 열린 파페카 컨퍼런스 2026 패널 토론에서 이같이 밝혔다. 패널들은 AI 데이터센터 시대의 최대 과제로 전력망 수용 능력과 인프라 제약을 공통적으로 꼽았다. 리 부회장은 홍콩의 경우 1960~1970년대부터 누적된 설비 노후화와 극심한 토지·공간 부족으로 인해 새로운 전력 설비를 배치하기가 쉽지 않다고 설명했다. 배터리 에너지저장장치(BESS) 구축조차 물리적 설치 여건의 제약을 받는다는 것. 여기에 기술 고도화 속도가 빨라지면서 설계·검토·운영을 감당할 엔지니어 역량 확보도 중요 과제로 떠올랐다고 덧붙였다.문원식 교수는 한국 사례를 들어 데이터"
+    },
+    {
+      "id": "2a002cdc-6982-4366-b25a-e3cd667f563e",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(FAPECA 2026) “싱가포르, 에너지 전환·디지털화·인재 육성으로 미래 혁신”",
+      "titleOriginal": null,
+      "summary": "싱가포르전기공사협회(SECA)의 에드워드 크웨이 사무총장은 파페카 컨퍼런스 2026에서 싱가포르가 에너지 전환을 단순한 기술 도입을 넘어 국가적 정책 및 장기 비전으로 추진하고 있다고 발표했다. 이를 위해 디지털 기술 활용과 전문 인력 양성을 병행하며 산업 전반의 미래 혁신을 가속화하고 있다.",
+      "topics": [
+        "운영 최적화"
+      ],
+      "primaryTopic": "운영 최적화",
+      "publishedAt": "2026-08-23T15:21:26.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=371538",
+      "collectedAt": "2026-08-23T21:26:06.845Z",
+      "bodySnippet": "싱가포르가 에너지 전환과 디지털 기술, 인재 양성을 축으로 산업 전반의 미래 혁신에 속도를 내고 있다.에드워드 크웨이(Edward Kway) 싱가포르전기공사협회(SECA) 사무총장은 지난 22일 태국 파타야 NICE(Nong Nooch Pattaya International Convention & Exhibition Center)에서 열린 파페카 컨퍼런스 2026에서 ‘THE ONEXT – M&E Engineering Transforming into the Next Future(차세대 기계·전기공학의 미래 혁신)’를 주제로 발표하고, 싱가포르가 에너지 전환과 디지털 기술, 인력 양성을 축으로 새로운 미래로 전환하고 있다고 밝혔다. ‘EGK Consulting Services’의 설립자이자 수석 컨설턴트인 크웨이 사무총장은 45년 이상 전기산업 현장에서 활동해 온 실무형 전문가다. 싱가포르 에너지시장청(EMA) 등록 전기기술자 면허(LEW)와 화재안전 관리자 인증을 보유한 그는 이번 발표에서도 현장 경험과 전략적 시각을 바탕으로 에너지 전환의 방향성을 제시했다.그는 싱가포르의 에너지 전환이 단순한 기술 도입이 아니라 정책과 비전에 기반한 장기 전략이라고 설명했"
+    },
+    {
+      "id": "462e8093-3c0e-4cde-8365-e2ab50ba9a16",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(FAPECA 2026) 전력 인프라 전환 속도…“AI, 전력망 지속가능성 입증하는 핵심 수단”",
+      "titleOriginal": null,
+      "summary": "태국 파타야에서 열린 파페카 컨퍼런스 2026에서 H.M. 리 부회장은 AI가 전력 공급 네트워크의 설계 및 운영 방식을 근본적으로 혁신하고 있다고 강조했다. 그는 전력망의 지속가능성이 정적인 수요 예측을 넘어, 실제 운영과 투자 성과를 수치로 증명하는 체계로 전환되어야 한다고 제언했다.",
+      "topics": [
+        "시장·가격 동향",
+        "전력 인프라"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-08-23T15:20:50.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=371537",
+      "collectedAt": "2026-08-23T21:26:07.771Z",
+      "bodySnippet": "전력 인프라 전환이 가속화되는 가운데, 인공지능(AI)이 전력망의 지속가능성과 효율을 실제 성과로 입증하는 핵심 수단으로 부상하고 있다는 진단이 나왔다. H.M. 리(H.M. Lee) 홍콩전기공사협회(HKECA) 부회장은 지난 22일 태국 파타야 NICE(Nong Nooch Pattaya International Convention & Exhibition Center)에서 열린 파페카 컨퍼런스 2026에서 ‘Delivering Measurable Sustainability Outcomes with AI in Power Supply Network Design(전력공급망 설계에서 AI를 활용한 측정 가능한 지속가능성 성과 창출)’을 주제로 발표하고, AI가 전력 공급 네트워크의 설계와 운영 방식을 근본적으로 바꾸고 있다고 강조했다.현재 홍콩 BYME 엔지니어링 소속 디렉터이자 30여 년간 건설설비 공학과 지속가능 인프라 분야에서 활동해 온 리 부회장은 이번 발표에서 지속가능성이 더 이상 선언적 목표에 머물러서는 안 되며, 실제 운영과 투자 성과를 수치로 증명하는 체계로 전환돼야 한다고 밝혔다.그는 기존 전력망 설계가 정적인 수요 예측과 제한된 가정에 의존해 왔다"
+    },
+    {
+      "id": "90f1167e-9f4a-4737-a7ed-1701ce769084",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(FAPECA 2026) “AI 데이터센터 확산 속 핵심은 전력…전기공사업계에 새로운 기회”",
+      "titleOriginal": null,
+      "summary": "AI 데이터센터 급증으로 인해 전력, 변압, ESS 등 전력 인프라 수요가 연쇄적으로 폭증하고 있다. 문원식 교수는 이를 전기공사업계에 새로운 사업 기회가 열리는 것으로 분석하며, 기술적 대응과 역할 확장의 중요성을 강조했다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-08-23T15:20:30.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=371536",
+      "collectedAt": "2026-08-23T21:26:12.034Z",
+      "bodySnippet": "인공지능(AI) 데이터센터 확산과 함께 산업의 관심 축이 반도체와 연산 성능을 넘어 전력 인프라로 빠르게 이동하고 있다. AI 수요가 실제 전력 설비 투자와 계통 운영 문제로 이어지면서 전기공사업계에도 새로운 사업 기회가 열리고 있다는 분석이 나왔다.문원식 숭실대학교 교수는 지난 22일 태국 파타야 NICE(Nong Nooch Pattaya International Convention & Exhibition Center)에서 열린 ‘파페카 컨퍼런스 2026’에서 ‘Powering AI Data Centers: New Opportunities for Asian Electrical Contractors(AI 데이터센터를 구동하는 전력 인프라: 아시아 전기공사업계의 새로운 기회)’를 주제로 발표하고, AI 데이터센터 확대가 전기공사업의 사업 영역과 역할을 바꾸고 있다고 밝혔다.문 교수는 AI와 데이터센터, 전력 인프라 확충이 연쇄적으로 연결되는 구조에 주목했다. AI 수요가 증가하면 데이터센터 투자가 뒤따르고, 데이터센터가 늘어나면 전력·냉각·변전·변압·송전·에너지저장장치(ESS)·무정전전원장치(UPS)·제어 시스템 수요도 함께 증가한다는 것. 이 과정이 단순 설"
+    },
+    {
+      "id": "1aeb492d-4b2f-4871-b44b-44c4053f78d4",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "7개 업종 통합환경허가 대상 추가…발전업종 급전지시 초과배출부과금 감면",
+      "titleOriginal": null,
+      "summary": "정부가 자동차, 이차전지 등 7개 업종을 통합환경허가 대상에 추가하고 발전업종의 급전지시로 인한 초과배출부과금을 감면하는 내용의 환경오염시설법 시행령·규칙 개정안을 입법예고했다. 이번 조치는 규제 개선 및 현장 건의사항을 반영하여 환경 관리 체계를 합리화하기 위해 마련되었다.",
+      "topics": [
+        "정책·규제"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-08-23T12:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=371533",
+      "collectedAt": "2026-08-23T21:26:23.842Z",
+      "bodySnippet": "정부가 자동차·이차전지 등 7개 업종을 통합환경허가 대상에 새롭게 포함하고, 발전업종의 급전지시로 발생한 초과배출부과금 감면과 중소기업의 통합환경관리인 선임기준 합리화에 나선다.기후에너지환경부는 이 같은 내용을 담은 ‘환경오염시설의 통합관리에 관한 법률’ 시행령 및 시행규칙 개정안을 이달 26일부터 10월 6일까지 입법예고한다고 23일 밝혔다.이번 개정안은 지난 6월 9일 개정된 환경오염시설법에서 위임한 사항을 구체화하고, 국회 국정감사 지적사항과 경제단체·중소기업계 등의 규제 개선 건의사항을 반영하기 위해 마련됐다.개정안에는 산업"
+    },
+    {
+      "id": "608111cc-967a-4ca8-ab1d-f70383ec13e6",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "폐기물에서 에너지로…기후부, 바이오매스 에너지자립마을 조성 추진",
+      "titleOriginal": null,
+      "summary": "기후에너지환경부가 음식물류 폐기물과 가축분뇨 등 유기성 폐자원을 활용한 '바이오매스 기반 에너지자립마을' 조성 사업을 추진한다. 이를 위해 24일 기초 지방정부를 대상으로 공모사업 설명회를 개최하고, 지역 단위의 지산지소형 에너지 생산·이용 체계 구축을 지원할 예정이다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-08-23T12:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=371532",
+      "collectedAt": "2026-08-23T21:26:28.032Z",
+      "bodySnippet": "정부가 음식물류 폐기물과 가축분뇨 등 유기성 폐자원을 활용한 에너지자립마을 조성에 나선다.기후에너지환경부는 오는 24일 서울역 스페이스쉐어에서 기초 지방정부를 대상으로 ‘바이오매스 기반 에너지자립마을 조성’을 위한 설명회를 개최한다고 23일 밝혔다.이번 설명회는 현재 공모를 진행 중인 바이오매스 기반 에너지자립마을 공모사업에 대한 지방정부의 이해도를 높이고 참여를 유도하기 위해 마련됐다.기후부는 지난 20일부터 음식물류 폐기물과 가축분뇨 등 유기성 폐자원을 활용한 지산지소형 에너지를 생산·이용 체계를 지역사회와 함께 구축하고 혜택을"
+    },
+    {
+      "id": "ff1ac74a-a7d8-4fea-a2db-5f8a367dee53",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[분석] 유류 최고가격 또 동결…정부, 물가 안정과 에너지안보 '균형' 시험대",
+      "titleOriginal": null,
+      "summary": "정부가 국제유가 배럴당 90달러 돌파 등 중동발 에너지 위기 속에서도 국민 부담 완화와 물가 안정을 위해 석유 최고가격을 동결했다. 그러나 국제유가 상승세가 지속됨에 따라 정부의 가격 통제 정책이 에너지시장 정상화와 민생 안정 사이에서 장기적인 시험대에 오를 전망이다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-08-23T06:54:13.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=202431",
+      "collectedAt": "2026-08-23T21:26:46.930Z",
+      "bodySnippet": "[에너지데일리 변국영 기자 ]정부가 국제유가가 다시 배럴당 90달러를 넘어서는 등 중동발 에너지 위기가 재확산되는 상황에서도 석유 최고가격을 또다시 동결했다. 국제 원유와 석유제품 가격이 상승세로 돌아섰지만 폭염과 집중호우 등으로 커진 국민 부담과 물가 안정을 우선 고려한 결정이다.그러나 미국과 이란 간 종전 협상이 교착상태에 빠지면서 국제유가의 추가 상승 가능성이 여전한 만큼 정부의 가격 통제 정책도 장기화 여부를 둘러싼 시험대에 오를 것으로 전망된다. 향후 국제유가 상승세가 이어질 경우 민생 안정과 에너지시장 정상화 사이에서 정"
+    }
+  ]
+}
