@@ -12,6 +12,14 @@
  *   node scripts/migrations/send-subscriber-credentials.js --dry-run           # 대상 목록만 확인
  *   node scripts/migrations/send-subscriber-credentials.js --test=me@sk.com   # 테스트 발송 1건 (notifiedAt 갱신 안 함)
  *   node scripts/migrations/send-subscriber-credentials.js                    # 실제 전체 발송
+ *
+ * 정정 재발송 (예: 잘못된 링크로 이미 발송된 경우):
+ *   --resend-all           notifiedAt 여부와 상관없이 role=subscriber 전원 대상, 정정 전용 문구/제목 사용
+ *   --skip=a@x.com,b@y.com 이미 정상 링크로 안내받은 사람 등 재발송에서 제외할 이메일 목록
+ *
+ * From은 항상 GMAIL_USER(현재 hyeokyeong@gmail.com) — haileycho@sk.com은 Send-As 별칭이 아니라서
+ * From으로 쓰면 Gmail이 조용히 되돌린다(실측 확인됨). 정정 메일(--resend-all)은 대신 replyTo를
+ * haileycho@sk.com으로 지정해, 수신자가 답장하면 그쪽으로 가도록 처리한다.
  */
 require('dotenv').config({ path: '.env.local' })
 
@@ -21,6 +29,10 @@ const { Redis } = require('@upstash/redis')
 const args = process.argv.slice(2)
 const dryRun = args.includes('--dry-run')
 const testEmail = args.find((a) => a.startsWith('--test='))?.split('=')[1]
+const resendAll = args.includes('--resend-all')
+const skipEmails = new Set(
+  (args.find((a) => a.startsWith('--skip='))?.split('=')[1] ?? '').split(',').filter(Boolean)
+)
 
 function getRedis() {
   const url = process.env.UPSTASH_REDIS_REST_URL
@@ -32,8 +44,12 @@ function getRedis() {
   return new Redis({ url, token })
 }
 
+function loginUrlFrom(baseUrl) {
+  return `${(baseUrl || 'http://localhost:3000').replace(/\/$/, '')}/login`
+}
+
 function buildMailHtml(email, password) {
-  const loginUrl = `${(process.env.NEXTAUTH_URL || 'http://localhost:3000').replace(/\/$/, '')}/login`
+  const loginUrl = loginUrlFrom(process.env.NEXTAUTH_URL)
   return `
     <p>안녕하세요, SKI mySUNI 경영관리역량 조혜경입니다.</p>
     <p>
@@ -48,6 +64,24 @@ function buildMailHtml(email, password) {
   `
 }
 
+// 잘못된(localhost) 링크가 담긴 최초 안내 메일을 받은 사람들에게 보내는 정정 재발송 전용 템플릿
+const CORRECTION_SUBJECT = '[Electrification/Energy Insight]'
+function buildCorrectionMailHtml(email, password) {
+  const loginUrl = loginUrlFrom(process.env.NEXTAUTH_URL)
+  return `
+    <p>안녕하세요, SKI mySUNI 경영관리역량 조혜경입니다.</p>
+    <p>
+      Electrification/Energy Insight Newsletter 구독 신청해주셔서 감사합니다.<br/>
+      이전 안내 메일 링크로 접속이 안되시는 분들께선 하기 링크로 이용 부탁드리겠습니다.
+    </p>
+    <p>
+      아이디: <strong>${email}</strong><br/>
+      비밀번호: <strong>${password}</strong>
+    </p>
+    <p>대시보드 링크: <a href="${loginUrl}">${loginUrl}</a> 에서 로그인해주세요.</p>
+  `
+}
+
 async function main() {
   const gmailUser = process.env.GMAIL_USER
   const gmailPass = process.env.GMAIL_APP_PASSWORD
@@ -56,14 +90,22 @@ async function main() {
     process.exit(1)
   }
   const transporter = nodemailer.createTransport({ service: 'gmail', auth: { user: gmailUser, pass: gmailPass } })
+  // haileycho@sk.com은 hyeokyeong@gmail.com의 인증된 Send-As 별칭이 아니라서
+  // From 헤더로 쓰면 Gmail이 조용히 인증 계정으로 되돌린다 (실측 확인됨).
+  // 차선책: From은 그대로 gmailUser로 두고, 정정 메일에 한해 답장은 haileycho@sk.com으로 가도록 replyTo만 지정.
+  const fromHeader = resendAll
+    ? `Electrification/Energy Insight Newsletter <${gmailUser}>`
+    : `에너지 인사이트 뉴스레터 <${gmailUser}>`
+  const replyTo = resendAll ? 'haileycho@sk.com' : undefined
 
   if (testEmail) {
-    console.log(`\n테스트 발송 → ${testEmail} (notifiedAt은 갱신하지 않습니다)\n`)
+    console.log(`\n테스트 발송 → ${testEmail} (notifiedAt은 갱신하지 않습니다${replyTo ? `, replyTo=${replyTo}` : ''})\n`)
     await transporter.sendMail({
-      from: `에너지 인사이트 뉴스레터 <${gmailUser}>`,
+      from: fromHeader,
       to: testEmail,
-      subject: '[테스트] [Energy Insight]',
-      html: buildMailHtml(testEmail, '000000 (예시 비밀번호)'),
+      replyTo,
+      subject: resendAll ? `[테스트] ${CORRECTION_SUBJECT}` : '[테스트] [Energy Insight]',
+      html: resendAll ? buildCorrectionMailHtml(testEmail, '000000 (예시 비밀번호)') : buildMailHtml(testEmail, '000000 (예시 비밀번호)'),
     })
     console.log('테스트 메일 발송 완료.\n')
     return
@@ -75,14 +117,15 @@ async function main() {
   const targets = []
   for (const key of keys) {
     const user = await redis.get(key)
-    if (user && user.role === 'subscriber' && !user.notifiedAt) {
-      targets.push(user)
-    }
+    if (!user || user.role !== 'subscriber') continue
+    if (skipEmails.has(user.email)) continue
+    if (resendAll || !user.notifiedAt) targets.push(user)
   }
   targets.sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
 
+  const modeLabel = resendAll ? 'role=subscriber 전체 (정정 재발송)' : 'role=subscriber, notifiedAt=null'
   console.log(`\n${'─'.repeat(60)}`)
-  console.log(`발송 대상: ${targets.length}명 (role=subscriber, notifiedAt=null)` + (dryRun ? ' [dry-run]' : ''))
+  console.log(`발송 대상: ${targets.length}명 (${modeLabel})` + (dryRun ? ' [dry-run]' : ''))
   console.log(`${'─'.repeat(60)}\n`)
 
   if (dryRun) {
@@ -90,6 +133,15 @@ async function main() {
     console.log('\nℹ dry-run: 실제 발송 없음.\n')
     return
   }
+
+  const resolvedLoginUrl = loginUrlFrom(process.env.NEXTAUTH_URL)
+  if (resolvedLoginUrl.includes('localhost')) {
+    console.error(`✗ NEXTAUTH_URL이 localhost로 설정되어 있어 중단합니다: ${resolvedLoginUrl}`)
+    console.error('  운영 도메인을 지정해서 다시 실행하세요. 예)')
+    console.error('  PowerShell: $env:NEXTAUTH_URL="https://실제도메인"; node scripts/migrations/send-subscriber-credentials.js ...\n')
+    process.exit(1)
+  }
+  console.log(`ℹ 메일에 삽입될 로그인 링크: ${resolvedLoginUrl}\n`)
 
   console.log('⚠ 3초 후 실제 발송을 시작합니다. 중단하려면 Ctrl+C.\n')
   await new Promise((r) => setTimeout(r, 3000))
@@ -100,10 +152,11 @@ async function main() {
     const password = String(t.order).padStart(6, '0')
     try {
       await transporter.sendMail({
-        from: `에너지 인사이트 뉴스레터 <${gmailUser}>`,
+        from: fromHeader,
         to: t.email,
-        subject: '[Energy Insight]',
-        html: buildMailHtml(t.email, password),
+        replyTo,
+        subject: resendAll ? CORRECTION_SUBJECT : '[Energy Insight]',
+        html: resendAll ? buildCorrectionMailHtml(t.email, password) : buildMailHtml(t.email, password),
       })
       await redis.set(`user:${t.email}`, { ...t, notifiedAt: new Date().toISOString() })
       sent += 1
