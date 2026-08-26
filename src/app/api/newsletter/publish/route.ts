@@ -12,6 +12,7 @@ export interface PublishedNewsletter {
   title: string
   articleCount: number
   articles: Article[]
+  ownerEmail: string
 }
 
 export interface NewsletterMeta {
@@ -21,9 +22,19 @@ export interface NewsletterMeta {
   title: string
 }
 
+const ARCHIVE_INDEX_MAX = 200
+
+async function pushToIndex(redis: ReturnType<typeof getRedis>, key: string, meta: NewsletterMeta) {
+  if (!redis) return
+  const existing = await redis.get<NewsletterMeta[]>(key)
+  const index: NewsletterMeta[] = Array.isArray(existing) ? existing : []
+  index.unshift(meta)
+  await redis.set(key, index.slice(0, ARCHIVE_INDEX_MAX))
+}
+
 export async function POST(req: NextRequest) {
   const session = await getServerSession(authOptions)
-  if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+  if (!session?.user?.email) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   const body = await req.json() as { articles: Article[]; title?: string }
   const { articles } = body
@@ -32,6 +43,7 @@ export async function POST(req: NextRequest) {
   const id = crypto.randomUUID()
   const confirmedAt = new Date().toISOString()
   const dateStr = confirmedAt.slice(0, 10)
+  const ownerEmail = session.user.email
 
   const entry: PublishedNewsletter = {
     id,
@@ -39,6 +51,7 @@ export async function POST(req: NextRequest) {
     title: body.title ?? `에너지 인사이트 뉴스레터 ${dateStr}`,
     articleCount: articles.length,
     articles,
+    ownerEmail,
   }
 
   const redis = getRedis()
@@ -48,10 +61,9 @@ export async function POST(req: NextRequest) {
 
   await redis.set(`newsletter:${id}`, entry)
 
-  const existingIndex = await redis.get<NewsletterMeta[]>('newsletter:index')
-  const index: NewsletterMeta[] = Array.isArray(existingIndex) ? existingIndex : []
-  index.unshift({ id, confirmedAt, articleCount: articles.length, title: entry.title })
-  await redis.set('newsletter:index', index.slice(0, 200))
+  const meta: NewsletterMeta = { id, confirmedAt, articleCount: articles.length, title: entry.title }
+  await pushToIndex(redis, `newsletter:index:${ownerEmail}`, meta)
+  await pushToIndex(redis, 'newsletter:index:global', meta)
 
   return NextResponse.json({
     id,

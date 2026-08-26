@@ -1,11 +1,7 @@
 import type { NextAuthOptions } from 'next-auth'
 import CredentialsProvider from 'next-auth/providers/credentials'
 import bcrypt from 'bcryptjs'
-
-interface AuthUser {
-  email: string
-  passwordHash: string
-}
+import { getUser } from './users'
 
 export const authOptions: NextAuthOptions = {
   providers: [
@@ -18,17 +14,7 @@ export const authOptions: NextAuthOptions = {
       async authorize(credentials) {
         if (!credentials?.email || !credentials?.password) return null
 
-        const usersJson = process.env.AUTH_USERS
-        if (!usersJson) return null
-
-        let users: AuthUser[]
-        try {
-          users = JSON.parse(usersJson)
-        } catch {
-          return null
-        }
-
-        const user = users.find((u) => u.email === credentials.email)
+        const user = await getUser(credentials.email)
         if (!user) return null
 
         const valid = await bcrypt.compare(credentials.password, user.passwordHash)

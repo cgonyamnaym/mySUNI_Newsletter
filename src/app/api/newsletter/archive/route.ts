@@ -11,16 +11,15 @@ const DEMAND_SAMPLE_SIZE = 20
 
 export async function GET(req: NextRequest) {
   const session = await getServerSession(authOptions)
-  if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+  if (!session?.user?.email) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   const redis = getRedis()
   if (!redis) return NextResponse.json({ error: 'Redis not configured' }, { status: 503 })
 
-  const existingIndex = await redis.get<NewsletterMeta[]>('newsletter:index')
-  const index: NewsletterMeta[] = Array.isArray(existingIndex) ? existingIndex : []
-
   const { searchParams } = new URL(req.url)
   if (searchParams.get('articles') === '1') {
+    const existingIndex = await redis.get<NewsletterMeta[]>('newsletter:index:global')
+    const index: NewsletterMeta[] = Array.isArray(existingIndex) ? existingIndex : []
     const ids = index.slice(0, DEMAND_SAMPLE_SIZE).map((m) => m.id)
     if (!ids.length) return NextResponse.json({ articles: [] })
     const entries = await redis.mget<PublishedNewsletter[]>(...ids.map((id) => `newsletter:${id}`))
@@ -28,5 +27,7 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ articles })
   }
 
+  const existingIndex = await redis.get<NewsletterMeta[]>(`newsletter:index:${session.user.email}`)
+  const index: NewsletterMeta[] = Array.isArray(existingIndex) ? existingIndex : []
   return NextResponse.json({ entries: index })
 }

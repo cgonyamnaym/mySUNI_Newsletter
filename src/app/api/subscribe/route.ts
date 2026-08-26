@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 import nodemailer from 'nodemailer'
+import bcrypt from 'bcryptjs'
 import { getRedis } from '@/lib/redis'
+import { getUser, createUser, nextSequence, formatPassword, markNotified } from '@/lib/users'
 
 export const dynamic = 'force-dynamic'
 
@@ -8,6 +10,7 @@ const EMAIL_RE = /^[^\s@<>]+@[^\s@<>]+\.[^\s@<>]{2,}$/
 const NOTIFY_TO = 'haileycho@sk.com'
 const SUBSCRIBE_INDEX_KEY = 'subscribe:index'
 const SUBSCRIBE_INDEX_MAX = 500
+const PASSWORD_HASH_COST = 12
 
 export interface SubscriptionRecord {
   email: string
@@ -19,6 +22,36 @@ function escapeHtml(s: string) {
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
+}
+
+async function provisionSubscriberAccount(email: string): Promise<{ password: string } | null> {
+  const existing = await getUser(email)
+  if (existing) return null
+  try {
+    const order = await nextSequence()
+    const password = formatPassword(order)
+    const passwordHash = await bcrypt.hash(password, PASSWORD_HASH_COST)
+    await createUser({ email, passwordHash, order, role: 'subscriber' })
+    return { password }
+  } catch (err) {
+    console.error('Failed to provision subscriber account:', err)
+    return null
+  }
+}
+
+function buildCredentialMailHtml(email: string, password: string) {
+  const baseUrl = process.env.NEXTAUTH_URL
+    || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000')
+  const loginUrl = `${baseUrl.replace(/\/$/, '')}/login`
+  return `
+    <p>안녕하세요, 에너지 인사이트 뉴스레터 대시보드입니다.</p>
+    <p>구독 신청해주셔서 감사합니다. 아래 계정으로 대시보드에 로그인하실 수 있습니다.</p>
+    <ul>
+      <li>아이디: <strong>${email}</strong></li>
+      <li>비밀번호: <strong>${password}</strong></li>
+    </ul>
+    <p><a href="${loginUrl}">${loginUrl}</a> 에서 로그인해주세요.</p>
+  `
 }
 
 async function recordSubscription(email: string): Promise<void> {
@@ -43,6 +76,7 @@ export async function POST(req: NextRequest) {
   }
 
   await recordSubscription(email)
+  const provisioned = await provisionSubscriberAccount(email)
 
   const gmailUser = process.env.GMAIL_USER
   const gmailPass = process.env.GMAIL_APP_PASSWORD
@@ -68,6 +102,20 @@ export async function POST(req: NextRequest) {
   } catch (err) {
     console.error('Nodemailer send error:', err)
     return NextResponse.json({ error: 'Failed to send email' }, { status: 502 })
+  }
+
+  if (provisioned) {
+    try {
+      await transporter.sendMail({
+        from: `에너지 인사이트 뉴스레터 <${gmailUser}>`,
+        to: email,
+        subject: '에너지 인사이트 대시보드 로그인 정보 안내',
+        html: buildCredentialMailHtml(email, provisioned.password),
+      })
+      await markNotified(email)
+    } catch (err) {
+      console.error('Failed to send subscriber credential email:', err)
+    }
   }
 
   return NextResponse.json({ ok: true })
