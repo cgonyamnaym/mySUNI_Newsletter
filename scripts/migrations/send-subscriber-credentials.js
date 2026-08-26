@@ -69,7 +69,7 @@ const CORRECTION_SUBJECT = '[Electrification/Energy Insight]'
 function buildCorrectionMailHtml(email, password) {
   const loginUrl = loginUrlFrom(process.env.NEXTAUTH_URL)
   return `
-    <p>안녕하세요, SKI mySUNI 경영관리역량 조혜경입니다.</p>
+    <p>안녕하세요, SK이노베이션 mySUNI 경영관리역량 조혜경입니다.</p>
     <p>
       Electrification/Energy Insight Newsletter 구독 신청해주셔서 감사합니다.<br/>
       이전 안내 메일 링크로 접속이 안되시는 분들께선 하기 링크로 이용 부탁드리겠습니다.
@@ -79,6 +79,7 @@ function buildCorrectionMailHtml(email, password) {
       비밀번호: <strong>${password}</strong>
     </p>
     <p>대시보드 링크: <a href="${loginUrl}">${loginUrl}</a> 에서 로그인해주세요.</p>
+    <p>문의 사항이 있으신 분께선 haileycho@sk.com으로 연락 부탁드립니다.</p>
   `
 }
 
