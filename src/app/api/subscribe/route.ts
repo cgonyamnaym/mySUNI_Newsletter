@@ -44,13 +44,16 @@ function buildCredentialMailHtml(email: string, password: string) {
     || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000')
   const loginUrl = `${baseUrl.replace(/\/$/, '')}/login`
   return `
-    <p>안녕하세요, 에너지 인사이트 뉴스레터 대시보드입니다.</p>
-    <p>구독 신청해주셔서 감사합니다. 아래 계정으로 대시보드에 로그인하실 수 있습니다.</p>
-    <ul>
-      <li>아이디: <strong>${email}</strong></li>
-      <li>비밀번호: <strong>${password}</strong></li>
-    </ul>
-    <p><a href="${loginUrl}">${loginUrl}</a> 에서 로그인해주세요.</p>
+    <p>안녕하세요, SKI mySUNI 경영관리역량 조혜경입니다.</p>
+    <p>
+      Energy Insight Newsletter 구독 신청해주셔서 감사합니다.<br/>
+      아래 계정으로 대시보드에 로그인하실 수 있습니다.<br/>
+      (로컬 PC에서 열리지 않는 분들은 보안예외신청 부탁드립니다)
+    </p>
+    <p>
+      아이디: <strong>${email}</strong><br/>
+      비밀번호: <strong>${password}</strong> <a href="${loginUrl}">${loginUrl}</a>에서 로그인해주세요.
+    </p>
   `
 }
 
@@ -109,7 +112,7 @@ export async function POST(req: NextRequest) {
       await transporter.sendMail({
         from: `에너지 인사이트 뉴스레터 <${gmailUser}>`,
         to: email,
-        subject: '에너지 인사이트 대시보드 로그인 정보 안내',
+        subject: '[Energy Insight]',
         html: buildCredentialMailHtml(email, provisioned.password),
       })
       await markNotified(email)
