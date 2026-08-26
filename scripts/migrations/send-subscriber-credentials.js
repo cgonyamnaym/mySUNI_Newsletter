@@ -14,8 +14,10 @@
  *   node scripts/migrations/send-subscriber-credentials.js                    # 실제 전체 발송
  *
  * 정정 재발송 (예: 잘못된 링크로 이미 발송된 경우):
- *   --resend-all           notifiedAt 여부와 상관없이 role=subscriber 전원 대상, 정정 전용 문구/제목 사용
- *   --skip=a@x.com,b@y.com 이미 정상 링크로 안내받은 사람 등 재발송에서 제외할 이메일 목록
+ *   --resend-all            notifiedAt 여부와 상관없이 대상 지정, 정정 전용 문구/제목 사용
+ *   --order-range=3-125     order가 이 범위(양끝 포함)인 계정만 대상으로 한정 — 문제의 발송 배치가
+ *                           특정 순번 구간에 몰려 있을 때, 그 이후 정상 발송된 신규 가입자를 정확히 제외
+ *   --skip=a@x.com,b@y.com  범위와 별개로 추가로 제외할 이메일 목록
  *
  * From은 항상 GMAIL_USER(현재 hyeokyeong@gmail.com) — haileycho@sk.com은 Send-As 별칭이 아니라서
  * From으로 쓰면 Gmail이 조용히 되돌린다(실측 확인됨). 정정 메일(--resend-all)은 대신 replyTo를
@@ -33,6 +35,17 @@ const resendAll = args.includes('--resend-all')
 const skipEmails = new Set(
   (args.find((a) => a.startsWith('--skip='))?.split('=')[1] ?? '').split(',').filter(Boolean)
 )
+const orderRangeArg = args.find((a) => a.startsWith('--order-range='))?.split('=')[1]
+const orderRange = orderRangeArg
+  ? (() => {
+      const [min, max] = orderRangeArg.split('-').map(Number)
+      if (Number.isNaN(min) || Number.isNaN(max)) {
+        console.error(`--order-range 형식이 올바르지 않습니다: ${orderRangeArg} (예: --order-range=3-125)`)
+        process.exit(1)
+      }
+      return { min, max }
+    })()
+  : null
 
 function getRedis() {
   const url = process.env.UPSTASH_REDIS_REST_URL
@@ -120,11 +133,14 @@ async function main() {
     const user = await redis.get(key)
     if (!user || user.role !== 'subscriber') continue
     if (skipEmails.has(user.email)) continue
+    if (orderRange && (user.order == null || user.order < orderRange.min || user.order > orderRange.max)) continue
     if (resendAll || !user.notifiedAt) targets.push(user)
   }
   targets.sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
 
-  const modeLabel = resendAll ? 'role=subscriber 전체 (정정 재발송)' : 'role=subscriber, notifiedAt=null'
+  const modeLabel = resendAll
+    ? `role=subscriber${orderRange ? `, order ${orderRange.min}~${orderRange.max}` : ' 전체'} (정정 재발송)`
+    : 'role=subscriber, notifiedAt=null'
   console.log(`\n${'─'.repeat(60)}`)
   console.log(`발송 대상: ${targets.length}명 (${modeLabel})` + (dryRun ? ' [dry-run]' : ''))
   console.log(`${'─'.repeat(60)}\n`)
