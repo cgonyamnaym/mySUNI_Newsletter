@@ -95,7 +95,7 @@ async function main() {
   // From 헤더로 쓰면 Gmail이 조용히 인증 계정으로 되돌린다 (실측 확인됨).
   // 차선책: From은 그대로 gmailUser로 두고, 정정 메일에 한해 답장은 haileycho@sk.com으로 가도록 replyTo만 지정.
   const fromHeader = resendAll
-    ? `Electrification/Energy Insight Newsletter <${gmailUser}>`
+    ? `[SK이노베이션 mySUNI] Electrification/Energy Insight Newsletter <${gmailUser}>`
     : `에너지 인사이트 뉴스레터 <${gmailUser}>`
   const replyTo = resendAll ? 'haileycho@sk.com' : undefined
 
