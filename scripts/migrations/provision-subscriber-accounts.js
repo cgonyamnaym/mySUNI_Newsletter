@@ -165,11 +165,10 @@ async function main() {
         createdAt: new Date().toISOString(),
         notifiedAt: null,
       })
+      // 순번을 계정 생성 직후 즉시 반영 — 중간에 중단돼도 다음 실행이 이어서 안전하게 재개되도록 함
+      // (끝에서 한 번만 저장하면, 중단 시 이미 쓰인 순번이 다음 실행에서 다른 사람에게 재배정될 수 있음)
+      await redis.set(SEQ_KEY, seq)
     }
-  }
-
-  if (!dryRun) {
-    await redis.set(SEQ_KEY, seq)
   }
 
   console.log(`\n${'─'.repeat(60)}`)
