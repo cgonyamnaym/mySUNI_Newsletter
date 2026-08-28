@@ -1,7 +1,7 @@
 {
   "date": "2026-08-26",
-  "generatedAt": "2026-08-27T01:02:22.176Z",
-  "articleCount": 149,
+  "generatedAt": "2026-08-28T05:26:10.297Z",
+  "articleCount": 151,
   "articles": [
     {
       "id": "67e77c0c-8b4f-481a-870f-de49ab85a364",
@@ -2914,6 +2914,45 @@
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260826029156513",
       "collectedAt": "2026-08-27T01:00:17.531Z",
       "bodySnippet": "김 장관, 25일 국회 예결위에서 의견 밝혀\n산업용 전기료 개편 공청회 하루 앞두고 언급\nkWh당 한국 182원, 미 텍사스 80원, 중국 120원 ▲김성환 기후에너지환경부 장관이 3일 서울 종로구 정부서울청사 별관에서 기후부 업무보고 사전브리핑을 하고 있다. 사진=연합뉴스 김성환 기후에너지환경부 장관이 산업 경쟁력을 높이기 위해 산업용 전기요금 인하가 필요하다고 발언했다. 정부는 오늘 수도권 이외 지역의 산업용 요금 인하를 골자로 하는 지역별 전기요금제 공청회를 열 예정이다. 김 장관은 25일 서울 여의도 국회에서 열린 예산결산특별위원회 정책질의에서 산업용 전기료 지역요금제 개편안에 대해 “송전비용과 전력자립도, 지역균형지수를 고려하고 (제조업의) 장기적 경쟁력을 확대하기 위한 지역별 유인효과를 고려해 전기료 체계를 확정하도록 노력하겠다\"고 말했다. 기후부는 26일 킬로와트시(kWh)당 182원가량인 현행 산업용 전기료를 지역별로 인하하는 요금제 개편안에 대해 공청회를 열 예정이다. 개편안은 전국을 수도권 북부와 남부, 중부권, 남부권으로 나누고 수도권 이외 지역의 요금을 낮추는 방식으로 짜여진 것으로 알려졌다. 세계 주요 국가들은 산업용 요금을 싸게 해 산업경쟁력을 높이고 있다. 미국 텍사스 주는 산업용 전기요금을 kWh당 80원, 중국은 평균 120원가량으로 책정하고 있어 제조업 경쟁국인 한국이 유리하지 않은 상황이다. 이와 관련해 허성무 의원(더불어민주당)은 높은 산업용 전기요금 때문에 주요 제조업 국가들과 경쟁하는데 문제가 있다고 질의했다. 이에 김 장관은 “전기료 인하가 쉽지 않지만 산업 경쟁력을 위해 산업용 전기료 인하가 필요하다\"고 의견을 밝혔다. 이날 예결위 질의에서는 행안부의 지방우대지수를 권역 내에서 세부적으로 차등 부여하는 과정에서 공장들이 몰려 있는 국가산업단지와 도시 지역이 불리해질 것이라는 지적이 제기됐다. 아울러 친환경·저탄소 공정을 도입한 공장에 전기료를 추가 감면해주고, 소매 전기요금도 송전비용과 전력자급률 등을 반영해서 매겨야 한다는 제안이 나왔다. 공청회에 관해 김 장관은 “기후부가 생각한 안을 발표하고, 해당 지역별 기업들의 의견을 듣고 최종 결정할 것\"이라며 “행정안전부가 준비 중인 지역우대지수 적용까지 포함해서 개편안을 최종 확정해야 한다\"고 말했다. <"
+    },
+    {
+      "id": "92e1e918-6454-4bfe-9f00-748cb4d7127c",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "드론, 핵심 인프라의 다음 주요 보안 과제",
+      "titleOriginal": "Drones are the next big security challenge for critical infrastructure",
+      "summary": "드론은 유틸리티 기업에 운영상 큰 가치를 제공하지만, 동시에 위협 행위자들에게도 효과적인 도구가 될 수 있어 핵심 인프라의 보안에 중대한 도전 과제가 되고 있습니다. SkySafe의 최고매출책임자(CRO) Melissa Swisher는 이러한 이중성이 차세대 주요 보안 과제임을 강조했습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-08-26T15:00:00.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/drones-are-the-next-big-security-challenge-for-critical-infrastructure/827036/",
+      "collectedAt": "2026-08-28T05:14:12.984Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/4VYPKv83xj3Sp-2f2U5WfsGZRIY3q9APok4iboekAkI/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy05NTk5MzI5NzYuanBn.webp\"/></div></figure><p>The same capabilities that make drones operationally valuable for utilities also make them effective tools for threat actors, writes&nbsp;SkySafe Chief Revenue Officer Melissa Swisher.</p>"
+    },
+    {
+      "id": "ad08000d-6274-4a40-9aab-488057c77875",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Harbert, 조지아주 열병합 발전소 인수",
+      "titleOriginal": "Harbert acquires cogenerating heat, power plant in Georgia",
+      "summary": "Harbert는 조지아주에 위치한 Mid-Georgia Cogen 열병합 발전소를 인수했습니다. 해당 시설은 Georgia Power와 장기 전력 구매 계약을 맺고 피커 발전소로 운영되는 동시에, 인근 Frito-Lay 제조 시설에 식품 조리용 열원을 공급하고 있습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-08-26T14:41:12.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/harbert-acquires-cogenerating-heat-power-plant-in-georgia/828833/",
+      "collectedAt": "2026-08-28T05:14:20.363Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/TEq39BO8Kj1suO2USt4mBfeRq_I8ON0ErbCtoIrC0-I/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9NaWQtR2VvcmdpYV9Db2dlbi5wbmc=.webp\"/></div></figure><p>In addition to acting as a peaker plant for Georgia Power under a long-term power purchase agreement, Mid-Georgia Cogen also supplies thermal output to an adjacent Frito-Lay manufacturing facility for frying and cooking food.</p>"
     }
   ]
 }
