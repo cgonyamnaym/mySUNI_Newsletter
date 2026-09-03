@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-04",
+  "generatedAt": "2026-09-03T23:23:17.921Z",
+  "articleCount": 1,
+  "articles": [
+    {
+      "id": "bcf7afd6-1556-422b-94af-be43fd6bbd45",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "예상 못한 카드…석유공사·가스공사 통합",
+      "titleOriginal": null,
+      "summary": "정부가 에너지 공기업 효율화를 위해 한국석유공사와 한국가스공사의 통합을 추진합니다. 그동안 논의된 바 없던 사안이라 업계의 당혹감이 큰 상황이며, 구체적인 통합 방안을 두고 다양한 해석이 나오고 있습니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-09-04T00:19:45.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70823",
+      "collectedAt": "2026-09-03T23:21:49.676Z",
+      "bodySnippet": "정부가 석유공사와 가스공사를 통합하는 예상치 못한 카드를 내놨습니다. 그동안 발전공기업 통합 논의는 꾸준히 이어졌지만 석유공사와 가스공사 통합은 사실상 수면 위로 올라온 적이 없어 당혹스러운 분위기가 이어졌습니다."
+    }
+  ]
+}
