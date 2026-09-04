@@ -1,7 +1,7 @@
 {
   "date": "2026-09-03",
-  "generatedAt": "2026-09-03T23:23:17.915Z",
-  "articleCount": 129,
+  "generatedAt": "2026-09-04T23:10:38.030Z",
+  "articleCount": 133,
   "articles": [
     {
       "id": "74c90e8e-b650-4945-bf51-e3218badbb63",
@@ -2486,6 +2486,86 @@
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70817",
       "collectedAt": "2026-09-03T23:22:07.781Z",
       "bodySnippet": "초급간부인 차장으로 승진하면 노조에서 자동 탈퇴하는 전력노조 관행이 전환점을 맞았다. 차장으로 승진했다는 이유만으로 조합원 자격에서 일률적으로 제외할 수 없다는 법원 판단이 확정됐기 때문이다. 이로써 전력노조는 숙원과제 중 하나인 3직급 노조 가입을 위한 단초를 마련한 셈이다. 전국전력노동조합(위원장 조창연)은 지난 2일 입장문을 통해 3직급 1인에 대한 조합원 지위와 관련한 광주지방법원 조합원 지위 인정 판결과 광주지방고용노동청 시정명령을 존중해 이를 수용하기로 하고 해당 3직급 1인에 대한 조합원 지위 인정 절차를 이행할 예정이라고 밝혔다."
+    },
+    {
+      "id": "464e7c59-e3b9-4558-b54c-b30ddbf694a9",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "독일 내각, 해상풍력 경매 개혁안 승인",
+      "titleOriginal": "German cabinet approves offshore wind auction reform plan",
+      "summary": "독일 정부는 해상풍력 발전 사업자 선정을 위해 차액결제계약(CfD) 기반의 2단계 경매 방식을 도입하는 개혁안을 승인했습니다. 이번 정책은 재생에너지 확대와 효율적인 전력 시장 운영을 목표로 추진됩니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-03T10:37:12.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1969050/german-cabinet-approves-offshore-wind-auction-reform-plan",
+      "collectedAt": "2026-09-04T22:55:57.206Z",
+      "bodySnippet": "The German government has approved plans to reform offshore wind power allocation in the country that include proposals for two-stage auctions backstopped by contracts for difference (CfDs). "
+    },
+    {
+      "id": "cceae994-6b66-484e-b8ca-7ba1405f713c",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "태양광과의 가격 격차 벌어지며 육상 풍력 프로젝트 파이프라인 축소",
+      "titleOriginal": "Land-based wind power pipeline shrinks as price gap with solar widens",
+      "summary": "미국 청정에너지협회(ACP)의 존 헨슬리 부사장에 따르면, 최소 44GW 규모의 풍력 프로젝트가 미국 국방부의 심사 단계에서 정체되어 있다. 태양광 발전과의 가격 경쟁력이 벌어짐에 따라 육상 풍력 발전 사업 추진에 어려움을 겪고 있다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-03T15:40:55.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/land-based-wind-power-pipeline-shrinks-as-price-gap-with-solar-widens/829573/",
+      "collectedAt": "2026-09-04T22:58:27.300Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/ztrkTxS7idriodTYDlsP6Qegr6-sIvJt3umCapxpeLY/g:nowe:0:104/c:1024:578/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy01MDYxODU5MTIuanBn.webp\"/></div></figure><p>John Hensley, senior vice president of markets and policy analysis at ACP, told Utility Dive that his organization has&nbsp;calculated at least 44 GW of wind projects&nbsp;are &ldquo;stuck&rdquo; in review at the&nbsp;U.S. Department of Defense.</p>"
+    },
+    {
+      "id": "a5757b5f-b8a9-4285-a2fd-a4441fe1ac88",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "산티 쿠퍼(Santee Cooper), AI 기반 예측 전환을 위해 구글과 파트너십 체결",
+      "titleOriginal": "Santee Cooper partners with Google in shift toward AI-driven forecasting",
+      "summary": "미국의 공공 유틸리티 기업인 산티 쿠퍼(Santee Cooper)가 기상, 전력 부하, 재무 예측의 정확도를 높이기 위해 구글의 인공지능 기술을 도입합니다. 최고재무책임자(CFO) 타미 윌슨은 이번 파트너십을 통해 데이터 분석 효율성을 강화하고 전반적인 경영 예측 능력을 고도화할 계획이라고 밝혔습니다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-03T14:10:01.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/santee-cooper-partners-with-google-in-shift-toward-ai-driven-forecasting/829564/",
+      "collectedAt": "2026-09-04T22:58:32.564Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/zcwPyWftuTB6T-i377nw1TNkRGyPARaYnfGUHQX34j8/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjUwMTAzMjU0LmpwZw==.webp\"/></div></figure><p>The state-owned utility plans to use artificial intelligence tools for more precise weather, load and financial planning,&nbsp;CFO Tami Wilson told journalists.</p>"
+    },
+    {
+      "id": "8b9e37e5-1429-497d-a786-e21005fda99c",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "석유관리원, 수송용 수소 안정적 유통 · 가격 유지 운영체계 구축",
+      "titleOriginal": null,
+      "summary": "한국석유관리원은 수송용 수소의 안정적인 공급과 가격 유지를 위해 정부, 지자체, 민간 기업과 함께하는 '2026년 전국 수소 담당 공무원 교육'을 실시했다. 이번 교육은 석유화학시설 정비 등에 따른 수소 수급 불안 상황에 대비해 민·관 비상 대응체계를 점검하고 수소 모빌리티 인프라를 확충하는 데 초점을 맞추고 있다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-03T18:03:45.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=302459",
+      "collectedAt": "2026-09-04T23:08:57.341Z",
+      "bodySnippet": "\r\n<img alt=\"제주에서 '2026년 전국 수소 담당 공무원 교육'이 진행되고 있다./한국석유관리원 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202609/302459_174721_5647.jpeg\" />\r\n제주에서 &#39;2026년 전국 수소 담당 공무원 교육&#39;이 진행되고 있다./한국석유관리원 제공\r\n\r\n\r\n\r\n[투데이에너지 신영균 기자]&nbsp;수소유통전담기관인 한국석유관리원이 수송용 수소가 원활하게 유통되고 가격이 안정적으로 유지될 수 있도록 수급 모니터링과 비상 대응체계를 구축하고 있다. 이를 정상적으로 수행하기 위해 &#39;2026년 전국 수소 담당 공무원 교육&#39;을 진행 중이다. 이번 교육은 기후에너지환경부가 주최하고 수소유통전담기관인 한국석유관리원이 주관하며 3일부터 4일까지 이틀간 제주에서 진행된다.&nbsp;&nbsp;\r\n\r\n&nbsp;\r\n\r\n\r\n<img alt=\"'2026년 전국 수소 담당 공무원 교육'이 진행되고 있다./한국석유관리원 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202609/302459_174722_5841.jpeg\" />\r\n&#39;2026년 전국 수소 담당 공무원 교육&#39;이 진행되고 있다./한국석유관리원 제공\r\n\r\n\r\n\r\n이번 교육에서 주요 프로그램은 수소 경제정책 현황과 계획, 수소 모빌리티 보급 정책, 수소 모빌리티 기술 개발 동향, 수소 수급 비상대응 현황 및 향후 과제, 액화수소 인프라 현황과 플랜트 대정비 대응 계획, 수소 수급 불안 시 대중교통 대응 사례, 수소 모빌리티 보급 관련 애로사항 논의 등이다. 특히 이번 교육은 석유화학시설 등 수소 공급시설 설비 점검에 따른 수소 공급 불안에 대비해 선제적인 민&middot;관 비상 대응체계를 점검하는데 초점을 맞추고 있다.\r\n\r\n이에 정부를 비롯한 지자체, 석유관리원과 수소 생산&middot;유통 기업은 수급 상황을 긴밀히 공유하고 불안 상황 발생 시 수소버스 등 대중교통 운행에 미치는 영향을 최소화하기 위한 실질적인 공조 방안을 마련한다는 계획이다. 아울러 지자체가 수소 모빌리티 보급 과정에서 겪는 현장 애로사항을 직접 청취하고 해결 방안을 함께 논의하는 소통의 장도 마련할 예정이다. 이를 통해 정책과 현장 간극을 줄이고 친환경 대중교통 핵심 기반인 안정적인 수소 공급망 및 충전 인프라를 확충해 나간다는 방침이다.\r\n\r\n최춘식 석유관리원 이사장은 &ldquo;안정적인 수소모빌리티 보급과 확산을 위해서는 차량을 비롯한 충전 인프라 확충뿐만 아니라 흔들림 없는 수소 공급망 구축이 필수적&rdquo;이라며 &ldquo;이번 교육을 통해 정부, 지자체, 업계가 수소 수급 현안을 면밀히 점검하고 현장 목소리를 공유해 수소 대중교통이 차질 없이 운행될 수 있도록 지원하겠다&rdquo;고 밝혔다.\r\n\r\n석유관리원은 국가 수소 공급망을 안정적으로 관리하며 정부&middot;지자체&middot;관련 기업과 협력을 강화하고 현장 중심 수소 유통 관리체계를 확립한다는 방침이다. 이를 통해 수소 모빌리티를 안정적으로 운영하며 수소경제 활성화를 적극 지원한다는 계획이다."
     }
   ]
 }
