@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-05",
+  "generatedAt": "2026-09-05T22:46:08.721Z",
+  "articleCount": 5,
+  "articles": [
+    {
+      "id": "ef8b3c65-7505-450f-8b0e-59dba98e0247",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "아일랜드, 데이터센터 전력 공급을 위한 도약적 신념",
+      "titleOriginal": "Ireland’s leap of faith to power data centers",
+      "summary": "아일랜드의 대규모 에너지 사용자 행동 계획(LEAP)에 따라, 10MW 이상의 데이터센터는 에너지 수요의 최소 80%를 현장 신재생에너지 발전 및 저장으로 충당해야 합니다. 블라스나이드 오데아(Blathnaid O’Dea) 기자는 이러한 데이터센터의 탈탄소화 기여 성공 여부가 아일랜드의 전력망 구축에 달려있다고 보고했습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-05T04:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/05/irelands-leap-of-faith-to-power-data-centers/",
+      "collectedAt": "2026-09-05T22:43:33.565Z",
+      "bodySnippet": "<p>Under Ireland’s Large Energy User Action Plan (LEAP), 10 MW-plus data centers must provide at least 80% of their energy demand through new onsite renewable energy generation and storage. But whether data centers can meaningfully contribute to Ireland’s decarbonization depends on the success of its grid buildout, reports Blathnaid O’Dea.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/05/irelands-leap-of-faith-to-power-data-centers/\">Ireland&#8217;s leap of faith to power data centers</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "c64c8858-5b5a-4b20-a59a-25169ebf3fbd",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "내일의 데이터 센터 구축에서 제조의 역할",
+      "titleOriginal": "The role of manufacturing in tomorrow’s data center buildouts",
+      "summary": "이 기사는 미래 데이터 센터 구축에서 제조업의 역할을 조명합니다. 현재 데이터 센터 건설에 대한 막대한 투자가 이루어지고 있지만, 이를 뒷받침하는 조달 인프라가 충분히 확장되지 못하고 있는 문제점을 다룹니다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-09-05T10:00:34.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/opinions/the-role-of-manufacturing-in-tomorrows-data-center-buildouts/",
+      "collectedAt": "2026-09-05T22:43:40.794Z",
+      "bodySnippet": "<p data-block-key=\"w1vhd\">Procurement infrastructure that hasn't scaled alongside the investment driving it</p>"
+    },
+    {
+      "id": "7195657a-c2d2-44c3-b3d0-6690ae8af268",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "스폰서: 고밀도 AI를 위한 전력 및 냉각 계획",
+      "titleOriginal": "Sponsored: Planning power and cooling for high-density AI",
+      "summary": "랙 밀도가 증가하고 하드웨어 로드맵이 가속화되는 고밀도 AI 환경에서, Legrand의 전문가들은 전기 및 열 인프라를 함께 계획해야 한다고 설명합니다. 이는 급증하는 전력 소비와 발열 문제에 효율적으로 대응하기 위한 필수적인 전략입니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-09-05T07:00:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/marketwatch/planning-power-and-cooling-for-high-density-ai/",
+      "collectedAt": "2026-09-05T22:43:52.079Z",
+      "bodySnippet": "<p data-block-key=\"v5mk4\">As rack densities rise and hardware roadmaps accelerate, Legrand’s experts explain why electrical and thermal infrastructure must be planned together</p>"
+    },
+    {
+      "id": "3a5a16ba-4e07-419d-8b2a-216ba1ddf362",
+      "source": "전자신문 (Energy)",
+      "sourceId": "etnews",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "현대제철, HPLS 전기로 제철소 기공식 개최",
+      "titleOriginal": null,
+      "summary": "현대제철이 4일(현지시간) 미국 루이지애나주 도널슨빌에서 HPLS 전기로 제철소 기공식을 개최하며 탄소저감 고급 판재류 생산의 첫걸음을 뗐다. 정의선 회장은 이곳에서 생산될 철강이 현대차그룹 및 미국 자동차 기업의 차세대 모빌리티 생산과 AI 데이터센터, 발전 분야 등 핵심 산업의 기반이 될 것이라고 밝혔다.",
+      "topics": [
+        "운영 최적화"
+      ],
+      "primaryTopic": "운영 최적화",
+      "publishedAt": "2026-09-05T13:24:54.000Z",
+      "originalUrl": "https://www.etnews.com/20260905000070",
+      "collectedAt": "2026-09-05T22:44:03.649Z",
+      "bodySnippet": "현대제철이 4일(현지시간) 미국 루이지애나주 도널슨빌에서 탄소저감 고급 판재류 생산을 위한 HPLS(HYUNDAI-POSCO Louisiana Steel) 전기로 제철소 기공식을 개최했다고 밝혔다.  이날 기공식에 참석한 정의선 회장은 “이곳에서 생산되는 철강은 현대차그룹은 물론 미국의 자동차 기업들이 차세대 모빌리티를 생산하는 데 큰 역할을 할 것”이라며 “인공지능(AI) 데이터센터에서 발전 분야에 이르기까지 핵심 산업의 기반을 구축하고, 더"
+    },
+    {
+      "id": "94dc5d09-de1a-45e3-90c5-ab40884deb87",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "현대 정의선·포스코 장인화, 미국서 8조원 전기로 제철소 첫삽",
+      "titleOriginal": null,
+      "summary": "현대제철, 포스코, 현대차, 기아가 총 58억 달러(약 8조 원)를 공동 투자하여 미국 루이지애나에 전기로 기반의 자동차강판 전문 제철소(HPLS)를 건설합니다. 이 제철소는 2029년부터 연간 270만 톤의 자동차강판을 생산하여 미국 철강 관세(최대 50%)에 대응하고 현대차그룹의 현지 공급망을 강화하며, 기존 고로 대비 탄소배출량을 약 70% 감축할 목표입니다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-09-05T21:21:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260905028421012",
+      "collectedAt": "2026-09-05T22:44:47.132Z",
+      "bodySnippet": "현대제철 50%·포스코 20% 공동 투자…2029년 자동차강판 연 270만t 양산\n미국 철강 관세 대응하고 현대차그룹 현지 공급망 강화 ▲현대제철-포스코 루이지애나 전기로 제철소 기공식. 사진=산업통상부 현대제철과 포스코가 미국에 총 58억달러(약 8조원)를 투자해 전기로 기반 자동차강판 전문 제철소를 건설한다. 국내 철강업계 1·2위가 미국의 관세 장벽을 넘고 현지 자동차강판 시장을 공략하기 위해 손을 잡았다. 현대제철은 4일(현지시간) 미국 루이지애나주 어센션 패리시 도널드슨빌에서 '현대제철-포스코 루이지애나 제철소(HPLS)' 기공식을 열었다고 5일 밝혔다. 행사에는 정의선 현대자동차그룹 회장과 장인화 포스코그룹 회장을 비롯해 김정관 산업통상부 장관, 강경화 주미대사, 제프 랜드리 루이지애나 주지사 등이 참석했다. HPLS의 지분은 현대제철이 50%를 보유한다. 포스코가 20%, 현대차와 기아가 각각 15%를 출자한다. 현대차그룹 계열사가 전체 지분의 80%를 보유하고 포스코가 철강 생산기술과 사업 역량을 보태는 구조다. 제철소는 약 223만평 부지에 들어선다. 제강부터 열연·냉연·도금 공정까지 갖춘 일관 생산체제를 구축하고 연간 270만t의 자동차강판 등을 생산한다. 본격적인 공사는 올해 4분기 시작되며 2029년 양산이 목표다. 정 회장은 “이곳에서 생산되는 철강은 현대차그룹뿐 아니라 미국 자동차 기업들이 차세대 모빌리티를 생산하는 데 큰 역할을 할 것\"이라며 “AI 데이터센터와 발전 분야에 이르기까지 미국 핵심 산업의 기반을 구축하는 데도 기여할 것\"이라고 말했다. 장 회장은 기공식 후 “국내에서는 포스코와 현대제철이 경쟁자지만 글로벌 시장에서는 모두 한국 기업\"이라며 포스코의 자동차강판과 수소환원제철 기술을 활용해 협력하겠다는 뜻을 밝혔다. HPLS는 미국 최초의 전기로 기반 자동차강판 전문 일관제철소다. 철스크랩과 직접환원철 등을 전기로에서 녹여 쇳물을 만드는 방식으로, 현대제철은 기존 고로 공정과 비교해 탄소배출량을 약 70% 줄인다는 목표를 세웠다. 다만 이는 양산 이후 검증된 실적이 아니라 회사가 제시한 감축 목표치다. 현대차그룹은 이번 투자를 통해 미국에서 철강 소재부터 완성차까지 연결되는 현지 공급망을 구축하게 된다. 생산된 강판은 현대차 앨라배마 공장과 기아 조지아 공장, 현대차그룹 메타플랜트 아메리카 등에 공급되며 다른 글로벌 완성차 업체로도 판매처를 확대할 계획이다. 미국이 수입 철강에 부과하는 고율 관세를 현지 생산으로 우회할 수 있다는 점도 사업의 핵심이다. 미국 정부는 지난해 외국산 철강에 25% 관세를 부과한 데 이어 이를 50%로 높였다. 현대제철과 포스코는 수출 대신 미국 내 생산을 확대해 통상 위험을 줄이고 북미 자동차강판 시장을 직접 공략할 수 있게 됐다. 이번 제철소는 현대차그룹이 2028년까지 추진하는 260억달러 규모 대미 투자계획의 주요 사업이다. 국내 생산과 고용에 미칠 영향, 포스코의 기술 제공 범위와 제품 판매권, 전기로에서 고급 자동차강판의 품질과 수율을 얼마나 안정적으로 확보할지가 향후 사업의 관건으로 꼽힌다. <"
+    }
+  ]
+}
