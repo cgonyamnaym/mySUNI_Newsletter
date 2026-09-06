@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-07",
+  "generatedAt": "2026-09-06T22:51:51.877Z",
+  "articleCount": 2,
+  "articles": [
+    {
+      "id": "7caaf515-a197-4131-9f92-3e1318b380b9",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "건설연, 도심형 수소시설 지상–지하 입체화 방호기술 개발",
+      "titleOriginal": null,
+      "summary": "한국건설기술연구원(KICT)은 도심형 수소 생산·충전시설의 고압설비를 지하에 배치하고 지상 시설과 연계하는 '지상–지하 입체화 방호구조 안전성 설계기술'을 개발했다. 이 기술은 누출 감지, 사고 차단 등 실시간 안전관리 기능을 통합하여 도심 내 제한된 부지를 효율적으로 활용하고 사고 피해를 저감하는 것이 특징이다. 개발된 기술은 평택 테스트베드에 적용되어 현장 실증이 추진될 예정이다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-07T00:35:47.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=372096",
+      "collectedAt": "2026-09-06T22:48:38.614Z",
+      "bodySnippet": "한국건설기술연구원(원장 박선규)이 도심 내 수소 생산·충전시설의 고압설비를 지하 방호공간에 배치하고 지상 운영시설과 연계하는 ‘지상–지하 입체화 방호구조 안전성 설계기술’을 개발했다.건설연은 지난 4일 기술 개발을 발표하고, 평택 테스트베드에 적용해 현장 실증을 추진한다고 밝혔다.이번 기술은 기존 수소시설 지하화 기술에 누출 감지, 사고 차단, 강제 환기, 폭발 피해 저감, 실시간 안전관리 기능을 통합한 것이 특징이다. 수소 압축·저장 등 주요 고압설비를 지하에 배치함으로써 도심의 제한된 부지를 효율적으로 활용하고, 사고 발생 때"
+    },
+    {
+      "id": "c2117cb7-3f96-4840-824b-2a7b77432046",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "GS건설, AI 데이터센터 겨냥 PMDC 표준모델 개발 착수",
+      "titleOriginal": null,
+      "summary": "GS건설은 급증하는 인공지능(AI) 데이터센터 수요에 대응하기 위해 사전 제작형 모듈러 데이터센터(PMDC) 표준모델 개발에 착수했다. 이를 위해 LG유플러스, 자이C&A, 간삼건축, D&O CM과 'PMDC Alliance 구축을 위한 업무협약'을 체결하여 국내 환경에 최적화된 PMDC 표준모델을 개발할 예정이다.",
+      "topics": [
+        "운영 최적화",
+        "에너지원"
+      ],
+      "primaryTopic": "운영 최적화",
+      "publishedAt": "2026-09-07T00:26:06.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=372095",
+      "collectedAt": "2026-09-06T22:48:44.947Z",
+      "bodySnippet": "GS건설이 급증하는 인공지능(AI) 데이터센터 수요에 대응하기 위해 사전 제작형 모듈러 데이터센터(PMDC) 표준모델 개발에 나선다.GS건설은 지난 4일 경기 안양시 LG유플러스 평촌메가센터에서 LG유플러스, 자이C&A, 간삼건축, D&O CM과 ‘PMDC Alliance 구축을 위한 업무협약’을 체결했다고 6일 밝혔다. 이날 협약식에는 허윤홍 GS건설 대표와 홍범식 LG유플러스 대표, 김욱수 자이C&A 대표, 박무찬 간삼건축 총괄대표, 이영호 D&O CM 대표 등이 참석했다.이번 협약은 국내 환경에 최적화된 PMDC 표준모델을 개"
+    }
+  ]
+}
