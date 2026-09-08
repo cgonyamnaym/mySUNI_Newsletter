@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-09",
+  "generatedAt": "2026-09-08T23:33:51.032Z",
+  "articleCount": 5,
+  "articles": [
+    {
+      "id": "501cf611-4ddc-4ce4-8194-440f11096832",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[2026 국감] 친환경선박 전환율 2030년 15%…글로벌 탄소규제 넘을 수 있나",
+      "titleOriginal": null,
+      "summary": "국제해운의 탄소중립 규제 강화에도 불구하고 우리나라의 2030년 친환경선박 전환 목표가 15% 수준에 머물러 있어 대응 역량이 부족하다는 지적이 제기되었습니다. 국회입법조사처는 IMO 및 EU 규제에 발맞춰 선박 개발, 대체연료 공급, 항만 인프라를 아우르는 종합적인 정책 재검토를 권고했습니다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-09-09T06:05:00.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=202920",
+      "collectedAt": "2026-09-08T23:24:07.348Z",
+      "bodySnippet": "[에너지데일리 조남준 기자 ] 국제해운의 탄소중립 규제가 빠르게 강화되고 있지만 우리나라 친환경선박 정책은 2020년 수립한 목표에 머물러 있다는 지적이 제기됐다. 국제해사기구(IMO)와 유럽연합(EU)의 강화된 규제를 반영해 2030년 친환경선박 전환 목표를 재검토하고, 선박 건조뿐 아니라 대체연료 공급과 항만 인프라, 금융지원까지 포함한 종합전략이 필요하다는 분석이다.국회입법조사처는 최근 발간한 '2026 국정감사 이슈 분석'을 통해 정부의 친환경선박 개발·보급 목표가 국제 탄소규제에 충분히 대응하는지 점검해야 한다고 밝혔다."
+    },
+    {
+      "id": "8ecd9686-5991-4e6c-8415-870b3253f064",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[2026 국감] 영농형 태양광 확대 앞두고 수익성·계통·영농 지속성 ‘삼중 과제’",
+      "titleOriginal": null,
+      "summary": "국회입법조사처는 '2026 국정감사 이슈 분석'을 통해 영농형 태양광 사업의 성패를 위해 전력망 접속, 실질 수익성, 농업 생산성 검증이 선행되어야 한다고 지적했다. 정부가 충분한 검증 없이 보급을 서두를 경우 발생할 수 있는 시행착오 비용이 농가에 전가될 우려를 제기했다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-09T06:00:00.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=202919",
+      "collectedAt": "2026-09-08T23:24:10.076Z",
+      "bodySnippet": "[에너지데일리 변국영 기자] 영농형 태양광의 법적 기반이 마련됐지만 발전수익과 농업 생산성을 동시에 확보할 수 있는지는 아직 충분히 검증되지 않았다는 지적이 제기됐다. 전력망 접속 지연과 발전사업 제도 변화, 작물 생산량 감소 가능성 등을 제대로 알리지 않은 채 보급을 서두르면 정책의 시행착오 비용이 농업인과 농촌 주민에게 돌아갈 수 있다는 우려다.국회입법조사처는 ‘2026 국정감사 이슈 분석’을 통해 영농형 태양광이 농가소득과 재생에너지 확대를 함께 달성하려면 사업 초기부터 계통 접속 가능성과 실질 수익, 영농 지속성, 지역별 형"
+    },
+    {
+      "id": "cf0e1c95-95e4-40a8-bd23-e263d846117d",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "발전현장 AI 해법…중부발전, 창업기업과 함께 찾는다",
+      "titleOriginal": null,
+      "summary": "한국중부발전이 에스솔루션, 가온플랫폼, 넥스트로 등 3개 창업기업과 민·관 협력 오픈이노베이션 업무협약을 체결했다. 이번 협약을 통해 발전 현장에 최적화된 AI 기술을 개발·검증하여 기술 사업화를 지원하고 혁신 기술을 현장에 선제적으로 도입할 계획이다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-09T08:15:47.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70864",
+      "collectedAt": "2026-09-08T23:30:30.834Z",
+      "bodySnippet": "중부발전이 발전현장에서 필요한 AI 기술을 창업기업과 함께 개발·검증하는 오픈이노베이션에 나섰다. 한국중부발전(주)(사장 이영조)은 발전소 현장에서 필요한 기술을 기반으로 창업기업의 기술 사업화와 성장을 지원하는 한편 검증된 AI 혁신기술을 발전현장에 선제적으로 도입하기 위해 지난 8일 충남창조경제혁신센터(충남 홍성군 소재)에서 에스솔루션·가온플랫폼·넥스트로 등 3개 창업기업과 민·관 협력 오픈이노베이션 기술지원 업무협약을 체결했다."
+    },
+    {
+      "id": "a9981008-343e-4477-9f86-8db256f83497",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "AI 전환 속도…광해광업공단 AI 프론티어 출범",
+      "titleOriginal": null,
+      "summary": "한국광해광업공단이 기존 정보화 중심 의사결정체계를 AI로 확대하기 위해 실무진 30명으로 구성된 'AI 프론티어'를 출범했다. 공단은 이를 통해 현장 밀착형 AI 과제를 발굴하고 지속가능한 AI 전환 환경 조성 및 내부 역량 내재화에 나선다.",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-09-09T07:52:11.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70863",
+      "collectedAt": "2026-09-08T23:30:36.258Z",
+      "bodySnippet": "광해광업공단이 기존 정보화 중심 의사결정체계를 AI까지 포괄하도록 확대하는 등 전사적인 AI 전환에 속도를 낸다. 한국광해광업공단(사장 황영식)은 지속가능한 AI 전환 환경을 조성하고 현장 밀착형 AI 과제 발굴과 관련 역량을 내재화하기 위해 실무 중심 임직원 30명으로 ‘AI 프론티어’를 구성하고 지난 8일 본사(강원 원주시 소재)에서 발대식을 개최했다."
+    },
+    {
+      "id": "8e1bcfd9-d36c-4acd-b40b-8d0612329b27",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "AI 데이터센터 보안…한전KDN, 내재화 핵심기술 확보 나서",
+      "titleOriginal": null,
+      "summary": "한전KDN이 AI 데이터센터의 구축부터 운영 전반에 걸친 보안 기술 내재화를 위해 산·학·연 전문가들과 워크숍을 개최했다. 이를 통해 데이터센터의 핵심 보안 기술을 확보하고 최신 대응 전략을 현장에 적용하기 위한 기술 공유에 나섰다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-09T07:32:21.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70862",
+      "collectedAt": "2026-09-08T23:30:38.227Z",
+      "bodySnippet": "한전KDN이 AI 데이터센터 구축 단계부터 운영까지 모든 과정에 보안을 내재화하기 위한 핵심기술 확보에 나섰다. 한전KDN(주)(사장 박상형)은 AI 데이터센터 구축과 운영에 필요한 보안기술과 대응전략을 공유하고 이를 현장에 내재화하는 한편 최신 보안정책과 기술 동향을 논의하기 위해 지난 7일부터 8일까지 산·학·연 전문가들이 참여한 가운데 AI 데이터센터 보안 기술 워크숍을 개최했다."
+    }
+  ]
+}
