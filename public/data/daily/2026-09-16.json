@@ -1,7 +1,7 @@
 {
   "date": "2026-09-16",
-  "generatedAt": "2026-09-16T23:52:06.457Z",
-  "articleCount": 160,
+  "generatedAt": "2026-09-17T23:41:51.776Z",
+  "articleCount": 162,
   "articles": [
     {
       "id": "d6f2bcc0-b262-4bbd-ac36-c1ba57f823e7",
@@ -3094,6 +3094,46 @@
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=70936",
       "collectedAt": "2026-09-16T23:50:53.336Z",
       "bodySnippet": "한전기술이 독자모델로 개발 중인 해양 SMR인 반디 기술 완성도를 높이는 한편 사업화 기반을 강화한다. 한국전력기술(주)(사장 김태균)은 한국기계연구원과 원전 설계·엔지니어링 역량과 기계 분야 핵심기기 연구역량을 결합해 해양 환경에 적합한 SMR인 반디(BANDI) 핵심기술 개발에 협력하기로 하고 지난 15일 업무협약을 체결했다. 반디는 한전기술이 독자적으로 개발하고 있는 열출력 200MW와 전기출력 60MW급 해양 SMR이다."
+    },
+    {
+      "id": "e14cc976-f7ae-4b3e-95ea-91126c36254f",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "S&P 전문가들, 공공요금 부담이 도시 재정에 압박을 줄 수 있다고 경고",
+      "titleOriginal": "Utility costs could put pressure on cities’ finances, S&P experts warn",
+      "summary": "S&P 글로벌 분석가들은 많은 지역에서 가구 소득 대비 공공요금 부담이 커지면서 도시 재정의 유연성이 저하될 수 있다고 경고했습니다. 현재 즉각적인 신용등급 하향 조정으로 이어지지는 않았지만, 전문가들은 이를 향후 공공 재정에 잠재적인 위험 요소로 보고 있습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-16T14:33:14.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/rising-utility-costs-could-put-pressure-on-cities-finances-sp-experts-wa/830557/",
+      "collectedAt": "2026-09-17T23:31:26.393Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/unLEMbV38GIA6FdUtH-9B-104-0lTAt1QV_3v1wdw8Q/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9TYW5fRnJhbi5qcGc=.webp\"/></div></figure><p>Rates are high compared to household income in many places, and over time, this could reduce flexibility for public finance entities, say&nbsp;S&amp;P Global analysts. This isn&rsquo;t currently leading to significant bond rating actions, but it&rsquo;s a &ldquo;simmering risk.&rdquo;</p>"
+    },
+    {
+      "id": "3c3aa778-f0d6-4b75-a3a1-05d1778fbf18",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "주도적인 주 정부 계획이 규제 완화된 시장에서 청정에너지 발전을 촉진할 수 있다는 보고서",
+      "titleOriginal": "State-led planning could advance clean energy in deregulated markets: report",
+      "summary": "Clean Air Task Force는 원자력 및 해상 풍력과 같은 기술이 겪는 주요 장벽을 해결하기 위해 주 정부가 새로운 장기 계획 수립 과정에 적극적으로 개입해야 한다고 제언했습니다. 이 보고서는 규제 완화된 시장 환경 내에서 이러한 핵심 청정에너지 기술을 육성하기 위한 정책적 전환의 필요성을 강조하고 있습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-16T13:33:25.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/state-led-planning-could-advance-clean-energy-in-deregulated-markets-repor/830529/",
+      "collectedAt": "2026-09-17T23:31:28.430Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/wMWOaczvU8z87wzkdVkDqR6KyAWwqH0y3chv9Iq3BaM/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9ueXNlcmRhMi5QTkc=.webp\"/></div></figure><p>States should step in with new long-term planning processes to bolster nuclear, offshore wind and other technologies that face major barriers, according to the Clean Air Task Force.</p>"
     }
   ]
 }
