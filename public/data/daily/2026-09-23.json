@@ -1,7 +1,7 @@
 {
   "date": "2026-09-23",
-  "generatedAt": "2026-09-22T23:50:15.710Z",
-  "articleCount": 6,
+  "generatedAt": "2026-09-23T23:41:14.657Z",
+  "articleCount": 83,
   "articles": [
     {
       "id": "651131ea-a452-4cfb-9c65-de20b83d42c5",
@@ -121,6 +121,1514 @@
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260923022348347",
       "collectedAt": "2026-09-22T23:49:29.792Z",
       "bodySnippet": "도내 대상 2318개 마을 중 80% 전력계통 연계 어려워\n선정 4개 마을 중 2곳 ‘조건부’…ESS 지원 필요\n박길선 의장, 전국 시·도의회 공동 현안으로 확대…정부 대책 촉구 강원=에너지경제신문 박에스더 기자 박길선 강원도의회 의장이 전력망 부족으로 정부가 추진하는 '햇빛소득마을' 사업에 차질이 빚어질 수 있다는 우려를 제기했다. 도내 사업 대상 마을의 80%가 계통연계에 어려움을 겪는 것으로 파악되면서 정부의 전력망 확충 대책을 촉구하고 나섰다. 22일 강원도의회에 따르면 도가 햇빛소득마을 사업 대상으로 보고 있는 곳은 15개 시군 2318개 마을이다. 이 가운데 약 80%가 현재 전력계통 여건상 발전사업을 바로 추진하기 어려운 지역으로 파악됐다. 이미 선정된 마을에서도 문제가 나타났다. 도내에서는 1·2차 공모에 49개 마을이 신청했고 1차에서 4개 마을이 선정됐다. 그러나 이 가운데 즉시 사업 추진이 가능한 곳은 2곳에 그쳤다. 나머지 2곳은 송전로 부족으로 ESS(에너지저장장치) 지원 등이 필요한 조건부 선정이다. 정부는 햇빛소득마을을 전국으로 확대하고 있다. 주민들이 협동조합 등을 구성해 태양광 발전시설을 운영하고 발전 수익을 주민 복지와 마을 공동사업 등에 사용하는 방식이다. 1차 공모에 전국 129개 마을, 2차에는 617개 마을이 신청했다. 주민 참여는 늘고 있지만 전력망 확충이 이를 따라가지 못하면서 실제 사업 착수까지 상당한 시간이 걸릴 수 있다는 게 도의회의 지적이다. 박 의장은 이 문제를 전국 시도의회 차원의 의제로 논의를 확대할 계획이다. 오는 29일 대한민국 시·도의회의장협의회 제6차 임시회에 '햇빛소득마을의 안정적 추진을 위한 전력계통 개선 촉구 건의안'을 제출한다. 지난 17일 조성호 의원 주도로 채택된 건의안을 전국 시·도의회 공동 현안으로 다뤄 정부 차원의 대책 마련을 촉구하기 위해서다. 건의안에는 제12차 장기 송변전설비계획에 계통 취약지역의 전력망 확충을 우선 반영하고 주민참여형 재생에너지 사업의 우선접속 기준과 절차를 조속히 마련할 것을 요구하는 내용이 담겼다. 아울러 전력망 확충 전까지 배전망 보강과 ESS 연계 지원책을 마련할 것도 촉구한다. 박 의장은 “발전 설비를 설치하고도 생산된 전력을 판매할 수 없거나 사업 착수 시기조차 예측하기 어려운 문제가 발생하고 있다\"며 “제12차 장기 송변전설비계획 수립 때 취약지역에 대한 전력망 확충 계획을 우선 반영해야 한다\"고 했다. 한편 햇빛소득마을로 선정되면 사업비의 85%를 정부가 대출 지원하고, 나머지 15%는 협동조합 등 마을 단위 사업주체가 부담한다. <"
+    },
+    {
+      "id": "1c3cf43f-1eff-4aec-a241-31c7f3d0812e",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "양도성과 미중 긴장이 미국 BESS 및 재생에너지 자금 조달을 어떻게 변화시키고 있는가",
+      "titleOriginal": "How transferability and US-China tensions are transforming US BESS and renewables financing  ",
+      "summary": "이 기사는 Energy-Storage.news가 Horizon Advisory의 공동 설립자인 Nathan Picarsic과 진행한 인터뷰 내용을 담고 있다. 인터뷰는 2026년 캘리포니아 가든그로브에서 열린 미국 배터리 자산 관리 및 태양광 및 저장 금융 서밋에서 진행되었으며, 양도성과 미중 긴장이 미국 BESS 및 재생에너지 자금 조달에 미치는 변화에 중점을 둔다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T11:39:26.000Z",
+      "originalUrl": "https://www.energy-storage.news/how-transferability-and-us-china-tensions-are-transforming-us-bess-and-renewables-financing/",
+      "collectedAt": "2026-09-23T23:29:05.308Z",
+      "bodySnippet": "Energy-Storage.news speaks with Nathan Picarsic, co-founder of Horizon Advisory, at the 2026 US Battery Asset Management and Solar and Storage Finance Summits in Garden Grove, California."
+    },
+    {
+      "id": "9c83e92c-bcd2-462a-a780-c10317051388",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "그리드스토어, 애리조나 400MWh BESS 프로젝트에 2억 2천만 달러 자금 조달 성공",
+      "titleOriginal": "GridStor closes US$220 million financing for 400MWh Arizona BESS",
+      "summary": "미국 기반 BESS(배터리 에너지 저장 시스템) 개발 및 운영사인 그리드스토어(GridStor)는 애리조나주에 위치한 100MW/400MWh 규모의 화이트 탱크(White Tank) 프로젝트를 위해 2억 2천만 달러의 자금 조달 계약을 체결했습니다. 이는 그리드스토어가 추진하는 대규모 그리드 연결형 BESS 프로젝트의 성공적인 구축 및 운영을 위한 중요한 단계입니다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T11:38:18.000Z",
+      "originalUrl": "https://www.energy-storage.news/gridstor-closes-us220-million-financing-for-400mwh-arizona-bess/",
+      "collectedAt": "2026-09-23T23:29:13.241Z",
+      "bodySnippet": "GridStor, a US-based developer and operator of grid-scale battery energy storage systems (BESS) has closed a US$220 million financing agreement for the 100MW/400MWh White Tank project in Arizona, US."
+    },
+    {
+      "id": "c10985a9-3d7c-429f-ae74-31184c16105a",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "영국 규제기관, BESS 연계 적체 해소 위해 추가 재정 부담 검토",
+      "titleOriginal": "UK regulator looks to cut down BESS interconnection backlog with extra financial commitment",
+      "summary": "영국 에너지 규제기관 오프젬(Ofgem)은 그리드 연결을 대기 중인 BESS(배터리 에너지 저장 시스템) 프로젝트의 과도한 적체 현상을 줄이기 위해 BESS에 대한 재정적 약속 도입을 승인할 의향이 있다고 밝혔다. 이 조치는 연계 지연을 해소하고 전력망 효율성을 높이는 것을 목표로 한다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T11:08:06.000Z",
+      "originalUrl": "https://www.energy-storage.news/uk-regulator-looks-to-cut-down-bess-interconnection-backlog-with-extra-financial-commitment/",
+      "collectedAt": "2026-09-23T23:29:19.378Z",
+      "bodySnippet": "UK energy industry regulator Ofgem said it is minded to approve the introduction of a financial commitment for BESS in an attempt to reduce the oversupply of the projects awaiting a grid connection."
+    },
+    {
+      "id": "65c011bf-0b91-45be-b2b3-0e545044f044",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "압축공기 에너지 저장 (CAES): 아직 약속을 이행하지 못했지만, A-CAES는 한 단계 더 나아갈 수 있을까?",
+      "titleOriginal": "Compressed air energy storage (CAES): yet to deliver on promises, can A-CAES go one step further?  ",
+      "summary": "압축공기 에너지 저장(CAES)은 대규모 장주기 에너지 저장(LDES) 분야에서 많은 잠재력을 가지고 있습니다. 그러나 CAES는 중국 외 지역에서는 상용화에 어려움을 겪고 있으며, 아직 약속된 성과를 내지 못하고 있습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T10:23:09.000Z",
+      "originalUrl": "https://www.energy-storage.news/compressed-air-energy-storage-caes-yet-to-deliver-on-promises-can-a-caes-go-one-step-further/",
+      "collectedAt": "2026-09-23T23:29:23.298Z",
+      "bodySnippet": "Compressed air energy storage (CAES) holds much promise for large-scale, LDES, but has struggled to get off the ground outside of China."
+    },
+    {
+      "id": "8c096090-a5b0-4849-883c-8bda2d38368d",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "CATL, 루마니아에 918MWh BESS 공급…중동부 유럽에 500MWh 추가 프로젝트 진전",
+      "titleOriginal": "CATL to supply 918MWh Romania BESS, another 500MWh of projects progress elsewhere in CEE",
+      "summary": "CATL이 루마니아에 918MWh 규모의 배터리 에너지 저장 시스템(BESS)을 공급할 예정이다. 이와 함께 중동부 유럽(CEE) 지역의 다른 곳에서도 500MWh 규모의 추가 프로젝트들이 진행되고 있다. Greenvolt, Renovatio 등 여러 기업들이 참여하며 대규모 BESS 프로젝트의 완료, 자금 조달 및 공급 계약이 활발하게 이루어지고 있다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T10:21:46.000Z",
+      "originalUrl": "https://www.energy-storage.news/catl-supply-918mwh-romania-bess-another-500mwh-projects-progress-elsewhere-in-cee/",
+      "collectedAt": "2026-09-23T23:29:29.071Z",
+      "bodySnippet": "A flurry of project completions, financings and supplier deals for large-scale BESS across the Central and Eastern Europe (CEE) region, from Greenvolt, Renovatio &#038; CATL, Eurowind, Renalfa, MOL Group, Tavion, MetaWealth and Enexus &#038; Longi. "
+    },
+    {
+      "id": "a2b2bd39-624a-481c-a0e4-05937303482a",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "호주 빅토리아주, 신규 데이터센터에 재생에너지 및 저장장치 자체 조달 의무화",
+      "titleOriginal": "Australia’s Victoria requires new data centres to bring their own renewable energy and storage",
+      "summary": "호주 빅토리아주는 새로운 규정에 따라 신규 데이터센터가 자체적으로 재생에너지와 배터리 저장장치를 조달하여 전력 수요를 충족하도록 의무화했습니다. 이는 데이터센터의 에너지 소비를 친환경적으로 전환하고 지속 가능한 발전을 도모하기 위한 조치입니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T08:21:48.000Z",
+      "originalUrl": "https://www.energy-storage.news/australias-victoria-requires-new-data-centres-to-bring-their-own-renewable-energy-and-storage/",
+      "collectedAt": "2026-09-23T23:29:35.154Z",
+      "bodySnippet": "Australia's Victoria mandates new data centres match demand with own renewable energy and battery storage under new rules."
+    },
+    {
+      "id": "e35f3f4b-231f-4c6b-af48-c8c508199ddc",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "캘리포니아의 최신 가상 발전소(VPP)에 기대감을 가져야 할까요?",
+      "titleOriginal": "Should we get excited about California’s latest virtual power plant?",
+      "summary": "본 기사는 캘리포니아의 청정 에너지 전환을 위한 옥상 태양광 및 가정용 배터리 활용 방안을 다루는 'California Wire' 뉴스레터의 일부입니다. 제프 세인트 존(Jeff St. John)은 기존 자원들을 활용한 가상 발전소(VPP)의 잠재력과 현재의 한계에 대해 논의합니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T18:00:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/virtual-power-plants/california-latest-virtual-power-plant",
+      "collectedAt": "2026-09-23T23:29:43.271Z",
+      "bodySnippet": "\n                     This is  California Wire  , a weekly newsletter from Jeff St. John on the state’s clean energy transition.  Subscribe to get it every Wednesday via Substack.   Hi, everyone! Let’s pick up a theme from last week’s newsletter: how California has yet to take full advantage of rooftop solar, backup batteries, and other…\n                "
+    },
+    {
+      "id": "e30fdbc1-44e2-48b5-b6e1-35ee66afcbee",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "폴란드, 11월 재생에너지 경매에 76TWh 규모 물량 공고",
+      "titleOriginal": "Poland offers 76 TWh in November renewables auctions",
+      "summary": "폴란드 에너지규제청(URE)은 11월 재생에너지 지원을 위해 약 250억 즈워티(65억 달러) 규모의 경매를 진행한다고 발표했다. 이번 입찰은 주로 태양광(PV)과 육상 풍력 발전 프로젝트를 대상으로 총 76TWh의 전력 공급을 목표로 한다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T14:45:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/23/poland-offers-76-twh-in-november-renewables-auctions/",
+      "collectedAt": "2026-09-23T23:29:51.260Z",
+      "bodySnippet": "<p>Poland's Energy Regulatory Office (URE) has put almost PLN 25 billion ($6.5 billion) of renewables support up for bid in November, with PV and onshore wind taking most of it.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/23/poland-offers-76-twh-in-november-renewables-auctions/\">Poland offers 76 TWh in November renewables auctions</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "d763178f-cc93-4189-bca1-e96ef43db295",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "아마존과 나다라, 이탈리아에 277MW 규모 영농형 태양광 발전소 가동",
+      "titleOriginal": "Amazon, Nadara switch on 277 MW agrivoltaic facility in Italy",
+      "summary": "나다라(Nadara)가 시칠리아에 이탈리아 최대 규모인 277MW급 '빅 피쉬(Big Fish)' 영농형 태양광 발전소를 완공했습니다. 이 프로젝트는 아마존과의 156MW 전력구매계약(PPA)을 통해 운영되며, 20MW/40MWh 용량의 에너지 저장 장치(ESS)도 함께 설치되었습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T12:45:52.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/23/amazon-nadara-switch-on-277-mw-agricoltaic-facility-in-italy/",
+      "collectedAt": "2026-09-23T23:29:59.065Z",
+      "bodySnippet": "<p>Nadara has completed the 227 MW Big Fish agrivoltaic project in Sicily, backed by a 156 MW PPA with Amazon and described by the developer as Italy’s largest agrivoltaic facility. The 400-hectare project was approved with a 20 MW/40 MWh battery energy storage system.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/23/amazon-nadara-switch-on-277-mw-agricoltaic-facility-in-italy/\">Amazon, Nadara switch on 277 MW agrivoltaic facility in Italy</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "92e7a84d-945f-4a0e-9304-049a5be35824",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "블루 웨이퍼가 미국 태양광 제조 산업을 근본적으로 약화시키고 있다",
+      "titleOriginal": "Blue wafers are fundamentally undermining U.S. solar manufacturing",
+      "summary": "본 기사는 미국 태양광 제조 시설이 핵심 공정인 P/N 접합을 직접 수행하지 않고, 해외에서 반쯤 완성된 '블루 웨이퍼'를 수입해 마무리하는 관행이 국내 산업 생태계를 위협하고 있다고 지적합니다. pv magazine은 이러한 저부가가치 제조 방식이 미국 내 실질적인 태양광 제조 역량 강화를 저해하는 핵심 요인이라고 분석합니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T12:35:08.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/23/blue-wafers-are-fundamentally-undermining-u-s-solar-manufacturing/",
+      "collectedAt": "2026-09-23T23:30:06.497Z",
+      "bodySnippet": "<p>The core debate shaping U.S. solar manufacturing isn't just factory capacity, but whether facilities perform the critical P/N junction process on raw \"gray\" wafers or merely finish partially completed \"blue\" wafers imported from abroad.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/23/blue-wafers-are-fundamentally-undermining-u-s-solar-manufacturing/\">Blue wafers are fundamentally undermining U.S. solar manufacturing</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "a1bd0ef5-409d-4f05-befb-bdaca333870a",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "우크라이나, 상반기 1.1GW 규모 태양광 발전 설비 확충",
+      "titleOriginal": "Ukraine adds 1.1 GW of solar in H1",
+      "summary": "우크라이나 태양광에너지협회(Solar Energy Association of Ukraine)의 분석에 따르면, 우크라이나의 태양광 발전 용량이 2026년 상반기 기준 약 9.7GW에 도달했습니다. 올해 상반기에만 총 1.1GW 규모의 태양광 설비가 추가되며 재생에너지 시장이 성장세를 보이고 있습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T11:39:11.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/23/ukraine-adds-1-1-gw-of-solar-in-h1/",
+      "collectedAt": "2026-09-23T23:30:15.080Z",
+      "bodySnippet": "<p>Analysis from the Solar Energy Association of Ukraine estimates the country's solar capacity reached up to 9.7 GW by mid-2026.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/23/ukraine-adds-1-1-gw-of-solar-in-h1/\">Ukraine adds 1.1 GW of solar in H1</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "826c7bdc-3da5-404d-acbf-492f6322228f",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "한국, 15년 계약 조건의 6.6 GWh 6시간용 에너지저장장치(ESS) 입찰 공고",
+      "titleOriginal": "South Korea tenders 6.6 GWh of six-hour storage under 15-year contracts",
+      "summary": "전력거래소(Korea Power Exchange)는 2029년 2월 준공을 목표로 총 1.18 GW 규모의 6시간용 에너지저장장치(ESS) 입찰을 시작했다. 이번 사업은 본토 1.1 GW와 제주 80 MW를 포함해 총 6.6 GWh 규모로 구성되며, 15년 장기 계약을 기반으로 화재 안전성 및 그리드 형성 능력 등 종합적인 평가를 통해 낙찰자를 선정한다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-09-23T10:34:27.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/23/south-korea-tenders-6-6-gwh-of-six-hour-storage-under-15-year-contracts/",
+      "collectedAt": "2026-09-23T23:30:18.831Z",
+      "bodySnippet": "<p>The Korea Power Exchange has launched its 2026 ESS tender for 1.18 GW of six-hour storage, targeting 1.1 GW on mainland Korea and 80 MW on Jeju, with projects due by February 2029. Bids will be assessed 50% on price and 50% on non-price factors, including fire safety, grid-forming capability, supply-chain resilience, Korean economic contribution, maintenance, recycling, and project experience.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/23/south-korea-tenders-6-6-gwh-of-six-hour-storage-under-15-year-contracts/\">South Korea tenders 6.6 GWh of six-hour storage under 15-year contracts</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "d70f7470-1610-4c69-9dc8-2734901b7a2f",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "개조된 소비자용 카메라로 태양전지 개방전압 측정 가능",
+      "titleOriginal": "Modified consumer camera can measure solar cell open-circuit voltage",
+      "summary": "독일 연구진이 저렴한 소비자용 카메라를 개조해 실리콘 태양전지의 전계발광(electroluminescence)을 측정하는 기술을 개발했습니다. 이 방법은 외부 발광 양자 효율을 정량화하여 태양전지의 개방전압을 정확하게 도출할 수 있습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T10:30:17.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/23/modified-consumer-camera-can-measure-solar-cell-open-circuit-voltage/",
+      "collectedAt": "2026-09-23T23:30:23.101Z",
+      "bodySnippet": "<p>German researchers have modified and calibrated a low-cost consumer camera to quantitatively measure electroluminescence from silicon solar cells and modules. The method determines external luminescent quantum efficiency and uses it to derive the corresponding open-circuit voltage</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/23/modified-consumer-camera-can-measure-solar-cell-open-circuit-voltage/\">Modified consumer camera can measure solar cell open-circuit voltage</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "7a349e13-5614-47b5-8d83-7d6e37cdb29b",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "ACEN, 토지 및 접근성 문제로 필리핀 태양광 프로젝트 포기",
+      "titleOriginal": "ACEN relinquishes Philippine solar projects over land, access issues",
+      "summary": "필리핀 재생에너지 개발업체인 ACEN은 토지 확보 및 현장 접근성 문제로 인해 총 456MW 규모의 초기 단계 태양광 프로젝트 2건을 중단하기로 결정했습니다. 이번 조치는 프로젝트 추진 과정에서 발생하는 부지 관련 난관이 에너지 사업의 운영에 미치는 영향을 보여줍니다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T09:30:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/23/acen-relinquishes-philippine-solar-projects-over-land-access-issues/",
+      "collectedAt": "2026-09-23T23:30:36.733Z",
+      "bodySnippet": "<p>Land acquisition and site-access problems have led Philippine renewables developer ACEN to abandon two early-stage solar projects with a combined potential capacity of about 456 MW.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/23/acen-relinquishes-philippine-solar-projects-over-land-access-issues/\">ACEN relinquishes Philippine solar projects over land, access issues</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "bc828d99-ae22-4530-8697-94448be23c7b",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "캐나다 알버타주, 태양광 패널 재활용 수수료 도입 발표",
+      "titleOriginal": "Canadian province announces PV panel recycling fee",
+      "summary": "캐나다 알버타주 정부는 10월 1일부터 신규 공급되는 모든 태양광 패널에 대해 14 캐나다 달러(약 15.99 달러)의 재활용 수수료를 부과한다고 발표했습니다. 조성된 기금은 추후 태양광 패널의 수거, 운송 및 재활용 처리를 위한 비용으로 사용될 예정입니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T09:27:25.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/23/canadian-province-announces-pv-panel-recycling-fee/",
+      "collectedAt": "2026-09-23T23:30:40.170Z",
+      "bodySnippet": "<p>The government of Alberta is introducing a fee of CAN 14 ($15.99) to each new solar panel supplied in the province beginning October 1. It says the money raised will go towards collecting, transporting and recycling panels once they reach end of life.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/23/canadian-province-announces-pv-panel-recycling-fee/\">Canadian province announces PV panel recycling fee</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "99f92403-355a-4202-892c-773d63846faa",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "마이너스 전기 가격이 산업용 히트펌프보다 열 저장을 선호할 수 있다",
+      "titleOriginal": "Negative electricity prices could favor thermal storage over industrial heat pumps",
+      "summary": "연구원들은 다양한 마이너스 전기 가격 빈도, 수준 및 장비 비용 조건에서 산업용 히트펌프와 열 저장 기술을 비교했습니다. 이들의 모델은 선호되는 기술이 필요한 열 온도에 크게 좌우되며, 특히 증기 생산의 경우 열 저장이 더 유리하다는 것을 밝혀냈습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T09:16:09.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/23/negative-electricity-prices-could-favor-thermal-storage-over-industrial-heat-pumps/",
+      "collectedAt": "2026-09-23T23:30:43.430Z",
+      "bodySnippet": "<p>Researchers compared the two technologies under varying negative-price frequencies, price levels and equipment costs. Their model found that the preferred option depended strongly on the required heat temperature, with storage gaining an advantage for steam production.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/23/negative-electricity-prices-could-favor-thermal-storage-over-industrial-heat-pumps/\">Negative electricity prices could favor thermal storage over industrial heat pumps</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "26227d25-6c35-46e8-b488-bf9e136aed05",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Sungrow, PowerHarbor를 베네룩스 가정에 도입: 더 큰 가치, 더 적은 복잡성 제공",
+      "titleOriginal": "Sungrow brings PowerHarbor to Benelux homes for more value, less complexity",
+      "summary": "Sungrow는 2027년 1월 1일 네덜란드에서 상계거래 제도가 종료됨에 따라, 베네룩스 지역의 태양광 발전 주택 소유자들이 전력 저장 장치 도입을 고려하는 상황에 맞춰 PowerHarbor 솔루션을 출시했다. 이 시스템은 가정에서 생산된 전기의 활용 가치를 높이고 에너지 관리의 복잡성을 줄이는 것을 목표로 한다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T09:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/23/sungrow-brings-powerharbor-to-benelux-homes-for-more-value-less-complexity/",
+      "collectedAt": "2026-09-23T23:30:48.065Z",
+      "bodySnippet": "<p>With net metering ending in the Netherlands on January 1, 2027, households with rooftop solar are rethinking how to use the electricity they generate. PowerHarbor is designed for homeowners considering storage.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/23/sungrow-brings-powerharbor-to-benelux-homes-for-more-value-less-complexity/\">Sungrow brings PowerHarbor to Benelux homes for more value, less complexity</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "c78bb4fb-a9b6-4c89-a570-59c96b313da0",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "독일의 2단계 해상풍력 경매 계획, '무용지물'이며 '위험하다'",
+      "titleOriginal": "Germany’s two-stage offshore wind auction plans ‘useless’ and ‘dangerous’",
+      "summary": "독일의 2단계 해상풍력 경매 계획이 개발자들 사이에서 '무용지물'이며 '위험하다'는 평가를 받고 있다. 이 같은 우려는 9월 22일부터 25일까지 진행된 WindEnergy Hamburg 2026 콘퍼런스에서 제기되었다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T12:17:53.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1970716/germanys-two-stage-offshore-wind-auction-plans-useless-dangerous",
+      "collectedAt": "2026-09-23T23:30:54.465Z",
+      "bodySnippet": "Plans for a two-stage auction process for allocating new offshore wind in Germany are “useless” and “dangerous”, according to developers speaking at the WindEnergy Hamburg 2026 conference (22-25 September). "
+    },
+    {
+      "id": "95520fc8-da7e-442f-85e3-d9faf676b80c",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "해상풍력이 다른 해상 사용자들과 공존하는 방법",
+      "titleOriginal": "How offshore wind can coexist with other sea users",
+      "summary": "산업 전문가들에 따르면, 해상풍력이 다른 해양 이용자들과 공존하기 위해서는 초기 이해관계자 참여와 협력이 필수적입니다. 하지만 이들은 모든 상황에 적용되는 획일적인 접근 방식이 항상 효과적이지는 않을 것이라고 강조합니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T08:30:00.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1970687/offshore-wind-coexist-sea-users",
+      "collectedAt": "2026-09-23T23:30:57.986Z",
+      "bodySnippet": "Early stakeholder engagement and cooperation is key to ensuring offshore wind can co-exist with other sea users – but a one-size fits all approach will not always work, according to industry experts."
+    },
+    {
+      "id": "c423cc24-db33-4566-a7a7-a37457959a06",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "“우리는 이런 회의에 계속 참석하면서 실제 구축에 대해 논하지 않을 수 없다” – 베스타스 CEO",
+      "titleOriginal": "'We cannot keep going to these conferences and not talk factual buildout' – Vestas CEO",
+      "summary": "독일 함부르크에서 열린 WindEnergy Hamburg 2026 컨퍼런스 개회 세션에서 패널들은 어제(9월 22일) 풍력 산업이 불안정성, 대규모 전력망 병목 현상, 민간 및 공공 부문 간의 조정 부족으로 인해 여전히 문제가 많다고 지적했습니다. 베스타스 CEO는 이 컨퍼런스에서 실제 구축에 대한 논의의 필요성을 강조하며, 현안 해결을 위한 실질적인 대화의 중요성을 역설했습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T07:33:59.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1970681/we-cannot-keep-going-conferences-not-talk-factual-buildout-%E2%80%93-vestas-ceo",
+      "collectedAt": "2026-09-23T23:31:02.812Z",
+      "bodySnippet": "Instability, massive grid bottlenecks and lagging coordination between the private and public sectors remain problematic for the wind industry, panellists at the opening session of WindEnergy Hamburg 2026 conference in Germany said yesterday (22 September). "
+    },
+    {
+      "id": "ce789a8a-c42c-4ff4-a603-e18380c9cd4a",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "GE 버노바, 히타치, SGE 및 삼성물산, BWRX-300 MOU 체결",
+      "titleOriginal": "GE Vernova, Hitachi, SGE and Samsung C&T sign BWRX-300s MoU",
+      "summary": "GE 버노바, 히타치, SGE 및 삼성물산 4개 기업은 뉴욕 유엔 총회 기간 중 유럽 내 BWRX-300 소형모듈원자로(SMR) 배치 시장 기회 발굴 및 개발을 위한 양해각서(MOU)를 체결했습니다. 이 협정은 SMR 기술의 유럽 시장 진출을 목표로 에너지원 및 전력 인프라 확장을 위한 협력을 강화하는 내용입니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T10:34:49.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/ge-vernova-hitachi-sge-and-samsung-ct-sign-mou-on-bwrx-300s-in-europe",
+      "collectedAt": "2026-09-23T23:31:14.490Z",
+      "bodySnippet": "An agreement to work together to identify and develop market opportunities for the deployment of BWRX-300 small modular reactors in Europe was signed on the sidelines of the United Nations General Assembly in New York.<br />\r\n&nbsp;"
+    },
+    {
+      "id": "cdbddd21-717c-48d2-b6b1-93bad9ac27fb",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "스코다 JS, 롤스로이스 SMR 원자로용 제어봉 구동 장치 공급",
+      "titleOriginal": "Škoda JS to supply control rod drives for Rolls-Royce SMR's reactors",
+      "summary": "체코 기업 스코다 JS가 롤스로이스 SMR의 미래 소형모듈형원자로(SMR)에 필요한 제어봉 구동 장치의 단독 공급업체로 선정되었습니다. 이는 원자로의 핵심 부품 공급 계약으로, 해당 기술 분야에서 스코다 JS의 전문성을 보여줍니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T12:36:30.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/skoda-js-to-supply-control-rod-drives-for-rolls-royce-smrs",
+      "collectedAt": "2026-09-23T23:31:18.381Z",
+      "bodySnippet": "Czech company &Scaron;koda JS has been chosen as sole supplier of control rod drive mechanisms for Rolls-Royce SMR&#39;s future small modular reactors.<br />\r\n&nbsp;"
+    },
+    {
+      "id": "28920985-abc8-47cc-97cc-91e4c2fd602f",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "SGE, 영국 SMR 원전단 전망에 확신",
+      "titleOriginal": "SGE confident of UK SMR fleet prospects",
+      "summary": "영국에 14기의 BWRX-300 소형 모듈형 원자로(SMR) 건설을 추진하는 팀(SGE로 추정)은 해당 프로젝트의 경제 모델과 공급망 역량에 대해 강한 자신감을 표명했습니다. 이들은 해당 원전단이 성공적으로 구축될 것으로 전망하고 있습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T13:26:32.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/sge-confident-of-uk-smr-fleet-prospects",
+      "collectedAt": "2026-09-23T23:31:22.225Z",
+      "bodySnippet": "The team behind plans for a fleet of 14 BWRX-300 small modular reactors in the UK says they are confident of the economic model and supply chain capability to deliver these units.<br />\r\n&nbsp;"
+    },
+    {
+      "id": "58b0397f-8450-417d-afbe-3c2121435777",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "중국의 원전 건설용 대형 크레인",
+      "titleOriginal": "China's giant crane for nuclear power plant construction",
+      "summary": "중국광핵(China General Nuclear)은 지난달 250,000톤-미터의 양중 토크를 가진 링-레일 크레인이 생산 라인을 통과했다고 발표했다. 이 거대 크레인은 화룡원(Hualong One) 2.0 원자력 발전소 건설을 지원하는 데 사용될 예정이다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T07:27:54.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/china-launches-giant-crane-for-nuclear-power-plant-construction",
+      "collectedAt": "2026-09-23T23:31:27.453Z",
+      "bodySnippet": "China General Nuclear says the 250,000-ton-metre lifting torque ring-rail crane rolled off the production line last month to support the construction of Hualong One 2.0 nuclear power plants.<br />\r\n&nbsp;"
+    },
+    {
+      "id": "64c29109-c36a-4973-9ac8-acc3e55cd561",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Pickering 발전소 보수 착수 임박에 따른 계약 체결 발표",
+      "titleOriginal": "Contracts announced as Pickering refurb approaches",
+      "summary": "온타리오 주는 온타리오 전력공사(Ontario Power Generation)의 Pickering 발전소 4개 유닛 보수를 위해 30억 캐나다 달러(미화 21억 달러) 이상의 계약이 체결되었다고 발표했습니다. 이는 Pickering 발전소 보수 공사의 현장 건설이 시작됨에 따라 이루어졌습니다.",
+      "topics": [
+        "정책·규제",
+        "전력 인프라"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-09-23T15:16:37.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/contracts-announced-as-pickering-refurb-approaches",
+      "collectedAt": "2026-09-23T23:31:33.377Z",
+      "bodySnippet": "The Province of Ontario has announced the signature of more than CAD3 billion (USD2.1 billion) worth of contracts for the refurbishment of four units at Ontario Power Generation&#39;s Pickering plant as site construction for the project gets under way.<br />\r\n&nbsp;"
+    },
+    {
+      "id": "b7c97ff5-db0e-4029-b803-5b3960f3f895",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "서류상으로는 저렴해 보이는 재생에너지 계약이 데이터 센터를 가장 취약하게 만들 수 있다",
+      "titleOriginal": "The renewable energy deal that looks cheap on paper can leave data centers most exposed",
+      "summary": "새로운 분석에 따르면 데이터 센터가 단순히 저렴한 재생에너지 계약에 의존할 경우 가격 변동성 위험에 크게 노출될 수 있습니다. 최적화된 청정 전력 포트폴리오를 구성하는 것이 에너지 가격 충격에 대비한 가장 강력한 대응책이 될 수 있다고 강조합니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T16:05:36.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/opinions/the-renewable-energy-deal-that-looks-cheap-on-paper-can-leave-data-centers-most-exposed/",
+      "collectedAt": "2026-09-23T23:31:47.965Z",
+      "bodySnippet": "<p data-block-key=\"cr65g\">New analysis shows the best-matched clean power portfolio is also the strongest hedge against price shocks</p>"
+    },
+    {
+      "id": "6d187064-7344-42ea-b477-4beff0468510",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "캘리포니아 주지사, 데이터센터의 에너지 및 물 사용을 겨냥한 7개 법안 패키지에 서명",
+      "titleOriginal": "California governor signs seven-bill package targeting data center energy and water use",
+      "summary": "캘리포니아 주지사가 데이터센터의 급격한 확장에 따른 전력 및 물 소비 문제를 해결하기 위해 7개의 법안으로 구성된 패키지에 서명했습니다. 이번 조치는 데이터센터 구축 비용이 일반 요금 납부자들에게 전가되는 것을 방지하고 에너지 자원 관리 효율성을 높이는 데 중점을 두고 있습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T15:32:38.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/california-governor-signs-seven-bill-package-targeting-data-center-energy-and-water-use/",
+      "collectedAt": "2026-09-23T23:31:55.442Z",
+      "bodySnippet": "<p data-block-key=\"cmvk1\">Seeks to shield ratepayers from bearing the cost associated with data center buildout</p>"
+    },
+    {
+      "id": "8863ef8a-7b93-433f-8525-587b45c275ae",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "OpenAI와 Anthropic, 20-30MW 규모 데이터 센터 구축 추진",
+      "titleOriginal": "OpenAI and Anthropic seek 20-30MW data center deployments",
+      "summary": "OpenAI와 Anthropic이 AI 추론 수요 증가에 대응하기 위해 20-30MW 규모의 데이터 센터 구축을 모색하고 있습니다. 이는 대규모 언어 모델 운영을 뒷받침하기 위한 핵심적인 전력 인프라 확보 전략으로 풀이됩니다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-09-23T12:15:16.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/openai-and-anthropic-seek-20-30mw-data-center-deployments/",
+      "collectedAt": "2026-09-23T23:32:22.886Z",
+      "bodySnippet": "<p data-block-key=\"hju4s\">As companies ramp up inference footprint</p>"
+    },
+    {
+      "id": "cc0ff3eb-8f70-4f1c-8c88-c0729daf014b",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "메타(Meta), 텍사스에서 에이펙스(Apex)와 144MW 규모 태양광 전력구매계약(PPA) 체결",
+      "titleOriginal": "Meta signs 144MW solar PPA with Apex in Texas",
+      "summary": "메타가 에이펙스 클린 에너지와 텍사스 지역 144MW 규모의 태양광 전력구매계약(PPA)을 체결했습니다. 이번 계약은 양사 간의 일곱 번째 협력 사례로, 메타의 지속가능한 에너지 조달 전략의 일환입니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T11:42:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/meta-signs-144mw-solar-ppa-with-apex-in-texas/",
+      "collectedAt": "2026-09-23T23:32:29.591Z",
+      "bodySnippet": "<p data-block-key=\"ew3bw\">Seventh agreement between the two companies</p>"
+    },
+    {
+      "id": "f56bd7f1-5c7b-4301-984d-e8aa2a36858e",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Zeo Energy와 Ewyze, 미국 데이터 센터 부문을 위한 오프그리드 전력 솔루션 파트너십 체결",
+      "titleOriginal": "Zeo Energy and Ewyze partner on off-grid power solutions for US data center sector",
+      "summary": "Zeo Energy와 Ewyze가 미국 내 데이터 센터를 위한 오프그리드 전력 솔루션 제공을 위해 전략적 파트너십을 체결했습니다. 양사는 이번 협력을 통해 미국 시장뿐만 아니라 향후 국제 시장으로의 사업 확장을 모색할 계획입니다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-23T09:25:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/zeo-energy-and-ewyze-partner-on-off-grid-power-solutions-for-us-data-center-sector/",
+      "collectedAt": "2026-09-23T23:33:00.945Z",
+      "bodySnippet": "<p data-block-key=\"q51l2\">Also looking at international expansion</p>"
+    },
+    {
+      "id": "a7efbef5-d03b-4fcf-989e-b90105159c2f",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "애벗 주지사, ERCOT 감사 완료 시까지 텍사스 데이터센터 신규 허가 중단",
+      "titleOriginal": "Abbott halts new Texas data center permits pending ERCOT audit",
+      "summary": "텍사스주 애벗 주지사는 전력망 운영 기관인 ERCOT의 감사 결과가 나올 때까지 데이터센터에 대한 신규 허가를 일시 중단하기로 했습니다. ERCOT은 이번 감사를 12월까지 완료할 예정입니다.",
+      "topics": [
+        "정책·규제"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-09-23T08:49:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/abbott-halts-new-texas-data-center-permits-pending-ercot-audit/",
+      "collectedAt": "2026-09-23T23:33:10.767Z",
+      "bodySnippet": "<p data-block-key=\"13mtv\">ERCOT claims the audit will be completed by December</p>"
+    },
+    {
+      "id": "b6783658-e0cf-4ae4-b24b-a2cc457a7f8a",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "스폰서 기사: AI 팩토리가 차세대 산업 혁명을 어떻게 이끌고 있는가",
+      "titleOriginal": "Sponsored: How AI factories are driving the next industrial revolution",
+      "summary": "AI 데이터 센터 운영사인 Polar DC는 과거 드물었던 대규모 인프라 구축 프로젝트가 이제는 일상적인 운영 절차로 자리 잡았다고 분석했습니다. AI 팩토리 확산에 따른 데이터 센터의 급격한 변화가 에너지 인프라 수요를 어떻게 견인하고 있는지 다룹니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T07:00:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/marketwatch/how-ai-factories-are-driving-the-next-industrial-revolution/",
+      "collectedAt": "2026-09-23T23:33:18.215Z",
+      "bodySnippet": "<p data-block-key=\"819nl\">For data center operators like Polar DC, what used to be an occasional mega-project has now become standard operating procedure</p>"
+    },
+    {
+      "id": "6887f309-87c4-40d0-8561-18b7af99b108",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "마이크로그리드 패널, 시범 사업을 넘어 일상적인 전력망 운영으로의 전환 강조",
+      "titleOriginal": "Microgrid panel highlights push to move beyond pilots and into everyday grid operations",
+      "summary": "EPRI의 재키 바움(Jackie Baum)은 마이크로그리드가 비상시 대기 전력을 넘어 일상적인 전력망 운영에 적극적으로 활용되어야 한다고 강조했습니다. 이를 통해 유틸리티 기업들이 마이크로그리드 자원의 가치를 극대화하고 운영 효율성을 높여야 한다는 점을 시사했습니다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-23T15:33:19.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/microgrid-pnm-epri-data-center/831153/",
+      "collectedAt": "2026-09-23T23:33:28.547Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/uhrzoEzuXKpZ0XAlO4NMBGB8pmbEvcLTmfEGaKmUFGc/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS84NTgwMTQ4MDM0X2M3MTZlN2NiMmZfYy5qcGc=.webp\"/></div></figure><p>EPRI&rsquo;s Jackie Baum says microgrids have to do more than sit idle for emergencies. &ldquo;The majority of the time, the power is on,&rdquo; she said, urging utilities to use those resources.</p>"
+    },
+    {
+      "id": "5eb18c7e-92ca-4ff8-8693-fb81c523bed3",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "FERC, PJM 거버넌스 현대화를 위한 옵션 보유",
+      "titleOriginal": "FERC has options for modernizing PJM’s governance",
+      "summary": "하버드 법대의 아리 페스코(Ari Peskoe)는 FERC가 전력망 관할권을 활용해 PJM 인터커넥션(PJM Interconnection)의 의결권 배분 및 지명위원회 운영 방식을 수정할 수 있다고 분석했습니다. 이번 제안은 PJM의 거버넌스 구조를 현대화하기 위한 FERC의 구체적인 개입 가능성을 시사합니다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-23T14:28:49.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/ferc-options-modernizing-pjm-governance-peskoe/830905/",
+      "collectedAt": "2026-09-23T23:33:41.084Z",
+      "bodySnippet": "<p>The commission&rsquo;s jurisdiction over transmission governance allows it to modify filing-rights allocations and adjust PJM Interconnection&rsquo;s nominating committee, writes Harvard Law&rsquo;s Ari Peskoe.</p>"
+    },
+    {
+      "id": "4c9d349a-802e-489f-9c42-46de1dd6a298",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "FERC, ComEd의 PowerHouse Hillwood 데이터센터 계약 취소 기각",
+      "titleOriginal": "FERC rejects ComEd’s cancellation of PowerHouse Hillwood data center contract",
+      "summary": "미국 연방에너지규제위원회(FERC)는 1.8GW 규모, 200억 달러가 투입되는 PowerHouse Hillwood 데이터센터 프로젝트의 계약을 취소하려던 ComEd의 결정을 기각했습니다. 해당 프로젝트는 단 1달러 규모의 신용장만으로 운영되어 논란이 되었으며, FERC 위원들은 이에 대해 회의적인 입장을 보였습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T13:45:55.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/ferc-exelon-comed-powerhouse-hillwood-data-center/831127/",
+      "collectedAt": "2026-09-23T23:33:44.183Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/9r2C_Xux5opH7LwH4mCs-MuueCmjn0CSC_hnF6qDJKg/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjkyMTgyMTgxLmpwZw==.webp\"/></div></figure><p>A 1.8-GW, $20-billion data center planned by PowerHouse Hillwood was underpinned by a $1 letter of credit &mdash; &ldquo;less than the price of a cup of coffee&rdquo; &mdash; that drew skepticism from FERC Commissioner David LaCerte.</p>"
+    },
+    {
+      "id": "3ec7e64e-c626-4f5c-88e0-ba2fc528f970",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "남동발전 사장에 이현빈 전 한전 부사장 내정",
+      "titleOriginal": null,
+      "summary": "한국남동발전 신임 사장에 이현빈 전 한전 경영지원부사장이 내정되었으며, 향후 대통령 임명을 거쳐 10월 중 취임할 예정이다. 신임 사장의 핵심 과제는 정부가 추진 중인 발전 5사 통합으로, 2027년 10월까지 '한국발전' 출범을 위한 조직 및 인력 통합 작업을 이끌어야 한다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-23T17:44:01.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=372788",
+      "collectedAt": "2026-09-23T23:33:51.031Z",
+      "bodySnippet": "남동발전 신임 사장에 이현빈 전 한국전력 경영지원부사장이 낙점됐다.23일 업계에 따르면 정부는 전날 공공기관운영위원회에서 남동발전 사장 선임안을 논의한 결과 이 전 부사장을 최종 후보자로 결정했다. 남동발전은 다음 주 중 임시주주총회를 열어 사장 선임 안건을 의결하는 방안을 추진하고 있다. 이후 기후에너지환경부 장관 제청과 대통령 임명을 거치면 이르면 10월 중 취임할 것으로 예상된다.이 내정자는 1963년생으로 한국외국어대 경영학과를 졸업하고 헬싱키경제대학 UM-MBA 공기업경영학 석사, 성신여대 대학원 에너지소비학 박사 학위를 받았다. 1986년 한전에 입사해 비서실장, 인사처장, 경영관리부사장 등을 거친 뒤 2023년부터 한전 출자회사인 켑코이에스 대표이사를 맡은 바 있다. 켑코이에스 대표로 부임한 뒤에는 에너지절약전문기업(ESCO) 사업과 제로에너지빌딩·그린리모델링 등 에너지효율 사업을 이끌었다.이 내정자 앞에 놓인 최대 현안은 발전 5사 통합이다. 정부는 남동·중부·서부·남부·동서발전을 한전 100% 자회사인 ‘한국발전’으로 합쳐 2027년 10월 출범시킬 계획이다. 올해 정기국회에서 특별법을 제정하고 통합준비위원회를 통해 조직·인력 배치와 운영시스"
+    },
+    {
+      "id": "e5fa5503-557a-4478-b973-27b31b904a76",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "요금 할인에 이동식 충전기까지…충전업계, 추석 연휴 총력 대응",
+      "titleOriginal": null,
+      "summary": "정부가 추석 연휴 낮 시간대 전기차 충전요금을 반값 할인하며, 민간 충전사업자들도 워터(완속 충전 최대 51% 할인)처럼 자체 할인 및 포인트 적립에 나섰다. 고속도로 휴게소에 이동식 충전기가 투입되고 혼잡 시간·구간 정보가 제공되는 등 충전 대응이 한층 강화되었다. 이러한 총력 대응으로 민간 충전요금이 22~29% 인하될 것으로 예상된다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-23T16:05:23.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=372787",
+      "collectedAt": "2026-09-23T23:34:01.121Z",
+      "bodySnippet": "정부가 추석 연휴 낮 시간대 전기차 충전요금을 반값 할인하기로 한 가운데, 민간 충전사업자들도 요금 인하와 포인트 적립 등 자체 할인에 나섰다. 고속도로 휴게소에는 이동식 충전기가 투입되고, 혼잡을 피할 수 있는 시간·구간 정보까지 공개되면서 연휴 충전 대응이 한층 촘촘해지는 모습이다.◆할인 폭·방식은 업체마다 제각각이번 할인은 한전이 연휴 낮 시간대 충전사업자에게 공급하는 전력량 요금을 전액 감면하면 사업자가 이를 소비자 요금에 반영하는 구조다. 참여 여부와 할인 폭은 사업자가 자율적으로 정한다. 기후부는 감면분이 전액 반영될 경우 민간 충전요금이 평시 공공충전요금 기준 22~29% 낮아질 것으로 보고 있으며, 동참하는 사업자 명단을 23일부터 무공해차 통합누리집에 공개할 예정이다.우선 워터는 24~27일 낮 11시부터 오후 2시까지 전국 생활권 충전소에서 급속 충전요금을 kWh당 347원에서 247원으로, 완속은 295원에서 145원으로 내린다. 인하율은 각각 29%와 51%로 급속은 정부 기대치 상단이다. 급속 충전기로 30kWh를 충전하면 1만410원에서 7410원으로 3000원가량 부담이 준다. 앱 가입 개인회원에게 자동 적용되며 고속도로 휴게소는"
+    },
+    {
+      "id": "4ce2bfad-be64-4d1e-84b5-0bb55dbdd842",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "고리원자력안전정보공유센터 개소...“불편한 정보도 신속히 공개해야”",
+      "titleOriginal": null,
+      "summary": "원자력안전위원회는 '원자력안전 정보공개 및 소통에 관한 법률'에 따라 고리원전 주변 주민에게 안전 정보를 투명하게 제공하기 위한 고리 원자력안전정보공유센터를 개소했다. 센터는 주민 자료열람실과 소통공간 등을 갖추고 향후 안전 정보 공개와 주민 설명회 등 지역 소통 창구 역할을 수행할 예정이다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T15:10:44.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=372785",
+      "collectedAt": "2026-09-23T23:34:08.601Z",
+      "bodySnippet": "고리원전 주변 주민들이 원자력 안전정보를 확인하고 관계기관과 의견을 나눌 수 있는 공간이 문을 열었다.정보공유센터가 마련된 것은 반가운 일이지만, 주민들이 찾아가기 불편한 곳에 자리한 만큼 접근성을 높일 방안도 필요하다는 지적이 나왔다.원자력안전위원회는 22일 부산 기장군 철마면 현장방사능방재지휘센터 내에서 고리 원자력안전정보공유센터 개소식을 열고 운영을 시작했다.행사에는 최원호 원안위 위원장, 임승철 한국원자력안전기술원 원장, 조석진 한국수력원자력 기술부사장, 반병훈 고리원자력본부장, 우성빈 기장군수 등이 참석했다. 이창호 고리원자력안전협의회 위원장과 남명숙 부산시의회 해양도시안전위원회 부위원장을 비롯한 지역 주민과 부산시 및 기장군의원들도 자리를 함께했다.개소식에서는 원자력안전 분야의 소통 활성화와 안전 증진에 기여한 공로로 이창호 위원장과 최선수 박사가 감사장을 받았다.센터는 ‘원자력안전 정보공개 및 소통에 관한 법률’에 따라 원전 주변 주민에게 안전정보를 효율적이고 투명하게 제공하기 위해 마련됐다.주민 자료열람실과 온라인 정보검색 부스, 원자력안전정보 서고, 주민 소통공간을 갖췄다. 앞으로 안전정보 공개와 주민 설명회, 지역 맞춤형 콘텐츠 운영, 원자"
+    },
+    {
+      "id": "14ec0c02-03e1-4e43-a583-e9d8b98dfd81",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[분석] 2026년 글로벌 전기차 충전시장, ‘구축’ 싸움에서 ‘운영 효율’ 경쟁으로",
+      "titleOriginal": null,
+      "summary": "2026년 글로벌 전기차 충전시장의 패러다임이 인프라 구축에서 운영 효율과 수익성 중심으로 전환되고 있다. 유럽의 경우 EU 공공 충전기가 약 116만기에 달하는 등 성숙기에 접어든 시장을 중심으로 투자 품질과 활용률 개선이 핵심 과제로 떠오르고 있다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T14:41:57.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=372786",
+      "collectedAt": "2026-09-23T23:34:16.813Z",
+      "bodySnippet": "전 세계 전기차 충전시장의 화두가 바뀌고 있다. 최근 몇 년간 업계의 최대 관심사가 ‘얼마나 빨리 충전망을 깔 것인가’였다면, 인프라가 일정 규모에 오른 2026년에는 ‘설비가 제대로 쓰이고 있는가’, ‘수익을 낼 수 있는가’, ‘전력망과 지역 수요에 맞게 운영되고 있는가’로 초점이 옮겨가는 중이다. 선전 커화(SHENZHEN KEHUA)는 최근 내놓은 2026년 글로벌 충전시장 전망에서 전기차 보급률과 인프라 성숙도, 에너지 여건에 따라 시장별 발전 경로가 갈라지고 있다고 진단했다.◆유럽·북미, ‘확장’에서 ‘효용’으로유럽의 충전 인프라는 여전히 확장세다. ICCT에 따르면 지난 6월 기준 EU의 공공 충전기는 약 116만기에 달한다. 다만 시장 성숙도와 보급 수준은 지역별 편차가 크다. 일부 국가는 전기차 보급 속도보다 충전기 증가 속도가 앞서면서 활용률 불균형이 나타나는 반면, 남유럽과 중·동유럽, 대형 상용차 충전 부문은 여전히 추가 구축 여지가 남아 있다. 즉 유럽은 ‘인프라 부족’에서 ‘투자 품질’ 단계로 일제히 넘어간다기보다, 성숙 시장은 활용률과 투자수익률을 우선하고 일부 지역·차종은 여전히 확충이 필요한 두 흐름이 함께 진행 중이다. PwC"
+    },
+    {
+      "id": "df65ec78-edb7-4416-8a4f-ca101bd91955",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“아버지의 고단함, 이제야 알겠습니다”…‘조명 1.5세대’ 故 박천돈 회장 회고록 출간",
+      "titleOriginal": null,
+      "summary": "1970년대부터 조명 및 태양광, 집단에너지 사업을 이끈 고 박천돈 천일그룹 회장의 회고록이 출간되었다. 고인은 40여 년간 실외조명 사업과 천일솔라파크, 천일에너지 등을 운영하며 그룹 매출을 1000억 원 이상으로 성장시킨 입지전적 인물로 평가받는다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T13:44:50.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=372784",
+      "collectedAt": "2026-09-23T23:34:19.796Z",
+      "bodySnippet": "“직접 그의 삶을 살아보지 않았기에 온전히 알 수는 없지만, 혼자 남겨져 회사를 운영해보니 아버지의 고단함을 조금은 이해할 것 같다. 하루의 고단함을 씻어내기 위해 동네 목욕탕에 들렀다가 집으로 돌아와 술 한잔 기울이며 이 생각, 저 생각을 하셨을테고, 기대와 걱정으로 또 하루를 살아내셨을 것이다.”이는 고 박천돈 천일 회장의 아들인 박상원 천일그룹 대표가 아버지를 그리며 박 회장의 회고록에 담은 글이다.박 대표는 최근 박천돈 회장의 기록과 사진, 지인들의 육성을 모아 ‘박천돈 회고록’을 냈다.지난 2025년 1월 타계한 박 회장은 1970년에 국내 조명업계에 투신한 1.5세대 조명인으로, 조명업 외에 천일솔라파크 등 태양광과 천일에너지 등 집단에너지 사업에 뛰어들었고 조명 이외에 다른 분야의 사업에서 큰 성공을 거둔 입지전적인 CEO로 평가되는 인물이다. 1982년 맨 몸으로 조명기구 회사를 창업해 40여년 간 운영하며 국내 실외조명 시장에서 족적을 남겼으며, ‘지시 5%, 확인 95%’라는 정신을 바탕으로 현장경영을 몸소 실천하며 조명산업과 철인에너지, 천일솔라파크 등을 합쳐 천일그룹 전체 매출을 1000억원 이상으로 키운 장본인으로 평가된다.하지만 지난"
+    },
+    {
+      "id": "bb9a851c-85f3-4504-83f0-193709bbb51a",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "문무바람, 국내 7개사와 공급망 협력...韓-스웨덴 해상풍력 협력 확대",
+      "titleOriginal": null,
+      "summary": "울산 부유식 해상풍력 프로젝트인 '문무바람'이 국내 기업 7곳과 해저·전력케이블 및 하부구조물 등 공급망 협력을 추진한다. 주한스웨덴무역투자대표부는 울산에서 '한국-스웨덴 해상풍력 공급망 협력의 날'을 개최하여 양국 간 해상풍력 기술 및 사업 협력 강화 방안을 논의했다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-09-23T11:59:41.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=372782",
+      "collectedAt": "2026-09-23T23:34:29.348Z",
+      "bodySnippet": "울산 부유식 해상풍력 프로젝트 ‘문무바람’이 국내 기업 7곳과 해저·전력케이블, 하부구조물, 항만·물류 분야 공급망 협력에 나선다. 한국과 스웨덴 기업들도 울산을 중심으로 부유식 해상풍력 공급망을 구축하기 위한 기술·사업 협력 방안을 논의했다.주한스웨덴무역투자대표부는 지난 22일 롯데호텔 울산에서 주한스웨덴대사관, 문무바람과 공동으로 ‘한국-스웨덴 해상풍력 공급망 협력의 날’을 개최했다고 23일 밝혔다.행사에는 칼-울르프 안데르손 주한스웨덴대사와 제시카 올손 주한스웨덴무역투자대표부 상무참사관 겸 대표, 김상욱 울산시장, 오시환 울산"
+    },
+    {
+      "id": "854ceb80-de3a-4e7f-8fff-d01b18818aa1",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[특별기고]히트펌프 난방 전환, 제주에서 이미 시작됐다",
+      "titleOriginal": null,
+      "summary": "제주는 재생에너지 출력제어 문제를 해결하기 위해 히트펌프를 활용한 난방 전기화 사업을 추진하고 있다. 가상발전소(VPP)와 연계해 재생에너지 출력제어 시 전기요금을 50% 감면하는 '탐라는 전기예보제'를 도입하여 전력 계통 유연성과 난방 효율을 동시에 확보하고 있다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-23T11:37:37.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=372780",
+      "collectedAt": "2026-09-23T23:34:36.153Z",
+      "bodySnippet": "난방 탈탄소화를 이야기하면 여전히 ‘먼 미래의 일’이라는 반응이 돌아온다. 그러나 제주에서 히트펌프 난방은 이미 생활 속 현실이 되어 가고 있다. 재생에너지 비중이 높아 출력제어가 일상이 된 제주는 남는 전기를 어디에 쓸 것인가라는 질문에 난방으로 답하고 있다. 최근 제주의 난방 전기화 현장 두 곳을 둘러보며 그 가능성을 직접 확인했다.첫 번째로 찾은 곳은 제주시 영평동에 위치한 난방 전기화 사업 1호 주택인 2층 단독주택이다. 실외에 16kW급 히트펌프 1기, 실내에 360L 축열조가 설치되어 있었다. 실외기를 둘 마당 자투리 공간과 기존 보일러실 정도면 설치가 가능한 규모였다. 단독주택이라면 설치 공간이 보급의 결정적 제약은 아닐 것으로 보인다.무엇보다 눈길을 끈 것은 히트펌프 옆의 가상발전소(VPP) 분전반이었다. 제주에서 시행 예정인 ‘탐라는 전기예보제’는 재생에너지 출력제어가 발령되면 전기요금을 50% 감면해 준다. VPP 사업자는 이 신호에 맞춰 히트펌프를 원격으로 가동하고, 생산된 열은 축열조에 저장했다가 필요할 때 꺼내 쓴다.버려질 뻔한 재생에너지는 난방열로 활용하고, 계통은 유연성 자원을 확보하는 효과를 얻는다. 히트펌프 전환만으로는 난방비"
+    },
+    {
+      "id": "a9a7d82c-2b89-453e-a9fc-3f0c3f4e3144",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전KPS, 첫 해외 재생E 투자…인니 수력발전 40% 인수",
+      "titleOriginal": null,
+      "summary": "한전KPS가 인도네시아 북수마트라 소재 하상 수력발전소 운영법인 PT. BNE의 지분 40%를 인수하며 창사 이래 첫 해외 재생에너지 발전자산 투자에 나섰다. 이번 인수를 통해 한전KPS는 LX인터내셔널 등으로부터 지분을 확보하며 본격적인 글로벌 신재생 에너지 사업 확장에 속도를 낼 전망이다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T11:27:36.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=372779",
+      "collectedAt": "2026-09-23T23:34:40.820Z",
+      "bodySnippet": "한전KPS가 인도네시아 수력발전소 지분 40%를 인수하며 첫 해외 재생에너지 발전자산 투자에 나섰다.23일 한전KPS(사장 김홍연)는 전날 인도네시아 북수마트라 소재 ‘하상 수력발전소’ 운영법인 PT. BNE의 지분을 인수하는 계약을 체결했다고 밝혔다.한전KPS는 LX인터내셔널 보유 지분 중 35%와 PT. EJP 지분 전량을 인수해 총 40%의 지분을 확보했다. 당초 PT. BNE는 LX인터내셔널(95%)과 인도네시아 PT. EJP(5%)가 지분을 보유하고 있었다.이번 계약으로 한전KPS는 해외에서 처음으로 재생에너지 발전자산을"
+    },
+    {
+      "id": "3201b632-1f55-44d2-8910-40ceba5ef18c",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한난, 자회사 3곳과 상생협력 강화",
+      "titleOriginal": null,
+      "summary": "한국지역난방공사가 한국지역난방기술, 지역난방안전, 지역난방플러스 등 자회사 3곳과 경영가치 실현 및 상생협력 협약을 체결했다. 실용·상생·안전·소통을 공동 경영가치로 설정하여 지속 가능한 성장 기반을 마련하고 안전 경영을 강화하는 것이 핵심이다.",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-09-23T11:00:30.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=372778",
+      "collectedAt": "2026-09-23T23:34:44.924Z",
+      "bodySnippet": "한난이 자회사 3곳과 실용·상생·안전·소통을 공동 경영가치로 정하고 협력체계를 강화한다.한국지역난방공사(사장 하동근)는 지난 22일 한국지역난방기술, 지역난방안전, 지역난방플러스와 ‘경영가치 실현 및 상생협력 협약’을 체결했다고 밝혔다.이번 협약은 한난과 자회사가 각 기관의 역할과 책임을 수행하면서 공동의 경영가치를 경영활동에 반영하기 위해 마련됐다.한난과 자회사는 지속가능한 미래성장 기반을 마련하는 ‘실용경영’, 상호 존중과 동반성장을 추진하는 ‘상생경영’, 안전을 최우선 가치로 삼는 ‘안전경영’, 청렴·윤리의식을 바탕으로 건강한"
+    },
+    {
+      "id": "0cec809d-1b3e-4930-a347-e8ecaa9b903b",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전-전기업계, 공사원가 갈등 줄인다…산정 협의체 상시화",
+      "titleOriginal": null,
+      "summary": "한국전력과 전기업계가 전력망 투자 확대에 따른 공사원가 산정의 신뢰성과 투명성을 높이기 위해 상시 협의체를 구성하는 업무협약(MOU)을 체결했다. 이를 통해 현장 안전 비용과 신기술 도입을 원가 기준에 적기 반영하고, 공사비를 둘러싼 업계 간 갈등을 사전에 해소할 계획이다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-23T10:51:39.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=372777",
+      "collectedAt": "2026-09-23T23:34:49.264Z",
+      "bodySnippet": "한국전력과 전기업계가 전력망 투자 확대에 따른 공사원가 산정기준의 신뢰성과 투명성을 높이기 위해 상시 협력체계를 구축한다. 공사비를 둘러싼 업계와의 갈등을 사전에 줄이는 동시에 현장 안전에 필요한 비용과 신공법·신사업 등 전력산업의 변화가 원가 기준에 적기에 반영될 수 있도록 공동 대응에 나선다.한전은 지난 22일 충북 오송 한국전기공사협회에서 대한전기산업연합회, 한국전기공사협회와 ‘공사원가 산정기준 신뢰성 제고를 위한 상생협력 업무협약(MOU)’을 체결했다고 23일 밝혔다.이번 협약은 국가 차원의 전력망 투자 확대가 본격화되면서"
+    },
+    {
+      "id": "5e3c149b-edaf-4b1b-9e7f-2277a876c28d",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전 사장 선임 연말까지 가나…원점서 재검토",
+      "titleOriginal": null,
+      "summary": "한국전력의 신임 사장 선임 절차가 유력 후보의 결격 사유로 인해 재공모 가능성이 거론되며 장기화되고 있다. 리더십 공백이 지속될 경우 반도체 등 첨단산업의 전력 수요 대응과 대규모 전력망 확충 및 재무구조 개선 등 핵심 경영 과제 수행에 차질이 우려된다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-23T10:42:05.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=372775",
+      "collectedAt": "2026-09-23T23:34:52.394Z",
+      "bodySnippet": "한전의 신임 사장 선임이 늦어지고 있다. 전력산업 일각선 원점 재검토까지 언급된다.23일 복수의 전력산업 관계자에 따르면 정부는 22일 공공기관 운영위원회를 열고 한국전력 신임 사장 선임 안건을 심의했지만, 최종 후보자 승인은 미룬 것으로 알려졌다.유력한 후보로 거론돼 온 김영록 전 전라남도지사의 취업심사 과정에서 문제가 있었다는 게 복수의 업계 관계자의 설명이다.결국 사장 재공모설까지 나오면서 신임 사장 선임이 장기화될 가능성도 제기된다.재공모가 진행될 경우 당장 다음달 진행되는 국정감사로 인해 공모 절차가 늦어질 수 있어서다. 이 경우 빨라도 연말, 자칫 해를 넘길 수도 있다는 전망이 나온다.업계 일각에서는 한전 사장 선임이 늦어지며 발생하는 전력산업 리더십 공백에 대한 우려도 적지 않다.한전은 반도체·데이터센터 등 첨단산업의 전력수요에 대응하는 동시에 재생에너지 확대를 뒷받침할 전력망을 적기에 확충해야 하는 과제를 안고 있다. 특히 전력망 투자는 사업 규모가 크고 지역 간 이해관계가 복잡해 정부·국회·지방자치단체와의 협의를 이끌 경영진의 역할이 중요하다.재무구조 개선과 투자재원 확보도 핵심 과제다. 전력망 확충에 필요한 자금을 마련하면서 재무건전성도 높"
+    },
+    {
+      "id": "930b7768-a6d9-4f27-a7dd-0626e926a0ea",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "포항지진 현장, 에너지 안전 연구 거점으로…2028년 지진안전센터 문 연다",
+      "titleOriginal": null,
+      "summary": "2017년 포항지진의 원인이 된 지열발전 부지에 2028년까지 국가 지진안전종합센터가 구축된다. 기후에너지환경부와 유관기관은 이번 협약을 통해 에너지 개발 과정의 지진 특성 평가 및 관련 기술 실증을 위한 국가 안전 연구 거점을 조성할 계획이다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T10:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=372774",
+      "collectedAt": "2026-09-23T23:35:05.203Z",
+      "bodySnippet": "2017년 포항지진을 촉발한 것으로 조사된 지열발전 연구부지가 국가 지진안전과 에너지 개발 안전성을 연구하는 거점으로 탈바꿈한다. 지진 관측과 분석뿐 아니라 에너지 개발 과정에서 발생할 수 있는 지진 특성을 평가하고 관련 기술을 실증하는 기능까지 갖춘 지진안전종합센터가 들어선다. 기후에너지환경부와 기상청, 경상북도, 포항시는 23일 기상청 서울청사에서 ‘(가칭)포항 지진안전종합센터 구축 및 운영을 위한 업무협약’을 체결했다.센터가 들어서는 곳은 2017년 포항지진과 연관된 지열발전 연구가 진행됐던 부지다. 정부는 지진 피해의 기억이"
+    },
+    {
+      "id": "10b08972-e76c-4d9e-a948-a4cea9faf5f5",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "원유 특정지역 의존도 50% 이하로…‘자원안보’ 중장기 로드맵 발표",
+      "titleOriginal": null,
+      "summary": "정부가 2035년까지 원유의 특정 지역 의존도를 50% 이하로 낮추고 2030년까지 2000만 배럴 규모의 석유 비축시설을 추가 확충하는 내용을 담은 중장기 자원안보 로드맵을 발표했다. 이는 '제1차 자원안보 기본계획' 및 '제5차 석유비축계획'에 포함되며, 핵심광물도 51종으로 확대하고 취약 광종 비축 목표를 최대 365일분까지 늘린다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-09-23T09:47:48.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=372773",
+      "collectedAt": "2026-09-23T23:35:09.384Z",
+      "bodySnippet": "정부가 원유와 핵심광물 등 주요 자원의 공급망을 다변화하고 비축 역량을 대폭 확대하는 중장기 자원안보 로드맵을 마련했다. 오는 2035년까지 원유의 특정 지역 의존도를 50% 이하로 낮추는 한편 2030년까지 2000만 배럴 규모의 석유 비축시설을 추가로 확충한다. 핵심광물은 기존 38종에서 51종으로 확대하고, 취약 광종의 비축 목표도 최대 365일분까지 늘린다.산업통상부는 23일 서울 무역보험공사 대회의실에서 김정관 장관 주재로 제6차 자원안보 협의회를 열고 이 같은 내용을 담은 ‘제1차 자원안보 기본계획’과 ‘제5차 석유비축계"
+    },
+    {
+      "id": "510cbb8b-9ad6-4768-bc8f-778c93c70d8b",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전·전기공사협회·전기산업연합회, 공사원가 산정 상생협력",
+      "titleOriginal": null,
+      "summary": "한국전기공사협회, 한국전력공사, 대한전기산업연합회가 변화하는 시공 환경과 안전 기준을 반영하기 위해 '공사원가 산정 분야 상생협력 업무협약'을 체결했다. 세 기관은 협의체를 제도화하여 공정한 공사원가 기준을 마련하고, 신공법 및 안전 관련 비용을 합리적으로 산정하기 위해 협력할 계획이다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-23T09:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=372760",
+      "collectedAt": "2026-09-23T23:35:13.322Z",
+      "bodySnippet": "한국전기공사협회와 한국전력공사, 대한전기산업연합회가 실제 전기공사 현장의 시공여건을 공사원가에 합리적으로 반영하기 위한 상생협력 체계를 구축했다.전기공사협회(회장 이형주)는 22일 충북 오송 소재 협회 중앙회에서 한국전력공사, 대한전기산업연합회와 ‘공사원가 산정 분야 상생협력 업무협약’을 체결했다고 밝혔다.최근 전기공사 현장은 작업환경과 안전관리 기준이 급속히 고도화되면서, 이에 소요되는 인력·장비 구성과 시공조건 역시 지속적으로 변화하고 있다. 이러한 흐름 속에서 실제 시공여건을 정합성 있게 반영할 수 있는 공사원가 산정기준 마련의 필요성이 한층 부각되고 있다.이에 세 기관은 지난 4월 발족한 ‘전기부문 공사원가산정 협의체’를 중심으로 현장의 다층적인 의견을 수렴하고, 기관 간 상시적 소통 채널을 제도화하기 위해 이번 협약을 추진하게 됐다.이번 협약에 따라 세 기관은 ▲공정하고 합리적인 공사원가 산정기준 마련을 위한 상호 협력 ▲공사원가 협의체 구성 및 운영 제도화 ▲공사원가 관련 현안에 대한 협의체를 통한 협력 해결 ▲공사현장 안전 확보를 위한 원가산정 기준 마련 및 적용 등을 위해 상호 협력할 예정이다. 아울러 신공법·신사업 관련 공사원가 산정기준을 마"
+    },
+    {
+      "id": "c1eaa79d-3f88-4e01-ad16-c63a3604ec28",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "LS전선·LS마린솔루션, 유럽 풍력 전시회 참가…해상풍력 시장 공략",
+      "titleOriginal": null,
+      "summary": "LS전선과 LS마린솔루션이 독일 '윈드에너지 함부르크 2026'에 참가해 해저케이블 생산부터 시공까지의 통합 솔루션을 선보이며 유럽 시장 공략에 나선다. 특히 기존 대비 송전 용량을 최대 25% 높인 525kV급 HVDC 해저케이블 기술을 앞세워 대규모 해상풍력 프로젝트 대응력을 강조했다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T08:37:46.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=372772",
+      "collectedAt": "2026-09-23T23:35:16.345Z",
+      "bodySnippet": "LS전선이 LS마린솔루션과 해저케이블 생산부터 시공·유지보수까지 아우르는 통합 솔루션을 앞세워 유럽 해상풍력 시장 공략을 확대한다.LS전선은 9월 22일부터 25일까지 독일 함부르크에서 열리는 ‘윈드에너지(WindEnergy) 함부르크 2026’에 참가한다고 23일 밝혔다.윈드에너지 함부르크는 2년마다 독일 함부르크에서 열리는 세계 최대 규모의 풍력에너지 전문 전시회로, 글로벌 개발사와 전력회사, 터빈·케이블 제조사 등 풍력산업 주요 기업들이 참여한다.LS전선은 이번 전시에서 풍력터빈부터 육상 전력망까지 연결하는 해상풍력 전력망 솔루션을 선보인다. 터빈용 배전(MV) 케이블부터 터빈 간 해저케이블, 육상까지 연결하는 초고압 해저케이블까지 전 구간 제품군을 소개한다.특히 국내 전력업계에서 유일하게 상용화한 500kV급 HVDC(초고압직류송전) 케이블 기술을 소개한다. 525kV·80℃급 HVDC 해저케이블은 기존 70℃급 대비 송전 용량을 최대 25% 높여 대형화, 원거리화되는 해상풍력의 대용량 송전에 대응할 수 있다.LS전선은 LS마린솔루션과 협업해 해저케이블 생산·포설·시공부터 점검·유지보수까지 전 과정을 수행하는 통합 사업 체계를 강화하고 있다. LS마린"
+    },
+    {
+      "id": "57b89f4e-bc5d-4bd6-bbc4-a020120c69e9",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전 경기북부본부-대림대, 전력설비 진단기술 고도화 및 지역인재 양성 ‘맞손’",
+      "titleOriginal": null,
+      "summary": "한전 경기북부본부와 대림대학교가 교육부·경기도 주관 'Finding-RISE' 사업의 일환으로 업무협약을 체결했다. 이번 협력을 통해 양 기관은 배전설비 초음파 진단기술을 고도화하고, 현장 맞춤형 지역 인재를 양성하는 데 주력할 계획이다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-23T07:42:48.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=372771",
+      "collectedAt": "2026-09-23T23:35:19.868Z",
+      "bodySnippet": "한전 경기북부본부와 대림대학교가 전력설비 진단기술 고도화와 지역인재 양성을 위해 손을 맞잡았다.한국전력공사 경기북부본부(본부장 박종운)와 대림대학교는 지난 22일 전력설비 진단기술 고도화 및 지역 정주형 인재 양성을 위한 업무협약(MOU)을 체결했다고 밝혔다.교육부와 경기도가 주관하는 Finding-RISE 사업의 일환으로 진행된 이번 협약은 지역대학과 공공기관 간 협력을 통해 지역산업에 필요한 기술을 개발하고 현장 맞춤형 인재를 양성하고자 추진된 것이다.양 기관은 협약을 통해 배전설비 초음파 진단기술 고도화를 핵심 과제로 추진키로"
+    },
+    {
+      "id": "d4eb65d4-5831-43d3-916f-c1ffc88d5ef5",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "AI 랙 전력 1MW 시대 대비…ABB, 800V DC 데이터센터 전력망 승부",
+      "titleOriginal": null,
+      "summary": "AI 서버의 전력 밀도가 랙당 MW급으로 급증함에 따라, 전력 변환 손실과 발열 문제를 해결하기 위한 800V 직류(DC) 기반의 데이터센터 전력 솔루션이 도입되고 있다. ABB는 기존 교류(AC) 방식의 한계를 극복하기 위해 전력원부터 서버까지 DC로 통합 공급하는 기술로 데이터센터 인프라 효율화에 나서고 있다.",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-23T13:43:10.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=203592",
+      "collectedAt": "2026-09-23T23:35:53.014Z",
+      "bodySnippet": "[에너지데일리 송병훈 기자 ] 인공지능(AI) 서버의 전력밀도가 급격히 높아지면서 데이터센터 전력 인프라의 변화가 발전원 확보와 전력망 확충을 넘어 건물 내부의 배전방식으로 확산하고 있다. 서버 랙당 전력수요가 수백kW에서 MW급으로 높아질 경우 기존 교류(AC) 중심의 전력 공급 과정에서 반복되는 전력변환과 이에 따른 손실·발열·설치공간 문제가 커질 수 있기 때문이다.ABB가 전력 공급원에서 서버 랙까지 직류(DC) 기술을 적용하는 통합 데이터센터 전력 솔루션을 내놓은 것도 이 같은 변화에 대응하기 위해서다. 고체상태변압기(SST"
+    },
+    {
+      "id": "b08ab818-3635-4e7c-9620-4441f9463c4e",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "해상풍력 멀어지고 커진다…LS전선, 유럽서 HVDC·해저케이블 시장 공략",
+      "titleOriginal": null,
+      "summary": "해상풍력 단지가 원거리 대형화됨에 따라 장거리 송전이 가능한 HVDC 해저케이블의 중요성이 증대되고 있다. 이에 LS전선과 LS마린솔루션은 제조부터 포설, 유지보수까지 통합 역량을 강화하여 유럽 해상풍력 시장 공략을 본격화한다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T13:23:03.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=203588",
+      "collectedAt": "2026-09-23T23:35:56.668Z",
+      "bodySnippet": "[에너지데일리 송병훈 기자] 해상풍력 발전단지가 대형화되고 해안에서 더 먼 바다로 이동하면서 발전설비 못지않게 생산된 전력을 육상까지 안정적으로 보내는 해저 전력망의 중요성이 커지고 있다. 이에 LS전선과 LS마린솔루션이 HVDC(초고압직류송전) 해저케이블과 포설·유지보수 역량을 묶어 유럽 해상풍력 시장 확대에 나선다.해상풍력은 발전단지가 육지에서 멀어지고 용량이 커질수록 장거리·대용량 송전이 필요하다. 이에 따라 해저케이블 산업의 경쟁도 케이블 제조능력뿐 아니라 설계와 포설, 시공, 유지보수까지 프로젝트 전 과정을 수행할 수 있느"
+    },
+    {
+      "id": "cc98b585-54b2-47df-844b-8af32939501c",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전력망 공사비 기준 한전·업계가 함께 만든다…원가 협의체 제도화",
+      "titleOriginal": null,
+      "summary": "한국전력과 전기공사업계가 전력망 공사비 산정 기준을 공동 논의하는 상시 협의체를 제도화한다. 발주자 일방적 방식에서 탈피해 현장 안전 비용과 새로운 공법 등 적정 공사비를 반영함으로써 시공 품질과 경영 여건을 개선할 방침이다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-23T13:17:20.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=203587",
+      "collectedAt": "2026-09-23T23:36:05.093Z",
+      "bodySnippet": "[에너지데일리 송병훈 기자 ]전력망 투자가 확대되는 가운데 한국전력과 전기공사업계가 공사비 산정기준을 함께 논의하는 상시 협의체를 제도화한다. 발주자인 한전이 일방적으로 원가기준을 마련하는 방식에서 벗어나 시공 현장의 의견을 반영하고, 공사비를 둘러싼 이견이 발생할 경우 협의체에서 우선 조정하는 구조를 만들겠다는 것이다.특히 현장 안전 확보에 필요한 비용과 새로운 공법·사업에 따른 비용을 원가 산정기준에 제때 반영하기로 했다. 앞으로 전력망 건설 물량이 늘어날수록 적정 공사비와 안전비용 확보가 공사 품질과 시공업체의 경영여건에 영향"
+    },
+    {
+      "id": "dc09be06-f898-4ba2-a5a4-2d6d0734f7e2",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "미래 전력믹스서 원전 역할 어디까지…정부, 3개월 국민 숙의 착수",
+      "titleOriginal": null,
+      "summary": "정부는 인공지능(AI) 데이터센터 및 전기차 확산으로 인한 전력수요 급증에 대응하여, 향후 전력믹스 내 원자력발전의 역할에 대한 약 3개월간의 국민 숙의를 시작한다. 이 공론화는 2040년까지의 전력수요 충당 및 탄소중립, 공급 안정성 확보를 위해 원전을 재생에너지 등 다른 무탄소 전원과 어떻게 조합할지에 초점을 맞추며, 그 결과는 제12차 전력수급기본계획 수립에 중요한 영향을 미칠 예정이다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T13:00:41.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=203584",
+      "collectedAt": "2026-09-23T23:36:14.658Z",
+      "bodySnippet": "[에너지데일리 송병훈 기자] 인공지능(AI) 데이터센터와 반도체, 전기차 확산으로 전력수요가 빠르게 증가하는 가운데 정부가 향후 전력믹스에서 원자력발전이 어느 정도 역할을 담당해야 하는지를 놓고 약 3개월간 국민 숙의에 들어간다.이번 공론화는 신규 원전을 지을 것인지에 대한 단순한 찬반투표 방식이 아니다. 2040년까지 전력수요를 어떻게 충당할 것인지, 탄소중립과 공급 안정성을 동시에 확보하기 위해 원전을 재생에너지 등 다른 무탄소 전원과 어떻게 조합할 것인지를 논의하는 데 초점이 맞춰진다.특히 공론화 결과가 제12차 전력수급기본계"
+    },
+    {
+      "id": "1c5c6b8d-4d64-41ff-b33e-70ad8849ee3e",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스안전公 대구광역본부, 추석 맞아 ‘나눔·안전’ 연계 지역상생",
+      "titleOriginal": null,
+      "summary": "한국가스안전공사 대구광역본부가 추석을 맞아 취약계층에 온누리상품권 200만 원을 지원하고 전통시장 내 가스시설 26개소를 점검하는 지역상생 활동을 펼쳤다. 이번 활동은 공공기관의 사회적 책임 실천과 더불어 명절 기간 전통시장의 가스 안전사고 예방을 동시에 도모했다는 데 의의가 있다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-09-23T11:56:48.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=203580",
+      "collectedAt": "2026-09-23T23:36:38.804Z",
+      "bodySnippet": "[에너지데일리 조남준 기자] 한국가스안전공사 대구광역본부가 추석을 앞두고 취약계층 지원과 전통시장 가스시설 점검을 연계한 지역상생 활동에 나섰다. 지역 어르신에게 온누리상품권 200만원을 지원한 데 이어 시민 이용이 늘어나는 전통시장 2곳의 가스사용시설 26개소를 점검하면서 복지와 지역경제, 생활안전을 함께 살피는 데 초점을 맞췄다.특히 이번 활동에는 우재준 국회의원과 김홍철 한국가스안전공사 기술이사가 함께 참여했다. 단순한 명절 후원에 그치지 않고 공사의 고유 업무인 가스안전 점검까지 연결함으로써 지역사회 공헌과 예방안전을 결합했"
+    },
+    {
+      "id": "be4af5eb-be00-4dea-b5d1-638c7ecec55c",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "기계설비업계 “홍지선 국토장관, AI시대 설비산업 고도화·건설 상생 이끌어야”",
+      "titleOriginal": null,
+      "summary": "반도체 및 AI 데이터센터 투자 확대로 냉각·공조 등 기계설비의 중요성이 증대됨에 따라, 대한기계설비건설협회가 신임 국토교통부 장관에게 산업 고도화와 건설업 상생 정책 강화를 요구했다. 업계는 AI 시대에 발맞춘 건축물의 에너지 효율 향상과 안정적인 설비 운영을 위해 기계설비 중심의 정책적 지원을 촉구했다.",
+      "topics": [
+        "운영 최적화",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "운영 최적화",
+      "publishedAt": "2026-09-23T10:00:07.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=203577",
+      "collectedAt": "2026-09-23T23:36:58.816Z",
+      "bodySnippet": "[에너지데일리 조남준 기자] 반도체와 인공지능(AI) 데이터센터 투자가 확대되면서 냉각·공조·자동제어 등 기계설비의 중요성이 커지는 가운데 기계설비업계가 새 국토교통부 장관에게 산업 고도화와 건설산업의 공정경쟁·상생협력을 위한 정책 강화를 주문했다.주택공급 확대와 건설경기 대응이라는 당면 현안뿐 아니라 AI 시대 건축물의 에너지효율과 안정적인 설비 운영을 좌우하는 기계설비를 건설산업 정책의 주요 축으로 다뤄야 한다는 요구다.대한기계설비건설협회는 23일 홍지선 국토교통부 장관 취임과 관련한 논평을 내고 77만 기계설비인을 대표해 취임"
+    },
+    {
+      "id": "dc7927d4-eb7b-429d-9c28-e29a35fc767d",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스안전公 서울동부지사, 추석 앞두고 휴대용 가스레인지 사고 예방 캠페인",
+      "titleOriginal": null,
+      "summary": "한국가스안전공사 서울동부지사가 추석 명절 휴대용 가스레인지와 부탄캔 사용 급증에 대비해 청량리역에서 가스 사고 예방 캠페인을 실시했다. 기기 상태 점검 및 가스 누출 확인 등 올바른 사용법 홍보를 통해 생활 속 안전 의식을 강화하고자 추진되었다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-09-23T09:49:07.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=203575",
+      "collectedAt": "2026-09-23T23:37:06.178Z",
+      "bodySnippet": "[에너지데일리 조남준 기자 ] 추석 연휴를 앞두고 음식 조리 과정에서 발생할 수 있는 휴대용 가스레인지와 부탄캔 사고를 예방하기 위한 현장 안전홍보가 강화되고 있다. 특히 명절에는 가족 단위 음식 조리와 휴대용 가스기기 사용이 늘어날 수 있는 만큼 올바른 사용법을 지키고 사용 전 기기 상태와 가스누출 여부를 확인하는 등 생활 속 예방안전이 중요하다.한국가스안전공사 서울동부지사(지사장 양남식)는 지난 22일 시민들의 왕래가 많은 청량리역에서 예스코와 함께 추석맞이 가스안전 캠페인을 실시했다고 밝혔다.이번 캠페인은 명절 음식 조리 과정"
+    },
+    {
+      "id": "8478981c-baaa-49ca-b9fd-61d9c88f2540",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스안전公 부산북부지사·부산도시가스, 입상관 차량충돌 사고 예방 나서",
+      "titleOriginal": null,
+      "summary": "한국가스안전공사 부산북부지사와 부산도시가스는 공동주택 내 도시가스 입상관 차량 충돌 사고를 예방하기 위해 합동 점검 및 안전 캠페인을 실시했다. 이번 활동은 최근 부산 지역에서 발생한 배관 손상 및 가스 공급 중단 사고를 계기로 운전자들에게 배관 위치를 알리고 현장 안전 관리를 강화하고자 추진되었다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-09-23T09:27:06.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=203568",
+      "collectedAt": "2026-09-23T23:37:41.084Z",
+      "bodySnippet": "[에너지데일리 조남준 기자] 공동주택 주차장이나 차량 통행로 주변에 설치된 도시가스 입상관을 차량이 들이받아 배관이 손상되고 가스공급까지 중단되는 사고를 막기 위한 현장 안전관리가 강화되고 있다.한국가스안전공사 부산북부지사와 부산도시가스는 최근 부산지역 공동주택에서 발생한 가스배관 차량충돌 사고를 계기로 입상관 주변을 점검하고 운전자에게 배관 위치를 알리는 예방활동에 나섰다.한국가스안전공사 부산북부지사(지사장 동홍일)와 부산도시가스는 22일 오전 부산 금정구 장전동에서 도시가스 입상관 차량추돌 사고 예방을 위한 합동 캠페인을 실시했"
+    },
+    {
+      "id": "c57b9dce-0755-4993-88d3-41803591efa7",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "환경공단 수장 공백 넉 달째…직무대행 인사권 논란까지 ‘경영 정상화’ 시험대",
+      "titleOriginal": null,
+      "summary": "한국환경공단 이사장 공백이 4개월째 이어지며 조직 운영의 불확실성이 심화하고 있다. 온실가스 감축 등 핵심 환경정책을 수행하는 기관인 만큼, 직무대행의 인사권 논란과 관련해 주무 부처의 조속한 경영 정상화 조치가 요구되고 있다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-09-23T09:15:04.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=203565",
+      "collectedAt": "2026-09-23T23:37:49.683Z",
+      "bodySnippet": "[에너지데일리 조남준 기자] 대기·물·자원순환과 온실가스 감축 등 주요 환경정책의 집행을 맡고 있는 한국환경공단의 수장 공백이 넉 달 가까이 이어지면서 조직 운영의 불확실성이 커지고 있다. 이사장 직무정지에 따른 임시 대응으로 시작된 직무대행 체제가 장기화한 데 이어 주요 보직 인사와 징계 등 직무대행의 권한 행사를 둘러싼 논란까지 불거지면서 주무부처가 직접 사실관계를 점검하고 기관 정상화에 나서야 한다는 요구가 국회에서 제기됐다.이번 논란은 특정 인사의 적정성 여부를 넘어 공공기관장이 장기간 직무를 수행하지 못할 때 ‘업무 연속성"
+    },
+    {
+      "id": "7a99cae4-f172-4941-8227-c9092e7c4811",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "정학근 에너지기술연구원 20대 원장 취임",
+      "titleOriginal": null,
+      "summary": "한국에너지기술연구원 제20대 원장으로 정학근 원장이 취임했다. 정 원장은 탄소중립 실현을 위해 기존의 추격형 연구 관행에서 벗어나 국가 온실가스 감축 목표 달성을 위한 수직적 도약이 필요하다고 강조했다.",
+      "topics": [
+        "ESG·탄소중립",
+        "정책·규제"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-09-23T09:13:29.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=203566",
+      "collectedAt": "2026-09-23T23:37:55.576Z",
+      "bodySnippet": "[에너지데일리 변국영 기자 ] 정학근 한국에너지기술연구원 제20대 원장이 취임했다.에너지연은 지난 22일 대전 본원에서 역대 원장들과 직원들이 참석한 가운데 제20대 정학근 원장 취임식을 개최했다.정 신임 원장은 취임사를 통해 “우리는 격화되고 있는 글로벌 에너지 패권 경쟁과 국가 온실가스 감축 목표 달성이라는 거대한 과제를 극복해야 한다”며 “그간 추격형 연구와 소액 과제 경쟁에 내몰려 각자도생했던 소모적 관행을 끝내고 탄소중립을 실현하기 위한 수직적 도약(Net Zero to Great One)을 이뤄낼 시기”라고 강조했다.이를"
+    },
+    {
+      "id": "f027f379-849b-4d41-a369-c069e069366d",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전KPS, 인니 수력발전 지분 인수...해외 첫 재생에너지 투자",
+      "titleOriginal": null,
+      "summary": "한전KPS가 LX인터내셔널과 협력하여 인도네시아 하상 수력발전소 지분 40%를 인수하며 해외 재생에너지 시장에 진출했다. 해당 발전소는 41MW 규모로 안정적인 수익을 창출함과 동시에, 파리협정 제6.4조 기반 탄소감축 사업으로 승인받아 탄소배출권 확보 효과까지 기대된다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-09-23T12:04:27.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=303470",
+      "collectedAt": "2026-09-23T23:38:00.920Z",
+      "bodySnippet": "\r\n<img alt=\"한전KPS와 LX인터내셔널이 지난 22일 인도네시아 하상 수력발전소 지분 인수 계약을 맺었다. /한전KPS 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303470_176040_328.jpg\" />\r\n한전KPS와 LX인터내셔널이 지난 22일 인도네시아 하상 수력발전소 지분 인수 계약을 맺었다. /한전KPS 제공\r\n\r\n\r\n\r\n[투데이에너지 이종수 기자]&nbsp;전력설비 정비 전문회사인 한전KPS(사장 김홍연)가 인도네시아 북수마트라 소재 &lsquo;하상(Hasang) 수력발전소&rsquo; 운영법인 PT. BNE사(社)의 지분을 인수하는 계약을 체결했다.\r\n\r\nPT. BNE사는 LX인터내셔널(95%)과 인도네시아 PT. EJP사(5%)가 지분을 나눠 보유하고 있었으며, 한전KPS는 LX인터내셔널 보유 지분 중 35%, PT. EJP 지분 전량을 인수해 모두 40%의 지분을 확보했다.\r\n\r\n이번 계약으로 한전KPS는 해외에서 재생에너지 발전자산을 처음 확보하게 되었다.\r\n\r\nLX인터내셔널은 지분 60%의 최대주주 지위를 유지하며, 한전KPS와 공동 주주체제를 구성해 사업 운영을 이어간다.\r\n\r\n하상 수력발전소는 설비용량 41메가와트(MW) 규모로, 지난 2020년 상업운전부터 지금까지 안정적으로 무탄소 전력을 생산해 지역사회에 공급하고 있다. 이미 가동 실적이 있는 운영자산이어서 투자 안정성 측면에서 강점으로 꼽히는 지점이다.\r\n\r\n또한 하상 발전소는 올해 1월 인도네시아 환경부로부터 파리협정 제6.4조 기반의 탄소감축 사업으로 승인받았다. 이는 파리협정 시행 이후 인도네시아 정부가 자국 사업을 같은 체제 안에서 공식 승인한 첫 사례로 평가되며, 이를 통해 탄소배출권 확보 효과까지 거둘 수 있게 됐다.\r\n\r\n특히 이번 지분 참여는 한전KPS가 지난 30여 년간 전 세계 약 25개국에서 발전소 운전정비(O&amp;M) 공사를 수행하면서 쌓아온 역량과 LX인터내셔널의 글로벌 사업개발 역량 및 현지 에너지 사업 운영 경험이 결합된다는 점에서 높은 시너지가 기대된다.\r\n\r\n한전KPS는 지분투자와 함께 발전소 O&amp;M을 수행해 단기 공사 매출을 넘어 장기 현금흐름을 만드는 기반까지 구축한다는 계획이다.\r\n\r\n더불어 이번 협력을 계기로 LX인터내셔널과의 파트너십을 통해 추가적인 해외 재생에너지 사업 투자 및 O&amp;M 공사 수주, 탄소배출권 연계사업으로 이어갈 방침이다."
+    },
+    {
+      "id": "391dff3b-68eb-4d57-8d31-0d5fc4dc219d",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "금강수계위, 재생에너지 보급 등 특별지원사업 선정",
+      "titleOriginal": null,
+      "summary": "금강수계관리위원회가 상수원관리지역 주민 소득 증대를 위해 2027년부터 재생에너지 보급 사업을 본격 추진한다. 이번 선정 사업에는 총 124억 원이 투입되며, 이 중 117억 원이 '햇빛소득마을' 조성 및 태양광·히트펌프 보급 등 재생에너지 분야에 배정되었다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T11:35:31.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=303469",
+      "collectedAt": "2026-09-23T23:38:02.466Z",
+      "bodySnippet": "\r\n<img alt=\"금강유역환경청 전경 / 금강유역환경청 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303469_176037_3425.jpeg\" />\r\n금강유역환경청 전경 / 금강유역환경청 제공\r\n\r\n\r\n\r\n[투데이에너지 김병민 기자]&nbsp;금강수계관리위원회(사무국장 마재정 금강유역환경청장)는 지난 16일 &lsquo;2027년도 금강수계관리기금 주민지원 특별지원사업 선정평가위원회&rsquo;를 열고, 7개 관리청(시&middot;군&middot;구)의 17개 사업(총 124억 원)을 선정했다고 23일 밝혔다.\r\n\r\n특별지원사업은 금강수계 상수원관리지역의 수질개선과 지역 주민의 소득 증대 및 복지 증진 효과를 높이기 위해 추진하는 주민지원사업이다. 금강수계관리위원회는 매년 상수원 관리 지역 10개 관리청(대전 대덕구&middot;동구, 청주, 보은, 옥천, 영동, 금산, 무주, 진안, 장수)을 대상으로 공모를 실시해 특별지원사업을 선정&middot;지원해 오고 있다.\r\n\r\n올해는 지난 5월부터 7월까지 공모를 진행해 9개 관리청에서 38개 사업이 접수되었으며, 선정평가위원회의 사업 타당성, 실현 가능성, 효과성, 사후관리 방안 등에 대한 종합 심사를 거쳐 고득점순으로 지원 대상 사업을 엄선했다.\r\n\r\n2027년부터 &#39;지역주민 소득증대 재생에너지사업&#39;을 처음으로 추진한다. 이번 평가를 통해 117억 원 규모의 사업을 지원 대상으로 선정했다. 세부 유형별로는 상수원관리지역 &lsquo;햇빛소득마을&rsquo; 조성에 111억 원, 가구별&middot;마을 공동시설 대상 재생에너지(태양광&middot;히트펌프) 보급에 6억 원을 배정했다. 10월 초 추가 공모를 통해 77억 원 규모의 지원대상을 추가 선정할 계획이다.\r\n\r\n또한, 상수원관리지역 주민이 일상에서 체감할 수 있는 복지 기반 조성에도 투자한다. 노인복지회관, 문화센터 등 주민 생활밀착형 복지인프라 구축에 8억 원(2028년까지 총기금 27억 원)을 지원할 계획이다.\r\n\r\n금강수계관리위원회는 이번 지원을 통해 재정 여건으로 추진에 어려움을 겪어온 관리청의 숙원사업이 원활히 추진되어 유역 내 주민의 삶의 질 향상과 복지 증진에 크게 기여할 것으로 기대하고 있다.\r\n\r\n마재정 금강유역환경청장은 &ldquo;상수원관리지역 주민, 관계기관과 긴밀히 소통하여 주민이 실질적으로 체감할 수 있는 맞춤형 사업을 지속 발굴하겠다&rdquo;라며, &ldquo;특히 그간 소득 창출 기회가 부족했던 유역 주민들이 재생에너지사업을 통해 실질적인 소득을 높이고 에너지 복지 혜택을 체감할 수 있도록 차질 없이 지원해 나가겠다&rdquo;라고 말했다."
+    },
+    {
+      "id": "86782f68-36ae-4908-a52d-79eabfcc44ed",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "기후부, 지진안전 책임질 종합센터 구축 추진",
+      "titleOriginal": null,
+      "summary": "기후에너지환경부와 관계기관들이 2017년 포항지진의 촉발 원인이었던 지열발전 부지에 총사업비 220억 원을 투입해 '포항 지진안전종합센터'를 구축하기로 업무협약을 체결했다. 2028년 상반기 준공을 목표로 하는 이 센터는 지진 관측·연구 및 국민안전 교육을 수행하는 지진특화 거점으로 운영될 예정이다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-09-23T11:22:09.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=303466",
+      "collectedAt": "2026-09-23T23:38:10.509Z",
+      "bodySnippet": "\r\n<img alt=\"기후에너지환경부 MI / 기후에너지환경부 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303466_176035_190.jpeg\" />\r\n기후에너지환경부 MI / 기후에너지환경부 제공\r\n\r\n\r\n\r\n[투데이에너지 김병민 기자]&nbsp;기후에너지환경부(장관 김성환), 기상청(청장 이미선), 경상북도(도지사 이철우), 포항시(시장 박용선)는 9월 23일 기상청 서울청사(서울 동작구 소재)에서 &lsquo;(가칭)포항 지진안전종합센터(이하 센터) 구축 및 운영을 위한 업무협약&rsquo;을 체결한다고 밝혔다.\r\n\r\n센터가 들어서는 곳은 2017년 포항지진을 촉발한 지열발전 연구부지다. 지진의 아픔이 시작된 자리를 지진 관측&middot;연구&middot;서비스와 국민안전 교육을 연계하는 지진안전 거점으로 되돌리기 위해 4개 기관이 힘을 모았다.\r\n\r\n센터는 총사업비 220억 원(전액 국비)을 들여 올해 말에 착공해 2028년 상반기 준공을 목표로 하고 있다. 준공 후에는 지진 관측&middot;분석 기술의 고도화와 새로운 지진서비스의 개발, 국민안전 교육을 연계하는 지진특화 공간으로 운영된다.\r\n\r\n그동안 센터는 준공 이후 운영을 맡을 기관이 정해지지 않아 부지 사용허가 등 절차가 지연되었다. 이번 협약으로 &lsquo;기후부가 짓고, 기상청이 운영하며, 경북도&middot;포항시가 현지에서 뒷받침하는&rsquo; 협업체계가 구축됐다.\r\n\r\n협약에 따라 기후에너지환경부는 2028년 상반기 준공까지 구축사업을 책임지고, 특히 센터의 설계&middot;시공이 기상청의 운영방향과 부합하도록 한다.&nbsp;\r\n\r\n기상청은 관계기관과 협력하여 센터 기능 설계, 조직&middot;인력&middot;예산 등 운영에 필요한 기반을 마련하고, 이를 토대로 운영을 맡는다. 경북도와 포항시는 인허가와 부지 사용권한 확보, 센터 이용 활성화 여건 조성 등 행정지원과 산&middot;학&middot;연 협력을 뒷받침한다. 4개 기관은 협약 이행을 점검할 실무협의회를 즉시 구성해 운영하기로 했다.\r\n\r\n이호현 기후에너지환경부 제2차관은 &ldquo;포항지진은 에너지 정책을 추진하는 정부가 잊어서는 안 될 교훈&rdquo;이라며, &ldquo;아픔이 시작된 자리에 지진안전의 거점을 세우는 것은 정부가 책임 있게 매듭지어야 할 약속인 만큼, 2028년 준공까지 차질 없이 추진하겠다&rdquo;라고 밝혔다.\r\n\r\n이미선 기상청장은 &ldquo;기상청은 국가 지진 감시 및 경보 책임기관으로서 그동안 축적해 온 지진 관측&middot;분석&middot;경보 역량을 기반으로 에너지 개발 등 다양한 분야의 지진특성 평가 연구와 기술 실증에 기여하고, 국민의 지진 대응역량을 높이기 위한 지진안전 교육에도 최선을 다하겠다&rdquo;라고 말했다.\r\n\r\n황명석 경상북도 행정부지사는 &ldquo;경북은 지진의 아픔을 가장 가까이에서 겪은 지역&rdquo;이라며, &ldquo;포항시와 함께 인허가와 부지 문제 등 행정적 뒷받침은 물론 도내 대학&middot;연구기관과의 협력을 이어 센터가 지역에 뿌리내리도록 하겠다&rdquo;라고 밝혔다.\r\n\r\n박용선 포항시장은 &ldquo;이번 업무협약은 포항촉발지진의 아픔을 대한민국의 안전으로 바꾸어 나가는 새로운 시작&rdquo;이라며, &ldquo;그 출발을 포항시민과 함께 기쁜 마음으로 환영하며, 지진이 발생했던 현장이 지진을 연구하고 재난에 대비하는 공간이자 이정표가 될 수 있도록 관계기관과 긴밀히 협력해 센터 구축에 최선을 다하겠다&rdquo;라고 말했다."
+    },
+    {
+      "id": "185b1907-9422-4b65-ab68-3651fd6fab94",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전기산업연합회, 중소 회원사 지식재산 경쟁력 강화 나서",
+      "titleOriginal": null,
+      "summary": "대한전기산업연합회가 한양국제특허법인과 업무협약을 체결하고 중소 회원사의 지식재산권 출원, 기술 보호 및 맞춤형 컨설팅을 지원한다. 이번 협력을 통해 회원사는 특허 출원 수수료 할인과 분쟁 대응 자문 등 실질적인 기술 보호 혜택을 받게 된다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-23T11:10:58.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=303463",
+      "collectedAt": "2026-09-23T23:38:14.949Z",
+      "bodySnippet": "\r\n<img alt=\"대한전기산업연합회가 지난 18일 한양국제특허법인과 업무협약을 체결했다. / \" src=\"https://cdn.todayenergy.kr/news/photo/202609/303463_176034_101.jpg\" />\r\n대한전기산업연합회가 지난 18일 한양국제특허법인과 중소 회원사의 기술 보호와 사업화 지원을 위한 업무협약을 체결했다. /대한전기산업연합회 제공\r\n\r\n\r\n\r\n[투데이에너지 이종수 기자]&nbsp;대한전기산업연합회(이하 연합회)가 한양국제특허법인(이하 한양특허법인)과 손잡고 중소기업 회원사의 기술 보호와&nbsp;지식재산권(IP) 경쟁력 강화에 나선다.\r\n\r\n연합회는 지난 18일 서울 송파구 전기회관에서 노용호 상근부회장과 김연수 한양특허법인 대표변리사 등이 참석한 가운데 &lsquo;회원사의 기술 보호 및 사업화 지원을 위한 업무협약&rsquo;을 체결했다고 23일 밝혔다.\r\n\r\n양 기관은 협약에 따라 △전기산업 분야 지식재산권 출원 및 권리화 지원 △회원사 대상 맞춤형 지식재산 컨설팅 및 기술보호 자문 △국내&middot;외 특허 동향조사 및 정보분석 자료 공유 △지식재산 교육&middot;세미나&middot;설명회 공동 개최 △회원사 대상 우대 서비스 및 수수료 할인 제공 등 다각적인 협력 사업을 추진하기로 했다.\r\n\r\n특히, 연합회는 기술 특허 출원과 분쟁 대응에 어려움을 겪는 중소 회원사를 위해 맞춤 자문 및 할인 우대 혜택을 제공함으로써 실질적인 현장 지원 효과를 거둘 것으로 기대하고 있다.\r\n\r\n노용호 상근부회장은 &ldquo;중소기업 회원사들이 우수한 기술을 보유하고도 권리화와 보호에 어려움을 겪고 있다&rdquo;라며 &ldquo;이번 협약이 회원사들의 지식재산 자산을 지키고 새로운 시장으로 도약하는 든든한 밑거름이 되기를 바란다&rdquo;고 밝혔다.\r\n\r\n김연수 대표변리사는 &ldquo;글로벌 시장 확대 속에서 우리 기업들이 기술 분쟁 리스크를 극복하도록 돕겠다&rdquo;라며 &ldquo;특허 장벽 분석, 비용 효율화, 전용 핫라인 운영 등 실질적인 지원을 아끼지 않겠다&rdquo;고 화답했다."
+    },
+    {
+      "id": "5e88b12c-76c6-4f60-8a81-c62223621fac",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[입찰 정보] 9월 23일",
+      "titleOriginal": null,
+      "summary": "한국가스기술공사, 한국수자원공사 등 주요 공공기관이 발주한 에너지 및 전기 시설 관련 입찰 정보입니다. 당진 청정수소 패키지, 태양광 발전장치, LNG 본부 연료유 구매, 전기 시설 개선 등 전력 인프라 및 에너지 관련 사업이 주를 이루고 있습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T11:05:26.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=303464",
+      "collectedAt": "2026-09-23T23:38:23.348Z",
+      "bodySnippet": "[투데이에너지]\r\n\r\n◆당진 청정수소 패키지(CO2 포집 및 바이오고품질화) 제작 및 설치\r\n\r\n발주처 : (주)한국가스기술공사\r\n\r\n마감일 : 2026/10/06 10:00\r\n\r\n◆방글라데시 태양광 기반 저온저장 시스템 기준모델 조사 및 경제성 검토\r\n\r\n발주처 : 한국생산기술연구원\r\n\r\n마감일 : 2026/10/06 12:00\r\n\r\n◆(우수조달)인천석남 어울림센터 및 거북이기지 행복주택 전기공사 1공구 태양광발전장치\r\n\r\n발주처 : 한국토지주택공사\r\n\r\n마감일 : 2026/10/01 13:00\r\n\r\n◆합천댐 본댐 전력공급설비 개선 전기시설공사 감리용역\r\n\r\n발주처 : 한국수자원공사 합천댐지사\r\n\r\n마감일 : 2026/10/06 10:00\r\n\r\n◆(채혈 없이 실시간 저전력 온디바이스 혈당값 추론이 가능한 광음향 비침습 혈당측정기) AX 디바이스용 AI 학습 데이터 라벨링 용역\r\n\r\n발주처 : 한국화학융합시험연구원\r\n\r\n마감일 : 2026/10/06 14:00\r\n\r\n◆사천비행장선(사천~진주) LTE-R 전원공급 전력설비 신설공사\r\n\r\n발주처 : 국가철도공단\r\n\r\n마감일 : 2026/10/08 10:00\r\n\r\n◆주택건설공사 감리자(전기분야) 모집 공고(과천주공5단지 주택재건축정비사업)\r\n\r\n발주처 : 경기도 과천시\r\n\r\n마감일 : 2026/10/07 12:00\r\n\r\n◆제주LNG본부 비상발전기 및 소화해수펌프용 연료유(경유) 구매\r\n\r\n발주처 : 한국가스공사\r\n\r\n마감일 : 2026/10/01 09:00\r\n\r\n◆동원중학교 공간재구조화 및 환경개선공사 전기부문 설계용역\r\n\r\n발주처 : 대구광역시교육청 대구광역시동부교육지원청\r\n\r\n마감일 : 2026/10/01 10:00\r\n\r\n◆대장지구 풍수해생활권 종합정비사업(전기) 수배전반 제작 및 설치\r\n\r\n발주처 : 경상북도 성주군\r\n\r\n마감일 : 2026/09/29 12:00\r\n\r\n◆[입찰공고] 제주고 본관 및 양지관 교실 수리 전기공사\r\n\r\n발주처 : 제주특별자치도교육청\r\n\r\n마감일 : 2026/10/01 10:00\r\n\r\n◆(NEP, 우수조달물품)행정중심복합도시 향토유물박물관 전기공사 디젤발전기 제작 및 설치\r\n\r\n발주처 : 한국토지주택공사\r\n\r\n마감일 : 2026/10/01 10:00\r\n\r\n◆국도21호선 도고(하) 과적검문소 등 5개소 전기공사\r\n\r\n발주처 : 국토교통부 대전지방국토관리청 예산국토관리사무소\r\n\r\n마감일 : 2026/09/30 14:00\r\n\r\n◆2026년도 국도3호선 부발졸음쉼터 가로등 및 암거 조명시설 철거,설치공사(전기)\r\n\r\n발주처 : 국토교통부 서울지방국토관리청 수원국토관리사무소\r\n\r\n마감일 : 2026/09/29 16:00\r\n\r\n◆(가칭)창릉5초 외 1교((가칭)장항중) 신축 전기공사\r\n\r\n발주처 : 경기도교육청 경기도고양교육지원청\r\n\r\n마감일 : 2026/10/08 10:00\r\n\r\n◆9호선 2, 3단계 양방향 전기집진기 유지보수 용역\r\n\r\n발주처 : 서울교통공사\r\n\r\n마감일 : 2026/10/06 10:00\r\n\r\n◆옥상방수 및 균열보수 전기공사\r\n\r\n발주처 : 국군제1386부대\r\n\r\n마감일 : 2026/09/30 10:00\r\n\r\n◆충전기 통신 프로토콜 및 데이터 고도화 컨설팅\r\n\r\n발주처 : 한국환경공단\r\n\r\n마감일 : 2026/10/08 10:00\r\n\r\n◆마음에온 서귀1차 외 3개소 건설재해예방기술지도 용역(전기, 정보통신, 소방공사)\r\n\r\n발주처 : 제주특별자치도개발공사\r\n\r\n마감일 : 2026/10/01 10:00\r\n\r\n◆3,4호기 회전기기 원격 진동감시 시스템 자재 구매\r\n\r\n발주처 : 사업소 태안발전본부\r\n\r\n마감일 : 2026/09/29 11:00"
+    },
+    {
+      "id": "4b14ab02-70ed-4a82-9b8e-2987ae47fbd9",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "지역난방公, 자회사와 상생협력… 공동 경영가치 실현",
+      "titleOriginal": null,
+      "summary": "한국지역난방공사가 자회사 3곳과 '경영가치 실현 및 상생협력 협약'을 체결했다. 양측은 실용·상생·안전·소통 경영을 핵심 가치로 삼아 공공서비스의 품질을 높이고 지속 가능한 미래 성장 기반을 마련하기로 했다.",
+      "topics": [
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-09-23T10:58:47.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=303462",
+      "collectedAt": "2026-09-23T23:38:25.707Z",
+      "bodySnippet": "\r\n<img alt=\"하동근 한국지역난방공사 사장(왼쪽에서 두번째)과 자회사 사장들이 협약을 체결했다. / 한국지역난방공사 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303462_176032_5731.jpg\" />\r\n하동근 한국지역난방공사 사장(왼쪽에서 두번째)과 자회사 사장들이 협약을 체결했다. / 한국지역난방공사 제공\r\n\r\n\r\n\r\n[투데이에너지 김병민 기자]&nbsp;한국지역난방공사(사장 하동근)는 지난 22일 자회사인 한국지역난방기술㈜, 지역난방안전㈜, 지역난방플러스㈜와 &lsquo;경영가치 실현 및 상생협력 협약&rsquo;을 체결했다고 밝혔다.&nbsp;\r\n\r\n이번 협약은 한국지역난방공사와 자회사가 상호 존중과 신뢰를 바탕으로 각 기관의 역할과 책임을 충실히 수행하는 한편, 공동의 경영가치를 함께 실천해 국민에게 신뢰받는 기관으로 성장하기 위해 마련됐다.\r\n\r\n이번 협약을 통해 △지속가능한 미래성장 기반을 마련하는 실용경영 △상호 존중과 동반성장을 추진하는 상생경영 △안전을 최우선 가치로 삼는 안전경영 △청렴&middot;윤리의식을 바탕으로 건강한 조직문화를 조성하는 소통경영을 공동의 경영가치로 설정하고 이를 경영활동에 적극 반영하기로 했다.\r\n\r\n한국지역난방공사 하동근 사장은 &ldquo;한국지역난방공사와 자회사가 각자의 역할과 책임을 충실히 수행하는 동시에 공동의 경영가치를 공유하고 실천하는 것이 국민에게 신뢰받는 공공기관으로 나아가기 위한 중요한 기반&rdquo;이라며, &ldquo;실용&middot;상생&middot;안전&middot;소통의 가치를 바탕으로 모&middot;자회사간 협력을 강화하고 국민이 체감할 수 있는 공공서비스를 제공할 수 있도록 함께 노력하겠다&rdquo;고 말했다."
+    },
+    {
+      "id": "d9d886db-0c72-4a1d-8804-96ed164a29cf",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "SK온, 1.1조원 LFP 양극재 확보…美 ESS 공급망 강화",
+      "titleOriginal": null,
+      "summary": "SK온이 포스코퓨처엠과 1조 1,000억원 규모의 LFP 양극재 공급 계약을 체결하며 미국 ESS용 배터리 공급을 위한 탈중국 공급망을 구축했다. 2027년부터 3년간 공급되는 해당 양극재는 SK온의 조지아 공장에서 생산되는 ESS 배터리의 핵심 소재로 활용될 예정이다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T10:48:33.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=303443",
+      "collectedAt": "2026-09-23T23:38:39.051Z",
+      "bodySnippet": "\r\n<img alt=\"SK온 미국법인 SK배터리아메리카(SKBA) 전경 /SK온 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303443_175998_590.jpg\" />\r\nSK온 미국법인 SK배터리아메리카(SKBA) 전경 /SK온 제공\r\n\r\n\r\n\r\n[투데이에너지 김원빈 기자]&nbsp; SK온이 포스코퓨처엠으로부터 대규모 리튬인산철(LFP) 양극재를 공급받으며 미국 에너지저장장치(ESS) 시장 공략을 위한 비(非)중국 공급망 확보에 나선다.\r\n\r\nSK온은 22일 포스코퓨처엠과 LFP 양극재 공급 계약을 체결했다고 밝혔다. 계약 규모는 약 1조1000억원으로, 2027년부터 2029년까지 3년간 양극재를 공급받는다. 제품은 미국 조지아 공장에서 ESS용 LFP 배터리 셀 생산에 활용된다.\r\n\r\n이번에 공급되는 양극재에는 포스코그룹이 아르헨티나 염호에서 확보한 리튬이 사용된다. 포스코퓨처엠은 신공법을 적용해 원가 경쟁력과 품질을 높였으며, 포항 공장의 하이니켈 양극재 생산라인 일부를 LFP 라인으로 전환해 올해 말 양산을 시작할 예정이다.\r\n\r\nSK온은 이번 계약을 통해 중국 의존도를 낮춘 LFP 소재 조달 기반을 마련하고 미국 ESS 시장 대응력을 높인다는 계획이다. 양사는 2029년 이후 추가 공급 계약 연장도 협의할 예정이다.\r\n\r\n북미 ESS 사업도 확대하고 있다. SK온은 지난 8월 미국 ESS 기업 네오볼타 파워와 LFP 배터리 셀 공급 계약을 체결했으며, 지난해 9월에는 미국 재생에너지기업 플랫아이언 에너지 개발과 ESS 공급 계약을 맺었다.\r\n\r\n김성탄 SK온 원소재구매실장은 &ldquo;미국 ESS 수요 확대에 맞춰 탈중국 공급망 구축과 핵심 소재 경쟁력 강화에 집중하고 있다&rdquo;며 &ldquo;안정적인 소재 조달과 ESS 시장 확대를 지속 추진할 것&rdquo;이라고 말했다."
+    },
+    {
+      "id": "e20923f4-9d2c-4b9a-8d33-68b014351e77",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한수원-에너지공단, 감사 업무협약 체결",
+      "titleOriginal": null,
+      "summary": "한국수력원자력과 한국에너지공단이 감사 업무협약을 체결하고 AI 기반 감사 기법 도입과 내부통제 강화에 협력하기로 했다. 이번 협약을 통해 두 기관은 인권친화적 감사 워크숍 개최, 교차 감사 시 인력 교류 등을 추진하며 공공기관의 감사 전문성을 높일 계획이다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T10:44:26.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=303460",
+      "collectedAt": "2026-09-23T23:38:44.708Z",
+      "bodySnippet": "\r\n<img alt=\"강민구 한수원 상임감사위원(오른쪽)과 권오현 한국에너지공단 상임감사(왼쪽)가 업무협약을 체결한 뒤 기념사진을 촬영하고 있다. /한수원 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303460_176030_4412.jpg\" />\r\n강민구 한수원 상임감사위원(오른쪽)과 권오현 한국에너지공단 상임감사(왼쪽)가 업무협약을 체결한 뒤 기념사진을 촬영하고 있다. /한수원 제공\r\n\r\n\r\n\r\n[투데이에너지 이종수 기자]&nbsp;한국수력원자력(사장 김회천, 이하, 한수원)이 지난 22일 경주 본사에서 한국에너지공단(이사장 최재관)과 인공지능(AI) 기반 감사혁신, 적극행정 지원제도 활성화를 위한 업무협약을 체결했다.&nbsp;&nbsp;\r\n\r\n두 기관은 협약을 통해 △인공지능(AI) 분석을 활용한 감사기법 사례 공유 △적극행정 지원 제도 상호 자문 △내부통제 취약분야 정보 공유 △인권친화적 감사 강화를 위한 합동 워크숍 개최 등에서 협력을 강화하기로 했다.\r\n\r\n특히 한수원은 우수 분야 벤치마킹, 사례 및 정보 공유 등의 상호 협력을 통해 감사 업무의 전문성을 한층 더 끌어올리겠다는 방침이다.\r\n\r\n강민구 한수원 상임감사위원은 &ldquo;지속 가능한 에너지 미래와 국가 탄소중립 실현이라는 공동의 목표를 향해 뛰고 있는 두 기관이 이번 업무협약을 계기로 인공지능(AI) 기반 감사체계를 혁신하고, 적극행정 지원제도를 활성화하는 문화를 확산해 나가겠다&rdquo;라고 말했다.\r\n\r\n권오현 한국에너지공단 상임감사는 &ldquo;이번 협약이 양 기관의 내부통제 강화 활동을 위해 협력하고 교차감사 등 감사활동 시 전문 분야 인력 교류를 위한 계기가 되도록 양 기관이 협력하고 노력하겠다&rdquo;라고 말했다."
+    },
+    {
+      "id": "75f5fda8-12ea-4b11-b785-78d2ed9f3dad",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "원전 폐이온교환수지 안전한 처분 길 열어",
+      "titleOriginal": null,
+      "summary": "한국원자력연구원이 방사성 폐이온교환수지를 탄화해 시멘트나 지오폴리머로 고형화하는 기술을 개발하고 그린방사선에 이전했다. 이 기술을 적용하면 폐수지를 고화체 무게의 40%까지 포함할 수 있어 최종 처분 부피를 최소화하고 경주 방폐장의 엄격한 인수기준을 안정적으로 충족할 수 있다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T10:31:00.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=303457",
+      "collectedAt": "2026-09-23T23:38:55.168Z",
+      "bodySnippet": "\r\n<img alt=\"한국원자력연구원이 원전에서 발생하는 방사성 폐이온교환수지를 탄화한 뒤 시멘트나 지오폴리머를 이용해 고체 형태로 만드는 기술을 개발해 그린방사선에 이전했다. /한국원자력연구원 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303457_176019_1059.jpg\" />\r\n한국원자력연구원이 원전에서 발생하는 방사성 폐이온교환수지를 탄화한 뒤 시멘트나 지오폴리머를 이용해 고체 형태로 만드는 기술을 개발해 그린방사선에 이전했다. /한국원자력연구원 제공\r\n\r\n\r\n\r\n[투데이에너지 이종수 기자]&nbsp;마땅한 처분 방법이 없어 원전 내에 임시 보관해 온 방사성 폐이온교환수지를 안전하게 굳혀 처분할 수 있는 기술이 개발됐다.&nbsp;&nbsp;\r\n\r\n한국원자력연구원 원자력시설청정기술개발부 임승주 박사 연구팀은 원전에서 발생하는 방사성 폐이온교환수지를 탄화한 뒤 시멘트나 지오폴리머를 이용해 고체 형태로 만드는 기술을 개발해 그린방사선(대표&nbsp;박승철)에 이전했다고 23일 밝혔다. 정액기술료 1억 원과 매출액 2%를 경상기술료로 받는 조건이다.\r\n\r\n그린방사선은 원자력발전소의 방사성폐기물&middot;방사선&middot;방사화학 기술개발 및 기술서비스를 제공하는 연구원의 패밀리(Family) 기업이다. 이번 기술을 활용해 폐이온교환수지의 고형화 처리 사업에도 진출할 예정이다.\r\n\r\n\r\n<img alt=\"\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303457_176022_1444.jpg\" />\r\n탄화처리 전 폐수지(왼쪽)와 탄화처리 후 폐수지(오른쪽) /한국원자력연구원 제공\r\n\r\n\r\n\r\n원전은 정상 운전이나 해체 과정에서 시설과 설비에 묻은 방사성물질을 제거하는 제염 작업을 한다. 이 과정에서 발생하는 폐액 속 방사성물질을&nbsp;이온교환수지라는 필터 소재를 이용해 걸러낸다. 방사성물질을 흡착해 더 이상 사용할 수 없게 된 이온교환수지를 &lsquo;방사성 폐이온교환수지(폐수지)&rsquo;라고 한다. 이렇게 발생한 폐수지는 반드시 시멘트 등으로 고형화한 후 최종 처분되어야 한다.\r\n\r\n그러나 폐수지는 물을 쉽게 흡수하고 팽창하는 성질이 있어 그대로 시멘트 등과 섞어 굳히기 어렵다. 폐수지를 많이 넣으면 고체 내부에 균열이 생겨 경주 중&middot;저준위 방사성폐기물 처분시설의 인수기준을 충족하기 어렵기 때문이다.\r\n\r\n반대로 균열을 막기 위해 폐수지를 적게 넣으면 만들어야 하는 고체 폐기물의 양이 늘어나 최종 처분 부피와 비용이 커진다. 이와 같은 문제로 현재 폐수지는 마땅한 처분 방법 없이 원전 내 임시 보관되고 있다.\r\n\r\n\r\n<img alt=\"탄화폐수지가 포함된 시멘트 고화체 /한국원자력연구원 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303457_176020_1211.jpg\" />\r\n탄화폐수지가 포함된 시멘트 고화체 /한국원자력연구원 제공\r\n\r\n\r\n\r\n\r\n<img alt=\"탄화폐수지가 포함된 지오폴리머 고화체 /한국원자력연구원 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303457_176021_1221.jpg\" />\r\n탄화폐수지가 포함된 지오폴리머 고화체 /한국원자력연구원 제공\r\n\r\n\r\n\r\n연구팀은 이 문제를 해결하기 위해 폐수지를 산소가 없는 환경에서 가열해 열분해하는 탄화 기술을 적용했다. 적절한 온도와 처리 조건을 찾아 물을 흡수해 부푸는 현상을 억제했다.\r\n\r\n탄화한 폐수지를 고화체 전체 무게의 40%까지 넣어 시멘트와 지오폴리머로 각각 굳혔다. 그결과 경주 방폐장의 주요 폐기물 인수기준인 압축&middot;열순환&middot;침수&middot;침출&middot;유리수 시험 기준을 모두 충족했다.\r\n\r\n특히 시멘트 등을 전체 무게의 60%까지 추가해 고화체를 만들었을 때도 최종 부피는 탄화 폐수지 자체의 부피보다 20% 이내로만 증가했다. 즉, 고형화 과정에서 늘어나는 최종 처분 부피를 최소화한 것이다.\r\n\r\n고화체에서 방사성물질이 외부로 빠져나오는 정도를 평가한 시험에서도 기준을 충족했다. 시멘트와 지오폴리머 고화체의 세슘 침출지수는 각각 9.18과 10.41, 코발트 침출지수는 10.43과 13.77로 모두 처분 인수기준 6.0을 넘어 방사성핵종이 침출되어 확산될 위험이 없음을 확인했다.\r\n\r\n\r\n<img alt=\"한국원자력연구원 손성준 선임연구원이 탄화폐수지가 포함된 시멘트 고화체의 압축 강도를 측정하고 있다. /한국원자력연구원 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303457_176023_1652.jpg\" />\r\n한국원자력연구원 손성준 선임연구원이 탄화폐수지가 포함된 시멘트 고화체의 압축 강도를 측정하고 있다. /한국원자력연구원 제공\r\n\r\n\r\n\r\n이번 기술은&nbsp;현재 국내 특허 출원을 마쳤으며 미국, 일본, 유럽, 중국, UAE 등 국외 특허 출원을 앞두고 있다.\r\n\r\n임승주 박사는 &ldquo;이번 기술은 처리가 까다로운 방사성 폐수지를 탄화해 안정적으로 고체화하고, 최종 처분해야 할 폐기물의 부피와 비용을 줄일 수 있다는 데 의미가 있다&rdquo;고 밝혔다.\r\n\r\n연구를 함께한 손성준 박사는 &ldquo;향후 다양한 방폐물을 대상으로 장기 처분 건전성과 현장 적용성을 검증해&nbsp;실용적인 처분기술로 발전시키겠다&rdquo;고&nbsp;밝혔다.\r\n\r\n■ 용어 설명\r\n\r\n지오폴리머 =&nbsp;알루미늄과 규소 등을 포함한 무기물질을 반응시켜 만든 결합재로, 시멘트처럼 폐기물을 단단하게 굳히는 데 사용할 수 있다.\r\n\r\n침출지수 =&nbsp;방사성폐기물 고화체가 빗물이나 지하수에 노출되는 경우를 고려해&nbsp;방사성물질이 외부로 침출되어 유출되는지 여부를 시험하며, 시험결과 침출지수 6.0 이상일 때 인수기준을 만족한다."
+    },
+    {
+      "id": "e6ab0084-7200-4a95-8aa4-873da7365dbe",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전, 공사원가 산정기준 신뢰성 향상 나서",
+      "titleOriginal": null,
+      "summary": "한국전력이 대한전기산업연합회 및 한국전기공사협회와 업무협약을 맺고, 전력망 투자 확대에 따른 공사원가 산정기준의 신뢰성과 투명성 제고에 나선다. 3개 기관은 '공사원가 산정 협의체' 운영을 제도화하고, 공사 현장 안전 확보 및 신공법·신사업 원가 기준을 적시에 반영할 계획이다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-23T09:42:21.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=303455",
+      "collectedAt": "2026-09-23T23:38:58.863Z",
+      "bodySnippet": "\r\n<img alt=\"(왼쪽부터) 조재형 대한전기산업연합회 처장, 김경훈 한전 기술기획처장, 김경주 한국전기공사협회 이사가 업무협약을 체결한 뒤 기념사진을 촬영하고 있다. /한전 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303455_176018_4210.jpg\" />\r\n(왼쪽부터) 조재형 대한전기산업연합회 처장, 김경훈 한전 기술기획처장, 김경주 한국전기공사협회 이사가 업무협약을 체결한 뒤 기념사진을 촬영하고 있다. /한전 제공\r\n\r\n\r\n\r\n[투데이에너지 이종수 기자]&nbsp;한국전력(사장 김동철, 이하 한전)은 지난&nbsp;22일&nbsp;충북 오송 한국전기공사협회에서 대한전기산업연합회, 한국전기공사협회와 &lsquo;공사원가 산정기준 신뢰성 제고를 위한 상생협력 업무협약(MOU)&rsquo;을 체결했다고 23일 밝혔다.&nbsp;&nbsp;\r\n\r\n이번 협약은 전력망 투자 확대에 따라 공사원가 기준의 중요성이 커지는 가운데, 전기공사 원가 산정기준의 적정성과 투명성을 높이기 위해 기획됐다.&nbsp;\r\n\r\n한전과 두 기관은 앞선 4월 30일 &lsquo;공사원가 산정 협의체&rsquo;를 발족하고 공사원가 관련 주요 현안을 꾸준히 논의해 왔다.&nbsp;\r\n\r\n3개 기관은 이번 협약을 통해 △공정하고 합리적인 공사원가 산정기준 수립을 위한 상호 협력 △공사원가 협의체 구성&middot;운영의 제도화 △공사원가 분쟁 발생 시 협의체를 통한 우선적 해결 △공사 현장 안전 확보를 위한 원가 산정기준 마련&middot;적용 △신공법&middot;신사업 관련 원가 산정기준의 적시 반영 등을 중점 추진할 계획이다.\r\n\r\n한전 관계자는 &ldquo;전기업계와의 상생 협력 거버넌스 구축을 통해 공사원가 산정의 적정성을 한층 높일 수 있을 것으로 기대한다&rdquo;라며 &ldquo;이번 협약을 계기로 &lsquo;공사원가 산정 협의체&rsquo;를 중심으로 상시적인 교류와 협력을 지속 강화해 나가겠다&rdquo;고 밝혔다."
+    },
+    {
+      "id": "d26aa243-26ef-4864-a3a3-397c63134c2c",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "기후부, 수소 연료 보조금 1000원 한시적 인상",
+      "titleOriginal": null,
+      "summary": "기후에너지환경부는 중동전쟁 등으로 인한 수소 버스 업계의 부담을 완화하기 위해 10월부터 12월까지 수소 연료보조금을 기존 kg당 5,000원에서 6,000원으로 1,000원 인상한다. 또한 추석 연휴와 4분기 수소 수요 증가에 대비해 수급대응반을 구성하고 대체 물량 확보를 통해 안정적인 수소 공급을 추진할 계획이다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T09:38:01.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=303451",
+      "collectedAt": "2026-09-23T23:39:02.778Z",
+      "bodySnippet": "\r\n<img alt=\"기후부가 수소버스 업계의 가격 부담 완화를 위해  10월부터 12월까지 3개월간 한시적으로 수소 연료보조금을  kg당 1000원 인상한다.\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303451_176016_2920.jpg\" />\r\n기후부가 수소버스 업계의 가격 부담 완화를 위해&nbsp; 10월부터 12월까지 3개월간 한시적으로 수소 연료보조금을&nbsp; kg당 1000원 인상한다.\r\n\r\n\r\n\r\n[투데이에너지 신일영 기자] 기후부가 수소버스업계의 가격부담 완화를 위해&nbsp; 10월부터12월까지 3개월간 한시적으로 수소 연료보조금을&nbsp; 인상한다.\r\n\r\n기후에너지환경부(장관 김성환)는 9월 22일&nbsp;&nbsp;오전 종로구 소재 센터포인트광화문빌딩 회의실에서 2026년 3차 수송용 수소 수급협의체 회의를 개최하고 이같이 밝혔다.&nbsp;\r\n\r\n이번 회의는 오일영 기후에너지환경부 기후에너지정책실장이 주재하고 국토교통부 등 관계 부처를 비롯해 인천, 경기 등 6개 지방정부 및 수소기업 등이 참석해&nbsp;수송용 수소 공급 동향, 업체별 설비점검 일정 및 대응계획 등 추석 연휴 및 4분기 수급상황을 점검했다.\r\n\r\n기후부는 올해 8월까지 누적으로 수소버스 3551대를 포함해 4만 9722대의 수소차가 보급됐고, 이에 따라 수송용 수소 소비량이 전년 같은 기간 대비 47% 증가한 1만 3711톤을 기록했다고 밝혔다.&nbsp;\r\n\r\n아울러, 연말까지 수송용 수소 추가 수요량은 수소차 보급계획 기준으로 최대 약 1만 1100톤으로 전망되고, 준공예정인 신규 수소공급설비 등을 포함한 수소 공급능력은 최대 1만 4500톤 수준으로 수급 관리가 가능할 것으로 예상됐다.\r\n\r\n또한, 국토교통부는 중동전쟁에 따른 수소 가격 인상으로 인한 버스업계 부담을 고려해&nbsp;수소연료보조금을 현재 5000원/kg에서 6000원/kg으로 10월부터 12월까지 한시적으로 인상할 계획이라고 밝혔다.\r\n\r\n수소유통전담기관(한국석유관리원)은 중동전쟁 및 석유화학 사업 재편으로 인해 나프타 원료 부생수소의 공급량이 일부 축소됐으나, 타 원료 부생수소 및 천연가스 개질수소 등 대체물량 공급을 통해 현재까지 국내 수송용 수소는 정상적으로 공급 중이라고 밝혔다.&nbsp;&nbsp;9.11~17일 기준 수송용 수소 하루 평균 공급량은&nbsp;70톤 수준이다.&nbsp;\r\n\r\n&nbsp;다만, 차량 이동이 많은 추석연휴 기간에 일시적인 수소공급설비 고장 등이 발생할 수 있고, 일부 수소공급시설의 정기 설비점검 기간에 단기적으로 수소공급량이 축소될 수 있으니 수급대응반을 구성하여 수급관리에 최선을 다할 계획이다.\r\n\r\n한편, 이날 회의에 참석한 수소기업들은 중동전쟁, 석유화학 사업 재편 및 정기 설비점검 등으로 인해 수소공급에 차질이 발생하지 않도록 신규 준공 예정 설비를 적기 가동하고, 원료 공급처 동향, 설비 가동 현황 등 수급 동향을 공유할 예정이다.\r\n\r\n특히, 수소공급시설 설비점검 기간 중에는 지방정부와 협력해&nbsp;수소차 운행에 영향이 없도록 대체물량, 대체충전소 확보 등에 적극 협력할 예정이다.\r\n\r\n오일영 기후에너지환경부 기후에너지정책실장은 &ldquo;차량이동이 많은 추석 연휴와 기온이 낮아지는 4분기는 수송용 수소의 소비량이 많아지고 설비점검이 집중돼&nbsp;있는 시기이므로 안정적인 수소 공급에 최선을 다하겠다&rdquo;라며, &ldquo;특히 일부 석유화학시설 등 수소공급시설의 정기 설비점검 기간에 국민들이 수소버스 등 수소차 이용에 불편이 없도록 수소유통전담기관, 수소업계 및 지방정부와 함께 대체물량 및 대체충전소를 적극적으로 확보하겠다&rdquo;라고 밝혔다."
+    },
+    {
+      "id": "b1b88c36-8af1-4552-94ef-081e783c92e8",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "아론, 추석 충청권 휴게소 ‘이동식 전기차 충전’ 운영",
+      "titleOriginal": null,
+      "summary": "전기차 충전 솔루션 스타트업 아론이 추석 연휴를 맞아 충청권 고속도로 휴게소 3곳에서 8대의 이동식 충전 차량을 운영한다. 기후에너지환경부 주관으로 23일부터 27일까지 5일간 진행되며, 배터리 잔량 50% 미만 차량을 대상으로 1회 최대 20kWh 충전과 낮 시간대 50% 요금 할인 혜택을 제공한다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T09:37:33.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=303456",
+      "collectedAt": "2026-09-23T23:39:06.992Z",
+      "bodySnippet": "\r\n<img alt=\"이동식 전기차 충전 서비스 배치 현장 / 아론 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303456_176017_3535.png\" />\r\n이동식 전기차 충전 서비스 배치 현장 / 아론 제공\r\n\r\n\r\n\r\n[투데이에너지 김병민 기자]&nbsp;전기차 충전 솔루션 스타트업 아론(대표 남재현)이 에바(대표 이훈)와 함께 추석 연휴 기간 충청권 고속도로 휴게소에서 &lsquo;이동식 전기차 충전 서비스&rsquo;를 운영한다고 밝혔다.&nbsp;\r\n\r\n이번 서비스는 귀성&middot;귀경 차량이 몰리는 추석 연휴 동안 전국 주요 고속도로 휴게소에 이동식 전기차 충전 차량을 배치해 전기차 이용자들의 충전 불편을 해소하기 위해 기후에너지환경부와 한국자동차환경협회가 마련했다. 장거리 이동 중 충전이 필요한 이용자가 휴게소에 머무는 동안 충전할 수 있도록 지원해 명절 기간 전기차 충전 편의를 높인다는 취지다.&nbsp;\r\n\r\n아론은 △부여백제휴게소(공주 방향) △부여백제휴게소(서천 방향) △속리산휴게소(청주방향) 등 총 3개 휴게소에 이동식 충전차량 8대를 배치해 전기차 충전을 지원할 예정이다.\r\n\r\n&lsquo;이동식 전기차 충전 서비스&rsquo;는 23일부터 27일까지 총 5일간 각 휴게소 내 지정된 위치에서 제공된다. 서비스 운영 시간은 오전 9시부터 오후 6시까지이며, 1회 기준 최대 20kWh까지 충전할 수 있다. 특히 배터리 잔량(SoC)이 50% 미만인 차량에 우선적으로 서비스를 제공해, 장거리 이동 중 긴급하게 충전이 필요한 전기차 이용자를 집중 지원한다. 아울러 고정형 충전기와 동일하게 추석 낮 시간대(11시~14시)에는 충전 요금 50% 할인이 적용된다.&nbsp;\r\n\r\n아론 남재현 대표는 &ldquo;추석 연휴처럼 장거리 이동이 집중되면서 충전 수요가 크게 늘어나는 시기에는 유연하게 대응할 수 있는 충전 인프라가 필수적&rdquo;이라며 &ldquo;&lsquo;이동식 전기차 충전서비스 위탁운영 시범사업&rsquo;을 통해 쌓은 다양한 현장 운영 경험을 바탕으로, 전기차 운전자들이 충전 불편 없이 안심하고 고향을 다녀올 수 있도록 적극 지원하겠다&rdquo;고 말했다.&nbsp;"
+    },
+    {
+      "id": "03a01263-9de2-48f9-b953-176aa0326cc6",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "LS전선 ‘윈드에너지 함부르크 2026’ 참가",
+      "titleOriginal": null,
+      "summary": "LS전선이 '윈드에너지 함부르크 2026'에 참가해 해상풍력 전 구간을 아우르는 전력망 솔루션을 선보였다. 특히 송전 용량을 기존 대비 최대 25% 높인 525kV급 HVDC 해저케이블 기술을 앞세워 글로벌 해상풍력 시장 공략을 강화하고 있다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T09:30:06.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=303453",
+      "collectedAt": "2026-09-23T23:39:15.207Z",
+      "bodySnippet": "\r\n<img alt=\"'윈드에너지 함부르크 2026'을 방문한 관람객이 LS전선 부스를 살펴보고 있다. /LS전선 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303453_176015_2834.png\" />\r\n&#39;윈드에너지 함부르크 2026&#39;을 방문한 관람객이 LS전선 부스를 살펴보고 있다. /LS전선 제공\r\n\r\n\r\n\r\n[투데이에너지 이종수 기자]&nbsp;LS전선은 9월 22일부터 25일까지 독일 함부르크에서 열리는 &lsquo;윈드에너지(WindEnergy) 함부르크 2026&rsquo;에 참가한다고 23일 밝혔다.\r\n\r\n윈드에너지 함부르크는 2년마다 독일 함부르크에서 열리는 세계 최대 규모의 풍력에너지 전문 전시회로, 글로벌 개발사와 전력회사, 터빈&middot;케이블 제조사 등 풍력산업 주요 기업들이 참여한다.\r\n\r\nLS전선은 이번 전시에서 풍력터빈부터 육상 전력망까지 연결하는 해상풍력 전력망 솔루션을 선보인다. 터빈용 배전(MV) 케이블부터 터빈 간 해저케이블, 육상까지 연결하는 초고압 해저케이블까지 전 구간 제품군을 소개한다.\r\n\r\n특히 국내 전력업계에서 유일하게 상용화한 500kV급 HVDC(초고압직류송전) 케이블 기술을 소개한다. 525kV&middot;80℃급 HVDC 해저케이블은 기존 70℃급 대비 송전 용량을 최대 25% 높여 대형화, 원거리화되는 해상풍력의 대용량 송전에 대응할 수 있다.\r\n\r\nLS전선은 LS마린솔루션과 협업해 해저케이블 생산&middot;포설&middot;시공부터 점검&middot;유지보수까지 전 과정을 수행하는 통합 사업 체계를 강화하고 있다. LS마린솔루션은 2028년 투입을 목표로 1만3000톤급 대형 HVDC 해저케이블 포설선을 건조하는 등 글로벌 해상풍력 프로젝트 대응 역량을 확대하고 있다."
+    },
+    {
+      "id": "5b7509e0-c5cc-4627-aaa4-9edb78e1f69f",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "남부발전, 여름철 전력수급 대책기간 발전설비 안정 운영",
+      "titleOriginal": null,
+      "summary": "한국남부발전은 6월 29일부터 9월 18일까지 12.1GW 규모의 발전설비를 안정적으로 운영하며 하계 전력수급에 기여했다. 지능형디지털발전소(IDPP)를 활용한 선제적 설비 점검으로 발전 5사 중 최저 고장정지율을 달성하는 성과를 거두었다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-23T09:20:22.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=303450",
+      "collectedAt": "2026-09-23T23:39:27.370Z",
+      "bodySnippet": "\r\n<img alt=\"한국남부발전 CI\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303450_176011_2010.jpg\" />\r\n한국남부발전 CI\r\n\r\n\r\n\r\n[투데이에너지 이종수 기자]&nbsp;한국남부발전(사장 김준동, 이하 &#39;남부발전&#39;)은&nbsp;지난 6월 29일부터 9월 18일까지 82일간 운영된 &#39;여름철 전력수급 대책기간&#39; 동안 총 설비용량 12.1GW 규모의 50기 발전기를 안정적으로 운영하며 전력수급 안정에 기여했다고 지난 22일 밝혔다.\r\n\r\n남부발전은 대책기간에 앞서 신인천 발전소 수명연장공사를 포함한 전 사업소 계획예방정비를 시행하고, 취약설비 집중 점검으로 사전 정비를 완료하는 등 하계 운전 준비에 만전을 기했다. 대책기간 중에는 본사와 전 사업소에 전력수급 상황실을 편성해 24시간 상황 감시체계를 유지했으며, 폭염과 집중호우 등 기상 악화에 대비한 비상대응 훈련을 실시해 대응 역량을 강화했다.\r\n\r\n특히 지능형디지털발전소(IDPP) 기반의 설비 감시&middot;진단 시스템을 활용해 주요 설비의 이상 징후를 조기에 감지하고 선제적으로 조치했다. 이를 통해 피크기간 철저한 설비관리를 실현하며 발전 5사 중 최저 고장정지율을 달성하는 성과를 거두었다.\r\n\r\n남부발전 김준동 사장은 &quot;하계 전력수요 피크기간 동안 안정적인 전력공급을 위해 힘써준 모든 임직원의 노고에 감사드린다&quot;라며&nbsp;&quot;앞으로도 철저한 설비관리로 발전설비 신뢰도를 높여 안정적인 전력계통 운영에 최선을 다하겠다&quot;고 말했다."
+    },
+    {
+      "id": "acf8b33f-ac98-4c1a-b7d2-031a7b66c1bb",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "㈜해양에너지, 추석 명절 전통시장 가스사고 예방 캠페인",
+      "titleOriginal": null,
+      "summary": "㈜해양에너지는 추석 연휴를 앞두고 한국가스안전공사 등과 함께 남광주시장에서 가스 시설 점검 및 안전 수칙 홍보 캠페인을 실시했다. 이번 활동은 '전남광주통합특별시' 출범 이후 첫 명절을 대비한 안전관리대책의 일환으로, 연휴 기간 철저한 비상 대응 체계를 가동할 계획이다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-23T08:48:00.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=303447",
+      "collectedAt": "2026-09-23T23:39:41.307Z",
+      "bodySnippet": "\r\n<img alt=\"㈜해양에너지는 22일 가스안전공사 광주광역본부, 동남도시가스 고객센터와 함께 남광주시장에서가스사고 예방 캠페인을 실시했다./해양에너지 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303447_176006_3925.jpg\" />\r\n㈜해양에너지는 22일 가스안전공사 광주광역본부, 동남도시가스 고객센터와 함께 남광주시장에서가스사고 예방 캠페인을 실시했다./해양에너지 제공\r\n\r\n\r\n\r\n[투데이에너지 신일영 기자] ㈜해양에너지(대표이사 정회)는 전남광주통합특별시의 &lsquo;추석 연휴 안전관리대책&rsquo;에 발맞춰 22일 한국가스안전공사 광주광역본부, 동남도시가스 고객센터와 함께 남광주시장에서 추석 명절 대비 가스사고 예방 캠페인을 실시했다고 밝혔다.\r\n\r\n이번 캠페인은 전남과 광주의 통합 이후 처음 맞는 명절을 앞두고, 귀성객과 시민들의 이용이 집중되는 전통시장의 가스안전을 선제적으로 확보하기 위해 마련됐다.\r\n\r\n현장에서는 시장 내 가스 사용업소의 배관과 시설의 이상 유무를 점검하고, 가스 사용시 필요한 안전수칙 등을 안내했다.\r\n\r\n이와 함께&nbsp;해양에너지는 지역사회와의 상생을 위해 전통시장 내에서 구입한 후원물품을 기부하며 이웃사랑 나눔도 함께 실천했다.\r\n\r\n오광호 ㈜해양에너지 안전관리본부장은 &ldquo;전남광주통합특별시 통합 이후 처음 맞이하는 명절인 만큼, 시민들이 안심하고 가스를 사용할 수 있도록 연휴 기간 철저한 비상 대응 체계를 가동해 사고 예방에 공백이 없도록 하겠다&rdquo;고 말했다.\r\n\r\n한편, ㈜해양에너지는 전남광주통합특별시 5개구, 8개 시&middot;군에 안전한 도시가스 보급과 신재생에너지 사업으로 지역 내 그린뉴딜 및 탄소 중립 달성을 위해 노력하고 있다. 아울러, ㈜해양에너지의 투자사인 맥쿼리인프라는 국내투자자들이 85% 이상의 지분을 보유하고 있는 코스피에 상장된 국내 최대 규모의 인프라펀드이며, ESG 경영활동을 통해 지역과 함께 성장 발전할 수 있도록 최선을 다하고 있다."
+    },
+    {
+      "id": "997f9ec4-6f5b-4758-a6a0-109eb9fbc127",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "발전공기업 통합! 어떻게 될지 모른다면 하지 말아야",
+      "titleOriginal": null,
+      "summary": "한국전력 산하 5개 발전 자회사 통합 논의에 대해 신중한 접근을 요구하는 기사입니다. 구조 개편의 실익과 공공기관 운영 효율성에 대한 충분한 검토 없이 추진되는 통합안에 대해 비판적인 시각을 견지하고 있습니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-09-23T10:01:53.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71012",
+      "collectedAt": "2026-09-23T23:40:08.037Z",
+      "bodySnippet": ""
     }
   ]
 }
