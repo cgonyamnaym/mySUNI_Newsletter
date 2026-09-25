@@ -1,0 +1,962 @@
+{
+  "date": "2026-09-24",
+  "generatedAt": "2026-09-25T00:00:58.613Z",
+  "articleCount": 49,
+  "articles": [
+    {
+      "id": "36d9f35f-3180-499c-bdce-669a51c8eea5",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "'FCAs가 독일의 망 이용료에 대한 규제 당국의 타협을 이끌어냈다': 에코 스토어의 게오르그 갈메처, 업계의 미래를 굳건히 하다",
+      "titleOriginal": "‘FCAs convinced regulators to compromise on grid fees in Germany’: Eco Stor’s Georg Gallmetzer on cementing the industry’s future ",
+      "summary": "독일 BESS 플랫폼 Eco Stor의 전무이사 Georg Gallmetzer는 FCAs(flexible connection agreements) 제정에서의 자사의 역할과 이것이 망 이용료 논의와 어떻게 긴밀하게 연결되었는지 설명했다. FCAs는 독일 규제 당국이 망 이용료에 대해 타협하도록 설득하여 업계의 미래를 공고히 하는 데 기여했다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T13:01:50.000Z",
+      "originalUrl": "https://www.energy-storage.news/fcas-convinced-regulators-to-compromise-on-grid-fees-in-germany-eco-stors-georg-gallmetzer-on-cementing-the-industrys-future/",
+      "collectedAt": "2026-09-24T23:48:28.580Z",
+      "bodySnippet": "We recently caught up with Georg Gallmetzer, managing director of German BESS platform Eco Stor, about the firm’s role in formulating flexible connection agreements (FCAs) and how this was intimately tied to the debate on grid fees. "
+    },
+    {
+      "id": "190789cc-6649-4a73-9452-af0872adfb40",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "우드 맥킨지, 데이터센터 구축으로 미국 BESS 시장 전망 상향",
+      "titleOriginal": "Data centre buildout uplifting US BESS market outlook, Wood Mackenzie says",
+      "summary": "시장조사기관 우드 맥킨지는 데이터센터 구축이 미국 배터리 에너지 저장 시스템(BESS) 시장 전망을 모든 부문에서 상향 조정하고 있다고 밝혔다. 이는 미국 내 BESS 시장의 긍정적인 성장을 시사한다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T12:08:46.000Z",
+      "originalUrl": "https://www.energy-storage.news/data-centre-buildout-uplifting-us-bess-market-outlook-wood-mackenzie-says/",
+      "collectedAt": "2026-09-24T23:48:34.017Z",
+      "bodySnippet": "Market research firm Wood Mackenzie stated that data centre buildout is uplifting the US battery energy storage system (BESS) outlook across all segments."
+    },
+    {
+      "id": "37b3acf0-595d-46be-ae7b-6a0c6c401d0c",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "NYSERDA, 뉴욕 대규모 에너지 저장 프로그램 8개 프로젝트 선정",
+      "titleOriginal": "NYSERDA picks eight projects for New York utility-scale energy storage programme",
+      "summary": "뉴욕주가 처음으로 대규모 에너지 저장 자원 입찰을 진행했으며, NYSERDA는 950MW 규모의 입찰을 선정했습니다. 이를 통해 뉴욕 유틸리티 규모 에너지 저장 프로그램에 총 8개의 프로젝트가 최종 선정되었습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T10:56:33.000Z",
+      "originalUrl": "https://www.energy-storage.news/nyserda-picks-eight-projects-for-new-york-utility-scale-energy-storage-programme/",
+      "collectedAt": "2026-09-24T23:48:38.778Z",
+      "bodySnippet": "Results are in for New York’s first solicitations for large-scale energy storage resources, with 950MW of bids selected by NYSERDA."
+    },
+    {
+      "id": "4922fce9-9baf-45ce-b191-9ed3a7a3b906",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "그린볼트, BYD 공급 2.4GWh 폴란드 BESS 건설 착수; 중유럽/발트해 지역 900MWh 프로젝트도 진전",
+      "titleOriginal": "Greenvolt starts building 2.4GWh, BYD-supplied Poland BESS; 900MWh progressed elsewhere in CEE/Baltics ",
+      "summary": "IPP 그린볼트 파워는 폴란드에서 BYD가 공급하는 2.4GWh 규모의 Siedlce 배터리 저장 프로젝트 건설을 시작했습니다. 이와 함께 Gore Street, Taaleri Energia, DS1 등의 기업들도 폴란드, 에스토니아, 리투아니아를 포함한 중유럽/발트해 지역에서 총 900MWh 규모의 배터리 저장 프로젝트 건설을 진행하며 진전을 보이고 있습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T10:07:43.000Z",
+      "originalUrl": "https://www.energy-storage.news/greenvolt-starts-building-2-4gwh-byd-supplied-poland-bess-900mwh-progressed-elsewhere-in-cee-baltics/",
+      "collectedAt": "2026-09-24T23:48:44.525Z",
+      "bodySnippet": "IPP Greenvolt Power has started building its Siedlce battery storage project in Poland, while Gore Street, Taaleri Energia and DS1 have moved to construction on projects in Poland, Estonia and Lithuania respectively. "
+    },
+    {
+      "id": "2e02e549-6ff2-49f7-b31e-c97963c1fdcc",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "EU 배터리 여권은 일회성이 아닌 진화하는 도구가 될 것입니다",
+      "titleOriginal": "EU Battery Passport will be an evolving tool rather than a one-off",
+      "summary": "스페인 바르셀로나에서 열린 배터리 & 에너지 저장 기술 엑스포에서, 디지털 제품 여권(DPP) 제공업체인 DigiProd Pass의 최고 상업 책임자(CCO) 켄 데이비스는 EU 배터리 여권의 다가오는 구현에 대해 에너지 저장 뉴스(Energy-storage.news)와 이야기했습니다. 그는 이 여권이 일회성이 아닌 지속적으로 진화하는 도구가 될 것이라고 강조했습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T10:00:41.000Z",
+      "originalUrl": "https://www.energy-storage.news/eu-battery-passport-will-be-an-evolving-tool-rather-than-a-one-off/",
+      "collectedAt": "2026-09-24T23:48:52.077Z",
+      "bodySnippet": "During the Battery &#038; Energy Storage Tech Expo in Barcelona, Spain, Energy-storage.news spoke with Ken Davies, chief commercial officer at Digital Product Passport (DPP) provider DigiProd Pass and conference program director of the event, about the upcoming implementation of the EU Battery Passport."
+    },
+    {
+      "id": "d1a0a157-33ee-46b2-b783-e0702fe93828",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Nvidia, 새로운 AI 시설 자격 프로그램에 3가지 BESS 솔루션 선정",
+      "titleOriginal": "Nvidia selects three BESS solutions for new AI facilities qualification programme",
+      "summary": "Nvidia가 새로운 AI 시설을 위한 자격 프로그램에 3가지 배터리 에너지 저장 시스템(BESS) 솔루션을 선정했다. 이는 엔비디아의 레퍼런스 설계 요구사항을 충족하는 제품 및 솔루션을 위한 자격 프로그램의 일환이다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T08:49:35.000Z",
+      "originalUrl": "https://www.energy-storage.news/nvidia-selects-three-bess-solutions-new-ai-facilities-qualification-programme/",
+      "collectedAt": "2026-09-24T23:48:56.002Z",
+      "bodySnippet": "Nvidia’s new qualification programme for products and solutions that meet its reference design requirements includes three battery storage solutions.  "
+    },
+    {
+      "id": "34b803ed-2d8c-487d-9564-11ceb4f7fb3d",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "AGL, 1.45GWh 규모 BESS 호주 EPBC 법에 제출, 뉴사우스웨일스주 배서스트에 4GWh 배터리 검토",
+      "titleOriginal": "AGL submits 1.45GWh BESS to Australia’s EPBC Act, investigates 4GWh Bathurst Battery in New South Wales",
+      "summary": "AGL은 호주 뉴사우스웨일스주에 두 개의 대규모 배터리 에너지 저장 시스템(BESS) 프로젝트를 추진하고 있습니다. 이 중 1.45GWh 규모의 BESS는 호주의 환경 보호 및 생물다양성 보존법(EPBC Act)에 제출되었으며, 4GWh 규모의 배서스트 배터리 프로젝트는 현재 초기 계획 단계에 있습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T03:48:26.000Z",
+      "originalUrl": "https://www.energy-storage.news/agl-submits-1-45gwh-bess-to-australias-epbc-act-investigates-4gwh-bathurst-battery-in-new-south-wales/",
+      "collectedAt": "2026-09-24T23:48:59.207Z",
+      "bodySnippet": "AGL has advanced two grid-scale BESS in New South Wales, one now before Australia's EPBC Act and the other still in early planning."
+    },
+    {
+      "id": "a46a0908-6765-422d-a902-48898b644da0",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": false,
+      "title": "Developers Valent, Akaysha advance 550MW of NEM-connected BESS in Victoria, Australia",
+      "titleOriginal": "Developers Valent, Akaysha advance 550MW of NEM-connected BESS in Victoria, Australia",
+      "summary": "Two Victorian battery storage projects have reached new construction and commissioning milestones this week, both connecting to the National Electricity Market (NEM) in Australia.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T03:20:07.000Z",
+      "originalUrl": "https://www.energy-storage.news/developers-valent-akaysha-advance-550mw-of-nem-connected-bess-in-victoria-australia/",
+      "collectedAt": "2026-09-24T23:49:05.375Z",
+      "bodySnippet": "Two Victorian battery storage projects have reached new construction and commissioning milestones this week, both connecting to the National Electricity Market (NEM) in Australia."
+    },
+    {
+      "id": "54daf41b-f299-423a-aefc-2948d2bf1f15",
+      "source": "Canary Media",
+      "sourceId": "canary-media",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "첨단 전력망 기술, 미 에너지부(DOE)로부터 19억 달러 지원 확보",
+      "titleOriginal": "Advanced grid tech gets a $1.9B DOE boost",
+      "summary": "미국 에너지부(DOE)는 과부하 된 전력망의 용량을 확대하기 위해 31개 첨단 전송 기술 프로젝트에 19억 달러를 투자하기로 결정했습니다. 이번 지원은 수년간 제기되어 온 전력망 효율화 과제를 해결하고 관련 기술의 보급을 가속화하는 데 중점을 두고 있습니다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-24T21:30:00.000Z",
+      "originalUrl": "https://www.canarymedia.com/articles/transmission/advanced-grid-tech-doe-boost",
+      "collectedAt": "2026-09-24T23:49:51.892Z",
+      "bodySnippet": "\n                     For years now, grid experts have been trying to get utilities to deploy advanced transmission technologies that can squeeze more capacity out of overstressed U.S. power grids. On Thursday, the Trump administration put a $1.9 billion down payment on 31 projects that will help greatly scale up these underutilized…\n                "
+    },
+    {
+      "id": "263c1c8c-5f77-443d-949a-8ce4e5e2c408",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "적응을 통한 인도",
+      "titleOriginal": "Adapt to deliver",
+      "summary": "미국 태양광 업계가 유틸리티 규모 프로젝트 구축 역량을 강화한 가운데, EPC 기업인 모텐슨(Mortenson) 건설의 친메이 핑굴카(Chinmay Pingulkar)는 상호 연결 계약 날짜를 준수하기 위한 프로젝트 일정 관리 전략을 제시한다. 이번 분석은 급성장하는 시장 상황에서 정확한 인도 기한을 맞추기 위한 핵심 고려 사항들을 다루고 있다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-24T18:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/24/adapt-to-deliver/",
+      "collectedAt": "2026-09-24T23:50:13.685Z",
+      "bodySnippet": "<p>The US solar industry has become remarkably good at building utility-scale projects. The challenge now is delivering on the exact day the interconnection agreement expects. Chinmay Pingulkar of engineering, procurement, and construction (EPC) supplier Mortenson Construction outlines key considerations for project scheduling. </p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/24/adapt-to-deliver/\">Adapt to deliver</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "8638d33b-d8ec-45a4-a9ed-fcd5c30c2fdb",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미국 태양광 시스템 가격, 주거용은 하락했으나 유틸리티 및 C&I 프로젝트는 상승",
+      "titleOriginal": "U.S. solar system pricing rises for utility, C&I projects as residential costs decline",
+      "summary": "2026년 2분기 미국 태양광 시장에서 모듈 비용 하락에도 불구하고, 구조 자재 관세와 국내 운송비 급등으로 인해 유틸리티 및 상업·산업용(C&I) 태양광 시스템 가격이 상승했습니다. 반면, 주거용 태양광 부문은 비용이 하락하며 전체 시장에서 유일하게 가격 감소세를 보였습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T12:32:37.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/24/u-s-solar-system-pricing-rises-for-utility-and-commercial-projects-as-residential-costs-decline/",
+      "collectedAt": "2026-09-24T23:50:36.430Z",
+      "bodySnippet": "<p>Declining module costs are offset by elevated structural materials tariffs and surging domestic freight rates, leaving residential solar as the sole segment to see price reductions in Q2 2026.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/24/u-s-solar-system-pricing-rises-for-utility-and-commercial-projects-as-residential-costs-decline/\">U.S. solar system pricing rises for utility, C&amp;I projects as residential costs decline</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "735679e7-d74f-4be4-9dee-11500b36350c",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "환기 장치 배기 및 증발 냉각을 활용한 주거용 히트펌프 효율 향상",
+      "titleOriginal": "Ventilator exhaust air, evaporative cooling boost residential heat pump efficiency",
+      "summary": "한국 연구진은 에너지 회수 환기 장치의 배기와 직접 증발 냉각을 결합한 새로운 주거용 공기열원 히트펌프 기술을 개발했습니다. 이 시스템은 고온 다습한 환경에서 히트펌프의 성능 계수(COP)를 7.3%에서 15.2%까지 향상시켰으며, 기존 히트펌프의 성능 개선을 위한 개조에도 활용될 수 있습니다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-09-24T11:38:20.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/24/ventilator-exhaust-air-evaporative-cooling-boost-residential-heat-pump-efficiency/",
+      "collectedAt": "2026-09-24T23:51:09.253Z",
+      "bodySnippet": "<p>South Korean researchers have developed a residential air-source heat pump concept that combines energy recovery ventilator exhaust air with direct evaporative cooling. The system improved COP by 7.3% to 15.2% under hot and humid conditions and could be suitable for retrofitting existing heat pumps.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/24/ventilator-exhaust-air-evaporative-cooling-boost-residential-heat-pump-efficiency/\">Ventilator exhaust air, evaporative cooling boost residential heat pump efficiency</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "318ecd32-cd5d-4340-8d92-984853ffcaa7",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "브라질 전력 생산기업들, BESS 규제 체계 및 출력 제어 규칙 마련 촉구",
+      "titleOriginal": "Brazil power producers call for BESS framework and curtailment rules",
+      "summary": "브라질의 독립 전력 생산기업들은 배터리 에너지 저장 시스템(BESS)에 대한 규제 체계와 최초의 저장 경매 시행을 촉구하고 있습니다. 이들은 또한 재생에너지 출력 제어에 대한 명확한 규칙 마련을 요구하며, 안정적인 전력 시장 조성을 위한 정책 지원을 기대하고 있습니다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T11:09:59.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/24/brazil-power-producers-call-for-bess-framework-and-curtailment-rules/",
+      "collectedAt": "2026-09-24T23:51:31.825Z",
+      "bodySnippet": "<p>Brazil’s independent power producers are calling for a regulatory framework for battery energy storage systems (BESS) and the country’s first storage auction, alongside clearer rules for renewable energy curtailment. </p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/24/brazil-power-producers-call-for-bess-framework-and-curtailment-rules/\">Brazil power producers call for BESS framework and curtailment rules</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "d1706c9b-8ad6-475a-a003-f970a952e2b2",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "웹솔, 인도에 4GW 태양광 셀 및 모듈 공장 부지 확보",
+      "titleOriginal": "Websol secures land for 4 GW solar cell and module factory in India",
+      "summary": "웹솔 에너지 시스템(Websol Energy System)은 인도 서벵골주에 21.9 헥타르 규모의 부지를 확보하여 새로운 태양광 제조 시설을 건설할 예정이다. 이 공장은 각 4 GW의 태양광 셀 및 모듈 생산 능력을 갖추며, 두 단계에 걸쳐 각 2 GW씩 개발될 계획이다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T11:01:40.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/24/websol-allotted-land-for-4-gw-solar-cell-and-module-facility-in-west-bengal/",
+      "collectedAt": "2026-09-24T23:51:45.961Z",
+      "bodySnippet": "<p>Websol Energy System has secured 21.9 hectares of land in West Bengal for a new solar manufacturing facility. The plant will have 4 GW each of solar cell and module production capacity, developed in two 2 GW phases.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/24/websol-allotted-land-for-4-gw-solar-cell-and-module-facility-in-west-bengal/\">Websol secures land for 4 GW solar cell and module factory in India</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "5d9dd43e-2318-4c9c-a95c-a689ef0ff939",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "독일, 중고 PV 모듈을 활용한 태양광 발코니 시스템 구축",
+      "titleOriginal": "Second-life PV modules turned into solar balconies in Germany",
+      "summary": "독일 카셀에서 재활용 프로젝트를 통해 300개의 중고 태양광 모듈을 150개의 발코니 태양광 시스템으로 재활용했습니다. 13년 된 이 패널들은 검사 및 보수를 거쳐 저렴한 가격으로 공급되었으며, 지역 기관들이 기술, 물류 및 재정적 지원을 제공했습니다.",
+      "topics": [
+        "운영 최적화",
+        "에너지원"
+      ],
+      "primaryTopic": "운영 최적화",
+      "publishedAt": "2026-09-24T10:50:42.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/24/second-life-pv-modules-turned-into-solar-balconies-in-germany/",
+      "collectedAt": "2026-09-24T23:51:50.633Z",
+      "bodySnippet": "<p>A reuse project in Kassel, Germany, has repurposed 300 used solar modules to create 150 balcony PV systems, with tiered pricing aimed at improving affordability. The 13-year-old panels were inspected and refurbished, with local organizations providing technical, logistical and financial support.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/24/second-life-pv-modules-turned-into-solar-balconies-in-germany/\">Second-life PV modules turned into solar balconies in Germany</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "6db5efd5-efc1-42c6-995c-9d6cdf319274",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "잠비아, 100 MW 태양광 프로젝트 가동",
+      "titleOriginal": "Zambia commissions 100 MW solar project",
+      "summary": "잠비아에서 100 MW 규모의 마암바(Maamba) 태양광 에너지 프로젝트가 가동되었다. 인도 대기업 Nava Limited의 자회사가 개발한 이 프로젝트는 잠비아 국영 전력회사와 $0.078/kWh의 요금으로 20년간 전력 구매 계약을 체결했다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T10:44:14.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/24/zambia-commissions-100-mw-solar-project/",
+      "collectedAt": "2026-09-24T23:51:56.353Z",
+      "bodySnippet": "<p>The Maamba solar energy project, developed by a subsidiary of Indian conglomerate Nava Limited, holds a 20-year power purchase agreement with Zambia's state utility at a tariff of $0.078/kWh.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/24/zambia-commissions-100-mw-solar-project/\">Zambia commissions 100 MW solar project</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "e5fc8f4a-96e6-4a37-96da-a885c8841b02",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "다이킨, 고단열 주택용 공기-공기 열펌프 공개",
+      "titleOriginal": "Daikin unveils air-to-air heat pumps for highly insulated homes",
+      "summary": "일본 제조업체 다이킨이 고단열 주택을 위한 신세대 Ururu Sarara X 양방향 에어컨을 출시했다. 이 제품은 2.2kW에서 8.0kW의 난방 용량을 갖춘 공기-공기 열펌프로, 저부하 작동 시 효율을 개선하는 새로운 압축기를 특징으로 한다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T10:43:31.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/24/daikin-unveils-air-to-air-heat-pumps-for-highly-insulated-homes/",
+      "collectedAt": "2026-09-24T23:52:00.894Z",
+      "bodySnippet": "<p>The Japanese manufacturer has introduced a new generation of its Ururu Sarara X reversible air conditioners, featuring heating capacities from 2.2 kW to 8.0 kW and a new compressor designed to improve efficiency under low-load operation.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/24/daikin-unveils-air-to-air-heat-pumps-for-highly-insulated-homes/\">Daikin unveils air-to-air heat pumps for highly insulated homes</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "c76e893d-e02b-417d-97ba-226f4222c73e",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "스페인, 재생에너지 및 저장장치에 11 GW 규모의 전력망 용량 할당 계획",
+      "titleOriginal": "Spain plans to allocate 11 GW of grid capacity for renewables, storage",
+      "summary": "스페인은 재생에너지 및 저장 프로젝트를 위해 최대 11 GW의 전력망 용량을 할당할 계획이다. 특히 구아르도와 벨리야 지역의 전용 입찰에는 양수발전 개발자들의 관심이 집중되고 있다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T09:46:04.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/24/spain-plans-to-allocated-11-gw-of-grid-capacity-for-renewables-storage/",
+      "collectedAt": "2026-09-24T23:52:06.581Z",
+      "bodySnippet": "<p>Spain plans to allocate up to 11 GW of grid capacity to renewable energy and storage projects, with a dedicated tender for Guardo and Velilla attracting interest from pumped-hydro developers. </p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/24/spain-plans-to-allocated-11-gw-of-grid-capacity-for-renewables-storage/\">Spain plans to allocate 11 GW of grid capacity for renewables, storage</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "df95d603-acda-4eb9-ae2c-d9bdaa952126",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "파일런테크, 588Ah, 601Ah 저장 셀 대량 생산 시작",
+      "titleOriginal": "Pylontech starts mass production of 588 Ah, 601 Ah storage cells",
+      "summary": "중국 배터리 제조업체 Pylontech가 유틸리티 규모 에너지 저장 시장 확장을 위해 자체 대형 리튬 인산철(LFP) 셀의 대량 생산을 시작했습니다. Pylontech는 588 Ah 및 601 Ah 용량의 셀을 생산하여 에너지 저장 솔루션 공급 능력을 강화할 계획입니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T09:42:09.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/24/pylontech-starts-mass-production-of-588-ah-601-ah-storage-cells/",
+      "collectedAt": "2026-09-24T23:52:10.925Z",
+      "bodySnippet": "<p>Chinese battery maker Pylontech has begun volume production of its own large-format lithium iron phosphate (LFP) cells as it expands into utility-scale energy storage. </p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/24/pylontech-starts-mass-production-of-588-ah-601-ah-storage-cells/\">Pylontech starts mass production of 588 Ah, 601 Ah storage cells</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "1a8e3c4b-c69c-489b-9459-bfe9acf53993",
+      "source": "BloombergNEF",
+      "sourceId": "bnef",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "신규 에너지 전망 경로의 거시경제적 영향",
+      "titleOriginal": "Macroeconomic Implications of New Energy Outlook Pathways",
+      "summary": "블룸버그 뉴에너지파이낸스(BNEF)는 2050년까지의 에너지 전환 경로가 글로벌 GDP, 투자 및 무역에 미치는 거시경제적 영향을 분석합니다. 특히 기후 변화로 인한 피해를 방지함으로써 발생하는 경제적 이익이 에너지 전환 비용을 어떻게 상쇄할 수 있는지 다룹니다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-09-24T20:36:30.000Z",
+      "originalUrl": "https://about.bnef.com/insights/clean-energy/macroeconomic-implications-of-new-energy-outlook-pathways/",
+      "collectedAt": "2026-09-24T23:52:17.577Z",
+      "bodySnippet": "How will the global energy transition reshape economic growth through 2050? Discover how BNEF’s transition pathways could affect GDP, investment and trade, and how avoided climate damage could offset transition costs."
+    },
+    {
+      "id": "697c389d-93e0-4052-bb66-5de87d5eb3d2",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미국 주 정부들, 트럼프 행정부의 해상풍력 임대권 환매 조치에 소송 제기",
+      "titleOriginal": "US states sue Trump over offshore wind lease buybacks",
+      "summary": "캘리포니아주와 뉴욕주는 트럼프 행정부가 추진하는 수십억 달러 규모의 해상풍력 임대권 환매 계획을 저지하기 위해 행정부와 풍력 개발업체들을 상대로 소송을 제기했습니다. 이번 법적 대응은 트럼프 대통령의 해상풍력 산업 억제 정책에 맞선 주 정부들의 강력한 반발을 보여줍니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T09:34:38.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1970803/us-states-sue-trump-offshore-wind-lease-buybacks",
+      "collectedAt": "2026-09-24T23:52:20.726Z",
+      "bodySnippet": "California and New York have again sued the Trump administration and two wind developers over plans to spend billions of dollars buying back offshore wind leases, escalating a legal battle over President Donald Trump’s efforts to curb the industry."
+    },
+    {
+      "id": "d7edb2e7-3ed4-4f49-91a4-cb52a5ec8bca",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "엔비전, 16.7MW 터빈으로 유럽 해상풍력 시장 공략",
+      "titleOriginal": "Envision targets European offshore wind with 16.7MW turbine",
+      "summary": "엔비전 에너지(Envision Energy)가 유럽 시장 진출을 목표로 252미터 로터 직경을 갖춘 16.7MW급 대형 해상풍력 터빈을 출시했습니다. 최근 유럽 시장에서 고전하고 있는 중국 제조사들이 이번 신제품을 통해 점유율 확대에 성공할 수 있을지 주목됩니다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-09-24T09:32:26.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1970798/envision-targets-european-offshore-wind-167mw-turbine",
+      "collectedAt": "2026-09-24T23:52:24.474Z",
+      "bodySnippet": "Envision Energy has launched a 16.7MW offshore wind turbine with a 252-metre rotor diameter as it targets the European market, where fellow Chinese manufacturers have recently struggled to gain a foothold."
+    },
+    {
+      "id": "00523687-aed4-4d9d-9a65-cf82b27debbe",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "부유식 해상풍력, '2년 내' 상업화 단계 진입 전망",
+      "titleOriginal": "Floating wind should reach commercial scale ‘in two years’",
+      "summary": "WindEnergy Hamburg의 전문가들은 부유식 해상풍력 발전이 2년 이내에 첫 상업적 규모 프로젝트의 최종 투자 결정을 이끌어낼 것으로 전망했습니다. 업계는 기술 성숙도와 신뢰도 향상에 힘입어 해당 분야의 상업적 확장에 대해 강한 자신감을 내비쳤습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T08:08:12.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1970789/floating-wind-reach-commercial-scale-in-two-years",
+      "collectedAt": "2026-09-24T23:52:40.569Z",
+      "bodySnippet": "Experts at WindEnergy Hamburg discussed why they were increasingly confident that floating offshore wind power could see its first commercial-scale projects reach final investment decisions within two years. "
+    },
+    {
+      "id": "0a5e4a25-5861-4ca0-9b2d-d0ed525f6d87",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "새로운 팟캐스트: WindEnergy Hamburg 2026 현장 생방송",
+      "titleOriginal": "New podcast: WindEnergy Hamburg 2026 live",
+      "summary": "Windpower Monthly가 WindEnergy Hamburg 2026 컨퍼런스 현장을 방문하여 참가자들의 주요 학습 내용을 인터뷰한 팟캐스트를 공개했습니다. 본 방송을 통해 이번 2026년 행사에서 논의된 최신 풍력 에너지 산업 동향을 확인할 수 있습니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-09-24T07:57:19.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1970781/new-podcast-windenergy-hamburg-2026-live",
+      "collectedAt": "2026-09-24T23:52:43.800Z",
+      "bodySnippet": "Windpower Monthly took to the conference floor to ask delegates what they have learned so far from attending WindEnergy Hamburg 2026."
+    },
+    {
+      "id": "b0773c38-6129-4686-afb9-dc69e47c7e9b",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "중국 풍력 대기업, 유럽 내 비용 절감을 위해 더 많은 경쟁 필요성 강조",
+      "titleOriginal": "Chinese wind giant calls for more competition to cut European costs",
+      "summary": "중국 풍력 발전 기업인 밍양 스마트 에너지(Mingyang Smart Energy)는 유럽 해상 풍력 시장의 비용 절감을 위해 더 많은 공급업체가 진입해야 한다고 주장했습니다. 그러나 이미 유럽 시장에서 활동 중인 기존 터빈 제조사들은 이러한 주장에 동의하지 않고 있습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T07:07:59.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1970757/chinese-wind-giant-calls-competition-cut-european-costs",
+      "collectedAt": "2026-09-24T23:52:48.684Z",
+      "bodySnippet": "The European chief of Chinese wind giant Mingyang Smart Energy claimed the European offshore wind sector needs more turbine suppliers to help it bring down costs. But rival turbine manufacturers already active in the market disagreed."
+    },
+    {
+      "id": "4719c857-d13b-4fd7-991e-c354fe11872d",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "부유식 원전용 두 번째 원자로 제작 완료",
+      "titleOriginal": "Second reactor manufactured for floating nuclear plant",
+      "summary": "추코트카 구리 광산 단지에 전력을 공급할 부유식 원자력 발전소를 위한 두 번째 RITM-200C 소형 모듈형 원자로(SMR)가 제작되었습니다. 이번 제작은 해당 발전소의 핵심 에너지원 확보를 위한 중요한 공정입니다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T08:19:15.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/second-reactor-manufactured-for-floating-nuclear-plant",
+      "collectedAt": "2026-09-24T23:52:53.266Z",
+      "bodySnippet": "The second RITM-200C small modular reactor unit has been manufactured for the floating nuclear power plant destined to supply electricity to a copper mining centre in Chukotka.<br />\r\n&nbsp;"
+    },
+    {
+      "id": "28bb5cbb-b517-4df0-af9f-e64874fbd101",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미국-튀르키예, 소형모듈원전(SMR) 도입 가속화 협정 체결",
+      "titleOriginal": "US-Turkey agreement to accelerate SMR deployment",
+      "summary": "미국 무역개발청(USTDA)이 튀르키예 국영 원자력 개발 기업인 TÜNAŞ와 소형모듈원전(SMR) 도입을 위한 협정을 체결했다. 이번 협력을 통해 양국은 튀르키예 민간 기업의 SMR 배치를 위한 규제, 제도, 금융 분야의 기술적 로드맵을 수립할 계획이다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T09:07:22.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/us-turkey-agreement-to-accelerate-smr-deployment",
+      "collectedAt": "2026-09-24T23:52:55.864Z",
+      "bodySnippet": "The US Trade and Development Agency has signed an agreement with Turkey&#39;s state-owned nuclear development enterprise T&Uuml;NAŞ to fund technical assistance to create the regulatory, institutional, and financial roadmap needed for Turkish private sector companies to deploy small modular reactor nuclear technology.<br />\r\n&nbsp;"
+    },
+    {
+      "id": "56fcada2-83f0-4e7b-847e-7e2992934334",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "폴란드 원전 건설 계약 협상 다음 단계로 진입",
+      "titleOriginal": "Polish plant contract negotiations move to next stage",
+      "summary": "웨스팅하우스와 벡텔 컨소시엄이 폴란드 원자력공사(PEJ)와 폴란드 첫 원전 건설을 위한 EPC 계약의 주요 상업 및 법적 조건에 합의했습니다. 양측은 올해 말까지 최종 계약 체결을 목표로 협상을 마무리할 계획입니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T10:03:56.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/polish-plant-contract-negotiations-move-to-next-stage",
+      "collectedAt": "2026-09-24T23:53:05.283Z",
+      "bodySnippet": "The Westinghouse-Bechtel consortium and Polskie Elektrownie Jądrowe have agreed the main commercial and legal terms of the Engineering, Procurement and Construction contract that will deliver Poland&#39;s first nuclear power plant, and plan to complete the contract negotiation process by the end of this year.<br />\r\n&nbsp;"
+    },
+    {
+      "id": "8349456a-1d01-4548-b0f9-59ee6dcda9c5",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "이탈리아 상원, 원자력 발전 재개 법안 가결",
+      "titleOriginal": "Italy's Senate approves a return to nuclear power",
+      "summary": "조르자 멜로니 이탈리아 총리가 추진한 원자력 발전 재개 법안이 상원에서 찬성 81표, 반대 51표, 기권 7표로 통과되었습니다. 이로써 이탈리아는 40년 만에 원자력 에너지 도입을 위한 발판을 다시 마련하게 되었습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T11:11:17.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/italys-senate-approves-a-return-to-nuclear-power",
+      "collectedAt": "2026-09-24T23:53:08.251Z",
+      "bodySnippet": "Prime Minister Giorgia Meloni&#39;s bill paving the way for a return to nuclear power in Italy after four decades was passed in the Senate by 81 votes to 51, with seven abstentions.<br />\r\n&nbsp;"
+    },
+    {
+      "id": "a3698629-638b-4538-9734-7ca416e24cf9",
+      "source": "Carbon Brief",
+      "sourceId": "carbon-brief",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "인터랙티브: 중국의 수십 개 '5개년 계획'은 기후와 에너지에 대해 무엇을 말하는가",
+      "titleOriginal": "Interactive: What China’s dozens of ‘five-year plans’ say about climate and energy",
+      "summary": "카본브리프(Carbon Brief)는 중국이 올해 발표한 72개의 5개년 계획 중 약 4분의 3이 기후 변화와 관련된 정책 및 목표를 포함하고 있다고 분석했습니다. 이번 인터랙티브 자료는 중국의 방대한 5개년 계획들이 에너지 및 기후 정책 방향을 어떻게 구체화하고 있는지 상세히 추적합니다.",
+      "topics": [
+        "정책·규제",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-09-24T14:00:00.000Z",
+      "originalUrl": "https://interactive.carbonbrief.org/china-plan-tracker/index.html",
+      "collectedAt": "2026-09-24T23:53:13.617Z",
+      "bodySnippet": "<p>Almost three-quarters of the 72 five-year plans published by China this year include policies or targets related to climate change&#8230;</p>\n<p>The post <a href=\"https://interactive.carbonbrief.org/china-plan-tracker/index.html\">Interactive: What China’s dozens of ‘five-year plans’ say about climate and energy</a> appeared first on <a href=\"https://www.carbonbrief.org\">Carbon Brief</a>.</p>\n"
+    },
+    {
+      "id": "f1266461-d19a-471e-9f87-ff00611f0e8a",
+      "source": "Carbon Brief",
+      "sourceId": "carbon-brief",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "분석: 영국에서 EV 운전 비용, 이제 휘발유 또는 디젤보다 9배 저렴",
+      "titleOriginal": "Analysis: EVs are now nine times cheaper than petrol or diesel to drive in the UK ",
+      "summary": "화석 연료 가격의 최근 급등으로 영국에서 전기차(EV) 운전 비용이 휘발유 또는 디젤 차량보다 훨씬 저렴해졌습니다. Carbon Brief의 분석에 따르면, 전기차는 현재 최대 9배까지 저렴한 것으로 나타났습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T11:49:03.000Z",
+      "originalUrl": "https://www.carbonbrief.org/analysis-evs-are-now-nine-times-cheaper-than-petrol-or-diesel-to-drive-in-the-uk",
+      "collectedAt": "2026-09-24T23:53:23.566Z",
+      "bodySnippet": "<p>The latest surge in fossil-fuel prices means it is now up to nine times cheaper in the UK to drive&#8230;</p>\n<p>The post <a href=\"https://www.carbonbrief.org/analysis-evs-are-now-nine-times-cheaper-than-petrol-or-diesel-to-drive-in-the-uk\">Analysis: EVs are now nine times cheaper than petrol or diesel to drive in the UK </a> appeared first on <a href=\"https://www.carbonbrief.org\">Carbon Brief</a>.</p>\n"
+    },
+    {
+      "id": "ae3a8a01-e23b-4ee0-b9aa-73c369a05633",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "전력 공급, 가능할까? 질화갈륨(GaN)으로 해결!",
+      "titleOriginal": "Can we power it?  Yes we GaN",
+      "summary": "이 기사는 데이터 센터 산업이 질화갈륨(GaN) 기술의 잠재력을 마침내 활용하고 있는지 의문을 제기한다. 이는 GaN이 데이터 센터의 전력 효율성을 혁신하고 운영을 최적화할 핵심 기술이 될 수 있음을 시사한다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-09-24T17:44:09.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/analysis/can-we-power-it-yes-we-gan/",
+      "collectedAt": "2026-09-24T23:53:29.382Z",
+      "bodySnippet": "<p data-block-key=\"ckadk\">Is the data center industry finally catching up to the promise of gallium nitride?</p>"
+    },
+    {
+      "id": "d5a89c36-82f8-447e-a2ff-cc7c33656c69",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "오라클, 뉴멕시코 '프로젝트 주피터' 데이터센터 단지 내 일련의 차질로 블루 아울에 불가항력 통지 - 보도",
+      "titleOriginal": "Oracle issues force majeure notice to Blue Owl following series of setbacks at Project Jupiter data center campus – report",
+      "summary": "오라클이 뉴멕시코에 건설 중인 2.5GW 규모의 '프로젝트 주피터' 데이터센터 단지에서 연이은 차질이 발생함에 따라 블루 아울(Blue Owl) 측에 불가항력 통지를 전달했습니다. 해당 데이터센터는 2028년 가동을 목표로 하고 있으나, 이번 사태로 인해 사업 추진에 변수가 생겼습니다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-09-24T15:35:33.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/oracle-issues-force-majeure-notice-to-blue-owl-following-series-of-setbacks-at-project-jupiter-data-center-campus-report/",
+      "collectedAt": "2026-09-24T23:54:04.045Z",
+      "bodySnippet": "<p data-block-key=\"0irex\">The 2.5GW site in New Mexico is set to come online in 2028</p>"
+    },
+    {
+      "id": "4764dd66-0998-471c-8a53-a825be5ccce5",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "스폰서 기사: AI 데이터 센터 시대의 전력 공급: 왜 UPS 배터리 기술은 진화해야 하는가",
+      "titleOriginal": "Sponsored: Powering the AI data center era: Why UPS battery technology needs to evolve",
+      "summary": "AI 인프라의 급격한 확대로 인해 데이터 센터는 기존 백업 전력 전략을 재검토해야 하는 상황에 직면했습니다. 본 기사는 AI 데이터 센터의 급증하는 전력 수요를 안정적으로 뒷받침하기 위해 필수적인 UPS(무정전 전원 공급 장치) 배터리 기술의 혁신 필요성을 다룹니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T15:00:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/opinions/powering-the-ai-data-center-era-why-ups-battery-technology-needs-to-evolve/",
+      "collectedAt": "2026-09-24T23:54:07.636Z",
+      "bodySnippet": "<p data-block-key=\"3vksk\">The rise of AI infrastructure is forcing data centers to rethink backup power strategies</p>"
+    },
+    {
+      "id": "29817a91-128a-4908-bc9a-78aef9d68d66",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "우드웨이, 미국 내 미공개 데이터센터를 위한 22마일 가스 파이프라인 건설",
+      "titleOriginal": "Woodway to build 22-mile gas pipeline for undisclosed data center in US",
+      "summary": "우드웨이(Woodway)가 미국 내 특정되지 않은 데이터센터의 전력 공급을 위해 22마일 규모의 가스 파이프라인을 건설합니다. 해당 파이프라인은 데이터센터의 비하인드 더 미터(behind the meter) 방식으로 운영되어 직접적인 에너지 공급을 지원할 예정입니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-09-24T12:36:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/woodway-to-build-22-mile-gas-pipeline-for-undisclosed-data-center-in-us/",
+      "collectedAt": "2026-09-24T23:54:23.408Z",
+      "bodySnippet": "<p data-block-key=\"3ye6t\">Will serve the data center behind the meter</p>"
+    },
+    {
+      "id": "70c8fbbb-0ca6-4111-892e-0e62ca5ebd93",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "호주 빅토리아주, 데이터센터의 자체 재생에너지 공급 확보 의무화 규정 제안",
+      "titleOriginal": "Victoria, Australia, proposes rules requiring data centers to secure own renewable energy supply",
+      "summary": "호주 빅토리아주는 데이터센터 운영에 따른 비용 전가와 과도한 물 사용 문제를 해결하기 위해 자체적인 재생에너지 공급원 확보를 의무화하는 새로운 규정을 제안했습니다. 이번 조치는 데이터센터의 급격한 증가로 인한 지역 전력망 부담을 완화하고 지속 가능한 운영을 유도하기 위한 정책적 목적을 담고 있습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T10:46:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/victoria-australia-proposes-rules-requiring-data-centers-to-secure-own-renewable-energy-supply/",
+      "collectedAt": "2026-09-24T23:54:48.142Z",
+      "bodySnippet": "<p data-block-key=\"zrz5y\">Alongside several other provisions to prevent cost shifting and excessive water use</p>"
+    },
+    {
+      "id": "7530215b-5e23-4fd1-8af6-38388385e255",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "디지털 리얼티(Digital Realty), 신임 글로벌 에너지 책임자 영입",
+      "titleOriginal": "Digital Realty hires new global head of energy",
+      "summary": "데이터 센터 기업인 디지털 리얼티가 마이크로소프트 출신의 짐 콜린스를 글로벌 에너지 책임자로 임명했습니다. 이번 인사를 통해 디지털 리얼티는 에너지 효율성 강화 및 에너지 관리 전략을 고도화할 것으로 전망됩니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-09-24T10:39:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/digital-realty-hires-new-global-head-of-energy/",
+      "collectedAt": "2026-09-24T23:54:57.078Z",
+      "bodySnippet": "<p data-block-key=\"jiwgi\">Microsoft veteran Jim Collins joins the team</p>"
+    },
+    {
+      "id": "9462e739-c745-437d-9a38-e85685e76224",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "상품화 사고의 숨겨진 비용",
+      "titleOriginal": "The hidden cost  of commodity thinking",
+      "summary": "본 기사는 데이터 센터 냉각을 위한 PG25 솔루션 선택 시 단순 상품화된 사고방식이 초래하는 숨겨진 비용 문제를 다룹니다. 데이터 센터의 효율적인 운영을 위해 적합한 냉각 기술 선정의 중요성을 강조합니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-09-24T10:33:47.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/whitepapers/the-hidden-cost-of-commodity-thinking/",
+      "collectedAt": "2026-09-24T23:55:01.712Z",
+      "bodySnippet": "<p data-block-key=\"6voru\">Choosing the right PG25 for data center cooling</p>"
+    },
+    {
+      "id": "9c3df71c-e24b-433a-91eb-3da88620b41e",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": false,
+      "title": "800 VDC architecture for AI infrastructure",
+      "titleOriginal": "800 VDC architecture for AI infrastructure",
+      "summary": "<p data-block-key=\"awyof\">What does the shift to 800 VDC mean for AI data center efficiency, resilience, energy storage and power distribution?</p>",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T08:11:27.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/whitepapers/800-vdc-architecture-for-ai-infrastructure/",
+      "collectedAt": "2026-09-24T23:55:40.808Z",
+      "bodySnippet": "<p data-block-key=\"awyof\">What does the shift to 800 VDC mean for AI data center efficiency, resilience, energy storage and power distribution?</p>"
+    },
+    {
+      "id": "bf6ba233-56bf-4a97-9887-3839786e85c1",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": false,
+      "title": "Sponsored: As data center power evolves, so do the logistics behind it",
+      "titleOriginal": "Sponsored: As data center power evolves, so do the logistics behind it",
+      "summary": "<p data-block-key=\"sc5gu\">As data centers adopt a wider range of power-generation technologies, the logistics of moving, storing, and installing that equipment are growing more complex</p>",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T07:00:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/marketwatch/as-data-center-power-evolves-so-do-the-logistics-behind-it/",
+      "collectedAt": "2026-09-24T23:56:14.630Z",
+      "bodySnippet": "<p data-block-key=\"sc5gu\">As data centers adopt a wider range of power-generation technologies, the logistics of moving, storing, and installing that equipment are growing more complex</p>"
+    },
+    {
+      "id": "76ff6591-0a9c-4db6-909e-1ad7175e7d8c",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "엑셀론의 기후 투자 부문, 전력망 설계 기업 컨티뉴엄에 투자",
+      "titleOriginal": "Exelon’s climate arm backs grid-planning firm Continuum",
+      "summary": "미국의 전력 기업 엑셀론(Exelon)의 기후 투자 부문이 전력망 설계 및 계획 전문 기업인 컨티뉴엄(Continuum)에 투자를 단행했다. 엑셀론은 이번 투자를 통해 전력 인프라 구축의 효율성을 높이고 관련 기술 역량을 강화할 방침이다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-24T16:12:30.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/utility-giant-exelons-climate-arm-backs-grid-planning-firm-continuum/831276/",
+      "collectedAt": "2026-09-24T23:56:36.570Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/wnERvP00zLA1zKOJ_45teachRDW6K0Ll6T3C7eFA9m4/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNDAyMDEyNTQ1LmpwZw==.webp\"/></div></figure><p>&ldquo;Technologies that help the utility be more efficient in terms of building infrastructure &hellip; is a space that we&#39;re looking at,&rdquo; an Exelon executive said.</p>"
+    },
+    {
+      "id": "732b569a-827e-4c34-b8d7-d52f6d8fc6dc",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미 에너지부, 첨단 송전 프로젝트에 19억 달러 지원",
+      "titleOriginal": "Advanced transmission projects get $1.9B in DOE funding",
+      "summary": "미국 에너지부(DOE)가 기존 전력망 개선을 위해 첨단 송전 프로젝트에 19억 달러의 자금을 지원합니다. 이번 투자를 통해 총 23GW의 전력망 용량이 확충될 예정이며, 관련 프로젝트들은 신속하게 가동될 것으로 기대됩니다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-24T15:06:57.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/doe-advanced-transmission-projects-spark-funding/831259/",
+      "collectedAt": "2026-09-24T23:56:39.499Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/keKhjcL1hC8SGLg9wCIy1V-LoRWFrHO8f5Y0OG0342w/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9BbWVyZW4yLnBuZw==.webp\"/></div></figure><p>The department expects the projects will add 23 GW in grid capacity and will come online in &ldquo;record time&rdquo; to improve the existing transmission system.</p>"
+    },
+    {
+      "id": "92d0db5c-c3a6-477f-9a64-d77450b9e6dc",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "청정에너지에 있어, 규모가 항상 큰 것이 좋은 것은 아니다",
+      "titleOriginal": "On clean energy, bigger is not always better",
+      "summary": "Lawyers for Good Government의 Edward Yim은 의회가 청정에너지 세제 정책을 검토할 때 지역 주도의 태양광 및 에너지 저장 프로젝트에 대한 인센티브를 복원해야 한다고 주장합니다. 중앙 집중형 대규모 프로젝트보다 지역 단위의 분산형 에너지 솔루션이 중요함을 강조합니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-24T15:00:00.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/community-solar-energy-storage-der-tax-credits/830117/",
+      "collectedAt": "2026-09-24T23:57:04.316Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/R9VpWXCI-N45Br9Sxcuid13dNR4kDAaWssKLIGBBmTE/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMjA2NTM2NzAzLmpwZw==.webp\"/></div></figure><p>When Congress revisits clean-energy tax policy, lawmakers should restore incentives for locally driven solar and storage projects,&nbsp;writes&nbsp;Edward Yim at Lawyers for Good Government.</p>"
+    },
+    {
+      "id": "998e6fc8-c5aa-4d86-a5f1-b0b5dabd00a3",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "뉴욕주, 공공 유틸리티 AI 활용 감사 착수… ‘의존도 심화’ 위험 경고",
+      "titleOriginal": "New York audits utility AI use, cites risk in ‘growing dependency’",
+      "summary": "뉴욕주 규제 당국은 공공 유틸리티 분야의 인공지능(AI) 활용이 증가함에 따라 핵심 인프라에 대한 잠재적 위험을 조사하기 위한 감사에 착수했습니다. 당국은 기술에 대한 의존도가 높아지는 현 상황이 전력 등 주요 기반 시설의 안정성에 중대한 리스크가 될 수 있다고 경고했습니다.",
+      "topics": [
+        "운영 최적화",
+        "전력 인프라"
+      ],
+      "primaryTopic": "운영 최적화",
+      "publishedAt": "2026-09-24T12:36:58.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/new-york-audits-utility-ai-use-cites-risk-in-growing-dependency/831242/",
+      "collectedAt": "2026-09-24T23:57:18.828Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/ER608Vm0UDUWxCrUHulVcItWiAzEQ0hVTGkl6I-KeEM/g:nowe:0:254/c:2500:1412/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS8zOGYwNzk4ZWUzZjBlNTdmNDQxNWU0NjVmM2RkYjFlMGU5MmNhMDYzLTI1MDB3LmpwZWc=.webp\"/></div></figure><p>Increasing use of AI systems to manage public utilities creates new risks for critical infrastructure, regulators said.</p>"
+    },
+    {
+      "id": "8ee89a9b-5dbf-4ef6-ae4e-3830d057a710",
+      "source": "전자신문 (Energy)",
+      "sourceId": "etnews",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "용인시, 자동차 탄소중립포인트 실적 등록…감축 실적별 최대 10만원",
+      "titleOriginal": null,
+      "summary": "용인시가 자동차 주행거리를 줄여 온실가스 감축에 기여한 참여자에게 최대 10만원의 인센티브를 지급하는 '탄소중립포인트 자동차 분야' 실적 등록을 10월 31일까지 진행한다. 본 제도는 운전자의 자발적인 주행거리 감축을 유도하여 실질적인 탄소 배출 저감을 목표로 한다.",
+      "topics": [
+        "ESG·탄소중립",
+        "정책·규제"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-09-24T23:17:45.000Z",
+      "originalUrl": "https://www.etnews.com/20260925000002",
+      "collectedAt": "2026-09-24T23:57:41.621Z",
+      "bodySnippet": "경기 용인특례시가 자동차 주행거리를 줄인 '탄소중립포인트 자동차 분야' 참여자에게 감축 실적에 따라 최대 10만원의 인센티브를 지급한다. 용인시는 오는 28일부터 10월31일까지 참여자의 최종 주행거리 실적을 등록받는다고 25일 밝혔다. 탄소중립포인트 자동차 분야는 운전자가 참여 기간 자동차 주행거리를 줄이면 온실가스 감축 실적에 따라 인센티브를 지급하는 제도다. 인센티브는 감축량과 감축률을 각각 산정한 뒤 참여자에게 유리한 실적을 적용해 2만"
+    },
+    {
+      "id": "3d3176a6-6063-455d-8608-e514e52c5c2d",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "이재명 대통령 “한-멕시코 전기차 협력 기대… FTA 협상 재개 추진”",
+      "titleOriginal": null,
+      "summary": "멕시코 일간지 엘 우니베르살 인터뷰… “멕시코, 북미·세계 시장 진출 핵심 거점”\n기아차 대규모 투자 언급하며 전기차·배터리 시너지 강조… FA-50 방산 협력 제안\n문화 콘텐츠 공동 제작 및 K-컬처 센터 설립 추진… 셰인바움 대통령 소통 리더십 평가 ▲이재명 대통령(오른쪽)과 클라우디아 셰인바움 멕시코 대통령. 사진=연합뉴스 멕시코를 국빈 방문한 이재명",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-09-24T16:48:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260924026158918",
+      "collectedAt": "2026-09-24T23:59:21.115Z",
+      "bodySnippet": "멕시코 일간지 엘 우니베르살 인터뷰… “멕시코, 북미·세계 시장 진출 핵심 거점”\n기아차 대규모 투자 언급하며 전기차·배터리 시너지 강조… FA-50 방산 협력 제안\n문화 콘텐츠 공동 제작 및 K-컬처 센터 설립 추진… 셰인바움 대통령 소통 리더십 평가 ▲이재명 대통령(오른쪽)과 클라우디아 셰인바움 멕시코 대통령. 사진=연합뉴스 멕시코를 국빈 방문한 이재명 대통령이 양국 정상회담을 하루 앞두고 현지 언론 인터뷰를 통해 전기차·배터리 공급망 협력 및 한-멕시코 자유무역협정(FTA) 협상 재개 의지를 밝혔다. 이 대통령은 23일(현지시간) 공개된 멕시코 주요 일간지 '엘 우니베르살(El Universal)'과의 인터뷰에서 \"멕시코의 세계적인 자동차 산업 기반과 한국의 배터리·전기차 부품 경쟁력이 결합하면 큰 시너지를 낼 것\"이라며, 최근 기아자동차가 멕시코 누에보레온주 전기차 생산 공장에 단행한 대규모 투자를 대표적인 협력 사례로 제시했다. 이 대통령은 \"한국 기업에 멕시코는 단순한 생산 기지를 넘어 북미와 세계 시장으로 나아가는 핵심 전략 거점\"이라며 \"약 500개 한국 기업이 133억 달러를 투자해 15만 개 이상의 일자리를 창출하며 멕시코 성장에 기여해 왔다\"고 강조했다. 이어 양국 간 견고한 경제 협력에 부합하는 제도적 틀 마련이 시급하다고 지적하며 △한-멕시코 FTA 협상 재개 △사회보장협정 체결 △투자 보호 메커니즘 강화를 주요 과제로 꼽았다. 방위산업 및 첨단 기술 협력 구상도 구체화했다. 이 대통령은 멕시코 공군의 전투기 현대화 사업과 관련해 \"한국의 FA-50 경공격기는 우수한 성능과 가격 경쟁력을 겸비해 호혜적 협력 기반이 될 수 있다\"고 언급했다. 이와 함께 인공지능(AI) 분야 공동 시범 사업 추진과 마약 밀매·인신매매 등 초국가적 범죄 대응을 위한 양국 치안 공조 강화 필요성을 피력했다. 문화 교류와 관련해서는 지난 5월 BTS와 클라우디아 셰인바움 대통령의 만남을 언급하며, 문화콘텐츠·예술 분야 공동 제작, 전문 인력 양성 메커니즘 구축, 현지 'K-컬처 센터' 설립 등을 추진하겠다고 밝혔다. 아울러 멕시코 최초의 여성 정상인 셰인바움 대통령에 대해 \"여성 인권 신장과 국가 미래에 대한 비전은 한국과 전 세계 여성들에게 깊은 울림을 준다\"며 매일 아침 국민 소통을 이어가는 현장 중심의 리더십을 높이 평가했다. <"
+    },
+    {
+      "id": "9e8cffbf-afda-4be9-85cd-4b55aa289c5e",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "김영록 前 전남지사, 한전 사장 취업심사 불승인…사장 공모 원점으로",
+      "titleOriginal": null,
+      "summary": "한국전력 차기 사장 유력 후보였던 김영록 전 전남지사가 공직자윤리위의 취업불승인 결정으로 낙마하며 사장 선임 절차가 원점으로 돌아갔다. AI 산업 성장 및 반도체 등 3대 메가프로젝트로 인한 30GW 이상의 전력 수요 대응과 2030년 재생에너지 100GW 보급 추진 등 한전의 역할이 막중한 상황에서 차기 리더십 공백이 발생했다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-09-24T10:05:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260924027058879",
+      "collectedAt": "2026-09-24T23:59:41.316Z",
+      "bodySnippet": "▲전남 나주에 위치한 한국전력공사 본사 전경. 사진=한국전력 한국전력공사 차기 사장 후보로 유력했던 김영록 전 전라남도지사가 고위공직자 취업심사 관문을 넘지 못하면서 한전 차기 사장 인선이 원점으로 돌아갔다. 24일 인사혁신처에 따르면, 정부공직자윤리위원회는 김 전 지사의 한전 사장 임명에 대한 퇴직공직자 취업심사 결과 '취업불승인' 결정을 내렸다. 김 전 지사의 한전 사장 취임이 공직자윤리법 시행령이 규정하는 퇴직공직자 취업승인 사유 가운데 국가안보·대외경쟁력 강화·공공 이익 기여 목적에 해당하지 않는다고 윤리위원회는 판단했다. 퇴직 전 소속기관에 영향력을 행사할 가능성을 낮지 않게 본 것도 윤리위원회의 결정 이유다. 김 전 지사는 최근 한전 임원추천위원회가 한전 차기 사장 후보군으로 추린 3명 중 임명이 유력한 인사로 꼽혀왔다. 다른 후보 2명은 오영식 전 국회의원, 이종환 전 한전 사업총괄 부사장이었다. 그러나 김 전 지사가 퇴직공직자 취업심사를 통과하지 못하면서 한전은 차기 사장 공모 절차를 다시 밟을 것으로 예상된다. 김동철 현(現) 한전 사장의 공식 임기는 지난 19일 끝났지만, 차기 사장 선임 전까지 역할을 계속 맡게 됐다. 이번 한전 신임 사장 공모는 인공지능(AI) 산업 성장으로 전력망 인프라 확대를 뒷받침할 한전의 역할이 중요해지면서 더 주목받았다. 정부가 발표한 반도체·피지컬AI·AI데이터센터 등 3대 메가프로젝트로 최소한 30기가와트(GW) 이상의 추가 전력 수요가 발생할 것으로 예상되고, 2030년 재생에너지 100기가와트(GW) 보급과 전기화 전환 같은 정책도 힘이 실리고 있다. <"
+    },
+    {
+      "id": "a6beb084-8345-4567-8911-5ff2a0c0c131",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[이슈분석] 대통령은 ‘속도전’ 강조했는데…3개월 원전 공론화에 혼란 빠진 12차 전기본",
+      "titleOriginal": null,
+      "summary": "제12차 전력수급기본계획이 원전의 역할을 재검토하는 3개월간의 공론화 절차를 거치면서 최종 발표가 연말로 지연되고 있습니다. 정부는 2040년 전력수요를 158.4~165.0GW로 전망하며 메가프로젝트 추진을 서두르고 있으나, 원전 공론화가 추가되면서 정책 추진의 불확실성이 커지고 있습니다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-09-24T06:45:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260923026168425",
+      "collectedAt": "2026-09-24T23:59:43.107Z",
+      "bodySnippet": "李 대통령 ‘메가프로젝트 전격전’ 주문에도 전력계획 확정 지연\n막판 ‘3개월 원전 공론화’ 돌입…12차 전기본 연말로 또 지연\n환경단체 “원전 확대 정당성 부여 위한 요식행위” 비판 ▲신규핵발전소저지와핵없는사회를위한전국행동이 지난 23일 서울 광화문에서 기자회견을 열고 원전 공론화 추진계획은 원전 확대에 절차적 정당성을 부여하려는 계획이라고 규탄하고 있다. 사진= 전국행동 제12차 전력수급기본계획이 막판 원전 공론화라는 변수를 만나면서 불확실성이 커지고 있다. 정부가 7차례 토론회를 거쳐 2040년 전력수요와 재생에너지 확대, 탈석탄 계획까지 차례로 공개한 상황에서 원전의 역할을 놓고 다시 3개월간 공론화에 들어갔기 때문이다. 이재명 대통령이 반도체·인공지능(AI) 등 '3대 메가프로젝트' 추진을 위해 전력 등 기반시설의 신속한 공급을 주문하고 있지만, 이를 뒷받침할 12차 전기본 최종 발표는 원전 공론화로 연말까지 미뤄지게 됐다. 반면 환경단체들은 신규 원전을 정당화하기 위한 요식행위라며 비판했다. 24일 에너지업계에 따르면 기후에너지환경부는 지난 22일 발표한 원전 공론화 추진계획에 따라 약 3개월간 국민 의견 수렴에 들어간다. 공론화위원회와 시민참여단, 전문가 등이 참여해 급증하는 전력수요와 탄소중립 과정에서 원전이 담당할 역할을 논의한다. 기후부는 공론화 결과를 반영해 12차 전기본 정부안을 오는 12월 확정할 계획이다. 문제는 공론화 시점이다. 12차 전기본 논의는 이미 상당 부분 진행됐다. 정부와 전기본 총괄위원회는 지난달 5차 토론회에서 3대 메가프로젝트 등을 반영한 2040년 최대전력 수요를 158.4~165.0기가와트(GW)로 제시했다. 지난 4월 전망보다 26.6~26.8GW 늘어난 규모다. 6차 토론회에서는 2040년 재생에너지 설비를 사업용 220GW, 자가용 태양광 16GW 등 총 236GW까지 확대하는 전망이 제시됐다. 이어 지난 18일 열린 7차 토론회에서는 현재 가동 중인 석탄발전 60기 가운데 39기를 2038년까지 폐지하고, 남은 21기도 최대 10기만 전력수급 위기에 대비한 안보전원으로 남기고 나머지는 조기폐지하는 방안이 공개됐다. 결국 전체 전력수요와 재생에너지·석탄의 밑그림이 먼저 나온 상태에서 원전의 역할을 뒤늦게 공론화하는 모양새가 됐다. 특히 2035 국가온실가스감축목표(NDC)를 고려하면 석탄발전 감축 이후 부족한 전력을 LNG만으로 채우기도 쉽지 않다. 원전이 부족한 전력을 채워줘야 하는 상황인데 다시 한번 검증을 받아야 하는 처지에 놓였다. 공론화 결과에 따라 앞서 공개된 계획이 다시 조정될 가능성도 있다. 기후부 관계자는 “앞서 발표된 재생에너지와 석탄 계획은 확정안이 아니기 때문에 바뀔 수 있다\"고 밝혔다. 공론화 과정에서 원전의 역할을 축소해야 한다는 의견이 강하게 제시될 경우 늘어난 전력수요를 충당하기 위해 재생에너지나 다른 발전원의 역할을 다시 검토해야 하는 셈이다. 전기본 일정은 11차때부터 계속 늦어지고 있다. 전기본은 전기사업법에 따라 2년 단위로 수립된다. 11차 전기본은 지난 2024년 초에 발표됐어야 했으나 늦어져 지난해 2월 확정됐고, 12차 전기본은 올해 초에 확정돼야 하지만 3대 메가프로젝트가 발표되면서 전력수요를 다시 산정하는 과정을 거쳤다. 여기에 3개월간 원전 공론화까지 추가되면서 정부안 확정 시점은 연말로 넘어가게 됐다. 정부의 메가프로젝트 추진 속도와는 엇박자를 내고 있다. 이 대통령은 지난 10일 메가프로젝트 민관합동 점검회의에서 관련 절차를 동시에 추진해 사업기간을 줄이고 전력·용수 등 기반시설 공급을 서두르라고 주문했다. 특히 사업 추진과 관련해 “속도전을 넘어서 전격전을 치러야 하는 상황\"이라고 강조했다. 김성환 기후부 장관은 그동안 늘어나는 전력수요와 탄소중립을 동시에 달성하는 과정에서 원전의 역할이 필요하다는 취지의 입장을 밝혀왔다. 다만 정부는 이번 공론화가 신규 원전 건설 여부나 건설 기수를 시민참여단이 직접 결정하는 방식은 아니라고 선을 긋고 있다. 원전에 대한 다양한 의견과 변화한 에너지 여건을 살펴본 뒤 이를 전기본 수립 과정에 반영한다는 설명이다. 반면 환경단체는 원전 공론화를 두고 요식행위라고 비판한다. 이들은 이미 원전의 필요성을 전제로 정책 방향을 설정한 상황에서 공론화를 진행하는 것이 실질적인 정책 선택을 위한 절차인지, 정책 추진의 명분을 확보하기 위한 과정인지 따져봐야 한다고 지적했다. 환경단체로 구성된 신규핵발전소저지와핵없는사회를위한전국행동은 지난 23일 서울 광화문에서 기자회견을 열고 원전 공론화 추진계획은 원전 확대에 절차적 정당성을 부여하려는 계획이라고 규탄했다. 에너지전환포럼도 논평을 내고 “공론화위원회는 원전사업과 직접적인 이해관계를 가진 인사를 배제하되 관련 분야의 전문성과 다양한 관점이 균형 있게 반영되도록 구성해야 한다\"며 “이번 절차를 실질적인 에너지전환 공론화로 확대해야 한다\"고 밝혔다 <"
+    },
+    {
+      "id": "e6628890-0295-4d2c-8067-303351f88dc7",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“추석 연휴 전기차 최대 반값에 충전하세요”",
+      "titleOriginal": null,
+      "summary": "추석 연휴 기간 중 전력 수요가 낮은 낮 시간대(오전 11시~오후 2시)에 공공 전기차 충전 요금을 최대 50% 할인한다. 이는 재생에너지 발전으로 발생하는 낮 시간대의 전력 공급 과잉을 해소하고 전력망 부담을 완화하기 위한 정책으로, 민간 사업자들도 요금 할인에 동참한다.",
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-09-24T06:08:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260923020258436",
+      "collectedAt": "2026-09-24T23:59:47.650Z",
+      "bodySnippet": "24~27일 오전 11시~오후 2시 공공충전기 요금 50% 할인\n민간 충전업계도 동참…고속도로 휴게소 8곳 이동식 충전기 배치 ▲서울시내 전기차 충전소의 모습. 사진= 연합뉴스 추석 연휴 낮 시간대 전기차 충전요금이 최대 절반까지 저렴해진다. 귀성·귀경길 충전 수요가 몰리는 일부 고속도로 휴게소에는 이동식 충전기도 추가 배치된다. 24일 기후에너지환경부에 따르면 이날부터 27일까지 나흘간 오전 11시부터 오후 2시까지 공공 전기차 충전기에 충전요금 할인 혜택이 제공된다. 기후부와 한국전력이 운영하는 공공 전기차 충전기 약 1만8000기는 평소 요금의 50%만 받는다. 100킬로와트(kW) 충전기의 경우 1킬로와트시(kWh)당 348.4원에서 174.2원으로 낮아진다. 개인주택이나 회사, 일부 아파트 등에 설치돼 한국전력으로부터 직접 전기를 공급받는 자가소비용 충전기도 같은 시간대 전력량 요금이 전액 할인된다. 대상은 전국 약 10만2000호다. 민간 충전사업자도 할인에 동참한다. 민간 충전사업자가 운영하는 충전기들도 연휴 낮 시간대에 제공받는 전력량 요금 할인분을 소비자 충전요금에 반영할 예정이다. 할인분을 전액 반영할 경우 평상시 기후부 공공충전요금을 기준으로 요금이 약 22~29% 낮아질 것으로 기대된다. 다만 업체마다 할인 폭과 적용 방식이 다르기 때문에 이용 전 확인이 필요하다. 급속 충전기 업체인 워터는 같은 기간 오전 11시부터 오후 2시까지 전국 생활권 충전소의 급속 충전요금을 1kWh당 347원에서 247원으로 낮춘다. 완속 충전은 295원에서 145원으로 내려간다. 급속 충전기로 30kWh를 충전한다면 평소보다 약 3000원을 아낄 수 있다. 다만 고속도로 휴게소에 설치된 워터 충전기는 할인 대상에서 제외된다. 정부가 낮 시간 충전을 유도하는 것은 추석 연휴 전력 수요가 평소보다 크게 줄어들기 때문이다. 산업용 전력 소비는 감소하지만 태양광 등 재생에너지 발전은 이어져 낮 시간대에는 전력이 남을 가능성이 있다. 남는 전력을 전기차 충전에 활용해 전력망 부담을 낮추면서 이용자에게 요금 할인 혜택을 돌려주겠다는 취지다. 장거리 운전에 따른 충전 불편을 줄이기 위한 대책도 마련됐다. 기후부는 하남드림·홍천·춘천·구정·속리산·부여백제 등 충전 수요가 집중될 것으로 예상되는 고속도로 휴게소 8곳에 23일부터 27일까지 이동식 충전기 19기를 배치한다. 차량당 최대 20kWh까지 이용할 수 있으며 배터리 잔량이 50% 이하인 차량이 우선이다. 공공충전기별 요금과 위치, 할인에 참여하는 민간 충전사업자는 무공해차 통합누리집에서 확인할 수 있다. <"
+    }
+  ]
+}
