@@ -1,7 +1,7 @@
 {
   "date": "2026-09-26",
-  "generatedAt": "2026-09-26T00:01:46.558Z",
-  "articleCount": 3,
+  "generatedAt": "2026-09-26T23:29:47.919Z",
+  "articleCount": 23,
   "articles": [
     {
       "id": "c3d97312-833e-4a43-9f8f-2de8bb95efdb",
@@ -62,6 +62,392 @@
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260923022318766",
       "collectedAt": "2026-09-26T00:01:11.399Z",
       "bodySnippet": "LS일렉트릭, 4족보행 로봇 도입…설비 안정·최적화\nHD현대일렉·효성重도 ‘스마트팩토리’ 고도화 박차\n단가 넘어 생산관리 역량도 경쟁력…미래투자 지속 ▲국내 전력기기업계가 생산시설의 주요 공정·설비에 인공지능(AI)과 로봇을 도입하며 이른바 '스마트팩토리' 구축에 속도를 내고 있다. 사진=챗GPT 국내 전력기기업계가 생산시설의 주요 공정·설비에 인공지능(AI)과 로봇을 도입하며 이른바 '스마트팩토리' 구축에 속도를 내고 있다. 글로벌 전력인프라 슈퍼사이클을 맞아 고객사 수요가 지속 증가하면서 생산체계 효율화 필요성이 확대된 영향으로 풀이된다. 26일 업계에 따르면, LS일렉트릭은 최근 부산 사업장에 현대차그룹 로봇 계열사 보스턴 다이나믹스의 4족보행 로봇 '스팟'을 정식 도입했다. 스팟은 로봇 시스템통합(SI) 전문회사 현대오토에버와의 협업을 통해 지난 7월 해당 사업장에 도입돼 두 달에 걸친 시험 운영을 이달 끝마쳤다. 스팟이 정식 도입된 부산사업장은 LS일렉트릭의 초고압변압기를 주력으로 생산하는 시설이다. 스팟은 이 곳에서 초고압변압기의 절연성능과 직결된 '진공건조로(VPD)'를 비롯한 핵심 공정 설비의 운영 안정성을 점검하고 이상 징후를 조기 판별하는 역할을 맡게 된다. 특히 스팟은 생산현장을 자율 순찰하며 '인공지능 기반 비전 검사(AIVI)' 기술을 토대로 설비 운영상태를 모니터링하는 한편, 온·습도 측정 시스템을 통해 데이터 수집에도 나선다. LS일렉트릭은 이렇게 확보·누적한 데이터를 기반으로 생산 환경과 제품 품질간 상관관계를 분석해 생산조건 최적화에도 나선다는 계획이다. 이 같은 전력기기업계의 스마트팩토리 구축 노력은 현재진행형이다. 다관절 로봇이 제품 조립과 물류 작업 등을 담당하고, AI 기반 시스템이 수요를 예측·분석해 생산슬롯 운영을 효율화하는 등 수주부터 납품까지 전력인프라 사업 전 과정에서 디지털·AI 전환이 가속화하고 있다는 평가다. 지난해 준공한 HD현대일렉트릭의 청주 배전캠퍼스 역시 이러한 기조 아래 전공정 자동화시스템이 갖춰졌다. 해당 생산시설은 당초 충청북도·청주시와 투자협약을 맺은 지난 2024년부터 최신 자동화 설비를 도입한 스마트팩토리로 조성한다는 목표 아래 건립이 진행됐다. 업계는 해당 공장의 자동화율이 최대 95%에 이르는 것으로 추정하고 있다. HD현대일렉트릭의 배전기기 5만여 종을 생산하는 해당 시설은 생산·물류·자재 관리 시스템을 일원화했다는 것이 특징이다. 각 단계별로 다관절 로봇이 생산 계획에 따른 기자재 분류와 제품 조립을, 자율주행 물류로봇은 분류된 기자재의 생산라인 전달과 완제품의 창고 이송 등 역할을 수행한다. 고성능 카메라와 연계된 AI 검사 시스템은 실제 생산단계에서 발생할 수 있는 불량 여부까지 정밀 판별한다. 이 밖에 AI 시스템을 통해선 배전기기 제품의 수요 예측과 자재, 완성품 입출고 일정을 관리함으로써 공급망 역량 체계·고도화도 나서고 있다. 효성중공업은 조현준 효성그룹 회장 체제 아래 IT 서비스 계열사 효성ITX의 스마트팩토리 기술력을 연계해 일찍이 디지털 전환에 나선 상태다. 생산관리시스템(MES)·사물인터넷(IoT) 등을 생산체계에 도입해 생산능력을 효율화하는 방식이다. 그룹 차원에서는 최근 전사적 AI 전환을 추진하기 위한 조직인 'AI융합연구원'을 신설하고 맹성현 카이스트 명예교수를 초대 연구원장으로 임명하는 등 제조역량에 대한 AI 접목도 속도를 내고 있다. 업계 관계자는 “최근 글로벌 AI 데이터센터 열풍으로 전력인프라 설비 수요가 급증하면서 단순 제품 가격을 넘어 납기일정과 품질 등 생산체계 관리 역량까지 수주 경쟁력으로 부상하고 있다\"며 “미래를 위한 제조 AI·디지털 전환 투자를 지속적으로 확대해 나가고 있다\"고 말했다. <"
+    },
+    {
+      "id": "83d883d5-fec8-4f82-b30d-e1c78969c064",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "중국 저장성, 계통 연계형 배터리를 현물 시장에 편입",
+      "titleOriginal": "Chinese province moves grid-side batteries into spot market",
+      "summary": "중국 저장성은 총 2.54 GW/5.1 GWh 규모의 40개 계통 연계형 배터리 저장 프로젝트에 대한 시장 규칙을 수립했습니다. 이는 2027년까지 완전한 가격 및 수량 입찰이 계획된 현물 시장으로 이들 배터리를 편입하는 것을 의미합니다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-26T09:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/26/chinese-province-moves-grid-side-batteries-into-spot-market/",
+      "collectedAt": "2026-09-26T23:26:18.247Z",
+      "bodySnippet": "<p>China’s Zhejiang province has set market rules for 40 grid-side storage projects totaling 2.54 GW/5.1 GWh, with full price-and-quantity bidding planned for 2027. </p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/26/chinese-province-moves-grid-side-batteries-into-spot-market/\">Chinese province moves grid-side batteries into spot market</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "4b73c646-f79d-408f-8353-384fecfcc84b",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "브라질의 PV 시스템 비용 상반기 7% 증가",
+      "titleOriginal": "PV system costs increase by 7% in Brazil in H1",
+      "summary": "2026년 상반기 브라질의 평균 PV 시스템 가격이 장비 비용 상승으로 인해 7% 증가했습니다. 이 기간 동안 분산 발전은 둔화되었지만 주거용 설치가 시장 점유율을 높였고, 금융 조달 이용률은 최저치를 기록했습니다.",
+      "topics": [
+        "운영 최적화",
+        "에너지원"
+      ],
+      "primaryTopic": "운영 최적화",
+      "publishedAt": "2026-09-26T08:30:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/26/pv-system-costs-increase-7-percent-brazil-h1/",
+      "collectedAt": "2026-09-26T23:26:26.236Z",
+      "bodySnippet": "<p>Average PV system prices in Brazil rose 7% in the first half of 2026, driven by higher equipment costs, while larger systems continued to offer lower per-watt prices.<br />\nThe increase came as distributed generation slowed, residential installations gained market share, and the use of financing fell to its lowest level in the period analyzed.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/26/pv-system-costs-increase-7-percent-brazil-h1/\">PV system costs increase by 7% in Brazil in H1</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "38272c88-796f-4b24-920d-e3139c555b44",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "안자, 232조 발동 후 미국 태양광 모듈 가격 최소 40% 급등 예상",
+      "titleOriginal": "Anza expects at least a 40% spike in U.S. solar module prices after Section 232",
+      "summary": "안자는 232조 발동 이후 미국 내 태양광 모듈 가격이 최소 40% 급등할 것으로 예상했습니다. 이에 따라 개발업체들은 최저 가격 시행 전에 서둘러 비용을 확보하거나, 미국 내 재고 모듈 확보, 수입 가속화, 또는 조달 전략 변경을 통해 프로젝트 경제성을 유지해야 하는 과제에 직면했습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-26T08:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/26/anza-expects-at-least-a-40-spike-in-solar-module-prices-after-section-232/",
+      "collectedAt": "2026-09-26T23:26:29.941Z",
+      "bodySnippet": "<p>The challenge for developers is to move quickly to secure lower costs before the minimum pricing takes effect, with the options being to secure modules already in the U.S., accelerate imports or shift procurement strategies to preserve project economics.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/26/anza-expects-at-least-a-40-spike-in-solar-module-prices-after-section-232/\">Anza expects at least a 40% spike in U.S. solar module prices after Section 232</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "4bbcbf5a-1099-4ecd-a577-ccabbb46313b",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "사진으로 옥상에 맞는 태양광 모듈 수를 계산하는 무료 소프트웨어",
+      "titleOriginal": "Free software calculates how many solar modules fit on a rooftop from a photo",
+      "summary": "테그로나(Tegrona)가 사진을 이용해 옥상에 설치 가능한 PV 모듈 수를 계산하는 무료 소프트웨어 '테그로나 라이트(Tegrona Lite)'를 출시했습니다. 이 소프트웨어는 이미지 원근을 보정하고 지붕 치수를 결정하며, CAD 도구나 현장 측정 없이 자동으로 모듈 레이아웃을 생성합니다. 이를 통해 태양광 설치 계획의 효율성을 크게 향상시킬 수 있습니다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-09-26T07:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/26/free-software-calculates-how-many-solar-modules-fit-on-a-rooftop-from-a-photo/",
+      "collectedAt": "2026-09-26T23:26:34.141Z",
+      "bodySnippet": "<p>Tegrona has launched free software that uses photographs to calculate how many PV modules can fit on a rooftop. Tegrona Lite corrects image perspective, determines roof dimensions and automatically generates module layouts without requiring CAD tools or on-site measurements.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/26/free-software-calculates-how-many-solar-modules-fit-on-a-rooftop-from-a-photo/\">Free software calculates how many solar modules fit on a rooftop from a photo</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "2e8dd514-7898-491e-a63e-a86075111bae",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "조정은 브라질에 가치를 더할 수 있다",
+      "titleOriginal": "Coordination can bring value to Brazil",
+      "summary": "브라질은 값비싼 발전 제약과 가파른 램프율로 인해 비용을 겪고 있으며, 가상발전소(VPP)에 대한 규제 부족이 분산형 자산의 수요 곡선 조절 잠재력을 제한하고 있습니다. S&P Global의 Henrique Ribeiro는 VPP가 브라질의 에너지 전환을 지원하고 값비싼 열 발생기에 대한 의존도를 줄이는 데 기여할 수 있다고 설명합니다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-26T04:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/26/coordination-can-bring-value-to-brazil/",
+      "collectedAt": "2026-09-26T23:26:40.176Z",
+      "bodySnippet": "<p>More curtailment and steeper ramp rates are proving costly in Brazil, but a lack of regulation for virtual power plants (VPPs) is limiting the potential for distributed assets to smooth out the demand curve. Henrique Ribeiro from S&#38;P Global explains how VPPs could better support Brazil’s transition while reducing reliance on expensive thermal generators.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/26/coordination-can-bring-value-to-brazil/\">Coordination can bring value to Brazil</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "e829068b-3784-4be4-9bbc-cde880871c1c",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "광고: 지속 가능한 데이터센터 백업 전력은 배터리 화학이 아닌 전략이다",
+      "titleOriginal": "Sponsored: Sustainable data center backup power is a strategy, not a battery chemistry",
+      "summary": "데이터센터는 급증하는 전력 수요와 지속 가능성 목표를 동시에 충족시켜야 하는 어려운 상황에 놓여 있습니다. 이에 따라 지속 가능한 백업 전력 확보는 단순히 배터리 기술을 넘어선 전략적 접근이 필요함을 시사합니다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-26T15:00:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/opinions/sustainable-data-center-backup-power-is-a-strategy-not-a-battery-chemistry/",
+      "collectedAt": "2026-09-26T23:26:49.747Z",
+      "bodySnippet": "<p data-block-key=\"2shog\">Data centers continue to walk the tightrope of meeting burgeoning power demands, while also fulfilling sustainability aims and obligations</p>"
+    },
+    {
+      "id": "96c87574-eb2e-4408-b8e9-c613c7263a36",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "AI 인프라가 다음 산업 혁명을 규정할 것이다",
+      "titleOriginal": "AI infrastructure will define the next industrial revolution",
+      "summary": "AI 인프라가 미래 산업 혁명을 주도할 핵심 요소로 부각되고 있습니다. 에너지 기술, 지능형 시스템, 디지털 인프라가 전 세계적으로 폭넓은 혜택을 제공하며 이러한 변화의 기반을 마련하고 있습니다. 제공된 내용에는 구체적인 수치나 기관명 언급이 없어 요약에 포함할 수 없습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-26T13:00:35.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/opinions/ai-infrastructure-will-define-the-next-industrial-revolution/",
+      "collectedAt": "2026-09-26T23:26:57.258Z",
+      "bodySnippet": "<p data-block-key=\"yid8s\">Energy technology, intelligence, and digital infrastructure are providing ubiquitous benefits across the world</p>"
+    },
+    {
+      "id": "af8156bd-6242-494b-adf8-0b2f9e33d0e5",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "추석 전력수요 57.5GW '급감'…명절 ‘경부하’에 전력당국 긴장",
+      "titleOriginal": null,
+      "summary": "추석 연휴 기간 산업체 조업 감소 등으로 전력수요가 56.2~57.5GW 수준으로 급감함에 따라 전력당국이 비상운영체제에 돌입했다. 전력수요 감소와 태양광 등 재생에너지 발전량 증가가 맞물려 발생할 수 있는 전력 공급과잉 문제를 대비하기 위함이다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-26T13:21:17.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=372794",
+      "collectedAt": "2026-09-26T23:27:14.523Z",
+      "bodySnippet": "추석 연휴를 맞아 전력수요가 평소보다 크게 낮아지는 ‘경부하’ 상황이 이어지고 있다. 추석 당일인 25일 최대전력수요가 56.2GW를 기록한 데 이어 26일에도 57.5GW에 그쳤다. 여름철과 달리 전력 부족이 아니라 수요 감소와 재생에너지 발전량 변동에 따른 전력 공급과잉 가능성이 전력계통 운영의 주요 변수로 떠오르면서 전력당국은 연휴 기간에도 비상운영체제를 유지하고 있다.26일 전력거래소에 따르면 이날 최대전력수요는 57.5GW를 기록했다. 추석 당일인 전날에는 오후 6시 45분께 56.2GW을 기록하기도 했다.25일 수요는 기온이 당초 예상보다 높아지면서 전력당국의 전망치인 49.9GW를 웃돌았지만, 가을철 평상시와 비교하면 여전히 낮은 수준이다. 명절 연휴에는 산업체 조업이 줄어드는 데다 상업시설 영업도 감소하고 냉방수요까지 크게 떨어지면서 전력수요가 연중 최저 수준으로 낮아지는 특성이 있기 때문이다.특히 추석 연휴에는 전력수요 감소와 함께 태양광 등 재생에너지 발전량이 동시에 늘어날 경우 전력 공급과잉 가능성이 커진다. 전력수요가 낮은 가운데 태양광 발전이 집중되는 낮 시간대에는 발전량과 수요 사이의 격차가 커질 수 있어서다.실제 올해 추석 당일은"
+    },
+    {
+      "id": "6fb689f9-8d92-46b1-85c1-fe5d5101dcda",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스안전공사 충남본부 '가스 사고 예방 현장 합동 캠페인' 전개",
+      "titleOriginal": null,
+      "summary": "한국가스안전공사 충남본부가 추석 명절을 앞두고 당진과 천안에서 LP가스판매협회 및 도시가스사와 함께 가스 사고 예방 합동 캠페인을 전개했다. 시민들에게 가스레인지 안전 사용법, 일산화탄소 중독 예방 수칙, 가스 밸브 점검 등을 홍보하며 현장 중심의 안전 의식을 고취했다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-09-26T13:01:04.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=303503",
+      "collectedAt": "2026-09-26T23:27:29.760Z",
+      "bodySnippet": "\r\n<img alt=\"(앞줄 왼쪽에서 다섯번째부터) 임상묵 충남 당진시LP가스판매협회 회장, 박용석 가스안전공사 충남본부장이 '가스 사고 예방 합동 캠페인'을 진행하며 양측 관계자들과 기념 촬영하고 있다./한국가스안전공사 충남본부 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303503_176089_5324.jpeg\" />\r\n(앞줄 왼쪽에서 다섯번째부터) 임상묵 충남 당진시LP가스판매협회 회장, 박용석 가스안전공사 충남본부장이 &#39;가스 사고 예방 합동 캠페인&#39;을 진행하며 양측 관계자들과 기념 촬영하고 있다./한국가스안전공사 충남본부 제공\r\n\r\n\r\n\r\n[투데이에너지 신영균 기자]&nbsp;한국가스안전공사 충남본부가 당진시LP가스판매협회, 천안시LP가스판매협회, 도시가스사 ㈜미래엔서해에너지, JB㈜ 등 유관기관과 &#39;가스 사고 예방 현장 합동 캠페인&#39;을 전개했다. 가스안전공사 충남본부는 추석 명절을 앞둔 지난 22일 당진 버스터미널에서 당진시LP가스판매협회, ㈜미래엔서해에너지와 캠페인을 실시한데 이어 23일에는 천안역에서 JB㈜, 천안시LP가스판매협회와 가스 안전 홍보 활동을 진행했다고 밝혔다.\r\n\r\n이번 캠페인에서 가스안전공사 충남본부와 유관기관은 시민들을 대상으로 보일러 및 가스레인지 안전 사용 방법, 일산화탄소(CO) 중독 사고 예방, LPG 안전 수칙 등을 안내하고 홍보했다. 이날 당진시&middot;천안시 LP가스판매협회는 휴대용 가스레인지 사용 시 화기 주위에 부탄캔 비치 금지, 과대 불판이나 알루미늄 호일 사용 금지 등 안전 수칙을 준수해달라고 당부했다.\r\n\r\n&nbsp;\r\n\r\n\r\n<img alt=\"박용석 가스안전공사 충남본부장(앞줄 왼쪽에서 다섯번째)이 '가스 사고 예방 합동 캠페인'을 진행하며 유관기관 관계자들과 기념 촬영하고 있다./한국가스안전공사 충남본부 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303503_176090_5437.jpg\" />\r\n박용석 가스안전공사 충남본부장(앞줄 왼쪽에서 다섯번째)이 &#39;가스 사고 예방 합동 캠페인&#39;을 진행하며 유관기관 관계자들과 기념 촬영하고 있다./한국가스안전공사 충남본부 제공\r\n\r\n\r\n\r\n㈜미래엔서해에너지는 가스보일러 배기통 이탈 및 손상 여부 점검, 보일러 주변 환기 방해 물품 비치 금지 등 CO 중독 사고 예방에 주의해 줄 것을 강조했다. 특히 JB(주)는 보일러 사용 시 두통이나 어지럼증 등 이상 증상이 나타날 경우 즉시 환기를 실시하고 안전한 장소로 이동 후 관계기관을 통해 점검해달라고 안내했다.\r\n\r\n박용석 가스안전공사 충남본부장은 &ldquo;가스 사용 전&middot;후 안전 수칙을 준수하고 장기간 집을 비우는 경우 가스 밸브를 잠가야 한다&quot;며 &quot;귀가 후에는 환기 후 사용해야 안전하다&rdquo;고 말했다. 이어 &quot;가스 사고 발생 가능성이 높은 시기와 안전 취약시설을 중심으로 유관기관 및 가스업계와 협력해 현장 중심 안전 점검을 지속 추진하겠다&quot;고 덧붙였다."
+    },
+    {
+      "id": "26c48a8e-8291-4d39-8fb5-bdca86cfa66c",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스안전공사 전남서부지사, 유관기관 합동 '대국민 가스 안전 캠페인' 진행",
+      "titleOriginal": null,
+      "summary": "한국가스안전공사 전남서부지사가 추석 연휴를 앞두고 전라남도, 목포시청, MC에너지와 합동으로 목포역에서 가스 안전 캠페인을 실시했다. 이번 캠페인은 귀성객과 상인을 대상으로 휴대용 가스레인지 사용 주의 등 가스 사고 예방을 위한 안전 수칙 홍보에 중점을 두었다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-09-26T11:45:44.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=303502",
+      "collectedAt": "2026-09-26T23:27:35.665Z",
+      "bodySnippet": "\r\n<img alt=\"가스안전공사 전남서부지사가 전라남도, 목포시청, 도시가스사 MC에너지 등 유관기관 관계자와 함께 '대국민 가스 안전 캠페인'을 진행하기에 앞서 이번 추석 연휴 기간 '안전 지킴이'로서 충실할 것을 결의하고 있다./한국가스안전공사 전남서부지사 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303502_176088_3847.jpg\" />\r\n가스안전공사 전남서부지사가 전라남도, 목포시청, 도시가스사 MC에너지 등 유관기관 관계자와 함께 &#39;대국민 가스 안전 캠페인&#39;을 진행하기에 앞서 이번 추석 연휴 기간 &#39;안전 지킴이&#39;로서 충실할 것을 결의하고 있다./한국가스안전공사 전남서부지사 제공\r\n\r\n\r\n\r\n[투데이에너지 신영균 기자]&nbsp;한국가스안전공사 전남서부지사가 유관기관과 합동으로 &#39;대국민 가스 안전 캠페인&#39;을 진행했다. 가스안전공사 전남서부지사는 23일 목포역에서 전라남도, 목포시청, 도시가스사 MC에너지 등 유관기관 관계자 30여명과 함께 귀성객을 대상으로 &#39;대국민 가스 안전 캠페인&#39;을 실시했다고 밝혔다.\r\n\r\n이번 캠페인은 추석을 비롯해 연휴 기간 동안 가스 안전 수칙을 준수하는 환경을 조성하기 위해 마련됐다. 특히 가스 사용자 취급 부주의에 의한 사고를 예방하는데 중점을 두고 진행됐다. 이에 따라 목포역 내에서 가스시설을 안전 점검하고 이를 사용하는 상인 등을 대상으로 가스 안전 수칙을 홍보했다.\r\n\r\n이날 임현철 가스안전공사 전남서부지사장은 귀성객들에게 &ldquo;가스는 사용 전&middot;사용 중&middot;사용 후 유의해야 할 것이 있다&quot;며 &quot;특히 휴대용 가스레인지 과대 불판 사용 금지, 부탄캔 화기&nbsp;주변 비치&nbsp;금지 등을 준수해야 한다&rdquo;고 당부했다.&nbsp;"
+    },
+    {
+      "id": "cac3a4f9-6ec3-4da8-bd79-77feba1e5e8f",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "'첨단산업 전력수요 급증, 원전이 해답인가' 국회 토론회 개최",
+      "titleOriginal": null,
+      "summary": "반도체 및 AI 데이터센터 등 첨단산업의 대규모 전력 수요 대응을 위해 원자력 발전의 경제성과 안정성을 다각도로 검토하는 국회 토론회가 개최되었다. 전문가들은 단순 발전 단가를 넘어 건설 지연 비용과 계통 연계 등 전주기(cost-of-ownership) 관점의 원전 비용 평가 체계 마련 필요성을 강조했다.",
+      "topics": [
+        "정책·규제",
+        "전력 인프라"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-09-26T10:23:54.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=303501",
+      "collectedAt": "2026-09-26T23:27:36.859Z",
+      "bodySnippet": "[투데이에너지 장재진 기자] &lsquo;첨단산업 전력수요 급증, 원전이 해답인가?&rsquo;라는 제목의 정책 토론회가 29일 오전&nbsp;국회의원회관 제5간담회의실에서 열린다.\r\n\r\n국회 기후위기 탈탄소 경제포럼과 에너지전환포럼, 국회 기후에너지환경노동위원회 소속 의원들이 공동주최하는 이번 토론회는 반도체&middot;피지컬AI&middot;AI 데이터센터 등 대규모 전력 수요를 예상하는 &lsquo;3대 메가프로젝트&rsquo; 추진과 맞물려 원전의 역할과 경제성을 다각도로 검토하기 위해 마련됐다.&nbsp;\r\n\r\n좌장은 윤순진 에너지전환포럼 상임공동대표가 맡는다. 그는 &#39;첨단산업 경쟁력 확보에는 안정적 전력 공급이 필수&rdquo;라며 &ldquo;원전이 공급안정성 측면에서 기여할 수 있는지, 경제성 평가는 어떤 기준으로 이뤄져야 하는지를 객관적으로 논의해야 한다&rdquo;고 밝혔다.\r\n\r\n첫 번째 발제자인 김대경 에너지 컨설턴트는 글로벌 관점에서 원전의 경제성을 진단한다. 김 발제자는 원전이 장기적 관점에서는 기저전원으로서 전력계통 안정화와 탄소감축에 기여하는 장점이 있으나, 최근 글로벌 금융시장 변동성과 건설지연 사례가 투자 리스크를 키웠다고 강조할&nbsp;예정이다. .\r\n\r\n두 번째 발제자인 석광훈 에너지전환포럼 전문위원은 국내 원전비용을 재평가할 필요성을 강조한다. 석 전문위원은 기존 공기업 회계상 발전단가만으로는 불충분하며, 대규모 초기투자에 따른 금융비용, 건설 지연 시 발생하는 비용&middot;위험, 계통 연계에 필요한 추가 인프라 비용 등을 포함하는 전주기(cost‑of‑ownership) 관점의 평가체계로 전환해야 한다고 주장할 에정이다.\r\n\r\n종합토론에서는 산업계&middot;금융&middot;규제&middot;안전 분야 전문가들이 참여해 논의를 벌인다.\r\n\r\n한병화 유진투자증권 이사, 한병섭 고준위 방사성폐기물 관리위원회 비상임위원,&nbsp;기후에너지환경부의 강경택 과장 등이 참여한다.\r\n\r\n이번 토론회는 원전이 단순한 발전원 선택의 문제가 아니라 금융&middot;안전&middot;계통&middot;환경 등 다차원적 고려를 필요로 하는 복합적 정책과제임을 재확인한다.\r\n\r\n향후 정부와 산업계, 학계가 참여하는 후속 연구 및 정책 논의를 통해 전주기 비용을 반영한 객관적 평가 기준과 전력시장 개편 방안이 도출될지 주목된다.\r\n\r\n\r\n<img alt=\"포스터\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303501_176087_236.jpeg\" />\r\n포스터\r\n\r\n\r\n\r\n&nbsp;"
+    },
+    {
+      "id": "f7be34e1-c533-48c4-bcb2-daf0e344d8e1",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "엔비전, 8MW 육상 풍력 터빈 '모델 T – EN175/8.0' 출시",
+      "titleOriginal": null,
+      "summary": "엔비전이 175미터 로터를 갖춘 8MW급 스마트 육상 풍력 터빈 'EN175/8.0'을 출시했다. 신형 터빈은 AI 기반 자율 제어 시스템과 6세대 저소음 에어포일 설계를 통해 에너지 효율을 최대 12% 향상시켰으며, 다양한 환경에 대응 가능한 그리드 준비성(grid-ready)을 강화했다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-26T09:55:01.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=303499",
+      "collectedAt": "2026-09-26T23:27:43.144Z",
+      "bodySnippet": "\r\n<img alt=\"175미터 로터를 장착한 8MW급 스마트 육상 풍력 터빈 모델 T – EN175/8.0 조감도 /출처 엔비전\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303499_176086_5056.jpg\" />\r\n175미터 로터를 장착한 8MW급 스마트 육상 풍력 터빈 모델 T &ndash; EN175/8.0 조감도 /출처 엔비전\r\n\r\n\r\n\r\n[투데이에너지 장재진 기자] 그린 테크놀로지 선도기업 엔비전(Envision)이 175미터 로터를 장착한 8MW급 스마트 육상 풍력 터빈 모델 T &ndash; EN175/8.0을 공식 출시했다고 현지시간 25일 밝혔다.\r\n\r\n이번 신형 터빈은 중속 풍속과 복잡한 지형 조건에 최적화된 공기역학 설계, 수직 통합 방식의 핵심 부품 자체 설계&middot;제조, 그리고 AI 기반의 자율 최적화 제어 시스템을 통합한 것이 특징이다.\r\n\r\n엔비전은 이미 Model T 플랫폼을 통해 4000건 이상의 주문과 약 1500대의 설치 실적을 확보했으며, EN175/8.0은 이 검증된 플랫폼의 경험을 토대로 개발됐다.\r\n\r\n엔비전에 따르면, 이번 신모델이 6세대 저소음 에어포일과 톱니 모양의 후방 가장자리 설계를 채택해 기존 모델 대비 현장 조건에 따라 2%에서 최대 12%까지 에너지 수집 효율을 끌어올릴 수 있다고 밝혔다. 또한 블레이드&middot;변속기&middot;발전기 등 주요 부품의 수직 통합 설계&middot;제조를 통해 수명 주기 비용(Lifecycle Cost) 절감과 신뢰성 강화를 동시에 도모한다고 설명했다.\r\n\r\n루 이민(Lou Yimin) 엔비전&nbsp;수석 부사장 겸 최고제품책임자는&nbsp;&ldquo;차세대 풍력은 단순한 대형화가 아니라 수명 주기 관점에서 더 스마트하고 신뢰성 있게 운영되는 시스템으로의 전환을 의미한다&rdquo;며 &ldquo;EN175/8.0은 검증된 플랫폼 엔지니어링에 AI 기반 자율 최적화를 결합해 고객이 더 많은 에너지를 생산하고 운영 효율을 높이며 장기적 가치를 확보하도록 돕는다&rdquo;고 말했다.\r\n\r\n안전&middot;운영 측면에서도 EN175/8.0은 다양한 환경에 대응할 수 있도록 설계됐다. 표준형 외에 저온&middot;서리 환경 대응형 구성과 블레이드 방빙 옵션을 제공하고, 낙뢰 방지 구조 및 다중 가열 구역을 포함한 정밀 열 제어 시스템을 적용해 혹독한 기후 조건에서도 안정적 운용이 가능하다. 소음 성능은 107 dB(A)을 목표로 한다.\r\n\r\n특히 EN175/8.0의 핵심 강점은 AI 기반 &lsquo;갈릴레오&rsquo; 자율 최적화 제어 시스템과의 통합이다. 엔비전은 자체 기상 예보 모델(톈지)과 에너지 관리 기초 모델(두베)을 결합해 터빈이 실시간으로 작동 조건을 분석하고 제어 전략을 자율적으로 조정하도록 설계했다. 이에 따라 전통적 규칙 기반 제어에 비해 다양한 변수에 대한 적응성과 최적화 성능이 향상되어 현장별 출력 극대화 및 수동 개입 감소가 가능해진다.\r\n\r\n그리드 연계성 측면에서도 EN175/8.0은 전력 변환기 아키텍처와 네트워크 형성 제어를 결합해 전압&middot;주파수 유지, 빠른 고장 응답, 취약 그리드 상황에서의 안정적 운전 등 그리드 준비성(grid-ready)을 강화했다. 엔비전은 풍력 터빈 단독 최적화를 넘어서 풍력&middot;태양광&middot;에너지저장(ESS)&middot;산업부하를 통합 제어하는 농장 수준의 가치 창출 모델을 제시하며 프로젝트 전체의 투자수익률 향상을 목표로 한다.\r\n\r\n엔비전의 EN175/8.0은 중속 풍속의 내륙 및 복합 지형, 산악 지역, 극한 풍속이 발생하는 지역 등 다양한 육상 환경에서의 확대 적용이 기대된다.\r\n\r\nAI 기반 제어와 수직 통합 제조, 디지털 트윈 검증 시스템의 결합은 향후 재생에너지 자산 운영에서 &lsquo;기계 단위 최적화&rsquo;에서 &lsquo;시스템&middot;농장 단위의 통합적 가치 최적화&rsquo;로의 전환을 가속화할 것으로 보인다.\r\n\r\n엔비전의 이번 신모델 출시는 풍력 터빈의 하드웨어 성능 향상뿐 아니라 AI&middot;디지털 기술과의 결합을 통해 재생에너지 자산의 운영 방식에 변화를 일으킬 가능성을 보여준다.\r\n\r\n향후 현장 배치와 장기 운영 성과가 상용화 효율성, 비용절감 및 그리드 안정성 측면에서 어떻게 입증될지 주목된다."
+    },
+    {
+      "id": "179520fd-a42e-4682-a3a0-a7c4506d0873",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[해설] ESS 1180MW 물량 2029년 2월까지 구축 목표",
+      "titleOriginal": null,
+      "summary": "정부가 전력 계통 안정성을 강화하기 위해 1,180MW 규모의 ESS 중앙계약시장 입찰을 추진하며 2029년 2월까지 구축을 완료할 계획이다. 이번 입찰은 가격과 비가격 요소를 50:50으로 평가하고, 제주 지역 대상 25년 장기 계약 도입 및 계통 관리 변전소 확대 등을 통해 입지 효율성과 운영 안정성을 제고하는 데 초점을 맞추고 있다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-26T09:44:32.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=303498",
+      "collectedAt": "2026-09-26T23:27:44.770Z",
+      "bodySnippet": "\r\n<img alt=\"AI 데이터센터 전력수요가 폭증하며 ESS 역할이 커진다. / AI 생성이미지\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303498_176084_2626.png\" />\r\nAI 데이터센터 전력수요가 폭증하며 ESS 역할이 커진다. / AI 생성이미지\r\n\r\n\r\n\r\n[투데이에너지 장재진 기자] 기후에너지환경부가 이번 중앙계약시장 개설을 통해 확보하려는 ESS는 전력생산이 많은 시간대에 전력을 충전했다가 수요가 높은 시간대에 방전함으로써 전력계통의 안정성과 수요 대응력을 높이는 핵심 인프라다.\r\n\r\n정부는 2023년 이후 세 차례의 중앙계약시장 운영으로 약 1.2GW 규모를 확보해왔고, 이번 추가 물량은 2029년 2월까지 구축을 목표로 한다 .\r\n\r\n평가&middot;계약 구조 입찰 방식은 가격 요소와 비가격 요소를 50:50으로 반영하는 종합평가 방식이다. 이는 단순한 가격 경쟁을 넘어 산업경쟁력&middot;계통기여도&middot;화재안전성 등 사업의 실효성을 함께 따지겠다는 의도로, 품질&middot;안전 기준을 강화하면서도 비용 효율성을 확보하려는 균형 전략이다.\r\n\r\n낙찰 사업자는 전력거래소와 통상 15년 계약을 체결하며, 제주에 한해서는 장수명&middot;다중충전 설비에 한해 25년 계약을 선택하도록 해 설비 수명과 사용 패턴을 반영했다.\r\n\r\n계통&middot;입지 관리와 정책 변화 기존에는 사업 대상 변전소를 계통관리변전소로 한정했지만, 이번에는 전국 계통 분석을 통해 ESS 연계 필요성이 인정되는 변전소까지 대상 범위를 넓혔다. 또한 계통 과부하 완화 효과가 큰 변전소 정보를 공개해 ESS의 최적 입지를 유도하는 등 실효적 입지 배치 정책을 도입했다.\r\n\r\n평가항목도 &lsquo;출력제어 수준&rsquo;과 &lsquo;계통 안정화 기여도&rsquo;를 통합하는 등 중복되거나 실익이 낮은 항목을 정리해 평가 효율성을 높였다.\r\n\r\n제주는 풍력 비중이 높아 야간에도 충전 수요가 발생한다는 계통 특성이 있다. 이를 고려해 동일한 ESS라도 장수명&middot;다중충전 가능 설비에 대해 더 긴 계약기간을 허용함으로써 투자 안정성을 제고하고, 반복 충&middot;방전에 강한 기기 도입을 장려하려는 정책적 의도가 분명하다.\r\n\r\n이번 1180MW 입찰은 국내 ESS 시장의 수요를 단기간에 확대하는 효과가 있어 배터리 제조사&middot;운영사&middot;시공사 등 관련 산업군에 수주 기회를 제공한다. 다만 대규모 입찰은 경쟁 심화로 인한 수익성 압박, 안전&middot;화재 리스크 관리 필요성, 지역별 계통 수용능력과의 조화 문제를 야기할 수 있다.\r\n\r\n정부가 계통 연계 변전소를 공개하는 조치는 사업자들이 최적의 입지를 선정하는 데 도움을 주지만, 지역 주민 수용성&middot;환경 영향 평가 등 현장 리스크 관리는 여전히 해결 과제로 남는다 .\r\n\r\n이번 중앙계약시장 개설은 단기간 내 ESS 확보를 통해 계통 안정성과 피크 수요 대응 능력을 강화하려는 정부의 의지를 보여준다. 평가체계의 개선과 제주 지역의 특수 계약 도입은 기술&middot;운영적 현실을 반영한 조치이지만, 안전성&middot;계통포화&middot;지역 수용성 등 현장 리스크 관리와 연관된 후속 조치가 성공 관건이 될 것으로 보인다.\r\n\r\n&nbsp;"
+    },
+    {
+      "id": "a134b3e7-c461-4508-a951-ba50a3abaeb8",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "1180MW 규모 ESS 중앙계약시장 입찰...11월 11일 마감",
+      "titleOriginal": null,
+      "summary": "기후에너지환경부가 총 1180MW 규모의 ESS 중앙계약시장 입찰을 공고했다. 낙찰자는 전력거래소와 15년(제주 지역 일부 25년) 표준 계약을 체결하며, 2029년 2월까지 설비 준공을 완료해야 한다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-26T09:33:35.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=303497",
+      "collectedAt": "2026-09-26T23:27:49.061Z",
+      "bodySnippet": "\r\n<img alt=\"AI 데이터센터 전력수요가 폭증하며 ESS 역할이 커진다. / AI 생성이미지\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303497_176085_3220.png\" />\r\nAI 데이터센터 전력수요가 폭증하며 ESS 역할이 커진다. / AI 생성이미지\r\n\r\n\r\n\r\n[투데이에너지 장재진 기자] 기후에너지환경부는 지난 22일 에너지저장장치(ESS) 중앙계약시장을 개설하고 총 1180MW 규모의 ESS 발전사업자 입찰을 공고했다.\r\n\r\n육지는 1100MW, 제주 지역은 80MW를 대상으로 하며 사업자 선정 입찰은 22일부터 시작됐다 .\r\n\r\n입찰은 사업자가 참여 희망 물량과 정산가격(kW당)을 제시하는 방식으로 진행되며, 전력거래소는 가격요소(50%)와 비가격요소(산업경쟁력&middot;계통기여&middot;화재안전성 등 50%)를 종합해 낙찰자를 선정한다.\r\n\r\n기후부에 따르면, 낙찰 사업자는 전력거래소와 15년 기간의 표준 계약을 체결하며, 제주 지역의 특성을 반영해 장수명&middot;다중충전 가능 설비에 한해 25년 계약을 선택할 수 있는 신규 계약방식이 신설됐다.\r\n\r\n입찰기간은 11월 11일 마감이며, 낙찰자 선정은 11월 중으로 예정됐다. 선정된 사업자는 2029년 2월까지 ESS를 준공해야 한다.\r\n\r\n정부는 기존 계통관리변전소 외에 계통상황 분석을 통해 ESS 연계 필요성이 인정되는 변전소도 사업대상에 추가하는 등 계통 평가항목을 일부 개선했다."
+    },
+    {
+      "id": "febce8a7-8e20-4efb-b2fa-db2cdd6a5265",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "현대로템, 독일서 차세대 고속철·수소전기트램 기술 공개",
+      "titleOriginal": null,
+      "summary": "현대로템이 베를린 이노트란스 박람회에서 고속철도차량 콘셉트와 함께 자율주행 기반 수소전기트램 기술을 공개하며 친환경 모빌리티 시장 공략을 본격화했다. 특히 수소전기트램에 피지컬AI와 ADAS 기술을 적용해 지능형 운영체계를 시연하며 철도 시스템의 완전자율주행 및 수소 모빌리티 상용화 의지를 밝혔다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-26T07:00:00.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=303490",
+      "collectedAt": "2026-09-26T23:27:52.695Z",
+      "bodySnippet": "\r\n<img alt=\"현대로템의 이노트란스 박람회 부스 전경. /출처 현대로뎀\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303490_176076_4753.jpg\" />\r\n현대로템의 이노트란스 박람회 부스 전경. /출처 현대로뎀\r\n\r\n\r\n\r\n[투데이에너지 장재진 기자] 현대로템이 2026년 제15회 베를린 국제 철도차량&middot;수송기술 박람회(이노트란스)에서 차세대 고속철도차량 콘셉트 모델과 첨단 자율주행 수소전기트램 디오라마 등을 공개하며 글로벌 모빌리티 시장 공략을 본격화했다.&nbsp;\r\n\r\n이번 전시에서 단순한 외형 변화를 넘어 승객 경험(UX)을 중심에 둔 디자인 철학을 제시했다.\r\n\r\n25일 현대로템에 따르면, 현대자동차그룹 남양연구소 현대디자인센터와의 협업을 통해 공기역학적 성능을 높인 생체모방(비오미미크리) 기반 외장과 우리나라 고유의 절제된 아름다움을 반영한 내장 디자인을 적용했다. 실내는 인체공학과 사용자 환경(UI) 설계를 통해 레그룸과 수납공간을 최적화하는 등 승객 편의성 강화에 초점을 맞췄다.&nbsp;\r\n\r\n아울러 현대로템은 EMU-320 실차를 야외 전시장에 전시해 최고 운행 속도 320km/h급의 성능을 직접 선보였다. EMU-320은 국내 대표 고속차량 모델인 &lsquo;KTX-청룡&rsquo;의 계열로, 고속주행 환경에서의 공력 성능 최적화 설계가 적용됐다.&nbsp;\r\n\r\n특히 주목되는 것은 피지컬AI 기반 자율주행 기술을 결합한 수소전기트램 디오라마다. 디오라마는 운행 전 점검, 자율주행, 유지보수 등 전 구간을 AI로 시나리오화하고, 차량 내부 AI CCTV가 돌발 상황을 감지하면 관제시스템으로 경고를 보내 실시간 분석&middot;응급대응이 이루어지는 지능형 운영체계를 시연했다. 도로 공간을 공유하는 트램 특성상 높은 수준의 자율주행&middot;안전기술 적용이 필수적이라는 점을 강조했다.&nbsp;\r\n\r\n현대로템은 또 자체 개발한 철도차량용 첨단운전자보조시스템(ADAS)을 트램에 적용해 사람&middot;구조물 식별 및 위험 감지 기능을 구현했으며, 이를 바탕으로 향후 수소전기트램의 완전자율주행 상용화를 목표로 기술 고도화를 추진할 계획이라고 밝혔다.&nbsp;\r\n\r\n현대로템의 승객 경험을 중심으로 한 디자인 혁신과 AI&middot;자율주행 기술의 결합은 프리미엄 모빌리티 시장에서의 경쟁력을 높이는 한편, 수소 기반 모빌리티 상용화와 철도 운영의 지능형 전환을 앞당길 것으로 전망된다.\r\n\r\n현대로템의 전시 품목들은 국내 철도 및 수송기술의 국제적 위상을 제고하는 사례로 평가된다.&nbsp;\r\n\r\n&nbsp;"
+    },
+    {
+      "id": "7bb67e6c-9c37-44f4-87bb-950377832e66",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "우재준 의원-김홍철 가스안전공사 기술이사, 지역사회 안전망 확보",
+      "titleOriginal": null,
+      "summary": "한국가스안전공사 대구광역본부가 추석 명절을 맞아 우재준 국회의원과 함께 팔달신시장 및 산격종합시장 내 가스 사용 시설 26개소를 합동 점검했다. 또한, 지역사회 상생을 위해 가정종합사회복지관에 온누리상품권 200만원을 전달하며 안전 문화 확산과 나눔 활동을 실천했다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-09-26T02:30:17.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=303495",
+      "collectedAt": "2026-09-26T23:28:00.907Z",
+      "bodySnippet": "\r\n<img alt=\"김홍철 가스안전공사 기술이사(왼쪽)와 우재준 국민의힘 의원(오른쪽)이 전통시장에서 가스 사용 시설을 안전 점검하고 있다./한국가스안전공사 대구광역본부 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303495_176081_2253.jpg\" />\r\n김홍철 가스안전공사 기술이사(왼쪽)와 우재준 국민의힘 의원(오른쪽)이 전통시장에서 가스 사용 시설을 안전 점검하고 있다./한국가스안전공사 대구광역본부 제공\r\n\r\n\r\n\r\n[투데이에너지 신영균 기자]&nbsp;한국가스안전공사 대구광역본부가 현장 중심 가스 안전 활동을 강화하며 시민이 체감할 수 있는 안전 복지 실현에 매진하고 있다. 이번 추석을 앞두고는 우재준 국민의힘 의원, 김홍철 가스안전공사 기술이사와 전통시장에서 가스 안전 점검을 실시하고 복지관에 후원금을 전달했다.\r\n\r\n&nbsp;\r\n\r\n\r\n<img alt=\"우재준 국민의힘 의원, 김홍철 가스안전공사 기술이사, 가스안전공사 대구광역본부 등이 전통시장에서 가스시설 안전 점검을 실시하며 기념 촬영하고 있다./한국가스안전공사 대구광역본부 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303495_176082_2426.jpg\" />\r\n우재준 국민의힘 의원, 김홍철 가스안전공사 기술이사, 가스안전공사 대구광역본부 등이 전통시장에서 가스시설 안전 점검을 실시하며 기념 촬영하고 있다./한국가스안전공사 대구광역본부 제공\r\n\r\n\r\n\r\n가스안전공사 대구광역본부는 23일 우재준 국회의원과 김홍철 가스안전공사 기술이사가 지역사회 안전망 확보에 기여했다고 밝혔다. 이날 우 의원과 김 이사는 팔달신시장을 비롯해 산격종합시장에서 가스시설 안전 점검을 실시했다. 이날 팔달신시장 12개소와 산격종합시장 14개소 등 총 26개 가스 사용 시설을 점검했다. 이어 시장 상인에게 가스 안전 수칙 준수를 당부했다.&nbsp;\r\n\r\n가스안전공사 대구광역본부 또한 가스 시설을 점검하는 동시에 가스 안전 수칙이 게재된 홍보물을 배포했다. 이에 앞서 18일에는 가정종합사회복지관에 온누리상품권 200만원을 전달했다. 이날 전달된 온누리상품권은 가정종합사회복지관을 통해 지역 어르신들을 위한 지원에 활용될 예정이다.\r\n\r\n우재준 의원은 &ldquo;지역 어르신들에게 온정을 전하고 전통시장에서 가스 안전 점검을 수행해 뿌듯하다&rdquo;며 &ldquo;지역주민들이 안전하고 풍요로운 추석 명절을 보낼 수 있도록 나눔과 안전 활동을 지속적으로 실천하겠다&rdquo;고 말했다. 이어 김홍철 가스안전공사 기술이사는 &ldquo;공공기관으로서 사회적 책임에 충실하겠다&quot;며 &quot;안전 취약지역과 사각지대를 발굴하고 이를 해소해 대국민 안전 확보에 전념하겠다&quot;고 밝혔다."
+    },
+    {
+      "id": "b514900e-15cc-4952-a907-eb8b5ea0b2ff",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스안전공사 서울동부지사-예스코 '현장 합동 가스 안전 캠페인' 진행",
+      "titleOriginal": null,
+      "summary": "한국가스안전공사 서울동부지사와 예스코가 추석 명절을 앞두고 청량리역에서 휴대용 가스레인지 및 부탄캔 사고 예방을 위한 합동 안전 캠페인을 실시했다. 이번 캠페인은 과대 불판 사용 금지 등 가스 안전 수칙과 사전 점검의 중요성을 시민들에게 홍보하는 데 집중했다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-09-26T00:53:07.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=303494",
+      "collectedAt": "2026-09-26T23:28:05.473Z",
+      "bodySnippet": "\r\n<img alt=\"가스안전공사 서울동부지사가 예스코와 합동으로 청량리역에서 '추석 명절 가스 안전 캠페인'을 진행하며 기념 촬영하고 있다./한국가스안전공사 서울동부지사 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202609/303494_176080_4915.jpg\" />\r\n가스안전공사 서울동부지사가 예스코와 합동으로 청량리역에서 &#39;추석 명절 가스 안전 캠페인&#39;을 진행하며 기념 촬영하고 있다./한국가스안전공사 서울동부지사 제공\r\n\r\n\r\n\r\n[투데이에너지 신영균 기자]&nbsp;한국가스안전공사 서울동부지사가 청량리역에서 &#39;현장 합동 가스 안전 캠페인&#39;을 진행했다. 가스안전공사 서울동부지사는 지난 22일 유동 인구가 많은 청량리역에서 예스코와 합동으로 &#39;추석 명절 가스 안전 캠페인&#39;을 실시했다고 23일 밝혔다.\r\n\r\n이날 캠페인은 추석 명절에 차례 음식을 조리하는 과정에서 발생할 수 있는 휴대용 가스레인지와 부탄캔 사고를 예방하는데 초점을 맞춰 진행됐다. 이를 위해 가스 안전 수칙 준수와 가스기기 사용에 대한 사전 점검 중요성 등을 시민에게 홍보했다.&nbsp;\r\n\r\n양남식 가스안전공사 서울동부지사장은 &ldquo;휴대용 가스레인지는 과대 불판 사용과 조리기구에 알루미늄 호일을 감아 사용하는 것을 삼가야 한다&quot;며 &quot;부탄캔을 장착할&nbsp;때는 가스가 새지 않는지 확인하는 것이 필수&rdquo;라고 강조했다."
+    },
+    {
+      "id": "1ca4ce60-0beb-4d52-97bb-20ade6951e24",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "자원 끊겨도 버틴다…韓 자원안보 체질 바꾼다",
+      "titleOriginal": null,
+      "summary": "한국의 자원안보 정책이 값싼 자원 확보에서 공급망 단절 대비 체계 구축으로 전환된다. 이는 중동전쟁 등으로 확인된 공급망 취약성에 대응하기 위한 것으로, 원유 도입선 다변화, 비축시설 증대 및 핵심광물 관리·비축 강화를 포함한다. 산업통상부는 지난 23일 제6차 자원안보협의회에서 '제1차 자원안보 기본계획', '제5차 석유비축계획 조정안' 등 4개 안건을 심의·확정했다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-09-26T20:34:04.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71020",
+      "collectedAt": "2026-09-26T23:28:49.203Z",
+      "bodySnippet": "자원안보 정책의 무게중심이 값싼 자원을 안정적으로 들여오는 데서 공급망이 끊기더라도 버틸 수 있는 체계를 만드는 쪽으로 옮겨간다. 중동전쟁을 거치면서 특정지역과 운송로에 집중된 공급망 취약성이 확인된 만큼 원유 도입선을 다변화하고 비축시설을 늘리는 한편 핵심광물 관리와 비축을 대폭 강화하는 방식으로 자원 공급망 체질을 바꾸겠다는 것이다. 산업통상부(장관 김정관)는 지난 23일 무역보험공사(서울 종로구 소재)에서 제6차 자원안보협의회를 열고 ‘제1차 자원안보 기본계획’을 비롯한 ‘제5차 석유비축계획 조정안’과 ‘핵심광물 지정계획’, ‘제1차 핵심광물 비축계획’ 등 4개 안건을 심의‧확정했다."
+    },
+    {
+      "id": "1175d998-db27-497d-9d98-43f08182793c",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전기산업연합회, 中企 기술보호 나서…특허·분쟁 대응 지원",
+      "titleOriginal": null,
+      "summary": "전기산업연합회는 우수한 기술을 보유하고도 특허 출원과 기술 보호에 어려움을 겪는 중소기업 회원사를 대상으로 지식재산권 지원을 강화한다. 이를 위해 연합회는 지난 18일 한양국제특허법인과 업무협약을 체결하고, 특허 출원 및 분쟁 대응을 포함한 사업화 지원에 협력하기로 했다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-26T20:12:44.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71019",
+      "collectedAt": "2026-09-26T23:28:55.773Z",
+      "bodySnippet": "전기산업연합회가 우수한 기술을 보유하고도 특허 출원과 기술 보호에 어려움을 겪는 중소기업 회원사를 대상으로 지식재산권 지원을 강화한다. 대한전기산업연합회는 한양국제특허법인과 회원사 기술 보호와 사업화 지원에 협력하기로 하고 지난 18일 전기회관(서울 송파구 소재)에서 업무협약을 체결했다."
+    },
+    {
+      "id": "84f29fc3-9064-4900-9798-c7d747b217dd",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전KPS 재생E 투자 첫발 내딛어…인니 수력발전 지분 인수",
+      "titleOriginal": null,
+      "summary": "한전KPS가 인도네시아 북수마트라 하상 수력발전소 운영법인인 PT. BNE의 지분 40%를 인수하며 해외 재생에너지 자산 투자 사업을 본격화했다. 이번 계약을 통해 기존 운전·정비(O&M) 중심의 해외 사업 모델을 발전자산 투자와 탄소배출권 확보 영역으로까지 확대했다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-26T18:09:31.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71017",
+      "collectedAt": "2026-09-26T23:29:10.948Z",
+      "bodySnippet": "한전KPS가 인도네시아 수력발전 지분 40%를 인수하며 해외 재생에너지 자산 투자에 처음으로 나섰다. 기존 운전·정비(O&M) 중심 해외 사업을 발전자산 투자와 탄소배출권까지 확대하게 됐다. 한전KPS(주)(사장 김홍연)는 인도네시아 북수마트라 하상(Hasang) 수력발전소 운영법인인 PT. BNE 지분 40%를 인수하는 계약을 지난 22일 체결했다."
     }
   ]
 }
