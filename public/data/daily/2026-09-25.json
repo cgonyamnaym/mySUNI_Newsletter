@@ -1,0 +1,725 @@
+{
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-26T00:01:46.556Z",
+  "articleCount": 37,
+  "articles": [
+    {
+      "id": "00147cf9-69a6-448d-8e98-99125eae94ac",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "BESS 산업 동향: 소유주 대 트레이더 수익, 시장 포화, Northvolt 추가 M&A, 대체 기술들의 엇갈린 운명",
+      "titleOriginal": "BESS Industry Buzz: Owner vs trader returns, market saturation, more Northvolt M&A, alt technologies’ differing fortunes",
+      "summary": "BESS 산업의 최신 동향을 다루는 이 글은 배터리 에너지 저장 시스템(BESS) 소유주와 트레이더 간의 수익성 비교, 시장 포화 가능성, 그리고 Northvolt를 포함한 기업들의 인수합병(M&A) 움직임을 분석한다. 또한, 다양한 대체 에너지 기술들이 시장에서 겪는 엇갈린 성공과 실패에 대한 업계 전문가들의 통찰을 제공한다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-25T12:21:32.000Z",
+      "originalUrl": "https://www.energy-storage.news/bess-industry-buzz-owner-vs-trader-returns-market-saturation-more-northvolt-ma-alt-technologies-differing-fortunes/",
+      "collectedAt": "2026-09-25T23:54:31.767Z",
+      "bodySnippet": "Another roundup of user-posted hot takes and analysis from the energy storage industry recently. "
+    },
+    {
+      "id": "5b168d58-cf4b-487a-b5b0-4f1983403b6b",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미국 동향: 에너지 볼트, SMT 에너지, 네오볼타, SK온의 BESS 포트폴리오 계약, 투자 및 파트너십",
+      "titleOriginal": "US ROUNDUP: BESS portfolio deals, investment and partnerships for Energy Vault, SMT Energy, NeoVolta and SK On",
+      "summary": "최근 미국 BESS(배터리 에너지 저장 시스템) 기업인 에너지 볼트, SMT 에너지, 네오볼타가 SK온을 포함한 여러 파트너들과 주요 계약 및 전략적 파트너십을 체결했다. 이들 기업은 BESS 포트폴리오 관련 딜, 투자, 협력을 통해 미국 에너지 시장에서 입지를 강화하고 있다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-25T11:04:59.000Z",
+      "originalUrl": "https://www.energy-storage.news/us-roundup-bess-portfolio-deals-investment-and-partnerships-for-energy-vault-smt-energy-neovolta-and-sk-on/",
+      "collectedAt": "2026-09-25T23:54:39.578Z",
+      "bodySnippet": "Recently, US BESS companies Energy Vault and Goshe, SMT Energy and Climate Adaptive Infrastructure, and NeoVolta and SK On have made major deals and secured strategic partnerships."
+    },
+    {
+      "id": "ee136c5c-aba7-4069-8f71-e4db74f6f0dc",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미국 전력 변환 제조업체 주목: 파워 일렉트로닉스 휴스턴 공장 건설, 헤론 파워 RWE 파일럿 프로젝트 수주",
+      "titleOriginal": "US power conversion manufacturers in spotlight: Power Electronics builds Houston factory, Heron Power lands RWE pilot",
+      "summary": "스페인에 본사를 둔 파워 일렉트로닉스가 미국 시장의 국내 공급망 구축 노력에 발맞춰 텍사스 휴스턴에 새로운 공장을 개설했습니다. 이는 미국 전력 변환 제조업체들이 주목받는 현상의 일환으로, 기사 제목에서는 헤론 파워가 RWE 파일럿 프로젝트를 수주했다는 내용도 언급됩니다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-09-25T10:46:20.000Z",
+      "originalUrl": "https://www.energy-storage.news/us-power-conversion-manufacturers-in-spotlight-power-electronics-builds-houston-factory-heron-power-lands-rwe-pilot/",
+      "collectedAt": "2026-09-25T23:54:44.220Z",
+      "bodySnippet": "Spain-headquartered Power Electronics has opened a new factory in Houston, Texas, as the US market increasingly looks to build domestic content supply chains."
+    },
+    {
+      "id": "137c2f37-4d40-4d3d-adcc-af7537f1a0a0",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "ESR, 아시아 태평양 재생에너지 및 에너지 저장 통합의 일환으로 아퀼라 클린 에너지 APAC 인수",
+      "titleOriginal": "ESR to acquire Aquila Clean Energy APAC in Asia-Pacific renewables and energy storage consolidation",
+      "summary": "싱가포르에 본사를 둔 부동산 자산 관리 기업 ESR이 아시아 태평양 지역의 재생에너지 및 에너지 저장 분야 통합을 위해 아퀼라 클린 에너지 APAC의 지분 100%를 인수하는 계약을 체결했습니다. 이로써 ESR은 물류 부동산 및 데이터 센터 중심에서 재생에너지 분야로 사업 영역을 확장하게 됩니다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-25T03:22:16.000Z",
+      "originalUrl": "https://www.energy-storage.news/esr-to-acquire-aquila-clean-energy-apac-in-asia-pacific-renewables-and-energy-storage-consolidation/",
+      "collectedAt": "2026-09-25T23:54:49.884Z",
+      "bodySnippet": "ESR, a Singapore-headquartered real asset owner and manager focused on logistics real estate and data centres, has signed an agreement to acquire 100% of Aquila Clean Energy APAC."
+    },
+    {
+      "id": "c38d66c8-47f8-4272-bffe-57f39251fbdb",
+      "source": "Energy Storage News",
+      "sourceId": "energy-storage",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "AEMO, FY26에 호주 NEM에 기록적인 9.1GW 재생에너지 및 저장설비 연결, 적시 투자가 신뢰성 좌우한다고 경고",
+      "titleOriginal": "AEMO connects record 9.1GW of renewables and storage to Australia’s NEM in FY26, warns reliability depends on timely investment",
+      "summary": "호주 에너지 시장 운영자(AEMO)는 FY26에 국가 전력 시장(NEM)에 기록적인 9.1GW의 신규 재생에너지 및 저장설비가 연결되었다고 밝혔습니다. AEMO는 이러한 성장에도 불구하고, 전력 시스템의 신뢰성을 확보하기 위해서는 적시에 투자가 이루어져야 한다고 경고했습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-25T03:20:34.000Z",
+      "originalUrl": "https://www.energy-storage.news/aemo-connects-record-9-1gw-of-renewables-and-storage-to-australias-nem-in-fy26-warns-reliability-depends-on-timely-investment/",
+      "collectedAt": "2026-09-25T23:54:54.560Z",
+      "bodySnippet": "AEMO has said that a record 9.1GW of new renewable energy and storage capacity connected to the National Electricity Market (NEM) in FY26."
+    },
+    {
+      "id": "496db720-37bc-4da6-9cd2-aef07876528d",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "중국 태양광 산업 브리핑: 그로와트, 인버터 및 배터리 가격 최대 10% 인상",
+      "titleOriginal": "Chinese PV Industry Brief: Growatt raises inverter, battery prices by up to 10%",
+      "summary": "그로와트(Growatt)는 10월 8일부터 인버터 및 에너지 저장 시스템(배터리) 가격을 5%에서 최대 10%까지 인상할 계획이다. 이는 성성(Sungrow)의 선례를 따르는 것으로, 중국 태양광 산업 내 가격 상승 추세를 보여준다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-25T12:46:26.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/25/chinese-pv-industry-brief-growatt-raises-inverter-battery-prices-by-up-to-10/",
+      "collectedAt": "2026-09-25T23:55:00.583Z",
+      "bodySnippet": "<p>Growatt is following Sungrow in raising inverter and storage system prices, with increases of 5% to 10% being planned from Oct. 8. </p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/25/chinese-pv-industry-brief-growatt-raises-inverter-battery-prices-by-up-to-10/\">Chinese PV Industry Brief: Growatt raises inverter, battery prices by up to 10%</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "73201c25-0e33-4165-a470-a761a82d5cb7",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "오스트리아 농업 태양광 발전소에서 EWS, 겨울 밀 수확량 14% 증가 보고",
+      "titleOriginal": "EWS reports 14% higher winter wheat yield at Austrian agrivoltaic site",
+      "summary": "오스트리아 농업 태양광 제공업체 EWS는 자사 연구 시설인 Bruck an der Leitha의 Sonnenfeld에서 겨울 밀 수확량이 PV 모듈이 없는 대조군보다 14% 증가했다고 보고했습니다. EWS는 이러한 결과가 추적형 PV 어레이 아래의 음영 및 미기후 변화 덕분이라고 설명합니다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-09-25T12:40:15.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/25/ews-reports-14-higher-winter-wheat-yield-at-austrian-agrivoltaic-site/",
+      "collectedAt": "2026-09-25T23:55:04.625Z",
+      "bodySnippet": "<p>Austrian agrivoltaics provider EWS has reported a 14% increase in winter wheat yield at its Sonnenfeld research site in Bruck an der Leitha compared with a control area without PV modules. The company attributes the result partly to shading and changes in the microclimate beneath its tracking PV arrays.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/25/ews-reports-14-higher-winter-wheat-yield-at-austrian-agrivoltaic-site/\">EWS reports 14% higher winter wheat yield at Austrian agrivoltaic site</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "1079e1df-0980-429b-95fc-0afade52a3fe",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "태양광 패널 폐은(銀), 일산화탄소 생산용 촉매로 재탄생",
+      "titleOriginal": "Solar panel waste silver turned into catalyst for carbon monoxide production",
+      "summary": "한국 연구진은 수명이 다한 실리콘 태양광 패널에서 고순도 은을 회수하여 이산화탄소를 일산화탄소로 전환하는 전기화학 촉매를 개발했습니다. 이 재활용 은 전극은 거친 표면 구조를 통해 전해조의 침수 현상을 방지하며 600시간 이상 안정적으로 일산화탄소를 생산하는 성과를 보였습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-25T12:02:54.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/25/solar-panel-waste-silver-turned-into-catalyst-for-carbon-monoxide-production/",
+      "collectedAt": "2026-09-25T23:55:08.145Z",
+      "bodySnippet": "<p>South Korean researchers have recovered high-purity silver from end-of-life silicon solar panels and used it to produce electrocatalysts for converting carbon dioxide into carbon monoxide. The recycled-silver electrode sustained CO production for more than 600 hours, with its rough surface helping to prevent electrolyzer flooding.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/25/solar-panel-waste-silver-turned-into-catalyst-for-carbon-monoxide-production/\">Solar panel waste silver turned into catalyst for carbon monoxide production</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "1d8d3295-45c3-4d62-8de5-1a2f5a56e43d",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "포용적 리더십: 다양한 관점을 혁신과 영향력으로 전환하기",
+      "titleOriginal": "Inclusive leadership: turning diverse perspectives into innovation and impact",
+      "summary": "Solar & Storage Live UK 2026 행사에서 Women in Solar+ Europe(WiSEu)은 다양한 팀 내에서 혁신을 이끌어내기 위한 포용적 리더십의 행동 양식을 논의했습니다. Solar+ 리더 패널은 지속 가능한 영향력을 창출하기 위해 필요한 신뢰와 책임의 중요성을 강조했습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-25T11:43:46.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/25/inclusive-leadership-turning-diverse-perspectives-into-innovation-and-impact/",
+      "collectedAt": "2026-09-25T23:55:09.893Z",
+      "bodySnippet": "<p>At Solar &#38; Storage Live UK 2026, Women in Solar+ Europe (WiSEu) explored the leadership behaviours that help diverse teams contribute, challenge ideas and drive innovation. A Solar+ Leaders panel extended the conversation to the trust and responsibility needed to deliver lasting impact.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/25/inclusive-leadership-turning-diverse-perspectives-into-innovation-and-impact/\">Inclusive leadership: turning diverse perspectives into innovation and impact</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "99f277cb-3141-4e56-b199-ec717c44599c",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "수소 스트림: 독일, 오스트리아, 룩셈부르크, 21억 2천만 유로 규모의 지속가능 항공유 프로그램 시작",
+      "titleOriginal": "The Hydrogen Stream: Germany, Austria and Luxembourg launch €2.12 billion program for sustainable aviation fuel",
+      "summary": "독일, 오스트리아, 룩셈부르크가 지속가능 항공유(SAF) 보급을 위해 총 21억 2천만 유로 규모의 공동 프로그램을 시작했습니다. 이 외에도 아프리카의 그린 수소 프로젝트 투자와 안살도 그린 테크(Ansaldo Green Tech), 도요타, 이베코(Iveco) 등의 수소 관련 기술 개발 소식이 포함되었습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-25T11:40:12.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/25/the-hydrogen-stream-germany-austria-and-luxembourg-launch-e2-12-billion-program-for-sustainable-aviation-fuel/",
+      "collectedAt": "2026-09-25T23:55:14.926Z",
+      "bodySnippet": "<p>In other news, African green hydrogen projects secure new funding and Mauritania advances the Aman project. Moreover, Ansaldo Green Tech is expands electrolyzer manufacturing, as Toyota, Iveco and Hyster advances hydrogen-powered heavy-duty transport.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/25/the-hydrogen-stream-germany-austria-and-luxembourg-launch-e2-12-billion-program-for-sustainable-aviation-fuel/\">The Hydrogen Stream: Germany, Austria and Luxembourg launch €2.12 billion program for sustainable aviation fuel</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "c42cbd75-e6a6-4d78-a0ca-038691744a3c",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "인도, 상반기 태양광 모듈 50.6GW 및 셀 제조 용량 9.7GW 추가",
+      "titleOriginal": "India adds 50.6 GW of solar module and 9.7 GW of cell manufacturing capacity in 1H",
+      "summary": "머컴(Mercom)의 발표에 따르면, 2026년 상반기 인도 내 태양광 모듈 제조 용량은 50.6GW, 셀 제조 용량은 9.7GW 증가했습니다. 이로써 2026년 6월 기준 인도의 누적 태양광 모듈 제조 용량은 261.7GW, 셀 제조 용량은 36.6GW에 달했습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-25T11:24:57.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/25/india-added-50-6-gw-of-solar-module-and-9-7-gw-of-cell-manufacturing-capacity-in-1h-2026-says-mercom/",
+      "collectedAt": "2026-09-25T23:55:33.864Z",
+      "bodySnippet": "<p>As of June 2026, India’s cumulative solar module manufacturing capacity stood at 261.7 GW, while cell manufacturing capacity reached 36.6 GW.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/25/india-added-50-6-gw-of-solar-module-and-9-7-gw-of-cell-manufacturing-capacity-in-1h-2026-says-mercom/\">India adds 50.6 GW of solar module and 9.7 GW of cell manufacturing capacity in 1H</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "4fa3de5a-d65c-47cb-a5fb-c159474ff4be",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": false,
+      "title": "Weaker monsoon lifts irradiance in western India as August storms dim the east",
+      "titleOriginal": "Weaker monsoon lifts irradiance in western India as August storms dim the east",
+      "summary": "<p>In a new weekly update for <b>pv magazine</b>, Solcast, a DNV company, reports that northwestern and southern India and Pakistan recorded above-average solar irradiance during the 2026 summer monso",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-25T11:23:11.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/25/weaker-monsoon-lifts-irradiance-in-western-india-as-august-storms-dim-the-east/",
+      "collectedAt": "2026-09-25T23:55:35.940Z",
+      "bodySnippet": "<p>In a new weekly update for <b>pv magazine</b>, Solcast, a DNV company, reports that northwestern and southern India and Pakistan recorded above-average solar irradiance during the 2026 summer monsoon, benefiting major PV-producing regions, while tropical depressions drove irradiance sharply below average across eastern and central India. Favorable solar conditions helped support Indian PV generation and electricity exports to Nepal after late-August floods damaged hydropower plants and other energy infrastructure there.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/25/weaker-monsoon-lifts-irradiance-in-western-india-as-august-storms-dim-the-east/\">Weaker monsoon lifts irradiance in western India as August storms dim the east</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "06b5592d-aac2-41b6-8c0b-779093da9a8d",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "중국 골든위크와 미국 섹션 232 가격 하한제를 앞두고 유지되는 태양광 모듈 가격",
+      "titleOriginal": "China and U.S. module prices hold ahead of Golden Week and Section 232 price floors",
+      "summary": "다우존스 계열사 OPIS는 최신 주간 업데이트를 통해 글로벌 태양광 시장의 가격 흐름을 분석했습니다. 이번 보고서에 따르면 중국의 골든위크 연휴와 미국의 섹션 232(Section 232) 무역 조치에 따른 가격 하한제 영향으로 태양광 모듈 가격이 현 수준을 유지하고 있습니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-09-25T10:57:23.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/25/china-and-u-s-module-prices-hold-ahead-of-golden-week-and-section-232-price-floors/",
+      "collectedAt": "2026-09-25T23:55:57.938Z",
+      "bodySnippet": "<p>In a new weekly update for <b>pv magazine</b>, OPIS, a Dow Jones company, provides a quick look at the main price trends in the global PV industry.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/25/china-and-u-s-module-prices-hold-ahead-of-golden-week-and-section-232-price-floors/\">China and U.S. module prices hold ahead of Golden Week and Section 232 price floors</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "61b4c945-c5a6-45de-927c-850d9703eb45",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "스페인, 양수 발전 저장 장치에 2억 6,500만 유로 지원",
+      "titleOriginal": "Spain awards €265 million for 49.9 GWh of pumped hydro storage",
+      "summary": "스페인 정부가 에너지 저장 역량 확대를 위해 총 11개의 양수 발전 프로젝트에 2억 6,500만 유로의 공적 보조금을 지원하기로 결정했습니다. 이번 지원을 통해 확보된 양수 발전 저장 용량은 총 49.9 GWh에 달하며, 이는 스페인의 전력 인프라 강화에 기여할 것으로 예상됩니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-25T10:18:28.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/25/spain-awards-e265-million-for-49-9-gwh-of-pumped-hydro-storage/",
+      "collectedAt": "2026-09-25T23:56:00.510Z",
+      "bodySnippet": "<p>Pumped hydroelectric energy storage is advancing in Spain, with 11 projects backed by €265 million in public subsidies from a government program. </p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/25/spain-awards-e265-million-for-49-9-gwh-of-pumped-hydro-storage/\">Spain awards €265 million for 49.9 GWh of pumped hydro storage</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "722aeb3d-fed8-4039-a84b-4dddee52b3b4",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": false,
+      "title": "German developer tests roe deer passages at solar park",
+      "titleOriginal": "German developer tests roe deer passages at solar park",
+      "summary": "<p>German solar developer Südwerk has integrated roe deer passages into the perimeter fencing of its 20 MW Memmelsdorf solar park in Bavaria to preserve existing wildlife corridors. The company plans ",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-25T09:51:22.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/09/25/german-developer-tests-roe-deer-passages-at-solar-park/",
+      "collectedAt": "2026-09-25T23:56:03.853Z",
+      "bodySnippet": "<p>German solar developer Südwerk has integrated roe deer passages into the perimeter fencing of its 20 MW Memmelsdorf solar park in Bavaria to preserve existing wildlife corridors. The company plans to consider similar measures in future projects following the experience gained at the site.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/09/25/german-developer-tests-roe-deer-passages-at-solar-park/\">German developer tests roe deer passages at solar park</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "2379e543-535e-4e22-a85a-5e6df0611c04",
+      "source": "BloombergNEF",
+      "sourceId": "bnef",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "EMEA 데이터 센터 전망: 핵심 5가지 사항",
+      "titleOriginal": "EMEA Data Center Outlook: 5 Things To Know",
+      "summary": "블룸버그NEF(BloombergNEF)는 개발자, 타임라인, 지역 시장 역학 및 현장 전력 고려 사항에 대한 통찰이 담긴 최신 미국 데이터 센터 용량 예측을 발표했습니다. 본 기사는 'EMEA 데이터 센터 전망'이라는 제목으로, 이 예측 보고서에서 알아야 할 5가지 핵심 사항을 요약하여 제시합니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-25T17:42:42.000Z",
+      "originalUrl": "https://about.bnef.com/insights/clean-energy/emea-data-center-outlook-5-things-to-know/",
+      "collectedAt": "2026-09-25T23:56:27.359Z",
+      "bodySnippet": "BloombergNEF published its latest US data center capacity forecast, packed with insights about developers, timelines, regional market dynamics and on-site power considerations. Here are our key takeaways."
+    },
+    {
+      "id": "74ddc2d3-5052-47ca-9b61-82f7871147ec",
+      "source": "BloombergNEF",
+      "sourceId": "bnef",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "펀드 매니저, 청정에너지 투자 확대",
+      "titleOriginal": "Fund Managers Unlock More Investments Toward Clean Energy",
+      "summary": "BNEF의 Energy Supply Fund Ratio (ESFR) 2026 보고서에 따르면, 자산 관리자들이 청정에너지 구축을 위한 자본을 점점 더 많이 확보하고 있습니다. 이는 펀드 매니저들이 청정에너지 분야에 대한 투자를 확대하고 있음을 나타냅니다.",
+      "topics": [
+        "ESG·탄소중립",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-09-25T17:32:00.000Z",
+      "originalUrl": "https://about.bnef.com/insights/clean-energy/fund-managers-unlock-more-investments-toward-clean-energy/",
+      "collectedAt": "2026-09-25T23:56:38.999Z",
+      "bodySnippet": "BNEF’s Energy Supply Fund Ratio (ESFR) 2026 report highlights that asset managers are unlocking an increasing amount of capital for clean energy build out. Explore more."
+    },
+    {
+      "id": "06d0b00e-b198-4b21-b214-e088c8ad6206",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "아시아 제조업체, 신규 시장 현지화를 통해 격차 해소 모색",
+      "titleOriginal": "Asian manufacturers look to bridge the gap with localisation in new markets",
+      "summary": "아시아 태평양 지역의 풍력 발전 설비 증설에 기여한 아시아 제조업체들은 국내 시장을 넘어 새로운 해외 시장으로 진출하기 위해 현지화 전략을 모색하고 있습니다. 윈드에너지 함부르크(WindEnergy Hamburg) 회의에서 임원들은 일부 지역의 규제에도 불구하고 시장 확대를 위한 방안을 논의했습니다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-09-25T09:02:42.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1970859/asian-manufacturers-look-bridge-gap-localisation-new-markets",
+      "collectedAt": "2026-09-25T23:56:44.583Z",
+      "bodySnippet": "Companies contributing to the massive installations of new wind power seen in the Asia-Pacific in recent years want to find ways to extend their reach beyond their domestic markets despite growing restrictions in some regions, executives told delegates at WindEnergy Hamburg."
+    },
+    {
+      "id": "600b3e28-c361-4f6f-a168-6e5c8b68d235",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "아시아 태평양 지역이 유럽의 해상풍력 성공 및 실패 사례에서 배울 점",
+      "titleOriginal": "What Asia Pacific can learn from Europe’s offshore wind successes and failures",
+      "summary": "윈드에너지 함부르크(WindEnergy Hamburg)에서 열린 한 세션에서 한 개발자는 아시아 태평양 지역의 신흥 해상풍력 시장에 지역 내 공급망 구축에 과도하게 집중하기보다 지역 단위의 공급망을 구축할 것을 조언했습니다. 이는 유럽의 경험을 바탕으로 효율적인 해상풍력 개발을 위한 전략적 접근 방식의 중요성을 강조합니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-25T07:57:38.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1970908/asia-pacific-learn-europes-offshore-wind-successes-failures",
+      "collectedAt": "2026-09-25T23:56:49.494Z",
+      "bodySnippet": "“Don't go overboard on building a local supply chain. Try to think of it as a regional supply chain,” was a developer’s advice for emerging offshore wind markets during a session at WindEnergy Hamburg."
+    },
+    {
+      "id": "ca27eed7-b128-4d81-8508-028beea3e5fb",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "엔비전, 175m 로터 탑재 8MW 육상 풍력 터빈 출시",
+      "titleOriginal": "Envision launches 8MW onshore turbine with 175m rotor",
+      "summary": "중국 터빈 제조사 엔비전이 8MW급 육상 풍력 터빈을 새로 출시했습니다. 이 터빈은 175미터에 달하는 로터를 장착하여 발전 효율을 높인 것이 특징입니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-25T07:25:45.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1970907/envision-launches-8mw-onshore-turbine-175m-rotor",
+      "collectedAt": "2026-09-25T23:56:54.136Z",
+      "bodySnippet": "Chinese turbine manufacturer Envision has launched an 8MW onshore wind turbine with a 175-metre rotor."
+    },
+    {
+      "id": "5bf49748-69a4-4217-9c6f-e67a3ce3bb15",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "방사성 물질의 안전하고 보안적인 운송 원활화를 목표로 하는 백서",
+      "titleOriginal": "White Paper aims to facilitate safe and secure transport of radioactive materials",
+      "summary": "원자력 발전소, 병원, 산업체 및 연구기관 등 방사성 물질에 의존하는 여러 주체들을 위해, 해당 물질의 운송 거부 또는 지연을 완화하기 위한 일련의 권고안이 제시되었습니다. 이 백서는 방사성 물질의 안전하고 보안적인 운송을 촉진하는 것을 목표로 합니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-25T13:25:04.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/white-paper-aims-to-facilitate-safe-transport-of-radioactive-materials",
+      "collectedAt": "2026-09-25T23:57:04.544Z",
+      "bodySnippet": "A series of recommendations have been made to mitigate the denial or delay of transport of radioactive materials which nuclear power plants, hospitals, industries and researchers rely on.<br />\r\n&nbsp;"
+    },
+    {
+      "id": "b83aaf6e-a27b-45b6-9871-c3afd0a0fbee",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "니제르 우라늄 프로젝트 재개 위한 협정 체결",
+      "titleOriginal": "Agreement clears way for resumption of Niger uranium project",
+      "summary": "니제르 마두엘라(Madouela) 우라늄 프로젝트와 관련하여 정식 채굴 협약이 체결되었습니다. 이번 협약을 통해 지난 8월 발표된 기본 합의가 구체화되었으며, 프로젝트를 둘러싼 국제 중재 절차도 중단될 예정입니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-25T10:05:09.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/agreement-clears-way-for-resumption-of-niger-uranium-project",
+      "collectedAt": "2026-09-25T23:57:08.289Z",
+      "bodySnippet": "The Mining Convention for the Madouela project formalises a framework agreement announced in August and triggers the process to discontinue international arbitration proceedings over the project in Niger.<br />\r\n&nbsp;"
+    },
+    {
+      "id": "a3eac60d-36f9-4bad-8adf-5301d1034fe8",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "X-Energy의 TRISO-X 연료 시설을 위한 이정표",
+      "titleOriginal": "Milestone for X-Energy's TRISO-X fuel facility",
+      "summary": "미국 테네시주 오크리지에 214,000제곱피트 규모의 TX-1 차세대 원자력 연료 시설 건물이 완공되었습니다. 이번 시설 완공은 X-Energy가 차세대 원전 연료 공급망을 확보하기 위한 중요한 이정표가 될 전망입니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-25T10:46:11.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/milestone-for-x-energys-triso-xs-fuel-facility",
+      "collectedAt": "2026-09-25T23:57:09.469Z",
+      "bodySnippet": "Construction of the 214,000-square-foot building which will house the TX-1 advanced nuclear fuel facility in Oak Ridge, Tennessee, has been completed.<br />\r\n&nbsp;"
+    },
+    {
+      "id": "ac350b51-4ff2-4702-aeb1-73dd1c9fb2d8",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "독일 슈타데 원전 배기 굴뚝 철거로 스카이라인 변화",
+      "titleOriginal": "Demolition of exhaust stack changes Stade skyline",
+      "summary": "독일 니더작센주에 위치한 슈타데 원자력 발전소의 80미터 높이 배기 굴뚝이 철거되었습니다. 1970년부터 발전소의 상징이었던 이 시설은 발전소 폐쇄 절차에 따라 역사 속으로 사라지게 되었습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-25T07:54:44.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/demolition-of-exhaust-stack-changes-stade-skyline",
+      "collectedAt": "2026-09-25T23:57:14.494Z",
+      "bodySnippet": "The 80-metre-high exhaust stack has been demolished at the decommissioned Stade nuclear power plant in Lower Saxony, Germany. Since 1970, the stack had been a prominent feature of the power plant&#39;s skyline and shaped the site for decades.<br />\r\n&nbsp;"
+    },
+    {
+      "id": "4a1128cf-5c45-421b-adde-1b09e53cad94",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "ITAD의 미래",
+      "titleOriginal": "The future of ITAD",
+      "summary": "SK tes가 제공하는 본 가이드는 IT 자산 처분(ITAD)을 통해 탄소 배출량을 줄이는 구체적인 전략을 제시합니다. IT 자산의 재사용과 재활용을 최적화함으로써 기업이 실질적인 탄소 중립 목표를 달성할 수 있는 방안을 다룹니다.",
+      "topics": [
+        "정책·규제"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-09-25T15:41:36.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/whitepapers/the-future-of-itad/",
+      "collectedAt": "2026-09-25T23:57:44.725Z",
+      "bodySnippet": "<p data-block-key=\"t0cdu\">An SK tes guide to reducing carbon emissions through IT asset recovery</p>"
+    },
+    {
+      "id": "bd96d932-e43a-40e2-a64c-2899accefa73",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": false,
+      "title": "DCD Connect 2026: Takeaway thoughts",
+      "titleOriginal": "DCD Connect 2026: Takeaway thoughts",
+      "summary": "<p data-block-key=\"ndeh7\">Reflections from our first DCD Connect London</p>",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-09-25T15:39:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/opinions/dcd-connect-2026-takeaway-thoughts/",
+      "collectedAt": "2026-09-25T23:57:45.693Z",
+      "bodySnippet": "<p data-block-key=\"ndeh7\">Reflections from our first DCD Connect London</p>"
+    },
+    {
+      "id": "6903cdf4-6cb1-4084-b728-83e6cdd83fce",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "스폰서: 데이터 센터를 더 저렴하고, 더 빠르고, 더 높은 품질로 확장하는 방법",
+      "titleOriginal": "Sponsored: How to scale data centers cheaper, faster, and at a higher quality",
+      "summary": "이 글은 데이터 센터가 여전히 수작업으로 건설되는 마지막 중공업 분야임을 지적하며, 더 저렴하고, 더 빠르며, 더 높은 품질로 데이터 센터를 확장하기 위해서는 건설 방식을 공장 생산 방식으로 전환해야 한다고 제안합니다. 이는 데이터 센터의 전반적인 운영 및 인프라 구축의 효율성을 극대화하기 위한 방안으로 제시됩니다. 제시된 내용에는 구체적인 수치나 기관명은 언급되어 있지 않습니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-09-25T15:00:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/opinions/how-to-scale-data-centers-cheaper-faster-and-at-a-higher-quality/",
+      "collectedAt": "2026-09-25T23:58:17.775Z",
+      "bodySnippet": "<p data-block-key=\"dunxm\">Data centers are the last heavy industry still built by hand. It's time to move them into the factory</p>"
+    },
+    {
+      "id": "a04c0ed4-9595-4679-9ec9-830d4428368f",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "태국, 10월 중순까지 새로운 데이터 센터 규제 확정 예정 - 보고서",
+      "titleOriginal": "Thailand set to finalize new data center regulations by mid-October - report",
+      "summary": "태국은 10월 중순까지 새로운 데이터 센터 규정을 최종 확정할 예정이다. 이 규제안에는 용량이 100MW를 초과하는 데이터 센터를 하이퍼스케일 시설로 분류하는 내용이 포함될 것으로 예상된다.",
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-09-25T13:06:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/thailand-set-to-finalize-new-data-center-regulations-by-mid-october-report/",
+      "collectedAt": "2026-09-25T23:58:49.707Z",
+      "bodySnippet": "<p data-block-key=\"l0ywp\">Expected to classify data centers with a capacity of more than 100MW hyperscale facilities</p>"
+    },
+    {
+      "id": "334f5d48-2e17-447a-8bd2-906f0eb8cc2e",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": false,
+      "title": "ASML’s revenue share drops to zero percent in Europe, says it has sold “absolutely nothing” in the region this year",
+      "titleOriginal": "ASML’s revenue share drops to zero percent in Europe, says it has sold “absolutely nothing” in the region this year",
+      "summary": "<p data-block-key=\"cidci\">EUV lithography company says its working with politicians to bolster chipmaking efforts across the continent</p>",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-25T11:03:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/asmls-revenue-share-drops-to-zero-percent-in-europe-says-its-sold-absolutely-nothing-in-the-region-this-year/",
+      "collectedAt": "2026-09-25T23:59:00.615Z",
+      "bodySnippet": "<p data-block-key=\"cidci\">EUV lithography company says its working with politicians to bolster chipmaking efforts across the continent</p>"
+    },
+    {
+      "id": "d54778c4-8074-4816-9216-be5387ac2831",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미 에너지부(DOE), 데이터센터 연결 가속화를 위한 31개 전력망 업그레이드 프로젝트에 19억 달러 지원 발표",
+      "titleOriginal": "DOE unveils $1.9bn in funding for 31 grid upgrade projects to speed data center connections",
+      "summary": "미국 에너지부(DOE)가 데이터센터 전력 연결 속도를 높이기 위해 31개 전력망 현대화 프로젝트에 총 19억 달러를 투입한다고 발표했습니다. 이번 투자를 통해 미국 전력망의 용량은 총 23GW가 추가로 확보될 것으로 기대됩니다.",
+      "topics": [
+        "시장·가격 동향",
+        "전력 인프라"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-09-25T09:35:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/doe-unveils-19bn-in-funding-for-31-grid-upgrade-projects-to-speed-data-center-connections/",
+      "collectedAt": "2026-09-25T23:59:21.857Z",
+      "bodySnippet": "<p data-block-key=\"76rb9\">Expected to unlock 23GW of additional capacity on the grid</p>"
+    },
+    {
+      "id": "55a4130d-3761-40f9-a09c-dea77f3d9bb8",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": false,
+      "title": "Google-backed Fervo Energy achieves first power at up to 900MW Cape Station geothermal plant in Utah",
+      "titleOriginal": "Google-backed Fervo Energy achieves first power at up to 900MW Cape Station geothermal plant in Utah",
+      "summary": "<p data-block-key=\"lhroc\">The first utility-scale enhanced geothermal project to achieve power</p>",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-25T09:33:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/google-backed-fervo-energy-achieves-first-power-at-up-to-900mw-cape-station-geothermal-plant-in-utah/",
+      "collectedAt": "2026-09-25T23:59:26.967Z",
+      "bodySnippet": "<p data-block-key=\"lhroc\">The first utility-scale enhanced geothermal project to achieve power</p>"
+    },
+    {
+      "id": "8abcbb6c-1ca2-4eab-b3ae-a23f126c379d",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "버티브(Vertiv), 데이터센터 유체 관리 기업 킹 엔바이로먼털 서비스(King Environmental Services) 인수",
+      "titleOriginal": "Vertiv to acquire data center fluid management firm King Environmental Services",
+      "summary": "데이터센터 인프라 솔루션 기업인 버티브(Vertiv)가 유체 관리 전문 기업인 킹 엔바이로먼털 서비스(King Environmental Services)를 인수한다고 발표했습니다. 이번 거래는 올해 말까지 완료될 예정이며, 데이터센터의 효율적인 냉각 및 운영 최적화를 강화하기 위한 전략적 결정으로 분석됩니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-09-25T09:25:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/vertiv-to-acquire-data-center-fluid-management-firm-king-environmental-services/",
+      "collectedAt": "2026-09-25T23:59:47.025Z",
+      "bodySnippet": "<p data-block-key=\"ym316\">Transaction to close before the end of the year</p>"
+    },
+    {
+      "id": "62a9b9b0-506f-4701-a995-ea4cbfe18e18",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Applied Digital, 32억 달러 규모 델타 포지 2 AI 데이터센터 앨라배마에 건설 발표",
+      "titleOriginal": "Applied Digital reveals $3.2bn Delta Forge 2 AI data center will be built in Alabama",
+      "summary": "Applied Digital은 앨라배마주에 32억 달러 규모의 델타 포지 2 AI 데이터센터를 건설할 예정이라고 발표했습니다. 이 대규모 프로젝트는 2028년까지 운영을 시작할 계획이며, 이는 지역 전력 인프라에 상당한 영향을 미칠 것으로 예상됩니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-25T09:24:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/applied-digital-reveals-32bn-delta-forge-2-ai-data-center-will-be-built-in-alabama/",
+      "collectedAt": "2026-09-25T23:59:54.224Z",
+      "bodySnippet": "<p data-block-key=\"brwor\">Operations could start by 2028</p>"
+    },
+    {
+      "id": "8d771da3-5cb8-42f3-bcef-7a25c645a727",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "전력 제약 시대의 성장을 견인하는 고체산화물 연료전지(SOFC)",
+      "titleOriginal": "Solid oxide fuel cells enabling growth in a power-constrained world",
+      "summary": "전력망 제약이 데이터 센터 확장을 저해하는 상황에서 고체산화물 연료전지(SOFC)가 확장 가능하고 신뢰할 수 있는 현장 전력 공급 대안으로 주목받고 있습니다. 이 기술은 데이터 센터 산업이 직면한 전력 부족 문제를 해결하고 안정적인 운영을 보장하는 핵심 솔루션으로 평가받고 있습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-25T07:25:13.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/whitepapers/solid-oxide-fuel-cells-enabling-growth-in-a-power-constrained-world/",
+      "collectedAt": "2026-09-26T00:00:00.420Z",
+      "bodySnippet": "<p data-block-key=\"tcsq6\">How solid oxide fuel cells are offering a scalable route to reliable, on-site power as grid constraints reshape data center growth</p>"
+    },
+    {
+      "id": "582942c5-2345-4fdd-9360-74957efb7e71",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "두 번째 연방 판사, 트럼프 행정부의 70억 달러 규모 'Solar for All' 프로그램 폐지 결정 뒤집어",
+      "titleOriginal": "Second federal judge overturns $7B Solar for All cancellation by Trump administration",
+      "summary": "미국 연방법원이 트럼프 행정부의 70억 달러 규모 'Solar for All' 프로그램 폐지 결정을 무효화하는 판결을 내렸습니다. 이번 판결은 해리스 카운티가 제기한 소송에 따른 것으로, 지난주 유사한 판결에 이어 에너지 복원력 강화를 위한 중요한 승리로 평가받고 있습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-25T14:13:58.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/second-federal-judge-overturns-7b-solar-for-all-cancellation-by-trump-admi/831371/",
+      "collectedAt": "2026-09-26T00:00:12.163Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/iufL00sIgeaxKNw8jnIGOFxagmAL1noTOrMGJ3_z0lk/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9yb29mdG9wX3NvbGFyX0NhbGlmb3JuaWEuanBn.webp\"/></div></figure><p>The decision in a suit brought by Harris County, Texas, follows a similar ruling last week. A Harris County judge called it &ldquo;a really important victory for energy resilience.&rdquo;</p>"
+    },
+    {
+      "id": "8afed4dc-d825-4589-9fad-c80f005112ad",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "FERC, PJM 상호연결 연구 사이클에 프로젝트 복귀를 요청한 Oklo의 불만 제기 기각",
+      "titleOriginal": "FERC rejects Oklo complaint seeking to reinstate project to PJM’s interconnection study cycle",
+      "summary": "미국 연방에너지규제위원회(FERC)는 버지니아주 내 750MW 규모의 복합 기술 프로젝트를 PJM의 상호연결 연구 사이클에 재진입시키려는 Oklo의 요청을 기각했습니다. 이번 결정으로 인해 해당 프로젝트는 현재 사이클을 놓침에 따라 최소 14개월 이상의 지연이 불가피해졌습니다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-09-25T13:46:29.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/ferc-rejects-oklo-complaint-pjm-interconnection/831357/",
+      "collectedAt": "2026-09-26T00:00:16.375Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/AE7uPp236vg7q8q9iY6CCvXQwIdc0VSLJlP2b2VkLlQ/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNjAzODEzMjg1LmpwZw==.webp\"/></div></figure><p>The decision affects a 750-MW, mixed technology project in Virginia, which Oklo said would be delayed by at least 14 months if it misses the current interconnection cycle.</p>"
+    },
+    {
+      "id": "78d59691-8ccd-43b8-8803-a4b0e2a2cbea",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[미리보는 국감 2026] 노후원전 계속운전 심사 ‘불허 0건’…“허가 먼저, 설비는 나중”",
+      "titleOriginal": null,
+      "summary": "원자력안전위원회의 노후원전 계속운전 심사가 ‘불허 0건’으로 운영되는 가운데, 안전설비 개선 전 허가 방식과 심사 종결 기준 부재가 문제로 지적됐다. 또한 2028년부터 고리원전을 시작으로 사용후핵연료 저장시설 포화가 예상되나, 중간저장시설 확보 지연으로 향후 최대 20년의 공백이 발생할 우려가 제기되었다.",
+      "topics": [
+        "정책·규제",
+        "에너지원"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-09-25T16:03:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20260923029448625",
+      "collectedAt": "2026-09-26T00:01:15.118Z",
+      "bodySnippet": "고리2호기 허가 뒤에야 안전설비 교체 완료…심사 종결 기준도 없어\n사용후핵연료 2028년부터 포화 시작…중간저장시설까지 최대 20년 공백 ▲하늘에서 바라 본 고리원전. 사진=연합뉴스 노후 원전의 계속운전 심사가 사실상 '불허 없는 심사'로 이어지고 있는 것으로 나타났다. 다가오는 과학기술정보방송통신위원회 국정감사에서는 이 문제가 주요 쟁점으로 다뤄질 전망이다. 23일 국회입법조사처가 발간한 '2026 국정감사 이슈 분석' 보고서의 과방위 분야에 따르면 원자력안전위원회에 신청된 원전 계속운전 심사에서 불허되거나 중단·반려된 사례는 단 한 건도 없었다. 정부의 원전 활용 확대 기조에 따라 계속운전 대상 원전은 앞으로 더 늘어날 전망이다. 하지만 현행 심사체계가 안전성을 독립적으로 판단하는 제도인지에 대한 의문이 제기된다. 현재 계속운전 심사가 진행 중인 원전은 고리3·4호기, 한빛1·2호기, 한울1·2호기, 월성2·3·4호기 등 9기다. 고리3·4호기는 2023년 7월부터 2026년 6월까지 6차 질의가 이어졌다. 한빛1·2호기와 한울1·2호기는 5차 질의를 거쳤다. 월성2·3·4호기는 4차 질의가 진행 중이다. 앞서 지난해 11월 계속운전 허가를 받아 재가동된 고리2호기는 2022년 4월 주기적안전성평가(PSR) 제출 이후 허가까지 3년7개월이 걸렸다. 지난해 9월 원안위에 처음 상정된 뒤 자료 보완 요구로 두 차례 재상정된 끝에 허가가 결정됐다. 입법조사처가 주목한 대목은 허가 시점과 실제 설비 개선 시점의 차이다. 고리2호기의 안전여유도 관련 설비 226개 품목과 케이블 22개 라인 교체 작업은 계속운전 허가 이후인 지난해 12월에야 완료됐다. 입법조사처는 “현행 절차가 심사 당시의 설비 상태를 확인하고 허가하는 방식이 아니라 향후 설비 개선을 전제로 먼저 허가하고 사후에 기준을 맞춰가는 구조\"라고 지적했다. 현재 심사 과정에서는 결함이 발견될 경우 서류와 자료 보완을 요구하고, 이를 충족하면 허가하는 방식이 반복되고 있다. 자료 보완 요구 횟수의 상한이나 심사 종결 기준은 없는 상태다. 사업자의 보완이 계속되는 한 심사가 사실상 무기한 이어질 수 있다는 지적이 나온다. 심사 독립성도 쟁점으로 꼽힌다. 계속운전 심사는 원안위와 산하 한국원자력안전기술원(KINS)을 중심으로 진행된다. 심사와 사전검토, 의결이 모두 원안위 관할 체계 안에서 이뤄진다. 외부 독립기관의 교차검증이나 별도의 이의제기 절차는 제한적이다. 입법조사처는 “증가하는 심사 물량에 맞춰 제3기관 교차분석 등 독립성과 객관성을 강화할 절차 도입이 시급하다\"고 강조했다. 사용후핵연료 문제도 이번 국감에서 상당한 비중을 차지할 전망이다. 2026년 3월 말 기준 전국 원전의 사용후핵연료 평균 저장률은 83.3%에 이른다. 원전별로는 고리 원전 저장률이 93.4%로 가장 높다. 한빛은 85.3%, 월성은 83.2%, 한울은 73.5%다. 저장시설 포화 시점도 임박했다. 고리 원전은 2028년부터 포화가 시작될 것으로 예상된다. 한빛은 2030년, 한울은 2031년, 월성은 2034년부터 순차적으로 포화될 전망이다. 정부는 포화 시점을 늦추기 위해 원전 부지 내 건식저장시설을 확충한다는 계획이다. 한빛은 2030년, 고리와 한울은 2031년 운영을 목표로 하고 있다. 한국수력원자력은 올해 안에 인허가를 신청할 계획이다. 하지만 신청부터 심사, 건설 완료까지 남은 기간은 3년 안팎에 불과하다. 일정이 지연되면 저장시설 포화와 맞물릴 가능성이 있다. 더 큰 문제는 중간저장시설과의 시간 차이다. 고준위 방사성폐기물 관리에 관한 특별법상 중간저장시설은 2050년 이전, 영구처분시설은 2060년 이전 운영이 목표다. 하지만 현재 부지 선정조차 착수되지 않은 상태다. 이에 따라 원전 부지 내 저장시설이 포화되는 시점과 중간저장시설이 운영되는 시점 사이에는 최소 16년에서 최대 20년 이상의 공백이 발생할 것으로 입법조사처는 전망했다. 정부가 추진하는 조밀저장대와 건식저장시설이 장기 저장시설로 굳어질 가능성도 제기됐다. 고리2호기에 조밀저장대를 설치하면 포화 시점이 2028년에서 2032년으로 약 4년 늦춰질 것으로 예상된다. 하지만 중간저장시설이 2050년 이전에 운영되지 못하면 원전 부지 내 임시저장시설을 최대 20년 이상 활용해야 하는 상황에 놓일 수 있다. 월성 2단계 맥스터의 사고관리계획서 문제도 별도 쟁점으로 제시됐다. 해당 시설은 2020년 1월 허가를 받아 운영되고 있다. 하지만 5년 넘게 지난 현재까지도 사고관리계획서의 보완·승인이 완료되지 않은 상태다. 입법조사처는 저장조가 실제 포화될 경우 원전 가동 중단까지 상정하고 있는지, 조밀저장대 추가 설치와 원전 간 사용후핵연료 이동, 발전소 출력·가동 조정 등의 대안이 검토됐는지도 국정감사에서 확인해야 할 사항으로 제시했다. 이번 국감에서는 노후원전 계속운전 허가가 실제 안전성 검증을 거친 결과인지, 원전 확대에 맞춰 사용후핵연료 저장 대책이 충분히 준비돼 있는지가 주요 질의 대상으로 떠오를 것으로 보인다. <"
+    }
+  ]
+}
