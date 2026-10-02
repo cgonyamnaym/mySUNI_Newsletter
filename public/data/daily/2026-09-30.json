@@ -1,7 +1,7 @@
 {
   "date": "2026-09-30",
-  "generatedAt": "2026-10-01T00:44:28.111Z",
-  "articleCount": 149,
+  "generatedAt": "2026-10-02T01:03:35.496Z",
+  "articleCount": 151,
   "articles": [
     {
       "id": "a8070903-fb6a-478b-8265-feebaaf41395",
@@ -2913,6 +2913,45 @@
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20260930029420457",
       "collectedAt": "2026-10-01T00:42:59.121Z",
       "bodySnippet": "현대차·채비, 가정용 전기차 충전 구독 ‘마이홈차저’ 출시\n7kW 충전기·설치비 지원…36개월 후 소유권 무상 이전 ▲채비와 현대차가 출시한 가정용 충전 구독 상품 '마이홈차저'. 사진=채비 현대자동차가 충전기를 구매하지 않고 일정 기간 이용한 뒤 소유권까지 넘겨받을 수 있는 가정용 충전 서비스를 내놨다. 현대차는 충전사업자 채비와 함께 가정용 전기차 충전 구독 서비스 '마이홈차저'를 30일 출시했다고 밝혔다. 현대·제네시스 전기차를 보유하고 단독주택이나 연립주택 등 전용 주차 공간을 확보한 고객이 대상이다. 이용 고객에게는 7kW급 완속 충전기와 기본 설치 비용이 지원된다. 월 최소 약정 충전량은 300kWh이며, 충전 요금은 kWh당 245원이다. 최소 약정량을 기준으로 하면 월 이용료는 7만3500원이다. 계약 기간은 36개월이며, 약정 종료 후 충전기를 반납하지 않아도 된다. 기간이 끝나면 별도 비용 없이 사용하던 충전기의 소유권이 고객에게 넘어간다. 채비는 약 140만원 상당의 7kW 충전기와 기본 설치비를 지원하고, 설치 후 2년간 무상 사후관리도 제공한다고 밝혔다. 충전 관련 정보는 채비 앱에서 확인할 수 있다. 충전 이력과 약정량, 잔여 충전량, 남은 이용 기간 등을 볼 수 있으며, 가입 기간은 12월 31일까지다. 현대차는 아이오닉5 롱레인지의 전비와 연간 주행거리 2만km를 기준으로 3년간 최소 약정량을 이용하면 기존 현대차 홈충전기 상품보다 67만원, 외부 채비 급속충전기 이용보다 153만원의 비용을 줄일 수 있다고 설명했다. <"
+    },
+    {
+      "id": "ac104119-d597-4232-9072-78672fa7eacc",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "아메렌 미주리, 10.6GW 규모 가스 발전 설비 포함 20년 계획 제출",
+      "titleOriginal": "Ameren Missouri files 20-year plan with 10.6 GW of gas additions",
+      "summary": "아메렌 미주리(Ameren Missouri)는 전력 안정성과 비용 효율성을 위해 10.6GW 규모의 가스 발전 설비를 확충하는 20년 장기 계획을 발표했습니다. 그러나 환경 단체들은 이번 계획이 화석 연료에 대한 의존도를 과도하게 높일 것이라고 비판하고 있습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-09-30T13:27:02.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/ameren-missouri-files-20-year-plan-with-106-gw-gas-additions/831758/",
+      "collectedAt": "2026-10-02T00:44:20.841Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/IokdWHC0iTCdd8Ti-tmXZR-nitqVekbHqsfiVv34Evs/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9TY3JlZW5zaG90XzIwMjYtMDktMzBfMTA1OTU2LnBuZw==.webp\"/></div></figure><p>Company executives said the plan was designed to ensure a diversity of resources to maintain reliability and manage costs. But environmental advocates said it would significantly increase the utility&rsquo;s reliance on fossil fuels.</p>"
+    },
+    {
+      "id": "dd6883ea-acf1-48d0-a9f9-311f114823d0",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "발전공기업 통합 실행단계로 전환…통합준비위원회 발족",
+      "titleOriginal": null,
+      "summary": "기후에너지환경부가 발전공기업 통합을 위한 실무 준비 작업에 본격 착수했다. 이를 위해 통합준비위원회를 발족하고 조직·인력·운영시스템 등을 포괄하는 구체적인 통합 실행 방안 설계를 추진할 예정이다.",
+      "topics": [
+        "정책·규제"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-09-30T19:10:00.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71037",
+      "collectedAt": "2026-10-02T00:59:58.100Z",
+      "bodySnippet": "발전공기업 통합 작업이 실행단계로 접어든다. 특별법 제정에 앞서 조직·인력·운영시스템을 비롯한 세부적인 통합방안을 설계하고 발전공기업 화학·제도적 결합을 준비하는 실무작업이 본격화된 것이다. 기후에너지환경부(장관 김성환)는 지난 4일 발전공기업을 하나로 통합해 한국발"
     }
   ]
 }
