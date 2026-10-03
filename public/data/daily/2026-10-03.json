@@ -1,7 +1,7 @@
 {
   "date": "2026-10-03",
-  "generatedAt": "2026-10-03T00:30:34.815Z",
-  "articleCount": 6,
+  "generatedAt": "2026-10-03T23:41:19.750Z",
+  "articleCount": 13,
   "articles": [
     {
       "id": "5d8dcb83-997f-4bd6-a6a1-8a38715779ab",
@@ -118,6 +118,145 @@
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71063",
       "collectedAt": "2026-10-03T00:28:18.613Z",
       "bodySnippet": "이광훈 한국수력원자력(주) 품질기술본부장이 원전 안전운영과 성능 향상에 기여한 공로를 인정받아 지난 30일 일본 현지에서 열린 세계원자력사업자협회(WANO) 격년총회에서 원자력분야 최고 공로상(Nuclear Excellence Awards)을 받았다. 한수원 임직원이 이 상을 받은 것은 2017년 이후 9년 만이다."
+    },
+    {
+      "id": "46142115-d5a3-4046-a98c-a4a79233a978",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "2025년 미국 신규 주거용 태양광 시스템 37%에 배터리 저장장치 결합",
+      "titleOriginal": "Battery storage paired with 37% of new U.S. residential solar systems in 2025",
+      "summary": "2025년 미국에서 신규 주거용 태양광 시스템의 37%가 배터리 저장장치와 결합되었으며, 이는 전년 대비 25% 증가한 수치입니다. 이러한 배터리 저장장치 채택률은 캘리포니아를 포함한 미국 전역에서 가속화되고 있습니다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-03T09:30:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/10/03/battery-storage-paired-with-37-of-new-u-s-residential-solar-systems-in-2025/",
+      "collectedAt": "2026-10-03T23:38:34.769Z",
+      "bodySnippet": "<p>Battery storage was paired with 37% of new U.S. residential solar installations in 2025, up from 25% a year earlier, with adoption accelerating both in California and across other states.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/10/03/battery-storage-paired-with-37-of-new-u-s-residential-solar-systems-in-2025/\">Battery storage paired with 37% of new U.S. residential solar systems in 2025</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "3ae9789e-38da-435b-b63f-ab92f7b9f080",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "브라질, 배터리 경매용 연결 여유 용량 56GW 확보",
+      "titleOriginal": "Brazil hits 56 GW of connection headroom for battery auctions",
+      "summary": "브라질의 송전 데이터 분석에 따르면, 배터리 저장 프로젝트를 위한 가용 전력망 용량이 56GW에 달합니다. 이는 협회의 2028-30년 전력 수요 추정치를 최대 12.5배 초과하는 수준입니다. 이처럼 풍부한 연결 여유 용량은 향후 배터리 경매에 활용될 전망입니다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-10-03T09:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/10/03/brazil-hits-56-gw-of-connection-headroom-for-battery-auctions/",
+      "collectedAt": "2026-10-03T23:38:38.588Z",
+      "bodySnippet": "<p>Brazil’s available grid capacity for battery storage projects exceeds the association’s estimate of 2028-30 power needs by up to 12.5 times, according to an analysis of transmission data.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/10/03/brazil-hits-56-gw-of-connection-headroom-for-battery-auctions/\">Brazil hits 56 GW of connection headroom for battery auctions</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "1826605d-1c89-4945-95bc-2848bc9a9678",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "한국 철도 통합형 태양광 발전의 가능성",
+      "titleOriginal": "The case for railway-integrated solar in South Korea",
+      "summary": "대한민국의 광범위한 철도망이 토지 가용성이 제한적인 인구 밀집 지역에 새로운 태양광 발전 공간을 제공할 수 있다는 연구 결과가 발표되었습니다. 연구에 따르면 5개 지상 철도 구간 내 적합한 지역에 8.5MW 이상의 태양광 발전 시스템을 설치할 잠재력이 있는 것으로 나타났습니다.",
+      "topics": [
+        "운영 최적화",
+        "에너지원"
+      ],
+      "primaryTopic": "운영 최적화",
+      "publishedAt": "2026-10-03T08:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/10/03/the-case-for-railway-integrated-solar-in-south-korea/",
+      "collectedAt": "2026-10-03T23:38:43.484Z",
+      "bodySnippet": "<p>South Korea’s extensive railway network could provide new space for solar generation in densely populated areas where land availability is limited. Researchers have investigated the potential of installing PV systems between railway tracks, finding that suitable sections of five surface railway corridors could host more than 8.5 MW of solar capacity.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/10/03/the-case-for-railway-integrated-solar-in-south-korea/\">The case for railway-integrated solar in South Korea</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "4c5e5108-e96a-4e6d-9f54-8c51d38c3e62",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "중간 시장 모멘텀",
+      "titleOriginal": "Middle market momentum",
+      "summary": "Clean Capital의 Jon Powers 사장은 미국에서 재생에너지 정책 후퇴가 여러 지역사회에서 에너지 가격 위기를 야기하고 있다고 밝혔다. 그는 다가오는 선거와 함께 에너지 가격이 초당적 쟁점이 되면서, 태양광 배치 옹호를 강화할 시기임을 pv magazine을 통해 업계 베테랑들에게 경고했다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-03T04:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/10/03/middle-market-momentum/",
+      "collectedAt": "2026-10-03T23:38:48.803Z",
+      "bodySnippet": "<p>The rollback of policies favoring renewable energy deployment in the United States is contributing to an energy affordability crisis in many communities, according to Jon Powers, president of Clean Capital, a US independent power producer (IPP) active in the distributed generation segment. He spoke with pv magazine to warn fellow industry veterans that now is the time to ramp up solar deployment advocacy as elections loom and energy prices become a bipartisan issue.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/10/03/middle-market-momentum/\">Middle market momentum</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "ac0d8ada-1c18-4a11-b388-090ec03f8b58",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "스폰서드: 직접 액체 냉각 사양의 다섯 가지 일반적인 문제 극복",
+      "titleOriginal": "Sponsored: Overcoming five common direct liquid cooling specification challenges",
+      "summary": "AI 인프라의 현실화로 엔비디아(NVIDIA) 블랙웰과 같은 고전력 칩들이 등장하며 기존 공랭식 냉각 방식이 구식이 되었습니다. 이에 따라 직접 액체 냉각 방식의 도입이 필수가 되었으며, 관련 사양에서 발생하는 다섯 가지 공통적인 문제를 해결하는 것이 중요해졌습니다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-10-03T15:00:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/opinions/overcoming-five-common-direct-liquid-cooling-specification-challenges/",
+      "collectedAt": "2026-10-03T23:39:01.662Z",
+      "bodySnippet": "<p data-block-key=\"5pdpb\">The reality of AI infrastructure has arrived: the power-hungry chips of today, such as the NVIDIA Blackwell, have rendered traditional air cooling obsolete</p>"
+    },
+    {
+      "id": "e8ded26d-347e-46d0-8999-c62372d2c6b8",
+      "source": "전자신문 (Energy)",
+      "sourceId": "etnews",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "경북대, 달성캠퍼스에 '무선전력전송 실환경 테스트베드' 개소",
+      "titleOriginal": null,
+      "summary": "경북대학교는 달성캠퍼스에 전기차와 로봇 등 고전력 기기의 무선충전 기술을 실제 환경에서 시험할 '무선전력전송 실환경 테스트베드'를 개소했습니다. 이 시설은 과학기술정보통신부, 대구시, 한국전파진흥협회가 2024년부터 2026년까지 총사업비 150억 원(국비 75억 원, 시비 25억 원, 민자 50억 원)을 투입해 조성되었습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-03T06:52:40.000Z",
+      "originalUrl": "https://www.etnews.com/20261003000037",
+      "collectedAt": "2026-10-03T23:39:15.402Z",
+      "bodySnippet": "경북대학교(총장 허영우)는 지난 1일 대구테크노폴리스 내 달성캠퍼스에서 '무선전력전송 실환경 테스트베드' 개소식을 개최했다고 3일 밝혔다. 이번 테스트베드는 전기차와 로봇처럼 큰 전력이 필요한 기기의 무선충전 기술을 실제 산업 현장과 비슷한 조건에서 시험하고 실증하는 시설이다. 과학기술정보통신부, 대구시, 한국전파진흥협회가 2024년부터 2026년까지 총사업비 150억원(국비 75억원, 시비 25억원, 민자 50억원)을 들여 조성했다. 경북대"
+    },
+    {
+      "id": "40ff802e-734a-42b4-9b49-093e106ca2ef",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "온실가스 얼마나 줄였나…에너지공단, 기후정책 성과검증 모색",
+      "titleOriginal": null,
+      "summary": "한국에너지공단이 탄소중립 정책의 성과를 단순 사업 실적이 아닌 실제 온실가스 감축량과 산업전환 성과로 평가하는 기후감사 체계 도입을 논의했다. 이를 통해 평가 결과를 향후 정책 수립 및 예산 배정에 환류하는 실질적인 관리 체계를 구축하고자 한다.",
+      "topics": [
+        "ESG·탄소중립",
+        "정책·규제"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-10-03T09:30:54.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71068",
+      "collectedAt": "2026-10-03T23:40:19.233Z",
+      "bodySnippet": "탄소중립 정책 성과를 단순한 예산 집행이나 사업 추진실적이 아닌 실제 온실가스 감축량과 산업전환 성과로 평가하고 이를 정책과 예산에 다시 반영하는 기후감사 체계가 논의됐다. 한국에너지공단(이사장 최재관)은 지난달 30일 국회 의원회관(서울 영등포구 소재)에서 ‘탄소중립 성과관리를 위한 기후정책 성과감"
     }
   ]
 }
