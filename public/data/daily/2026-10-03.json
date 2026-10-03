@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T00:30:34.815Z",
+  "articleCount": 6,
+  "articles": [
+    {
+      "id": "5d8dcb83-997f-4bd6-a6a1-8a38715779ab",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "환경공단·독일 프라운호퍼, 배터리 재활용 넘어 ‘재생원료 품질’ 공동연구",
+      "titleOriginal": null,
+      "summary": "한국환경공단이 독일 프라운호퍼 배터리셀생산연구소(FFB)와 업무협약을 체결하고 사용후 배터리에서 회수한 재생원료의 품질 검증을 위한 공동연구에 착수한다. 이번 협력은 폐배터리 자원 순환 기술을 고도화하여 유럽 등 해외 시장의 환경 규제에 대응하고 국내 기업의 재생원료 사업화를 지원하기 위해 추진된다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-03T08:47:50.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=203805",
+      "collectedAt": "2026-10-03T00:22:38.087Z",
+      "bodySnippet": "[에너지데일리 조남준 기자]한국환경공단이 독일 프라운호퍼와 손잡고 사용후 배터리에서 회수한 원료의 품질 검증과 유럽 규제 대응을 위한 공동연구에 나선다. 폐배터리 처리와 자원 회수를 넘어 재생원료가 다시 배터리 생산에 활용될 수 있도록 기술과 검증 기반을 강화하는 협력으로, 국내 순환이용 기업의 사업화와 해외시장 대응력을 높일 것으로 기대된다.한국환경공단은 2일(현지시각) 독일 뮌스터에 있는 프라운호퍼 배터리셀생산연구소(FFB)에서 배터리 재활용·순환경제 분야 업무협약을 체결했다고 밝혔다. 협약에는 문갑생 공단 자원순환이사와 옌스"
+    },
+    {
+      "id": "9a0ead68-f485-40cb-8911-68aa7e252e62",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한국형 표준가스복합 첫 불꽃…중부발전, 보령신복합 #1 최초점화",
+      "titleOriginal": null,
+      "summary": "한국중부발전이 국내 기술로 개발된 380MW급 대형 가스터빈을 적용한 '보령신복합화력 1호기'의 최초점화에 성공했다. 이번 실증사업은 한국형 표준가스복합 발전 기술의 첫 상용화 사례로, 향후 국내 발전 설비 국산화 및 에너지 기술 자립화에 기여할 것으로 기대된다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-03T09:22:02.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71067",
+      "collectedAt": "2026-10-03T00:28:04.389Z",
+      "bodySnippet": "우리 기술로 개발한 380MW급 대형 가스터빈을 적용한 한국형 표준가스복합 실증사업이 첫 불꽃을 밝혔다. 한국중부발전(사장 이영조)은 지난 29일 한국형 표준가스복합 제1호 실증사업인 보령신복합화력 1호기 가스터빈 최초점화에 성공했다고 밝혔다."
+    },
+    {
+      "id": "8ecfc140-90ef-45c4-a552-d2d7880a11a1",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "수소터빈·엔진 기술 한자리…동서발전, 수소산업 혁신포럼 개최",
+      "titleOriginal": null,
+      "summary": "한국동서발전은 울산 본사에서 수소터빈과 수소엔진 등 청정수소 기술 및 정책을 공유하는 '수소산업 혁신포럼'을 개최했다. 이번 포럼은 청정수소 산업의 지속가능한 성장을 위해 현재 우리 수소산업이 직면한 과제와 구체적인 대응 방안을 모색하는 데 초점을 맞췄다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-03T09:13:05.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71066",
+      "collectedAt": "2026-10-03T00:28:09.502Z",
+      "bodySnippet": "한국동서발전(사장 권명호)이 수소터빈과 수소엔진 등 청정수소 기술과 정책을 공유하는 한편 우리 수소산업이 풀어야할 과제와 대응방향을 모색하기 위해 지난 30일 본사(울산 중구 소재)에서 수소산업 혁신포럼을 개최했다. 이날 포럼은 수소산업 정책방향과 수소터빈·엔진 등 최신 기술동향을 공유하고 청정수소 산업의 지속가능한 성장방안을 논"
+    },
+    {
+      "id": "5dad954e-cb7a-4f5a-beaf-1ef3d5119575",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "석유관리원, 청년인재 조직 적응 지원…온보딩 캠프 운영",
+      "titleOriginal": null,
+      "summary": "한국석유관리원이 신규 채용형 청년인턴 5일간의 ‘K-Petro 온보딩 캠프’를 운영했다. 이번 교육은 인턴들의 조직 적응을 돕기 위해 기관의 주요 업무와 핵심가치, 공공기관의 기본소양 교육을 중심으로 진행되었다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-10-03T08:49:02.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71065",
+      "collectedAt": "2026-10-03T00:28:10.492Z",
+      "bodySnippet": "한국석유관리원(이사장 최춘식)이 청년인턴의 기관·업무 이해와 조직 적응을 돕기 위해 지난 28일부터 2일까지 5일간 신규 채용형 청년인턴을 대상으로 ‘K-Petro 온보딩 캠프’를 운영했다. 이번 교육은 석유관리원 주요 업무와 핵심가치, 공공기관 구성원으로서 갖춰야 할 기본소양 등을 중심으로 진행됐다."
+    },
+    {
+      "id": "bedf6d5c-5270-4eb3-97ae-eb307527d7b2",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전력거래소, 열병합발전 현장애로 청취…시장제도 변화 반영",
+      "titleOriginal": null,
+      "summary": "전력거래소가 열병합발전의 운영 특성을 전력시장 제도에 효과적으로 반영하기 위해 관련 협회와 간담회를 개최했다. 이번 행사는 'KPX 현장이음' 프로그램의 일환으로, 업계 현장 의견을 수렴하여 실질적인 시장 제도 개선을 추진하기 위해 마련되었다.",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-10-03T08:42:35.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71064",
+      "collectedAt": "2026-10-03T00:28:14.336Z",
+      "bodySnippet": "전력거래소가 열병합발전 운영 특성을 전력시장 제도에 반영하기 위해 업계 현장 의견을 수렴했다. 전력거래소(이사장 김성진)는 고객소통 프로그램인 KPX 현장이음의 일환으로 지난 30일 한국집단에너지협회·한국열병합발전협회 등과 기관장 고객소통 간담회를 개최했다."
+    },
+    {
+      "id": "db154312-186c-4b11-91cf-50082d14415c",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "이광훈 한수원 본부장, WANO 원자력 최고 공로상 수상",
+      "titleOriginal": null,
+      "summary": "이광훈 한국수력원자력 품질기술본부장이 원전 안전운영과 성능 향상에 기여한 공로로 세계원자력사업자협회(WANO)로부터 최고 공로상을 수상했다. 이는 한수원 임직원으로서 2017년 이후 9년 만에 달성한 성과로, 원전 운영의 기술적 우수성을 국제적으로 인정받았다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-03T08:34:43.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71063",
+      "collectedAt": "2026-10-03T00:28:18.613Z",
+      "bodySnippet": "이광훈 한국수력원자력(주) 품질기술본부장이 원전 안전운영과 성능 향상에 기여한 공로를 인정받아 지난 30일 일본 현지에서 열린 세계원자력사업자협회(WANO) 격년총회에서 원자력분야 최고 공로상(Nuclear Excellence Awards)을 받았다. 한수원 임직원이 이 상을 받은 것은 2017년 이후 9년 만이다."
+    }
+  ]
+}

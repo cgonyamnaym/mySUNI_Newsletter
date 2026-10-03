@@ -1,7 +1,7 @@
 {
   "date": "2026-10-01",
-  "generatedAt": "2026-10-02T01:03:35.493Z",
-  "articleCount": 163,
+  "generatedAt": "2026-10-03T00:30:34.813Z",
+  "articleCount": 169,
   "articles": [
     {
       "id": "dba33f9a-9459-4f13-9764-fb60fc6c2ced",
@@ -3153,6 +3153,125 @@
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20261001025173389",
       "collectedAt": "2026-10-02T01:01:35.954Z",
       "bodySnippet": "유종민 홍익대학교 경제학과 교수/ 미국 포틀랜드주립대학 겸임교수 ▲유종민 홍익대학교 경제학과 교수/ 미국 포틀랜드주립대학 겸임교수 얼마전 한국전력이 삼성전자와 SK하이닉스에 앞으로 5년 치 전기요금 총 25조원을 미리 받아 전력망을 건설하려 했던 사안을 다시 되짚어보자. 사실 본 사안의 핵심은 사실 돈의 규모나 업황의 문제이기 전에 '권리'의 문제다. 돈은 대라면서 망에 대한 권리 (재산권)는 주지 않기에, 애초에 받을 수 없는 제안이었다. 부채에 허덕이는 (주)한국전력 입장에선 전력망을 제때 깔아보려고 짜낸 고육지책이란건 안다. 하지만, 전력망의 소유권과 운영권은 전혀 포기 않으면서, 수십조원의 자금조달 위험과 건설 부담은 통째로 민간에 넘기겠다는 시도이다. '민영화'라는 말이 나올 틈은 원천 봉쇄해 두고 돈만 끌어오겠다는 건데, 경제학적으로 당연히 유인 불합치(incentive incompatibility)가 발생하게 된다. 왜 선납은 기형적인가. 정상적인 인프라 투자를 떠올려 보자. 투자자가 돈을 대면 그 대가로 무언가가 남아야 한다. 재무제표에 자산(asset)이 잡히고, 감가상각이 되고, 장기 운영권이나 배당·리스료 같은 수익 흐름이 따라온다. 반면 선납은 어떤가. 25조원을 넣어도 장부에는 '선급금'이라는 채권 한 줄이 남을 뿐이다. 송전탑 한 기, 변전소 한 곳도 내 것이 아니다. 자본은 잔뜩 묶이는데 생산적 자산은 커녕 경비처리 하나도 못하는 구조다. 부동산 거래에서 속칭 '깔세'라고 월세를 한꺼번에 내는 선례가 있긴 하다. 하지만 이걸 투자라 부르긴 어렵다. 깔세 세입자는 흔히 계약 상 매우 열등한 위치인 경우가 많으며, 여튼 뭔가가 아쉬워서 담보 없이 집주인에 목돈을 빌려주는 것이다. 이자를 쳐주지 않았느냐고? 국고채 2년물보다 조금 높은 금리를 얹어 반기마다 요금에서 깎아 주겠다는 조건이 붙긴 했다. 하지만 그 이자로 무엇을 담보받는가. 지자체 인허가가 막히고 주민 반발로 공기가 밀려도, 전력이 제때 들어온다는 보장은 어디에도 없다. 권리는 제로에 가깝고 위험은 사실상 무한대인 비대칭 계약이다. 반도체 경기의 사이클과 글로벌 설비투자 경쟁을 감안하면, 이런 계약에 도장을 찍는 경영진은 주주 앞에서 배임 시비를 각오해야 한다. 그렇다면 한전과 정부는 왜 BTO(수익형)나 BTL(임대형) 같은 정통 민자 방식을 놔두고 이런 우회로를 찾았을까. 답은 뻔하다. '전력망 민영화'라는 프레임이 무섭기 때문이다. 정치권과 노조가 이 네 글자를 꺼내는 순간 논의는 산으로 간다. 그래서 망 소유권은 성역으로 남겨두고 돈만 끌어올 궁리를 한 것이다. 지난 8월 국회를 통과한 전력망 특별법 개정안도 같은 뿌리다. 민간이 송전망을 짓되 준공과 동시에 소유권을 한전에 넘기고, 투자 원금과 약정 수익을 나중에 정산받는 BT(Build-Transfer) 방식이다. 정부 스스로 “민간은 정산만 받을 뿐 운영권은 없다\"고 못 박았다. 건설 위험은 지고, 자산은 못 갖고, 돈은 나중에 받는다. 과연 연기금이든 인프라펀드든 대형 외국계 자본이든, 소유도 운영도 없는 사업에 대규모 자본을 장기간 묶어둘까 싶다. 해법은 어렵지 않다. 자본이 흐르게 하려면 정당한 반대급부, 곧 재산권(property rights)을 제도로 인정하면 된다. 첫째, BTL 방식의 도입이다. 민간이 망을 짓고 소유하되, 한전이나 정부가 이를 장기 임차해 확정된 시설임대료를 지급하는 구조다. 운영과 급전은 지금처럼 한전이 맡는다. 민간에는 예측 가능한 현금흐름이 생기고, 그 현금흐름이 자산으로 잡히니 금융투자자(FI)가 붙게 된다. 학교와 군 관사, 하수관거를 이미 이 방식으로 지어 왔다. 유독 전선만 안 될 이유가 없다. 둘째, 대형 첨단 산단에 한해 발전소와 공장을 잇는 전용 사설 송전망의 민간 소유와 직접 급전을 예외적으로 허용하는 것이다. 전국 계통을 쪼개자는 게 아니다. 수용가가 제 돈으로 짓고 제 책임으로 관리하는 “전용선\"을 허용하자는 것이다. 반도체 단지 하나 때문에 나라 전력망 전체가흔들릴 일은 없다. <"
+    },
+    {
+      "id": "357f1b05-c28c-4656-a033-9a895d9b9852",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "새로운 팟캐스트: 호르무즈 위기 속에서 에너지 전환에 대한 정책 입안자들의 관심을 유지할 수 있을까?",
+      "titleOriginal": "New podcast: Amid Hormuz crisis, can the industry keep policymakers focused on the energy transition?",
+      "summary": "호르무즈 해협의 지정학적 위기로 에너지 가격 충격이 발생함에 따라, Wind Power 팟캐스트는 정책 입안자들이 위기 이후에도 재생에너지 전환에 지속적인 관심을 가질 방안을 논의합니다. 해당 방송은 단기적인 에너지 불안 상황 속에서 장기적인 에너지 전환 정책의 우선순위를 유지하는 전략을 다룹니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-01T07:00:00.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1971478/new-podcast-amid-hormuz-crisis-industry-keep-policymakers-focused-energy-transition",
+      "collectedAt": "2026-10-03T00:18:07.004Z",
+      "bodySnippet": "As the world endures yet another energy price shock caused by geopolitical events, the Wind Power podcast asks how to keep the renewables transition high on policymakers’ agendas once the crisis has passed. "
+    },
+    {
+      "id": "1620f059-b87d-40b9-961d-c91428577d0d",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "NYPA, EDF와 240MW 규모 태양광 프로젝트 지분 51% 확보",
+      "titleOriginal": "NYPA to own 51% of 240-MW solar project with EDF",
+      "summary": "뉴욕전력청(NYPA)이 EDF와 협력하여 240MW 규모의 리치 로드(Rich Road) 태양광 발전 프로젝트를 공동 개발하며 지분 51%를 확보했습니다. 이번 사업은 NYPA가 재생에너지 확대를 위해 민관협력 모델을 도입한 첫 번째 사례입니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-01T13:57:20.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/nypa-240-mw-solar-project-edf-rich-road/831878/",
+      "collectedAt": "2026-10-03T00:20:23.094Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/6yHfJdCzBBdyYGmDV8kVgzRTOJnqywVNpRxUs9ml66U/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNDIwODM5NTAzLmpwZw==.webp\"/></div></figure><p>Rich Road Solar is the first project the New York Power Authority has developed utilizing a&nbsp;public-private partnership model to advance renewable energy.</p>"
+    },
+    {
+      "id": "0652a943-0ae7-4b18-9560-af0a5f202d0b",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "상원 인허가 법안, 송전망 입지 선정에 대한 연방 정부 역할 확대",
+      "titleOriginal": "Senate permitting bill would expand federal role in transmission siting",
+      "summary": "미 상원의 새로운 인허가 법안은 연방에너지규제위원회(FERC)가 공익을 위해 송전 프로젝트 허가를 발급할 수 있도록 권한을 대폭 확대합니다. 또한 기존 유틸리티 기업의 우선매수권을 폐지하고 국가관심송전회랑(NIETC) 제도를 삭제하여 전력망 구축 절차를 개선하고자 합니다.",
+      "topics": [
+        "전력 인프라",
+        "정책·규제"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-10-01T13:55:34.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/senate-permitting-bill-would-expand-federal-role-in-electric-transmission-s/831886/",
+      "collectedAt": "2026-10-03T00:20:27.149Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/rIUEiz3exNIkEo1of5cyfom0PtCcCCipHUSCtj0CGaY/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9TY3JlZW5zaG90XzIwMjYtMTAtMDFfMTAzMjQxLnBuZw==.webp\"/></div></figure><p>The legislation gives FERC authority to issue permits for&nbsp;transmission projects when they are in the public interest. It also eliminates NIETCs and the federal right of first refusal for incumbent utilities and&nbsp;protects existing federal permits.</p>"
+    },
+    {
+      "id": "b79946d2-1302-49d6-aa05-24e123fb6eaa",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "\"Solar for All\" 보조금 수혜자들이 '치명적인' 삭감으로 인해 EPA에 손해배상 청구",
+      "titleOriginal": "Solar for All grantees seek damages from EPA over ‘devastating’ cuts",
+      "summary": "최근 두 명의 연방 판사는 EPA(미국 환경보호청)가 70억 달러 규모의 \"Solar for All\" 프로그램을 불법적으로 중단했다고 판결했습니다. 한 보조금 수혜자는 이 결정이 자신의 조직뿐만 아니라 프로젝트 혜택을 기대했던 개발자들과 지역사회에도 '치명적인' 피해를 입혔다고 밝혔습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-01T06:00:00.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/solar-for-all-funding-ep-court-uncertainty/831144/",
+      "collectedAt": "2026-10-03T00:20:31.573Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/UHrsuwRTIpmPtPbwkZPMb6VVvHzmFkGP4GxpoyimHdY/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9yZXNpZGVudGlhbF9zb2xhci5qcGc=.webp\"/></div></figure><p>Two federal judges recently ruled that the EPA acted illegally when it suddenly terminated the $7 billion program. One grantee said the decision harmed not only her organization, but also developers and communities that expected to benefit from the projects.</p>"
+    },
+    {
+      "id": "d6dc596b-5d0b-4234-9e17-d99963c39da0",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "“가스는 곧 전기”…홍의락 가스공사 사장, 천연가스 역할 재정립",
+      "titleOriginal": null,
+      "summary": "홍의락 한국가스공사 사장은 천연가스를 단순 연료를 넘어 전력 공급 및 재생에너지 변동성을 보완하는 핵심 기반으로 재정의했다. 또한 가스공사를 에너지와 산업·기술·시장을 연결하는 에너지 플랫폼 기업으로 전환하겠다는 비전을 제시했다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-01T23:00:00.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71044",
+      "collectedAt": "2026-10-03T00:29:34.455Z",
+      "bodySnippet": "홍의락 한국가스공사 사장이 1일 로얄호텔(서울 중구 소재)에서 열린 제10회 KOGAS 포럼에서 천연가스를 단순한 연료가 아닌 산업에 필요한 전력을 안정적으로 공급하는 한편 재생에너지 변동성을 보완하는 전력시스템 핵심 기반으로 규정했다. 가스공사도 단순히 가스를 공급하는 기업을 넘어 에너지와 산업·기술·시장 등을 연결하는 에너지 플랫폼 기업으로 전환해야 한다고 덧붙였다. 먼저 홍 사장은 AI·반도체와 첨단 제조업을 중심으로 한 산업구조 변화와 이에 따른 전력수요 급증"
+    },
+    {
+      "id": "50dc4b86-3cdf-4432-87c2-cd76fa9c5b2b",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한-미 전략투자 에너지로 첫발…가스·원전·LNG 3축 가동",
+      "titleOriginal": null,
+      "summary": "한-미 양국이 텍사스 AI 데이터센터 전용 6.5GW 가스복합발전소 건설, 원전 8기 도입, 알래스카 LNG 사업 검토 등 3대 에너지 프로젝트를 추진한다. 이번 협력은 한-미 전략투자 양해각서에 따른 구체적 실행안으로, 전력 인프라 확충과 에너지 공급망 강화를 목표로 한다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-01T22:25:00.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71045",
+      "collectedAt": "2026-10-03T00:29:38.824Z",
+      "bodySnippet": "한-미 전략투자가 가스발전·원전·LNG 등 에너지 분야에서 구체적인 프로젝트로 모습을 드러냈다. 미국 텍사스에 6.5GW 규모 AI 데이터센터 전용 가스복합발전소 건설이 제1호 프로젝트로 추진되고, 최대 1200억 달러를 활용해 APR1400 2기와 AP1000 6기를 미국에 건설하는 원전 협력의 틀이 만들어졌다. 또 그동안 관심을 모았던 알래스카 LNG 프로젝트도 한-미 양국이 사업성 검토에 착수한다. 한-미 양국 정부는 1일 한-미 전략적 투자 양해각서에 따른 한-미 전략투자 프로젝트로 미국 텍사스 가스복합발전인 ‘Project Star(프로젝트 스타)’, 한-미 원전 프레임워크인 ‘Project Power(프로젝트 파워)’, 알래스카 LNG 프로젝트인 ‘Project North(프로젝트 노스)’ 등 3개 프로젝트 추진계획을 발표했다."
     }
   ]
 }
