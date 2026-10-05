@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-04T23:58:02.557Z",
+  "articleCount": 2,
+  "articles": [
+    {
+      "id": "efc1b8b4-8a06-4a87-b352-7cb95c0a1f16",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전KDN, AI로 가정 전기안전까지…스마트에너지 사업 확대",
+      "titleOriginal": null,
+      "summary": "한전KDN은 인공지능(AI)과 스마트분전반을 결합하여 개별 가구의 전기안전과 에너지 사용을 관리하는 지능형 에너지관리체계 구축에 나선다. 이는 도시 단위에서 가정 단위로 에너지관리 영역을 확장하는 것으로, 이젝스 및 엔콜에이아이와의 협력을 통해 AI 기반 지능형 에너지 안전 및 데이터 신사업을 추진한다.",
+      "topics": [
+        "전력 인프라",
+        "운영 최적화"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-10-05T08:49:30.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71079",
+      "collectedAt": "2026-10-04T23:54:48.145Z",
+      "bodySnippet": "한전KDN이 인공지능(AI)과 스마트분전반을 결합해 개별 가구의 전기안전과 에너지 사용을 함께 관리하는 지능형 에너지관리체계 구축에 나선다. 도시 단위 에너지관리에서 가정 단위 전기안전까지 영역을 확장하겠다는 것이다. 한전KDN(사장 박상형)은 이젝스·엔콜에이아이와 AI 기반 지능형 에너지 안전과 데이터 신사업 추진에 협력하기로 하고 지난 30일 업무"
+    },
+    {
+      "id": "5ba218fc-193f-47a8-8d14-addb4f974ec3",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "강상희 전기연구원 원장 취임…전력정책 지원 싱크탱크 역할 방점",
+      "titleOriginal": null,
+      "summary": "한국전기연구원의 신임 원장으로 강상희 원장이 취임했다. 향후 전기연구원은 기존 전력기술 연구 역량을 바탕으로 국가 전력정책을 지원하는 싱크탱크로서의 역할을 강화할 계획이다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-10-05T08:35:14.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71078",
+      "collectedAt": "2026-10-04T23:54:56.153Z",
+      "bodySnippet": "전기연구원이 전력기술 연구를 넘어 국가 전력정책을 지원하는 싱크탱크로 역할을 넓힌다. 강상희 신임 한국전기연구원 원장은 지난 1일 본원(경남 창원시 소재)에서 취임식을 가졌다."
+    }
+  ]
+}
