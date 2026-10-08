@@ -1,7 +1,7 @@
 {
   "date": "2026-10-06",
-  "generatedAt": "2026-10-07T00:57:41.065Z",
-  "articleCount": 164,
+  "generatedAt": "2026-10-08T01:12:08.912Z",
+  "articleCount": 168,
   "articles": [
     {
       "id": "602eb3a9-c4d4-4e8d-931c-bcdde7dbbe90",
@@ -3203,6 +3203,80 @@
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71086",
       "collectedAt": "2026-10-07T00:54:51.011Z",
       "bodySnippet": "기후에너지환경부(장관 김성환)가 서해안 HVDC 적기 구축과 국내 기술·산업 경쟁력 강화를 위해 지난 30일 한전아트센터(서울 서초구 소재)에서 ‘2026년 제2차 HVDC 기술·산업 포럼’을 개최했다. HVDC는 교류송전보다 전력손실이 적고 전력망 안정성을 높일 수 있어 대규모 재생에너지를 전력망에 연결하기 위한 핵심기술로 손꼽히지만 핵심설비 해외기술 의존도가 높고 공급사가 제한돼 있어 독자기술 확보가 과제로 지적돼 왔다."
+    },
+    {
+      "id": "1ad03926-b3a3-4877-9d56-23fbd9465235",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "베스타스, 심해 해상 풍력 기술 회사와 협력 모색",
+      "titleOriginal": "Vestas eyes collaboration with deepwater offshore wind tech company",
+      "summary": "글로벌 풍력 터빈 제조업체 베스타스(Vestas)가 심해 해상 풍력 기술 회사와의 협력을 모색하고 있습니다. 이는 차세대 해상 풍력 발전 기술 개발 및 시장 확대를 위한 전략적 움직임으로 보입니다. 이를 통해 베스타스는 재생에너지 분야에서의 입지를 강화할 것으로 예상됩니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-06T16:01:44.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1971824/vestas-eyes-collaboration-deepwater-offshore-wind-tech-company",
+      "collectedAt": "2026-10-08T00:52:34.546Z",
+      "bodySnippet": "Vestas eyes collaboration with deepwater offshore wind tech company"
+    },
+    {
+      "id": "8ce13c7e-d76a-4248-ba43-26eb128a4159",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "발전현장 AX 본격화…한전KDN, 발전공기업과 AI 기술 공유",
+      "titleOriginal": null,
+      "summary": "한전KDN과 5개 발전공기업이 '2026년 발전공기업 AI-ICT 컨퍼런스'를 개최하여 발전산업의 AI 전환 기술과 현장 적용 사례를 공유했다. 이번 행사는 기술 성공사례뿐만 아니라 현장 적용 과정의 시행착오와 고민을 공유함으로써 발전 현장의 디지털 전환(AX)을 효율적으로 추진하는 데 초점을 맞췄다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-10-06T16:00:54.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71095",
+      "collectedAt": "2026-10-08T01:10:11.373Z",
+      "bodySnippet": "한전KDN(주)(사장 박상형)이 발전공기업에서 실제 현장에 적용하고 있는 AI·정보통신기술(ICT)을 공유하는 한편 공동 대응방안을 모색하기 위해 지난 1일부터 2일까지 한국남동·중부‧서부‧남부‧동서발전(주) 등 발전공기업과 ‘2026년 발전공기업 AI-ICT 컨퍼런스’를 개최했다. 이번 컨퍼런스는 발전산업 AI 전환 과정에 축적한 기술과 현장 적용 경험을 공유하기 위해 기획됐으며, 특히 성공사례뿐만 아니라 기술 적용 과정에 발생한 현안과 고민을 공유함으로써 시행착오를 줄이는 것에 초점이 맞춰졌다."
+    },
+    {
+      "id": "36380626-b978-4e86-9176-995ed922fbcb",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[인사] 한국전기연구원",
+      "titleOriginal": null,
+      "summary": "과학기술정보통신부 산하 정부출연연구기관인 한국전기연구원이 연구부원장으로 김태현을 선임했다. 이번 인사는 기관의 전력 기술 연구 및 운영 체계를 정비하기 위한 목적으로 이루어졌다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-10-06T15:50:38.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71094",
+      "collectedAt": "2026-10-08T01:10:12.349Z",
+      "bodySnippet": "▲연구부원장 김태현"
+    },
+    {
+      "id": "62cd2e0a-4c52-4562-8ff6-b21bcb79f9e2",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "노사관계 우수기업…한수원, 5년 연속 인증 획득",
+      "titleOriginal": null,
+      "summary": "한국수력원자력이 한국경영인증원으로부터 상생·협력 노사관계 구축을 인정받아 5년 연속 노사관계 우수기업 인증을 획득했다. 이번 인증은 한수원이 상호 존중과 신뢰를 바탕으로 안정적인 경영 환경을 조성한 성과를 공식적으로 인정받은 결과이다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-06T15:10:11.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71092",
+      "collectedAt": "2026-10-08T01:10:20.252Z",
+      "bodySnippet": "한수원이 노사관계 우수기업 인증을 5년 연속으로 받았다. 한국수력원자력(주)(사장 김회천)은 상호 존중과 신뢰를 기반으로 상생‧협력 노사관계를 구축한 공로를 인정받아 한국경영인증원에서 주관하는 노사관계 우수기업 인증을 획득했다고 6일 밝혔다."
     }
   ]
 }
