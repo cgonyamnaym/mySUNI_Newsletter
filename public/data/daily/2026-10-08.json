@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
-  "generatedAt": "2026-10-09T01:22:15.613Z",
-  "articleCount": 139,
+  "generatedAt": "2026-10-10T00:42:08.813Z",
+  "articleCount": 143,
   "articles": [
     {
       "id": "ff8f0e6f-6c0b-463a-8219-4d32d9447b79",
@@ -2696,6 +2696,81 @@
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71110",
       "collectedAt": "2026-10-09T01:21:20.917Z",
       "bodySnippet": "산업통상부(장관 김정관)가 지난 7일 프레스센터(서울 중구 소재)에서 글로벌 원전시장 확대에 대응해 산·학·연·관이 해외시장 정보를 공유하고 수출 현안을 논의할 수 있는 소통채널인 ‘원전수출 리더스포럼’을 출범시키고 제1차 포럼을 개최했다. 이 포럼은 한국원전수출산업협회 회원사를 중심으로 출범했으며, 앞으로 원자력업계와 함께 자립적으로 운영될 예정이다."
+    },
+    {
+      "id": "98e92e54-2de5-4b34-985e-35c9c5cfb8d9",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "신규 팟캐스트: 새로운 육상 터빈 모델 | WindEnergy Hamburg 주요 내용",
+      "titleOriginal": "New podcast: New onshore turbine models | WindEnergy Hamburg takeaways",
+      "summary": "Windpower Monthly의 Robyn White와 Orlando Jenkinson이 진행하는 이 팟캐스트는 WindEnergy Hamburg 행사에서 공개된 최신 육상 터빈 모델과 주요 기술적 동향을 다룹니다. 패널인 Sorcha Versteeg와 Shashi Barla가 참여하여 풍력 발전 산업의 최신 시장 흐름과 기술 변화를 심층적으로 분석합니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-08T16:08:54.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1972068/new-podcast-new-onshore-turbine-models-windenergy-hamburg-takeaways",
+      "collectedAt": "2026-10-10T00:37:47.313Z",
+      "bodySnippet": "Welcome to the Wind Power News Review – hosted by Windpower Monthly senior reporter, Robyn White, and Windpower Monthly reporter, Orlando Jenkinson – along with our regular panellists, Sorcha Versteeg and Shashi Barla. "
+    },
+    {
+      "id": "fc2c3b3d-4e24-45d4-b5d2-3aa4e62a6749",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[KECA 네트워크] 경기도 중부회, 제4차 운영위원회",
+      "titleOriginal": null,
+      "summary": "한국전기공사협회 경기도 중부회가 제4차 운영위원회를 열고 2026년도 사회공헌활동 추진계획안을 심의했다. 유영진 회장은 회원 송년의 밤을 포함한 하반기 도회 사업의 성공적인 추진을 위해 운영위원들의 적극적인 참여와 관심을 당부했다.",
+      "topics": [
+        "정책·규제"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-10-08T22:04:36.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=373259",
+      "collectedAt": "2026-10-10T00:40:40.518Z",
+      "bodySnippet": "한국전기공사협회 경기도 중부회(회장 유영진)는 지난 8일 도회 회의실에서 ‘2026년도 제4차 운영위원회’를 개최했다.이날 회의에서는 운영위원 14인과 권순범 공제조합 이사가 참석한 가운데 2026년도 사회공헌활동 추진계획(안) 승인 등 도회 현안을 심의하고 원활한 운영을 위한 방안을 논의했다.유영진 회장은 “무덥던 여름이 지나고 가을의 정취를 느낄 때 건강한 모습으로 위원들을 만나 반갑다”며 “2026년도 회원 송년의 밤 등 하반기 도회 사업이 성공적인으로 추진 될 수 있도록 지속적인 관심과 참여를 당부한다”고 말했다."
+    },
+    {
+      "id": "1c5336a3-d19c-46df-9d26-c751d4b1f104",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[KECA 네트워크] 경기도회, 제3차 운영위원회",
+      "titleOriginal": null,
+      "summary": "한국전기공사협회 경기도회가 제3차 운영위원회를 열고 하반기 주요 사업 및 2026~2027년 중장기 행사 계획을 확정했다. 이번 회의에서는 도회 자체사업비 조정과 함께 회원사 권익 증진 및 사회공헌 활동 등 구체적인 운영 안건들이 의결되었다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-10-08T22:02:19.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=373258",
+      "collectedAt": "2026-10-10T00:40:44.462Z",
+      "bodySnippet": "한국전기공사협회 경기도회(회장 김만석)는 최근 도회 4층 회의실에서 제3차 운영위원회를 열고 하반기 주요사업을 확정했다고 8일 밝혔다.이날 회의에는 운영위원 16명이 참석해 ▲도회 자체사업비 예산조정의 건 ▲2026년 경기도회 골프대회 추진의 건 ▲2026년 사회공헌활동 추진의 건 ▲2026년 회원 송년의 밤 개최 계획의 건 ▲2027년 제59회 정기총회 개최의 건을 의결했다.김만석 회장은 “어려운 여건 속에서도 도회 운영에 적극 협조해 주신 위원 여러분께 감사드린다”며 “하반기 주요 사업이 차질 없이 추진되도록 한마음으로 힘을 모"
+    },
+    {
+      "id": "a6d91e6e-77d2-45bc-93cb-9cae0307f0d7",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "아시아 에너지 안보 새판…‘라이즈 아시아’ 가동",
+      "titleOriginal": null,
+      "summary": "한국과 IEA가 중동전쟁 등 공급망 불안에 대응하기 위해 아시아 에너지 안보 협력체인 '라이즈 아시아'를 가동한다. 기존 석유·가스 중심의 안보에서 벗어나 원자력, 재생에너지, 전력망 등을 포함한 포괄적인 에너지 안보 체계로 확장할 계획이다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-08T23:45:00.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71099",
+      "collectedAt": "2026-10-10T00:41:25.784Z",
+      "bodySnippet": "중동전쟁을 계기로 에너지 공급망 불안이 커진 가운데 우리가 IEA와 함께 아시아 에너지 안보 협력의 새로운 틀을 만든다. 석유·가스 확보에 머물렀던 에너지 안보의 범위를 공급망 다변화와 전기화, 회복력 있는 전력시스템까지 확대하고 원자력·재생에너지·전력망 등을 아우르는 역내 협력을 강화하는 것이 핵심이다. 기후에너지환경부(장관 김성환)는 8일 필리핀 현지에서 열리는 제23차 아세안+3 에너지장관회"
     }
   ]
 }

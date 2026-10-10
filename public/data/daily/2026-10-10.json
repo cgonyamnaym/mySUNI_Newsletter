@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-10T00:42:08.814Z",
+  "articleCount": 4,
+  "articles": [
+    {
+      "id": "d78ec8bc-1bb3-4182-97aa-68a31a4d97f8",
+      "source": "전자신문 (Energy)",
+      "sourceId": "etnews",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전남대, 중성미자 정밀 연구 신개념 이동형 검출기 시스템 구축…한빛원전서 현장 실험",
+      "titleOriginal": null,
+      "summary": "전남대학교 중성미자 정밀 연구센터가 원자로에서 발생하는 중성미자를 실시간으로 측정할 수 있는 국내 최초의 이동형 검출기 시스템을 구축했다. 이 시스템은 영광 한빛원자력발전소 현장에 배치되어 중성미자 정밀 연구 및 원전 운용 데이터 확보를 위한 실험을 진행 중이다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-10T00:00:00.000Z",
+      "originalUrl": "https://www.etnews.com/20261008000111",
+      "collectedAt": "2026-10-10T00:40:57.551Z",
+      "bodySnippet": "전남대학교 선도연구센터(중성미자 정밀 연구센터·센터장 주경광 교수)는 중성미자 검출기를 이동형 연구 차량에 탑재해 연구 현장으로 직접 이동하며 측정할 수 있는 국내외 전례가 없는 신개념의 시스템을 구축하고 영광 한빛원자력발전소에서 현장 실험을 진행하고 있다고 10일 밝혔다. 이번에 구축한 이동형 검출 시스템은 특정 장소에 검출기를 고정해 두는 기존 방식에서 벗어나, 연구 목적에 따라 검출기를 원하는 장소로 자유롭게 이동시켜 원자로에서 발생하는"
+    },
+    {
+      "id": "888c8829-e2d8-42b6-a894-5d7b8155fe45",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "지역 에너지·환경문제 주민이 푼다…한난, 4개 사업 지원",
+      "titleOriginal": null,
+      "summary": "한국지역난방공사가 한국사회복지협의회와 함께 지역 내 에너지 및 환경 문제 해결을 위한 '우리 동네 온기 가득' 사회공헌사업을 추진합니다. 탄소저감형 스마트팜, 폐플라스틱 재활용 등 주민 체감형 4개 사업을 선정하여 사업비와 경영 자문을 지원합니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-10-10T09:16:42.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71125",
+      "collectedAt": "2026-10-10T00:41:05.687Z",
+      "bodySnippet": "탄소저감형 스마트팜 상토와 폐플라스틱 텀블러, 폐자전거 공유서비스 등 지역 에너지·환경문제를 해결하기 위한 주민 체감형 사업 4개가 본격 추진된다. 한국지역난방공사(사장 하동근)는 한국사회복지협의회와 지역주민과 사회적경제조직이 주도적으로 지역 에너지·환경문제를 해결할 수 있도록 사업비와 경영자문을 지원하는 사회공헌사업인 ‘우리 동네 온기 가득’을 운영한다고 지난 8일 밝혔다."
+    },
+    {
+      "id": "9a36398c-0d3c-4b60-9309-7207656dd5b0",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스기술공사, 세네갈 FSU 시운전 수주…아프리카 LNG시장 확대",
+      "titleOriginal": null,
+      "summary": "한국가스기술공사가 세네갈의 부유식 LNG 저장설비(FSU) 시운전 사업을 수주하며 아프리카 LNG 인프라 시장 공략을 본격화했다. 이번 수주를 통해 국내 에너지 기술의 해외 시장 진출과 아프리카 내 LNG 사업 확장이 기대된다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-10-10T09:04:36.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71123",
+      "collectedAt": "2026-10-10T00:41:10.600Z",
+      "bodySnippet": "가스기술공사가 세네갈 부유식 LNG 저장설비 시운전 사업을 수주하며 아프리카 LNG 인프라시장 확대에 나선다. 한국가스기술공사(사장 임종석)는 최근 세네갈 FSU(Floating Storage Unit) 시운전사업을 수주했다고 밝혔다."
+    },
+    {
+      "id": "e8db1fef-b291-4f6b-816c-16affce8b122",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "셀프주유소 1000억 꼼수 매출?…석유유통업계, 사실 왜곡 반발",
+      "titleOriginal": null,
+      "summary": "셀프주유소의 정액·정량 선택 기능으로 연간 1000억 원에 달하는 이른바 '꼼수 매출'이 발생한다는 보도에 대해 석유유통업계가 반발했다. 한국석유유통협회는 이러한 주장이 정상적인 유류 판매를 소비자 기망 행위로 몰아가는 사실 왜곡이라고 주장하며 반박했다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-10-10T08:23:31.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71121",
+      "collectedAt": "2026-10-10T00:41:20.010Z",
+      "bodySnippet": "셀프주유소 정액·정량 선택 기능으로 연간 1000억 원에 달하는 이른바 꼼수 매출이 발생한다는 보도에 석유유통업계가 정상적인 유류판매를 소비자 기망행위로 몰아가는 사실 왜곡이라며 반발했다. 한국석유유통협회(회장 김정훈)는 한 언론이 셀프주유소 정액·정량 선택에 따른 추가 매출을 꼼수"
+    }
+  ]
+}
