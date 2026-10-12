@@ -1,0 +1,216 @@
+{
+  "date": "2026-10-11",
+  "generatedAt": "2026-10-12T00:24:05.842Z",
+  "articleCount": 11,
+  "articles": [
+    {
+      "id": "691ac309-c6cd-4804-9cb2-20a5968dd385",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "후원: 기존 데이터 센터의 효율성, 이제 규제 준수 기한이 정해졌습니다",
+      "titleOriginal": "Sponsored: Legacy data center efficiency now has a compliance deadline",
+      "summary": "기존 데이터 센터의 에너지 효율 개선이 단순한 권고를 넘어 의무적인 규제 준수 사항으로 전환되고 있습니다. 이번 변화는 데이터 센터의 운영 효율성을 최적화하여 강화되는 환경 정책 및 규제 기준을 충족해야 하는 산업적 압박을 반영하고 있습니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-10-11T15:00:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/opinions/legacy-data-center-efficiency-now-has-a-compliance-deadline/",
+      "collectedAt": "2026-10-12T00:20:40.093Z",
+      "bodySnippet": "<p data-block-key=\"0gtxo\">Why efficiency in existing facilities has shifted from good intention to obligation</p>"
+    },
+    {
+      "id": "61c8c4c6-1af4-416d-bf58-4072d61d6160",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Hyperscale Data, 비트코인 채굴 사업을 위한 자회사 'Patriot BTC' 설립 계획",
+      "titleOriginal": "Hyperscale Data plans Patriot BTC subsidiary for Bitcoin mining business",
+      "summary": "Hyperscale Data는 자사의 몬태나주 데이터 센터를 신설 자회사인 Patriot BTC로 이전하여 비트코인 채굴 사업을 본격화할 계획입니다. 이번 결정은 데이터 센터 운영 효율화와 가상자산 채굴 시장 진출을 위한 전략적 행보로 풀이됩니다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-11T11:00:49.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/hyperscale-data-plans-patriot-btc-subsidiary-for-bitcoin-mining-business/",
+      "collectedAt": "2026-10-12T00:20:55.509Z",
+      "bodySnippet": "<p data-block-key=\"2pw7h\">Will transfer Montana data center to new company</p>"
+    },
+    {
+      "id": "8bc328bf-e479-4d24-90b2-96c4c4195639",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(2026 국감) 복기왕 의원 “도로공사, 고속도로 태양광 확대 계획 재검토해야”",
+      "titleOriginal": null,
+      "summary": "복기왕 의원은 한국도로공사가 추진 중인 연간 15MW 규모의 고속도로 태양광 확대 계획에 대한 재검토를 촉구했다. 특히 송전망 부족 문제를 해결하기 위해 휴게소에서 생산된 전기를 현장에서 직접 소비하는 ‘지산지소’ 방식 도입을 대안으로 제시했다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-11T22:02:06.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=373272",
+      "collectedAt": "2026-10-12T00:21:11.070Z",
+      "bodySnippet": "복기왕 의원(더불어민주당·충남 아산시갑)이 한국도로공사에 고속도로 태양광 발전시설 확대 계획을 재검토하고, 송전망 확보가 어려운 휴게소에는 생산한 전기를 현장에서 사용하는 ‘지산지소’ 방식 도입을 검토하라고 촉구했다.국회 국토교통위원회 소속 복기왕 의원(국토위 간사)은 지난 8일 국토위 국정감사에서 한국도로공사의 태양광 발전 확대 계획과 휴게소 주차장 태양광 설치 현황을 지적했다고 10일 밝혔다. 현재 도로공사는 연간 15MW 규모로 태양광 발전시설을 확대하는 계획을 추진하고 있다. 복 의원은 이 계획을 그대로 진행하면 전체 설치"
+    },
+    {
+      "id": "27c72e60-f7ae-4f0a-ab05-88e0e75cb8b7",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "고준위 방폐물 부지선정 본격 준비…내년 후보부지 공모 추진",
+      "titleOriginal": null,
+      "summary": "고준위 방사성폐기물 관리위원회는 2025년 9월 26일 특별법 시행에 따라 출범한 지 1년을 맞아, 관리시설 부지선정을 위한 조사·평가 절차를 구체화하고 정책 심의·의결 체계를 구축했다. 위원회는 올해 안에 관리 기본계획 수립과 부적합지역 배제 작업을 완료하고, 내년에는 후보부지 공모를 추진할 계획이다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-10-11T12:30:16.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=373266",
+      "collectedAt": "2026-10-12T00:21:18.978Z",
+      "bodySnippet": "고준위 방사성폐기물 관리위원회가 출범 1년을 맞아 관리시설 부지선정을 위한 조사·평가 절차를 구체화하고 정책 심의·의결 체계를 구축했다. 올해 안에 관리 기본계획 수립과 부적합지역 배제 작업을 마무리하고, 내년 후보부지 공모를 위한 준비에도 나설 계획이다.고준위 방사성폐기물 관리위원회는 지난 2025년 9월 26일 고준위 방사성폐기물 관리에 관한 특별법 시행에 따라 출범한 이후 지난 1년간 정책 추진 기반을 마련하고 부지선정 절차 구체화와 현장 소통을 병행해 왔다고 11일 밝혔다.위원회는 올해 2월 첫 회의를 시작으로 9월까지 총"
+    },
+    {
+      "id": "17867543-bb0d-42f9-a049-b969fb8132cc",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "청정E 넘어 전력망까지…한-이집트 에너지협력 확대",
+      "titleOriginal": null,
+      "summary": "한국과 이집트가 정상회담을 계기로 청정에너지 및 전력인프라 분야 협력을 위한 양해각서(MOU) 2건을 체결했습니다. 기존 태양광, 풍력 중심의 협력을 넘어 송·배전망, HVDC(초고압 직류송전), ESS(에너지저장장치) 등 전력망 전반으로 협력 범위를 확대합니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-11T20:40:01.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71135",
+      "collectedAt": "2026-10-12T00:22:42.225Z",
+      "bodySnippet": "한-이집트 에너지 협력이 태양광과 풍력 등 청정에너지를 넘어 송·배전망을 비롯해 HVDC와 ESS까지 확대됩니다. 지난 8일 기후에너지부는 한-이집트 정상회담을 계기로 이집트 전력재생에너지부와 청정에너지 분야를 비롯해 전력인프라 분야에 협력하기로 하는 양해각서 2건을 체결했습니다."
+    },
+    {
+      "id": "7a1058ab-5f44-4369-9e1d-510b9925f846",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한-이집트 에너지협력 확대…청정E 넘어 전력망까지",
+      "titleOriginal": null,
+      "summary": "한국과 이집트가 청정에너지 분야를 넘어 전력망, HVDC, ESS 등 전력 인프라 전반으로 협력을 확대하는 양해각서(MOU)를 체결했다. 이번 협력을 통해 우리 기업들이 이집트를 거점으로 아프리카 에너지 시장에 진출할 수 있는 교두보가 마련될 것으로 기대된다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-11T19:15:14.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71134",
+      "collectedAt": "2026-10-12T00:22:50.819Z",
+      "bodySnippet": "한-이집트 간 에너지 협력이 태양광발전‧풍력발전 등 청정에너지에서 전력망‧HVDC‧ESS 등 전력인프라까지 확대된다. 청정에너지 생산부터 이를 안정적으로 수요처에 전달하는 전력망까지 협력범위를 넓히면서 우리 기업의 이집트와 아프리카 에너지 시장 진출을 위한 기반이 마련될 것으로 기대된다. 기후에너지환경부는 지난 8일 청와대(서울 종로구 소재)에서 열린 한-이집트 정상회담을 계기로 이집트 전력재생에너지부와 청정에너지 분야 협력에 관한 양해각서와 전력인프라 협력 파트너십 구축에 관한 양해각서를 각각 체결했다."
+    },
+    {
+      "id": "cf48d91d-5d9e-421f-9d64-360dce47fe2e",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "AI·스마트기술…가스기술공사, 중대재해 예방체계 강화",
+      "titleOriginal": null,
+      "summary": "한국가스기술공사가 AI 및 스마트 안전기술을 도입해 현장 위험요인을 사전에 발굴하고 중대재해 예방체계를 강화한다. 공사는 지난 6일 제10회 최고경영자 주관 안전실천 월간회의를 개최하며 안전 경영 의지를 다졌다.",
+      "topics": [
+        "운영 최적화"
+      ],
+      "primaryTopic": "운영 최적화",
+      "publishedAt": "2026-10-11T18:55:58.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71133",
+      "collectedAt": "2026-10-12T00:22:57.678Z",
+      "bodySnippet": "가스기술공사가 인공지능(AI)과 스마트 안전기술을 현장에 활용해 위험요인을 사전에 찾아내는 등 중대재해 예방체계를 강화한다. 한국가스기술공사(사장 임종석)는 지난 6일 본사(대전 유성구 소재)에서 2026년 제10회 중대재해 예방을 위한 최고경영자 주관 안전실천 월간회의를 개최했다."
+    },
+    {
+      "id": "0ab62077-b96a-4cba-982a-5957547fb7a0",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "49일 만에 한울원전 #4 발전 재개…100% 출력 도달",
+      "titleOriginal": null,
+      "summary": "지난 8월 가압기 문제로 자동 정지되었던 한울원전 4호기가 49일 만에 발전을 재개했다. 한수원 한울원자력본부는 해당 원전(1000MW급)이 지난 9일 오전 11시 22분부로 정상 출력 100%에 도달했다고 밝혔다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-11T18:49:20.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71132",
+      "collectedAt": "2026-10-12T00:23:05.654Z",
+      "bodySnippet": "지난 8월 가압기 고압력으로 원자로가 자동 정지됐던 한울원전 4호기가 49일 만에 발전을 재개하고 100% 출력에 도달했다. 한국수력원자력(주) 한울원자력본부(본부장 이용희)는 한울원전 4호기(발전설비용량 1000MW)가 지난 8일 00시 13분 발전을 재개한데 이어 9일 11시 22분 100% 출력에 도달했다고 밝혔다."
+    },
+    {
+      "id": "5d00c6bd-79c4-47c9-855a-b6b857e74110",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스기술공사 아프리카 교두보 확보…세네갈 FSU 시운전 수주",
+      "titleOriginal": null,
+      "summary": "한국가스기술공사가 세네갈에서 부유식 LNG 저장설비(FSU) 시운전 사업을 수주하며 아프리카 LNG 인프라 시장 진출을 본격화했습니다. 이번 수주를 통해 아프리카 지역 내 에너지 사업의 교두보를 마련하게 되었습니다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-10-11T18:17:05.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71131",
+      "collectedAt": "2026-10-12T00:23:15.900Z",
+      "bodySnippet": "세네갈에서 가스기술공사가 부유식 LNG 저장설비 시운전 사업을 수주하는 등 아프리카 LNG 인프라시장 확대에 나섭니다. 지난 8일 가스기술공사는 세네갈 FSU, 부유식 LNG 저장설비 시운전 사업을 수주했다고 밝혔습니다."
+    },
+    {
+      "id": "dacd9ff1-65d9-41d3-a2d3-51385e51c61a",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "중동사업 확대 ‘서부발전’…송재섭 감사, 위기대응체계 점검",
+      "titleOriginal": null,
+      "summary": "한국서부발전이 중동 지역의 사업 확대를 앞두고 아랍에미리트와 오만 현장 점검을 실시했습니다. 송재섭 상임감사위원은 지정학적 불확실성과 기후 변화 등에 대비한 현지 안전관리 및 내부통제 체계를 집중적으로 확인했습니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-10-11T17:08:14.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71130",
+      "collectedAt": "2026-10-12T00:23:17.656Z",
+      "bodySnippet": "중동 사업을 확대하고 있는 서부발전이 지정학적 불확실성에 대비한, 현지 위기대응체계를 점검했습니다. 지난 3일부터 7일까지 송재섭 서부발전 상임감사위원은 아랍에미리트와 오만 등 중동사업 현장을 방문해 안전관리와 내부통제 그리고 기후환경 변화와 지정학적 불확실성 등 현지 위험요인 대응체"
+    },
+    {
+      "id": "5a6d9836-4217-451c-9b65-d61f3093daa0",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "방폐물위 1년·공론화위 시동…올해 말 원전 정책 ‘중대기로’",
+      "titleOriginal": null,
+      "summary": "올해 말 한국 원전 정책이 중대한 전환점을 맞이합니다. 고준위 방사성폐기물 관리위원회는 내년부터 시설 부지 후보 공모를 시작하며, 원전 공론화위원회는 AI 시대 원전의 역할에 대한 논의를 시작해 사용후핵연료 저장시설 포화 및 전력수요 증가에 대한 대책을 모색합니다. 또한, 한미 원전 프레임워크를 통해 한국형 원자로의 미국 시장 진출도 추진되어 국내외 원전 정책에 큰 변화가 예상됩니다.",
+      "topics": [
+        "정책·규제",
+        "전력 인프라"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-10-11T12:00:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20261011027144052",
+      "collectedAt": "2026-10-12T00:23:34.147Z",
+      "bodySnippet": "방폐물위, 내년 고준위 방폐물 시설 부지 후보 공모\n지난해 9월 출범…올해 말까지 3차 관리 계획 수립\n원전 공론화위도 이달 출범…AI 시대 원전 역할 논의\n사용후핵연료 저장시설 포화·전력수요 증가 예상에\n원전 정책 재정립 불가피…미 원전시장 진출도 주목 ▲경북 울진군에 위치한 신한울 원자력 발전소 1호기(왼쪽)과 2호기 전경. 사진=한국수력원자력 방사성 폐기물 문제부터 미래 원전 역할에 관한 공론화, 한국형 원자로의 첫 미국 진출까지 올해 말이면 국내 원자력발전 정책이 중대 전환점을 맞이할 것으로 예상된다. 11일 고준위 방사성폐기물 관리위원회에 따르면, 고준위 방사성폐기물 관리시설을 위한 기본조사를 수행할 부지 후보 공모가 내년부터 시작된다. 고준위 방폐물 관리에 관한 특별법은 고준위 방폐물 중간저장시설과 처분시설을 각각 2050년, 2060년 이전에 운영을 개시하도록 정했다. 이에 앞서 제3차 고준위 방폐물 관리 기본계획 수립을 마치고, 전국을 대상으로 부적합지역 배제 작업을 완료할 예정이다. 고준위 방폐물 관리 기본계획은 특별법을 근거로 30년을 계획 기간으로 두고 5년마다 수립한다. 2차 계획이 2021년 12월 말 확정된 전례를 보면 3차 계획도 올해까지 수립돼야 한다. 3차 기본계획에는 △사용후핵연료 발생 전망 △부지선정∙시설계획 △투자계획 △기술개발∙인력양성 등을 포함한다. 특히 지하연구시설의 연구실증 강화로 안전성을 제고하고, 2060년 영구처분시설 운영까지 향후 35년의 관리시설 건설∙운영 로드맵을 제시할 예정이다. 고준위 방폐물 관리위원회는 국무총리실 산하로 지난해 9월 26일 첫 출범했고, 올해 2월 1차 위원회를 시작으로 지난달까지 본위원회를 8차례 개최했다. 35명의 전문가를 위촉해 △부지 △저장·운반 △처분 △ 소통 4개 분야의 전문위원회를 출범시켰다. 위원회는 지난 4월 △부적합지역 배제, △조사 대상부지 공모, △기본‧심층조사 등 부지선정 全과정에 걸친 청사진을 담은 고준위 방폐물 관리시설 부지적합성 조사계획을 의결했다. 6월에는 한국원자력환경공단과 방사성폐기물 안전관리 국제 토론회를 개최하고, 전 세계 방사성폐기물 관리사업 관계자와 유치지역 주민대표를 초청했다. 원전 공론화위원회도 제12차 전력수급기본계획 수립을 앞두고 지난 7일 서울시 중구 비즈허브 서울센터에서 첫 회의를 진행했다. 원전 공론화위는 지난달 22일 김성환 기후에너지환경부 장관이 공론화 추진 계획을 국무회의에서 보고한 이후 지난 2일 첫 출범했다. 은재호 한국외대 겸임교수가 위원장을 맡고, 인문사회∙과학기술∙조사통계∙갈등관리∙에너지 분야에서 원전 이해관계자가 아닌 중립적 인사들을 추천받아 8명의 위원을 위촉했다. 위원회는 공론화의 기본 방향과 세부 절차를 마련하고 국민 의견을 수렴해 공론화 결과를 도출한 뒤 정부에 권고한다. 원전 분야 전문가들은 별도 전문위원회로 구성해 전문정보를 제공한다. 1차 회의에서는 공론화 결과를 다수 선택만으로 해석하지 않고 숙의 후 의견, 판단 근거, 공통점 과 주요 의견을 종합해 정리하는 방향으로 원칙을 세웠다. 2박 3일간 300명 규모의 시민참여단 숙의토론 운영과 전문위원회 구성∙역할 등을 담은 '시민참여형 조사용역 계획(안)'도 의결했다. 공론화 추진 방향으로는 미래 전력수요를 충당하기 위한 대안 가운데 하나로서 원전의 역할을 종합적으로 논의하는 데 의견을 모았다. 이를 계기로 방폐물 관리에 숨통이 트고 원전 규모가 확대될지 주목된다. 국내에서는 사용후핵연료를 각 원전의 임시 저장시설에 보관하고 있는데, 습식 임시 저장시설은 2030년 전남 영광군에 위치한 한빛 원전을 시작으로 2031년 한울 원전, 2032년 고리 원전에서 포화 상태에 이를 것으로 예상된다. 더 긴 기간 보관이 가능한 건식 저장소는 월성 원전에서만 운영 중으로, 저장소 포화 대책이 절실하다. 방폐물 관리시설도 중∙저준위 방폐물을 위한 시설만 경북 경주에 있을 뿐 고준위 방폐물 시설은 아직 먼 이야기다. 반도체와 피지컬 AI, AI 데이터센터 산업을 전국에서 육성한다는 3대 메가프로젝트로 전력 수요가 최소 약 30GW 추가될 것으로 예상되면서 정부가 신규 원전 건설 검토 입장을 공식화하기도 했다. 원전 건설 지역부터 지역 수용성 확보, 사용후핵연료 처리 문제, 소형모듈원자로(SMR) 같은 미래 원전 기술 개발∙상용화까지 사회적 합의가 이뤄져야 과거처럼 원전 건설 기간이 지연되는 문제를 막을 수 있는 상황이다. 나아가 한미 양국이 지난 1일 체결한 전략적 투자 양해각서(MOU)의 일환으로 구성하기로 한 '한미 원전 프레임워크'도 한국 원자력 정책에서 중대한 변곡점이 될 전망이다. 미국 시장에 해외 노형이 적용된 원전을 한국이 최초로 건설하게 되기 때문이다. 원래는 지난해 한국전력∙한국수력원자력과 웨스팅하우스가 맺은 타협협정 때문에 APR1400의 미국 진출이 불가능했지만, 이번 협상을 계기로 APR1400의 미국 진출이 가능해졌다. AP1000 건설에도 한국의 시공∙기자재 기업이 참여한다. 원전 2기당 한국 정부의 투자 비용은 건설비 250억달러와 예비비 50억달러로 이뤄진다. 아울러 AP1000 원전 사업에서 발생하는 상업적 이익을 한미 간 공유하기 위해 한국 기업들의 웨스팅하우스 지분인수도 추진한다. <"
+    }
+  ]
+}
