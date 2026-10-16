@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-16T23:36:17.353Z",
+  "articleCount": 1,
+  "articles": [
+    {
+      "id": "cac90015-9682-4388-b804-9bd8a8b767da",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전, 송전급 GFM 육지계통 적용 추진",
+      "titleOriginal": null,
+      "summary": "한국전력이 HD현대일렉트릭 등과 협력하여 소형 도서 및 제주에서 검증된 그리드포밍(GFM) 기술을 육지 송전급 계통으로 확대 적용하기 위한 공동 연구를 추진한다. 이번 협약을 통해 송전급 GFM 병렬운전 및 주파수 안정도 협조운전 기술을 확보하여 전력망의 안정성을 강화할 계획이다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-10-17T08:33:49.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71179",
+      "collectedAt": "2026-10-16T23:34:04.332Z",
+      "bodySnippet": "소형 도서와 제주에서 실증을 거친 그리드포밍 기술이 육지 전력계통으로 확대될 것으로 전망된다. 한국전력공사(사장 김동철)은 HD현대일렉트릭·인텍에프에이 등과 송전급 그리드포밍(Grid-Forming) 병렬운전과 주파수 안정도 협조운전 기술개발을 공동으로 연구하기로 하고 지난 16일 한전아트센터(서울 서초구 소재)에서 협약을 체결했다."
+    }
+  ]
+}
