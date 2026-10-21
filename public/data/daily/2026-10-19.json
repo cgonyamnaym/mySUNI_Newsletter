@@ -1,7 +1,7 @@
 {
   "date": "2026-10-19",
-  "generatedAt": "2026-10-20T00:27:25.938Z",
-  "articleCount": 142,
+  "generatedAt": "2026-10-21T00:09:41.818Z",
+  "articleCount": 144,
   "articles": [
     {
       "id": "6cbfdca5-af62-4b6e-b739-9d6abd7225ba",
@@ -2756,6 +2756,45 @@
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20261019023517880",
       "collectedAt": "2026-10-20T00:26:33.490Z",
       "bodySnippet": "효성중공업이 전력기기 부문의 단기적인 업황 둔화로 목표주가가 하향 조정됐다. 19일 SK증권은 효성중공업의 목표주가를 기존 400만원에서 250만원으로 37.5% 하향 조정했다. 투자의견은 '매수'를 유지했다. 전력기기 산업의 상대적인 약세를 반영해 밸류에이션 멀티플을 낮춘 데 따른 것이다. SK증권은 효성중공업의 3분기 매출액은 시장 컨센서스에 부합하지만 영업이익은 기대치를 밑돌 것으로 전망했다. 매출액은 전년 동기 대비 21.9% 증가한 1조9800억원, 영업이익은 26.1% 늘어난 2770억원으로 추정했다. 영업이익률은 14.0%로 예상했다. 실적 부진의 주요 원인으로는 중동 지역의 지정학적 불확실성에 따른 운송 차질과 북미 고마진 프로젝트의 납기 조정을 지목했다. 이로 인해 일부 매출 인식이 지연되고, 건설부문의 예정원가 상승에 따른 일회성 비용도 반영될 것으로 분석했다. 나민식 SK증권 연구원은 “AI 인프라 종목군 내에서 전력기기 산업이 상대적인 약세가 이어지고 있다\"며 “병목의 존재만으로 단기적으로 추가적인 밸류에이션 프리미엄을 인정받지 못하고 있다“고 말했다. 이어 나 연구원은 시장은 쌓여있는 수주잔고를 매출액으로 전환시키는 생산 속도를 확인하려는 것으로 추정한다\"고 덧붙였다. <"
+    },
+    {
+      "id": "4236bafd-8fef-46bb-affc-d394d6bc871f",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "슈나이더 일렉트릭, 글로벌 데이터 센터 호황에 힘입어 3분기 역대 최대 매출 달성",
+      "titleOriginal": "Schneider Electric sees record-high Q3 revenue on global data center boom",
+      "summary": "슈나이더 일렉트릭은 글로벌 데이터 센터 시장의 폭발적인 성장세에 힘입어 3분기 역대 최대 매출을 기록했습니다. 북미 지역이 에너지 관리 부문에서 가장 큰 매출 비중을 차지했으며, 중국 및 동아시아 지역은 높은 유기적 성장률을 보였습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-19T15:10:29.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/schneider-electric-data-center-earnings/833358/",
+      "collectedAt": "2026-10-20T23:49:05.721Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/aa4MYP5Rze-q2lfLByGoT8FdIi1ruyPV8xrmpUl1FkM/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9TY3JlZW5zaG90XzIwMjYtMTAtMDVfYXRfNC4yOS4zOVBNLnBuZw==.webp\"/></div></figure><p>North America continues to be the largest source of revenue for the company&rsquo;s energy management segment, but China and East Asia saw a higher organic growth rate this quarter and year to date.</p>"
+    },
+    {
+      "id": "844561fb-d2e6-43e8-8836-5a21c13bdfe1",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "석유공사-가스공사 통합…홍의락‧손주석 ‘따르되 따져봐야’",
+      "titleOriginal": null,
+      "summary": "정부가 석유공사와 가스공사의 통합을 사전 협의 없이 발표한 가운데, 양 기관장은 정책 협조 의사를 밝히면서도 재무구조와 주주보호 등 통합에 따른 실질적인 검토가 선행되어야 한다는 신중한 입장을 보였다. 국회 국정감사에서 해당 통합 방안의 시너지 효과 및 구체적인 타당성 문제가 주요 쟁점으로 다뤄졌다.",
+      "topics": [
+        "정책·규제"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-10-19T23:10:00.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71193",
+      "collectedAt": "2026-10-21T00:08:26.775Z",
+      "bodySnippet": "석유공사와 가스공사 통합이 당사자인 두 기관과 사전협의 없이 발표된 것으로 확인됐다. 다만 이들 기관장은 정부 정책에 협조한다는 원칙엔 공감하면서도 통합에 따른 시너지와 재무구조, 상장사 가스공사 주주보호 등을 충분히 검토해야 한다는 신중한 입장을 보였다. 국회 산업통상자원중소벤처기업위원회는 19일 한국가스공사 본사(대구 동구 소재)에서 가스공사와 석유공사 등을 피감기관으로 한 국정감사를 진행했다."
     }
   ]
 }
