@@ -1,7 +1,7 @@
 {
   "date": "2026-10-20",
-  "generatedAt": "2026-10-21T00:09:41.815Z",
-  "articleCount": 137,
+  "generatedAt": "2026-10-22T00:38:32.064Z",
+  "articleCount": 138,
   "articles": [
     {
       "id": "e8d7537b-7201-4070-8192-5ffb2b2c4bc7",
@@ -2671,6 +2671,23 @@
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20261020023258742",
       "collectedAt": "2026-10-21T00:09:01.524Z",
       "bodySnippet": "현지 마이크로그리드 기술 실증·사업화 추진… 사완나켓주와 에너지 협력 강화 ▲나주시는 20일 라오스 비엔티안에서 '한-라오스 에너지국제공동 연구개발 착수보고회 및 비즈니스 포럼'을 개최하고, 사완나켓주와 에너지산업 및 경제협력 업무협약을 체결했다고 밝혔다. 제공=나주시 나주=에너지경제신문 문남석기자 나주시 에너지기업들이 라오스에서 국제공동 연구개발(R&D)에 착수하고 현지 지방정부와 협력체계를 구축하며 동남아시아 시장 진출에 속도를 내고 있다. 나주시는 20일 라오스 비엔티안에서 '한-라오스 에너지국제공동 연구개발 착수보고회 및 비즈니스 포럼'을 개최하고, 사완나켓주와 에너지산업 및 경제협력 업무협약(MOU)을 체결했다고 밝혔다. 이번 행사는 지난 6월 정부의 에너지국제공동 연구개발 공모사업에 선정된 지역기업들의 사업 추진을 본격화하고, 현지 기술 실증을 바탕으로 기술교류와 투자, 사업화 기회를 확대하기 위해 마련됐다. 연구개발 사업에는 나주 소재 그린이엔에스와 다온그리드를 비롯해 현대솔라텍, 에너지밸리기업개발원, 성균관대학교 등이 참여한다. 이들 기관은 라오스 마을과 산업시설의 전력환경에 적합한 마이크로그리드 기술을 개발하고 현지에서 실증할 계획이다. 이를 통해 참여기업들은 해외사업 수주에 필요한 기술 실적과 현지 사업 경험을 확보하고, 향후 동남아시아 시장으로 사업 영역을 넓힐 수 있는 기반을 마련할 방침이다. 이번 포럼에는 기존 연구개발 참여기관 외에도 나주 에너지기업 9개사가 추가로 참여해 협력 범위를 확대했다. 기업들은 라오스의 에너지산업과 투자환경을 살펴보고 현지 정부기관 및 기업 관계자들과 만나 기술교류와 투자, 공동사업 추진 가능성을 논의했다. 라오스 투자진흥 관련 기관과 전력공사, 국가상공회의소 등 주요 기관 관계자들도 참석해 현지 에너지 현안을 공유하고 한국 기업의 진출과 투자 확대를 위한 협력방안을 모색했다. 나주시는 기업 간 교류가 실질적인 투자와 사업화로 이어질 수 있도록 사완나켓주와 별도의 업무협약도 체결했다. 협약에는 태양광과 에너지저장장치(ESS), 스마트그리드, 마이크로그리드 등 에너지 신산업 분야의 기술교류와 공동 실증사업 추진, 산업단지 및 특별경제구역(SEZ)을 활용한 기업 진출과 투자 지원 등이 담겼다. 협약 이행을 뒷받침하기 위해 한라산업문화교류협회(KLICEA)와 에너지밸리기업개발원(EVEDI)도 지원기관으로 참여한다. 두 기관은 양 지역 기업 간 교류와 기술협력, 현지 네트워크 구축, 후속 사업 발굴 등을 지원할 예정이다. 나주시는 라오스에서 확보한 기술 실증 경험과 협력 네트워크를 바탕으로 베트남과 태국 등 동남아시아 시장으로 진출 범위를 확대하고, 지역 에너지기업의 수출과 해외사업 수주 기회를 넓혀갈 계획이다. 윤병태 나주시장은 “국제공동 연구개발 사업 선정으로 시작된 지역 에너지기업의 해외진출 노력이 현지 착수보고회와 사완나켓주 업무협약을 통해 기술 실증과 사업화 단계로 나아가고 있다\"며 “현지에서 확보한 기술 실적과 협력 네트워크가 실질적인 투자와 해외사업 수주로 이어지도록 적극 뒷받침하겠다\"고 말했다. <"
+    },
+    {
+      "id": "c90f65b4-6d21-4eeb-ba2e-528954792330",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "보고서: 여름철 전력 수요가 높은 주들, 히트펌프로 비용 절감 기대",
+      "titleOriginal": "Summer-peaking states could save big with heat pumps, report says",
+      "summary": "RMI의 보고서에 따르면 미국 내 여름철 전력 수요가 집중되는 주에서 히트펌프를 전면 도입할 경우 주거용 전기 요금을 13%까지 절감할 수 있을 것으로 전망됩니다. 이는 1980년부터 2000년까지 나타났던 전기 수요 증가와 가격 하락의 선순환 구조를 재현하는 데 기여할 것으로 기대됩니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-10-20T17:31:16.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/heat-pumps-electric-rates-grid-utilization-rmi/833570/",
+      "collectedAt": "2026-10-22T00:05:56.490Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/B_kxV6fDok3Mm2PvJ5BJLy4dwS-iK39ItZwenr7hYjE/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNDM4MTM1Nzg3LmpwZw==.webp\"/></div></figure><p>From 1980 to 2000, electricity demand rose while prices dropped. Heat pumps could help do that again, according to a report from RMI that estimates full deployment&nbsp;could reduce U.S. residential electric rates by 13% in summer-peaking states.</p>"
     }
   ]
 }
