@@ -1,7 +1,7 @@
 {
   "date": "2026-10-24",
-  "generatedAt": "2026-10-24T00:07:06.965Z",
-  "articleCount": 2,
+  "generatedAt": "2026-10-24T23:03:17.794Z",
+  "articleCount": 19,
   "articles": [
     {
       "id": "c34782ad-ddd0-4fd9-9782-b4b28719ff48",
@@ -39,6 +39,338 @@
       "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=204359",
       "collectedAt": "2026-10-23T23:56:30.920Z",
       "bodySnippet": "[에너지데일리 조남준 기자 ] 건축용 그라스울 샌드위치패널의 단열성능 평가방식을 둘러싼 논란이 자재 인증을 넘어 건축물의 에너지성능과 설계 적정성 문제로 확산하고 있다.핵심은 그라스울 보온판을 절단해 섬유 방향을 바꿔 사용하는 샌드위치패널 심재에 가공 이전 보온판의 열전도율 시험성적서를 그대로 적용할 수 있느냐다. 국가기술표준원이 두 제품을 동일하게 보기 어렵고 보온판 시험성적서를 패널 심재에 적용할 수 없다는 취지의 판단을 내놓은 가운데 실제 시험에서도 열전도율 차이가 확인됐다는 주장이 제기됐다.특히 제시된 시험값을 현행 건축물"
+    },
+    {
+      "id": "9671c2ad-0887-46c3-b5cf-a457ddf33b25",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "2026 인도 재생에너지 엑스포: 3가지 핵심 요약",
+      "titleOriginal": "Renewable Energy India Expo 2026: Three key takeaways",
+      "summary": "인도 그레이터 노이다에서 개최된 최대 규모의 재생에너지 박람회에서 인도 태양광 산업의 급격한 성장세가 확인되었습니다. 현재 인도 시장은 대규모 투자와 함께 전력망 업그레이드 및 태양광 부품 공급망 현지화에 집중하며 지속적인 확장을 이어가고 있습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-24T12:43:58.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/10/24/renewable-energy-india-expo-2026-three-key-takeaways/",
+      "collectedAt": "2026-10-24T23:00:07.054Z",
+      "bodySnippet": "<p>India’s largest renewable energy trade show returned to Greater Noida, outside of Delhi, this week. At the three day event, pv magazine took in a national solar industry that has reached enormous proportions, and continues to grow with huge investments still going into building new solar installations, upgrading grids and adding, and ramping up a localized supply chain for many of the components these projects rely on.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/10/24/renewable-energy-india-expo-2026-three-key-takeaways/\">Renewable Energy India Expo 2026: Three key takeaways</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "5f1c849f-5475-4f1f-8ce2-fd17a23cdfc5",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "Gritt Robotics, AI 지원 로봇으로 축소되는 태양광 인력 보강",
+      "titleOriginal": "Gritt Robotics brings AI-assisted robotics to bolster shrinking solar workforce",
+      "summary": "캘리포니아 기반의 Gritt Robotics는 AI 지원 로봇을 활용하여 줄어드는 태양광 인력 문제를 해결하고 있습니다. 이 회사는 향후 2년 내에 최고 EPC 업체들과 협력하여 6백만 개의 태양광 패널을 설치할 계획입니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-24T09:30:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/10/24/gritt-robotics-brings-ai-assisted-robotics-to-bolster-shrinking-solar-workforce/",
+      "collectedAt": "2026-10-24T23:00:27.709Z",
+      "bodySnippet": "<p>California firm working with top EPCs to install six million solar panels in the next two years.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/10/24/gritt-robotics-brings-ai-assisted-robotics-to-bolster-shrinking-solar-workforce/\">Gritt Robotics brings AI-assisted robotics to bolster shrinking solar workforce</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "2bdc47ac-d23a-46e1-aff1-c09c69cfe000",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "이탈리아, 1월-9월 4.83 GW의 태양광 구축",
+      "titleOriginal": "Italy deploys 4.83 GW of PV in January-September",
+      "summary": "이탈리아는 2026년 1월부터 9월까지 4.83 GW의 신규 태양광 발전 용량을 연결하여, 누적 설치 용량이 9월 말 기준 48.35 GW에 달했습니다. 신규 추가량의 46%는 유틸리티 규모 프로젝트였으며, 국가의 누적 배터리 저장 용량은 20 GWh에 육박했습니다. 이 통계는 Italia Solare에서 발표했습니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-24T09:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/10/24/italy-deploys-4-83-gw-of-pv-in-january-september/",
+      "collectedAt": "2026-10-24T23:00:38.392Z",
+      "bodySnippet": "<p>Italy connected 4.83 GW of new solar capacity in the first nine months of 2026, bringing cumulative installed capacity to 48.35 GW at the end of September. Utility-scale projects accounted for 46% of new additions, while the country's cumulative battery storage capacity approached 20 GWh, according to new statistics from Italia Solare.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/10/24/italy-deploys-4-83-gw-of-pv-in-january-september/\">Italy deploys 4.83 GW of PV in January-September</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "ec409bce-b87c-45af-b70f-6332f868b976",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "모잠비크, UAE 잠푸르 그룹에 소규모 태양광 패널 공장 운영 맡겨",
+      "titleOriginal": "Mozambique entrusts small solar panel factory to UAE’s Jampur Group",
+      "summary": "UAE 기반 잠푸르 그룹(Jampur Group)이 기술적 한계와 시장 경쟁으로 인해 2022년경 생산을 중단했던 모잠비크의 벨룰루아네 태양광 패널 공장(Beluluane Solar Panel Factory) 관리 및 현대화를 맡게 되었다. 이 이니셔티브는 국내 태양광 패널 제조를 재활성화하고 경쟁력을 강화하며 지역 고용 기회를 창출하는 것을 목표로 한다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-24T08:45:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/10/24/mozambique-entrusts-solar-panel-factory-to-uaes-jampur-group/",
+      "collectedAt": "2026-10-24T23:00:43.223Z",
+      "bodySnippet": "<p>UAE-based Jampur Group has been selected to manage and modernize Mozambique’s Beluluane Solar Panel Factory, which suspended production around 2022 due to technological limitations and market competition. The initiative aims to revive domestic solar panel manufacturing, improve competitiveness and create local employment opportunities.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/10/24/mozambique-entrusts-solar-panel-factory-to-uaes-jampur-group/\">Mozambique entrusts small solar panel factory to UAE&#8217;s Jampur Group</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "c7303149-c817-4428-863e-3092109750eb",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "‘당신의 차례가 오면, 뒤따라오는 여성을 위해 문을 열어주세요’",
+      "titleOriginal": "‘When it is your turn, open the door for the woman coming next’",
+      "summary": "유럽의 'Women in Solar+'는 이탈리아 독립 재생에너지 컨설턴트 줄리아 무이아의 목소리를 통해 에너지 부문의 회복탄력성을 위한 다양성과 포용적 리더십의 중요성을 강조합니다. 재생에너지 산업이 지속 가능한 미래를 구축하기 위해서는 여성 인재를 양성하고 다양한 배경의 목소리를 반영하는 혁신적인 조직 문화가 필수적입니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-24T08:30:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/10/24/when-it-is-your-turn-open-the-door-for-the-woman-coming-next/",
+      "collectedAt": "2026-10-24T23:00:48.867Z",
+      "bodySnippet": "<p>This week, Women in Solar+ Europe gives voice to Italian independent renewable energy consultant Giulia Muia. She says a resilient energy sector depends not only on diversified energy sources but also on diverse voices, perspectives, and inclusive leadership that drive innovation and better decisions.<br />\nEmpowering women, listening to different experiences, and creating space for emerging talent are essential to building a stronger, more sustainable renewable energy future.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/10/24/when-it-is-your-turn-open-the-door-for-the-woman-coming-next/\">&#8216;When it is your turn, open the door for the woman coming next&#8217;</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "c1c76a94-00ee-485f-83d4-9119c71bc9bd",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "차량, 방음벽 및 선박용 유리 없는 유럽형 태양광 모듈",
+      "titleOriginal": "Glass-free European photovoltaic modules for vehicles, noise barriers and boats",
+      "summary": "유럽의 한 연구 컨소시엄이 섬유 강화 폴리머 복합재를 활용한 유리 없는 태양광 모듈을 개발하고 있습니다. 이 기술은 차량이나 선박과 같은 곡면 및 복합 표면에 적합하며, 2029년 5월까지 산업적 타당성을 입증하는 것을 목표로 합니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-24T08:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/10/24/glass-free-european-photovoltaic-modules-for-vehicles-noise-barriers-and-boats/",
+      "collectedAt": "2026-10-24T23:00:50.074Z",
+      "bodySnippet": "<p>A European research consortium is developing glass-free photovoltaic modules using fiber-reinforced polymer composites. The technology could enable lighter solar modules for curved and complex surfaces, including vehicles, ships and infrastructure. The project aims to demonstrate industrial feasibility by May 2029.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/10/24/glass-free-european-photovoltaic-modules-for-vehicles-noise-barriers-and-boats/\">Glass-free European photovoltaic modules for vehicles, noise barriers and boats</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "e5243628-d28b-424d-ac5a-fecfdc25fa13",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "베트남, 2026년 12월까지 주거용 옥상 태양광 인센티브 도입 지시",
+      "titleOriginal": "Vietnam orders provinces to introduce rooftop solar incentives by December 2026",
+      "summary": "베트남 정부는 2027년부터 2030년까지의 안정적인 전력 공급을 위해 각 지방 당국에 2026년 12월까지 주거용 옥상 태양광 설치 지원 정책을 마련하도록 지시했습니다. 또한, 베트남 북부 지역을 중심으로 배터리 에너지 저장 시스템(BESS)의 보급을 가속화할 방침입니다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-24T07:30:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/10/24/vietnam-orders-provinces-to-introduce-rooftop-solar-incentives-by-december-2026/",
+      "collectedAt": "2026-10-24T23:00:53.904Z",
+      "bodySnippet": "<p>Vietnam has instructed provincial and municipal authorities to introduce support policies for residential rooftop solar installations by the end of December 2026, as part of efforts to secure electricity supplies between 2027 and 2030. The government is also pushing for faster deployment of battery energy storage systems, particularly in northern Vietnam.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/10/24/vietnam-orders-provinces-to-introduce-rooftop-solar-incentives-by-december-2026/\">Vietnam orders provinces to introduce rooftop solar incentives by December 2026</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "86dc660d-aaae-4f88-a603-dc6da613803c",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "태양광 모터홈과 배터리 저장장치로 아프리카 10개국을 여행한 커플",
+      "titleOriginal": "Couple travels through 10 African countries in solar-powered motorhome with battery storage",
+      "summary": "브라질의 한 커플이 지붕형 태양광 패널과 15.36kWh 용량의 리튬 배터리를 탑재한 모터홈으로 아프리카 10개국을 횡단했다. pv magazine Global에 따르면, 이들은 태양광 발전과 발전기 충전 시스템을 활용하여 외부 전력 의존 없이 가전제품과 위성 인터넷을 사용하는 독립형 에너지 여행을 실현했다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-24T07:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/10/24/couple-travels-through-10-african-countries-in-solar-powered-motorhome-with-battery-storage/",
+      "collectedAt": "2026-10-24T23:00:58.070Z",
+      "bodySnippet": "<p>A Brazilian couple traveled through 10 African countries in a motorhome equipped with rooftop solar panels, 15.36 kWh of lithium battery storage, and alternator charging. The system powers household appliances and satellite internet, enabling off-grid travel with minimal reliance on external electricity connections.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/10/24/couple-travels-through-10-african-countries-in-solar-powered-motorhome-with-battery-storage/\">Couple travels through 10 African countries in solar-powered motorhome with battery storage</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "3216e29b-6d56-48d4-b29a-87cbb35a7a70",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "호주 2.2GW 스노위 2.0 양수 발전 프로젝트 비용 또다시 증가",
+      "titleOriginal": "Australia’s 2.2 GW Snowy 2.0 pumped hydro cost estimate rises again",
+      "summary": "호주의 2.2GW 규모 스노위 2.0(Snowy 2.0) 양수 발전 프로젝트의 예상 비용이 최대 250억 호주 달러(약 158억 달러)로 다시 한번 상향 조정되었습니다. 주 계약업체는 이번 비용 증가와 함께 프로젝트 완공 및 가동 시점을 2029년으로 재설정했습니다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-10-24T06:30:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/10/24/australias-2-2-gw-snowy-2-0-pumped-hydro-cost-estimate-rises-again/",
+      "collectedAt": "2026-10-24T23:01:03.808Z",
+      "bodySnippet": "<p>Projects &#38; Applications<br />\nAustralia’s 2.2 GW Snowy 2.0 pumped hydro cost estimate rises again<br />\nThe principal contractor for Australia’s 2.2 GW Snowy 2.0 pumped hydro storage project has revised the expected cost to AUD 22.5 billion ($15.8 billion) to AUD 25 billion, with commissioning scheduled for 2029. </p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/10/24/australias-2-2-gw-snowy-2-0-pumped-hydro-cost-estimate-rises-again/\">Australia’s 2.2 GW Snowy 2.0 pumped hydro cost estimate rises again</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "0da3675e-d553-48e8-a6c9-12bc8f2bc35b",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미국 주택용 태양광 가격 3.2% 상승, 제3자 소유 방식 확산",
+      "titleOriginal": "U.S. residential solar prices rise 3.2% as third-party ownership gains ground",
+      "summary": "미국 주택용 태양광 가격이 연방 세액 공제 만료의 영향으로 2026년 상반기 동안 3.2% 상승했습니다. 에너지세이지(EnergySage)의 보고서에 따르면, 설치 비용 증가와 경제적 환경 변화 속에서 제3자 소유 금융 모델이 시장에서 더욱 주목받고 있습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-24T06:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/10/24/residential-solar-prices-rise-3-2-as-third-party-ownership-gains-ground/",
+      "collectedAt": "2026-10-24T23:01:06.121Z",
+      "bodySnippet": "<p>Residential solar prices climbed 3.2% in the first half of 2026 as installers adjusted to the expiration of the federal residential solar tax credit. EnergySage's latest marketplace report highlights a surge in third-party ownership financing, rising installation costs, and shifting equipment market shares as the industry navigates a changing economic landscape.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/10/24/residential-solar-prices-rise-3-2-as-third-party-ownership-gains-ground/\">U.S. residential solar prices rise 3.2% as third-party ownership gains ground</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "117eec61-7ee2-4d47-b8dc-4e3db7d5d550",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "스폰서 기사: GF, 직접 액체 냉각 효율 극대화를 위한 지능형 다중 제어 밸브로 LiquidCore 포트폴리오 완성",
+      "titleOriginal": "Sponsored: GF completes LiquidCore portfolio with intelligent Multi Control Valve to maximize direct liquid cooling efficiency",
+      "summary": "GF(Georg Fischer)가 지능형 다중 제어 밸브(Multi Control Valve)를 출시하며 단일 소스 액체 냉각 시스템인 LiquidCore의 포트폴리오를 완성했습니다. 이 기술은 데이터 센터 등 고전력 환경에서 직접 액체 냉각(Direct Liquid Cooling) 효율을 극대화하여 운영 최적화를 지원합니다.",
+      "topics": [
+        "정책·규제"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-10-24T07:00:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/product-news/gf-completes-liquidcore-portfolio-with-intelligent-multi-control-valve-to-maximize-direct-liquid-cooling-efficiency/",
+      "collectedAt": "2026-10-24T23:01:23.847Z",
+      "bodySnippet": "<p data-block-key=\"ryrsp\">The introduction of the Multi Control Valve serves as the vital active intelligence layer that completes GF’s single-source LiquidCore system offering</p>"
+    },
+    {
+      "id": "806b766e-98ba-41e8-bd40-04d8efcf2ed0",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "선그로우 \"현지화와 신뢰성으로 유럽 에너지 전환 선도\"",
+      "titleOriginal": null,
+      "summary": "선그로우는 BNEF 런던 서밋에서 현지화와 신뢰성을 기반으로 유럽 에너지 전환을 선도하겠다는 비전을 제시했다. 안전하고 신뢰성 있는 전력 시스템 구축을 위해 2027년까지 폴란드에 2억 3천만 유로 규모의 제조 시설을 건설 중이며, 배터리 에너지 저장 시스템(BESS) 투자 시 초기 비용보다 제품의 평생 성능과 운영 신뢰성을 강조했다. 또한, 전력 시스템 유연성 강화를 위한 그리드 형성 능력 및 블랙스타트 기능 등 첨단 기술 도입 방안도 논의되었다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-24T13:34:15.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=304625",
+      "collectedAt": "2026-10-24T23:01:49.661Z",
+      "bodySnippet": "\r\n<img alt=\"선그로우는 23일(현지 시간) 영국 런던에서 열린 '블룸버그NEF(BNEF) 런던 서밋'에 참여해 유럽의 에너지 전환에 대한 비전과 전망을 공유했다. /출처 선그로우\" src=\"https://cdn.todayenergy.kr/news/photo/202610/304625_177483_3323.jpg\" />\r\n선그로우는&nbsp;23일(현지 시간) 영국 런던에서 열린 &#39;블룸버그NEF(BNEF) 런던 서밋&#39;에 참여해 유럽의 에너지 전환에 대한 비전과 전망을 공유했다. /출처 선그로우\r\n\r\n\r\n\r\n[투데이에너지 장재진 기자] 세계적인 태양광 인버터 및 에너지 저장 시스템(ESS) 제공업체 선그로우(Sungrow)는&nbsp;23일(현지 시간) 영국 런던에서 열린 &#39;블룸버그NEF(BNEF) 런던 서밋&#39;에 참여해 유럽의 에너지 전환에 대한 비전과 전망을 공유했다고 밝혔다.\r\n\r\n\r\n\r\n이번 서밋에서 선그로우는 안전하고 저렴하며 회복력 있는 에너지 시스템 구축을 위한 청정기술 제조, 현지화, 에너지 저장의 중요성을 집중적으로 논의했다.\r\n\r\n■ 현지화와 신뢰 기반의 전력망 구축 강조\r\n\r\n숀 시(Shawn Shi) 선그로우 유럽(Sungrow Europe)&nbsp;사장은 스포트라이트 연설을 통해 &quot;유럽의 에너지 전환은 단순히 재생에너지 용량을 늘리는 것을 넘어, 안전하고 신뢰할 수 있는 전력 시스템을 구축하는 방향으로 나아가야 한다&quot;고 강조했다.\r\n\r\n선그로우는 2011년 유럽 시장 진출 이후 현재 900명 이상의 현지 인력을 고용하며 깊은 신뢰를 쌓아왔다. 특히 공급망 회복력을 높이기 위해 폴란드에 2억 3천만 유로 규모의 제조 시설을 건설 중이며, 오는 2027년부터 본격적인 생산에 돌입할 예정이다.\r\n\r\n숀 사장은 전력망의 신뢰성 유지와 함께 사이버 보안, 고객의 데이터 관리, 유럽 현지 파트너들과의 긴밀한 협력이 핵심 우선순위가 될 것이라고 덧붙였다.\r\n\r\n■ 유럽 클린테크 경쟁력과 &#39;유럽산&#39; 시험대 논의\r\n\r\n이어 진행된 패널 토론에서는 하비에르(Javier) 선그로우 유럽 부사장이 참석해 산업계 및 정책 리더들과 함께 유럽의 청정기술 제조 기반 강화 방안을 논의했다. 참가자들은 글로벌 공급망 협력과 지역 현지화 정책 사이의 균형을 맞추는 한편, 예측 가능한 규제, 숙련된 인력, 효율적인 허가 절차 등이 경쟁력 있는 유럽 클린테크 산업을 구축하는 필수 조건이라는 데 뜻을 모았다.\r\n\r\n■ 배터리 에너지 저장 시스템(BESS)의 미래와 투자 전략\r\n\r\n선그로우가 주최한 &#39;유럽에서 BESS의 전망&#39; 주제 점심 세미나에서는 제임스 리(James Li) 부사장을 비롯해 BW ESS, 글로벌 태양광 위원회, 누빈 인프라스트럭처 등 업계 최고 권위자들이 모여 유럽 배터리 저장 시장의 트렌드를 진단했다.\r\n\r\n이 자리에서는 에너지 저장 장치 투자 시 초기 비용보다는 제품의 평생 성능, 운영 신뢰성, 서비스 지원이 프로젝트의 경제성과 투자자 신뢰를 결정짓는 핵심 요소라는 점이 강조됐다. 또한, 전력 시스템의 유연성을 높이기 위한 그리드 형성 능력(Grid-forming) 및 블랙스타트(Black-start) 기능 등 첨단 기술의 도입 방안도 함께 다루어졌다.\r\n\r\n선그로우 관계자는 &quot;이번 서밋을 통해 유럽 내 이해관계자들과의 협력을 더욱 공고히 하고, 신뢰할 수 있는 청정에너지 보급과 지역 역량 강화를 위해 지속해서 기여하겠다&quot;고 밝혔다.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+    },
+    {
+      "id": "a276f381-9d8d-4bab-a975-bfb92e3bf7bd",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "이호현 차관, 재생E 4대 전략 제시",
+      "titleOriginal": null,
+      "summary": "이호현 차관은 재생에너지 분야의 지속 가능한 성장을 위한 4대 전략을 제시했다. 본문 내용이 제공되지 않아 구체적인 전략명, 정책 방향, 또는 관련 수치 등은 파악하기 어렵다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-10-24T19:24:06.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71223",
+      "collectedAt": "2026-10-24T23:01:59.164Z",
+      "bodySnippet": ""
+    },
+    {
+      "id": "9a0f9602-8ede-47d0-b52b-f3235109b1df",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "해상풍력 키우고 중동 진출…소동욱 서부발전 실장 ‘산업포장’",
+      "titleOriginal": null,
+      "summary": "서부발전 소동욱 실장이 해상풍력 확대와 중동 지역 에너지 시장 진출에 기여한 공로로 산업포장을 수상했다. 이는 국내외 에너지 시장에서의 활동과 신재생에너지 개발의 중요성을 나타낸다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-24T18:19:00.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71222",
+      "collectedAt": "2026-10-24T23:02:05.031Z",
+      "bodySnippet": ""
+    },
+    {
+      "id": "b77710bc-7f1d-48f5-a40f-c2e09775577c",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "‘재생에너지의 날’ 법정기념일 됐다…정부 주최 첫 기념식 열려",
+      "titleOriginal": null,
+      "summary": "재생에너지의 중요성을 알리기 위한 ‘재생에너지의 날’이 법정기념일로 지정되었으며, 정부 주최로 첫 기념식이 개최되었다. 이는 재생에너지 정책 추진 및 국민 인식 제고를 위한 제도적 기반이 마련되었음을 의미한다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-24T16:44:44.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71220",
+      "collectedAt": "2026-10-24T23:02:10.121Z",
+      "bodySnippet": ""
+    },
+    {
+      "id": "e2b40462-86b3-4c33-8ed0-8eec96d3d393",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "재생에너지의 날…7년 만에 법정기념일로 처음 열려",
+      "titleOriginal": null,
+      "summary": "2019년 민간 주도로 시작된 재생에너지의 날이 7년 만에 법정기념일로 지정되었다. 기후에너지환경부는 재생에너지 보급 확대와 관련 산업 육성을 국가 에너지 대전환 과제로 확산하기 위해 한국에너지공단 등과 공동 주관으로 23일 코엑스에서 첫 기념행사를 개최했다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-24T09:18:00.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71219",
+      "collectedAt": "2026-10-24T23:02:14.663Z",
+      "bodySnippet": "2019년 민간 주도로 시작된 재생에너지의 날이 7년 만에 법정기념일로 지정됐다. 기후에너지환경부(장관 김성환)는 재생에너지의 날을 맞아 재생에너지 보급 확대와 관련 산업 육성을 국가 차원의 에너지 대전환 과제로 확산하기 위해 한국에너지공단·한국재생에너지단체총연합회 공동 주관으로 23일 코엑스(서울 강남구 소재)에서 법정기념일 지정 이후 첫 번"
+    },
+    {
+      "id": "4bf5516e-0db9-4b9e-9ffc-b3180d1cd870",
+      "source": "에너지경제신문",
+      "sourceId": "ekn",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "오픈에너지, 태양광 견적 비교 플랫폼 ‘태양이’ 내달 출시",
+      "titleOriginal": null,
+      "summary": "한국전력공사 사내벤처 오픈에너지가 다음 달 태양광 설치 견적 비교 플랫폼 ‘태양이’를 출시한다. 이 플랫폼은 주택·건물·공장의 자가소비형 태양광 설비에 대해 여러 시공업체의 가격, 시공 조건, 제품 정보 등을 비교하고 설치 후 설비 관리 기능도 제공하여 고객과 시공사 간 정보 격차를 해소한다. 정부의 분산에너지 확대 정책에 따라 자가용 태양광 시장은 현재 5GW에서 2040년 16GW까지 성장할 전망이다.",
+      "topics": [
+        "시장·가격 동향",
+        "정책·규제"
+      ],
+      "primaryTopic": null,
+      "publishedAt": "2026-10-24T09:00:00.000Z",
+      "originalUrl": "https://www.ekn.kr/web/view.php?key=20261023021040334",
+      "collectedAt": "2026-10-24T23:02:36.847Z",
+      "bodySnippet": "태양광 설치비·시공 사례 한눈에 비교…가정·기업 선택 부담 덜어 ▲가정에 설치된 자가용 태양광 설비의 모습. 사진= 오픈에너지 한국전력공사 사내벤처에서 출발한 오픈에너지가 자가용 태양광 발전설비의 견적을 비교할 수 있는 플랫폼을 선보인다. 태양광 설치에 관심 있는 기업이나 가정은 여러 시공업체의 가격과 시공 조건을 한곳에서 비교할 수 있게 될 전망이다. 오픈에너지는 다음 달 말 태양광 통합 플랫폼 '태양이'를 출시한다고 23일 밝혔다. 태양이는 주택과 건물, 공장 등의 지붕이나 옥상에 설치해 생산한 전기를 직접 사용하는 자가소비형 태양광을 대상으로 한다. 이용자는 여러 태양광 시공업체의 정보와 실제 시공 사례를 확인하고 견적 금액과 주요 공사 조건을 비교할 수 있다. 태양광 패널과 인버터 등 주요 제품 정보와 보증 조건, 시공 이력 등도 확인할 수 있다. 오픈에너지는 소규모 자가용 태양광 시장에서 소비자가 업체별 가격과 시공 조건을 직접 비교하기 어렵다는 점에 주목했다. 설치비용과 사용 제품, 시공 경험 등이 업체마다 다르지만 전문지식이 없는 소비자가 여러 업체의 정보를 일일이 확인하고 적정한 조건을 판단하기 쉽지 않다는 것이다. 시공업체 입장에서도 기존 시공 실적과 전문성 등 신뢰할 수 있는 정보를 고객에게 제공해 새로운 고객을 확보할 수 있을 것으로 회사 측은 기대하고 있다. 오픈에너지는 현재 약 18개 태양광 시공사를 초기 협력 대상으로 확보하고 서비스 출시를 준비하고 있다. 설치 이후 설비 관리 기능도 제공한다. 신규 설비뿐 아니라 기존 태양광 설비도 등록해 제품명과 설치연월, 보증 조건 등을 기록할 수 있다. 점검 전후 사진과 수리 내역도 설비별로 관리한다. 향후에는 발전 현황 확인과 이상 징후 파악 등의 기능도 추가할 예정이다. 자가용 태양광 시장은 정부의 분산에너지 확대 정책에 따라 더욱 커질 전망이다. 정부는 현재 약 5기가와트(GW) 규모인 자가용 태양광 설비를 2030년 8GW, 2035년 12GW를 거쳐 2040년 16GW까지 확대하는 방안을 제시했다. 이서인 오픈에너지 대표는 “태양광을 잘 모르는 고객도 실제 시공 사례와 견적 조건을 충분히 비교하고 안심하고 선택할 수 있는 환경을 만들고 싶었다\"며 “태양이를 통해 고객과 시공사 사이의 정보 격차를 줄여 나가겠다\"고 말했다. <"
     }
   ]
 }
