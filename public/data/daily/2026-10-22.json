@@ -1,7 +1,7 @@
 {
   "date": "2026-10-22",
-  "generatedAt": "2026-10-23T00:26:17.129Z",
-  "articleCount": 136,
+  "generatedAt": "2026-10-24T00:07:06.964Z",
+  "articleCount": 138,
   "articles": [
     {
       "id": "ef575b47-e2f7-42d7-bd14-26512952743e",
@@ -2624,6 +2624,46 @@
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71199",
       "collectedAt": "2026-10-23T00:25:06.091Z",
       "bodySnippet": "AI 데이터센터가 빠르게 늘어나면서 냉각기술에 대한 관심이 높아지고 에너지 전환에 따른 히트펌프와 친환경 냉매시장에도 새로운 변화가 일어나는 가운데 미래 냉동공조산업을 조망할 수 있는 시간이 마련됐습니다. 지난 21일 냉동공조산업협회와 에너지코리아는 국제냉난방공조전 2026 부대행사로 쿨링 더 퓨처 오픈포럼을 개최했습니다."
+    },
+    {
+      "id": "0065e5a5-119c-4018-9371-7d8e17da33d8",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미 법무부, 해상 풍력 허가 취소 움직임… 상원 인허가 법안에 타격 우려",
+      "titleOriginal": "DOJ moves to revoke offshore wind permits, potentially threatening Senate permitting bill",
+      "summary": "미 법무부가 해상 풍력 발전 허가 취소를 추진하면서 관련 인허가 법안 처리에 난항이 예상됩니다. 셸던 화이트하우스 상원의원은 이번 조치가 초당적 인허가 법안 합의를 무산시킬 수 있다고 경고했습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-22T15:26:51.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/trump-administration-asks-courts-to-revoke-permits-for-offshore-wind-farms/833735/",
+      "collectedAt": "2026-10-23T23:52:00.815Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/ypqt2bhw-P6uZWp8YiopJQoc8hOl6zSpYIpxyLgNLW0/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMTMxMjM2NzcxLmpwZw==.webp\"/></div></figure><p>Sen. Sheldon Whitehouse, D-R.I., one of the senators sponsoring the Bipartisan American Affordability and Jobs Act, said in a statement, &ldquo;This is how you blow up a permitting deal.&rdquo;</p>"
+    },
+    {
+      "id": "1f655499-7d0c-4ea0-a085-2e32de11150d",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "구글, PJM 가상 발전소 규모 1GW 이상으로 대폭 확대",
+      "titleOriginal": "Google supersizes PJM virtual power plant to more than 1 GW",
+      "summary": "구글은 PJM 시장 내 가상 발전소(VPP) 용량을 1GW 이상으로 확대하며 분산형 에너지 자원의 중요성을 입증했습니다. PJM의 수요 반응 수익은 2024년 대비 2025년에 240% 급증하여 5억 2,360만 달러를 기록했으며, 이 중 88%가 비상 수요 반응에서 발생했습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-22T14:42:49.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/google-voltus-vpp-virtual-power-pjm/833717/",
+      "collectedAt": "2026-10-23T23:52:04.884Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/7DLcfcKf0cY5Xti5aPJ8rQj3oQaVe2gmM0-vcH3pOno/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjcyMzk0OTgyLmpwZw==.webp\"/></div></figure><p>Such contracts&nbsp;signal a turning point for distributed resources in energy markets, industry sources say. Demand response revenue in PJM jumped 240% from 2024 to 2025, reaching $523.6 million; emergency demand response accounted for 88% of that.</p>"
     }
   ]
 }
