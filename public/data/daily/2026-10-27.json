@@ -1,7 +1,7 @@
 {
   "date": "2026-10-27",
-  "generatedAt": "2026-10-28T00:50:20.080Z",
-  "articleCount": 138,
+  "generatedAt": "2026-10-29T00:57:37.748Z",
+  "articleCount": 139,
   "articles": [
     {
       "id": "5540f92d-e27b-4626-a228-34dcdb2ffa86",
@@ -2660,6 +2660,26 @@
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71244",
       "collectedAt": "2026-10-28T00:48:53.834Z",
       "bodySnippet": "설계수명 40년을 채우고 가동을 멈춘 고리원전 3·4호기가 계속운전 허가를 받음에 따라 내년 상반기부터 순차적으로 재가동된다. 원자력안전위원회(위원장 최원호)는 27일 2026년도 17차 회의를 열고 고리원전 3·4호기(발전설비용량 1025MW×2기) 계속운전 허가안을 심의·의결했다."
+    },
+    {
+      "id": "4cf98c03-e112-4451-8887-f1a70f932fbf",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "호주 개발사, 1.2GW 육상 풍력 발전 단지에 9.5MW급 이상 터빈 도입 계획",
+      "titleOriginal": "Australian developer plans 9.5MW-plus turbines for 1.2GW onshore wind farm",
+      "summary": "호주의 한 개발사가 1.2GW 규모의 대규모 육상 풍력 발전 단지를 조성하기 위해 9.5MW 이상의 고출력 터빈을 도입할 계획입니다. 이번 프로젝트는 초대형 터빈을 활용해 발전 효율을 극대화하려는 전략적 움직임으로 평가됩니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-10-27T15:37:41.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1973574/australian-developer-plans-95mw-plus-turbines-12gw-onshore-wind-farm",
+      "collectedAt": "2026-10-29T00:42:15.343Z",
+      "bodySnippet": "Australian developer plans 9.5MW-plus turbines for 1.2GW onshore wind farm"
     }
   ]
 }
