@@ -1,7 +1,7 @@
 {
   "date": "2026-11-03",
-  "generatedAt": "2026-11-04T01:28:31.415Z",
-  "articleCount": 141,
+  "generatedAt": "2026-11-05T01:48:24.897Z",
+  "articleCount": 143,
   "articles": [
     {
       "id": "4ac1135e-65b1-4a52-9b31-275a3daa83f1",
@@ -2721,6 +2721,45 @@
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71337",
       "collectedAt": "2026-11-04T01:27:30.230Z",
       "bodySnippet": ""
+    },
+    {
+      "id": "a6f013a3-40e0-49ad-af26-e875dd70538e",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "캐터필러, 데이터 센터 수요 대응 위해 엔진 및 터빈 생산 확대",
+      "titleOriginal": "Caterpillar expands production of engines and turbines to meet data center demand",
+      "summary": "캐터필러는 데이터 센터의 전력 수요 급증에 대응하기 위해 엔진 및 터빈 생산을 확대하고 있습니다. 이러한 수요 증가에 힘입어 캐터필러의 3분기 주문 잔고는 전년 대비 두 배 가까이 증가한 780억 달러를 기록했습니다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-11-03T16:42:00.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/caterpillar-posts-highest-sales-quarter-ever-data-centers-q3-2026/873586/",
+      "collectedAt": "2026-11-05T01:28:01.945Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/PfcQp4x1pfy3Ik6XOFi_8OQgKpAUnA2rGvg0Mo3pn30/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy04NDQ4MTE3OC5qcGc=.webp\"/></div></figure><p>The heavy machinery and power equipment maker saw its order backlog reach $78 billion during the third quarter, almost double what it was a year ago.</p>"
+    },
+    {
+      "id": "468d2f60-6060-441b-9e1b-f0bfe9adc47f",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미 의회 판도 바꿀 선거에서 에너지 가격 부담이 유권자 최대 관심사로 부상",
+      "titleOriginal": "Energy affordability tops voter concerns in election set to shake up Congress",
+      "summary": "미 의회 선거를 앞두고 에너지 비용 부담이 유권자들의 핵심 관심사로 떠올랐습니다. Crux의 정책 책임자인 하산 나자르는 현재의 에너지 위기가 새로운 정책 변화를 이끌어낼 중요한 기회가 될 수 있다고 분석했습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-03T15:23:13.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/energy-affordability-voter-election-midterm-congress-energy-policy/873596/",
+      "collectedAt": "2026-11-05T01:28:05.789Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/PC6ngOxwVKEkGEX6d7ftEBoPZZdQlvhe7ROqf5sGoBk/g:nowe:0:0/c:3100:1751/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMzAzMzQ0NzgzLmpwZw==.webp\"/></div></figure><p>&ldquo;History shows us that energy crises create policy openings, and we think the conditions are probably in place for a window of policymaking,&rdquo; Hasan Nazar, head of policy at Crux, told Utility Dive.</p>"
     }
   ]
 }
