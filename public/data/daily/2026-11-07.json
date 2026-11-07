@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T00:59:07.870Z",
+  "articleCount": 1,
+  "articles": [
+    {
+      "id": "463333c5-506f-426f-8862-1ed5b6568dbc",
+      "source": "전자신문 (Energy)",
+      "sourceId": "etnews",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "[미리보는 소부장 테크페어]〈1〉ST, SiC·GaN 차세대 전력 반도체로 성장 동력 강화",
+      "titleOriginal": null,
+      "summary": "ST마이크로일렉트로닉스가 AI 확산에 따른 전력 반도체 수요 급증에 대응하기 위해 차세대 소재인 SiC와 GaN 역량을 강화하고 있다. 오는 20일 개최되는 '2026 글로벌 소재·부품·장비 테크페어'를 통해 기술 혁신과 공급망 전략을 제시할 예정이다.",
+      "topics": [
+        "운영 최적화",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "운영 최적화",
+      "publishedAt": "2026-11-07T00:00:00.000Z",
+      "originalUrl": "https://www.etnews.com/20261106000102",
+      "collectedAt": "2026-11-07T00:52:05.195Z",
+      "bodySnippet": "ST마이크로일렉트로닉스가 차세대 전력 반도체 시장 공략에 박차를 가한다. 인공지능(AI) 확산으로 급증한 전력 반도체 시장 수요에 대응하기 위해서다. 실리콘카바이드(SiC)와 질화갈륨(GaN) 등 차세대 전력 반도체 역량을 앞세워 기술 혁신부터 공급망 관리, 시장 확대까지 총력을 기울이고 있다. 한국산업기술기획평가원(Keit)과 전자신문이 공동 주최하고 산업통상부가 후원해 20일 서울 삼성동 섬유센터빌딩에서 개최되는 '2026 글로벌 소재·부품"
+    }
+  ]
+}
