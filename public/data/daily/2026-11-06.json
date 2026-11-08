@@ -1,7 +1,7 @@
 {
   "date": "2026-11-06",
-  "generatedAt": "2026-11-07T00:59:07.868Z",
-  "articleCount": 124,
+  "generatedAt": "2026-11-08T00:21:42.469Z",
+  "articleCount": 125,
   "articles": [
     {
       "id": "8178e4e8-67be-48f5-af2d-aac2e3f4ec33",
@@ -2401,6 +2401,25 @@
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71362",
       "collectedAt": "2026-11-07T00:58:20.026Z",
       "bodySnippet": "전기차와 이차전지 그리고 반도체 등 첨단산업에 필요한 핵심광물 해외 의존도를 낮추는 한편 안정적인 국내 확보를 위해 재자원화 산업 육성이 본격화됩니다. 5일 핵심광물재자원화포럼은 2026년도 정기총회를 열고 정부 정책 수립과 이행 지원, 지속적인 제도개선 등의 내용을 담은 2027년도 운영안을 상정해 의결했습니다."
+    },
+    {
+      "id": "46790445-8085-4072-842c-69b32b550ada",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "서부발전, 국가기술표준원 유휴부지 태양광 깐다",
+      "titleOriginal": null,
+      "summary": "한국서부발전과 국가기술표준원이 지난 5일 업무협약을 체결하고, 국가기술표준원 주차장, 옥상, 산책로 등 유휴부지를 활용한 태양광발전 사업을 추진하기로 했다. 이 사업은 공공부문 재생에너지 보급 확대를 목표로 유휴공간을 효율적으로 활용해 친환경 에너지 생산에 기여할 예정이다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-06T22:44:41.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71368",
+      "collectedAt": "2026-11-08T00:21:00.029Z",
+      "bodySnippet": "국가기술표준원 주차장·옥상·산책로 등 유휴공간이 태양광발전 부지로 활용된다. 한국서부발전(주)(사장 이정복)은 국가기술표준원과 공공부문 재생에너지 보급 확대를 위한 국가기술표준원 유휴부지 활용 태양광발전 사업 추진에 협력하기로 하고 지난 5일 업무협약을 체결했다."
     }
   ]
 }

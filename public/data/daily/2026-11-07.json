@@ -1,7 +1,7 @@
 {
   "date": "2026-11-07",
-  "generatedAt": "2026-11-07T00:59:07.870Z",
-  "articleCount": 1,
+  "generatedAt": "2026-11-08T00:21:42.467Z",
+  "articleCount": 17,
   "articles": [
     {
       "id": "463333c5-506f-426f-8862-1ed5b6568dbc",
@@ -22,6 +22,307 @@
       "originalUrl": "https://www.etnews.com/20261106000102",
       "collectedAt": "2026-11-07T00:52:05.195Z",
       "bodySnippet": "ST마이크로일렉트로닉스가 차세대 전력 반도체 시장 공략에 박차를 가한다. 인공지능(AI) 확산으로 급증한 전력 반도체 시장 수요에 대응하기 위해서다. 실리콘카바이드(SiC)와 질화갈륨(GaN) 등 차세대 전력 반도체 역량을 앞세워 기술 혁신부터 공급망 관리, 시장 확대까지 총력을 기울이고 있다. 한국산업기술기획평가원(Keit)과 전자신문이 공동 주최하고 산업통상부가 후원해 20일 서울 삼성동 섬유센터빌딩에서 개최되는 '2026 글로벌 소재·부품"
+    },
+    {
+      "id": "c6a9e76b-e1e5-44a8-8a55-20fcbe79664e",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "고단한 기술개발 과정, 사람 마음 보살피고 여유 더하는 쉼터 있어야",
+      "titleOriginal": null,
+      "summary": "스마트파워 박기주 의장은 '천샘 모차르트 병입식'에서 첨단 전력 솔루션과 AI 기술 개발 산업의 고단한 과정에서 사람의 마음을 보살피고 인문학적 여유를 더할 쉼터의 필요성을 역설했다. 20년 전부터 자연주의 기법으로 빚어 1년 동안 모차르트 클래식 음악과 함께 저온 숙성시킨 복분자주 '천샘'은 이날 박 의장의 지인 및 고객 108명에게 선물로 증정되었다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-11-07T11:31:48.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=374482",
+      "collectedAt": "2026-11-08T00:17:54.431Z",
+      "bodySnippet": "“첨단 전력 솔루션과 AI 기술을 다루는 산업일수록 고단한 기술 개발 과정에서 지치지 않도록 사람의 마음을 보살피고 인문학적 여유를 더하는 쉼터가 필요하다.”스마트파워 박기주 의장이 6일 경기도 김포공장에서 열린 ‘천샘 모차르트 병입식’에서 한 말이다.천샘은 20년 전, 박기주 의장이 품어온 ‘59년 고향 생각’과 잊히지 않는 고향의 맛과 향기를 담아내고자 했던 자연주의 기법으로 제작된 복분자주로, 맑은 원료로 담근 천샘은 숨을 쉬는 전통 옹기 항아리에 담겨 저온 숙성실에서 1년 동안 정성껏 숙성된다.특히 숙성 공간에 365일 내내 모차르트의 클래식 음악을 트는데, 모차르트 음악의 규칙적이고 우아한 음파 진동이 숙성 과정 중 미생물의 활성화를 돕고, 맛과 향을 한층 부드럽고 깊게 다듬어주는 효과를 발휘한다는 게 스마트파워의 설명이다.이날 병입식은 그동안 저온 숙성실에서 익힌 천샘을 병에 담아 박기주 의장의 지인과 스마트파워 고객들에게 선물로 나눠준 자리다.행사에는 정준양 포스포 전 회장, 손욱 전 삼성SDI 사장, 손웅희 생산기술연구원 원장, 박재희 민족콘텐츠연구원 원장, 이순형 동신대 특임교수, 이주연 성남산업진흥원 원장 등 108명의 지인이 참석했다.이번"
+    },
+    {
+      "id": "f5642866-4316-4a63-9c78-5e9a27e3a6b4",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "수소경제 생태계 조성, 국회 입법과제로 부상…산업 활성화 제도개선 주목",
+      "titleOriginal": null,
+      "summary": "국회 입법박람회에서 수소경제 생태계 구축을 포함한 618건의 입법 및 정책 제안이 접수되었다. 산업계의 기술 혁신 수요를 실제 법률로 구체화하여 국가 성장동력을 확보하기 위한 후속 입법 과정이 주목받고 있다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-07T15:48:39.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=204850",
+      "collectedAt": "2026-11-08T00:18:09.670Z",
+      "bodySnippet": "[에너지데일리 조남준 기자 ] 수소경제 생태계 구축과 피지컬 인공지능(AI) 국제표준 선점, 지역균형발전 등 국가 미래 성장동력 확보를 위한 산업 현장의 정책 요구가 국회에 전달됐다. 기업과 공공기관, 시민단체 등이 참여한 국회 입법박람회에서 총 618건의 입법·정책 제안이 접수되면서 산업계의 기술혁신 수요와 국민 생활 속 제도개선 과제를 실제 법률로 연결하는 후속 입법의 중요성이 부각됐다.대한민국국회는 지난 5일부터 6일까지 이틀간 국회 중앙잔디광장 등에서 개최한 ‘2026 국회 입법박람회’를 마무리하고 국민과 산업계가 제안한 정"
+    },
+    {
+      "id": "257348c0-a6cc-401d-8eda-d537880c3892",
+      "source": "에너지데일리",
+      "sourceId": "energydaily",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "에너지·환경 공공기관 정보공개 확대…정책 결정·사업 추진 투명성 높인다",
+      "titleOriginal": null,
+      "summary": "정부가 에너지·환경 분야 공공기관의 정보 공개를 확대한다. 원전, 전력망, 수소, 폐기물 처리시설 등 공공사업의 정책 결정 과정 및 경제성·안전성 검토 자료에 대한 정보 접근성이 높아지며, 연구용역 결과, 감사 정보, 정책심의위원회 회의록 사전 공개를 추진한다. 이는 대규모 공공투자사업의 타당성 검증과 정책 결정의 책임성을 강화하고 투명성을 높이기 위함이다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-07T15:44:33.000Z",
+      "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=204849",
+      "collectedAt": "2026-11-08T00:18:31.562Z",
+      "bodySnippet": "[에너지데일리 조남준 기자 ] 원전과 전력망, 수소, 폐기물 처리시설 등 에너지·환경 분야 공공사업의 정책 결정 과정과 경제성·안전성 검토자료에 대한 정보 접근성이 한층 높아질 전망이다. 정부가 공공기관의 연구용역 결과와 감사정보, 정책심의위원회 회의록 등의 사전공개를 확대하고 자의적인 비공개 관행을 개선하는 법률 개정을 추진하면서다.특히 대규모 공공투자사업의 타당성 검증과 환경시설 입지 갈등 해소, 정책 결정의 책임성 강화에 긍정적인 영향을 미칠 것으로 기대된다. 다만 기업 영업비밀과 국가 에너지 안보, 시설 보안에 관한 정보 보"
+    },
+    {
+      "id": "a67de61a-1c88-489a-9717-82ed76959b6c",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "대한민국 솔라리그…전력거래소, 공공부문 최우수상 수상",
+      "titleOriginal": null,
+      "summary": "한국전력거래소는 태양광 발전 보급 및 재생에너지 전력시장 제도 개선 기여를 인정받아 ‘제8회 대한민국 솔라리그’에서 공공부문 최우수상인 한국RE100협의체 의장상을 수상했다. 전력거래소는 본사와 중부본부에 438.8kW 규모 태양광 발전을 설치하여 누적 3115MWh 전력을 생산했으며, 2014년부터 신재생에너지 창업스쿨을 운영하며 재생에너지 사업 창업을 지원하고 있다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-07T23:42:44.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71381",
+      "collectedAt": "2026-11-08T00:18:53.338Z",
+      "bodySnippet": "한국전력거래소(이사장 김성진)가 태양광발전 보급과 재생에너지 전력시장 제도개선에 기여한 성과를 인정받아 지난 5일 정부세종컨벤션센터에서 열린 ‘제8회 대한민국 솔라리그 시상식’에서 공공부문 최우수상인 한국RE100협의체 의장상을 수상했다. 전력거래소는 본사와 중부본부에 438.8kW 규모 태양광발전을 설치해 누적 3115MWh 전력을 생산했다. 또 2014년부터 신재생에너지 창업스쿨을 운영하며 재생에너지 사업 창업을 위한 실무교육을 제공하고 있다."
+    },
+    {
+      "id": "fe26cacc-4781-4764-be57-a25368fcd2ac",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "동서발전, 태양광 등 고양 지역경제 활성화 추진",
+      "titleOriginal": null,
+      "summary": "한국동서발전과 고양시가 재생에너지 확대 및 지역경제 활성화를 위한 상생협력 업무협약을 체결했다. 이 협약에 따라 동서발전은 고양시 호수공원 공영주차장에 도시 경관과 어우러지는 태양광발전 모델을 개발하여 추진할 예정이다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-07T23:34:39.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71380",
+      "collectedAt": "2026-11-08T00:19:00.876Z",
+      "bodySnippet": "한국동서발전(주)(사장 권명호)이 경기 고양시와 재생에너지 확대를 비롯해 지역경제 활성화에 협력하기로 하고 지난 5일 상생협력 업무협약을 체결했다. 이 협약이 체결됨에 따라 동서발전은 고양시와 호수공원 공영주차장(경기 고양시 소재)에 도시 경관과 어우러지는 태양광발전 모델을 개발하고 이를 고양시"
+    },
+    {
+      "id": "0bb9a731-a1d3-42d2-ae2a-b14e8db76799",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "대한민국 나눔 국민대상…동서발전, 국무총리 표창 수상",
+      "titleOriginal": null,
+      "summary": "한국동서발전은 2026 대한민국 나눔 국민대상 시상식에서 취약계층 에너지복지 증진과 지역사회 상생 기여 공로로 국무총리 표창을 수상했다. 이는 임직원 직접 참여와 지역주민 수요를 반영한 맞춤형 사회공헌 활동의 결과로, 인적 나눔 분야에서 인정받았다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-11-07T23:25:30.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71379",
+      "collectedAt": "2026-11-08T00:19:06.566Z",
+      "bodySnippet": "한국동서발전(주)(사장 권명호)이 취약계층 에너지복지 증진과 지역사회 상생에 기여한 공로를 인정받아 지난 5일 KBS 신관 아트홀(서울 영등포구 소재)에서 열린 ‘2026 대한민국 나눔 국민대상 시상식’에서 인적 나눔 분야 국무총리 표창을 수상했다. 이 자리에서 동서발전은 임직원 직접 참여와 지역주민 수요를 반영한 맞춤형 사회공헌 활동을 지"
+    },
+    {
+      "id": "cddb34c3-bf87-46aa-83a1-b1cf18d87557",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "남동발전 청렴윤리경영 국제인증 6년 연속 유지",
+      "titleOriginal": null,
+      "summary": "한국남동발전(주)이 부패방지경영시스템(ISO 37001) 및 준법경영시스템(ISO 37301) 국제표준 통합인증을 6년 연속으로 유지했다고 밝혔다. 이는 2021년 에너지공기업 최초로 해당 통합인증을 취득한 이래 청렴윤리경영 노력을 지속적으로 인정받은 결과다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-11-07T23:16:21.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71378",
+      "collectedAt": "2026-11-08T00:19:12.141Z",
+      "bodySnippet": "한국남동발전(주)(사장 이현빈)이 한국준법진흥원 부패방지경영시스템(ISO 37001)·준법경영시스템(ISO 37301) 사후 심사를 통과해 통합인증을 유지했다고 지난 6일 밝혔다. 2021년 남동발전은 에너지공기업 최초로 부패방지경영시스템(ISO 37001)·준법경영시스템(ISO 37301) 국제표준 통합인증을 취득한 바 있다. 이로써 청렴윤리경영 국제인증을 6년 연속으로 유지하게 됐다."
+    },
+    {
+      "id": "2f946eb6-3b7d-4af8-aebe-f54bc1b79e2e",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "LNG 핵심부품 국산화 확대…가스공사, 협력사 기술개발 지원",
+      "titleOriginal": null,
+      "summary": "한국가스공사는 LNG 설비 핵심부품 국산화를 확대하고 협력사와 기술개발 협력을 강화하기 위해 노력하고 있다. 지난 5일부터 6일까지 '2026년 부품 국산화 기술개발 협력사 상생협의회'를 개최하여 신규 국산화 과제를 발굴했으며, 가스공사 본사 및 전국 5개 LNG 생산기지 전문가들이 참여했다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-11-07T23:06:01.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71377",
+      "collectedAt": "2026-11-08T00:19:20.592Z",
+      "bodySnippet": "한국가스공사(사장 홍의락)가 LNG 설비 핵심부품 국산화를 확대하기 위해 협력사와 기술개발 협력을 강화하는 한편 신규 국산화 과제를 발굴하기로 하고 지난 5일부터 6일까지 본사(대구 동구 소재)에서 ‘2026년 부품 국산화 기술개발 협력사 상생협의회’를 개최했다. 이번 협의회에 가스공사 본사 국산화 담당 부서와 전국 5개 LNG 생산기지 전문가를 비롯해 대용량 저압"
+    },
+    {
+      "id": "67f92df4-3a3a-4620-9494-805da3d6fdc0",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "원전 점검 로봇·드론 활용…한수원, 콘크리트학회 기술상 수상",
+      "titleOriginal": null,
+      "summary": "한국수력원자력(한수원)이 원전 구조물 점검에 로봇, 드론, 3차원 디지털트윈 기술을 접목해 작업자 안전과 유지관리 효율을 높인 성과를 인정받아 '2026년 한국콘크리트학회 정기총회'에서 에너지공기업 최초로 기술상을 수상했다. 이 기술은 접근이 어려운 지하 매설관로와 추락 위험이 있는 원자로 건물 외벽 점검에 활용되고 있다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-07T22:45:36.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71376",
+      "collectedAt": "2026-11-08T00:19:27.435Z",
+      "bodySnippet": "한국수력원자력(주)(사장 김회천)이 원전 구조물 점검에 로봇과 드론, 3차원 디지털트윈 기술을 접목해 작업자 안전과 유지관리 효율을 높인 성과를 인정받아 지난 5일 알펜시아리조트(강원 평창군 소재)에서 열린 ‘2026년 한국콘크리트학회 정기총회’에서 에너지공기업 최초로 기술상을 수상했다. 현재 한수원은 접근이 어려운 지하 매설관로와 추락 위험이 있는 원자로건물 외벽 점검에 이동형 로"
+    },
+    {
+      "id": "5fcc017b-a55c-4e16-9280-08b65b992ccc",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한수원, 체코 원자력 청정수소 사업화 모색",
+      "titleOriginal": null,
+      "summary": "한국수력원자력이 체코 UJV-Rez와 원자력 청정수소 생산사업의 타당성을 검토한 연구 성과를 공유했다. 이번 협력을 통해 유럽 수소시장 진출을 위한 기반을 마련하고 에너지 협력을 확대할 계획이다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-07T22:37:03.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71375",
+      "collectedAt": "2026-11-08T00:19:31.953Z",
+      "bodySnippet": "한수원이 체코 원자력 청정수소 생산사업 가능성을 검토한 연구 성과를 공개하고 유럽 수소시장 진출을 위한 협력 확대에 나섰다. 한국수력원자력(주)(사장 김회천)은 체코 현지 연구·엔지니어링 기업인 UJV-Rez와 지난 5일 체코 프라하에서 ‘원자력 청정수소 기반 연구 성과 공유회’를 개최했다."
+    },
+    {
+      "id": "b4cd194d-046d-48dc-96b2-efecd457c88d",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "원자력 청정수소 실증…한수원, 美 기술·운영 경험 공유",
+      "titleOriginal": null,
+      "summary": "한국수력원자력이 미국 전력연구소와 협력해 원자력 청정수소 생산 실증 및 수전해 설비 운영 기술의 국산화를 추진한다. 이를 위해 한수원은 '2026 청정수소 생산기술 활성화 테크 포럼'을 개최하여 대용량 수전해 청정수소 생산 기술 활성화를 위한 기반을 마련했다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-07T22:21:55.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71374",
+      "collectedAt": "2026-11-08T00:19:32.898Z",
+      "bodySnippet": "원자력 청정수소 생산 실증사업을 추진 중인 한수원이 미국 전력연구소와 대용량 수전해 기술과 설비 운영 경험을 공유하며 관련 기술 국산화에 나섰다. 한국수력원자력(주)(사장 김회천)은 미국 전력연구소와 국가 연구개발 사업으로 추진 중인 원자력 청정수소 생산 실증사업 수행과 수전해 설비 구축·운영 기술 국산화, 대용량 수전해 청정수소 생산기술 활성화 등을 위해 지난 6일 킨텍스(경기 고양시 소재)에서 ‘2026 청정수소 생산기술 활성화 테크 포럼’을 개최했다."
+    },
+    {
+      "id": "e8eb54ef-4d53-4b31-a42c-46e8412a7f59",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "합천양수발전소 건설…한수원, 지역주민 소통 확대",
+      "titleOriginal": null,
+      "summary": "합천양수발전소 건설 사업을 추진 중인 한수원이 지역주민 사업 이해도를 높이기 위한 현장 소통에 나섰다. 한국수력원자력(주)(사장 김회천)은 지난 6일 합천양수발전소 건설지역인 경남 합천군 묘산면 새마을협의회 회원과 합천군 관계자 등 40여명을 대상으로 영동양수발전소 건설현장과 무주양수발전소 현장견학프로그램을 운영했다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-07T22:09:54.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71373",
+      "collectedAt": "2026-11-08T00:19:38.655Z",
+      "bodySnippet": "합천양수발전소 건설 사업을 추진 중인 한수원이 지역주민 사업 이해도를 높이기 위한 현장 소통에 나섰다. 한국수력원자력(주)(사장 김회천)은 지난 6일 합천양수발전소 건설지역인 경남 합천군 묘산면 새마을협의회 회원과 합천군 관계자 등 40여명을 대상으로 영동양수발전소 건설현장과 무주양수발전소 현장견학프로그램을 운영했다."
+    },
+    {
+      "id": "e4d68641-e641-4e80-90ff-98fbc2916e4b",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "디지털 전환 속도…가스공사-한전KDN, AI·클라우드 기술협력",
+      "titleOriginal": null,
+      "summary": "한국가스공사와 한전KDN이 지난 5일 업무협약을 체결하고 AI와 클라우드 기술을 활용한 디지털 전환(AX·DX)에 협력하기로 했다. 양사는 이번 협약을 통해 에너지 시설의 안전관리 역량을 강화하고 탄소저감을 포함한 ESG 경영 실현을 도모할 계획이다.",
+      "topics": [
+        "ESG·탄소중립",
+        "전력 인프라"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-11-07T21:58:09.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71372",
+      "collectedAt": "2026-11-08T00:20:00.135Z",
+      "bodySnippet": "가스공사와 한전KDN이 AI와 클라우드를 활용한 디지털 전환에 협력한다. 한국가스공사와 한전KDN(주)은 AI 활용 역량을 높이는 한편 탄소저감과 안전관리 등 지속가능경영 분야 협력을 강화하기로 하고 지난 5일 가스공사 본사(대구 동구 소재)에서 ‘AX·DX / ESG 경영 협력을 위한 업무협약’을 체결했다."
+    },
+    {
+      "id": "66907425-bf73-4af8-860d-4980888d9fc5",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전력·원전 현장 로봇 투입…한전 등 에너지기관 기술협력",
+      "titleOriginal": null,
+      "summary": "한국전력공사가 전력 및 원전 설비의 안전점검과 유지보수를 위해 AI 기반 로봇 기술 개발 및 현장 적용 확대에 나선다. 지난 5일 BIXPO 2026에서 에너지 유관기관과 함께 관련 기술 컨퍼런스를 개최하고 현장 실증 방안을 논의했다.",
+      "topics": [
+        "전력 인프라",
+        "에너지원"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-11-07T21:44:23.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71371",
+      "collectedAt": "2026-11-08T00:20:10.346Z",
+      "bodySnippet": "전력·원전설비 안전점검과 유지보수에 AI 기반 로봇을 활용하기 위한 기술개발과 기관 간 협력이 확대된다. 한국전력공사(사장 김동철)는 전력·원전설비 등 안전관리가 중요한 특수 환경에서 활용할 로봇기술 연구 성과를 공유하는 한편 현장 적용 확대를 위한 협력 방안을 모색하기 위해 지난 5일 김대중컨벤션센터(전남광주 서구 소재)에서 열린 BIXPO 2026에서 에너지 유관기관과 공동으로 ‘에너지 산업 로봇기술 컨퍼런스 및 전시·시연’을 개최했다."
+    },
+    {
+      "id": "4077ba3d-7ebc-4b45-8e67-6482618242b5",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "64년 전선조합 변화 기로…3년 만에 조합원사 한자리",
+      "titleOriginal": null,
+      "summary": "한국전선공업협동조합이 대기업 및 중견기업의 탈퇴 등 조직 변화 속에서 3년 만에 조합원사 리더스포럼을 개최했다. 건설경기 위축과 원자재 가격 상승 등 업계의 불확실한 경영 환경을 진단하고 대응 방안을 모색하는 데 주력했다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-11-07T15:18:01.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71370",
+      "collectedAt": "2026-11-08T00:20:29.002Z",
+      "bodySnippet": "지난 64년간 대기업·중견기업·중소기업이 함께한 전선조합이 대기업과 중견기업 탈퇴란 적잖은 변화를 앞두고 있는 가운데 조합원사들이 3년 만에 한자리에 모였다. 한국전선공업협동조합(이사장 류인규)은 건설경기 위축과 글로벌 공급망 변화, 원자재 가격 상승 등 전선업계가 직면한 경영환경을 진단하는 한편 대응방안을 모색하기 위해 지난 5일부터 6일까지 호텔인터불고 원주(강원 원주시 소재)에서 ‘2026 전선 리더스포럼’을 개최했다."
+    },
+    {
+      "id": "526c78d4-0351-444f-83d1-f9d788a6af72",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "에너지 전환 뒷받침…서울 서북권 CNG 충전시설 확충",
+      "titleOriginal": null,
+      "summary": "서울 서북권에 새로운 CNG 충전시설인 진관클린스테이션이 서울 은평구 진관2공영차고지에 건설 완료되어 에너지 전환 과정의 연료 공백을 줄이고 시민 대중교통 이용 불편을 최소화할 예정이다. 지난 6일 준공식을 개최한 이 시설은 CNG 버스의 안정적인 운행을 뒷받침하며 서울시민의 발이 되는 대중교통 인프라를 강화한다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-07T12:55:51.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71369",
+      "collectedAt": "2026-11-08T00:20:48.099Z",
+      "bodySnippet": "서울시민의 발이 되고 있는 압축천연가스, CNG버스의 안정적인 운행을 뒷받침하게 될 새로운 충전시설이 서울 서북지역에 설치돼 본격적인 가동에 들어갑니다. CNG 충전시설이 서울 서북지역에 보강되면서 에너지 전환 과정에 발생할 수 있는 연료 공백을 줄이는 한편 시민들의 대중교통 이용 불편이 최소화될 것으로 기대됩니다. 지난 6일 서울씨엔지는 서울 은평구 진관2공영차고지에 CNG 충전시설인 진관클린스테이션 건설을 완료하고 준공식을 개최했습니다."
     }
   ]
 }
