@@ -1,7 +1,7 @@
 {
   "date": "2026-11-08",
-  "generatedAt": "2026-11-08T00:21:42.467Z",
-  "articleCount": 1,
+  "generatedAt": "2026-11-09T00:44:57.439Z",
+  "articleCount": 9,
   "articles": [
     {
       "id": "f5176abf-d442-4cc5-973c-2ddc0a3f3d30",
@@ -22,6 +22,153 @@
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71383",
       "collectedAt": "2026-11-08T00:18:42.853Z",
       "bodySnippet": "한국남동발전(주)(사장 이현빈)이 1000억 원 규모 녹색채권을 발행해 해상풍력발전 투자재원을 확보한 성과를 인정받아 지난 5일 열린 ‘2026년 녹색금융 우수기업 시상식’에서 기후에너지환경부 장관상을 수상했다. 앞선 지난 6월 남동발전은 1000억 원 규모 한국형 녹색채권을 발행하고 조달자금 전액을 해상풍력 발전 사업에 배정한 바 있다."
+    },
+    {
+      "id": "3aec8cd9-e484-44b5-8344-85875f5fd070",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "데이터 센터가 생산수(produced water)를 저장할 때 고려해야 할 사항",
+      "titleOriginal": "What data centers need to consider when storing produced water",
+      "summary": "본 기사는 데이터 센터가 기존 휴대용 용수 공급원을 대체하기 위해 생산수(produced water)를 활용할 때 고려해야 할 핵심 요소들을 다룹니다. 생산수의 효율적인 저장 및 관리를 통해 데이터 센터 운영의 지속가능성을 확보하고 수자원 의존도를 낮추는 방안을 제시합니다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-11-08T11:00:48.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/opinions/what-data-centers-need-to-consider-when-storing-produced-water/",
+      "collectedAt": "2026-11-09T00:39:31.218Z",
+      "bodySnippet": "<p data-block-key=\"4dp9a\">A possible alternative to portable supplies</p>"
+    },
+    {
+      "id": "dcb0389c-0583-4134-8c0b-e16847741651",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전기차 ·항공우주 축전기 경량화하는 내열 필름 소재 개발",
+      "titleOriginal": null,
+      "summary": "UNIST 김봉수 교수팀이 200℃ 고온에서도 높은 에너지 저장 성능을 유지하는 축전기용 유전체 필름 소재를 개발했다. 이 기술은 전기차 인버터와 항공우주 장비의 축전기 경량화 및 효율적인 에너지 저장에 기여할 것으로 기대된다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-08T18:06:38.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=374490",
+      "collectedAt": "2026-11-09T00:39:55.707Z",
+      "bodySnippet": "전기차 인버터와 항공우주 장비에 사용되는 축전기가 고온에서도 전기를 효율적으로 저장할 수 있도록 돕는 새로운 소재가 개발됐다.UNIST 화학과 김봉수 교수팀은 미국 로렌스버클리국립연구소 이 리우(Yi Liu) 박사팀과 공동으로 다양한 고분자에 적용할 수 있는 범용 가교제를 개발하고, 이를 활용해 200℃에서도 높은 에너지 저장 성능을 유지하는 필름형 축전기용 유전체를 구현했다고 밝혔다.축전기는 전기를 저장했다가 빠르게 방출해 전압 변동을 줄이는 장치로, 전기차 모터 인버터 등에 사용된다. 두 금속 전극 사이에 전기가 통하지 않는 절"
+    },
+    {
+      "id": "fe519c83-909e-4009-8418-b7f6ce39d392",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "고준위 방폐물 관리 기본계획, 17일 부산서 주민 의견 듣는다",
+      "titleOriginal": null,
+      "summary": "고준위방사성폐기물관리위원회가 향후 30년간의 국가 관리 정책 방향을 담은 '제3차 고준위 방사성폐기물 관리 기본계획' 수립을 위해 오는 17일 부산에서 지역 설명회를 개최합니다. 이번 설명회는 사용후핵연료 등 고준위 방폐물의 처분 및 보관 방식에 대해 지역주민과 국민의 의견을 수렴하는 절차의 일환입니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-11-08T17:48:22.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=374489",
+      "collectedAt": "2026-11-09T00:40:06.091Z",
+      "bodySnippet": "사용후핵연료를 비롯한 고준위 방사성폐기물을 앞으로 어디에, 어떻게 보관하고 처분할 것인가. 향후 30년간 국가 고준위 방폐물 관리정책의 방향을 설명하고 지역주민들의 의견을 듣는 자리가 부산에서 마련된다.고준위방사성폐기물관리위원회(위원장 김현권)는 오는 17일 오후 2시부터 4시까지 교원 챌린지홀 부산에서 ‘제3차 고준위 방사성폐기물 관리 기본계획’ 수립을 위한 지역별 설명회를 개최한다.이번 설명회는 제3차 기본계획 초안에 대한 국민 의견수렴 절차의 하나로 마련됐다. 고준위 방폐물 관리사업에 관심 있는 지역주민과 일반 국민, 학계 전"
+    },
+    {
+      "id": "c723faf0-384d-4432-a05f-e405751e5afb",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "COP31, 9일 튀르키예서 개막…전기화 확대·온실가스 감축 논의",
+      "titleOriginal": null,
+      "summary": "제31차 유엔기후변화협약 당사국총회(COP31)가 오는 9일부터 20일까지 튀르키예에서 개최되어 약 10만 명이 참석할 예정이다. 이번 총회에서는 파리협정의 실질적 이행을 위해 전 세계적인 전기화 확대, 온실가스 감축 협력, 기후재원 확충 방안이 집중 논의된다.",
+      "topics": [
+        "ESG·탄소중립",
+        "정책·규제"
+      ],
+      "primaryTopic": "ESG·탄소중립",
+      "publishedAt": "2026-11-08T12:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=374487",
+      "collectedAt": "2026-11-09T00:40:11.099Z",
+      "bodySnippet": "제31차 유엔기후변화협약(UNFCCC) 당사국총회(COP31)가 개막한다. 올해 총회에서는 전 세계 전기화 확대와 온실가스 감축 협력, 기후재원 확충 등 파리협정의 실질적인 이행을 위한 국제협력 방안이 집중 논의될 전망이다.기후에너지환경부는 COP31이 오는 9일부터 20일까지 튀르키예 안탈리아 엑스포 센터에서 개최된다고 8일 밝혔다.이번 총회에는 협약 당사국 정부대표단을 비롯해 약 10만명이 참석할 예정이다. 우리나라는 김성환 기후에너지환경부 장관을 수석대표(교체 수석대표·견종호 외교부 기후변화대사)로 관계부처 공무원과 전문가 등"
+    },
+    {
+      "id": "04333a5d-5f3f-42b8-9b75-548f2bcd6327",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "배전설계부터 발전연료 가격 예측까지…한전KDN, AI 전력기술 공개",
+      "titleOriginal": null,
+      "summary": "한전KDN이 지난 4일부터 6일까지 개최된 'BIXPO 2026'에서 AI와 ICT를 접목한 5대 핵심 솔루션을 공개했다. 배전 설계부터 발전 연료 가격 예측까지 에너지 ICT 활용 범위를 확장하며 전력산업의 디지털 전환 기술을 선보였다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-11-08T17:39:35.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71387",
+      "collectedAt": "2026-11-09T00:43:57.519Z",
+      "bodySnippet": "AI가 전력산업 현장에 빠르게 적용되면서 배전 설계부터 전력망 운영과 사이버 보안 그리고 발전 연료가격 예측까지 에너지 ICT 활용 범위가 확대되고 있는 가운데 한전KDN이 이런 변화를 보여주는 핵심기술을 공개했습니다. 지난 4일부터 6일까지 열린 BIXPO 2026에서 한전KDN이 AI와 ICT 기반의 5대 핵심 솔루션을 선보였습니다."
+    },
+    {
+      "id": "68cd1303-4aae-4eb1-9259-9a0a80d37b53",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "BIXPO 2026…한전KDN, AI·ICT 5대 솔루션 공개",
+      "titleOriginal": null,
+      "summary": "한전KDN이 BIXPO 2026에서 AI와 ICT를 융합한 5대 핵심 솔루션을 공개하며 전력산업 디지털 전환을 제시했다. 배전설계 자동화, 분산에너지 연계, 전력망 보안, 발전연료 가격 예측 등 전력 산업 전반의 효율성과 안정성을 높이는 기술을 선보였다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-11-08T16:13:00.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71386",
+      "collectedAt": "2026-11-09T00:44:01.443Z",
+      "bodySnippet": "한전KDN이 AI를 활용한 배전설계 자동화부터 분산에너지 계통 연계와 전력망 사이버 보안, 발전연료 가격 예측까지 전력산업 전반에 적용할 수 있는 에너지 ICT 기술을 공개했다. 한전KDN(주)(사장 박상형)은 지난 4일부터 6일까지 김대중컨벤션센터(전남광주 서구 소재)에서 열린 ‘빛가람국제전력기술엑스포(BIXPO 2026)’에서 AI와 ICT 기반 5대 핵심 솔루션을 선보였다."
+    },
+    {
+      "id": "af45c978-0e26-4b08-b3e2-632990816489",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "대기업·중견기업 떠나는 전선조합…64년 만에 새로운 전환점",
+      "titleOriginal": null,
+      "summary": "한국전선공업협동조합에서 대기업과 중견기업들이 잇따라 탈퇴하며 64년 만에 운영 체계의 큰 변화를 맞이하고 있다. 이는 전력 인프라 산업 내 업계 간 이해관계 충돌과 시장 구조 변화가 가속화되고 있음을 시사한다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-11-08T12:54:14.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71385",
+      "collectedAt": "2026-11-09T00:44:05.391Z",
+      "bodySnippet": ""
+    },
+    {
+      "id": "a518acae-eeb5-46de-b1f9-4fea3410ab71",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "대기업·중견기업 탈퇴 앞두고…전선업계 3년 만에 한자리",
+      "titleOriginal": null,
+      "summary": "전선조합 내 대기업과 중견기업의 탈퇴 움직임으로 산업 생태계 변화가 예상되는 가운데, 업계가 건설 경기 위축과 원자재 가격 상승이라는 이중고를 겪고 있습니다. 다만 AI 시대 도래에 따른 전력 수요 증가를 새로운 기회로 삼아 업계가 결속과 활로 모색에 나섰습니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-11-08T11:56:50.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71384",
+      "collectedAt": "2026-11-09T00:44:09.401Z",
+      "bodySnippet": "64년간 전선조합이란 한 울타리에서 대기업과 중견기업 그리고 중소기업이 동거동락했지만 대기업과 중견기업이 조합 탈퇴 상황에 놓이며 전선산업 생태계에 적잖은 변화가 예상됩니다. 게다가 건설경기 위축과 원자재 가격 상승 등 어려운 경영환경까지 더해진 상황입니다. 이런 어려운 상황속에서도 AI시대를 맞아 전선업계는 새로운 기회를 맞고 있습니다. 이런 위기와 기회가 공존하는 가운데 전선업계 조합원사들이 3년만에 한자리에 모여 결속을 다지고 새로운 활로를 모색했습니다."
     }
   ]
 }

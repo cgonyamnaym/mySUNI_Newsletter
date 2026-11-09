@@ -1,7 +1,7 @@
 {
   "date": "2026-11-07",
-  "generatedAt": "2026-11-08T00:21:42.467Z",
-  "articleCount": 17,
+  "generatedAt": "2026-11-09T00:44:57.438Z",
+  "articleCount": 30,
   "articles": [
     {
       "id": "463333c5-506f-426f-8862-1ed5b6568dbc",
@@ -323,6 +323,257 @@
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71369",
       "collectedAt": "2026-11-08T00:20:48.099Z",
       "bodySnippet": "서울시민의 발이 되고 있는 압축천연가스, CNG버스의 안정적인 운행을 뒷받침하게 될 새로운 충전시설이 서울 서북지역에 설치돼 본격적인 가동에 들어갑니다. CNG 충전시설이 서울 서북지역에 보강되면서 에너지 전환 과정에 발생할 수 있는 연료 공백을 줄이는 한편 시민들의 대중교통 이용 불편이 최소화될 것으로 기대됩니다. 지난 6일 서울씨엔지는 서울 은평구 진관2공영차고지에 CNG 충전시설인 진관클린스테이션 건설을 완료하고 준공식을 개최했습니다."
+    },
+    {
+      "id": "11b73c48-4ad2-44fe-9030-8e6b9b81fcf0",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미국 태양광 개발사들, 섹션 232 마감 시한 임박에 복잡한 정책 난관 헤쳐나가",
+      "titleOriginal": "U.S. solar developers navigate policy stack as Section 232 deadline nears",
+      "summary": "2026년 2분기에 국가 재고가 126% 급증함에 따라, 유틸리티 규모 태양광 개발사들은 변화하는 무역 제한에 대비하여 조달 전략과 계약을 변경하고 있습니다. 이는 다가오는 섹션 232 마감 시한으로 인한 다층적인 규제 불확실성에 대처하기 위함입니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-07T10:50:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/11/07/u-s-solar-developers-navigate-policy-stack-as-section-232-deadline-nears/",
+      "collectedAt": "2026-11-09T00:38:35.874Z",
+      "bodySnippet": "<p>With national inventory surging 126% in the second quarter of 2026 ahead of shifting trade cutoffs, utility-scale developers are altering procurement strategies and contracts to manage multi-layered regulatory uncertainty.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/11/07/u-s-solar-developers-navigate-policy-stack-as-section-232-deadline-nears/\">U.S. solar developers navigate policy stack as Section 232 deadline nears</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "7f29c0ed-416a-4d93-bf49-35bfb1c8f665",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "솔라+ 산업이 에너지 전환을 위해 더 나은 결정을 내리는 방법",
+      "titleOriginal": "How the Solar+ industries can make better decisions for the energy transition",
+      "summary": "Women in Solar+ Europe (WiSEu)는 Solar & Storage Live 유럽 투어에서 얻은 교훈을 공유하며, 침묵이 프로젝트를 위험에 빠뜨리는 이유와 대표성이 실제 영향력으로 바뀌는 방식을 강조합니다. 또한, 압력 속에서도 리더들이 도전, 학습 및 혁신을 위한 공간을 마련하는 방법을 제시합니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-07T10:30:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/11/07/how-the-solar-industries-can-make-better-decisions-for-the-energy-transition/",
+      "collectedAt": "2026-11-09T00:38:42.040Z",
+      "bodySnippet": "<p>This week, Women in Solar+ Europe (WiSEu) shares the lessons from its Solar &#38; Storage Live European tour: why silence puts projects at risk, what turns representation into real influence, and how leaders can make room for challenge, learning and innovation, even under pressure.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/11/07/how-the-solar-industries-can-make-better-decisions-for-the-energy-transition/\">How the Solar+ industries can make better decisions for the energy transition</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "967fd17d-5522-47f0-a766-30e576c673ea",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "에콰도르 최대 규모 태양광 발전소 가동 시작",
+      "titleOriginal": "Ecuador’s largest PV plant goes online",
+      "summary": "에콰도르의 디파레 그룹 자회사인 라이트하우스가 산타 엘레나 주에 82MW 규모의 태양광 발전소를 준공하고 가동을 시작했습니다. 이 발전소는 에콰도르 내 최대 규모의 태양광 발전 시설입니다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-07T09:30:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/11/07/ecuadors-largest-pv-plant-goes-online/",
+      "collectedAt": "2026-11-09T00:38:46.576Z",
+      "bodySnippet": "<p>Lighthouse, a subsidiary of Ecuador's Difare Group, has inaugurated an 82 MW solar plant in Santa Elena province. </p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/11/07/ecuadors-largest-pv-plant-goes-online/\">Ecuador&#8217;s largest PV plant goes online</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "3d912c94-5775-41d6-bbb7-16efe4d5346b",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "새로운 기술에 대한 신뢰 유지",
+      "titleOriginal": "Maintaining trust in new tech",
+      "summary": "AI를 비롯한 급속한 기술 발전이 기존의 적합성 평가 및 표준화 방식에 도전하고 있습니다. 이에 따라 국제 표준화 기관들은 제품이 수명 주기 전반에 걸쳐 안전하고 신뢰할 수 있으며 믿을 수 있도록 프레임워크를 조정하고 있습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-07T09:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/11/07/maintaining-trust-in-new-tech/",
+      "collectedAt": "2026-11-09T00:38:49.951Z",
+      "bodySnippet": "<p>Rapid technological advances, particularly in AI, are challenging traditional approaches to conformity assessment and standardization. International standards bodies are adapting their frameworks to ensure products remain safe, reliable and trustworthy throughout their lifecycles.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/11/07/maintaining-trust-in-new-tech/\">Maintaining trust in new tech</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "429fe833-45b5-4df5-b502-0e34ade9789c",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "휴대용 태양광 시스템, 8시간 동안 1.64리터의 식수 생산",
+      "titleOriginal": "Portable solar-powered system produces 1.64 liters of drinking water in 8 hours",
+      "summary": "중국 쑤저우대학교 연구진이 염분, 탁도, 오염된 물을 식수로 변환하는 휴대용 태양광 시스템을 개발했습니다. 이 시스템은 전기열 증발기와 집중 태양광을 사용하여 8시간 동안 1.64리터의 깨끗한 물을 생산하며, 93.31%의 에너지 효율을 달성했습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-07T08:30:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/11/07/portable-solar-powered-system-produces-1-64-liters-of-drinking-water-in-8-hours/",
+      "collectedAt": "2026-11-09T00:38:57.962Z",
+      "bodySnippet": "<p>Researchers at Soochow University in China have developed a portable solar-powered system that converts saline, turbid and contaminated water into drinking water using an electrothermal evaporator and concentrated sunlight. The device produced 1.64 liters of clean water in eight hours, achieving an energy efficiency of 93.31%.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/11/07/portable-solar-powered-system-produces-1-64-liters-of-drinking-water-in-8-hours/\">Portable solar-powered system produces 1.64 liters of drinking water in 8 hours</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "c25e593e-a560-4d40-bd36-13b856df0a6f",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "연구진, 10.56kW 태양광 동력 유람선 개발",
+      "titleOriginal": "Researchers develop 10.56 kW solar-powered pleasure boat",
+      "summary": "캐나다 연구진이 10.56kW 태양광 발전 어레이와 19.68kWh 배터리 시스템을 갖춘 태양광 동력 유람선을 개발했습니다. 키프로스 태양광 조건 시뮬레이션 결과, 이 시스템은 추진 동력을 충족하며 39.8%의 잉여 에너지를 확보할 수 있는 것으로 나타났습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-07T08:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/11/07/researchers-unveil-10-56-kw-solar-powered-pleasure-boat/",
+      "collectedAt": "2026-11-09T00:39:03.421Z",
+      "bodySnippet": "<p>Researchers in Canada have designed a solar-powered pleasure boat featuring a 10.56 kW PV array and a 19.68 kWh battery system. Simulations under solar conditions in Cyprus showed that the system could meet propulsion demand while providing a 39.8% surplus energy margin.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/11/07/researchers-unveil-10-56-kw-solar-powered-pleasure-boat/\">Researchers develop 10.56 kW solar-powered pleasure boat</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "e762f627-455f-4482-a524-43dfaba57805",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "연구: 수상 태양광 모듈 열 간 0.5미터 간격, 냉각 성능 향상 입증",
+      "titleOriginal": "Study finds 0.5-meter spacing between solar module rows improves cooling in floating PV systems",
+      "summary": "이탈리아 연구진의 연구에 따르면, 수상 태양광 시스템에서 모듈 열 간 0.5미터 간격이 공기 흐름을 개선하여 냉각 효과를 최적화하는 것으로 나타났습니다. 이번 연구는 열 관리에서 열 간격의 중요성을 강조하며, 전력 생산에 미치는 영향에 대한 추가 연구가 필요하다고 덧붙였습니다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-07T07:30:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/11/07/study-finds-0-5-meter-spacing-between-solar-module-rows-improves-cooling-in-floating-pv-systems/",
+      "collectedAt": "2026-11-09T00:39:07.948Z",
+      "bodySnippet": "<p>A study by Italian researchers has found that 0.5-meter spacing between module rows optimizes cooling in floating PV systems by improving airflow. The findings highlight the importance of row spacing in thermal management, although further research is needed to assess its impact on electricity generation.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/11/07/study-finds-0-5-meter-spacing-between-solar-module-rows-improves-cooling-in-floating-pv-systems/\">Study finds 0.5-meter spacing between solar module rows improves cooling in floating PV systems</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "82f75128-7a4e-4b05-9240-0a18d2fa790f",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "IEA, 인도 태양광 발전 설치 용량 2030년까지 350GW 초과 전망",
+      "titleOriginal": "India’s installed solar PV capacity to exceed 350 GW by 2030, says IEA",
+      "summary": "국제에너지기구(IEA)는 인도의 태양광 발전 설치 용량이 2030년까지 350GW를 초과할 것이라고 밝혔습니다. 유틸리티 규모 프로젝트, 옥상 태양광 및 기업 조달이 성장을 지원하지만, 그리드 및 저장 장치 투자가 여전히 중요하다고 강조했습니다.",
+      "topics": [
+        "전력 인프라",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-11-07T07:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/11/07/indias-installed-solar-pv-capacity-to-exceed-350-gw-by-2030-says-iea/",
+      "collectedAt": "2026-11-09T00:39:13.384Z",
+      "bodySnippet": "<p>Growth will be supported by utility-scale projects, rooftop solar and corporate procurement, although grid and storage investments remain critical.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/11/07/indias-installed-solar-pv-capacity-to-exceed-350-gw-by-2030-says-iea/\">India’s installed solar PV capacity to exceed 350 GW by 2030, says IEA</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "912bdbc1-68c0-4800-a359-aa69dff698af",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "규모와 하드웨어를 넘어서",
+      "titleOriginal": "Beyond scale and hardware",
+      "summary": "S&P Global Energy의 Susan Taylor에 따르면, 2015년 이후 태양광 및 배터리 에너지 저장 시스템(BESS)은 극적으로 성장했지만, 수요 증가가 제조업체의 경제성 개선으로 이어지지 않고 있습니다. 태양광 제조업체들은 수년간 수요를 초과하는 생산능력 증가로 과잉 생산에 직면했으며, BESS 시장 또한 셀과 하드웨어 경쟁 심화로 유사한 경로를 따를 수 있습니다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-07T05:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/11/07/beyond-scale-and-hardware/",
+      "collectedAt": "2026-11-09T00:39:17.191Z",
+      "bodySnippet": "<p>Solar and battery energy storage systems (BESS) have scaled dramatically since 2015, but demand growth is not necessarily translating into better economics for manufacturers, writes Susan Taylor of S&#38;P Global Energy. Solar manufacturers continue to battle overcapacity after years of capacity growth outpacing demand. While the BESS market remains at an earlier stage of growth, rising competition in cells and hardware suggests it may be heading down a similar path.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/11/07/beyond-scale-and-hardware/\">Beyond scale and hardware</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "f787c0b2-8500-42a4-91bc-03239dd10ba2",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "서수원·월암 나들목에 도민 햇빛발전소...5.14MW 발전 이익 지역과 나눈다",
+      "titleOriginal": null,
+      "summary": "경기도 서수원·월암 나들목에 도민 1만1000여명이 참여한 5.14MW 규모의 햇빛발전소가 준공되어 도민과 지역사회가 발전 이익을 공유한다. 도로 유휴부지에 조성된 이 발전소의 전력판매수익은 출자자 배당 및 설비 운영·재투자 외에 미래세대 장학금과 시민교육 등에 사용될 예정이다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-07T15:00:00.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=374484",
+      "collectedAt": "2026-11-09T00:40:47.146Z",
+      "bodySnippet": "경기도민 1만1000여명이 참여한 서수원·월암 나들목 햇빛발전소가 준공식을 열고 도민과 지역사회가 발전 이익을 공유하는 운영에 나섰다. 도로 유휴부지에 조성한 5.14MW 규모의 태양광발전소로, 전력판매수익을 출자자 배당과 설비 운영·재투자에 활용하고 일부는 미래세대 장학금과 시민교육 등에 쓸 계획이다.경기시민발전협동조합협의회(회장 안명균)는 지난 5일 경기도의회 대회의실에서 ‘도민주도 이익공유 실현, 서수원·월암 나들목 햇빛발전소 준공식’을 개최했다. 행사에는 남종섭 경기도의회 의장, 주형철 경기도 경제부지사, 김현수 수원시 부시"
+    },
+    {
+      "id": "7894dc34-3e36-4095-be38-f104d91436cd",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "취임 후 매출 32% 높인 효성중공업 우태희 대표, ‘글로벌품질경영인대상' 수상",
+      "titleOriginal": null,
+      "summary": "효성중공업 우태희 대표가 2024년 취임 후 현장 중심 품질경영을 진두지휘하여 최근 3년간 매출액을 32% 상승시킨 공로로 '글로벌품질경영인대상'을 수상했다. 이는 전력 인프라 및 중공업 업계에서 품질 경쟁력이 지속 가능한 성장을 좌우하는 핵심 동력임을 입증하는 성과로 평가받고 있다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-11-07T13:20:57.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=374483",
+      "collectedAt": "2026-11-09T00:40:53.507Z",
+      "bodySnippet": "효성중공업이 품질경영을 최우선 가치로 내세우며 글로벌 시장에서 성장을 이어가고 있다.효성중공업은 우태희 대표가 한국품질경영학회에서 수여하는 ‘글로벌품질경영인대상’을 수상했다고 밝혔다. 이번 수상은 우 대표가 지난 2024년 대표이사로 취임한 이후 현장 중심의 품질경영을 진두지휘하며, 최근 3년간 매출액 32% 상승이라는 가시적 성과를 이끌어낸 공로를 인정받은 결과다. 전력 인프라 및 중공업 업계 전반에서 품질 경쟁력이 기업의 지속 가능한 성장을 좌우하는 핵심 동력으로 자리 잡은 가운데 거둔 성과여서 더욱 주목받고 있다.한국품질경영학회가 주관하는 ‘글로벌품질경영인대상’은 1998년 제정된 이래 우리나라 산업 발전과 품질경영 활동에 크게 기여하고, 기업의 사회적 책임을 성실히 수행한 최고경영자(CEO)에게 수여되는 권위 있는 상이다. 학계와 산업계 전문가들로 구성된 심사위원단은 엄격한 심사를 거쳐 매년 국가 경제 기여도와 경영 철학을 평가해 수상자를 선정하고 있다.우태희 대표는 취임 직후부터 ‘품질이 곧 기업의 생존과 직결된다’는 철학을 바탕으로 전사적인 체질 개선을 주도해 왔다.특히 기존의 사후약방문식 대응에서 벗어나 설계 단계부터 제조, 시공, 사후 서비스("
+    },
+    {
+      "id": "1bbe0626-250d-4fdd-92d8-172bbdcd0fea",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스안전공사 '윤리청렴 쇄신’ 선포 · 대대적 '릴레이 결의식' 추진",
+      "titleOriginal": null,
+      "summary": "한국가스안전공사가 비상경영 체제 아래 조직 쇄신과 청렴 문화 확립을 위해 '윤리청렴 쇄신 및 실천 선언문'을 발표하고 전국 7대 광역본부 및 본사 대상 '릴레이 결의식'을 추진한다. 인사 운영 혁신, 공직기강 확립, 윤리·청렴 조직문화 정착, 안전관리 혁신 등 4대 핵심 분야를 중심으로 국민 신뢰 회복을 위한 특별대책을 시행할 계획이다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-11-07T19:33:13.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=305254",
+      "collectedAt": "2026-11-09T00:42:48.318Z",
+      "bodySnippet": "\r\n<img alt=\"박경국 가스안전공사 사장(왼쪽)이 지난 4일 '비상경영 특별대책 회의'에서 발언하고 있다./한국가스안전공사 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202611/305254_178306_2225.jpg\" />\r\n박경국 가스안전공사 사장(왼쪽)이 지난 4일 &#39;비상경영 특별대책 회의&#39;에서 발언하고 있다./한국가스안전공사 제공\r\n\r\n\r\n\r\n[투데이에너지 신영균 기자]&nbsp;한국가스안전공사가 초고강도 &#39;비상 경영&#39;을 선포하고 비상경영위원회를 출범시킨데 이어 &#39;윤리청렴 쇄신&rsquo;을 선포했다. 이를 실행하기 위해 대대적인 결의식을 준비하고 있다. 가스안전공사는 5일 전사적 윤리청렴 문화를 확립하고 준법경영과 내부통제 실행력을 강화하기 위해 &lsquo;윤리청렴 쇄신&rsquo;을 선포했다고 밝혔다.\r\n\r\n이번 선포는 기관장과 임원진이 솔선수범해 윤리경영을 이끌고 촘촘한 내부통제 체계를 바탕으로 일하는 방식을 비롯해 조직문화를 쇄신하겠다는 의지를 다지기 위해 추진됐다. 이날 박경국 가스안전공사 사장은 &#39;윤리청렴 쇄신 및 실천 선언문&#39;을 발표했다. 이는 기관장을 비롯한 임원진이 앞장서 가스안전공사 조직 문화를 혁신하겠다는 의지를 대내외에 공표한 것으로 이후 &lsquo;전사 릴레이 결의식&rsquo;을 진행한다는 방침이다.\r\n\r\n&#39;릴레이 결의식&#39;은 이달 10일 서울광역본부와 부산광역본부를 시작으로 전국 7대 광역본부에서 간부직을 대상으로 순차적으로 진행될 예정이다. 이어 이달 23일에는 본사를 비롯한 부설기관 간부직 결의식을 개최해 전사적인 실천 의지를 다진다는 입장이다. 이를 통해 간부진 청렴 리더십을 강화하고 부서별 청렴 실천이 일상 업무에 정착하도록 한다는 계획이다. 가스안전공사는 부서별 실천 과제를 구체화하고 이행 상황을 점검해 이번 결의가 업무 관행과 조직문화에서 실질적인 개선으로 이어지도록 한다는 방침이다.\r\n\r\n박경국 가스안전공사 사장은 &ldquo;조직 쇄신과 윤리청렴 문화가 정착하기 위한 핵심은 기관장을 비롯한 간부진의 철저한 솔선수범 및 엄격한 준법 의식에 있다&rdquo;며 &ldquo;이번 선포와 전국 릴레이 결의가 실질적인 변화로 이어지도록 내부통제를 강화하고 지속적으로 실천해 국민에게 신뢰받는 가스안전 전문기관으로 거듭나겠다&rdquo;고 밝혔다.\r\n\r\n한편 가스안전공사는 국민 눈높이에 부합하는 공정하고 책임있는 기관으로 거듭나기 위해 비상 경영 체제를 가동 중이다. 이를 위해 조직 전반에서 대대적인 쇄신과 국민 신뢰 회복을 위한 특별대책을 추진하고 있다. 이번 쇄신은 조직 운영 공정성과 책임성을 높이고 제도 개선이 현장에서 실천으로 이어지도록 하는데 중점을 두고 있다. 중점 추진 분야는 인사 운영 혁신과 고강도 공직기강 확립, 윤리&middot;청렴 조직문화 정착, 안전관리 혁신 등 네 가지다."
+    },
+    {
+      "id": "555a5a79-1671-49f8-9362-ed5146cd3476",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "석유관리원 수도권남부본부, 공군 제10전투비행단 장병 ‘취업 특강’ 진행",
+      "titleOriginal": null,
+      "summary": "한국석유관리원 수도권남부본부가 최근 공군 제10전투비행단 장병을 대상으로 전역 후 진로 공백을 최소화하고 직무 전문성을 강화하기 위한 ‘맞춤형 취업·직무 역량 강화 프로그램’을 실시했습니다. 이 특강은 석유관리원의 화학 분야 전문 지식 및 유류 품질 시험 기술과 공공기관 채용 트렌드, 자기소개서 및 면접 전략 등을 결합하여 장병들의 성공적인 사회 안착을 지원합니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-11-07T18:31:58.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=305253",
+      "collectedAt": "2026-11-09T00:42:55.988Z",
+      "bodySnippet": "\r\n<img alt=\"공군 제10전투비행단에서 장병 대상 ‘취업 특강’이 진행되고 있다./한국석유관리원 수도권남부본부 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202611/305253_178304_2333.jpg\" />\r\n공군 제10전투비행단에서 장병 대상 &lsquo;취업 특강&rsquo;이 진행되고 있다./한국석유관리원 수도권남부본부 제공\r\n\r\n\r\n\r\n[투데이에너지 신영균 기자]&nbsp;한국석유관리원이 청년 장병을 대상으로 전역 후 취업에 유용한 교육 지원을 강화하고 있다. 이를 통해 군 장병은 부대 임무 수행 역량과 직무 전문성이 강화되고 있다. 이에 일환으로 한국석유관리원 수도권남부본부는 최근 공군 제10전투비행단 장병 대상 &lsquo;맞춤형 취업&middot;직무 역량 강화 프로그램&rsquo;을 실시했다고 4일 밝혔다. 이번 프로그램은 청년 장병이 전역 후 진로 공백을 최소화하고 직무 전문성을 강화할 수 있도록 지원하기 위해 기획됐다.&nbsp;\r\n\r\n이번 취업 특강은 석유관리원이 보유한 화학 분야 전문 지식 및 시험 전문기술을 비롯해 석유관리원 수도권남부본부 시험팀이 수행 중인 고유 업무를 군 직무와 결합했다. 이를 통해 장병별 부대 임무 수행 역량과 직무 전문성이 강화될 것으로 기대된다.&nbsp;이날 취업 특강에서는 석유관리원 관계자가 강사로 나서 장병 눈높이에 맞춘 공공기관 및 관련 산업군 채용 트렌드와 직무 분석 직무 역량을 효과적으로 강조하는 자기소개서 사전 준비 및 보완 사항, 면접 대응 전략과 기관 전형 준비 팁 등 실전 정보를 전달했다. 이와 함께 석유관리원 수도권남부본부 시험팀이 구축한 독보적 화학 분석 및 유류 품질 시험 기술을 바탕으로 한 실무 중심 전문직무 내용을 추가로 구성해 진행했다.&nbsp;\r\n\r\n&nbsp;\r\n\r\n\r\n<img alt=\"공군 제10전투비행단에서 진행된 ‘취업 특강’ 참석자들이 기념 촬영하고 있다./한국석유관리원 수도권남부본부 제공\" src=\"https://cdn.todayenergy.kr/news/photo/202611/305253_178305_250.jpg\" />\r\n공군 제10전투비행단에서 진행된 &lsquo;취업 특강&rsquo; 참석자들이 기념 촬영하고 있다./한국석유관리원 수도권남부본부 제공\r\n\r\n\r\n\r\n이승헌 석유관리원 수도권남부본부장은 &ldquo;국가 안보를 위해 헌신하는 공군 장병이 전역 후 사회에 성공적으로 안착하는데 실질적으로 도움이 되는 뜻깊은 자리를 마련하게 돼 기쁘다&rdquo;며 &ldquo;앞으로도 공공기관으로서 청년 장병이 미래를 설계하는데 도움을 주는 다양한 협력 활동을 이어가겠다&rdquo;고 밝혔다.&nbsp;공군 제10전투비행단 관계자 역시 &ldquo;우리 장병에게 가장 필요한 것은 현실적인 취업 정보와 미래에 대한 확신&rdquo;이라며 &ldquo;이번 맞춤형 취업 특강은 우리 장병이 전역 후 사회에 첫걸음을 내딛는데 큰 도움이 될 것으로 기대한다&rdquo;고 말했다.&nbsp;"
     }
   ]
 }
