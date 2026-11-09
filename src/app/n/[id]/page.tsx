@@ -48,7 +48,12 @@ export default async function PublicNewsletterPage({ params }: Props) {
   return (
     <div className="flex flex-col min-h-full" style={{ background: '#F0F2F5' }}>
       <main className="flex-1 py-4 sm:py-8 px-0">
-        <NewsletterContent articles={newsletter.articles} dateLabel={dateLabel} responsive />
+        <NewsletterContent
+          articles={newsletter.articles}
+          dateLabel={dateLabel}
+          displayTitle={newsletter.displayTitle}
+          responsive
+        />
       </main>
     </div>
   )

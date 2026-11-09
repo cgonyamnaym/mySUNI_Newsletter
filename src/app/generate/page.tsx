@@ -6,9 +6,20 @@ import Link from 'next/link'
 import { CheckCircle } from 'lucide-react'
 import { NewsletterContent } from '@/components/NewsletterContent'
 import { saveArchiveEntry } from '@/lib/newsletter-archive'
+import {
+  EDITION_OPTIONS,
+  buildEditionTitle,
+  defaultEdition,
+  yearOptions,
+  type NewsletterEdition,
+} from '@/lib/newsletter-title'
 import type { Article, MetaIndex } from '@/lib/types'
 
 const STORAGE_KEY = 'newsletter-selection'
+
+const selectClass =
+  'px-2.5 py-1.5 rounded-sm border border-wds-gray-200 bg-white text-[13px] font-bold text-wds-gray-950 ' +
+  'outline-none cursor-pointer focus:border-wds-blue-500 disabled:bg-wds-gray-100 disabled:text-wds-gray-500 disabled:cursor-default'
 
 async function fetchJson<T>(path: string): Promise<T | null> {
   try {
@@ -29,6 +40,9 @@ export default function GeneratePage() {
   const [publishing, setPublishing] = useState(false)
   const [publishedUrl, setPublishedUrl] = useState<string | null>(null)
   const [copied, setCopied] = useState(false)
+  // 공개 링크(/n/[id]) 헤더 제목을 구성하는 연도·월·회차. 기사 로드 시 기본값이 채워진다
+  const [edition, setEdition] = useState<NewsletterEdition>(() => defaultEdition([]))
+  const displayTitle = buildEditionTitle(edition)
   const contentRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -109,6 +123,7 @@ export default function GeneratePage() {
       }
 
       setArticles(selected)
+      setEdition(defaultEdition(selected))
       setLoading(false)
     }
     load()
@@ -172,7 +187,7 @@ export default function GeneratePage() {
       const res = await fetch('/api/newsletter/publish', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ articles }),
+        body: JSON.stringify({ articles, displayTitle }),
       })
       if (!res.ok) throw new Error('failed')
       const { url } = await res.json() as { url: string }
@@ -314,6 +329,67 @@ export default function GeneratePage() {
             </button>
           </div>
         </div>
+      </div>
+
+      {/* 공개 링크 제목 선택 */}
+      <div className="bg-white border-b border-wds-gray-200 px-6 py-3">
+        <div className="max-w-3xl mx-auto flex items-center gap-3 flex-wrap">
+          <span className="text-[12px] font-bold text-wds-gray-500 shrink-0">공개 링크 제목</span>
+
+          <div className="flex items-center gap-1.5">
+            <select
+              id="nl-title-year"
+              aria-label="연도"
+              value={edition.year}
+              onChange={(e) => setEdition((p) => ({ ...p, year: Number(e.target.value) }))}
+              disabled={!!publishedUrl}
+              className={selectClass}
+            >
+              {yearOptions(edition.year).map((y) => (
+                <option key={y} value={y}>{y}년</option>
+              ))}
+            </select>
+
+            <select
+              id="nl-title-month"
+              aria-label="월"
+              value={edition.month}
+              onChange={(e) => setEdition((p) => ({ ...p, month: Number(e.target.value) }))}
+              disabled={!!publishedUrl}
+              className={selectClass}
+            >
+              {Array.from({ length: 12 }, (_, i) => i + 1).map((m) => (
+                <option key={m} value={m}>{m}월</option>
+              ))}
+            </select>
+
+            <select
+              id="nl-title-edition"
+              aria-label="회차"
+              value={edition.edition}
+              onChange={(e) => setEdition((p) => ({ ...p, edition: Number(e.target.value) }))}
+              disabled={!!publishedUrl}
+              className={selectClass}
+            >
+              {EDITION_OPTIONS.map((n) => (
+                <option key={n} value={n}>{n}회차</option>
+              ))}
+            </select>
+
+            <span className="text-[13px] font-bold text-wds-gray-700 ml-1">Energy Newsletter</span>
+          </div>
+
+          <button
+            onClick={() => setEdition(defaultEdition(articles))}
+            disabled={!!publishedUrl}
+            className="text-[12px] font-bold text-wds-gray-500 hover:text-wds-gray-950 shrink-0 transition-colors disabled:text-wds-gray-300 disabled:hover:text-wds-gray-300"
+          >
+            기본값
+          </button>
+        </div>
+        <p className="max-w-3xl mx-auto text-[11px] text-wds-gray-400 mt-1.5">
+          URL 공유로 생성되는 공개 페이지 상단에 <span className="font-bold text-wds-gray-500">{displayTitle}</span> 로 표시됩니다.
+        </p>
       </div>
 
       {/* 공유 URL 배너 */}

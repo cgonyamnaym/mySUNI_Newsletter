@@ -2,6 +2,7 @@
 
 import { forwardRef, useState, type MouseEvent } from 'react'
 import type { Article, TopicId } from '@/lib/types'
+import { buildDefaultNewsletterTitle } from '@/lib/newsletter-title'
 import styles from './NewsletterContent.module.css'
 
 // 뉴스레터 전용 카테고리 색상 (목업 기준)
@@ -55,10 +56,12 @@ interface Props {
   onRetrySummary?: (articleId: string) => Promise<boolean>
   /** true면 반응형 폭(min 820 / max 1200px, 모바일 1열)을 적용. 기본값은 고정 800px(내부 페이지용) */
   responsive?: boolean
+  /** 공개 링크 헤더에 표시할 제목. 비어 있으면 발행 기간 기반 기본 제목을 사용 */
+  displayTitle?: string
 }
 
 const NewsletterContent = forwardRef<HTMLDivElement, Props>(
-  ({ articles, dateLabel, onRetrySummary, responsive }, ref) => {
+  ({ articles, dateLabel, onRetrySummary, responsive, displayTitle }, ref) => {
     // primaryTopic 우선, 없으면 첫 번째 topic, 없으면 uncategorized
     const groupMap = new Map<TopicId, Article[]>()
     const unclassified: Article[] = []
@@ -86,26 +89,8 @@ const NewsletterContent = forwardRef<HTMLDivElement, Props>(
 
     const rc = (base: string) => responsive ? `${base} ${styles.responsive}` : base
 
-    // 발행 기사들의 publishedAt 최소~최대값으로 격주 발행 기간(주차 범위)을 표시
-    const publishedDates = articles
-      .map((a) => new Date(a.publishedAt))
-      .filter((d) => !isNaN(d.getTime()))
-    const now = new Date()
-    const minDate = publishedDates.length ? new Date(Math.min(...publishedDates.map((d) => d.getTime()))) : now
-    const maxDate = publishedDates.length ? new Date(Math.max(...publishedDates.map((d) => d.getTime()))) : now
-
-    const weekOf = (d: Date) => Math.ceil(d.getDate() / 7)
-    const sameMonth = minDate.getFullYear() === maxDate.getFullYear() && minDate.getMonth() === maxDate.getMonth()
-    const sameWeek = sameMonth && weekOf(minDate) === weekOf(maxDate)
-    const sameYear = minDate.getFullYear() === maxDate.getFullYear()
-
-    const rangeLabel = sameWeek
-      ? `${maxDate.getFullYear()}년 ${maxDate.getMonth() + 1}월 ${weekOf(maxDate)}주차`
-      : sameMonth
-        ? `${minDate.getFullYear()}년 ${minDate.getMonth() + 1}월 ${weekOf(minDate)}주차~${weekOf(maxDate)}주차`
-        : `${minDate.getFullYear()}년 ${minDate.getMonth() + 1}월 ${weekOf(minDate)}주차~${sameYear ? '' : `${maxDate.getFullYear()}년 `}${maxDate.getMonth() + 1}월 ${weekOf(maxDate)}주차`
-
-    const compactLabel = `${rangeLabel} Energy Newsletter`
+    // 지정된 제목이 없으면 발행 기사들의 publishedAt 범위로 주차 라벨을 자동 생성
+    const compactLabel = displayTitle?.trim() || buildDefaultNewsletterTitle(articles)
 
     return (
       <div

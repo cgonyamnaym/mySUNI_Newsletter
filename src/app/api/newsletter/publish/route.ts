@@ -10,6 +10,8 @@ export interface PublishedNewsletter {
   id: string
   confirmedAt: string
   title: string
+  /** 공개 링크 헤더에 표시할 제목. 없으면 발행 기간 기반 기본 제목이 쓰인다 */
+  displayTitle?: string
   articleCount: number
   articles: Article[]
   ownerEmail: string
@@ -36,9 +38,11 @@ export async function POST(req: NextRequest) {
   const session = await getServerSession(authOptions)
   if (!session?.user?.email) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
-  const body = await req.json() as { articles: Article[]; title?: string }
+  const body = await req.json() as { articles: Article[]; title?: string; displayTitle?: string }
   const { articles } = body
   if (!articles?.length) return NextResponse.json({ error: 'No articles' }, { status: 400 })
+
+  const displayTitle = body.displayTitle?.trim().slice(0, 120) || undefined
 
   const id = crypto.randomUUID()
   const confirmedAt = new Date().toISOString()
@@ -49,6 +53,7 @@ export async function POST(req: NextRequest) {
     id,
     confirmedAt,
     title: body.title ?? `에너지 인사이트 뉴스레터 ${dateStr}`,
+    displayTitle,
     articleCount: articles.length,
     articles,
     ownerEmail,
