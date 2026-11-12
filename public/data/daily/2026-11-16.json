@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-12T02:27:50.877Z",
+  "articleCount": 1,
+  "articles": [
+    {
+      "id": "51c25ed4-0e9c-4bbe-bf33-7ee57aa392f1",
+      "source": "World Nuclear News",
+      "sourceId": "world-nuclear-news",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "파키스탄 차슈마 5호기 돔 설치",
+      "titleOriginal": "Dome installed at Pakistan's Chashma unit 5",
+      "summary": "파키스탄 차슈마 원자력 발전소 부지의 5호기 격납 건물에 내부 안전 돔 설치가 완료되었습니다. 이는 원전의 핵심 안전 설비 중 하나로, 발전소의 안정적인 운영에 기여할 것으로 보입니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-16T14:38:25.000Z",
+      "originalUrl": "https://www.world-nuclear-news.org/articles/dome-installed-at-pakistans-chashma-unit-5",
+      "collectedAt": "2026-11-12T02:12:28.318Z",
+      "bodySnippet": "The inner safety dome has been installed on the containment building of unit 5 at the Chashma nuclear power plant site in Pakistan.<br />\r\n&nbsp;"
+    }
+  ]
+}
