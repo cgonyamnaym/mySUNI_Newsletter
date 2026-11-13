@@ -1,7 +1,7 @@
 {
   "date": "2026-11-11",
-  "generatedAt": "2026-11-12T02:27:50.875Z",
-  "articleCount": 161,
+  "generatedAt": "2026-11-13T02:03:21.256Z",
+  "articleCount": 162,
   "articles": [
     {
       "id": "f21fd62c-4e20-4c80-b05a-ccd75c66aca8",
@@ -3135,6 +3135,26 @@
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71430",
       "collectedAt": "2026-11-12T02:26:35.512Z",
       "bodySnippet": "제주 한림해상풍력 EPC 사업을 성공적으로 이끈 한전기술이 완도 금일과 전북 서남권에서 대규모 사업을 추가로 따내며 사업 확장에 나선 가운데 베트남 해상풍력 EPC 우선협상권까지 확보했습니다. 지난 9일 한전기술은 베트남 재생에너지 개발회사인 민탁그룹과 베트남 북부지역인 닌빈 인근 해역에 500MW급 해상풍력단지 공동개발에 협력하기로 하는 협약을 체결했습니다."
+    },
+    {
+      "id": "df765752-7d7c-4463-bf52-f4a72142b9bd",
+      "source": "WindPower Monthly",
+      "sourceId": "windpower-monthly",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "지멘스 에너지 CEO, 해상풍력 FIDs 없이는 업무량 공백 경고",
+      "titleOriginal": "Siemens Energy CEO warns of workload gap without offshore wind FIDs",
+      "summary": "지멘스 에너지(Siemens Energy) CEO 크리스티안 브루흐는 해상풍력 프로젝트에 대한 최종 투자 결정(FIDs) 가속화를 정부에 촉구했습니다. 그는 FIDs 지연이 2029년부터 산업의 제조 능력 및 공급망에 공백을 초래할 위험이 있다고 경고했습니다.",
+      "topics": [
+        "시장·가격 동향",
+        "에너지원"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-11-11T11:23:21.000Z",
+      "originalUrl": "https://www.windpowermonthly.com/article/1974957/siemens-energy-ceo-warns-workload-gap-without-offshore-wind-fids",
+      "collectedAt": "2026-11-13T01:45:39.480Z",
+      "bodySnippet": "Siemens Energy CEO Christian Bruch has urged governments to accelerate final investment decisions (FIDs) for offshore wind projects, warning that delays risk creating gaps in the industry's manufacturing capacity and supply chains from 2029."
     }
   ]
 }
