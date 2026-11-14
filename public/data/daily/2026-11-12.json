@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
-  "generatedAt": "2026-11-13T02:03:21.253Z",
-  "articleCount": 146,
+  "generatedAt": "2026-11-14T01:37:48.766Z",
+  "articleCount": 147,
   "articles": [
     {
       "id": "49c4f779-ea48-4f36-a006-8c850936bedd",
@@ -2837,6 +2837,26 @@
       "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71444",
       "collectedAt": "2026-11-13T02:02:05.679Z",
       "bodySnippet": "한전KDN이 충북 음성지역 공영주차장에 태양광발전을 설치하고 발전수익을 지역사회에 환원하는 공공주도형 재생에너지 사업을 추진한다. 한전KDN(주)(사장 박상형)은 음성군·충북개발공사 등과 충북 음성지역 공영주차장 태양광발전 설치·운영에 협력하기로 하고 지난 10일 업무합의를 체결했다."
+    },
+    {
+      "id": "c21ee779-1f40-409c-afdf-139100a00b39",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "육상 풍력 프로젝트 약 400건, 미 국방부 승인 대기 중",
+      "titleOriginal": "Around 400 onshore wind projects await DOD action, official tells court",
+      "summary": "미 국방부(DOD)의 인력 부족으로 인해 약 400건에 달하는 육상 풍력 발전 프로젝트의 허가 절차가 지연되고 있습니다. 데일 마크스 국방부 차관보는 법정에서 인력난을 인정했으며, 관련 업계 단체는 마크스 차관보 임명 이후 승인 절차가 사실상 중단되었다며 소송을 제기했습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-12T15:48:08.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/around-400-onshore-wind-projects-await-dod-action-official-says-in-court/874521/",
+      "collectedAt": "2026-11-14T01:26:02.116Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/kwMy2PcJ3OkQO08Ay_BvEIG-7R-LvvxDovIfJqPss7k/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMzA0NDM3MDc1LmpwZw==.webp\"/></div></figure><p>Assistant Secretary of Defense&nbsp;Dale Marks told a federal court that the Pentagon doesn&rsquo;t have enough staff to review permits. A coalition suing DOD says the process ground &ldquo;to a halt&rdquo; after Marks was confirmed.</p>"
     }
   ]
 }
