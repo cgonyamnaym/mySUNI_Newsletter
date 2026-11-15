@@ -1,7 +1,7 @@
 {
   "date": "2026-11-14",
-  "generatedAt": "2026-11-14T01:37:48.768Z",
-  "articleCount": 3,
+  "generatedAt": "2026-11-15T00:58:56.819Z",
+  "articleCount": 26,
   "articles": [
     {
       "id": "2fe60808-5dd7-4291-b98f-c660936540d8",
@@ -61,6 +61,444 @@
       "originalUrl": "https://www.energydaily.co.kr/news/articleView.html?idxno=205099",
       "collectedAt": "2026-11-14T01:28:38.562Z",
       "bodySnippet": "[에너지데일리 송병훈 기자 ] 원전을 안정적으로 가동하려면 연료를 제때 확보해야 하고, 가동이 끝난 뒤에는 해체와 방사성폐기물 관리까지 책임져야 한다. 한국과 프랑스가 원자력 협력의 범위를 방사성폐기물 관리 중심에서 핵연료 공급망과 차세대 원자로, 해체·처분을 아우르는 산업 전반으로 넓히기로 했다.국내 산업에 당장 중요한 과제는 핵연료 조달의 선택지를 늘리는 일이다. 중장기적으로는 프랑스 연구시설을 활용한 시험이 국내 기업의 설계·검증 역량으로 남는지, 처분시설 추진 경험이 국내 부지 평가와 주민 참여 절차를 개선하는 데 도움이 되"
+    },
+    {
+      "id": "f5181343-c585-4ec2-93cb-c6abd0e61ec3",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "구리 도금 이종접합 태양전지의 스크린 프린팅 유발 열화 해결을 위한 첫 시도",
+      "titleOriginal": "First attempt to address screen printing-induced degradation in copper-plated heterojunction solar cells",
+      "summary": "중국 연구진이 스크린 프린팅 방식이 구리 도금 이종접합 태양전지에 유발하는 새로운 열화 메커니즘을 발견했습니다. 스크린 메쉬 마모로 인해 태양전지의 패시베이션 층이 손상되고 효율이 감소하는 문제였는데, 최적화된 에멀젼 버퍼 층을 사용하여 40,000회 연속 프린팅 주기 동안 이러한 열화를 성공적으로 방지했다고 보고했습니다.",
+      "topics": [
+        "에너지원",
+        "ESG·탄소중립"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-14T10:55:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/11/14/first-attempt-to-address-screen-printing-induced-degradation-in-copper-plated-heterojunction-solar-cells/",
+      "collectedAt": "2026-11-15T00:53:27.793Z",
+      "bodySnippet": "<p>Researchers in China have investigated a previously overlooked degradation mechanism in copper-plated heterojunction solar cells caused by screen-printed photoresist. They found that progressive wear of the screen mesh can damage the cells' passivation layers and reduce efficiency. An optimized emulsion buffer layer reportedly prevented the degradation over 40,000 consecutive printing cycles.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/11/14/first-attempt-to-address-screen-printing-induced-degradation-in-copper-plated-heterojunction-solar-cells/\">First attempt to address screen printing-induced degradation in copper-plated heterojunction solar cells</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "e2869c9f-dc88-4bb3-ba93-b35bc8b606cf",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "습한 날씨가 남서부 태양광 자원에 부담을 주면서 오대호 일사량 급증",
+      "titleOriginal": "Great Lakes irradiance surges as wet weather weighs on Southwest solar resource",
+      "summary": "pv magazine의 주간 업데이트에서 DNV 계열사인 Solcast는 2026년 10월 북미 태양광 일사량이 평균 대비 0.8% 높았다고 보고했습니다. 특히 오대호와 북동부는 14%의 잉여를 기록하며 버팔로와 클리블랜드에서 사상 최고치를 경신했습니다. 반면, 남서부와 멕시코 북부 지역은 폭우와 구름으로 인해 일사량이 9% 감소했으며, 피닉스는 10월 중 두 번째로 낮은 수치를 기록했습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-14T10:50:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/11/14/great-lakes-irradiance-surges-as-wet-weather-weighs-on-southwest-solar-resource/",
+      "collectedAt": "2026-11-15T00:53:33.183Z",
+      "bodySnippet": "<p>In a new weekly update for pv magazine, <b>Solcast</b>, a DNV company, reports that North American solar irradiance was 0.8% above average in October 2026, with the Northeast and Great Lakes recording a 14% surplus and record highs in Buffalo and Cleveland. Meanwhile, heavy rainfall and persistent cloud cover pushed irradiance 9% below normal across the Southwest and northern Mexico, with Phoenix recording its second-lowest October level.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/11/14/great-lakes-irradiance-surges-as-wet-weather-weighs-on-southwest-solar-resource/\">Great Lakes irradiance surges as wet weather weighs on Southwest solar resource</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "4cac5a90-5399-4244-b786-f22f5409bc84",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "UNSW, 3분 만에 리튬 이온 배터리 상태 진단 기술 개발",
+      "titleOriginal": "UNSW develops three-minute lithium-ion battery health test",
+      "summary": "UNSW 연구진이 전기 펄스와 통계 모델을 활용하여 3분 이내에 리튬 이온 배터리 셀의 상태를 평가하는 시제품을 개발했습니다. 이 기술은 폐배터리를 재사용 또는 재활용하기 위해 분류하는 데 중요한 역할을 할 잠재력을 가지고 있습니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-14T10:47:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/11/14/unsw-develops-three-minute-lithium-ion-battery-health-test/",
+      "collectedAt": "2026-11-15T00:53:39.308Z",
+      "bodySnippet": "<p>Researchers at the University of New South Wales (UNSW) have developed a prototype that uses electrical pulses and statistical models to assess lithium-ion battery health in under three minutes per cell, with a potential role in sorting retired batteries for reuse or recycling. </p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/11/14/unsw-develops-three-minute-lithium-ion-battery-health-test/\">UNSW develops three-minute lithium-ion battery health test</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "1c70abb9-791a-453d-8209-2f02788d342c",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "‘나 자신을 충분히 소중히 여기지 못해 목소리 내지 못한 순간들이 후회된다’",
+      "titleOriginal": "‘The times I regret are the ones when I didn’t value myself enough to speak up’",
+      "summary": "이번 주 Women in Solar+ Europe은 영국 기반의 Eden Sustainable Power 이사인 Tracey Elliott의 이야기를 조명했다. 그녀는 역할 모델, 멘토십, 포용적인 직장을 통해 여성 대표성을 높이는 것이 중요하며, 여성들이 자신만의 독특한 관점을 리더십에 가져올 수 있도록 역량을 강화해야 한다고 강조했다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-14T10:30:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/11/14/the-times-i-regret-are-the-ones-when-i-didnt-value-myself-enough-to-speak-up/",
+      "collectedAt": "2026-11-15T00:53:44.376Z",
+      "bodySnippet": "<p>This week Women in Solar+ Europe gives voice to Tracey Elliott, Director of UK-based Eden Sustainable Power. She says increasing female representation through role models, mentorship, and inclusive workplaces is essential, alongside empowering women to bring their unique perspectives into leadership.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/11/14/the-times-i-regret-are-the-ones-when-i-didnt-value-myself-enough-to-speak-up/\">&#8216;The times I regret are the ones when I didn’t value myself enough to speak up&#8217;</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "46516be6-8cf8-4170-aec8-57c90130f832",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "마스다르, 캘리포니아에서 9억 5천만 달러 규모의 태양광 및 배터리 저장 프로젝트 완료",
+      "titleOriginal": "Masdar completes $950 million solar and battery storage project in California",
+      "summary": "아부다비 청정 에너지 개발사 마스다르(Masdar)와 합작 파트너 테라젠(Terra-Gen)은 캘리포니아에서 9억 5천만 달러 규모의 록하트(Lockhart) 복합 단지 프로젝트를 완료했다. 이 프로젝트는 365 MW의 태양광 발전과 173.7 MW의 에너지 저장 시설을 캘리포니아 전력망에 추가한다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-14T09:30:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/11/14/masdar-completes-950-million-solar-and-battery-storage-project-in-california/",
+      "collectedAt": "2026-11-15T00:53:49.087Z",
+      "bodySnippet": "<p>The Abu Dhabi clean energy developer and its joint venture partner Terra-Gen have brought the Lockhart complex online, adding 365 MW of solar generation and 173.7 MW of energy storage to the California grid.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/11/14/masdar-completes-950-million-solar-and-battery-storage-project-in-california/\">Masdar completes $950 million solar and battery storage project in California</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "90542338-d8d0-4cc3-ba13-30974ac692e6",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "CATL 테너 나트륨 명확화: 새로운 사양 및 출시",
+      "titleOriginal": "Clarifying the CATL Tener Sodium, with new specifications and availability",
+      "summary": "CATL이 4시간 나트륨 이온 배터리인 '테너 나트륨(Tener Sodium)'의 새로운 사양을 공개하며, LFP 기반 배터리 대비 비용 효율성을 강조했습니다. 이 제품은 2027년 여름부터 국제적으로 배송될 예정입니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-14T08:30:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/11/14/clarifying-the-catl-tener-sodium-with-new-specifications-and-availability/",
+      "collectedAt": "2026-11-15T00:53:53.364Z",
+      "bodySnippet": "<p>New specs for CATL’s four-hour sodium-ion battery reveal how the company will market the product for cost benefits over LFP-based batteries. International deliveries are due to begin in summer 2027. </p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/11/14/clarifying-the-catl-tener-sodium-with-new-specifications-and-availability/\">Clarifying the CATL Tener Sodium, with new specifications and availability</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "c5dacb79-e88a-4f3a-823c-010a1a843c72",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "투명 대나무, 태양광 PV 채광창의 에너지 성능을 높이다",
+      "titleOriginal": "Transparent bamboo boosts energy performance of solar PV skylights",
+      "summary": "연구진은 투명 목재와 다양한 투명도의 PV 모듈을 사용한 21가지 유리 구성에 대해 테스트를 진행했다. 그 결과, 대나무 기반 시스템이 가장 낮은 열 획득과 냉방 운영 비용을 달성하여 태양광 PV 채광창의 에너지 성능을 향상시키는 것으로 나타났다.",
+      "topics": [
+        "에너지원",
+        "운영 최적화"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-14T08:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/11/14/transparent-bamboo-boosts-energy-performance-of-solar-pv-skylights/",
+      "collectedAt": "2026-11-15T00:53:58.186Z",
+      "bodySnippet": "<p>Researchers tested 21 glazing configurations using transparent wood and PV modules with different transparency levels. Bamboo-based systems achieved the lowest heat gain and cooling operating costs. </p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/11/14/transparent-bamboo-boosts-energy-performance-of-solar-pv-skylights/\">Transparent bamboo boosts energy performance of solar PV skylights</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "762ab745-52c3-4b35-b87b-fdadf1181c04",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "옌허 테크놀로지, 3가지 페로브스카이트 태양광 모듈 기술을 궤도에 발사",
+      "titleOriginal": "Yanhe Technology launches three perovskite solar module technologies into orbit",
+      "summary": "베이징에 본사를 둔 옌허 테크놀로지는 3가지 페로브스카이트 기반 태양광 모듈 기술을 저궤도에 발사하여 우주 조건에서의 성능을 평가할 예정입니다. 이 미션은 페로브스카이트-실리콘 탠덤, 페로브스카이트-CIGS 탠덤, 그리고 유연성 단일접합 페로브스카이트 기술의 성능을 시험하게 됩니다.",
+      "topics": [
+        "에너지원",
+        "전력 인프라"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-14T07:30:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/11/14/yanhe-technology-launches-three-perovskite-solar-module-technologies-into-orbit/",
+      "collectedAt": "2026-11-15T00:54:02.511Z",
+      "bodySnippet": "<p>Beijing-based Yanhe Technology has launched three perovskite-based photovoltaic modules into low Earth orbit to assess their performance under space conditions. The mission will test perovskite-silicon tandem, perovskite-CIGS tandem, and flexible single-junction perovskite technologies.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/11/14/yanhe-technology-launches-three-perovskite-solar-module-technologies-into-orbit/\">Yanhe Technology launches three perovskite solar module technologies into orbit</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "6fd08424-15ed-4db0-85bb-85f796d334a7",
+      "source": "PV Magazine",
+      "sourceId": "pv-magazine",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "트래커가 통신하지 않을 때",
+      "titleOriginal": "When trackers don’t talk",
+      "summary": "프랑스 트래커 제어 전문 기업 Track N Co는 49MW 규모의 태양광 발전소 5곳에 대한 무선 네트워크 최적화 사례를 통해 트래커 각도와 발전소 배치를 시뮬레이션하여 통신 음영 지역을 효과적으로 제거했습니다. 이를 통해 현장 시행착오 없이 무선 통신 안정성과 에너지 생산 효율을 크게 향상시켰습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-14T05:00:00.000Z",
+      "originalUrl": "https://www.pv-magazine.com/2026/11/14/when-trackers-dont-talk/",
+      "collectedAt": "2026-11-15T00:54:07.550Z",
+      "bodySnippet": "<p>Single-axis trackers rotate throughout the day, continuously reshaping the radio environment that keeps each row of modules communicating with the plant controller. Poor design of these wireless networks leaves reliability and yield on the table. Jérôme Arliaud, CEO of French tracker control specialist Track N Co, explains how simulating signal propagation against panel angle and plant layout eliminated the communication blind spots on a five-plant, 49 MW retrofit, with no trial and error in the field.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/11/14/when-trackers-dont-talk/\">When trackers don’t talk</a> appeared first on <a href=\"https://www.pv-magazine.com\">pv magazine Global</a>.</p>\n"
+    },
+    {
+      "id": "f0595ba8-fbf6-4979-b455-bbe04dd81c30",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "AirTrunk, 인도 안드라프라데시주에 1.8GW 규모 데이터 센터 용량 확보를 위한 양해각서 체결",
+      "titleOriginal": "AirTrunk signs MoU for 1.8GW of data center capacity in Andhra Pradesh, India",
+      "summary": "데이터 센터 기업 AirTrunk가 인도 안드라프라데시주 비샤카파트남 외곽에 총 1.8GW 규모의 데이터 센터를 구축하기 위한 양해각서(MoU)를 체결했습니다. 이번 프로젝트는 막대한 전력 소비가 예상되는 대규모 인프라 개발로, 지역 내 전력 인프라 확충과 에너지 공급이 핵심이 될 전망입니다.",
+      "topics": [
+        "정책·규제",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "정책·규제",
+      "publishedAt": "2026-11-14T11:00:55.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/airtrunk-signs-mou-for-18gw-of-data-center-capacity-in-andhra-pradesh-india/",
+      "collectedAt": "2026-11-15T00:54:12.489Z",
+      "bodySnippet": "<p data-block-key=\"fzsdz\">Company targets two projects outside Vizag</p>"
+    },
+    {
+      "id": "89c80333-d50c-424d-9971-9df1a0ca2a81",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "스폰서 기사: 압력이 가중될 때, 서버를 실제로 식히는 것은 무엇일까?",
+      "titleOriginal": "Sponsored: When the pressure heats up, what really cools servers down?",
+      "summary": "데이터 센터의 수요 급증으로 인해 냉각 성능에 대한 제약이 커지고 있는 상황을 다루고 있습니다. 이를 해결하기 위한 장기적인 방안으로 합작 투자와 더욱 지속 가능한 냉각 장치(chiller) 도입의 필요성을 강조합니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-14T08:00:00.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/marketwatch/when-the-pressure-heats-up-what-really-cools-servers-down/",
+      "collectedAt": "2026-11-15T00:54:31.166Z",
+      "bodySnippet": "<p data-block-key=\"zbw9w\">Demand is leading to cooling constraints across the data center. Joint ventures and more sustainable chillers could provide the long-term answer</p>"
+    },
+    {
+      "id": "b1602409-55a7-47a9-86a8-34c8b4747c34",
+      "source": "Data Center Dynamics",
+      "sourceId": "data-center-dynamics",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "NTT 도코모, 일본 육상 새우 양식장에 데이터센터 폐열 재활용 시범 사업 추진",
+      "titleOriginal": "NTT Docomo to pilot data center heat-reuse for on-shore shrimp farm in Japan",
+      "summary": "NTT 도코모는 도쿄시의 데이터센터 폐열 활용 프로젝트의 일환으로, 데이터센터에서 발생하는 열을 육상 새우 양식장에 공급하는 기술을 시범 운영합니다. 이 사업은 버려지는 열 에너지를 효율적으로 재사용하여 에너지 소비를 최적화하고 지속 가능한 산업 환경을 조성하는 데 목적이 있습니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-11-14T05:00:42.000Z",
+      "originalUrl": "https://www.datacenterdynamics.com/en/news/ntt-docomo-to-pilot-data-center-heat-reuse-for-on-shore-shrimp-farm-in-japan/",
+      "collectedAt": "2026-11-15T00:54:45.409Z",
+      "bodySnippet": "<p data-block-key=\"nx5t4\">Part of Tokyo city initiative to find uses for data center heat</p>"
+    },
+    {
+      "id": "b0c27a8b-d0f3-4edf-9b72-1089430a26e9",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(KECA 네트워크) 전기공사협회 대구시회, 북구 취약계층에 사랑의 물품 전달",
+      "titleOriginal": null,
+      "summary": "한국전기공사협회 대구광역시회는 지난 13일 대구 북구 칠성동 행정복지센터에서 지역 내 저소득 취약계층을 위해 쌀과 라면 등 생활필수품을 전달하는 사랑의 물품 전달행사를 진행했다. 이날 행사에는 우재준 의원도 참석했으며, 전기공사 현장의 산업재해 감소와 안전문화 확산에 기여한 한국전기공사협회 안전기술원 직원에게 표창이 수여되기도 했다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-11-14T00:17:58.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=374753",
+      "collectedAt": "2026-11-15T00:55:19.205Z",
+      "bodySnippet": "한국전기공사협회 대구광역시회(회장 이병철)는 지난 13일 대구 북구 칠성동 행정복지센터에서 지역 내 저소득 취약계층을 위한 사랑의 물품 전달행사를 진행했다고 밝혔다. 이날 행사에는 우재준 의원(국민의힘·대구 북구갑)도 참석했다. 대구시회는 칠성동 관내 취약계층에 쌀과 라면 등 생활필수품을 전달하며 따뜻한 나눔의 뜻을 전했다.행사에서는 전기공사 현장의 재해 예방을 위한 기술지도와 안전관리 체계 구축에 힘쓰며 산업재해 감소와 안전문화 확산에 기여한 한국전기공사협회 안전기술원 직원에게 우재준 의원 표창을 수여하는 자리도 마련됐다.이병철"
+    },
+    {
+      "id": "e4e1d075-7772-4011-b3ad-6cf9e57bb6c8",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(KECA 네트워크) 전기공사협회 대구시회, 전기공사 분리발주 확대 위한 대응 방안 논의",
+      "titleOriginal": null,
+      "summary": "한국전기공사협회 대구광역시회는 지난 13일 '2026년 제1차 대외협력위원회'를 열고 전기공사 분리발주 확대와 회원사 업역 수호 방안을 논의했다. 위원들은 지역 내 대형공사 및 신규 발주 예정 사업 정보를 공유하며, 발주 단계부터 적극적으로 대응하여 분리발주를 확대하는 데 협력하기로 했다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-11-14T00:14:01.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=374752",
+      "collectedAt": "2026-11-15T00:55:27.673Z",
+      "bodySnippet": "한국전기공사협회 대구광역시회(회장 이병철)는 지난 13일 시회 회의실에서 ‘2026년 제1차 대외협력위원회’를 개최했다고 밝혔다. 이날 회의에서는 ‘업역 수호 방안 및 현안사항’을 주요 안건으로 다뤘다. 위원들은 지역 내 대형공사 발주 동향을 공유하고, 전기공사 분리발주 확대를 위한 선제적 대응 방안을 논의했다.특히 지역 내 대형공사와 신규 발주 예정 사업 정보를 공유하고, 발주 단계부터 적극적으로 대응해 전기공사 분리발주를 확대하고 회원사 업역을 보호하는 데 힘을 모으기로 했다.회의 의장을 맡은 심재경 대외협력위원장은 대형공사 발"
+    },
+    {
+      "id": "a9c087cb-235d-4ed6-bfab-ffa9ab84c84b",
+      "source": "전기신문",
+      "sourceId": "electimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "(KECA 네트워크) 전기공사협회 대구시회, 2026년도 제1차 윤리위원회 개최",
+      "titleOriginal": null,
+      "summary": "한국전기공사협회 대구광역시회는 지난 13일 2026년도 제1차 윤리위원회를 개최하고, 연초 수립한 윤리사업 추진계획 결과를 보고하며 관련 안건을 원안대로 의결했다. 대구시회는 올해 윤리사업의 일환으로 LED 전광판과 홍보 광고를 활용하여 건전한 업계 질서 확립과 윤리의식 제고를 위한 홍보활동을 추진했다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-11-14T00:10:51.000Z",
+      "originalUrl": "https://www.electimes.com/news/articleView.html?idxno=374751",
+      "collectedAt": "2026-11-15T00:55:32.417Z",
+      "bodySnippet": "한국전기공사협회 대구광역시회(회장 이병철)는 지난 13일 ‘2026년도 제1차 윤리위원회’를 개최했다고 밝혔다.이날 회의에서는 연초 수립한 윤리사업 추진계획에 따른 추진 결과를 보고하고, 관련 안건을 원안대로 의결했다.대구시회는 올해 윤리사업의 일환으로 LED 전광판과 홍보 광고를 활용해 건전한 업계 질서 확립과 윤리의식 제고를 위한 홍보활동을 추진했다.이병철 회장은 인사말에서 “올 한 해도 시회가 추진하는 각종 사업뿐만 아니라 건전한 업계 질서 확립을 위해 적극 협조해 주신 위원님들께 감사드린다”며 위원들의 노고에 감사의 뜻을 전"
+    },
+    {
+      "id": "805d58d1-73e8-419e-b36f-145085366d86",
+      "source": "투데이에너지",
+      "sourceId": "todayenergy",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "12차 최고 가격 동결 · 정유사 '손실 보전' 원가 산정",
+      "titleOriginal": null,
+      "summary": "정부가 12차 석유제품 최고 가격을 휘발유 1,784원, 경유 1,773원 등으로 동결하고, 중동 정세 불안에 따른 유가 변동성을 고려했다. 또한 정유사 손실 보전액 산정 기준을 국제 가격이 아닌 '원가 기준'으로 확정하며 세금 지원의 적정성을 강조했다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-11-14T23:31:26.000Z",
+      "originalUrl": "https://www.todayenergy.kr/news/articleView.html?idxno=305564",
+      "collectedAt": "2026-11-15T00:57:00.044Z",
+      "bodySnippet": "\r\n<img alt=\"서울 강남 논현동 지역에서 영업 중인 SK주유소/신영균 기자\" src=\"https://cdn.todayenergy.kr/news/photo/202611/305564_178731_190.jpg\" />\r\n서울 강남 논현동 지역에서 영업 중인 SK주유소/신영균 기자\r\n\r\n\r\n\r\n[투데이에너지 신영균 기자]&nbsp;정부가 &#39;12차 석유제품 최고 가격&#39;을 동결했다. 또한 당초 전망대로 정부는 정유사에 대한 손실 보전을 원가 기준으로 산정한다는 방침을 고수했다. 산업통상부는 이날 14일 00시부터 향후 4주간 적용될 &#39;12차 석유제품 최고 가격&#39;을 기존 11차와 동일하게 적용한다고 13일 밝혔다. 이에 따라 리터당 휘발유는 1784원, 경유는 1773원, 등유 1380원이 유지되고 있다.\r\n\r\n이는 최근 브렌트유와 두바이유가 배럴당 90달러대로 10월 평균 대비 하락했으나 중동 정세 불안정으로 다시 100달러대로 상승할 수 있는 상황을 고려한 것으로 분석된다. 실제로 미국 현지 시각으로 12일 트럼프 대통령이 &quot;이란과 더 이상 합의가 필요하지 않다&quot;는 강경 입장을 드러내 국제유가 기준인 브렌트유는 13일 소폭이나마 상승했다. 이날 브렌트유는 전일 대비 0.02달러 상승해 배럴당 95.84달러를 나타냈다.&nbsp;\r\n\r\n&nbsp;\r\n\r\n\r\n<img alt=\"고속도로 휴게소에서 영업 중인 S-OIL 주유소/신영균 기자\" src=\"https://cdn.todayenergy.kr/news/photo/202611/305564_178732_210.jpg\" />\r\n고속도로 휴게소에서 영업 중인 S-OIL 주유소/신영균 기자\r\n\r\n\r\n\r\n이날 정부는 &#39;석유제품 최고 가격제&#39; 시행에 따른 정유사 손실 보전액을 원가 기준으로 산정한다는 방침을 고수했다. 양기욱 산업통상부 산업자원안보실장은 13일 &quot;이미 지난 3월 원가 기준으로 산정한다고 명시했다&quot;며 &quot;정유사가 주장하는 싱가포르 국제가격 기준으로 정산한다면 국내에서 최고 가격제를 시행하고 국가가 이에 대한 손실을 보전해주는 의미가 있는 것인지 되돌아볼 수 밖에 없다&quot;고 밝혔다. 이어 &quot;석유제품 최고 가격제를 시행한 지난 3월 13일부터 6월 30일까지 1차 손실 보전 규모에 대해서는 현재까지 검토한 자료를 기준으로 볼 때 편성 예산&nbsp;내에서 충분히 감당할 수 있다&quot;고 덧붙였다.\r\n\r\n특히 양 실장은 정유업계가 올해 1&sim;3분기 수출을 통해 조 단위 영업이익을 달성한 상황에서 국내 판매분까지 국제 가격과 똑같이 적용해 보전해 준다면 최고 가격제 시행 목적과 맞지 않는 점을 강조했다. 이는 정유사에 대한 손실 보전은 결국 국민 세금으로 충당하는 재정 지원인 만큼 원가 기준으로 판단해야 한다는 의미다.\r\n\r\n정부는 &#39;석유제품 최고 가격제&#39;를 6개월 시행 전제로 4조 2000억원을 책정했다. 최고 가격제가 올해 4분기까지 이어지는 것을 고려해 2027년도 예산안에도 1조 4000여억원을 편성했다. 정부는 이를 올해 연내 지급한다는 방침이다. 다만 SK에너지&middot;GS칼텍스&middot;S-OIL&middot;HD현대오일뱅크 등 정유사들이 이의 제기 시 이에 대한 지급 시기는 2027년으로 지연될 가능성을 배제할 수 없다."
+    },
+    {
+      "id": "bb2ad108-dccc-450d-9973-1388690a8a52",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "전력망 인력난 해소…전기산업연합회, 특성화고 원스톱 지원체계 구축",
+      "titleOriginal": null,
+      "summary": "대한전기산업연합회가 전력망 확충에 따른 전문 기능인력 부족 문제를 해결하기 위해 특성화고 학생 대상의 원스톱 인력양성 체계를 구축한다. 교육, 현장 훈련, 취업을 연계하여 전기산업계의 인력난을 해소하고 전력망 인프라 강화에 기여할 전망이다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-11-14T21:49:23.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71464",
+      "collectedAt": "2026-11-15T00:57:30.731Z",
+      "bodySnippet": "전력망 확충에 따른 전문 기능인력 수요가 늘어나는 가운데 전기산업계가 특성화고 학생을 대상으로 교육부터 현장훈련과 취업까지 연계하는 인력양성 체계 구축에 나섰다. 대한전기산업연합회는 한국전기공사협회·수원공업고등학교·안양공"
+    },
+    {
+      "id": "45e7ca38-1532-4c58-ab14-fefc14ffc8ed",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "핵심광물 공급망 불안 대응…광해광업공단, 산업계 인력양성 확대",
+      "titleOriginal": null,
+      "summary": "한국광해광업공단이 글로벌 핵심광물 공급망 불안에 대응하기 위해 관련 기업을 대상으로 인력양성 세미나를 개최했다. 이번 교육은 배터리 산업과 핵심광물에 대한 전문지식을 공유하고 기업들의 공급망 대응 역량을 강화하는 데 목적이 있다.",
+      "topics": [
+        "에너지원",
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-14T21:47:19.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71463",
+      "collectedAt": "2026-11-15T00:57:32.751Z",
+      "bodySnippet": "광해광업공단이 글로벌 핵심광물 공급망 불안에 대응하기 위해 우리 산업계 전문인력 양성에 나섰다. 한국광해광업공단(사장 황영식)은 배터리 산업과 핵심광물을 주제로 산업계 전문지식을 공유하는 한편 핵심광물 공급망 대응 역량을 높이기 위해 지난 13일 해외자원산업협회(서울 강남구 소재)에서 핵심광물 관련 기업을 대상으로 한 인력양성 세미나를 개최했다."
+    },
+    {
+      "id": "6b2a3776-e2a4-4deb-a9cf-bae072344175",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "한전KDN, 디지털 소통과 AI 브랜드 경쟁력 인정받아 4관왕",
+      "titleOriginal": null,
+      "summary": "한전KDN이 제19회 대한민국소통어워즈 및 2026 대한민국 AI 브랜드대상에서 4관왕을 차지하며 디지털 소통과 AI 분야의 경쟁력을 입증했다. 이번 수상은 한전KDN이 전력 ICT 전문 공기업으로서 추진해 온 디지털 전환과 대외 소통 강화 노력을 인정받은 결과다.",
+      "topics": [
+        "전력 인프라"
+      ],
+      "primaryTopic": "전력 인프라",
+      "publishedAt": "2026-11-14T21:14:59.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71461",
+      "collectedAt": "2026-11-15T00:57:40.793Z",
+      "bodySnippet": "한전KDN(주)(사장 박상형)이 디지털 소통과 AI 브랜드 경쟁력을 인정받아 지난 13일 프레스센터(서울 중구 소재)에서 열린 ‘제19회 대한민국소통어워즈’와 ‘2026 대한민국 AI 브랜드대상’에서 대한민국종합소통대상·대한민국CEO대상·대한민국소셜미디어대상·대한민국AI브랜드대상 등을 수상하는 등 4관왕에 올랐다."
+    },
+    {
+      "id": "2ae28b20-8373-49a6-93c4-89014d806d94",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "석유 최고가격 또 동결…정부 민생안정 기조 유지",
+      "titleOriginal": null,
+      "summary": "산업통상부가 중동 정세 불안과 운송비 부담을 고려해 제12차 석유 최고가격을 기존 수준으로 동결했다. 이번 조치는 국제유가 하락세에도 불구하고 민생안정을 위한 가격안정 기조를 유지하기 위해 14일부터 4주간 시행된다.",
+      "topics": [
+        "시장·가격 동향"
+      ],
+      "primaryTopic": "시장·가격 동향",
+      "publishedAt": "2026-11-14T21:02:06.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71460",
+      "collectedAt": "2026-11-15T00:57:44.661Z",
+      "bodySnippet": "석유 최고가격이 다시 동결했다. 국제유가가 최근 하락하고 있으나 중동지역 불안이 이어지고 운송비 부담도 여전히 높은 만큼 민생안정을 위한 가격안정 기조를 유지하기로 한 것이다. 산업통상부(장관 김정관)는 14일부터 4주간 적용되는 제12차 석유 최고가격을 기존 제11차 수준으로 동결한다고 발표했다."
+    },
+    {
+      "id": "86b232d7-a9af-4e2d-852e-55021a4014e9",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "제3회 수력의 날 25일 개최…수력·양수발전 미래 전략 논의",
+      "titleOriginal": null,
+      "summary": "수력산업협회가 25일 제3회 수력의 날을 맞아 기념식과 미래 전략 세미나를 개최합니다. 이번 행사에서는 에너지 대전환 시대에 대응하기 위한 수력 및 양수발전의 발전 방향과 전략을 논의할 예정입니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-14T15:45:06.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71458",
+      "collectedAt": "2026-11-15T00:57:58.717Z",
+      "bodySnippet": "에너지 대전환 시대를 맞아 수력‧양수발전의 미래 전략을 논의하는 자리가 마련됩니다. 오는 25일 수력산업협회는 제3회 수력의 날을 맞아 기념식과 수력산업 미래 전략 세미나를 개최합니다."
+    },
+    {
+      "id": "d8e6d44d-e762-436b-9667-384a08296829",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "제3회 수력의 날…25일 수력·양수발전 미래 전략 모색",
+      "titleOriginal": null,
+      "summary": "한국수력산업협회는 오는 25일 제3회 수력의 날을 맞아 산·학·연 관계자 230여 명이 참석하는 기념식 및 미래 전략 세미나를 개최한다. 이번 행사에서는 변화하는 전력산업 환경에 대응하기 위한 수력 및 양수발전의 발전 방향과 미래 전략을 논의할 예정이다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-14T14:34:56.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71457",
+      "collectedAt": "2026-11-15T00:57:59.457Z",
+      "bodySnippet": "전력산업 환경변화에 대응하기 위한 수력·양수발전 미래전략을 논의하는 자리가 마련된다. 한국수력산업협회(회장 김회천)는 제3회 수력의 날을 맞아 오는 25일 호텔나루 서울 앰갤러리(서울 마포구 소재)에서 수력 분야 산·학·연 관계자 230여 명이 참석한 가운데 ‘제3회 수력의 날 기념식 / 수력산업 미래 전략 세미나’를 개최한다."
+    },
+    {
+      "id": "49b31f7f-9542-48f6-8c08-5b01318f14cf",
+      "source": "에너지타임즈",
+      "sourceId": "energytimes",
+      "sourceOrigin": "domestic",
+      "originalLang": "ko",
+      "isTranslated": false,
+      "title": "가스·석유공사 통합 LNG물량 그대로…발전공기업 구매기능 일원화 해법",
+      "titleOriginal": null,
+      "summary": "가스공사와 석유공사 통합보다 발전공기업의 LNG 구매 기능을 가스공사로 일원화하는 것이 구매 협상력 강화에 더 효과적이라는 주장이 제기되었습니다. 이는 정부의 공공기관 통합 추진 명분에 대한 반박으로, 실효성 있는 에너지 공기업 운영 대안을 제시하고 있습니다.",
+      "topics": [],
+      "primaryTopic": null,
+      "publishedAt": "2026-11-14T12:50:00.000Z",
+      "originalUrl": "http://www.energytimes.kr/news/articleView.html?idxno=71456",
+      "collectedAt": "2026-11-15T00:58:03.798Z",
+      "bodySnippet": "가스공사와 석유공사를 통합하는 것보다 발전공기업 LNG 구매기능을 가스공사로 일원화하는 것이 구매 협상력 강화에 더 효과적이고 실효적이란 주장이 나왔습니다. 정부가 통합 명분으로 내세운 구매 협상력 강화를 정면으로 반박한 것입니다. 지난 12일 열린 가스학회 가을학술대회에서 이성직 가스공사노조 정책국장은 가스공사와 석유공사 통합에 대한 분석과 함께 대안을 제시했습니다."
     }
   ]
 }
