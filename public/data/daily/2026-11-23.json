@@ -1,7 +1,7 @@
 {
   "date": "2026-11-23",
-  "generatedAt": "2026-11-24T05:36:30.377Z",
-  "articleCount": 104,
+  "generatedAt": "2026-11-25T04:18:35.447Z",
+  "articleCount": 106,
   "articles": [
     {
       "id": "c328ec18-1650-46b8-954f-bf0ce8b82ae6",
@@ -2012,6 +2012,45 @@
       "originalUrl": "https://www.ekn.kr/web/view.php?key=20261123024282530",
       "collectedAt": "2026-11-24T05:35:59.603Z",
       "bodySnippet": "MIT, 데이터센터 오염과 건강 피해 분석\n2023년 미국 전체 발전량의 3.81% 소비\n발전소 주변, 풍하지역에서 건강 피해 커 ▲미국 캘리포니아주 버넌에서 건설 중인 49.5메가와트(MW) 규모의 3층짜리 데이터 센터. 인공지능(AI) 인프라에 대한 수요가 급증하면서 미국 전역에서 데이터 센터 건설 붐이 일고 있다. (사진=AFP/연합뉴스) 인공지능(AI) 산업의 급성장을 뒷받침하는 데이터센터가 상당한 대기오염과 공중보건 피해를 유발한다는 연구 결과가 나왔다. 데이터센터의 전력 수요를 충당하기 위해 화석연료 발전소 가동이 늘어나면서 초미세먼지와 오존 농도가 높아지고, 이로 인해 미국에서는 연간 650명이 조기 사망하는 것으로 추정됐다. 특히 데이터센터가 밀집한 지역과 대기오염으로 인한 건강 피해가 집중되는 지역이 서로 다르다는 점이 주목된다. 데이터센터가 거의 없는 지역 주민들도 전력 생산 과정에서 배출된 오염물질에 노출되기 때문이다. 미국 매사추세츠공대(MIT)와 예일대, 캘리포니아대 어바인 캠퍼스 공동 연구진은 최근 국제학술지 '환경연구 회보 (Environmental Research Letters)'에 발표한 논문에서 이같이 밝혔다. 연구진은 데이터센터 전력 수요가 존재하는 경우와 이를 제거한 경우를 각각 가정해 발전소별 발전량과 대기오염물질 배출량의 차이를 계산했다. 또 오염물질 추가 배출로 인한 초미세먼지와 오존 농도 상승을 추정하고, 이를 인구 노출 및 건강영향 자료와 결합해 데이터센터 전력 수요 증가로 인한 연간 조기 사망자를 추정했다. ▲2023년 미국 데이터센터 전력 수요에 기인한 연평균 대기질 변화. (a) 지표면 PM2.5 농도 변화. (b) 지표면 O3 농도 변화. (자료=Environmnetal Research Letters, 2026) ◇ 데이터센터 전력 수요가 발전소 배출 늘려 연구진에 따르면 2023년 미국 데이터센터의 전력 소비량은 171TWh(테라와트시, 1TWh=10억 kWh)로 전체 발전량의 3.81%를 차지했다. 이 전력을 생산하는 과정에서 이산화탄소(CO₂) 1억350만 톤, 질소산화물(NOx) 6만1400 톤, 황산화물(SO₂) 3만9100 톤이 추가 배출된 것으로 추정됐다. 이는 미국 발전 부문 전체 배출량의 각각 6.69%, 7.32%, 5.63%에 해당한다. 발전소에서 배출된 질소산화물과 황산화물은 대기 중에서 화학반응을 일으켜 2차적인 초미세먼지(PM2.5)를 생성한다. 질소산화물은 햇빛과 기온 등 기상 조건에 따라 지표 오존(O₃) 농도에도 영향을 미친다. 연구진의 모델링 결과, 데이터센터 전력 수요로 인해 미국 대부분 지역의 연평균 초미세먼지 농도가 ㎥당 0.02~0.08㎍(마이크로그램, 1㎍=100만분의 1g) 상승했다. 일부 지역에서는 0.2㎍/㎥에 가까운 증가가 나타났다. 특히 석탄발전소 배출물과 농업 지역의 암모니아가 결합하는 미국 중서부에서 2차 미세먼지 형성이 두드러졌다. ▲주(州)별 데이터 센터 전력 수요와 그에 기인한 발전량 간의 관계.  (자료=Environmental  Research Letters, 2026) ◇ 데이터센터 없는 지역 주민도 건강 피해 연구진은 대기오염 농도 변화와 인구 분포, 역학적 농도-반응 함수를 결합해 건강 영향을 추정했다. 그 결과 데이터센터 전력 수요로 인한 대기오염으로 미국에서 연간 650명(95% 신뢰구간에서 559~740명)이 조기 사망하는 것으로 추정됐다. 오염물질별로는 초미세먼지로 인한 조기 사망이 513명, 지표 오존으로 인한 사망이 137명이었다. 주목할 점은 데이터센터의 전력 소비가 가장 많은 버지니아주(33.9TWh)와 텍사스주(21.8TWh)가 반드시 건강 피해가 가장 큰 지역은 아니라는 것이다. 전력망을 통해 다른 지역 발전소에서 전력을 공급하고, 발전소 배출물질이 바람을 타고 수백㎞ 이동하기 때문이다. 데이터센터가 거의 없는 네브래스카주에서는 인구 100만 명당 연간 6.5명의 조기 사망이 추정됐다. 아이오와 등 중서부 지역도 상당한 피해를 입는 것으로 분석됐다. 데이터센터의 전력 소비로 발생한 환경 부담이 발전소 주변과 풍하(風下) 지역, 즉 바람이 불어가는 방향 지역 주민에게 전가되는 셈이다. ▲데이터센터에 전력을 공급하는 과정에서 발전소에서 오염물질을 배출하고, 이로 인해 대기오염이 악화하는 것으로 보고됐다. (사진=인공지능 생성 이미지) ◇ 한국도 전력 공급의 환경 비용 따져야 이번 연구는 AI 산업의 성장에 따른 환경 비용을 평가할 때는 전력 소비량과 온실가스 배출량뿐 아니라 발전소의 위치, 대기오염물질의 이동 경로, 주민 건강 피해까지 함께 고려해야 함을 강조한다. 미국 전력망을 대상으로 했지만 핵심 메커니즘은 한국에도 시사점을 준다. 한국은 데이터센터와 정보통신기술 산업의 전력 수요가 수도권에 집중되는 반면, 대규모 석탄화력발전소는 충남·강원·경북 등 여러 지방에 분포해 있다. 서울 등 수도권 데이터센터의 전력 소비가 늘어나면 발전소 가동과 대기오염 배출이 다른 지역에서 증가할 수 있다. 석탄을 액화천연가스(LNG)로 대체하면 황산화물과 직접 먼지 배출을 줄일 수 있지만, 질소산화물에 따른 오존과 2차 미세먼지 문제까지 사라지는 것은 아니다. 원자력과 재생에너지는 발전 과정의 대기오염을 줄이는 대안이 될 수 있지만 송전망 확충, 전력 공급 안정성, 입지 갈등 등은 별도로 해결해야 한다. 데이터센터 자체의 비상용 디젤 발전기 배출도 고려 대상이다. <"
+    },
+    {
+      "id": "dc0ae9d7-2dbe-4833-961d-3098618b7046",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "미 법무부, 넥스트에라-도미니언 반독점 조사 종결… 주 단위 청문회는 지속",
+      "titleOriginal": "DOJ closes NextEra-Dominion antitrust probe as state hearings continue",
+      "summary": "미 법무부(DOJ)는 넥스트에라와 도미니언이 발전소 폐쇄 계획에 대해 ISO-NE의 시장 감시기관 조사를 수용하기로 합의함에 따라 반독점 조사를 종료했습니다. 한편, 버지니아주에서는 해당 유틸리티 기업 경영진을 대상으로 고객 혜택을 보장하고 정량화하는 방안에 대한 청문회가 계속되고 있습니다.",
+      "topics": [
+        "에너지원",
+        "정책·규제"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-23T16:27:12.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/doj-closes-nextera-dominion-antitrust-probe-as-state-hearings-continue/875489/",
+      "collectedAt": "2026-11-25T04:07:04.804Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/kRJRBKOHf7vbDoGj1nccR2CTLUpK3HH1S8hQGl07E20/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNjMyMDA1OTU0LmpwZw==.webp\"/></div></figure><p>The decision followed a promise by the utilities to allow ISO-NE&rsquo;s internal market monitor to investigate proposed plant retirements. Separately, executives were pressed during hearings in Virginia on how to quantify and ensure customer benefits.</p>"
+    },
+    {
+      "id": "47445cf7-33b6-4eef-b2f9-96b7f2b3cf72",
+      "source": "Utility Dive",
+      "sourceId": "utility-dive",
+      "sourceOrigin": "global",
+      "originalLang": "en",
+      "isTranslated": true,
+      "title": "마이애미-데이드 카운티, 2억 5,100만 달러 규모의 전기버스 시설 개장",
+      "titleOriginal": "$251M electric bus facility opens in Miami-Dade County",
+      "summary": "마이애미-데이드 카운티는 2억 5,100만 달러를 투입하여 새로운 전기버스 시설을 개장했습니다. 해당 시설은 리튬 이온 배터리의 화재 위험을 고려해 단열 설계를 적용하여 안전성을 강화했습니다.",
+      "topics": [
+        "에너지원"
+      ],
+      "primaryTopic": "에너지원",
+      "publishedAt": "2026-11-23T16:12:00.000Z",
+      "originalUrl": "https://www.utilitydive.com/news/miami-dade-transit-operations-center-electric-bus-facility/875590/",
+      "collectedAt": "2026-11-25T04:07:08.370Z",
+      "bodySnippet": "<figure><div><img src=\"https://imgproxy.divecdn.com/9dCBWOKKVlLICkMY0VoAneuNXU6DYqqaOkTFD96U7TE/g:nowe:0:260/c:2000:1129/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9CdXNfTWFpbnRlbmFuY2VfQmF5LmpwZWc=.webp\"/></div></figure><p>Because lithium-ion batteries can pose a fire hazard, the structure will be heat-insulated to prevent damage should a fire erupt.</p>"
     }
   ]
 }
